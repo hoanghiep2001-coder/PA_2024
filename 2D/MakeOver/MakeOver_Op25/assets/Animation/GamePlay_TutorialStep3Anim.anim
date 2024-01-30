@@ -1,0 +1,101 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "GamePlay_TutorialStep3Anim",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "Tools/Overlay": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 150
+            }
+          ]
+        }
+      },
+      "UI/Text_CleanFace": {
+        "props": {
+          "opacity": [],
+          "angle": [],
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "UI/hand": {
+        "props": {
+          "opacity": []
+        }
+      },
+      "Tools/Spine_CleanHair": {
+        "comps": {},
+        "props": {
+          "opacity": []
+        }
+      },
+      "UI/Text_CleanHair": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "Tools/Spine_Sponge": {
+        "props": {
+          "opacity": []
+        }
+      },
+      "UI/Use A Face Mask": {
+        "props": {
+          "opacity": [],
+          "angle": []
+        }
+      },
+      "UI/CTA": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "UI/CTA/hand": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1,
+              "value": 0
+            },
+            {
+              "frame": 1.5,
+              "value": 255
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}
