@@ -1,0 +1,1175 @@
+debug: Tue, 30 Jan 2024 06:15:55 GMT
+debug: Project: D:\PA_2024\3D\MergeDino\MergeDino_Op9
+debug: Targets: editor,preview
+debug: Incremental file seems great.
+debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.4.2\resources\resources\3d\engine
+debug: Initializing target [Editor]
+debug: Loading cache
+debug: Module record file loaded failed with error: TypeError: Cannot read property 'resolvedImports' of null
+debug: Loading cache costs 4.427400052547455ms.
+debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette
+debug: Initializing target [Preview]
+debug: Loading cache
+debug: Module record file loaded failed with error: TypeError: Cannot read property 'resolvedImports' of null
+debug: Loading cache costs 2.228599965572357ms.
+debug: Sync engine features: 2d,3d,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,marionette,particle,physics-cannon,primitive,profiler,spine,terrain,tiled-map,tween,ui,webview
+debug: Pulling asset-db.
+debug: Fetch asset-db cost: 10.487500011920929ms.
+debug: Build iteration starts.
+Number of accumulated asset changes: 9
+Feature changed: false
+debug: Target(editor) build started.
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as cce:/internal/x/cc.
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts as cce:/internal/x/cc.
+debug: Resolve ./CharacterControl from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Target(editor) ends with cost 706.313000023365ms.
+debug: Target(preview) build started.
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+debug: Resolve cce:/internal/x/cc-fu/physics-cannon from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-cannon.
+debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as cce:/internal/x/cc.
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts as cce:/internal/x/cc.
+debug: Resolve ./CharacterControl from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve ./AudioManager from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Target(preview) ends with cost 648.643700003624ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:43:26 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 50.77820003032684ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:43:27 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 62.37279999256134ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:43:26 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:49:38 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts. Last mtime: Tue Jan 30 2024 13:59:16 GMT+0700 (Indochina Time)@c38f3dbd-10dd-43f5-8a4b-75f0be776d73, Current mtime: Tue Jan 30 2024 13:59:37 GMT+0700 (Indochina Time)@c38f3dbd-10dd-43f5-8a4b-75f0be776d73
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 37.54730004072189ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:43:27 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:49:38 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts. Last mtime: Tue Jan 30 2024 13:59:16 GMT+0700 (Indochina Time)@c38f3dbd-10dd-43f5-8a4b-75f0be776d73, Current mtime: Tue Jan 30 2024 13:59:37 GMT+0700 (Indochina Time)@c38f3dbd-10dd-43f5-8a4b-75f0be776d73
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 45.10390001535416ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:49:38 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:50:21 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts. Last mtime: Fri Oct 13 2023 10:47:00 GMT+0700 (Indochina Time)@51538585-730d-4fe9-b6a8-c8135576ab86, Current mtime: Tue Jan 30 2024 14:05:55 GMT+0700 (Indochina Time)@51538585-730d-4fe9-b6a8-c8135576ab86
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as cce:/internal/x/cc.
+debug: Resolve ./CharacterControl from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Target(editor) ends with cost 81.22689998149872ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:49:38 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:50:21 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts. Last mtime: Fri Oct 13 2023 10:47:00 GMT+0700 (Indochina Time)@51538585-730d-4fe9-b6a8-c8135576ab86, Current mtime: Tue Jan 30 2024 14:05:55 GMT+0700 (Indochina Time)@51538585-730d-4fe9-b6a8-c8135576ab86
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as cce:/internal/x/cc.
+debug: Resolve ./CharacterControl from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Target(preview) ends with cost 80.30970001220703ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:50:21 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:58:36 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts. Last mtime: Tue Jan 30 2024 13:59:37 GMT+0700 (Indochina Time)@c38f3dbd-10dd-43f5-8a4b-75f0be776d73, Current mtime: Tue Jan 30 2024 14:13:41 GMT+0700 (Indochina Time)@c38f3dbd-10dd-43f5-8a4b-75f0be776d73
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 56.20440000295639ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:50:21 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:58:36 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts. Last mtime: Tue Jan 30 2024 13:59:37 GMT+0700 (Indochina Time)@c38f3dbd-10dd-43f5-8a4b-75f0be776d73, Current mtime: Tue Jan 30 2024 14:13:41 GMT+0700 (Indochina Time)@c38f3dbd-10dd-43f5-8a4b-75f0be776d73
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 61.09729999303818ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:58:36 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:54:44 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts. Last mtime: Tue Jan 30 2024 14:13:41 GMT+0700 (Indochina Time)@c38f3dbd-10dd-43f5-8a4b-75f0be776d73, Current mtime: Tue Jan 30 2024 15:10:32 GMT+0700 (Indochina Time)@c38f3dbd-10dd-43f5-8a4b-75f0be776d73
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 5274.358099997044ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:58:36 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:54:49 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts. Last mtime: Tue Jan 30 2024 14:13:41 GMT+0700 (Indochina Time)@c38f3dbd-10dd-43f5-8a4b-75f0be776d73, Current mtime: Tue Jan 30 2024 15:10:32 GMT+0700 (Indochina Time)@c38f3dbd-10dd-43f5-8a4b-75f0be776d73
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 53.71199995279312ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:54:44 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:55:20 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts. Last mtime: Tue Jan 30 2024 15:10:32 GMT+0700 (Indochina Time)@c38f3dbd-10dd-43f5-8a4b-75f0be776d73, Current mtime: Tue Jan 30 2024 15:10:56 GMT+0700 (Indochina Time)@c38f3dbd-10dd-43f5-8a4b-75f0be776d73
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 999.4229999780655ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:54:49 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 09:55:21 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts. Last mtime: Tue Jan 30 2024 15:10:32 GMT+0700 (Indochina Time)@c38f3dbd-10dd-43f5-8a4b-75f0be776d73, Current mtime: Tue Jan 30 2024 15:10:56 GMT+0700 (Indochina Time)@c38f3dbd-10dd-43f5-8a4b-75f0be776d73
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 62.42429995536804ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:55:20 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:14:16 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts. Last mtime: Fri Oct 13 2023 10:05:07 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280, Current mtime: Tue Jan 30 2024 15:30:03 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 80.60369998216629ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:55:21 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:14:16 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts. Last mtime: Fri Oct 13 2023 10:05:07 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280, Current mtime: Tue Jan 30 2024 15:30:03 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 65.15680003166199ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:14:16 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:15:07 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts. Last mtime: Tue Jan 30 2024 15:30:03 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280, Current mtime: Tue Jan 30 2024 15:30:55 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 91.40889996290207ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:14:16 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:15:07 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts. Last mtime: Tue Jan 30 2024 15:30:03 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280, Current mtime: Tue Jan 30 2024 15:30:55 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 63.813300013542175ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:15:07 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:32:40 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts. Last mtime: Tue Jan 30 2024 14:05:55 GMT+0700 (Indochina Time)@51538585-730d-4fe9-b6a8-c8135576ab86, Current mtime: Tue Jan 30 2024 15:48:28 GMT+0700 (Indochina Time)@51538585-730d-4fe9-b6a8-c8135576ab86
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 104.25069999694824ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:15:07 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:32:40 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts. Last mtime: Tue Jan 30 2024 14:05:55 GMT+0700 (Indochina Time)@51538585-730d-4fe9-b6a8-c8135576ab86, Current mtime: Tue Jan 30 2024 15:48:28 GMT+0700 (Indochina Time)@51538585-730d-4fe9-b6a8-c8135576ab86
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 73.8082999587059ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:32:40 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:37:23 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts. Last mtime: Tue Jan 30 2024 09:58:16 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Tue Jan 30 2024 15:53:09 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 77.69190001487732ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:32:40 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:37:23 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts. Last mtime: Tue Jan 30 2024 09:58:16 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Tue Jan 30 2024 15:53:09 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 79.92840003967285ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:37:23 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:41:09 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts. Last mtime: Tue Jan 30 2024 15:53:09 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Tue Jan 30 2024 15:56:55 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 61.567399978637695ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:37:23 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:41:09 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts. Last mtime: Tue Jan 30 2024 15:53:09 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Tue Jan 30 2024 15:56:55 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 79.21009999513626ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:41:09 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:41:35 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts. Last mtime: Tue Jan 30 2024 15:56:55 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Tue Jan 30 2024 15:57:23 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 67.79589998722076ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:41:09 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:41:35 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts. Last mtime: Tue Jan 30 2024 15:56:55 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Tue Jan 30 2024 15:57:23 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 67.60270005464554ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:41:35 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:42:53 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts. Last mtime: Tue Jan 30 2024 15:57:23 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Tue Jan 30 2024 15:58:41 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 63.77649998664856ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:41:35 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:42:53 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts. Last mtime: Tue Jan 30 2024 15:57:23 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Tue Jan 30 2024 15:58:41 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 61.810000002384186ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:42:53 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:43:30 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts. Last mtime: Tue Jan 30 2024 15:58:41 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Tue Jan 30 2024 15:59:16 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 67.25900000333786ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:42:53 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 10:43:30 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts. Last mtime: Tue Jan 30 2024 15:58:41 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b, Current mtime: Tue Jan 30 2024 15:59:16 GMT+0700 (Indochina Time)@d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 80.41920000314713ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:43:30 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:28:09 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts. Last mtime: Tue Jan 30 2024 15:30:55 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280, Current mtime: Tue Jan 30 2024 16:43:49 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 114.97350001335144ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:43:30 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:28:09 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts. Last mtime: Tue Jan 30 2024 15:30:55 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280, Current mtime: Tue Jan 30 2024 16:43:49 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 92.28369998931885ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:28:09 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:45:40 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts. Last mtime: Tue Jan 30 2024 16:43:49 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280, Current mtime: Tue Jan 30 2024 17:01:28 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 101.60589998960495ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:28:09 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:45:40 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts. Last mtime: Tue Jan 30 2024 16:43:49 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280, Current mtime: Tue Jan 30 2024 17:01:28 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 81.67599999904633ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:45:40 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:46:21 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts. Last mtime: Tue Jan 30 2024 17:01:28 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280, Current mtime: Tue Jan 30 2024 17:02:03 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 68.1791000366211ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:45:40 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:46:21 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts. Last mtime: Tue Jan 30 2024 17:01:28 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280, Current mtime: Tue Jan 30 2024 17:02:03 GMT+0700 (Indochina Time)@7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 81.28500002622604ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:46:21 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:48:59 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts. Last mtime: Tue Jan 30 2024 10:08:40 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b, Current mtime: Tue Jan 30 2024 17:04:46 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 69.64069998264313ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:46:21 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:48:59 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts. Last mtime: Tue Jan 30 2024 10:08:40 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b, Current mtime: Tue Jan 30 2024 17:04:46 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 72.28960001468658ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:48:59 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:50:10 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts. Last mtime: Tue Jan 30 2024 17:04:46 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b, Current mtime: Tue Jan 30 2024 17:05:58 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 97.49649995565414ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:48:59 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:50:10 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts. Last mtime: Tue Jan 30 2024 17:04:46 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b, Current mtime: Tue Jan 30 2024 17:05:58 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 85.32459998130798ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:50:10 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:55:18 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts. Last mtime: Tue Jan 30 2024 17:05:58 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b, Current mtime: Tue Jan 30 2024 17:11:06 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 75.46780002117157ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:50:10 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:55:18 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts. Last mtime: Tue Jan 30 2024 17:05:58 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b, Current mtime: Tue Jan 30 2024 17:11:06 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 83.18409997224808ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:55:18 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:58:11 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts. Last mtime: Tue Jan 30 2024 17:11:06 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b, Current mtime: Tue Jan 30 2024 17:13:59 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 74.94329994916916ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:55:18 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 11:58:11 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts. Last mtime: Tue Jan 30 2024 17:11:06 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b, Current mtime: Tue Jan 30 2024 17:13:59 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 72.14219999313354ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:58:11 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 12:01:45 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts. Last mtime: Tue Jan 30 2024 09:36:27 GMT+0700 (Indochina Time)@003cfefe-2225-4de7-bc86-7bcf4bf104ad, Current mtime: Tue Jan 30 2024 17:16:40 GMT+0700 (Indochina Time)@003cfefe-2225-4de7-bc86-7bcf4bf104ad
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 40.59589999914169ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:58:11 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 12:01:45 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts. Last mtime: Tue Jan 30 2024 09:36:27 GMT+0700 (Indochina Time)@003cfefe-2225-4de7-bc86-7bcf4bf104ad, Current mtime: Tue Jan 30 2024 17:16:40 GMT+0700 (Indochina Time)@003cfefe-2225-4de7-bc86-7bcf4bf104ad
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 54.69150000810623ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:01:45 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 12:01:53 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts.
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 48.383700013160706ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:01:45 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 12:01:53 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts.
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 39.014800012111664ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:01:53 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 12:12:12 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts. Last mtime: Tue Jan 30 2024 17:16:40 GMT+0700 (Indochina Time)@003cfefe-2225-4de7-bc86-7bcf4bf104ad, Current mtime: Tue Jan 30 2024 17:20:21 GMT+0700 (Indochina Time)@003cfefe-2225-4de7-bc86-7bcf4bf104ad
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts. Last mtime: Tue Jan 30 2024 17:17:42 GMT+0700 (Indochina Time)@3b82aa2d-e03d-467c-8b54-78b515fc355b, Current mtime: Tue Jan 30 2024 17:19:58 GMT+0700 (Indochina Time)@3b82aa2d-e03d-467c-8b54-78b515fc355b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 51.79439997673035ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:01:53 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 12:12:12 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts. Last mtime: Tue Jan 30 2024 17:16:40 GMT+0700 (Indochina Time)@003cfefe-2225-4de7-bc86-7bcf4bf104ad, Current mtime: Tue Jan 30 2024 17:20:21 GMT+0700 (Indochina Time)@003cfefe-2225-4de7-bc86-7bcf4bf104ad
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts. Last mtime: Tue Jan 30 2024 17:17:42 GMT+0700 (Indochina Time)@3b82aa2d-e03d-467c-8b54-78b515fc355b, Current mtime: Tue Jan 30 2024 17:19:58 GMT+0700 (Indochina Time)@3b82aa2d-e03d-467c-8b54-78b515fc355b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 59.50510001182556ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:12:12 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 12:13:38 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts. Last mtime: Tue Jan 30 2024 17:13:59 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b, Current mtime: Tue Jan 30 2024 17:29:23 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Target(editor) ends with cost 4921.800400018692ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:12:12 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 12:13:43 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts.
+debug: Detected change: file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts. Last mtime: Tue Jan 30 2024 17:13:59 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b, Current mtime: Tue Jan 30 2024 17:29:23 GMT+0700 (Indochina Time)@6c960960-d0d4-46ba-9a72-c0e274c1640b
+debug: Inspect file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as cce:/internal/x/cc.
+debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts as file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts.
+debug: Target(preview) ends with cost 62.94420003890991ms.
