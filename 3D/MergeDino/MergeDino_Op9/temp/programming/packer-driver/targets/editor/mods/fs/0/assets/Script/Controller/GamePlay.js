@@ -119,6 +119,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             }), CharacterControl) : CharacterControl).level.active = true;
             tween(this.NodesController.MainCharacter_1).to(0.5, {
               scale: new Vec3(0.004, 0.004, 0.004)
+            }).call(() => {
+              console.log("check");
             }).start();
           }, 2.5);
           this.scheduleOnce(() => {

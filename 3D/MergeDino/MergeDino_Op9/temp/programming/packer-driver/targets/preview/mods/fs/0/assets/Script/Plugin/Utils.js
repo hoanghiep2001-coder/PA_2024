@@ -67,7 +67,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       };
 
       mergeDinoStep1 = dino => {
-        tween(dino).to(0.35, {
+        tween(dino).to(0.4, {
           position: new Vec3(-1.1, -15.535, 9.208),
           scale: new Vec3(0, 0, 0)
         }).call(() => {

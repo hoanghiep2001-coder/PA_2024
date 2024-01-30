@@ -226,46 +226,12 @@
   },
   "assets/Script/Controller/NodesController.js": {
     "imports": {
-      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
       "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
       "__unresolved_1": "assets/Script/Data/Constant.js"
     },
     "physicalLocation": "fs/0/assets/Script/Controller/NodesController.js",
     "mTimestamp": 1706656250892
-  },
-  "assets/Script/Controller/GamePlay.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "__unresolved_1": "assets/Script/Controller/CharacterControl.js",
-      "__unresolved_2": "assets/Script/Controller/GameController.js",
-      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
-      "__unresolved_5": "assets/Script/Controller/NodesController.js",
-      "__unresolved_4": "assets/Script/Data/Constant.js",
-      "__unresolved_3": "assets/Script/Plugin/AudioManager.js",
-      "__unresolved_6": "assets/Script/Plugin/Utils.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/Controller/GamePlay.js",
-    "mTimestamp": 1706656507149
-  },
-  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
-    "imports": {
-      "__unresolved_1": "assets/Script/Controller/CharacterControl.js",
-      "__unresolved_0": "assets/Script/Controller/BossController.js",
-      "__unresolved_2": "assets/Script/Controller/GameController.js",
-      "__unresolved_3": "assets/Script/Controller/GamePlay.js",
-      "__unresolved_4": "assets/Script/Controller/NodesController.js",
-      "__unresolved_5": "assets/Script/Controller/RangerControl.js",
-      "__unresolved_6": "assets/Script/Controller/TouchAreaController.js",
-      "__unresolved_7": "assets/Script/Data/Constant.js",
-      "__unresolved_8": "assets/Script/Plugin/AudioManager.js",
-      "__unresolved_9": "assets/Script/Plugin/IronSource.js",
-      "__unresolved_10": "assets/Script/Plugin/Responsive.js",
-      "__unresolved_11": "assets/Script/Plugin/Utils.js"
-    },
-    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1706656530539,
-    "isEntry": true,
-    "exposeAs": "cce:/internal/x/prerequisite-imports"
   },
   "assets/Script/Plugin/Utils.js": {
     "imports": {
@@ -274,6 +240,40 @@
       "__unresolved_1": "assets/Script/Data/Constant.js"
     },
     "physicalLocation": "fs/0/assets/Script/Plugin/Utils.js",
-    "mTimestamp": 1706656530569
+    "mTimestamp": 1706656665911
+  },
+  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
+    "imports": {
+      "__unresolved_0": "assets/Script/Controller/BossController.js",
+      "__unresolved_1": "assets/Script/Controller/CharacterControl.js",
+      "__unresolved_2": "assets/Script/Controller/GameController.js",
+      "__unresolved_4": "assets/Script/Controller/NodesController.js",
+      "__unresolved_5": "assets/Script/Controller/RangerControl.js",
+      "__unresolved_6": "assets/Script/Controller/TouchAreaController.js",
+      "__unresolved_7": "assets/Script/Data/Constant.js",
+      "__unresolved_8": "assets/Script/Plugin/AudioManager.js",
+      "__unresolved_9": "assets/Script/Plugin/IronSource.js",
+      "__unresolved_10": "assets/Script/Plugin/Responsive.js",
+      "__unresolved_11": "assets/Script/Plugin/Utils.js",
+      "__unresolved_3": "assets/Script/Controller/GamePlay.js"
+    },
+    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
+    "mTimestamp": 1706656699348,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/prerequisite-imports"
+  },
+  "assets/Script/Controller/GamePlay.js": {
+    "imports": {
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/Script/Controller/CharacterControl.js",
+      "__unresolved_2": "assets/Script/Controller/GameController.js",
+      "__unresolved_3": "assets/Script/Plugin/AudioManager.js",
+      "__unresolved_4": "assets/Script/Data/Constant.js",
+      "__unresolved_5": "assets/Script/Controller/NodesController.js",
+      "__unresolved_6": "assets/Script/Plugin/Utils.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/Controller/GamePlay.js",
+    "mTimestamp": 1706656699412
   }
 }

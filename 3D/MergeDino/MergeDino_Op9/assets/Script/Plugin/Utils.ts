@@ -28,7 +28,7 @@ const checkMergeFirstStep = (): void => {
 
 const mergeDinoStep1 = (dino): void => {
     tween(dino)
-        .to(0.35, {
+        .to(0.4, {
             position: new Vec3(-1.1, -15.535, 9.208),
             scale: new Vec3(0, 0, 0)
         })
