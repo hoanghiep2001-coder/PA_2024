@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, BoxCollider, Component, ERigidBodyType, math, Node, RigidBody, SkeletalAnimation, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, CharacterControl;
+  var _cclegacy, _decorator, BoxCollider, Component, ERigidBodyType, math, Node, RigidBody, SkeletalAnimation, Vec3, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, CharacterControl;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -22,6 +22,7 @@ System.register(["cc"], function (_export, _context) {
       Node = _cc.Node;
       RigidBody = _cc.RigidBody;
       SkeletalAnimation = _cc.SkeletalAnimation;
+      Vec3 = _cc.Vec3;
     }],
     execute: function () {
       _crd = true;
@@ -55,6 +56,7 @@ System.register(["cc"], function (_export, _context) {
 
         start() {
           this.getComponent(SkeletalAnimation).play("Idle_2");
+          this.node.setScale(new Vec3(0, 0, 0));
           this.rigidbody = this.node.getComponent(RigidBody);
           this.collider = this.node.getComponent(BoxCollider);
           this.collider.on("onCollisionEnter", e => {

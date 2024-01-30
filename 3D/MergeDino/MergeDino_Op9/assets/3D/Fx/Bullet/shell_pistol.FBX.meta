@@ -28,6 +28,22 @@
       ],
       "subMetas": {}
     },
+    "52954": {
+      "importer": "gltf-scene",
+      "uuid": "0bd33302-675d-4e6a-82d7-5fe990ef3686@52954",
+      "displayName": "",
+      "id": "52954",
+      "name": "shell_pistol.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
     "2908e": {
       "importer": "gltf-mesh",
       "uuid": "0bd33302-675d-4e6a-82d7-5fe990ef3686@2908e",
@@ -77,22 +93,6 @@
         ".json"
       ],
       "subMetas": {}
-    },
-    "39cd7": {
-      "importer": "gltf-scene",
-      "uuid": "0bd33302-675d-4e6a-82d7-5fe990ef3686@39cd7",
-      "displayName": "",
-      "id": "39cd7",
-      "name": "shell_pistol.FBX.prefab",
-      "userData": {
-        "gltfIndex": 0
-      },
-      "ver": "1.0.12",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
     }
   },
   "userData": {
@@ -103,7 +103,7 @@
       }
     ],
     "legacyFbxImporter": false,
-    "redirect": "0bd33302-675d-4e6a-82d7-5fe990ef3686@39cd7",
+    "redirect": "0bd33302-675d-4e6a-82d7-5fe990ef3686@52954",
     "assetFinder": {
       "meshes": [
         "0bd33302-675d-4e6a-82d7-5fe990ef3686@2908e"
@@ -116,7 +116,7 @@
         "0bd33302-675d-4e6a-82d7-5fe990ef3686@6db00"
       ],
       "scenes": [
-        "0bd33302-675d-4e6a-82d7-5fe990ef3686@39cd7"
+        "0bd33302-675d-4e6a-82d7-5fe990ef3686@52954"
       ]
     }
   }

@@ -60,7 +60,17 @@ System.register(["cc"], function (_export, _context) {
 
       _defineProperty(Constants, "isTouching", false);
 
+      _defineProperty(Constants, "isDoneMergeStep1", false);
+
       _defineProperty(Constants, "step", 1);
+
+      _defineProperty(Constants, "point", null);
+
+      _defineProperty(Constants, "points_1", null);
+
+      _defineProperty(Constants, "dino_lines", null);
+
+      _defineProperty(Constants, "isMergeStep1States", [false, false, false, false, false, false, false, false]);
 
       _defineProperty(Constants, "Event", Event);
 

@@ -1,5 +1,5 @@
 
-import { _decorator, BoxCollider, Component, ERigidBodyType, ICollisionEvent, math, Node, RigidBody, SkeletalAnimation } from 'cc';
+import { _decorator, BoxCollider, Component, ERigidBodyType, ICollisionEvent, math, Node, RigidBody, SkeletalAnimation, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('CharacterControl')
@@ -22,7 +22,8 @@ export class CharacterControl extends Component {
 
 
     protected start(): void {
-        this.getComponent(SkeletalAnimation).play("Idle_2")
+        this.getComponent(SkeletalAnimation).play("Idle_2");
+        this.node.setScale(new Vec3(0,0,0));
 
         this.rigidbody = this.node.getComponent(RigidBody);
         this.collider = this.node.getComponent(BoxCollider)

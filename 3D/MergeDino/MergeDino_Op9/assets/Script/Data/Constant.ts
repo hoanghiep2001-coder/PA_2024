@@ -42,7 +42,15 @@ export class Constants {
     static isRotate = false;
     static toStore = false;
     static isTouching = false;
+    static isDoneMergeStep1: boolean = false;
+
     static step: number = 1;
+
+    
+    static point: Node = null;
+    static points_1: Node[] = null;
+    static dino_lines: Node[] = null;
+    static isMergeStep1States: boolean[] = [false, false, false, false, false, false, false, false];
 
     // event
     static Event = Event;

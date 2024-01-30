@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, Node, Vec3, Constants, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _temp, _crd, ccclass, property, TouchAreaController;
+  var _reporterNs, _cclegacy, _decorator, Component, Node, Vec3, Constants, Utils, NodesController, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, TouchAreaController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -15,6 +15,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
     _reporterNs.report("Constants", "../Data/Constant", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfUtils(extras) {
+    _reporterNs.report("Utils", "../Plugin/Utils", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfNodesController(extras) {
+    _reporterNs.report("NodesController", "./NodesController", _context.meta, extras);
+  }
+
   return {
     setters: [function (_unresolved_) {
       _reporterNs = _unresolved_;
@@ -26,6 +34,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       Vec3 = _cc.Vec3;
     }, function (_unresolved_2) {
       Constants = _unresolved_2.Constants;
+    }, function (_unresolved_3) {
+      Utils = _unresolved_3.Utils;
+    }, function (_unresolved_4) {
+      NodesController = _unresolved_4.NodesController;
     }],
     execute: function () {
       _crd = true;
@@ -37,15 +49,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         property
       } = _decorator);
 
-      _export("TouchAreaController", TouchAreaController = (_dec = ccclass("TouchAreaController"), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property([Node]), _dec(_class = (_class2 = (_temp = class TouchAreaController extends Component {
+      _export("TouchAreaController", TouchAreaController = (_dec = ccclass("TouchAreaController"), _dec2 = property(_crd && NodesController === void 0 ? (_reportPossibleCrUseOfNodesController({
+        error: Error()
+      }), NodesController) : NodesController), _dec(_class = (_class2 = (_temp = class TouchAreaController extends Component {
         constructor() {
           super(...arguments);
 
-          _initializerDefineProperty(this, "point", _descriptor, this);
-
-          _initializerDefineProperty(this, "hideMask", _descriptor2, this);
-
-          _initializerDefineProperty(this, "points_1", _descriptor3, this);
+          _initializerDefineProperty(this, "NodesController", _descriptor, this);
 
           _defineProperty(this, "pos", null);
         }
@@ -55,25 +65,38 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         registerEvent() {
-          this.hideMask.on(Node.EventType.TOUCH_START, this.touchMove, this);
-          this.hideMask.on(Node.EventType.TOUCH_MOVE, this.touchMove, this);
-          this.hideMask.on(Node.EventType.TOUCH_END, this.touchEnd, this);
-          this.hideMask.on(Node.EventType.TOUCH_CANCEL, this.touchEnd, this);
+          this.NodesController.hideMask.on(Node.EventType.TOUCH_START, this.touchStart, this);
+          this.NodesController.hideMask.on(Node.EventType.TOUCH_MOVE, this.touchMove, this);
+          this.NodesController.hideMask.on(Node.EventType.TOUCH_END, this.touchEnd, this);
+          this.NodesController.hideMask.on(Node.EventType.TOUCH_CANCEL, this.touchEnd, this);
         }
 
-        touchMove(event, stick) {
+        touchStart() {
           (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).isTouching = true;
+          this.NodesController.hint_1.active = false;
+        }
+
+        touchMove(event, stick) {
           var screenPos = event.getUILocation();
           this.pos = this.convertToLocalLocation(screenPos);
-          this.point.setPosition(this.pos);
+          this.NodesController.point.setPosition(this.pos);
+          (_crd && Utils === void 0 ? (_reportPossibleCrUseOfUtils({
+            error: Error()
+          }), Utils) : Utils).TouchArea.checkMergeFirstStep();
         }
 
         touchEnd() {
           (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).isTouching = false;
+
+          if (!(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneMergeStep1) {
+            this.NodesController.init();
+          }
         }
 
         convertToLocalLocation(value) {
@@ -83,28 +106,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           return result;
         }
 
-        update(dt) {}
-
-      }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "point", [_dec2], {
+      }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "NodesController", [_dec2], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
-        }
-      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "hideMask", [_dec3], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return null;
-        }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "points_1", [_dec4], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return [];
         }
       })), _class2)) || _class));
 
