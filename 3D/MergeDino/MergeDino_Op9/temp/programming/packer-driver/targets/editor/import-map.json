@@ -57,12 +57,6 @@
       "cc": "./mods/cce/internal/x/cc.js",
       "__unresolved_1": "./mods/fs/0/assets/Script/Data/Constant.js"
     },
-    "./mods/fs/0/assets/Script/Controller/BossController.js": {
-      "cc": "./mods/cce/internal/x/cc.js"
-    },
-    "./mods/fs/0/assets/Script/Controller/RangerControl.js": {
-      "cc": "./mods/cce/internal/x/cc.js"
-    },
     "./mods/cce/internal/x/cc.js": {
       "__unresolved_0": "cce:/internal/x/cc-fu/base",
       "__unresolved_1": "cce:/internal/x/cc-fu/gfx-webgl",
@@ -86,8 +80,33 @@
       "__unresolved_19": "cce:/internal/x/cc-fu/spine",
       "__unresolved_20": "cce:/internal/x/cc-fu/dragon-bones"
     },
+    "./mods/fs/0/assets/Script/Controller/BossController.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "__unresolved_1": "./mods/fs/0/assets/Script/Data/Constant.js"
+    },
+    "./mods/fs/0/assets/Script/Controller/NodesController.js": {
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/Script/Data/Constant.js"
+    },
+    "./mods/fs/0/assets/Script/Plugin/Utils.js": {
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/Script/Data/Constant.js"
+    },
     "./mods/fs/0/assets/Script/Data/Constant.js": {
       "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/Script/Controller/GamePlay.js": {
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/Script/Controller/CharacterControl.js",
+      "__unresolved_2": "./mods/fs/0/assets/Script/Controller/GameController.js",
+      "__unresolved_5": "./mods/fs/0/assets/Script/Controller/NodesController.js",
+      "__unresolved_4": "./mods/fs/0/assets/Script/Data/Constant.js",
+      "__unresolved_3": "./mods/fs/0/assets/Script/Plugin/AudioManager.js",
+      "__unresolved_6": "./mods/fs/0/assets/Script/Plugin/Utils.js"
     },
     "./mods/fs/0/assets/Script/Controller/TouchAreaController.js": {
       "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
@@ -97,14 +116,6 @@
       "__unresolved_2": "./mods/fs/0/assets/Script/Plugin/Utils.js"
     },
     "./mods/fs/0/assets/Script/Controller/CharacterControl.js": {
-      "cc": "./mods/cce/internal/x/cc.js"
-    },
-    "./mods/fs/0/assets/Script/Controller/NodesController.js": {
-      "cc": "./mods/cce/internal/x/cc.js",
-      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
-      "__unresolved_1": "./mods/fs/0/assets/Script/Data/Constant.js"
-    },
-    "./mods/fs/0/assets/Script/Plugin/Utils.js": {
       "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
       "cc": "./mods/cce/internal/x/cc.js",
       "__unresolved_1": "./mods/fs/0/assets/Script/Data/Constant.js"
@@ -113,25 +124,20 @@
       "__unresolved_0": "./mods/fs/0/assets/Script/Controller/BossController.js",
       "__unresolved_1": "./mods/fs/0/assets/Script/Controller/CharacterControl.js",
       "__unresolved_2": "./mods/fs/0/assets/Script/Controller/GameController.js",
+      "__unresolved_3": "./mods/fs/0/assets/Script/Controller/GamePlay.js",
       "__unresolved_4": "./mods/fs/0/assets/Script/Controller/NodesController.js",
-      "__unresolved_5": "./mods/fs/0/assets/Script/Controller/RangerControl.js",
       "__unresolved_6": "./mods/fs/0/assets/Script/Controller/TouchAreaController.js",
       "__unresolved_7": "./mods/fs/0/assets/Script/Data/Constant.js",
       "__unresolved_8": "./mods/fs/0/assets/Script/Plugin/AudioManager.js",
       "__unresolved_9": "./mods/fs/0/assets/Script/Plugin/IronSource.js",
-      "__unresolved_10": "./mods/fs/0/assets/Script/Plugin/Responsive.js",
       "__unresolved_11": "./mods/fs/0/assets/Script/Plugin/Utils.js",
-      "__unresolved_3": "./mods/fs/0/assets/Script/Controller/GamePlay.js"
+      "__unresolved_10": "./mods/fs/0/assets/Script/Plugin/Responsive.js",
+      "__unresolved_5": "./mods/fs/0/assets/Script/Controller/RangerControl.js"
     },
-    "./mods/fs/0/assets/Script/Controller/GamePlay.js": {
+    "./mods/fs/0/assets/Script/Controller/RangerControl.js": {
       "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
       "cc": "./mods/cce/internal/x/cc.js",
-      "__unresolved_1": "./mods/fs/0/assets/Script/Controller/CharacterControl.js",
-      "__unresolved_2": "./mods/fs/0/assets/Script/Controller/GameController.js",
-      "__unresolved_3": "./mods/fs/0/assets/Script/Plugin/AudioManager.js",
-      "__unresolved_4": "./mods/fs/0/assets/Script/Data/Constant.js",
-      "__unresolved_5": "./mods/fs/0/assets/Script/Controller/NodesController.js",
-      "__unresolved_6": "./mods/fs/0/assets/Script/Plugin/Utils.js"
+      "__unresolved_1": "./mods/fs/0/assets/Script/Data/Constant.js"
     }
   }
 }

@@ -72,22 +72,70 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         }
 
         touchStart() {
+          if (!(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isCanTouch) {
+            return;
+          }
+
           (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).isTouching = true;
+
+          if ((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneMergeStep1 && !(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isFailStep1) {
+            (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isFightStep1 = true;
+          }
+
+          if ((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isFailStep1 && (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isStartStep2) {
+            (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isFightStep2 = true;
+          }
+
+          this.NodesController.Text_Tap.active = false;
           this.NodesController.hint_1.active = false;
+          this.NodesController.hint_2.active = false;
         }
 
         touchMove(event, stick) {
+          if (!(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isCanTouch) {
+            return;
+          }
+
           const screenPos = event.getUILocation();
           this.pos = this.convertToLocalLocation(screenPos);
           this.NodesController.point.setPosition(this.pos);
-          (_crd && Utils === void 0 ? (_reportPossibleCrUseOfUtils({
+          !(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isFailStep1 && (_crd && Utils === void 0 ? (_reportPossibleCrUseOfUtils({
             error: Error()
           }), Utils) : Utils).TouchArea.checkMergeFirstStep();
+          (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isFailStep1 && (_crd && Utils === void 0 ? (_reportPossibleCrUseOfUtils({
+            error: Error()
+          }), Utils) : Utils).TouchArea.checkMergeSecondStep();
         }
 
         touchEnd() {
+          if (!(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isCanTouch) {
+            return;
+          }
+
           (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).isTouching = false;
@@ -95,6 +143,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           if (!(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).isDoneMergeStep1) {
+            this.NodesController.init();
+          }
+
+          if (!(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneMergeStep2 && (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isFailStep1) {
             this.NodesController.init();
           }
         }

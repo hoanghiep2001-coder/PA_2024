@@ -1,4 +1,4 @@
-import { _decorator, Component, Node} from 'cc';
+import { _decorator, Component, Node, Vec3} from 'cc';
 const { ccclass, property } = _decorator;
 
 const Event = {
@@ -43,14 +43,32 @@ export class Constants {
     static toStore = false;
     static isTouching = false;
     static isDoneMergeStep1: boolean = false;
+    static isDoneMergeStep2: boolean = false;
+    static isDoneStep1: boolean = false;
+    static isStartStep2: boolean = false;
+    static isCharacterCollideBoos: boolean = false;
+    static isCanTouch: boolean = true;
+    static isFightStep1: boolean = false;
+    static isFightStep2: boolean = false;
+    static isFailStep1: boolean = false;
+    static isMergeStep1States: boolean[] = [false, false, false, false, false, false, false, false];
+    static isMergeStep2States: boolean[] = [false, false, false, false, false, false];
 
     static step: number = 1;
-
+    static targetPos: Vec3 = null;
     
     static point: Node = null;
     static points_1: Node[] = null;
+    static points_2: Node[] = null;
     static dino_lines: Node[] = null;
-    static isMergeStep1States: boolean[] = [false, false, false, false, false, false, false, false];
+    static dino_lines_2: Node[] = null;
+    
+
+    static unitsStep1InitPos: Vec3[] = null;
+    static unitsStep2InitPos: Vec3[] = null;
+    static dinosStep1InitPos: Vec3[] = null;
+    static dinosStep2InitPos: Vec3[] = null;
+
 
     // event
     static Event = Event;

@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, UITransform, Vec3, tween, Constants, Utils, _crd, checkMergeFirstStep, mergeDinoStep1, TouchArea, GamePlay;
+  var _reporterNs, _cclegacy, UITransform, Vec3, tween, Constants, Utils, _crd, checkMergeFirstStep, checkMergeSecondStep, mergeDinoStep1, mergeDinoStep2, TouchArea, GamePlay;
 
   function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -66,6 +66,45 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
       };
 
+      checkMergeSecondStep = () => {
+        for (let i = 0; i < (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+          error: Error()
+        }), Constants) : Constants).points_2.length; i++) {
+          let currentNode = (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).points_2[i];
+          let nodeBdx = currentNode.getComponent(UITransform).getBoundingBox();
+          let pointBdx = (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).point.getComponent(UITransform).getBoundingBox();
+
+          if (nodeBdx.intersects(pointBdx)) {
+            if ((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isMergeStep2States[i]) {
+              break;
+            }
+
+            (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isMergeStep2States[i] = true;
+            (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).dino_lines_2[i].active = true;
+
+            if ((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isMergeStep2States.every(state => state === true)) {
+              (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+                error: Error()
+              }), Constants) : Constants).isDoneMergeStep2 = true;
+            }
+
+            break;
+          }
+        }
+      };
+
       mergeDinoStep1 = dino => {
         tween(dino).to(0.4, {
           position: new Vec3(-1.1, -15.535, 9.208),
@@ -75,11 +114,22 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }).start();
       };
 
+      mergeDinoStep2 = dino => {
+        tween(dino).to(0.4, {
+          position: new Vec3(1.582, -15.535, 9.208),
+          scale: new Vec3(0, 0, 0)
+        }).call(() => {
+          dino.active = false;
+        }).start();
+      };
+
       TouchArea = {
-        checkMergeFirstStep: checkMergeFirstStep
+        checkMergeFirstStep: checkMergeFirstStep,
+        checkMergeSecondStep: checkMergeSecondStep
       };
       GamePlay = {
-        mergeDinoStep1: mergeDinoStep1
+        mergeDinoStep1: mergeDinoStep1,
+        mergeDinoStep2: mergeDinoStep2
       };
 
       _export("Utils", Utils = class Utils {});

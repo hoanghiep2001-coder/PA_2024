@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 7658.060000002384,
+    "mTimestamp": 7001.865800023079,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -335,11 +335,11 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 7253753.313199997,
+    "mTimestamp": 32958923.930999994,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
-        "value": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts",
+        "value": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts",
         "rewritten": "__unresolved_0",
         "loc": {
           "start": {
@@ -348,12 +348,12 @@
           },
           "end": {
             "line": 4,
-            "column": 109
+            "column": 97
           }
         }
       },
       {
-        "value": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts",
+        "value": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts",
         "rewritten": "__unresolved_1",
         "loc": {
           "start": {
@@ -362,12 +362,12 @@
           },
           "end": {
             "line": 5,
-            "column": 111
+            "column": 99
           }
         }
       },
       {
-        "value": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts",
+        "value": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts",
         "rewritten": "__unresolved_2",
         "loc": {
           "start": {
@@ -376,12 +376,12 @@
           },
           "end": {
             "line": 6,
-            "column": 109
+            "column": 97
           }
         }
       },
       {
-        "value": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts",
+        "value": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts",
         "rewritten": "__unresolved_3",
         "loc": {
           "start": {
@@ -390,12 +390,12 @@
           },
           "end": {
             "line": 7,
-            "column": 103
+            "column": 91
           }
         }
       },
       {
-        "value": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/NodesController.ts",
+        "value": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/NodesController.ts",
         "rewritten": "__unresolved_4",
         "loc": {
           "start": {
@@ -404,12 +404,12 @@
           },
           "end": {
             "line": 8,
-            "column": 110
+            "column": 98
           }
         }
       },
       {
-        "value": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts",
+        "value": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts",
         "rewritten": "__unresolved_5",
         "loc": {
           "start": {
@@ -418,12 +418,12 @@
           },
           "end": {
             "line": 9,
-            "column": 108
+            "column": 96
           }
         }
       },
       {
-        "value": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts",
+        "value": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts",
         "rewritten": "__unresolved_6",
         "loc": {
           "start": {
@@ -432,12 +432,12 @@
           },
           "end": {
             "line": 10,
-            "column": 114
+            "column": 102
           }
         }
       },
       {
-        "value": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts",
+        "value": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts",
         "rewritten": "__unresolved_7",
         "loc": {
           "start": {
@@ -446,12 +446,12 @@
           },
           "end": {
             "line": 11,
-            "column": 97
+            "column": 85
           }
         }
       },
       {
-        "value": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts",
+        "value": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts",
         "rewritten": "__unresolved_8",
         "loc": {
           "start": {
@@ -460,12 +460,12 @@
           },
           "end": {
             "line": 12,
-            "column": 103
+            "column": 91
           }
         }
       },
       {
-        "value": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts",
+        "value": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts",
         "rewritten": "__unresolved_9",
         "loc": {
           "start": {
@@ -474,12 +474,12 @@
           },
           "end": {
             "line": 13,
-            "column": 101
+            "column": 89
           }
         }
       },
       {
-        "value": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts",
+        "value": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts",
         "rewritten": "__unresolved_10",
         "loc": {
           "start": {
@@ -488,12 +488,12 @@
           },
           "end": {
             "line": 14,
-            "column": 101
+            "column": 89
           }
         }
       },
       {
-        "value": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts",
+        "value": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts",
         "rewritten": "__unresolved_11",
         "loc": {
           "start": {
@@ -502,7 +502,7 @@
           },
           "end": {
             "line": 15,
-            "column": 96
+            "column": 84
           }
         }
       }
@@ -513,61 +513,65 @@
     "resolvedImports": [
       {
         "isExternal": false,
-        "url": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts"
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts"
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts"
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts"
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/NodesController.ts"
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/NodesController.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts"
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts"
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts"
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts"
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts"
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/IronSource.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts"
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Responsive.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts"
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts"
       }
     ]
   },
   "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts": {
     "mTimestamp": {
-      "mtime": 1706608923612.0256,
+      "mtime": 1706696860746.5955,
       "uuid": "7c0abe8e-9603-4df0-9bbc-b8ba9d4b9280"
     },
     "chunkId": "assets/Script/Controller/CharacterControl.js",
     "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
       {
         "value": "cc"
       },
@@ -576,11 +580,25 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 126
+            "column": 132
           },
           "end": {
             "line": 2,
-            "column": 130
+            "column": 136
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
           }
         }
       }
@@ -591,11 +609,19 @@
     "resolvedImports": [
       {
         "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
         "url": "cce:/internal/x/cc"
       },
       {
         "isExternal": false,
         "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts"
       }
     ]
   },
@@ -639,12 +665,16 @@
   },
   "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GamePlay.ts": {
     "mTimestamp": {
-      "mtime": 1706605156364.8381,
+      "mtime": 1706695409755.987,
       "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
     },
     "chunkId": "assets/Script/Controller/GamePlay.js",
     "imports": [
       {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
         "value": "cc"
       },
       {
@@ -652,11 +682,95 @@
         "loc": {
           "start": {
             "line": 1,
-            "column": 230
+            "column": 237
           },
           "end": {
             "line": 1,
-            "column": 234
+            "column": 241
+          }
+        }
+      },
+      {
+        "value": "./CharacterControl",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 33
+          },
+          "end": {
+            "line": 2,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 31
+          },
+          "end": {
+            "line": 4,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 29
+          },
+          "end": {
+            "line": 6,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 26
+          },
+          "end": {
+            "line": 7,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./NodesController",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 32
+          },
+          "end": {
+            "line": 8,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "../Plugin/Utils",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 22
+          },
+          "end": {
+            "line": 9,
+            "column": 39
           }
         }
       }
@@ -667,21 +781,53 @@
     "resolvedImports": [
       {
         "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
         "url": "cce:/internal/x/cc"
       },
       {
         "isExternal": false,
         "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/CharacterControl.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/NodesController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts"
       }
     ]
   },
   "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/RangerControl.ts": {
     "mTimestamp": {
-      "mtime": 1706604508611.5376,
+      "mtime": 1706697045840.073,
       "uuid": "51538585-730d-4fe9-b6a8-c8135576ab86"
     },
     "chunkId": "assets/Script/Controller/RangerControl.js",
     "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
       {
         "value": "cc"
       },
@@ -690,11 +836,25 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 126
+            "column": 132
           },
           "end": {
             "line": 2,
-            "column": 130
+            "column": 136
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
           }
         }
       }
@@ -705,17 +865,25 @@
     "resolvedImports": [
       {
         "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
         "url": "cce:/internal/x/cc"
       },
       {
         "isExternal": false,
         "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts"
       }
     ]
   },
   "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/TouchAreaController.ts": {
     "mTimestamp": {
-      "mtime": 1706610563973.9338,
+      "mtime": 1706695856809.3977,
       "uuid": "6c960960-d0d4-46ba-9a72-c0e274c1640b"
     },
     "chunkId": "assets/Script/Controller/TouchAreaController.js",
@@ -753,6 +921,34 @@
             "column": 44
           }
         }
+      },
+      {
+        "value": "../Plugin/Utils",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 22
+          },
+          "end": {
+            "line": 3,
+            "column": 39
+          }
+        }
+      },
+      {
+        "value": "./NodesController",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 51
+          }
+        }
       }
     ],
     "modLoMetadata": {
@@ -774,6 +970,14 @@
       {
         "isExternal": false,
         "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/NodesController.ts"
       }
     ]
   },
@@ -989,7 +1193,7 @@
   },
   "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts": {
     "mTimestamp": {
-      "mtime": 1706610021366.4436,
+      "mtime": 1706695436301.4858,
       "uuid": "003cfefe-2225-4de7-bc86-7bcf4bf104ad"
     },
     "chunkId": "assets/Script/Data/Constant.js",
@@ -1002,11 +1206,11 @@
         "loc": {
           "start": {
             "line": 1,
-            "column": 43
+            "column": 49
           },
           "end": {
             "line": 1,
-            "column": 47
+            "column": 53
           }
         }
       }
@@ -1026,7 +1230,7 @@
     ]
   },
   "cce:/internal/code-quality/cr.mjs": {
-    "mTimestamp": 1706649446905,
+    "mTimestamp": 1706664090804,
     "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
     "imports": [],
     "modLoMetadata": {
@@ -1036,11 +1240,15 @@
   },
   "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/BossController.ts": {
     "mTimestamp": {
-      "mtime": 1706602256422.824,
+      "mtime": 1706672421941.7395,
       "uuid": "c38f3dbd-10dd-43f5-8a4b-75f0be776d73"
     },
     "chunkId": "assets/Script/Controller/BossController.js",
     "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
       {
         "value": "cc"
       },
@@ -1048,12 +1256,26 @@
         "value": "cc",
         "loc": {
           "start": {
-            "line": 2,
+            "line": 1,
             "column": 63
           },
           "end": {
-            "line": 2,
+            "line": 1,
             "column": 67
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
           }
         }
       }
@@ -1064,23 +1286,62 @@
     "resolvedImports": [
       {
         "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
         "url": "cce:/internal/x/cc"
       },
       {
         "isExternal": false,
         "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts"
       }
     ]
   },
   "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Plugin/Utils.ts": {
     "mTimestamp": {
-      "mtime": 1706609998200.8123,
+      "mtime": 1706695074836.4348,
       "uuid": "3b82aa2d-e03d-467c-8b54-78b515fc355b"
     },
     "chunkId": "assets/Script/Plugin/Utils.js",
     "imports": [
       {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
         "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 41
+          },
+          "end": {
+            "line": 1,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
       }
     ],
     "modLoMetadata": {
@@ -1089,7 +1350,19 @@
     "resolvedImports": [
       {
         "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
         "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts"
       }
     ]
   },
@@ -1872,6 +2145,70 @@
       {
         "isExternal": false,
         "url": "file:///D:/PlayableAds/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Controller/NodesController.ts": {
+    "mTimestamp": {
+      "mtime": 1706694659439.226,
+      "uuid": "d10be42d-07cd-4283-a03a-495fc2f77e47"
+    },
+    "chunkId": "assets/Script/Controller/NodesController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 74
+          },
+          "end": {
+            "line": 1,
+            "column": 78
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeDino/MergeDino_Op9/assets/Script/Data/Constant.ts"
       }
     ]
   }

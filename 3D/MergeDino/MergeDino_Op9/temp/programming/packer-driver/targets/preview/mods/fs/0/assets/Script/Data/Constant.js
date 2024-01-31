@@ -62,15 +62,47 @@ System.register(["cc"], function (_export, _context) {
 
       _defineProperty(Constants, "isDoneMergeStep1", false);
 
+      _defineProperty(Constants, "isDoneMergeStep2", false);
+
+      _defineProperty(Constants, "isDoneStep1", false);
+
+      _defineProperty(Constants, "isStartStep2", false);
+
+      _defineProperty(Constants, "isCharacterCollideBoos", false);
+
+      _defineProperty(Constants, "isCanTouch", true);
+
+      _defineProperty(Constants, "isFightStep1", false);
+
+      _defineProperty(Constants, "isFightStep2", false);
+
+      _defineProperty(Constants, "isFailStep1", false);
+
+      _defineProperty(Constants, "isMergeStep1States", [false, false, false, false, false, false, false, false]);
+
+      _defineProperty(Constants, "isMergeStep2States", [false, false, false, false, false, false]);
+
       _defineProperty(Constants, "step", 1);
+
+      _defineProperty(Constants, "targetPos", null);
 
       _defineProperty(Constants, "point", null);
 
       _defineProperty(Constants, "points_1", null);
 
+      _defineProperty(Constants, "points_2", null);
+
       _defineProperty(Constants, "dino_lines", null);
 
-      _defineProperty(Constants, "isMergeStep1States", [false, false, false, false, false, false, false, false]);
+      _defineProperty(Constants, "dino_lines_2", null);
+
+      _defineProperty(Constants, "unitsStep1InitPos", null);
+
+      _defineProperty(Constants, "unitsStep2InitPos", null);
+
+      _defineProperty(Constants, "dinosStep1InitPos", null);
+
+      _defineProperty(Constants, "dinosStep2InitPos", null);
 
       _defineProperty(Constants, "Event", Event);
 

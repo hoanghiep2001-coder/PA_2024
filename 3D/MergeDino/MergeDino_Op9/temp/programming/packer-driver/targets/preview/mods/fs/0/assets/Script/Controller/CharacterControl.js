@@ -1,7 +1,7 @@
-System.register(["cc"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, BoxCollider, Component, ERigidBodyType, math, Node, RigidBody, SkeletalAnimation, Vec3, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, CharacterControl;
+  var _reporterNs, _cclegacy, _decorator, BoxCollider, Component, ERigidBodyType, math, Node, RigidBody, SkeletalAnimation, Vec3, Constants, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, CharacterControl;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -11,8 +11,14 @@ System.register(["cc"], function (_export, _context) {
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
 
+  function _reportPossibleCrUseOfConstants(extras) {
+    _reporterNs.report("Constants", "../Data/Constant", _context.meta, extras);
+  }
+
   return {
-    setters: [function (_cc) {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
       _cclegacy = _cc.cclegacy;
       _decorator = _cc._decorator;
       BoxCollider = _cc.BoxCollider;
@@ -23,6 +29,8 @@ System.register(["cc"], function (_export, _context) {
       RigidBody = _cc.RigidBody;
       SkeletalAnimation = _cc.SkeletalAnimation;
       Vec3 = _cc.Vec3;
+    }, function (_unresolved_2) {
+      Constants = _unresolved_2.Constants;
     }],
     execute: function () {
       _crd = true;
@@ -44,9 +52,13 @@ System.register(["cc"], function (_export, _context) {
 
           _defineProperty(this, "isFight", false);
 
+          _defineProperty(this, "isFight_2", false);
+
           _defineProperty(this, "rigidbody", void 0);
 
           _defineProperty(this, "collider", void 0);
+
+          _defineProperty(this, "isCollide", false);
         }
 
         onLoad() {
@@ -60,20 +72,66 @@ System.register(["cc"], function (_export, _context) {
           this.rigidbody = this.node.getComponent(RigidBody);
           this.collider = this.node.getComponent(BoxCollider);
           this.collider.on("onCollisionEnter", e => {
-            if (e.otherCollider.node.name === "Robot_melee02_base") {
-              this.isRun = false;
-              this.isFight = true;
+            if (e.otherCollider.node.name === "Rex") {
+              if (this.isCollide) {
+                return;
+              }
+
+              this.isCollide = true;
+              this.getComponent(SkeletalAnimation).play("Atk_1");
+              (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+                error: Error()
+              }), Constants) : Constants).isCharacterCollideBoos = true;
+              this.node.name === "Rap" ? this.isFight = true : this.isFight_2 = true;
+              this.scheduleOnce(() => {
+                (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+                  error: Error()
+                }), Constants) : Constants).isFailStep1 = true;
+                this.die();
+              }, 2);
             }
           });
         }
 
+        die() {
+          this.getComponent(SkeletalAnimation).play("Die");
+          (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneStep1 = true;
+        }
+
         Run() {
           this.rigidbody.type = ERigidBodyType.DYNAMIC;
-          this.rigidbody.setLinearVelocity(new math.Vec3(2, 0, -10));
+          this.rigidbody.setLinearVelocity(new math.Vec3(2, 0, -8));
+
+          if (!this.isRun) {
+            this.isRun = true;
+            this.getComponent(SkeletalAnimation).play("Run");
+          }
+        }
+
+        runStep2() {
+          this.rigidbody.type = ERigidBodyType.DYNAMIC;
+          this.rigidbody.setLinearVelocity(new math.Vec3(-3, 0, -8));
+
+          if (!this.isRun) {
+            this.isRun = true;
+            this.getComponent(SkeletalAnimation).play("Run");
+          }
         }
 
         update(dt) {
-          if (this.isRun) this.Run();
+          if ((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isFightStep1 && !this.isFight && this.node.name === "Rap") {
+            this.Run();
+          }
+
+          if ((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isFightStep2 && !this.isFight_2) {
+            this.runStep2();
+          }
         }
 
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "level", [_dec2], {

@@ -4,9 +4,9 @@
   "imported": true,
   "uuid": "61a62df1-ffbe-49f6-874e-cfa8b61470a4",
   "files": [
-    "__original-animation-1.cconb",
     "__original-animation-0.cconb",
     "__original-animation-2.cconb",
+    "__original-animation-1.cconb",
     "__original-animation-3.cconb",
     "__original-animation-4.cconb"
   ],
@@ -36,7 +36,7 @@
       "name": "Die.animation",
       "userData": {
         "gltfIndex": 0,
-        "wrapMode": 2,
+        "wrapMode": 1,
         "sample": 30,
         "span": {
           "from": 0,
@@ -224,7 +224,7 @@
             "name": "Die",
             "from": 0,
             "to": 0.9666666388511658,
-            "wrapMode": 2
+            "wrapMode": 1
           }
         ]
       },

@@ -4,9 +4,9 @@
   "imported": true,
   "uuid": "24e93c7b-c81b-4e5d-9a1a-4a5f7234393e",
   "files": [
+    "__original-animation-1.cconb",
     "__original-animation-0.cconb",
     "__original-animation-2.cconb",
-    "__original-animation-1.cconb",
     "__original-animation-3.cconb",
     "__original-animation-4.cconb"
   ],
@@ -36,13 +36,14 @@
       "name": "Die.animation",
       "userData": {
         "gltfIndex": 0,
-        "wrapMode": 2,
+        "wrapMode": 1,
         "sample": 30,
         "span": {
           "from": 0,
           "to": 0.9666666388511658
         },
-        "events": []
+        "events": [],
+        "speed": 1.4
       },
       "ver": "1.0.16",
       "imported": true,
@@ -134,7 +135,8 @@
           "from": 0,
           "to": 1.9666666984558105
         },
-        "events": []
+        "events": [],
+        "speed": 1.4
       },
       "ver": "1.0.16",
       "imported": true,
@@ -222,7 +224,8 @@
             "name": "Die",
             "from": 0,
             "to": 0.9666666388511658,
-            "wrapMode": 2
+            "wrapMode": 1,
+            "speed": 1.4
           }
         ]
       },
@@ -274,7 +277,8 @@
             "name": "Run",
             "from": 0,
             "to": 1.9666666984558105,
-            "wrapMode": 2
+            "wrapMode": 2,
+            "speed": 1.4
           }
         ]
       }

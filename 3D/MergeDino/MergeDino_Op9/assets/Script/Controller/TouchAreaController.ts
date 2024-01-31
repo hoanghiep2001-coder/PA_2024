@@ -29,23 +29,52 @@ export class TouchAreaController extends Component {
 
 
   private touchStart(): void {
+    if(!Constants.isCanTouch) {
+      return;
+    }
+
     Constants.isTouching = true;
+
+    if(Constants.isDoneMergeStep1 && !Constants.isFailStep1) {
+      Constants.isFightStep1 = true;
+    }
+
+    if(Constants.isFailStep1 &&  Constants.isStartStep2) {
+      Constants.isFightStep2 = true;
+    }
+
+    this.NodesController.Text_Tap.active = false;
     this.NodesController.hint_1.active = false;
+    this.NodesController.hint_2.active = false;
   }
 
 
   private touchMove(event: EventTouch, stick: Node) {
+    if(!Constants.isCanTouch) {
+      return;
+    }
+
     const screenPos = event.getUILocation();
     this.pos = this.convertToLocalLocation(screenPos);
     this.NodesController.point.setPosition(this.pos);
-    Utils.TouchArea.checkMergeFirstStep();
+
+    !Constants.isFailStep1 && Utils.TouchArea.checkMergeFirstStep();
+    Constants.isFailStep1 && Utils.TouchArea.checkMergeSecondStep();
   }
 
 
   private touchEnd(): void {
+    if(!Constants.isCanTouch) {
+      return;
+    }
+
     Constants.isTouching = false;
 
     if(!Constants.isDoneMergeStep1) {
+      this.NodesController.init();
+    }
+
+    if(!Constants.isDoneMergeStep2 && Constants.isFailStep1) {
       this.NodesController.init();
     }
   }
