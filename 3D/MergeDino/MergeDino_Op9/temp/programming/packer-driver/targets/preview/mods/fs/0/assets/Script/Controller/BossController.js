@@ -36,7 +36,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           _defineProperty(this, "isFight", false);
 
+          _defineProperty(this, "isFight_2", false);
+
           _defineProperty(this, "isIdle", false);
+
+          _defineProperty(this, "isIdle_2", false);
         }
 
         start() {
@@ -48,8 +52,18 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.getComponent(SkeletalAnimation).play("Atk_1");
         }
 
+        fightStep2() {
+          this.isFight_2 = true;
+          this.getComponent(SkeletalAnimation).play("Atk_1");
+        }
+
         idle() {
           this.isIdle = true;
+          this.getComponent(SkeletalAnimation).play("Idle_2");
+        }
+
+        idleStep2() {
+          this.isIdle_2 = true;
           this.getComponent(SkeletalAnimation).play("Idle_2");
         }
 
@@ -59,7 +73,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           }), Constants) : Constants).isCharacterCollideBoos && !this.isFight && this.fight();
           (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
+          }), Constants) : Constants).isCharacter_2CollideBoos && !this.isFight_2 && this.fightStep2();
+          (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
           }), Constants) : Constants).isDoneStep1 && !this.isIdle && this.idle();
+          (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneStep2 && !this.isIdle_2 && this.idleStep2();
         }
 
       }, _temp)) || _class));

@@ -42,10 +42,12 @@ System.register(["cc"], function (_export, _context) {
 
       (function (SoundTrack) {
         SoundTrack["bgSound"] = "bgSound";
-        SoundTrack["videoSound"] = "videoSound";
-        SoundTrack["eatSound"] = "eatSound";
-        SoundTrack["dieSound"] = "dieSound";
-        SoundTrack["whooseSound"] = "whooseSound";
+        SoundTrack["Dino_AttkSound"] = "Dino_AttkSound";
+        SoundTrack["Dino_LoseSound"] = "Dino_LoseSound";
+        SoundTrack["Dino_ScreamSound"] = "Dino_ScreamSound";
+        SoundTrack["Dino_MergeSound"] = "Dino_MergeSound";
+        SoundTrack["Dino_FightSound"] = "Dino_FightSound";
+        SoundTrack["Dino_ChooseSound"] = "Dino_ChooseSound";
       })(SoundTrack || (SoundTrack = {}));
 
       _export("Constants", Constants = class Constants {});
@@ -66,9 +68,13 @@ System.register(["cc"], function (_export, _context) {
 
       _defineProperty(Constants, "isDoneStep1", false);
 
+      _defineProperty(Constants, "isDoneStep2", false);
+
       _defineProperty(Constants, "isStartStep2", false);
 
       _defineProperty(Constants, "isCharacterCollideBoos", false);
+
+      _defineProperty(Constants, "isCharacter_2CollideBoos", false);
 
       _defineProperty(Constants, "isCanTouch", true);
 
@@ -77,6 +83,8 @@ System.register(["cc"], function (_export, _context) {
       _defineProperty(Constants, "isFightStep2", false);
 
       _defineProperty(Constants, "isFailStep1", false);
+
+      _defineProperty(Constants, "isFailStep2", false);
 
       _defineProperty(Constants, "isMergeStep1States", [false, false, false, false, false, false, false, false]);
 

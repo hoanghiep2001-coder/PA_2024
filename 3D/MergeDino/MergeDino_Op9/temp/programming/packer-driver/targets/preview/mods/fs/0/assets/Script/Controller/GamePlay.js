@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5", "__unresolved_6"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Animation, Component, SkeletalAnimation, Vec3, tween, CharacterControl, GameController, AudioManager, Constants, NodesController, Utils, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _temp, _crd, ccclass, property, GamePlay;
+  var _reporterNs, _cclegacy, _decorator, Animation, Component, Vec3, tween, CharacterControl, GameController, AudioManager, Constants, NodesController, Utils, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _temp, _crd, ccclass, property, GamePlay;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -43,7 +43,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       _decorator = _cc._decorator;
       Animation = _cc.Animation;
       Component = _cc.Component;
-      SkeletalAnimation = _cc.SkeletalAnimation;
       Vec3 = _cc.Vec3;
       tween = _cc.tween;
     }, function (_unresolved_2) {
@@ -90,13 +89,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           _defineProperty(this, "isMergeStep2Flag", false);
 
           _defineProperty(this, "isFailStep1Flag", false);
+
+          _defineProperty(this, "isFailStep2Flag", false);
         }
 
         onLoad() {}
 
-        initGame() {}
-
-        start() {}
+        start() {// this.AudioManager.playSound(Constants.SoundTrack.bgSound);
+        }
 
         handleMergeStep1() {
           (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
@@ -116,19 +116,32 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             tween(this.NodesController.MainCharacter_1).to(0.5, {
               scale: new Vec3(0.004, 0.004, 0.004)
             }).start();
+            this.AudioManager.playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).SoundTrack.Dino_MergeSound);
           }, 2);
           this.scheduleOnce(() => {
             this.NodesController.MainCharacter_1.getComponent(_crd && CharacterControl === void 0 ? (_reportPossibleCrUseOfCharacterControl({
               error: Error()
             }), CharacterControl) : CharacterControl).level.active = true;
+            this.AudioManager.playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).SoundTrack.Dino_ScreamSound);
           }, 2.5);
           this.scheduleOnce(() => {
             this.NodesController.dinoLevels.forEach(level => level.active = true);
-            this.NodesController.Text_Tap.active = true;
             (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
               error: Error()
             }), Constants) : Constants).isCanTouch = true;
           }, 4);
+          this.scheduleOnce(() => {
+            (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isFightStep1 = true;
+            this.AudioManager.playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).SoundTrack.Dino_FightSound);
+          }, 5);
         }
 
         handleMergeStep2() {
@@ -149,6 +162,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             tween(this.NodesController.MainCharacter_2).to(0.5, {
               scale: new Vec3(0.004, 0.004, 0.004)
             }).start();
+            this.AudioManager.playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).SoundTrack.Dino_MergeSound);
           }, 2);
           this.scheduleOnce(() => {
             this.NodesController.MainCharacter_2.getComponent(_crd && CharacterControl === void 0 ? (_reportPossibleCrUseOfCharacterControl({
@@ -157,10 +173,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             this.NodesController.MainCharacter_1.getComponent(_crd && CharacterControl === void 0 ? (_reportPossibleCrUseOfCharacterControl({
               error: Error()
             }), CharacterControl) : CharacterControl).level.active = true;
+            this.AudioManager.playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).SoundTrack.Dino_ScreamSound);
           }, 2.5);
           this.scheduleOnce(() => {
             this.NodesController.dinoLevels.forEach(level => level.active = true);
-            this.NodesController.Text_Tap.active = true;
             (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
               error: Error()
             }), Constants) : Constants).isStartStep2 = true;
@@ -168,56 +186,46 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
               error: Error()
             }), Constants) : Constants).isCanTouch = true;
           }, 4);
+          this.scheduleOnce(() => {
+            (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isFightStep2 = true;
+            this.AudioManager.playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).SoundTrack.Dino_FightSound);
+          }, 5);
         }
 
         setupStep2() {
           this.isFailStep1Flag = true;
           this.NodesController.Fail.active = true;
+          this.AudioManager.playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).SoundTrack.Dino_LoseSound);
           this.NodesController.dinoLines.forEach(line => line.active = false);
           this.scheduleOnce(() => {
-            this.NodesController.unitsStep1.forEach((unit, index) => {
-              unit.setPosition((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
-                error: Error()
-              }), Constants) : Constants).unitsStep1InitPos[index]);
-              unit.setScale(new Vec3(8, 8, 8));
-              unit.active = true;
-            });
-            this.NodesController.dinosStep1.forEach((dino, index) => {
-              dino.getComponent(SkeletalAnimation).play("Idle_1");
-              dino.setPosition((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
-                error: Error()
-              }), Constants) : Constants).dinosStep1InitPos[index]);
-              dino.setScale(new Vec3(0.08, 0.08, 0.08));
-              dino.active = true;
-            });
-            this.NodesController.unitstep2.forEach((unit, index) => {
-              unit.setPosition((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
-                error: Error()
-              }), Constants) : Constants).unitsStep2InitPos[index]);
-              unit.setScale(new Vec3(8, 8, 8));
-              unit.active = true;
-            });
-            this.NodesController.dinosStep2.forEach((dino, index) => {
-              dino.getComponent(SkeletalAnimation).play("Idle_1");
-              dino.setPosition((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
-                error: Error()
-              }), Constants) : Constants).dinosStep2InitPos[index]);
-              dino.setScale(new Vec3(0.08, 0.08, 0.08));
-              dino.active = true;
-            });
-            this.NodesController.MainCharacter_1.active = false;
-            this.NodesController.MainCharacter_1.getComponent(_crd && CharacterControl === void 0 ? (_reportPossibleCrUseOfCharacterControl({
-              error: Error()
-            }), CharacterControl) : CharacterControl).level.active = false;
+            this.NodesController.replay();
           }, 2);
           this.scheduleOnce(() => {
             this.NodesController.hint_2.active = true;
-          }, 2.5); // this.NodesController.dinosStep1.forEach((dino, index) => {
-          //     dino.setPosition(Constants.dinosStep1InitPos[index]);
-          //     dino.active = true;
-          //     dino.setScale(new Vec3(0.08, 0.08, 0.08));
-          // });
-          // this.NodesController.dinosStep2.forEach((dino, index) => dino.setPosition(Constants.dinosStep2InitPos[index]));
+          }, 2.5);
+        }
+
+        setupStep3() {
+          this.isFailStep2Flag = true;
+          this.NodesController.Fail.active = true;
+          this.AudioManager.playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).SoundTrack.Dino_LoseSound);
+          this.NodesController.dinoLines.forEach(line => line.active = false);
+          this.scheduleOnce(() => {
+            // this.NodesController.unitstep2.forEach(unit => Utils.GamePlay.mergeDinoStep2(unit));
+            this.NodesController.MainCharacter_2.active = false;
+            this.NodesController.replay();
+          }, 2);
+          this.scheduleOnce(() => {
+            this.NodesController.hint_3.active = true;
+          }, 2.5);
         }
 
         update(dt) {
@@ -230,6 +238,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).isFailStep1 && !this.isFailStep1Flag && this.setupStep2();
+          (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isFailStep2 && !this.isFailStep2Flag && this.setupStep3();
         }
 
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "NodesController", [_dec2], {

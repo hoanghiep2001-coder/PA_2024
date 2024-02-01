@@ -1,11 +1,14 @@
 
 import { _decorator, BoxCollider, Component, ERigidBodyType, ICollisionEvent, math, Node, RigidBody, SkeletalAnimation, Vec3 } from 'cc';
 import { Constants } from '../Data/Constant';
+import { AudioManager } from '../Plugin/AudioManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('CharacterControl')
 export class CharacterControl extends Component {
 
+    @property(AudioManager)
+    AudioManager: AudioManager = null;
     @property(Node)
     level: Node = null;
 
@@ -33,15 +36,18 @@ export class CharacterControl extends Component {
 
         this.collider.on("onCollisionEnter", (e: ICollisionEvent) => {
             if (e.otherCollider.node.name === "Rex") {
-                if(this.isCollide) {
+                if (this.isCollide) {
                     return;
                 }
+
                 this.isCollide = true;
+                this.AudioManager.playSound(Constants.SoundTrack.Dino_AttkSound);
+                this.AudioManager.Dino_AttkSound.loop = true;
                 this.getComponent(SkeletalAnimation).play("Atk_1");
-                Constants.isCharacterCollideBoos = true;
                 this.node.name === "Rap" ? this.isFight = true : this.isFight_2 = true;
+                this.node.name === "Rap" ? Constants.isCharacterCollideBoos = true : Constants.isCharacter_2CollideBoos = true;
                 this.scheduleOnce(() => {
-                    Constants.isFailStep1 = true;
+                    this.node.name === "Rap" ? Constants.isFailStep1 = true : Constants.isFailStep2 = true;
                     this.die();
                 }, 2)
             }
@@ -51,7 +57,8 @@ export class CharacterControl extends Component {
 
     private die(): void {
         this.getComponent(SkeletalAnimation).play("Die");
-        Constants.isDoneStep1 = true;
+        this.node.name === "Rap" ? Constants.isDoneStep1 = true : Constants.isDoneStep2 = true;
+        this.AudioManager.stopSound(Constants.SoundTrack.Dino_AttkSound);
     }
 
 

@@ -1,12 +1,22 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, screen, Constants, _dec, _class, _temp, _crd, ccclass, property, Responsive;
+  var _reporterNs, _cclegacy, _decorator, Component, Animation, screen, Vec3, Constants, NodesController, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, Responsive;
+
+  function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
   function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
+  function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) { var desc = {}; Object.keys(descriptor).forEach(function (key) { desc[key] = descriptor[key]; }); desc.enumerable = !!desc.enumerable; desc.configurable = !!desc.configurable; if ('value' in desc || desc.initializer) { desc.writable = true; } desc = decorators.slice().reverse().reduce(function (desc, decorator) { return decorator(target, property, desc) || desc; }, desc); if (context && desc.initializer !== void 0) { desc.value = desc.initializer ? desc.initializer.call(context) : void 0; desc.initializer = undefined; } if (desc.initializer === void 0) { Object.defineProperty(target, property, desc); desc = null; } return desc; }
+
+  function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
+
   function _reportPossibleCrUseOfConstants(extras) {
     _reporterNs.report("Constants", "../Data/Constant", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfNodesController(extras) {
+    _reporterNs.report("NodesController", "../Controller/NodesController", _context.meta, extras);
   }
 
   return {
@@ -16,9 +26,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       _cclegacy = _cc.cclegacy;
       _decorator = _cc._decorator;
       Component = _cc.Component;
+      Animation = _cc.Animation;
       screen = _cc.screen;
+      Vec3 = _cc.Vec3;
     }, function (_unresolved_2) {
       Constants = _unresolved_2.Constants;
+    }, function (_unresolved_3) {
+      NodesController = _unresolved_3.NodesController;
     }],
     execute: function () {
       _crd = true;
@@ -30,9 +44,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         property
       } = _decorator);
 
-      _export("Responsive", Responsive = (_dec = ccclass('Responsive'), _dec(_class = (_temp = class Responsive extends Component {
+      _export("Responsive", Responsive = (_dec = ccclass('Responsive'), _dec2 = property(_crd && NodesController === void 0 ? (_reportPossibleCrUseOfNodesController({
+        error: Error()
+      }), NodesController) : NodesController), _dec(_class = (_class2 = (_temp = class Responsive extends Component {
         constructor() {
           super(...arguments);
+
+          _initializerDefineProperty(this, "NodesController", _descriptor, this);
 
           _defineProperty(this, "device", "");
 
@@ -79,18 +97,60 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             return;
           }
 
-          this.device = this.HORIZONTAL_IPX; // if(cc.screen.windowSize.height / cc.screen.windowSize.width >= 0.6) {
+          this.device = this.HORIZONTAL_IPX;
+          this.NodesController.Camera.fov = 50; // if(cc.screen.windowSize.height / cc.screen.windowSize.width >= 0.6) {
           //     // Applovin horizontal
           //     return;
           // }    
 
-          if (screen.windowSize.height / screen.windowSize.width > 0.55) {
-            // Ip 6 / 6Plus / 7 / 7 Plus
-            console.log(1);
-          } else {
-            // IpX
-            console.log(2);
+          this.NodesController.hint_1.getComponent(Animation).stop();
+          this.NodesController.hint_1.active = false;
+          this.NodesController.hint_1.setScale(new Vec3(0.9, 0.9, 0.9));
+          this.NodesController.hint_1.setPosition(new Vec3(-10, 0, 0));
+
+          if (!(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneMergeStep1) {
+            this.NodesController.hint_1.active = true;
+            this.NodesController.hint_1.getComponent(Animation).play();
           }
+
+          this.NodesController.hint_2.getComponent(Animation).stop();
+          this.NodesController.hint_2.active = false;
+          this.NodesController.hint_2.setScale(new Vec3(0.85, 0.85, 0.85));
+          this.NodesController.hint_2.setPosition(new Vec3(115, 0, 0));
+
+          if ((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneMergeStep1 && !(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneMergeStep2 && (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isFailStep1) {
+            this.NodesController.hint_2.active = true;
+            this.NodesController.hint_2.getComponent(Animation).play();
+          }
+
+          this.NodesController.hint_3.getComponent(Animation).stop();
+          this.NodesController.hint_3.active = false;
+          this.NodesController.hint_3.setScale(new Vec3(0.95, 0.95, 0.95));
+          this.NodesController.hint_3.setPosition(new Vec3(0, 0, 0));
+
+          if ((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneMergeStep2 && (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isFailStep2) {
+            this.NodesController.hint_3.active = true;
+            this.NodesController.hint_3.getComponent(Animation).play();
+          } // if (screen.windowSize.height / screen.windowSize.width > 0.55) {
+          //     // Ip 6 / 6Plus / 7 / 7 Plus
+          //     console.log(1);
+          // } else {
+          //     // IpX
+          //     console.log(2);
+          // }
+
         }
 
         setHorizontalForTablet() {
@@ -99,6 +159,49 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           }
 
           this.device = this.HORIZONTAL_TABLET;
+          this.NodesController.Camera.fov = 60;
+          this.NodesController.hint_1.getComponent(Animation).stop();
+          this.NodesController.hint_1.active = false;
+          this.NodesController.hint_1.setScale(new Vec3(0.9, 0.9, 0.9));
+          this.NodesController.hint_1.setPosition(new Vec3(0, 0, 0));
+
+          if (!(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneMergeStep1) {
+            this.NodesController.hint_1.active = true;
+            this.NodesController.hint_1.getComponent(Animation).play();
+          }
+
+          this.NodesController.hint_2.getComponent(Animation).stop();
+          this.NodesController.hint_2.active = false;
+          this.NodesController.hint_2.setScale(new Vec3(0.7, 0.7, 0.7));
+          this.NodesController.hint_2.setPosition(new Vec3(100, 0, 0));
+
+          if ((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneMergeStep1 && !(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneMergeStep2 && (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isFailStep1) {
+            this.NodesController.hint_2.active = true;
+            this.NodesController.hint_2.getComponent(Animation).play();
+          }
+
+          this.NodesController.hint_3.getComponent(Animation).stop();
+          this.NodesController.hint_3.active = false;
+          this.NodesController.hint_3.setScale(new Vec3(0.8, 0.8, 0.8));
+          this.NodesController.hint_3.setPosition(new Vec3(0, 0, 0));
+
+          if ((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneMergeStep2 && (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isFailStep2) {
+            this.NodesController.hint_3.active = true;
+            this.NodesController.hint_3.getComponent(Animation).play();
+          }
+
           console.log(3); // horizontal google
           // if(cc.screen.windowSize.width / cc.screen.windowSize.height <= 1.2 && cc.screen.windowSize.width / cc.screen.windowSize.height >= 1.2) {
           //     return;
@@ -119,6 +222,49 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           }
 
           this.device = this.VERTICAL_IPX;
+          this.NodesController.Camera.fov = 60;
+          this.NodesController.hint_1.getComponent(Animation).stop();
+          this.NodesController.hint_1.active = false;
+          this.NodesController.hint_1.setScale(new Vec3(1, 1, 1));
+          this.NodesController.hint_1.setPosition(new Vec3(-10, 0, 0));
+
+          if (!(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneMergeStep1) {
+            this.NodesController.hint_1.active = true;
+            this.NodesController.hint_1.getComponent(Animation).play();
+          }
+
+          this.NodesController.hint_2.getComponent(Animation).stop();
+          this.NodesController.hint_2.active = false;
+          this.NodesController.hint_2.setScale(new Vec3(0.85, 0.85, 0.85));
+          this.NodesController.hint_2.setPosition(new Vec3(135, 0, 0));
+
+          if ((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneMergeStep1 && !(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneMergeStep2 && (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isFailStep1) {
+            this.NodesController.hint_2.active = true;
+            this.NodesController.hint_2.getComponent(Animation).play();
+          }
+
+          this.NodesController.hint_3.getComponent(Animation).stop();
+          this.NodesController.hint_3.active = false;
+          this.NodesController.hint_3.setScale(new Vec3(1, 1, 1));
+          this.NodesController.hint_3.setPosition(new Vec3(0, 0, 0));
+
+          if ((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneMergeStep2 && (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isFailStep2) {
+            this.NodesController.hint_3.active = true;
+            this.NodesController.hint_3.getComponent(Animation).play();
+          }
+
           console.log(4);
         }
 
@@ -128,6 +274,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           }
 
           this.device = this.VERTICAL_MOBILE;
+          this.NodesController.Camera.fov = 60;
 
           if (screen.windowSize.width / screen.windowSize.height < 0.7) {
             // if (cc.screen.windowSize.width / cc.screen.windowSize.height >= 0.6 && cc.screen.windowSize.width / cc.screen.windowSize.height < 0.62) {
@@ -135,9 +282,93 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             //     return;
             // }
             // Iphone 6 / 6 plus / 7 / 7 Plus
+            this.NodesController.hint_1.getComponent(Animation).stop();
+            this.NodesController.hint_1.active = false;
+            this.NodesController.hint_1.setScale(new Vec3(0.9, 0.9, 0.9));
+            this.NodesController.hint_1.setPosition(new Vec3(0, 0, 0));
+
+            if (!(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isDoneMergeStep1) {
+              this.NodesController.hint_1.active = true;
+              this.NodesController.hint_1.getComponent(Animation).play();
+            }
+
+            this.NodesController.hint_2.getComponent(Animation).stop();
+            this.NodesController.hint_2.active = false;
+            this.NodesController.hint_2.setScale(new Vec3(0.85, 0.85, 0.85));
+            this.NodesController.hint_2.setPosition(new Vec3(118, 0, 0));
+
+            if ((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isDoneMergeStep1 && !(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isDoneMergeStep2 && (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isFailStep1) {
+              this.NodesController.hint_2.active = true;
+              this.NodesController.hint_2.getComponent(Animation).play();
+            }
+
+            this.NodesController.hint_3.getComponent(Animation).stop();
+            this.NodesController.hint_3.active = false;
+            this.NodesController.hint_3.setScale(new Vec3(0.9, 0.9, 0.9));
+            this.NodesController.hint_3.setPosition(new Vec3(0, 0, 0));
+
+            if ((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isDoneMergeStep2 && (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isFailStep2) {
+              this.NodesController.hint_3.active = true;
+              this.NodesController.hint_3.getComponent(Animation).play();
+            }
+
             console.log(5);
           } else {
             // Ipad
+            this.NodesController.hint_1.getComponent(Animation).stop();
+            this.NodesController.hint_1.active = false;
+            this.NodesController.hint_1.setScale(new Vec3(0.9, 0.9, 0.9));
+            this.NodesController.hint_1.setPosition(new Vec3(0, 0, 0));
+
+            if (!(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isDoneMergeStep1) {
+              this.NodesController.hint_1.active = true;
+              this.NodesController.hint_1.getComponent(Animation).play();
+            }
+
+            this.NodesController.hint_2.getComponent(Animation).stop();
+            this.NodesController.hint_2.active = false;
+            this.NodesController.hint_2.setScale(new Vec3(0.7, 0.7, 0.7));
+            this.NodesController.hint_2.setPosition(new Vec3(100, 0, 0));
+
+            if ((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isDoneMergeStep1 && !(_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isDoneMergeStep2 && (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isFailStep1) {
+              this.NodesController.hint_2.active = true;
+              this.NodesController.hint_2.getComponent(Animation).play();
+            }
+
+            this.NodesController.hint_3.getComponent(Animation).stop();
+            this.NodesController.hint_3.active = false;
+            this.NodesController.hint_3.setScale(new Vec3(0.8, 0.8, 0.8));
+            this.NodesController.hint_3.setPosition(new Vec3(0, 0, 0));
+
+            if ((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isDoneMergeStep2 && (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).isFailStep2) {
+              this.NodesController.hint_3.active = true;
+              this.NodesController.hint_3.getComponent(Animation).play();
+            }
+
             console.log(6);
           }
         }
@@ -146,7 +377,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.handleRotate();
         }
 
-      }, _temp)) || _class));
+      }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "NodesController", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      })), _class2)) || _class));
 
       _cclegacy._RF.pop();
 

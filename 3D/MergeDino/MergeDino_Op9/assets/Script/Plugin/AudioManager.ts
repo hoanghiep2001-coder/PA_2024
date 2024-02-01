@@ -9,33 +9,41 @@ export class AudioManager extends Component {
     @property(AudioSource)
     bgSound: AudioSource = null;
     @property(AudioSource)
-    videoSound: AudioSource = null;
+    Dino_AttkSound: AudioSource = null;
     @property(AudioSource)
-    eatSound: AudioSource = null;
+    Dino_LoseSound: AudioSource = null;
     @property(AudioSource)
-    dieSound: AudioSource = null;
+    Dino_ScreamSound: AudioSource = null;
     @property(AudioSource)
-    whooseSound: AudioSource = null;
-
+    Dino_MergeSound: AudioSource = null;
+    @property(AudioSource)
+    Dino_FightSound: AudioSource = null;
+    @property(AudioSource)
+    Dino_ChooseSound: AudioSource = null;
 
     public playSound(sound: string): void {
-
-        if(Constants.ironSource.SoundState) {
+        if (Constants.ironSource.SoundState) {
             switch (sound) {
                 case "bgSound":
                     this.bgSound.play();
                     break;
-                case "videoSound":
-                    this.videoSound.play();
+                case "Dino_AttkSound":
+                    this.Dino_AttkSound.play();
                     break;
-                case "eatSound":
-                    this.eatSound.play();
+                case "Dino_LoseSound":
+                    this.Dino_LoseSound.play();
                     break;
-                case "dieSound":
-                    this.dieSound.play();
+                case "Dino_ScreamSound":
+                    this.Dino_ScreamSound.play();
                     break;
-                case "whooseSound":
-                    this.whooseSound.play();
+                case "Dino_MergeSound":
+                    this.Dino_MergeSound.play();
+                    break;
+                case "Dino_FightSound":
+                    this.Dino_FightSound.play();
+                    break;
+                case "Dino_ChooseSound":
+                    this.Dino_ChooseSound.play();
                     break;
                 default:
                     break;
@@ -44,14 +52,100 @@ export class AudioManager extends Component {
     }
 
 
-    public stopAllSound(): void {
-        console.log("stopAll");
+    public switchVolume(soundName: string, volume: number): void {
+        switch (soundName) {
+            case "bgSound":
+                this.bgSound.volume = volume;
+                break;
+            case "Dino_AttkSound":
+                this.Dino_AttkSound.volume = volume;
+                break;
+            case "Dino_LoseSound":
+                this.Dino_LoseSound.volume = volume;
+                break;
+            case "Dino_ScreamSound":
+                this.Dino_ScreamSound.volume = volume;
+                break;
+            case "Dino_MergeSound":
+                this.Dino_MergeSound.volume = volume;
+                break;
+            case "Dino_FightSound":
+                this.Dino_FightSound.volume = volume;
+                break;
+            case "Dino_ChooseSound":
+                this.Dino_ChooseSound.volume = volume;
+                break;
+            default:
+                break;
+        }
+    }
 
+
+    public pauseSound(soundName: string): void {
+        switch (soundName) {
+            case "bgSound":
+                this.bgSound.pause();
+                break;
+            case "Dino_AttkSound":
+                this.Dino_AttkSound.pause();
+                break;
+            case "Dino_LoseSound":
+                this.Dino_LoseSound.pause();
+                break;
+            case "Dino_ScreamSound":
+                this.Dino_ScreamSound.pause();
+                break;
+            case "Dino_MergeSound":
+                this.Dino_MergeSound.pause();
+                break;
+            case "Dino_FightSound":
+                this.Dino_FightSound.pause();
+                break;
+            case "Dino_ChooseSound":
+                this.Dino_ChooseSound.pause();
+                break;
+            default:
+                break;
+        }
+    }
+
+
+    public stopSound(soundName: string): void {
+        switch (soundName) {
+            case "bgSound":
+                this.bgSound.stop();
+                break;
+            case "Dino_AttkSound":
+                this.Dino_AttkSound.stop();
+                break;
+            case "Dino_LoseSound":
+                this.Dino_LoseSound.stop();
+                break;
+            case "Dino_ScreamSound":
+                this.Dino_ScreamSound.stop();
+                break;
+            case "Dino_MergeSound":
+                this.Dino_MergeSound.stop();
+                break;
+            case "Dino_FightSound":
+                this.Dino_FightSound.stop();
+                break;
+            case "Dino_ChooseSound":
+                this.Dino_ChooseSound.stop();
+                break;
+            default:
+                break;
+        }
+    }
+
+
+    public stopAllSound(): void {
         this.bgSound.stop();
-        this.videoSound.stop();
-        this.eatSound.stop();
-        this.dieSound.stop();
-        this.whooseSound.stop();
+        this.Dino_AttkSound.stop();
+        this.Dino_LoseSound.stop();
+        this.Dino_ScreamSound.stop();
+        this.Dino_MergeSound.stop();
+        this.Dino_ChooseSound.stop();
     }
 }
 

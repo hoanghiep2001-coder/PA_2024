@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, BoxCollider, Component, ERigidBodyType, math, Node, RigidBody, SkeletalAnimation, Vec3, Constants, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, CharacterControl;
+  var _reporterNs, _cclegacy, _decorator, BoxCollider, Component, ERigidBodyType, math, Node, RigidBody, SkeletalAnimation, Vec3, Constants, AudioManager, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _temp, _crd, ccclass, property, CharacterControl;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -13,6 +13,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
   function _reportPossibleCrUseOfConstants(extras) {
     _reporterNs.report("Constants", "../Data/Constant", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfAudioManager(extras) {
+    _reporterNs.report("AudioManager", "../Plugin/AudioManager", _context.meta, extras);
   }
 
   return {
@@ -31,6 +35,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       Vec3 = _cc.Vec3;
     }, function (_unresolved_2) {
       Constants = _unresolved_2.Constants;
+    }, function (_unresolved_3) {
+      AudioManager = _unresolved_3.AudioManager;
     }],
     execute: function () {
       _crd = true;
@@ -42,11 +48,15 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         property
       } = _decorator);
 
-      _export("CharacterControl", CharacterControl = (_dec = ccclass('CharacterControl'), _dec2 = property(Node), _dec(_class = (_class2 = (_temp = class CharacterControl extends Component {
+      _export("CharacterControl", CharacterControl = (_dec = ccclass('CharacterControl'), _dec2 = property(_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+        error: Error()
+      }), AudioManager) : AudioManager), _dec3 = property(Node), _dec(_class = (_class2 = (_temp = class CharacterControl extends Component {
         constructor(...args) {
           super(...args);
 
-          _initializerDefineProperty(this, "level", _descriptor, this);
+          _initializerDefineProperty(this, "AudioManager", _descriptor, this);
+
+          _initializerDefineProperty(this, "level", _descriptor2, this);
 
           _defineProperty(this, "isRun", false);
 
@@ -78,15 +88,23 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               }
 
               this.isCollide = true;
-              this.getComponent(SkeletalAnimation).play("Atk_1");
-              (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              this.AudioManager.playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
                 error: Error()
-              }), Constants) : Constants).isCharacterCollideBoos = true;
+              }), Constants) : Constants).SoundTrack.Dino_AttkSound);
+              this.AudioManager.Dino_AttkSound.loop = true;
+              this.getComponent(SkeletalAnimation).play("Atk_1");
               this.node.name === "Rap" ? this.isFight = true : this.isFight_2 = true;
+              this.node.name === "Rap" ? (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+                error: Error()
+              }), Constants) : Constants).isCharacterCollideBoos = true : (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+                error: Error()
+              }), Constants) : Constants).isCharacter_2CollideBoos = true;
               this.scheduleOnce(() => {
-                (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+                this.node.name === "Rap" ? (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
                   error: Error()
-                }), Constants) : Constants).isFailStep1 = true;
+                }), Constants) : Constants).isFailStep1 = true : (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+                  error: Error()
+                }), Constants) : Constants).isFailStep2 = true;
                 this.die();
               }, 2);
             }
@@ -95,9 +113,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
         die() {
           this.getComponent(SkeletalAnimation).play("Die");
-          (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+          this.node.name === "Rap" ? (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
-          }), Constants) : Constants).isDoneStep1 = true;
+          }), Constants) : Constants).isDoneStep1 = true : (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).isDoneStep2 = true;
+          this.AudioManager.stopSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).SoundTrack.Dino_AttkSound);
         }
 
         Run() {
@@ -134,7 +157,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           }
         }
 
-      }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "level", [_dec2], {
+      }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "AudioManager", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "level", [_dec3], {
         configurable: true,
         enumerable: true,
         writable: true,
