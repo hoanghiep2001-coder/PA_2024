@@ -1,79 +1,67 @@
-2024-02-01 13:17:21-log: [Package] menu@1.0.0 enable
-2024-02-01 13:17:21-log: [Package] profile@1.0.0 enable
-2024-02-01 13:17:21-log: [Package] project@1.0.1 enable
-2024-02-01 13:17:21-log: [Package] messages@1.0.0 enable
-2024-02-01 13:17:21-log: [Package] program@1.0.0 enable
-2024-02-01 13:17:21-log: [Package] device@1.0.1 enable
-2024-02-01 13:17:21-log: [Package] ui-kit@1.0.1 enable
-2024-02-01 13:17:21-log: [Package] tester@1.0.0 enable
-2024-02-01 13:17:21-log: [Package] preferences@1.0.0 enable
-2024-02-01 13:17:22-log: Setup mods mgr.: 287.465ms
-2024-02-01 13:17:22-log: Profile changed: engine (modules.includeModules: 2d,3d,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,marionette,particle,physics-cannon,primitive,profiler,spine,terrain,tiled-map,tween,ui,webview)
-2024-02-01 13:17:22-log: [Package] engine@1.0.5 enable
-2024-02-01 13:17:24-log: [Package] programming@1.0.0 enable
-2024-02-01 13:17:25-log: [Package] engine-extends@1.0.0 enable
-2024-02-01 13:17:25-log: [Package] asset-db@1.0.0 enable
-2024-02-01 13:17:25-log: [Package] console@1.0.0 enable
-2024-02-01 13:17:25-log: [Package] scene@1.0.0 enable
-2024-02-01 13:17:25-log: [Package] utils@1.0.0 enable
-2024-02-01 13:17:25-log: [Package] assets@1.0.0 enable
-2024-02-01 13:17:25-log: [Package] inspector@1.0.0 enable
-2024-02-01 13:17:25-log: [Package] hierarchy@1.0.0 enable
-2024-02-01 13:17:26-log: [Package] preview@1.0.1 enable
-2024-02-01 13:17:26-log: [Package] animator@1.0.0 enable
-2024-02-01 13:17:27-log: [Package] builder@1.3.1 enable
-2024-02-01 13:17:27-log: [Package] node-library@1.0.0 enable
-2024-02-01 13:17:27-log: [Package] shortcuts@1.0.1 enable
-2024-02-01 13:17:27-log: [Package] package-asset@1.0.0 enable
-2024-02-01 13:17:27-log: [Package] reference-image@1.0.0 enable
-2024-02-01 13:17:27-log: [Package] animation-graph@1.0.0 enable
-2024-02-01 13:17:27-log: [Package] channel-upload-tools@1.0.0 enable
-2024-02-01 13:17:27-log: [Package] runtime-dev-tools@1.0.0 enable
-2024-02-01 13:17:27-log: [Package] lightmap@1.0.4 enable
-2024-02-01 13:17:27-log: [Package] alipay-mini-game@1.0.0 enable
-2024-02-01 13:17:27-log: [Package] android@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] baidu-mini-game@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] bytedance-mini-game@1.0.1 enable
-2024-02-01 13:17:28-log: [Package] huawei-agc@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] ios@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] ios-app-clip@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] mac@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] native@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] ohos@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] web-desktop@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] web-mobile@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] wechatgame@1.0.1 enable
-2024-02-01 13:17:28-log: [Package] windows@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] xiaomi-quick-game@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] cocos-play@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] huawei-quick-game@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] link-sure@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] oppo-mini-game@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] qtt@1.0.0 enable
-2024-02-01 13:17:28-log: [Package] vivo-mini-game@1.0.0 enable
-2024-02-01 13:17:29-log: [Package] cocos-service@3.0.7 enable
-2024-02-01 13:17:29-log: [Package] importer@1.0.0 enable
-2024-02-01 13:17:29-log: [Package] extension@3.0.15 enable
-2024-02-01 13:17:29-log: [Im-plugin] Check im-plugin version.
-2024-02-01 13:17:29-log: [Package] im-plugin@3.0.8 enable
-2024-02-01 13:17:30-log: [Package] super-html@1.1.3 enable
-2024-02-01 13:17:30-warn: Browserslist: caniuse-lite is outdated. Please run:
+2024-02-02 08:41:49-log: [Package] menu@1.0.0 enable
+2024-02-02 08:41:49-log: [Package] profile@1.0.0 enable
+2024-02-02 08:41:49-log: [Package] project@1.0.1 enable
+2024-02-02 08:41:49-log: [Package] messages@1.0.0 enable
+2024-02-02 08:41:49-log: [Package] program@1.0.0 enable
+2024-02-02 08:41:49-log: [Package] device@1.0.1 enable
+2024-02-02 08:41:49-log: [Package] ui-kit@1.0.1 enable
+2024-02-02 08:41:49-log: [Package] tester@1.0.0 enable
+2024-02-02 08:41:49-log: [Package] preferences@1.0.0 enable
+2024-02-02 08:41:50-log: Setup mods mgr.: 620.222ms
+2024-02-02 08:41:50-log: Profile changed: engine (modules.includeModules: 2d,3d,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,marionette,particle,physics-cannon,primitive,profiler,spine,terrain,tiled-map,tween,ui,webview)
+2024-02-02 08:41:50-log: [Package] engine@1.0.5 enable
+2024-02-02 08:41:52-log: [Package] programming@1.0.0 enable
+2024-02-02 08:41:53-log: [Package] engine-extends@1.0.0 enable
+2024-02-02 08:41:53-log: [Package] asset-db@1.0.0 enable
+2024-02-02 08:41:53-log: [Package] console@1.0.0 enable
+2024-02-02 08:41:53-log: [Package] scene@1.0.0 enable
+2024-02-02 08:41:53-log: [Package] utils@1.0.0 enable
+2024-02-02 08:41:53-log: [Package] assets@1.0.0 enable
+2024-02-02 08:41:53-log: [Package] inspector@1.0.0 enable
+2024-02-02 08:41:53-log: [Package] hierarchy@1.0.0 enable
+2024-02-02 08:41:54-log: [Package] preview@1.0.1 enable
+2024-02-02 08:41:54-log: [Package] animator@1.0.0 enable
+2024-02-02 08:41:55-log: [Package] builder@1.3.1 enable
+2024-02-02 08:41:55-log: [Package] node-library@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] shortcuts@1.0.1 enable
+2024-02-02 08:41:56-log: [Package] package-asset@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] reference-image@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] animation-graph@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] channel-upload-tools@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] runtime-dev-tools@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] lightmap@1.0.4 enable
+2024-02-02 08:41:56-log: [Package] alipay-mini-game@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] android@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] baidu-mini-game@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] bytedance-mini-game@1.0.1 enable
+2024-02-02 08:41:56-log: [Package] huawei-agc@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] ios@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] ios-app-clip@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] mac@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] native@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] ohos@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] web-desktop@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] web-mobile@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] wechatgame@1.0.1 enable
+2024-02-02 08:41:56-log: [Package] windows@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] xiaomi-quick-game@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] cocos-play@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] huawei-quick-game@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] link-sure@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] oppo-mini-game@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] qtt@1.0.0 enable
+2024-02-02 08:41:56-log: [Package] vivo-mini-game@1.0.0 enable
+2024-02-02 08:42:00-log: [Package] cocos-service@3.0.7 enable
+2024-02-02 08:42:00-log: [Package] importer@1.0.0 enable
+2024-02-02 08:42:01-log: [Package] extension@3.0.15 enable
+2024-02-02 08:42:01-log: [Im-plugin] Check im-plugin version.
+2024-02-02 08:42:01-log: [Package] im-plugin@3.0.8 enable
+2024-02-02 08:42:01-log: [Package] super-html@1.1.3 enable
+2024-02-02 08:42:02-log: [Im-plugin] No online info of im-plugin.
+2024-02-02 08:42:12-warn: Browserslist: caniuse-lite is outdated. Please run:
 npx browserslist@latest --update-db
 
 Why you should do it regularly:
 https://github.com/browserslist/browserslist#browsers-data-updating
-2024-02-01 13:17:31-log: [Scene] Cocos Creator v3.4.2
-2024-02-01 13:17:33-log: [Im-plugin] No online info of im-plugin.
-2024-02-01 13:17:47-info: [Scene] Forward render pipeline initialized.
-2024-02-01 13:22:13-warn: [Build] Browserslist: caniuse-lite is outdated. Please run:
-npx browserslist@latest --update-db
-2024-02-01 13:22:14-warn: [Build] Browserslist: caniuse-lite is outdated. Please run:
-npx browserslist@latest --update-db
-
-Why you should do it regularly:
-https://github.com/browserslist/browserslist#browsers-data-updating
-2024-02-01 15:56:03-warn: [Build] Preview in build may make some errors
-2024-02-01 15:59:27-error: [Window] Cannot read property 'name' of null
-2024-02-01 15:59:28-error: [Window] Cannot read property 'name' of null
-2024-02-01 16:06:26-error: Message response error: Cannot read property 'name' of null
-2024-02-01 16:35:00-log: [Scene] Animation node(7evLM1zONHXJJMuWTxQSY1)doesn't exist
+2024-02-02 08:42:12-log: [Scene] Cocos Creator v3.4.2
+2024-02-02 08:42:20-info: [Scene] Forward render pipeline initialized.
