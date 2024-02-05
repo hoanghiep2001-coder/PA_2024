@@ -31,7 +31,8 @@ export default class GamePlay extends cc.Component {
 
 
     protected onLoad(): void {
-
+        let physics = cc.director.getPhysicsManager();
+        physics.enabled = true;
     }
 
 

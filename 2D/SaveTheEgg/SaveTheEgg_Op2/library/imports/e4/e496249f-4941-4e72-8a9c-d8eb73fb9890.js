@@ -46,6 +46,8 @@ var GamePlay = /** @class */ (function (_super) {
         return _this;
     }
     GamePlay.prototype.onLoad = function () {
+        var physics = cc.director.getPhysicsManager();
+        physics.enabled = true;
     };
     GamePlay.prototype.start = function () {
         // this.AudioManager.playSound(Constants.SoundTrack.bgSound);

@@ -12,5 +12,9 @@ export default class NodesController extends cc.Component {
     @property(cc.Node)
     HideMask: cc.Node = null;
     @property(cc.Node)
-    Pencil: cc.Node = null;
+    LineContainer: cc.Node = null;
+
+    // PreFab
+    @property(cc.Prefab)
+    Prefab_Graphics: cc.Prefab = null;
 }

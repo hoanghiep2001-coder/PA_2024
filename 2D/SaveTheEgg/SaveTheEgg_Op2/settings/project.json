@@ -2,14 +2,43 @@
   "last-module-event-record-time": 1706495455125,
   "group-list": [
     "point",
-    "handImpactPoint"
+    "Egg",
+    "Bee",
+    "Wall",
+    "Line"
   ],
   "collision-matrix": [
     [
       false,
+      false,
+      null,
       true
     ],
     [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       false
     ]

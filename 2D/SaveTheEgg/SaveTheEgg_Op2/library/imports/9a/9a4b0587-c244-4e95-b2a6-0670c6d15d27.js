@@ -32,7 +32,9 @@ var NodesController = /** @class */ (function (_super) {
         _this.Graphics = null;
         // Node
         _this.HideMask = null;
-        _this.Pencil = null;
+        _this.LineContainer = null;
+        // PreFab
+        _this.Prefab_Graphics = null;
         return _this;
     }
     __decorate([
@@ -43,7 +45,10 @@ var NodesController = /** @class */ (function (_super) {
     ], NodesController.prototype, "HideMask", void 0);
     __decorate([
         property(cc.Node)
-    ], NodesController.prototype, "Pencil", void 0);
+    ], NodesController.prototype, "LineContainer", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], NodesController.prototype, "Prefab_Graphics", void 0);
     NodesController = __decorate([
         ccclass
     ], NodesController);

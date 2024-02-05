@@ -3,12 +3,6 @@ cc._RF.push(module, 'bd701N6NVNEvrKURY+sGJNw', 'TouchAreaController');
 // Script/Controller/TouchAreaController.ts
 
 "use strict";
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -39,6 +33,7 @@ var TouchAreaController = /** @class */ (function (_super) {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.NodesController = null;
         _this.AudioManager = null;
+        _this.points = [];
         return _this;
     }
     TouchAreaController.prototype.start = function () {
@@ -60,8 +55,16 @@ var TouchAreaController = /** @class */ (function (_super) {
         if (!constants_1.Constants.isCanTouch) {
             return;
         }
-        this.NodesController.Graphics.moveTo(constants_1.Constants.currentPosition.x - cc.winSize.width / 2, constants_1.Constants.currentPosition.y - cc.winSize.height / 2 - constants_1.Constants.Responsive.calculated);
-        this.NodesController.Graphics.lineTo(e.getLocation().x - cc.winSize.width / 2, e.getLocation().y - cc.winSize.height / 2 - constants_1.Constants.Responsive.calculated);
+        this.points.push(this.node.convertToNodeSpaceAR(e.getLocation()));
+        this.handleDrawLine();
+        // this.NodesController.Graphics.moveTo(
+        //     Constants.currentPosition.x - cc.winSize.width / 2,
+        //     Constants.currentPosition.y - cc.winSize.height / 2 - Constants.Responsive.calculated
+        // );
+        // this.NodesController.Graphics.lineTo(
+        //     e.getLocation().x - cc.winSize.width / 2,
+        //     e.getLocation().y - cc.winSize.height / 2 - Constants.Responsive.calculated
+        // );
         constants_1.Constants.currentPosition = e.getLocation();
         this.NodesController.Graphics.stroke();
     };
@@ -69,8 +72,13 @@ var TouchAreaController = /** @class */ (function (_super) {
         if (!constants_1.Constants.isCanTouch) {
             return;
         }
-        // this.NodesController.Graphics.clear();
+        console.log(this.NodesController.Graphics.lineCap);
         this.AudioManager.stopSound(constants_1.Constants.SoundTrack.drawSound);
+    };
+    TouchAreaController.prototype.handleDrawLine = function () {
+        // let newPoint = cc.instantiate(this.NodesController.LinePrefab);
+        // newPoint.setPosition(this.points)
+        // this.NodesController.LineContainer
     };
     __decorate([
         property(NodesController_1.default)
