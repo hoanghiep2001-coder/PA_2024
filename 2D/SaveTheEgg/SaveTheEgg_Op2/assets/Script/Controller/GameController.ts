@@ -46,7 +46,7 @@ export class GameController extends cc.Component {
         // If ad network support MRAID 2.0
         if (typeof(mraid) != "undefined") {
             if (cc.sys.os == cc.sys.OS_ANDROID || cc.sys.os == cc.sys.ANDROID) {
-                mraid.open("https://play.google.com/store/apps/details?id=dop.draw.it.art.brain.game.easy.drawing");
+                mraid.open("https://play.google.com/store/apps/details?id=com.an.savetheeggs.drawtosave");
                 return;
             }
 
@@ -55,7 +55,7 @@ export class GameController extends cc.Component {
             //     return;
             // }
 
-            mraid.open("https://play.google.com/store/apps/details?id=dop.draw.it.art.brain.game.easy.drawing");
+            mraid.open("https://play.google.com/store/apps/details?id=com.an.savetheeggs.drawtosave");
             return;
         }
         // If ad network is mindwork. window alway avaiable so skip undefined check

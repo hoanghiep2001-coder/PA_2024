@@ -1,2947 +1,2282 @@
 {
   "a45fea2f-f433-41ba-a62b-3b7bb6ff1c18": {
-    "asset": 1708338376096,
-    "meta": 1708338376107,
+    "asset": 1708364888000,
+    "meta": 1708392890436,
     "relativePath": "game.fire"
   },
   "abfac626-0edb-48ee-8008-8433bd5fe577": {
-    "asset": 1708325592409,
-    "meta": 1708325665085,
+    "asset": 1708354460000,
+    "meta": 1708392890427,
     "relativePath": "Script"
   },
   "7261ff7d-ae73-4d8b-9f6c-e568da914d39": {
-    "asset": 1708325592407,
-    "meta": 1708325665089,
+    "asset": 1708354460000,
+    "meta": 1708392890434,
     "relativePath": "Script\\Data"
   },
   "77e98da0-07c9-4c34-81e2-fb779629ab08": {
-    "asset": 1708325592399,
-    "meta": 1708325665089,
+    "asset": 1708354460000,
+    "meta": 1708392890433,
     "relativePath": "Script\\Controller"
   },
   "9836134e-b892-4283-b6b2-78b5acf3ed45": {
     "asset": 1678068564944,
-    "meta": 1708325658365,
+    "meta": 1708392883913,
     "relativePath": "effects"
   },
   "abc2cb62-7852-4525-a90d-d474487b88f2": {
     "asset": 1678068564928,
-    "meta": 1708325658655,
+    "meta": 1708392884168,
     "relativePath": "effects\\builtin-phong.effect"
   },
   "e2f00085-c597-422d-9759-52c360279106": {
     "asset": 1678068564943,
-    "meta": 1708325658722,
+    "meta": 1708392884233,
     "relativePath": "effects\\builtin-toon.effect"
   },
   "430eccbf-bf2c-4e6e-8c0c-884bbb487f32": {
     "asset": 1678068564944,
-    "meta": 1708325658737,
+    "meta": 1708392884252,
     "relativePath": "effects\\__builtin-editor-gizmo-line.effect"
   },
   "6c5cf6e1-b044-4eac-9431-835644d57381": {
     "asset": 1678068564944,
-    "meta": 1708325658749,
+    "meta": 1708392884263,
     "relativePath": "effects\\__builtin-editor-gizmo-unlit.effect"
   },
   "115286d1-2e10-49ee-aab4-341583f607e8": {
     "asset": 1678068564944,
-    "meta": 1708325658789,
+    "meta": 1708392884309,
     "relativePath": "effects\\__builtin-editor-gizmo.effect"
   },
   "f8e6b000-5643-4b86-9080-aa680ce1f599": {
     "asset": 1678068564978,
-    "meta": 1708325658365,
+    "meta": 1708392883914,
     "relativePath": "image"
   },
   "d81ec8ad-247c-4e62-aa3c-d35c4193c7af": {
     "asset": 1678068564961,
-    "meta": 1708325658824,
+    "meta": 1708392884339,
     "relativePath": "image\\default_panel.png"
   },
   "71561142-4c83-4933-afca-cb7a17f67053": {
     "asset": 1678068564944,
-    "meta": 1708325658827,
+    "meta": 1708392884340,
     "relativePath": "image\\default_btn_disabled.png"
   },
   "edd215b9-2796-4a05-aaf5-81f96c9281ce": {
     "asset": 1678068564961,
-    "meta": 1708325658829,
+    "meta": 1708392884338,
     "relativePath": "image\\default_editbox_bg.png"
   },
   "e851e89b-faa2-4484-bea6-5c01dd9f06e2": {
     "asset": 1678068564944,
-    "meta": 1708325658825,
+    "meta": 1708392884336,
     "relativePath": "image\\default_btn_normal.png"
   },
   "b43ff3c2-02bb-4874-81f7-f2dea6970f18": {
     "asset": 1678068564944,
-    "meta": 1708325658828,
+    "meta": 1708392884335,
     "relativePath": "image\\default_btn_pressed.png"
   },
   "600301aa-3357-4a10-b086-84f011fa32ba": {
     "asset": 1678068564944,
-    "meta": 1708325658847,
+    "meta": 1708392884347,
     "relativePath": "image\\default-particle.png"
   },
   "99170b0b-d210-46f1-b213-7d9e3f23098a": {
     "asset": 1678068564961,
-    "meta": 1708325658844,
+    "meta": 1708392884355,
     "relativePath": "image\\default_progressbar_bg.png"
   },
   "0291c134-b3da-4098-b7b5-e397edbe947f": {
     "asset": 1678068564961,
-    "meta": 1708325658851,
+    "meta": 1708392884358,
     "relativePath": "image\\default_scrollbar.png"
   },
   "cfef78f1-c8df-49b7-8ed0-4c953ace2621": {
     "asset": 1678068564961,
-    "meta": 1708325658843,
+    "meta": 1708392884354,
     "relativePath": "image\\default_progressbar.png"
   },
   "567dcd80-8bf4-4535-8a5a-313f1caf078a": {
     "asset": 1678068564961,
-    "meta": 1708325658849,
+    "meta": 1708392884356,
     "relativePath": "image\\default_radio_button_off.png"
   },
   "9d60001f-b5f4-4726-a629-2659e3ded0b8": {
     "asset": 1678068564961,
-    "meta": 1708325658841,
+    "meta": 1708392884359,
     "relativePath": "image\\default_radio_button_on.png"
   },
   "4bab67cb-18e6-4099-b840-355f0473f890": {
     "asset": 1678068564961,
-    "meta": 1708325658861,
+    "meta": 1708392884370,
     "relativePath": "image\\default_scrollbar_bg.png"
   },
   "617323dd-11f4-4dd3-8eec-0caf6b3b45b9": {
     "asset": 1678068564978,
-    "meta": 1708325658861,
+    "meta": 1708392884375,
     "relativePath": "image\\default_scrollbar_vertical_bg.png"
   },
   "5c3eedba-6c41-4c0c-9ba7-d91f813cbd1c": {
     "asset": 1678068564994,
-    "meta": 1708325658366,
+    "meta": 1708392883915,
     "relativePath": "materials"
   },
   "73a0903d-d80e-4e3c-aa67-f999543c08f5": {
     "asset": 1678068564978,
-    "meta": 1708325658872,
+    "meta": 1708392884380,
     "relativePath": "image\\default_toggle_checkmark.png"
   },
   "fc09f9bd-2cce-4605-b630-8145ef809ed6": {
     "asset": 1678068564994,
-    "meta": 1708325658367,
+    "meta": 1708392883916,
     "relativePath": "misc"
   },
   "d6d3ca85-4681-47c1-b5dd-d036a9d39ea2": {
     "asset": 1678068564977,
-    "meta": 1708325658860,
+    "meta": 1708392884373,
     "relativePath": "image\\default_scrollbar_vertical.png"
   },
   "db019bf7-f71c-4111-98cf-918ea180cb48": {
     "asset": 1678068565011,
-    "meta": 1708325658368,
+    "meta": 1708392883917,
     "relativePath": "model"
   },
   "6e056173-d285-473c-b206-40a7fff5386e": {
     "asset": 1678068564978,
-    "meta": 1708325658862,
+    "meta": 1708392884377,
     "relativePath": "image\\default_sprite.png"
   },
   "e39e96e6-6f6e-413f-bcf1-ac7679bb648a": {
     "asset": 1678068565011,
-    "meta": 1708325658873,
+    "meta": 1708392884383,
     "relativePath": "model\\prefab"
   },
   "c25b9d50-c8fc-4d27-beeb-6e7c1f2e5c0f": {
     "asset": 1678068564978,
-    "meta": 1708325658903,
+    "meta": 1708392884411,
     "relativePath": "image\\default_toggle_disabled.png"
   },
   "c4480a0a-6ac5-443f-8b40-361a14257fc8": {
     "asset": 1678068564994,
-    "meta": 1708325659291,
+    "meta": 1708392884770,
     "relativePath": "materials\\builtin-phong.mtl"
   },
   "a87cc147-01b2-43f8-8e42-a7ca90b0c757": {
     "asset": 1678068564994,
-    "meta": 1708325658994,
+    "meta": 1708392884483,
     "relativePath": "model\\prefab\\box.prefab"
   },
   "fe1417b6-fe6b-46a4-ae7c-9fd331f33a2a": {
     "asset": 1678068564994,
-    "meta": 1708325658996,
+    "meta": 1708392884482,
     "relativePath": "model\\prefab\\capsule.prefab"
   },
   "0275e94c-56a7-410f-bd1a-fc7483f7d14a": {
     "asset": 1678068564978,
-    "meta": 1708325658870,
+    "meta": 1708392884378,
     "relativePath": "image\\default_sprite_splash.png"
   },
   "b5fc2cf2-7942-483d-be1f-bbeadc4714ad": {
     "asset": 1678068564994,
-    "meta": 1708325658992,
+    "meta": 1708392884486,
     "relativePath": "model\\prefab\\cone.prefab"
   },
   "1c5e4038-953a-44c2-b620-0bbfc6170477": {
     "asset": 1678068565011,
-    "meta": 1708325659000,
+    "meta": 1708392884490,
     "relativePath": "model\\prefab\\cylinder.prefab"
   },
   "2be36297-9abb-4fee-8049-9ed5e271da8a": {
     "asset": 1678068564994,
-    "meta": 1708325658925,
+    "meta": 1708392884416,
     "relativePath": "misc\\default_video.mp4"
   },
   "3f376125-a699-40ca-ad05-04d662eaa1f2": {
     "asset": 1678068565011,
-    "meta": 1708325658999,
+    "meta": 1708392884492,
     "relativePath": "model\\prefab\\plane.prefab"
   },
   "6c9ef10d-b479-420b-bfe6-39cdda6a8ae0": {
     "asset": 1678068565011,
-    "meta": 1708325659004,
+    "meta": 1708392884495,
     "relativePath": "model\\prefab\\quad.prefab"
   },
   "f6e6dd15-71d1-4ffe-ace7-24fd39942c05": {
     "asset": 1678068565028,
-    "meta": 1708325658369,
+    "meta": 1708392883917,
     "relativePath": "obsolete"
   },
   "2d9a4b85-b0ab-4c46-84c5-18f393ab2058": {
     "asset": 1678068565011,
-    "meta": 1708325659005,
+    "meta": 1708392884498,
     "relativePath": "model\\prefab\\sphere.prefab"
   },
   "f743d2b6-b7ea-4c14-a55b-547ed4d0a045": {
     "asset": 1678068565028,
-    "meta": 1708325658372,
+    "meta": 1708392883919,
     "relativePath": "particle"
   },
   "de510076-056b-484f-b94c-83bef217d0e1": {
     "asset": 1678068565011,
-    "meta": 1708325659008,
+    "meta": 1708392884499,
     "relativePath": "model\\prefab\\torus.prefab"
   },
   "ae6c6c98-11e4-452f-8758-75f5c6a56e83": {
     "asset": 1678068565102,
-    "meta": 1708325658373,
+    "meta": 1708392883920,
     "relativePath": "prefab"
   },
   "b181c1e4-0a72-4a91-bfb0-ae6f36ca60bd": {
     "asset": 1678068564978,
-    "meta": 1708325658904,
+    "meta": 1708392884413,
     "relativePath": "image\\default_toggle_pressed.png"
   },
   "897ef7a1-4860-4f64-968d-f5924b18668a": {
     "asset": 1678068565028,
-    "meta": 1708325658916,
+    "meta": 1708392884421,
     "relativePath": "prefab\\2d-camera.prefab"
   },
   "70d7cdb0-04cd-41bb-9480-c06a4785f386": {
     "asset": 1678068565044,
-    "meta": 1708325658922,
+    "meta": 1708392884422,
     "relativePath": "prefab\\3d-camera.prefab"
   },
   "d29077ba-1627-4a72-9579-7b56a235340c": {
     "asset": 1678068564978,
-    "meta": 1708325658902,
+    "meta": 1708392884409,
     "relativePath": "image\\default_toggle_normal.png"
   },
   "70bbeb73-6dc2-4ee4-8faf-76b3a0e34ec4": {
     "asset": 1678068565044,
-    "meta": 1708325658928,
+    "meta": 1708392884426,
     "relativePath": "prefab\\3d-particle.prefab"
   },
   "972b9a4d-47ee-4c74-b5c3-61d8a69bc29f": {
     "asset": 1678068565044,
-    "meta": 1708325658931,
+    "meta": 1708392884430,
     "relativePath": "prefab\\button.prefab"
   },
   "ed88f13d-fcad-4848-aa35-65a2cb973584": {
     "asset": 1678068565044,
-    "meta": 1708325658929,
+    "meta": 1708392884428,
     "relativePath": "prefab\\3d-stage.prefab"
   },
   "2c937608-2562-40ea-b264-7395df6f0cea": {
     "asset": 1678068565044,
-    "meta": 1708325658936,
+    "meta": 1708392884432,
     "relativePath": "prefab\\canvas.prefab"
   },
   "61aeb05b-3b32-452b-8eed-2b76deeed554": {
     "asset": 1678068565044,
-    "meta": 1708325658939,
+    "meta": 1708392884436,
     "relativePath": "prefab\\editbox.prefab"
   },
   "a3ee0214-b432-4865-9666-4a3211814282": {
     "asset": 1678068565061,
-    "meta": 1708325658932,
+    "meta": 1708392884433,
     "relativePath": "prefab\\light"
   },
   "27756ebb-3d33-44b0-9b96-e858fadd4dd4": {
     "asset": 1678068565044,
-    "meta": 1708325658938,
+    "meta": 1708392884437,
     "relativePath": "prefab\\label.prefab"
   },
   "785a442c-3ceb-45be-a46e-7317f625f3b9": {
     "asset": 1678068565044,
-    "meta": 1708325658941,
+    "meta": 1708392884442,
     "relativePath": "prefab\\layout.prefab"
   },
   "ca8401fe-ad6e-41a8-bd46-8e3e4e9945be": {
     "asset": 1678068565061,
-    "meta": 1708325658943,
+    "meta": 1708392884444,
     "relativePath": "prefab\\pageview.prefab"
   },
   "cd33edea-55f5-46c2-958d-357a01384a36": {
     "asset": 1678068565061,
-    "meta": 1708325658945,
+    "meta": 1708392884446,
     "relativePath": "prefab\\particlesystem.prefab"
   },
   "5965ffac-69da-4b55-bcde-9225d0613c28": {
     "asset": 1678068565077,
-    "meta": 1708325658949,
+    "meta": 1708392884449,
     "relativePath": "prefab\\progressBar.prefab"
   },
   "8a96b965-2dc0-4e03-aa90-3b79cb93b5b4": {
     "asset": 1678068565028,
-    "meta": 1708325658917,
+    "meta": 1708392884418,
     "relativePath": "obsolete\\atom.png"
   },
   "4a37dd57-78cd-4cec-aad4-f11a73d12b63": {
     "asset": 1678068565078,
-    "meta": 1708325658950,
+    "meta": 1708392884447,
     "relativePath": "prefab\\richtext.prefab"
   },
   "32044bd2-481f-4cf1-a656-e2b2fb1594eb": {
     "asset": 1678068565078,
-    "meta": 1708325658964,
+    "meta": 1708392884453,
     "relativePath": "prefab\\scrollview.prefab"
   },
   "d0a82d39-bede-46c4-b698-c81ff0dedfff": {
     "asset": 1678068565028,
-    "meta": 1708325658919,
+    "meta": 1708392884434,
     "relativePath": "particle\\atom.png"
   },
   "0004d1cf-a0ad-47d8-ab17-34d3db9d35a3": {
     "asset": 1678068565078,
-    "meta": 1708325658973,
+    "meta": 1708392884455,
     "relativePath": "prefab\\slider.prefab"
   },
   "96083d03-c332-4a3f-9386-d03e2d19e8ee": {
     "asset": 1678068565078,
-    "meta": 1708325658947,
+    "meta": 1708392884451,
     "relativePath": "prefab\\sprite.prefab"
   },
   "1f55e3be-b89b-4b79-88de-47fd31018044": {
     "asset": 1678068565078,
-    "meta": 1708325658969,
+    "meta": 1708392884457,
     "relativePath": "prefab\\sprite_splash.prefab"
   },
   "7de03a80-4457-438d-95a7-3e7cdffd6086": {
     "asset": 1678068565078,
-    "meta": 1708325658965,
+    "meta": 1708392884467,
     "relativePath": "prefab\\tiledmap.prefab"
   },
   "0e42ba95-1fa1-46aa-b2cf-143cd1bcee2c": {
     "asset": 1678068565078,
-    "meta": 1708325658967,
+    "meta": 1708392884473,
     "relativePath": "prefab\\tiledtile.prefab"
   },
   "0d784963-d024-4ea6-a7db-03be0ad63010": {
     "asset": 1678068565093,
-    "meta": 1708325658975,
+    "meta": 1708392884471,
     "relativePath": "prefab\\toggle.prefab"
   },
   "d1b8be49-b0a0-435c-83b7-552bed4bbe35": {
     "asset": 1678068565097,
-    "meta": 1708325658981,
+    "meta": 1708392884469,
     "relativePath": "prefab\\toggleGroup.prefab"
   },
   "bf0a434c-84dd-4a8e-a08a-7a36f180cc75": {
     "asset": 1678068565095,
-    "meta": 1708325658979,
+    "meta": 1708392884475,
     "relativePath": "prefab\\toggleContainer.prefab"
   },
   "232d2782-c4bd-4bb4-9e01-909f03d6d3b9": {
     "asset": 1678068565099,
-    "meta": 1708325658983,
+    "meta": 1708392884479,
     "relativePath": "prefab\\videoplayer.prefab"
   },
   "8c5001fd-07ee-4a4b-a8a0-63e15195e94d": {
     "asset": 1678068565101,
-    "meta": 1708325658991,
+    "meta": 1708392884480,
     "relativePath": "prefab\\webview.prefab"
   },
   "d8afc78c-4eac-4a9f-83dd-67bc70344d33": {
     "asset": 1678068565111,
-    "meta": 1708325658374,
+    "meta": 1708392883921,
     "relativePath": "resources"
   },
   "294c1663-4adf-4a1e-a795-53808011a38a": {
     "asset": 1678068565111,
-    "meta": 1708325658976,
+    "meta": 1708392884472,
     "relativePath": "resources\\effects"
   },
   "61906da3-7003-4bda-9abc-5769c76faee4": {
     "asset": 1678068565061,
-    "meta": 1708325659028,
+    "meta": 1708392884643,
     "relativePath": "prefab\\light\\ambient.prefab"
   },
   "bbee2217-c261-49bd-a8ce-708d6bcc3500": {
     "asset": 1678068565145,
-    "meta": 1708325658977,
+    "meta": 1708392884473,
     "relativePath": "resources\\materials"
   },
   "0cf30284-9073-46bc-9eba-e62b69dbbff3": {
     "asset": 1678068565061,
-    "meta": 1708325659219,
+    "meta": 1708392884698,
     "relativePath": "prefab\\light\\point.prefab"
   },
   "30682f87-9f0d-4f17-8a44-72863791461b": {
     "asset": 1678068565106,
-    "meta": 1708325659025,
+    "meta": 1708392884515,
     "relativePath": "resources\\effects\\builtin-2d-graphics.effect"
   },
   "ddb99b39-7004-47cd-9705-751905c43c46": {
     "asset": 1678068565061,
-    "meta": 1708325659216,
+    "meta": 1708392884677,
     "relativePath": "prefab\\light\\directional.prefab"
   },
   "144c3297-af63-49e8-b8ef-1cfa29b3be28": {
     "asset": 1678068565107,
-    "meta": 1708325659043,
+    "meta": 1708392884528,
     "relativePath": "resources\\effects\\builtin-2d-gray-sprite.effect"
   },
   "f18742d7-56d2-4eb5-ae49-2d9d710b37c8": {
     "asset": 1678068565110,
-    "meta": 1708325659058,
+    "meta": 1708392884543,
     "relativePath": "resources\\effects\\builtin-2d-label.effect"
   },
   "0e93aeaa-0b53-4e40-b8e0-6268b4e07bd7": {
     "asset": 1678068565111,
-    "meta": 1708325659072,
+    "meta": 1708392884558,
     "relativePath": "resources\\effects\\builtin-2d-spine.effect"
   },
   "2874f8dd-416c-4440-81b7-555975426e93": {
     "asset": 1678068565111,
-    "meta": 1708325659088,
+    "meta": 1708392884572,
     "relativePath": "resources\\effects\\builtin-2d-sprite.effect"
   },
   "829a282c-b049-4019-bd38-5ace8d8a6417": {
     "asset": 1678068565111,
-    "meta": 1708325659157,
+    "meta": 1708392884640,
     "relativePath": "resources\\effects\\builtin-3d-particle.effect"
   },
   "2a7c0036-e0b3-4fe1-8998-89a54b8a2bec": {
     "asset": 1678068565111,
-    "meta": 1708325659182,
+    "meta": 1708392884663,
     "relativePath": "resources\\effects\\builtin-3d-trail.effect"
   },
   "b8223619-7e38-47c4-841f-9160c232495a": {
     "asset": 1678068565026,
-    "meta": 1708325659317,
+    "meta": 1708392884805,
     "relativePath": "obsolete\\atom.plist"
   },
   "c0040c95-c57f-49cd-9cbc-12316b73d0d4": {
     "asset": 1678068565111,
-    "meta": 1708325659192,
+    "meta": 1708392884676,
     "relativePath": "resources\\effects\\builtin-clear-stencil.effect"
   },
   "b2687ac4-099e-403c-a192-ff477686f4f5": {
     "asset": 1678068565028,
-    "meta": 1708325659316,
+    "meta": 1708392884803,
     "relativePath": "particle\\atom.plist"
   },
   "6d91e591-4ce0-465c-809f-610ec95019c6": {
     "asset": 1678068565111,
-    "meta": 1708325659213,
+    "meta": 1708392884697,
     "relativePath": "resources\\effects\\builtin-unlit.effect"
   },
   "f5331fd2-bf42-4ee3-a3fd-3e1657600eff": {
     "asset": 1678068565061,
-    "meta": 1708325659217,
+    "meta": 1708392884665,
     "relativePath": "prefab\\light\\spot.prefab"
   },
   "6f801092-0c37-4f30-89ef-c8d960825b36": {
     "asset": 1678068565128,
-    "meta": 1708325659323,
+    "meta": 1708392884798,
     "relativePath": "resources\\materials\\builtin-2d-base.mtl"
   },
   "3a7bb79f-32fd-422e-ada2-96f518fed422": {
     "asset": 1678068565128,
-    "meta": 1708325659322,
+    "meta": 1708392884801,
     "relativePath": "resources\\materials\\builtin-2d-gray-sprite.mtl"
   },
   "a153945d-2511-4c14-be7b-05d242f47d57": {
     "asset": 1678068565128,
-    "meta": 1708325659321,
+    "meta": 1708392884799,
     "relativePath": "resources\\materials\\builtin-2d-graphics.mtl"
   },
   "e02d87d4-e599-4d16-8001-e14891ac6506": {
     "asset": 1678068565128,
-    "meta": 1708325659323,
+    "meta": 1708392884800,
     "relativePath": "resources\\materials\\builtin-2d-label.mtl"
   },
   "7afd064b-113f-480e-b793-8817d19f63c3": {
     "asset": 1678068565128,
-    "meta": 1708325659324,
+    "meta": 1708392884801,
     "relativePath": "resources\\materials\\builtin-2d-spine.mtl"
   },
   "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432": {
     "asset": 1678068565128,
-    "meta": 1708325659325,
+    "meta": 1708392884802,
     "relativePath": "resources\\materials\\builtin-2d-sprite.mtl"
   },
   "432fa09c-cf03-4cff-a186-982604408a07": {
     "asset": 1678068565128,
-    "meta": 1708325659327,
+    "meta": 1708392884803,
     "relativePath": "resources\\materials\\builtin-3d-particle.mtl"
   },
   "466d4f9b-e5f4-4ea8-85d5-3c6e9a65658a": {
     "asset": 1678068565128,
-    "meta": 1708325659327,
+    "meta": 1708392884804,
     "relativePath": "resources\\materials\\builtin-3d-trail.mtl"
   },
   "cf7e0bb8-a81c-44a9-ad79-d28d43991032": {
     "asset": 1678068565145,
-    "meta": 1708325659326,
+    "meta": 1708392884805,
     "relativePath": "resources\\materials\\builtin-clear-stencil.mtl"
   },
   "2a296057-247c-4a1c-bbeb-0548b6c98650": {
     "asset": 1678068565145,
-    "meta": 1708325659328,
+    "meta": 1708392884806,
     "relativePath": "resources\\materials\\builtin-unlit.mtl"
   },
   "954fec8b-cd16-4bb9-a3b7-7719660e7558": {
     "asset": 1678068565011,
-    "meta": 1708325664645,
+    "meta": 1708392889286,
     "relativePath": "model\\primitives.fbx"
   },
   "3f19cb59-150e-47b7-bab1-89443411feaf": {
-    "asset": 1708325592416,
-    "meta": 1708325665090,
+    "asset": 1708354460000,
+    "meta": 1708392890437,
     "relativePath": "Script\\Plugin"
   },
   "53e20d24-add7-4b40-bba6-bd238bdd5a51": {
-    "asset": 1708325592371,
-    "meta": 1708325665084,
+    "asset": 1708363772000,
+    "meta": 1708392890425,
     "relativePath": "Animation"
   },
   "3a8b88e1-eaf8-4827-8bf3-dc6dd7b84fe4": {
-    "asset": 1708325592454,
-    "meta": 1708325665086,
+    "asset": 1708354462000,
+    "meta": 1708392890427,
     "relativePath": "Sound"
   },
   "e5467b50-7e47-49eb-adea-718c8d70581c": {
-    "asset": 1708325592526,
-    "meta": 1708325665086,
+    "asset": 1708354462000,
+    "meta": 1708392890427,
     "relativePath": "Spine"
   },
   "5731a6a8-0567-4f8e-8d75-33a14eacba6d": {
-    "asset": 1708325592619,
-    "meta": 1708325665087,
+    "asset": 1708354476000,
+    "meta": 1708392890427,
     "relativePath": "Sprites"
   },
   "a7db60d5-468e-4cdb-9c04-63a038fe86b3": {
-    "asset": 1704818646000,
-    "meta": 1704851241212,
+    "asset": 1708354462000,
+    "meta": 1708392891022,
     "relativePath": "Spine\\multi_tool2.png"
   },
   "07fe4625-3323-47e9-bfc1-bd5baa5c78d5": {
-    "asset": 1704818646000,
-    "meta": 1704851241156,
+    "asset": 1708354462000,
+    "meta": 1708392890987,
     "relativePath": "Spine\\Maggots_remove.atlas.txt"
   },
   "6e37d70e-54c0-4cbe-a718-7a6d27fe4e0b": {
-    "asset": 1704818646000,
-    "meta": 1704851241208,
+    "asset": 1708354462000,
+    "meta": 1708392891025,
     "relativePath": "Spine\\Maggots_remove.png"
   },
   "ca65e0c0-68d4-469c-ad6f-bfc57e96b2ae": {
-    "asset": 1704818646000,
-    "meta": 1704851241864,
+    "asset": 1708354462000,
+    "meta": 1708392892754,
     "relativePath": "Spine\\Maggots_remove.json"
   },
   "8a33129d-423a-4ec6-ad3e-f7c0603c4a7f": {
-    "asset": 1704818646000,
-    "meta": 1704851241154,
+    "asset": 1708354462000,
+    "meta": 1708392890977,
     "relativePath": "Spine\\Acnes.atlas.txt"
   },
   "f2a611ba-f0fe-47d5-b156-2fee7ff40ce3": {
-    "asset": 1704818646000,
-    "meta": 1704851241196,
+    "asset": 1708354462000,
+    "meta": 1708392891020,
     "relativePath": "Spine\\Acnes.png"
   },
   "6f607c8f-035c-4d65-a074-55ef8db638f9": {
-    "asset": 1704818646000,
-    "meta": 1704851241866,
+    "asset": 1708354462000,
+    "meta": 1708392892751,
     "relativePath": "Spine\\Acnes.json"
   },
   "d78ba177-d308-449f-92e4-f7891d2f19b1": {
-    "asset": 1704818646000,
-    "meta": 1704851241171,
+    "asset": 1708354462000,
+    "meta": 1708392890992,
     "relativePath": "Spine\\Shower.atlas.txt"
   },
   "294c2fba-2d43-4987-83c6-a17b5bd5dfa1": {
-    "asset": 1704818646000,
-    "meta": 1704851241873,
+    "asset": 1708354462000,
+    "meta": 1708392892761,
     "relativePath": "Spine\\Shower.json"
   },
   "f02af7f3-1921-40b8-9f06-99c03a1becae": {
-    "asset": 1680666501859,
-    "meta": 1704851666329,
+    "asset": 1708354462000,
+    "meta": 1708392890983,
     "relativePath": "Spine\\Cleanser02.atlas.txt"
   },
   "d741d010-da89-43be-aa92-ad9f11f5a11c": {
-    "asset": 1680666501858,
-    "meta": 1704851666364,
+    "asset": 1708354462000,
+    "meta": 1708392891029,
     "relativePath": "Spine\\Cleanser02.png"
   },
   "a0a1b9b6-849b-4dfc-aae1-da49185ce874": {
-    "asset": 1680666501280,
-    "meta": 1704851666369,
+    "asset": 1708354462000,
+    "meta": 1708392892749,
     "relativePath": "Spine\\Cleanser02.json"
   },
   "ab8b790c-0009-4e09-b35a-2a83e6414a65": {
-    "asset": 1708325592381,
-    "meta": 1708325665085,
+    "asset": 1708354460000,
+    "meta": 1708392890426,
     "relativePath": "Particle"
   },
   "d26504ae-f083-4e02-8cba-4322d611a3bd": {
-    "asset": 1704856900832,
-    "meta": 1704856920956,
+    "asset": 1708354460000,
+    "meta": 1708392890460,
     "relativePath": "Particle\\Blink.png"
   },
   "ba23df47-4fad-42a2-8f01-be04615cdb0e": {
-    "asset": 1704856903815,
-    "meta": 1704856920962,
+    "asset": 1708354460000,
+    "meta": 1708392892738,
     "relativePath": "Particle\\Blink.plist"
   },
   "23e58dc8-02f5-44b5-9a31-70396668483c": {
-    "asset": 1708325592549,
-    "meta": 1708325665091,
+    "asset": 1708354462000,
+    "meta": 1708392890989,
     "relativePath": "Spine\\New folder"
   },
   "0c9dc0ec-fb2c-4107-83a0-e4957e4f7d21": {
-    "asset": 1704860204485,
-    "meta": 1704860371317,
+    "asset": 1708354462000,
+    "meta": 1708392891289,
     "relativePath": "Spine\\New folder\\Bubble.atlas.txt"
   },
   "b63e0e12-dbc4-4b01-bba9-7238da634e4e": {
-    "asset": 1704860291665,
-    "meta": 1704860371319,
+    "asset": 1708354462000,
+    "meta": 1708392891291,
     "relativePath": "Spine\\New folder\\multi_tool.atlas.txt"
   },
   "30b7847e-1e25-468b-9446-efe95c8b7dc0": {
-    "asset": 1704860291665,
-    "meta": 1704860371342,
+    "asset": 1708354462000,
+    "meta": 1708392891310,
     "relativePath": "Spine\\New folder\\multi_tool.png"
   },
   "c66812a0-6589-4a28-bc7a-f7fa1d917043": {
-    "asset": 1704860204484,
-    "meta": 1704860371345,
+    "asset": 1708354462000,
+    "meta": 1708392891305,
     "relativePath": "Spine\\New folder\\Bubble.png"
   },
   "08421fb9-2ecd-43a0-ae98-63327ec3592a": {
-    "asset": 1704860204368,
-    "meta": 1704860371354,
+    "asset": 1708354462000,
+    "meta": 1708392892782,
     "relativePath": "Spine\\New folder\\Bubble.json"
   },
   "c361d080-1b77-476d-a0d7-fbcd630b5ec2": {
-    "asset": 1704860291574,
-    "meta": 1704860371355,
+    "asset": 1708354462000,
+    "meta": 1708392892783,
     "relativePath": "Spine\\New folder\\multi_tool.json"
   },
   "5d16b890-8f1c-4262-8d0b-99cdd1b0f989": {
-    "asset": 1704838910000,
-    "meta": 1704864140886,
+    "asset": 1708354462000,
+    "meta": 1708392891033,
     "relativePath": "Spine\\Shower.png"
   },
   "71ec7829-6ef6-42ca-b8e7-6ff2b1869282": {
-    "asset": 1701936644797,
-    "meta": 1704876748279,
+    "asset": 1708354462000,
+    "meta": 1708392891171,
     "relativePath": "Sprites\\PlayNow.png"
   },
   "5e55c932-4608-4d46-9fdd-01eb2008ab79": {
-    "asset": 1701936640439,
-    "meta": 1704884488545,
+    "asset": 1708354462000,
+    "meta": 1708392891129,
     "relativePath": "Sprites\\NEWBIE.png"
   },
   "03f2c7ae-a6f0-447d-af69-bad987db5e53": {
-    "asset": 1708325900845,
-    "meta": 1708325907773,
+    "asset": 1708354460000,
+    "meta": 1708392891204,
     "relativePath": "Script\\Data\\Ultils.ts"
   },
   "20002c6e-a74f-4645-9b1f-a75983686a87": {
-    "asset": 1707271309022,
-    "meta": 1708326203876,
+    "asset": 1708354462000,
+    "meta": 1708392891356,
     "relativePath": "Sprites\\Preview.png"
   },
   "c38d3714-7682-4f17-b8d8-ea409a1c284f": {
-    "asset": 1708301072000,
-    "meta": 1708326289727,
+    "asset": 1708354462000,
+    "meta": 1708392891054,
     "relativePath": "Sprites\\Doll.png"
   },
   "549400e0-07cc-4f0c-b054-832875b90f04": {
-    "asset": 1708301072000,
-    "meta": 1708326289730,
+    "asset": 1708354462000,
+    "meta": 1708392891049,
     "relativePath": "Sprites\\ao dep.png"
   },
   "3089c514-830e-4618-a358-efdb3dfd3805": {
-    "asset": 1708301072000,
-    "meta": 1708326289732,
+    "asset": 1708354462000,
+    "meta": 1708392891055,
     "relativePath": "Sprites\\book.png"
   },
   "39fcbba0-83bd-4f7a-bae2-d76b64470f04": {
-    "asset": 1708301072000,
-    "meta": 1708326289733,
+    "asset": 1708354462000,
+    "meta": 1708392891034,
     "relativePath": "Sprites\\ao ban.png"
   },
   "0171c45e-b3ae-4122-91c9-a5619bca348c": {
-    "asset": 1708301072000,
-    "meta": 1708326289766,
+    "asset": 1708354462000,
+    "meta": 1708392891187,
     "relativePath": "Sprites\\BG.png"
   },
   "53a3c75a-7c25-4cbe-b2a3-e4fea4822760": {
-    "asset": 1707155738000,
-    "meta": 1708327758785,
+    "asset": 1708354460000,
+    "meta": 1708392890919,
     "relativePath": "Sound\\sfx_bomshow.mp3"
   },
   "9a45d213-9a68-473e-bee9-9aff02de9fa2": {
-    "asset": 1707157958000,
-    "meta": 1708327758789,
+    "asset": 1708354460000,
+    "meta": 1708392890920,
     "relativePath": "Sound\\sfx_close.mp3"
   },
   "ae1444e1-5cce-4a58-a69c-b79c8d96ac7a": {
-    "asset": 1707161526000,
-    "meta": 1708327758794,
+    "asset": 1708354460000,
+    "meta": 1708392890925,
     "relativePath": "Sound\\bg_match3_3.mp3"
   },
   "34bb522f-b6d9-4e0a-a42b-78196e90d3b9": {
-    "asset": 1707160912000,
-    "meta": 1708327758796,
+    "asset": 1708354460000,
+    "meta": 1708392890925,
     "relativePath": "Sound\\bg_match3_2.mp3"
   },
   "26aa70af-1ffc-4265-82f5-f1189c00008b": {
-    "asset": 1707158862000,
-    "meta": 1708327758798,
+    "asset": 1708354460000,
+    "meta": 1708392890927,
     "relativePath": "Sound\\bg_home.mp3"
   },
   "cb8d56f0-4e13-4d35-b745-84fefa2df966": {
-    "asset": 1707159794000,
-    "meta": 1708327758800,
+    "asset": 1708354460000,
+    "meta": 1708392890926,
     "relativePath": "Sound\\bg_match3_1.mp3"
   },
   "d421dd01-fd2c-4ff1-b6e1-e08a80ae1649": {
-    "asset": 1707153982000,
-    "meta": 1708327758807,
+    "asset": 1708354460000,
+    "meta": 1708392890929,
     "relativePath": "Sound\\sfx_collect.mp3"
   },
   "ec8a3a16-4e3b-4588-80b0-b50d830a8820": {
-    "asset": 1707154414000,
-    "meta": 1708327758818,
+    "asset": 1708354460000,
+    "meta": 1708392890945,
     "relativePath": "Sound\\sfx_gem2.mp3"
   },
   "39130417-f63a-4ff2-bcbb-e6916f95ce49": {
-    "asset": 1707134180000,
-    "meta": 1708327758827,
+    "asset": 1708354460000,
+    "meta": 1708392890936,
     "relativePath": "Sound\\sfx_filp.mp3"
   },
   "53b46257-1ed2-4926-ae56-0db5cde2decf": {
-    "asset": 1707155016000,
-    "meta": 1708327758829,
+    "asset": 1708354460000,
+    "meta": 1708392890930,
     "relativePath": "Sound\\sfx_explode1.mp3"
   },
   "058fab8b-d7c6-471e-8a83-dfe92aac9ccb": {
-    "asset": 1707157502000,
-    "meta": 1708327758842,
+    "asset": 1708354460000,
+    "meta": 1708392890937,
     "relativePath": "Sound\\sfx_explode2.mp3"
   },
   "205c564e-ecd5-404b-8746-6199e569a6c4": {
-    "asset": 1707154438000,
-    "meta": 1708327758845,
+    "asset": 1708354460000,
+    "meta": 1708392890957,
     "relativePath": "Sound\\sfx_gem3.mp3"
   },
   "a028ff12-8481-4098-aa54-25d15085018f": {
-    "asset": 1707154340000,
-    "meta": 1708327758857,
+    "asset": 1708354460000,
+    "meta": 1708392890941,
     "relativePath": "Sound\\sfx_gem1.mp3"
   },
   "6527dfbc-19f0-41dd-95cd-5380dd0649d4": {
-    "asset": 1707148962000,
-    "meta": 1708327758863,
+    "asset": 1708354460000,
+    "meta": 1708392890948,
     "relativePath": "Sound\\sfx_hammer.mp3"
   },
   "b36e04f9-b44d-4655-993d-a97f4f4652a4": {
-    "asset": 1707150618000,
-    "meta": 1708327758867,
+    "asset": 1708354460000,
+    "meta": 1708392890951,
     "relativePath": "Sound\\sfx_jar.mp3"
   },
   "cd596b23-4c4a-4222-8a64-45363a2115bc": {
-    "asset": 1707154480000,
-    "meta": 1708327758871,
+    "asset": 1708354460000,
+    "meta": 1708392890954,
     "relativePath": "Sound\\sfx_gem5.mp3"
   },
   "d4b12f28-2d0d-4020-87f8-4582e4f3e833": {
-    "asset": 1707152562000,
-    "meta": 1708327758884,
+    "asset": 1708354460000,
+    "meta": 1708392890955,
     "relativePath": "Sound\\sfx_lose.mp3"
   },
   "60b72b68-8de8-4045-bc07-1f3329ebebf4": {
-    "asset": 1707154460000,
-    "meta": 1708327758887,
+    "asset": 1708354460000,
+    "meta": 1708392890947,
     "relativePath": "Sound\\sfx_gem4.mp3"
   },
   "68297e4f-9a6a-4386-a15f-3c401543966a": {
-    "asset": 1707149522000,
-    "meta": 1708327758890,
+    "asset": 1708354460000,
+    "meta": 1708392890943,
     "relativePath": "Sound\\sfx_glove.mp3"
   },
   "ddbf3cf9-220f-4e62-8e27-b4b6d6b3d392": {
-    "asset": 1707157226000,
-    "meta": 1708327758899,
+    "asset": 1708354462000,
+    "meta": 1708392890959,
     "relativePath": "Sound\\sfx_rainbowexplode.mp3"
   },
   "32c8c718-2e38-4297-b0c4-e09c47c26031": {
-    "asset": 1707157876000,
-    "meta": 1708327758909,
+    "asset": 1708354462000,
+    "meta": 1708392890964,
     "relativePath": "Sound\\sfx_show.mp3"
   },
   "56f8c4f8-834c-4a61-bfff-2e13bb43977d": {
-    "asset": 1707133906000,
-    "meta": 1708327758910,
+    "asset": 1708354462000,
+    "meta": 1708392890958,
     "relativePath": "Sound\\sfx_pick.mp3"
   },
   "49ab3429-d854-4302-bdc2-0a0e324d3ddf": {
-    "asset": 1707155306000,
-    "meta": 1708327758914,
+    "asset": 1708354462000,
+    "meta": 1708392890963,
     "relativePath": "Sound\\sfx_rainbowshow.mp3"
   },
   "5af38f39-d07b-446a-92cf-5fd6b5adf847": {
-    "asset": 1707153670000,
-    "meta": 1708327758922,
+    "asset": 1708354462000,
+    "meta": 1708392890968,
     "relativePath": "Sound\\sfx_textbonus2.MP3"
   },
   "c454244c-a65d-4b84-91de-b41f2cee4ddf": {
-    "asset": 1707134340000,
-    "meta": 1708327758927,
+    "asset": 1708354462000,
+    "meta": 1708392890966,
     "relativePath": "Sound\\sfx_textbonus1.mp3"
   },
   "b90956d9-f052-4af4-951d-ef6ecabda64c": {
-    "asset": 1707152954000,
-    "meta": 1708327758935,
+    "asset": 1708354462000,
+    "meta": 1708392890974,
     "relativePath": "Sound\\sfx_textbonus6.MP3"
   },
   "66db8b2e-a6f6-4c88-8c58-af9e84ff185a": {
-    "asset": 1696562540000,
-    "meta": 1708327758938,
+    "asset": 1708354462000,
+    "meta": 1708392890971,
     "relativePath": "Sound\\sfx_textbonus4.mp3"
   },
   "db07599e-ada9-4bf6-a5d5-54310a7ed0f7": {
-    "asset": 1707152874000,
-    "meta": 1708327758948,
+    "asset": 1708354462000,
+    "meta": 1708392890973,
     "relativePath": "Sound\\sfx_textbonus7.MP3"
   },
   "04969bc1-0d03-4865-8886-54bab82dc5e9": {
-    "asset": 1707151524000,
-    "meta": 1708327758956,
+    "asset": 1708354462000,
+    "meta": 1708392890980,
     "relativePath": "Sound\\sfx_win.mp3"
   },
   "7368487f-a2e8-46c4-b6b8-f4e29274133c": {
-    "asset": 1707153812000,
-    "meta": 1708327758971,
+    "asset": 1708354462000,
+    "meta": 1708392890976,
     "relativePath": "Sound\\sfx_textcompleted.MP3"
   },
   "f7503900-5ab7-4022-8b49-76a80753499a": {
-    "asset": 1707153518000,
-    "meta": 1708327758972,
+    "asset": 1708354462000,
+    "meta": 1708392890970,
     "relativePath": "Sound\\sfx_textbonus5.MP3"
   },
   "04c3909a-846e-4c09-b71d-5877fe6c7117": {
-    "asset": 1707133708000,
-    "meta": 1708327758979,
+    "asset": 1708354462000,
+    "meta": 1708392890990,
     "relativePath": "Sound\\sfx_write.mp3"
   },
   "313549c0-b47f-4d79-940c-663044cb9113": {
-    "asset": 1708328877411,
-    "meta": 1708328877424,
+    "asset": 1708354460000,
+    "meta": 1708392890433,
     "relativePath": "Animation\\Doll_IdleAnim.anim"
   },
   "d5db9412-0470-475f-a06a-7370a797f0c6": {
-    "asset": 1671595524000,
-    "meta": 1708329965525,
+    "asset": 1708354462000,
+    "meta": 1708392891110,
     "relativePath": "Sprites\\hand.png"
   },
   "eba74195-2466-44de-b7bc-bb77c9a8f06e": {
-    "asset": 1708330038652,
-    "meta": 1708330038665,
+    "asset": 1708354460000,
+    "meta": 1708392890434,
     "relativePath": "Animation\\Hand_Anim.anim"
   },
   "459a67e4-9871-47e5-9fb9-fb3d4ee79481": {
-    "asset": 1708330400274,
-    "meta": 1708330458912,
+    "asset": 1708354460000,
+    "meta": 1708392891090,
     "relativePath": "Script\\Controller\\GameController.ts"
   },
   "94be27e4-00f1-4cd8-94a3-27e40156f5f1": {
-    "asset": 1704878970219,
-    "meta": 1708330695395,
+    "asset": 1708354462000,
+    "meta": 1708392890985,
     "relativePath": "Sound\\woaaaaa.mp3"
   },
   "c38ebc9e-5d21-46b0-924a-b2edbcc1cb12": {
-    "asset": 1708331240493,
-    "meta": 1708331240500,
+    "asset": 1708354460000,
+    "meta": 1708392890432,
     "relativePath": "Animation\\GamePlay_Anim.anim"
   },
   "b5dbbb21-158c-4030-88be-de90534e191f": {
-    "asset": 1708334464747,
-    "meta": 1708334572989,
+    "asset": 1708354462000,
+    "meta": 1708392891047,
     "relativePath": "Sprites\\glasses_01.png"
   },
   "540f0f7c-b13c-439f-807a-146a4707cb39": {
-    "asset": 1708334468756,
-    "meta": 1708334572990,
+    "asset": 1708354462000,
+    "meta": 1708392891065,
     "relativePath": "Sprites\\glasses_02.png"
   },
   "5a4d7479-f214-402a-9c0d-f511fa446de6": {
-    "asset": 1708309848000,
-    "meta": 1708335071940,
+    "asset": 1708354462000,
+    "meta": 1708392891059,
     "relativePath": "Sprites\\dress_body_58.png"
   },
-  "4c7cff6b-0d22-4bdf-a709-b73d655337bf": {
-    "asset": 1708336359206,
-    "meta": 1708336370069,
-    "relativePath": "Script\\Plugin\\AudioManager.ts"
-  },
-  "b1d34b2b-3f5e-4936-8c6d-cce0ad434a19": {
-    "asset": 1708336500566,
-    "meta": 1708336668244,
-    "relativePath": "Script\\Controller\\GamePlay.ts"
-  },
-  "eaccbffa-f456-43bb-aac2-e18991fae016": {
-    "asset": 1708336631669,
-    "meta": 1708336668277,
-    "relativePath": "Script\\Data\\constants.ts"
-  },
   "040bf7c8-77b6-424d-b4c1-baa3a0c4f78d": {
-    "asset": 1708336989475,
-    "meta": 1708336989495,
+    "asset": 1708354472000,
+    "meta": 1708392891031,
     "relativePath": "Sprites\\Clothes"
   },
   "b21c78f7-501b-43db-8216-80ef43d66681": {
-    "asset": 1694500664549,
-    "meta": 1708336989524,
+    "asset": 1708354462000,
+    "meta": 1708392891315,
     "relativePath": "Sprites\\Clothes\\acc06.png"
   },
   "409a45dd-e79d-4b46-be78-13d2bb28fd28": {
-    "asset": 1692949475485,
-    "meta": 1708336989532,
+    "asset": 1708354462000,
+    "meta": 1708392891303,
     "relativePath": "Sprites\\Clothes\\acc01.png"
   },
   "5045ba2a-15ba-40d4-baa3-4261362a2a67": {
-    "asset": 1694500660759,
-    "meta": 1708336989536,
+    "asset": 1708354462000,
+    "meta": 1708392891307,
     "relativePath": "Sprites\\Clothes\\acc04.png"
   },
   "5d75877d-1f41-490a-9f38-850fbc5acd57": {
-    "asset": 1692765354884,
-    "meta": 1708336989538,
+    "asset": 1708354462000,
+    "meta": 1708392891324,
     "relativePath": "Sprites\\Clothes\\bag00.png"
   },
   "30811c70-d8a1-414f-a436-bf3128753f2b": {
-    "asset": 1694500663020,
-    "meta": 1708336989565,
+    "asset": 1708354462000,
+    "meta": 1708392891319,
     "relativePath": "Sprites\\Clothes\\acc05.png"
   },
   "fb616070-e8d2-47c7-b38e-ae34dbf80cc4": {
-    "asset": 1694500646213,
-    "meta": 1708336989570,
+    "asset": 1708354462000,
+    "meta": 1708392891340,
     "relativePath": "Sprites\\Clothes\\coat32_back.png"
   },
   "b3d8d93b-453c-42ec-b778-c09387f6258a": {
-    "asset": 1694500664217,
-    "meta": 1708336989574,
+    "asset": 1708354462000,
+    "meta": 1708392891342,
     "relativePath": "Sprites\\Clothes\\coat32_R_front.png"
   },
   "fcfb6fb5-cc5f-419e-a8d4-67d97525d163": {
-    "asset": 1694508680296,
-    "meta": 1708336989577,
+    "asset": 1708354462000,
+    "meta": 1708392891333,
     "relativePath": "Sprites\\Clothes\\coat32_L_front.png"
   },
   "b60ab440-9ba7-45a4-88eb-709c1a1a71a4": {
-    "asset": 1692765354392,
-    "meta": 1708336989602,
+    "asset": 1708354464000,
+    "meta": 1708392891357,
     "relativePath": "Sprites\\Clothes\\dress00_back.png"
   },
   "1dd39067-66c6-4148-8bb7-29f489c029ad": {
-    "asset": 1692773926822,
-    "meta": 1708336989613,
+    "asset": 1708354464000,
+    "meta": 1708392891358,
     "relativePath": "Sprites\\Clothes\\earring00_R.png"
   },
   "b6826c24-3ca1-4f7a-8a15-4e40fd221386": {
-    "asset": 1692773926688,
-    "meta": 1708336989619,
+    "asset": 1708354464000,
+    "meta": 1708392891351,
     "relativePath": "Sprites\\Clothes\\earring00_L.png"
   },
   "2df0aa5b-1a87-46ce-af97-f5012330e02f": {
-    "asset": 1692765354098,
-    "meta": 1708336989630,
+    "asset": 1708354464000,
+    "meta": 1708392891374,
     "relativePath": "Sprites\\Clothes\\dress00_front.png"
   },
   "d49435ce-7d8e-44a3-b7f6-1bc9ce916d3f": {
-    "asset": 1692949203673,
-    "meta": 1708336989645,
+    "asset": 1708354464000,
+    "meta": 1708392891363,
     "relativePath": "Sprites\\Clothes\\face01.png"
   },
   "1d4d55f6-f506-4813-962f-3614e98c44a8": {
-    "asset": 1692949203516,
-    "meta": 1708336989647,
+    "asset": 1708354464000,
+    "meta": 1708392891375,
     "relativePath": "Sprites\\Clothes\\face02.png"
   },
   "2865b817-03f9-4bac-8631-52dbce59ab41": {
-    "asset": 1692949203369,
-    "meta": 1708336989671,
+    "asset": 1708354464000,
+    "meta": 1708392891377,
     "relativePath": "Sprites\\Clothes\\face03.png"
   },
   "59ad2462-4c14-4cde-a74a-b6e9f3b26637": {
-    "asset": 1692949203049,
-    "meta": 1708336989674,
+    "asset": 1708354464000,
+    "meta": 1708392891379,
     "relativePath": "Sprites\\Clothes\\face05.png"
   },
   "fbe78821-e2d4-421f-9140-00455b258329": {
-    "asset": 1692949203211,
-    "meta": 1708336989678,
+    "asset": 1708354464000,
+    "meta": 1708392891376,
     "relativePath": "Sprites\\Clothes\\face04.png"
   },
   "f8ebf829-7427-4ed4-a892-0ef2b57fead7": {
-    "asset": 1692949202902,
-    "meta": 1708336989694,
+    "asset": 1708354464000,
+    "meta": 1708392891386,
     "relativePath": "Sprites\\Clothes\\face06.png"
   },
   "3dac381f-2801-42eb-8127-281ea4479520": {
-    "asset": 1692949202702,
-    "meta": 1708336989702,
+    "asset": 1708354464000,
+    "meta": 1708392891389,
     "relativePath": "Sprites\\Clothes\\face07.png"
   },
   "daa912b0-7979-4e58-b5a6-c34af7a4c732": {
-    "asset": 1692949202510,
-    "meta": 1708336989708,
+    "asset": 1708354464000,
+    "meta": 1708392891391,
     "relativePath": "Sprites\\Clothes\\face08.png"
   },
   "b9461fa1-9bbd-4bd7-a98c-403cc39eaa6f": {
-    "asset": 1692949202350,
-    "meta": 1708336989711,
+    "asset": 1708354464000,
+    "meta": 1708392891393,
     "relativePath": "Sprites\\Clothes\\face09.png"
   },
   "4bf59245-b123-4198-a58b-7d57884a0153": {
-    "asset": 1692949202195,
-    "meta": 1708336989714,
+    "asset": 1708354464000,
+    "meta": 1708392891392,
     "relativePath": "Sprites\\Clothes\\face10.png"
   },
   "fd8d92c8-75fd-4911-a827-912a62e22b09": {
-    "asset": 1692949202037,
-    "meta": 1708336989722,
+    "asset": 1708354464000,
+    "meta": 1708392891400,
     "relativePath": "Sprites\\Clothes\\face11.png"
   },
   "c35ace32-9884-4386-9cbc-0bbe22d7d208": {
-    "asset": 1692949201732,
-    "meta": 1708336989740,
+    "asset": 1708354464000,
+    "meta": 1708392891405,
     "relativePath": "Sprites\\Clothes\\face13.png"
   },
   "59074ca2-3713-4d3d-bd54-6738b8c99ed8": {
-    "asset": 1692949201882,
-    "meta": 1708336989744,
+    "asset": 1708354464000,
+    "meta": 1708392891406,
     "relativePath": "Sprites\\Clothes\\face12.png"
   },
   "d1033eb8-2991-4060-ae6b-435c98bcd943": {
-    "asset": 1692949201478,
-    "meta": 1708336989745,
+    "asset": 1708354464000,
+    "meta": 1708392891404,
     "relativePath": "Sprites\\Clothes\\face14.png"
   },
   "d60a9c1d-6a57-40bf-b96a-c10ab118ac80": {
-    "asset": 1692949201158,
-    "meta": 1708336989747,
+    "asset": 1708354464000,
+    "meta": 1708392891411,
     "relativePath": "Sprites\\Clothes\\face16.png"
   },
   "f229df0f-4494-4993-96d8-23ab9f6d8fb1": {
-    "asset": 1692949201320,
-    "meta": 1708336989749,
+    "asset": 1708354464000,
+    "meta": 1708392891407,
     "relativePath": "Sprites\\Clothes\\face15.png"
   },
   "f27612d0-ae67-41ce-85df-8e242c3e7ede": {
-    "asset": 1692949201000,
-    "meta": 1708336989760,
+    "asset": 1708354464000,
+    "meta": 1708392891424,
     "relativePath": "Sprites\\Clothes\\face17.png"
   },
   "e973f1fb-50c9-46d3-8fdd-6bc03e20f00a": {
-    "asset": 1693276323657,
-    "meta": 1708336989778,
+    "asset": 1708354464000,
+    "meta": 1708392891419,
     "relativePath": "Sprites\\Clothes\\face21.png"
   },
   "d89b34fa-2904-48c1-8d04-77eb428a425c": {
-    "asset": 1692949200830,
-    "meta": 1708336989781,
+    "asset": 1708354464000,
+    "meta": 1708392891423,
     "relativePath": "Sprites\\Clothes\\face18.png"
   },
   "578336e7-69e6-4e5a-a81a-07a005766fd1": {
-    "asset": 1692949200626,
-    "meta": 1708336989782,
+    "asset": 1708354464000,
+    "meta": 1708392891425,
     "relativePath": "Sprites\\Clothes\\face19.png"
   },
   "2477599f-35c3-4b5f-991c-b13eb1aee800": {
-    "asset": 1694155748305,
-    "meta": 1708336989783,
+    "asset": 1708354464000,
+    "meta": 1708392891433,
     "relativePath": "Sprites\\Clothes\\face22.png"
   },
   "c52f8198-d1b9-40ba-a6a7-e7d20ebba38c": {
-    "asset": 1692949200454,
-    "meta": 1708336989785,
+    "asset": 1708354464000,
+    "meta": 1708392891422,
     "relativePath": "Sprites\\Clothes\\face20.png"
   },
   "cbd72796-4cfa-4803-aa84-071be5041e29": {
-    "asset": 1694154235636,
-    "meta": 1708336989799,
+    "asset": 1708354464000,
+    "meta": 1708392891437,
     "relativePath": "Sprites\\Clothes\\face22_close.png"
   },
   "81d7b465-5360-417c-b256-a30857c37e8f": {
-    "asset": 1693276324100,
-    "meta": 1708336989804,
+    "asset": 1708354464000,
+    "meta": 1708392891436,
     "relativePath": "Sprites\\Clothes\\face25.png"
   },
   "b1cbcb43-cd98-472e-b4a9-a6e603a31df3": {
-    "asset": 1693276323948,
-    "meta": 1708336989807,
+    "asset": 1708354464000,
+    "meta": 1708392891438,
     "relativePath": "Sprites\\Clothes\\face23.png"
   },
   "029224c7-fb6d-4297-9fe9-16617b90c750": {
-    "asset": 1693276324237,
-    "meta": 1708336989808,
+    "asset": 1708354464000,
+    "meta": 1708392891441,
     "relativePath": "Sprites\\Clothes\\face26.png"
   },
   "e8225694-2f7c-4a50-9ab1-6d52d97b9042": {
-    "asset": 1693276853733,
-    "meta": 1708336989810,
+    "asset": 1708354464000,
+    "meta": 1708392891439,
     "relativePath": "Sprites\\Clothes\\face24.png"
   },
   "75cfe4fe-84e3-45ae-83a7-6fadb609fc73": {
-    "asset": 1694141107433,
-    "meta": 1708336989813,
+    "asset": 1708354464000,
+    "meta": 1708392891455,
     "relativePath": "Sprites\\Clothes\\face27.png"
   },
   "22a40080-4da9-41af-99e3-682fc4d03c20": {
-    "asset": 1694154529274,
-    "meta": 1708336989828,
+    "asset": 1708354464000,
+    "meta": 1708392891462,
     "relativePath": "Sprites\\Clothes\\face29_close.png"
   },
   "b9b162aa-26b8-43cb-9985-10963f63bf95": {
-    "asset": 1694156217851,
-    "meta": 1708336989832,
+    "asset": 1708354464000,
+    "meta": 1708392891453,
     "relativePath": "Sprites\\Clothes\\face29.png"
   },
   "88b003ce-f162-42ee-9332-cc4ebe7c728d": {
-    "asset": 1694155764452,
-    "meta": 1708336989840,
+    "asset": 1708354464000,
+    "meta": 1708392891454,
     "relativePath": "Sprites\\Clothes\\face28.png"
   },
   "26ba881c-7768-42a3-ac1d-be7ae5f8c2b0": {
-    "asset": 1694154236425,
-    "meta": 1708336989842,
+    "asset": 1708354464000,
+    "meta": 1708392891451,
     "relativePath": "Sprites\\Clothes\\face28_close.png"
   },
   "d59ce344-3bb7-44c8-be21-ce124f3b7ce3": {
-    "asset": 1694140831349,
-    "meta": 1708336989850,
+    "asset": 1708354464000,
+    "meta": 1708392891468,
     "relativePath": "Sprites\\Clothes\\face31.png"
   },
   "ad83fb45-5f96-4483-8b13-58bf23d5f801": {
-    "asset": 1693276324797,
-    "meta": 1708336989853,
+    "asset": 1708354464000,
+    "meta": 1708392891463,
     "relativePath": "Sprites\\Clothes\\face30.png"
   },
   "31667be5-1dd1-4fec-b747-402d50a2179e": {
-    "asset": 1694140831207,
-    "meta": 1708336989883,
+    "asset": 1708354464000,
+    "meta": 1708392891467,
     "relativePath": "Sprites\\Clothes\\face32.png"
   },
   "68585711-a512-4988-bd52-55561b887335": {
-    "asset": 1694140830743,
-    "meta": 1708336989889,
+    "asset": 1708354464000,
+    "meta": 1708392891477,
     "relativePath": "Sprites\\Clothes\\face35.png"
   },
   "b45fc203-4826-466c-8a8d-90327bc4f05b": {
-    "asset": 1694140830364,
-    "meta": 1708336989895,
+    "asset": 1708354464000,
+    "meta": 1708392891480,
     "relativePath": "Sprites\\Clothes\\face37.png"
   },
   "6b5ddd9b-fd8f-44c2-8e4c-3b5dbe4a7882": {
-    "asset": 1694140831063,
-    "meta": 1708336989897,
+    "asset": 1708354464000,
+    "meta": 1708392891466,
     "relativePath": "Sprites\\Clothes\\face33.png"
   },
   "f62c98eb-8a3d-4911-bbce-0a6af1f25e62": {
-    "asset": 1694140830895,
-    "meta": 1708336989898,
+    "asset": 1708354464000,
+    "meta": 1708392891469,
     "relativePath": "Sprites\\Clothes\\face34.png"
   },
   "372e4d79-3f91-4135-9b86-e8317b8b12fa": {
-    "asset": 1694140830218,
-    "meta": 1708336989941,
+    "asset": 1708354464000,
+    "meta": 1708392891487,
     "relativePath": "Sprites\\Clothes\\face38.png"
   },
   "e1f3eaf2-2d46-4c34-80ee-d7a237851640": {
-    "asset": 1694140829896,
-    "meta": 1708336989945,
+    "asset": 1708354464000,
+    "meta": 1708392891482,
     "relativePath": "Sprites\\Clothes\\face40.png"
   },
   "7c4af204-9e6c-4245-8e0e-3a064437213f": {
-    "asset": 1694140830520,
-    "meta": 1708336989946,
+    "asset": 1708354464000,
+    "meta": 1708392891481,
     "relativePath": "Sprites\\Clothes\\face36.png"
   },
   "4d855a79-6004-444b-aa1d-357731e3eb34": {
-    "asset": 1694140830057,
-    "meta": 1708336989948,
+    "asset": 1708354464000,
+    "meta": 1708392891484,
     "relativePath": "Sprites\\Clothes\\face39.png"
   },
   "0ee067aa-a953-40c9-b085-3886459babe6": {
-    "asset": 1692765354706,
-    "meta": 1708336989951,
+    "asset": 1708354464000,
+    "meta": 1708392891499,
     "relativePath": "Sprites\\Clothes\\hair00_front.png"
   },
   "98eaa115-4932-4b65-8261-d38885f5c998": {
-    "asset": 1692765292228,
-    "meta": 1708336989978,
+    "asset": 1708354464000,
+    "meta": 1708392891501,
     "relativePath": "Sprites\\Clothes\\hair00_back.png"
   },
   "94cb2bc8-cb6b-490c-9f34-caf576263bc7": {
-    "asset": 1694061417842,
-    "meta": 1708336990014,
+    "asset": 1708354464000,
+    "meta": 1708392891503,
     "relativePath": "Sprites\\Clothes\\hair01_front.png"
   },
   "5d0183d2-defe-4a3b-9b68-ac26c1c51860": {
-    "asset": 1694061418661,
-    "meta": 1708336990017,
+    "asset": 1708354464000,
+    "meta": 1708392891516,
     "relativePath": "Sprites\\Clothes\\hair02_front.png"
   },
   "583d7a80-0fc6-4b9b-baa2-c05c77b482c8": {
-    "asset": 1694061418925,
-    "meta": 1708336990031,
+    "asset": 1708354464000,
+    "meta": 1708392891521,
     "relativePath": "Sprites\\Clothes\\hair03_back.png"
   },
   "ea795bef-1447-4fb5-a67e-f622afa790c9": {
-    "asset": 1694061419177,
-    "meta": 1708336990035,
+    "asset": 1708354464000,
+    "meta": 1708392891528,
     "relativePath": "Sprites\\Clothes\\hair03_front.png"
   },
   "1afce21d-fd6c-4b59-8d24-4cb661fbd0d2": {
-    "asset": 1694070056891,
-    "meta": 1708336990046,
+    "asset": 1708354464000,
+    "meta": 1708392891530,
     "relativePath": "Sprites\\Clothes\\hair02_back.png"
   },
   "0c0b5168-8e41-48ec-b4a3-23abc07d87d5": {
-    "asset": 1694061417565,
-    "meta": 1708336990048,
+    "asset": 1708354464000,
+    "meta": 1708392891518,
     "relativePath": "Sprites\\Clothes\\hair01_back.png"
   },
   "17a5fbff-6807-4762-818d-d9f718eaad2e": {
-    "asset": 1694061419447,
-    "meta": 1708336990065,
+    "asset": 1708354464000,
+    "meta": 1708392891533,
     "relativePath": "Sprites\\Clothes\\hair04_back.png"
   },
   "9874d1e5-7333-42f5-a938-229daa14f80b": {
-    "asset": 1694061419705,
-    "meta": 1708336990090,
+    "asset": 1708354464000,
+    "meta": 1708392891541,
     "relativePath": "Sprites\\Clothes\\hair04_front.png"
   },
   "48de0f43-0121-4b08-a274-eab75532dc6e": {
-    "asset": 1694061419969,
-    "meta": 1708336990093,
+    "asset": 1708354466000,
+    "meta": 1708392891539,
     "relativePath": "Sprites\\Clothes\\hair05_back.png"
   },
   "57e7cfe5-33fa-436c-869f-3f2ed4d7a7d1": {
-    "asset": 1694061420244,
-    "meta": 1708336990094,
+    "asset": 1708354466000,
+    "meta": 1708392891549,
     "relativePath": "Sprites\\Clothes\\hair05_front.png"
   },
   "9fb8145f-320a-4407-8852-a26ba000fbbf": {
-    "asset": 1694061420979,
-    "meta": 1708336990125,
+    "asset": 1708354466000,
+    "meta": 1708392891548,
     "relativePath": "Sprites\\Clothes\\hair06_front.png"
   },
   "67251433-77be-432e-8f84-3683b2e258cb": {
-    "asset": 1694061421764,
-    "meta": 1708336990139,
+    "asset": 1708354466000,
+    "meta": 1708392891556,
     "relativePath": "Sprites\\Clothes\\hair08_back.png"
   },
   "0037f76d-10e0-485a-8016-759af3221e5a": {
-    "asset": 1694061422005,
-    "meta": 1708336990148,
+    "asset": 1708354466000,
+    "meta": 1708392891568,
     "relativePath": "Sprites\\Clothes\\hair08_front.png"
   },
   "377f09a6-fe67-47ad-9bb5-d788cce62376": {
-    "asset": 1694061420756,
-    "meta": 1708336990165,
+    "asset": 1708354466000,
+    "meta": 1708392891569,
     "relativePath": "Sprites\\Clothes\\hair06_back.png"
   },
   "833aa4b0-2ffb-446d-98ad-68840f50d7f7": {
-    "asset": 1694061421537,
-    "meta": 1708336990167,
+    "asset": 1708354466000,
+    "meta": 1708392891559,
     "relativePath": "Sprites\\Clothes\\hair07_front.png"
   },
   "8678c497-2120-4545-a47b-36fecb23d1bd": {
-    "asset": 1694061602043,
-    "meta": 1708336990191,
+    "asset": 1708354466000,
+    "meta": 1708392891572,
     "relativePath": "Sprites\\Clothes\\hair09_front.png"
   },
   "b978efb3-6950-4a47-85c1-f0b7332b8a78": {
-    "asset": 1694061421300,
-    "meta": 1708336990193,
+    "asset": 1708354466000,
+    "meta": 1708392891550,
     "relativePath": "Sprites\\Clothes\\hair07_back.png"
   },
   "37901f92-8d59-492e-a1cf-05f8e412ad5f": {
-    "asset": 1694061422314,
-    "meta": 1708336990195,
+    "asset": 1708354466000,
+    "meta": 1708392891586,
     "relativePath": "Sprites\\Clothes\\hair10_back.png"
   },
   "cba9540d-024f-4d3c-bf36-4baf37c28b3f": {
-    "asset": 1694061601132,
-    "meta": 1708336990216,
+    "asset": 1708354466000,
+    "meta": 1708392891579,
     "relativePath": "Sprites\\Clothes\\hair09_back.png"
   },
   "07be0217-1af0-422e-8394-660ad5642ce9": {
-    "asset": 1694061423048,
-    "meta": 1708336990228,
+    "asset": 1708354466000,
+    "meta": 1708392891590,
     "relativePath": "Sprites\\Clothes\\hair11_front.png"
   },
   "813dc1b6-7b53-4226-95a1-4c142b171992": {
-    "asset": 1694061423600,
-    "meta": 1708336990235,
+    "asset": 1708354466000,
+    "meta": 1708392891602,
     "relativePath": "Sprites\\Clothes\\hair12_front.png"
   },
   "1aadb338-db2f-4aec-ad33-f340d23371a2": {
-    "asset": 1694061422832,
-    "meta": 1708336990243,
+    "asset": 1708354466000,
+    "meta": 1708392891588,
     "relativePath": "Sprites\\Clothes\\hair11_back.png"
   },
   "000fce1c-63bf-4254-bd72-09c5a8b9074f": {
-    "asset": 1694061422557,
-    "meta": 1708336990245,
+    "asset": 1708354466000,
+    "meta": 1708392891582,
     "relativePath": "Sprites\\Clothes\\hair10_front.png"
   },
   "2c4fd938-cc6b-4de6-9b3c-00c47618f35e": {
-    "asset": 1694061423363,
-    "meta": 1708336990253,
+    "asset": 1708354466000,
+    "meta": 1708392891599,
     "relativePath": "Sprites\\Clothes\\hair12_back.png"
   },
   "85b1d6f3-6416-4c28-a269-74d036effeb3": {
-    "asset": 1694061424728,
-    "meta": 1708336990310,
+    "asset": 1708354466000,
+    "meta": 1708392891610,
     "relativePath": "Sprites\\Clothes\\hair14_front.png"
   },
   "9e22fe6e-0099-4580-8790-6b5c2308f03b": {
-    "asset": 1694061425003,
-    "meta": 1708336990311,
+    "asset": 1708354466000,
+    "meta": 1708392891622,
     "relativePath": "Sprites\\Clothes\\hair15_back.png"
   },
   "4c4bd624-6888-42fd-8884-f89548461782": {
-    "asset": 1694061424157,
-    "meta": 1708336990313,
+    "asset": 1708354466000,
+    "meta": 1708392891605,
     "relativePath": "Sprites\\Clothes\\hair13_front.png"
   },
   "cff6aff7-2e5b-4827-a6f9-1475faa85ecd": {
-    "asset": 1694061424448,
-    "meta": 1708336990315,
+    "asset": 1708354466000,
+    "meta": 1708392891614,
     "relativePath": "Sprites\\Clothes\\hair14_back.png"
   },
   "abeae359-00c3-4c27-b48a-70e985f21a12": {
-    "asset": 1694061425274,
-    "meta": 1708336990335,
+    "asset": 1708354466000,
+    "meta": 1708392891623,
     "relativePath": "Sprites\\Clothes\\hair15_front.png"
   },
   "992c5f30-a583-4ea1-90df-e69d65010e49": {
-    "asset": 1694061423910,
-    "meta": 1708336990362,
+    "asset": 1708354466000,
+    "meta": 1708392891612,
     "relativePath": "Sprites\\Clothes\\hair13_back.png"
   },
   "1fba5f25-9232-425b-a29c-7a284407c33a": {
-    "asset": 1694061425489,
-    "meta": 1708336990396,
+    "asset": 1708354466000,
+    "meta": 1708392891618,
     "relativePath": "Sprites\\Clothes\\hair16_back.png"
   },
   "7df3b71c-2957-4656-a4d8-c75fffde2fcd": {
-    "asset": 1694061426387,
-    "meta": 1708336990426,
+    "asset": 1708354466000,
+    "meta": 1708392891630,
     "relativePath": "Sprites\\Clothes\\hair17_front.png"
   },
   "feb0a063-215c-45e6-a708-6cae33522efa": {
-    "asset": 1694061426088,
-    "meta": 1708336990428,
+    "asset": 1708354466000,
+    "meta": 1708392891634,
     "relativePath": "Sprites\\Clothes\\hair17_back.png"
   },
   "89a0b5d4-a54d-4476-8ea8-6a71919d2608": {
-    "asset": 1694061425798,
-    "meta": 1708336990470,
+    "asset": 1708354466000,
+    "meta": 1708392891635,
     "relativePath": "Sprites\\Clothes\\hair16_front.png"
   },
   "33dbf737-032a-4415-87c9-9f8cde1ea3bf": {
-    "asset": 1694061427207,
-    "meta": 1708336990472,
+    "asset": 1708354466000,
+    "meta": 1708392891642,
     "relativePath": "Sprites\\Clothes\\hair18_front.png"
   },
   "b612a282-cb0c-4d97-aa41-b49b9d8d2404": {
-    "asset": 1694144171118,
-    "meta": 1708336990493,
+    "asset": 1708354466000,
+    "meta": 1708392891645,
     "relativePath": "Sprites\\Clothes\\L_shoe01.png"
   },
   "afffca03-b485-46f6-be6b-d9fbf1b49d68": {
-    "asset": 1694144170625,
-    "meta": 1708336990526,
+    "asset": 1708354466000,
+    "meta": 1708392891648,
     "relativePath": "Sprites\\Clothes\\L_shoe02.png"
   },
   "eebb549d-0174-4944-b098-523a7e0e0dec": {
-    "asset": 1694144170338,
-    "meta": 1708336990543,
+    "asset": 1708354466000,
+    "meta": 1708392891654,
     "relativePath": "Sprites\\Clothes\\L_shoe03.png"
   },
   "739ca617-b556-4ad4-9d78-480f3e133964": {
-    "asset": 1694061426934,
-    "meta": 1708336990555,
+    "asset": 1708354466000,
+    "meta": 1708392891669,
     "relativePath": "Sprites\\Clothes\\hair18_back.png"
   },
   "da729895-567c-4aa9-8dbf-fbea36aa3966": {
-    "asset": 1694144169565,
-    "meta": 1708336990614,
+    "asset": 1708354466000,
+    "meta": 1708392891668,
     "relativePath": "Sprites\\Clothes\\L_shoe05.png"
   },
   "c1fb0f2d-dca5-435e-bda1-79c8b9248056": {
-    "asset": 1694500655544,
-    "meta": 1708336990617,
+    "asset": 1708354466000,
+    "meta": 1708392891667,
     "relativePath": "Sprites\\Clothes\\L_shoe06.png"
   },
   "cc6209b3-2aa2-45d6-bfb5-ae8258119a5f": {
-    "asset": 1694144169923,
-    "meta": 1708336990642,
+    "asset": 1708354466000,
+    "meta": 1708392891649,
     "relativePath": "Sprites\\Clothes\\L_shoe04.png"
   },
   "8579150e-56f2-4dd2-ac34-3b75a6f6f7cc": {
-    "asset": 1694500660897,
-    "meta": 1708336990657,
+    "asset": 1708354466000,
+    "meta": 1708392891677,
     "relativePath": "Sprites\\Clothes\\L_shoe09.png"
   },
   "1b38603c-d955-4ab6-a912-8e52988df322": {
-    "asset": 1694500659322,
-    "meta": 1708336990679,
+    "asset": 1708354466000,
+    "meta": 1708392891672,
     "relativePath": "Sprites\\Clothes\\L_shoe08.png"
   },
   "8f5d5160-f96b-46c3-85b9-b5f44392da64": {
-    "asset": 1694500657325,
-    "meta": 1708336990684,
+    "asset": 1708354466000,
+    "meta": 1708392891663,
     "relativePath": "Sprites\\Clothes\\L_shoe07.png"
   },
   "fb2fbd35-0fb3-404a-8841-50c89ba0ad62": {
-    "asset": 1694500663378,
-    "meta": 1708336990715,
+    "asset": 1708354466000,
+    "meta": 1708392891681,
     "relativePath": "Sprites\\Clothes\\L_shoe10.png"
   },
   "9b7229c9-b1da-4ae3-b0f0-197680b51681": {
-    "asset": 1692949474035,
-    "meta": 1708336990750,
+    "asset": 1708354466000,
+    "meta": 1708392891687,
     "relativePath": "Sprites\\Clothes\\pant01_L.png"
   },
   "38a88063-7c53-477f-ba30-398891db34b7": {
-    "asset": 1692949474210,
-    "meta": 1708336990751,
+    "asset": 1708354466000,
+    "meta": 1708392891689,
     "relativePath": "Sprites\\Clothes\\pant01_R.png"
   },
   "4c7653d1-3b30-462d-b54e-44dacf627ade": {
-    "asset": 1692765353623,
-    "meta": 1708336990790,
+    "asset": 1708354466000,
+    "meta": 1708392891691,
     "relativePath": "Sprites\\Clothes\\pant00_L.png"
   },
   "0d16042e-79b2-4f7b-a322-9377c461ad54": {
-    "asset": 1692765353377,
-    "meta": 1708336990792,
+    "asset": 1708354466000,
+    "meta": 1708392891692,
     "relativePath": "Sprites\\Clothes\\pant00_R.png"
   },
   "433845f2-b468-40a5-a345-0d300e76ee3f": {
-    "asset": 1692949476668,
-    "meta": 1708336990825,
+    "asset": 1708354466000,
+    "meta": 1708392891712,
     "relativePath": "Sprites\\Clothes\\pant03_back.png"
   },
   "133ccf61-2907-4117-a82e-304dd9131118": {
-    "asset": 1692949475862,
-    "meta": 1708336990844,
+    "asset": 1708354466000,
+    "meta": 1708392891722,
     "relativePath": "Sprites\\Clothes\\pant02.png"
   },
   "6dd12913-bea2-42e3-ad31-ac791995a665": {
-    "asset": 1692949477689,
-    "meta": 1708336990913,
+    "asset": 1708354466000,
+    "meta": 1708392891739,
     "relativePath": "Sprites\\Clothes\\pant04.png"
   },
   "a0473e11-c0a9-4e7b-ab75-8d5147ecb984": {
-    "asset": 1693453553249,
-    "meta": 1708336990960,
+    "asset": 1708354466000,
+    "meta": 1708392891716,
     "relativePath": "Sprites\\Clothes\\pant06_L.png"
   },
   "382cb521-619f-4d23-92b3-33550867e435": {
-    "asset": 1692949477108,
-    "meta": 1708336990962,
+    "asset": 1708354466000,
+    "meta": 1708392891736,
     "relativePath": "Sprites\\Clothes\\pant03_front.png"
   },
   "b6367eec-c23c-402b-a88d-e2369878b53f": {
-    "asset": 1692949478209,
-    "meta": 1708336990998,
+    "asset": 1708354466000,
+    "meta": 1708392891729,
     "relativePath": "Sprites\\Clothes\\pant05.png"
   },
   "b0485c45-1bf5-4503-ad14-b5bc0fa65b72": {
-    "asset": 1693453553505,
-    "meta": 1708336991076,
+    "asset": 1708354466000,
+    "meta": 1708392891741,
     "relativePath": "Sprites\\Clothes\\pant06_R.png"
   },
   "1c2ef932-4857-478e-b219-421c33aaba23": {
-    "asset": 1693453554395,
-    "meta": 1708336991094,
+    "asset": 1708354466000,
+    "meta": 1708392891754,
     "relativePath": "Sprites\\Clothes\\pant07.png"
   },
   "d2336a69-f4f1-4626-9178-87df0c5957dc": {
-    "asset": 1693453379022,
-    "meta": 1708336991109,
+    "asset": 1708354466000,
+    "meta": 1708392891761,
     "relativePath": "Sprites\\Clothes\\pant11.png"
   },
   "7d7a7b02-063c-412f-9c00-9cad930541df": {
-    "asset": 1693453556245,
-    "meta": 1708336991126,
+    "asset": 1708354466000,
+    "meta": 1708392891763,
     "relativePath": "Sprites\\Clothes\\pant10.png"
   },
   "b4107fb3-3a11-409b-9658-361f5ab33d86": {
-    "asset": 1693453555008,
-    "meta": 1708336991215,
+    "asset": 1708354466000,
+    "meta": 1708392891760,
     "relativePath": "Sprites\\Clothes\\pant08.png"
   },
   "104d809a-a923-4c6d-9777-43d9567606de": {
-    "asset": 1693453555727,
-    "meta": 1708336991230,
+    "asset": 1708354466000,
+    "meta": 1708392891778,
     "relativePath": "Sprites\\Clothes\\pant09.png"
   },
   "4cc070b1-5b88-4f79-b172-e76bbd88aa6d": {
-    "asset": 1693453381810,
-    "meta": 1708336991252,
+    "asset": 1708354468000,
+    "meta": 1708392891781,
     "relativePath": "Sprites\\Clothes\\pant13_L.png"
   },
   "2b552230-ddd2-4f88-956f-a38303b42b99": {
-    "asset": 1693453382016,
-    "meta": 1708336991253,
+    "asset": 1708354468000,
+    "meta": 1708392891779,
     "relativePath": "Sprites\\Clothes\\pant13_R.png"
   },
   "8fc79803-1b34-484c-980d-8546b53a7faa": {
-    "asset": 1693453380697,
-    "meta": 1708336991327,
+    "asset": 1708354466000,
+    "meta": 1708392891783,
     "relativePath": "Sprites\\Clothes\\pant12.png"
   },
   "88f6b4bb-12ed-4ad0-b9f7-e20b8fe85131": {
-    "asset": 1693984965651,
-    "meta": 1708336991330,
+    "asset": 1708354468000,
+    "meta": 1708392891802,
     "relativePath": "Sprites\\Clothes\\pant14.png"
   },
   "fb289e6b-3dc0-4e85-9b3e-5a12e63abc63": {
-    "asset": 1694423909526,
-    "meta": 1708336991348,
+    "asset": 1708354468000,
+    "meta": 1708392891803,
     "relativePath": "Sprites\\Clothes\\pant17_L.png"
   },
   "96663830-6df7-44be-955d-ccbcb4aade10": {
-    "asset": 1693470300345,
-    "meta": 1708336991439,
+    "asset": 1708354468000,
+    "meta": 1708392891838,
     "relativePath": "Sprites\\Clothes\\pant15_R.png"
   },
   "12efe473-1c57-4114-a760-9e98d8fe05e4": {
-    "asset": 1693470300953,
-    "meta": 1708336991468,
+    "asset": 1708354468000,
+    "meta": 1708392891819,
     "relativePath": "Sprites\\Clothes\\pant15_L.png"
   },
   "f989657c-e6c8-4412-9a86-fc82cc99daed": {
-    "asset": 1694423908165,
-    "meta": 1708336991470,
+    "asset": 1708354468000,
+    "meta": 1708392891833,
     "relativePath": "Sprites\\Clothes\\pant16.png"
   },
   "b38a1235-d33e-4b1f-a64f-349ffecdfab5": {
-    "asset": 1694423909835,
-    "meta": 1708336991548,
+    "asset": 1708354468000,
+    "meta": 1708392891804,
     "relativePath": "Sprites\\Clothes\\pant17_R.png"
   },
   "62bffd6f-89bf-44d4-b002-f14e724ecc8b": {
-    "asset": 1694485013977,
-    "meta": 1708336991594,
+    "asset": 1708354468000,
+    "meta": 1708392891834,
     "relativePath": "Sprites\\Clothes\\pant18_R.png"
   },
   "4ec3e627-176e-43d3-a6bc-05995025388b": {
-    "asset": 1694485014274,
-    "meta": 1708336991596,
+    "asset": 1708354468000,
+    "meta": 1708392891824,
     "relativePath": "Sprites\\Clothes\\pant18_L.png"
   },
   "08e6d1ae-d3ac-4350-a943-acce21dfaf42": {
-    "asset": 1694423912231,
-    "meta": 1708336991599,
+    "asset": 1708354468000,
+    "meta": 1708392891850,
     "relativePath": "Sprites\\Clothes\\pant19_L.png"
   },
   "55f761a8-0a58-4786-84f5-1d8d7160c94c": {
-    "asset": 1694423911554,
-    "meta": 1708336991621,
+    "asset": 1708354468000,
+    "meta": 1708392891866,
     "relativePath": "Sprites\\Clothes\\pant19_R.png"
   },
   "824fde49-0bdd-4c91-abc0-c6707db79021": {
-    "asset": 1694487092564,
-    "meta": 1708336991624,
+    "asset": 1708354468000,
+    "meta": 1708392891863,
     "relativePath": "Sprites\\Clothes\\pant20.png"
   },
   "ae8ef488-50bf-4b00-9d13-a888dc4b63e1": {
-    "asset": 1694500646884,
-    "meta": 1708336991668,
+    "asset": 1708354468000,
+    "meta": 1708392891858,
     "relativePath": "Sprites\\Clothes\\pant21.png"
   },
   "12f525ab-c246-4eff-ae90-6362b902e8c8": {
-    "asset": 1694500650559,
-    "meta": 1708336991692,
+    "asset": 1708354468000,
+    "meta": 1708392891881,
     "relativePath": "Sprites\\Clothes\\pant24.png"
   },
   "9cc3f0da-7f42-45ad-9ba0-bde6ee74ffc3": {
-    "asset": 1694513385505,
-    "meta": 1708336991708,
+    "asset": 1708354468000,
+    "meta": 1708392891890,
     "relativePath": "Sprites\\Clothes\\pant26_L.png"
   },
   "aa898d67-4668-485b-b947-ed793cac74d5": {
-    "asset": 1694512402624,
-    "meta": 1708336991792,
+    "asset": 1708354468000,
+    "meta": 1708392891873,
     "relativePath": "Sprites\\Clothes\\pant23.png"
   },
   "ffa0aefb-16aa-4f5d-87d1-1651952db2a4": {
-    "asset": 1694500651952,
-    "meta": 1708336991794,
+    "asset": 1708354468000,
+    "meta": 1708392891933,
     "relativePath": "Sprites\\Clothes\\pant25_R.png"
   },
   "c2149c7c-1348-423e-9e1d-873a971a48bd": {
-    "asset": 1694500652590,
-    "meta": 1708336991806,
+    "asset": 1708354468000,
+    "meta": 1708392891907,
     "relativePath": "Sprites\\Clothes\\pant25_L.png"
   },
   "7ffee352-e5fc-44f7-8e27-d57b0da7a240": {
-    "asset": 1694500654687,
-    "meta": 1708336991825,
+    "asset": 1708354468000,
+    "meta": 1708392891932,
     "relativePath": "Sprites\\Clothes\\pant27.png"
   },
   "ce4feb38-cf37-4d26-bc92-11521e87f44e": {
-    "asset": 1694513404318,
-    "meta": 1708336991862,
+    "asset": 1708354468000,
+    "meta": 1708392891896,
     "relativePath": "Sprites\\Clothes\\pant26_R.png"
   },
   "de908d13-54c3-4a14-a923-871b5d219b0a": {
-    "asset": 1694500655908,
-    "meta": 1708336991875,
+    "asset": 1708354468000,
+    "meta": 1708392891926,
     "relativePath": "Sprites\\Clothes\\pant28_L.png"
   },
   "d02e21cd-349d-44cd-af96-81a7414e23c3": {
-    "asset": 1694500655716,
-    "meta": 1708336991901,
+    "asset": 1708354468000,
+    "meta": 1708392891924,
     "relativePath": "Sprites\\Clothes\\pant28_R.png"
   },
   "f53005e1-a50c-4d60-84c4-c569b3630a38": {
-    "asset": 1694144170482,
-    "meta": 1708336991921,
+    "asset": 1708354468000,
+    "meta": 1708392891956,
     "relativePath": "Sprites\\Clothes\\R_shoe02.png"
   },
   "28249d47-8e04-4721-b931-db50879b999d": {
-    "asset": 1694500655368,
-    "meta": 1708336991928,
+    "asset": 1708354468000,
+    "meta": 1708392891978,
     "relativePath": "Sprites\\Clothes\\R_shoe06.png"
   },
   "fda91c67-6bdd-4a04-baed-f8abf1cbae47": {
-    "asset": 1694144170172,
-    "meta": 1708336991931,
+    "asset": 1708354468000,
+    "meta": 1708392891979,
     "relativePath": "Sprites\\Clothes\\R_shoe03.png"
   },
   "ed7d753a-a1e9-4229-b80d-e6f8eeb00def": {
-    "asset": 1694144170874,
-    "meta": 1708336991952,
+    "asset": 1708354468000,
+    "meta": 1708392891955,
     "relativePath": "Sprites\\Clothes\\R_shoe01.png"
   },
   "9f256a2e-e636-425d-8ce5-b9952c13bad8": {
-    "asset": 1694144169734,
-    "meta": 1708336991956,
+    "asset": 1708354468000,
+    "meta": 1708392891980,
     "relativePath": "Sprites\\Clothes\\R_shoe04.png"
   },
   "680bc2cc-78f0-45d9-8b15-f3ee3cfc6505": {
-    "asset": 1694144169409,
-    "meta": 1708336991972,
+    "asset": 1708354468000,
+    "meta": 1708392891977,
     "relativePath": "Sprites\\Clothes\\R_shoe05.png"
   },
   "2c700896-c3f2-4149-a955-5701d72aaf2a": {
-    "asset": 1694500657180,
-    "meta": 1708336992027,
+    "asset": 1708354468000,
+    "meta": 1708392892003,
     "relativePath": "Sprites\\Clothes\\R_shoe07.png"
   },
   "9f9010ed-f18e-4d8e-82dc-fce956bbdbdf": {
-    "asset": 1694500661092,
-    "meta": 1708336992030,
+    "asset": 1708354468000,
+    "meta": 1708392892027,
     "relativePath": "Sprites\\Clothes\\R_shoe09.png"
   },
   "b63b9852-6e96-4150-9c25-c2b0e81d3cf4": {
-    "asset": 1694500659178,
-    "meta": 1708336992032,
+    "asset": 1708354468000,
+    "meta": 1708392892011,
     "relativePath": "Sprites\\Clothes\\R_shoe08.png"
   },
   "3f7d25ae-6fb3-487c-9633-feaedf87b2e9": {
-    "asset": 1694500663177,
-    "meta": 1708336992059,
+    "asset": 1708354468000,
+    "meta": 1708392892033,
     "relativePath": "Sprites\\Clothes\\R_shoe10.png"
   },
   "3b150718-20a2-4fdd-bcc4-8983fa119a8f": {
-    "asset": 1693984962041,
-    "meta": 1708336992084,
+    "asset": 1708354468000,
+    "meta": 1708392892054,
     "relativePath": "Sprites\\Clothes\\shirt01_L_arm.png"
   },
   "c4766c09-c750-44e4-ab3e-c2f8f9f7c1c3": {
-    "asset": 1693984962225,
-    "meta": 1708336992105,
+    "asset": 1708354468000,
+    "meta": 1708392892056,
     "relativePath": "Sprites\\Clothes\\shirt01_R_arm.png"
   },
   "e8c2b0d9-7b04-451c-b77b-68daccd7d444": {
-    "asset": 1693984961672,
-    "meta": 1708336992132,
+    "asset": 1708354468000,
+    "meta": 1708392892064,
     "relativePath": "Sprites\\Clothes\\shirt01_L_forearm.png"
   },
   "a623e222-8bb3-4c55-8e41-4b832572e2d5": {
-    "asset": 1693985251395,
-    "meta": 1708336992134,
+    "asset": 1708354468000,
+    "meta": 1708392892063,
     "relativePath": "Sprites\\Clothes\\shirt01_body.png"
   },
   "8eba1cdb-daf4-43f2-9106-e918c27ef72a": {
-    "asset": 1693984961859,
-    "meta": 1708336992136,
+    "asset": 1708354468000,
+    "meta": 1708392892080,
     "relativePath": "Sprites\\Clothes\\shirt01_R_forearm.png"
   },
   "763f96d3-4e4f-4581-98c6-3de4fdff60e4": {
-    "asset": 1692949476176,
-    "meta": 1708336992151,
+    "asset": 1708354468000,
+    "meta": 1708392892093,
     "relativePath": "Sprites\\Clothes\\shirt02_L_arm.png"
   },
   "280e073d-b01b-49fa-a690-481f8e5499f4": {
-    "asset": 1692949476022,
-    "meta": 1708336992154,
+    "asset": 1708354468000,
+    "meta": 1708392892094,
     "relativePath": "Sprites\\Clothes\\shirt02_R_arm.png"
   },
   "100ffdca-182b-4728-90a7-c6f9c42a704f": {
-    "asset": 1692949476445,
-    "meta": 1708336992194,
+    "asset": 1708354468000,
+    "meta": 1708392892113,
     "relativePath": "Sprites\\Clothes\\shirt02_body.png"
   },
   "960d7afd-524d-4db0-a045-bff3b6aab473": {
-    "asset": 1693984963096,
-    "meta": 1708336992196,
+    "asset": 1708354468000,
+    "meta": 1708392892142,
     "relativePath": "Sprites\\Clothes\\shirt05_L_forearm.png"
   },
   "6677d1a3-e14c-4ab8-aeb4-ecd4ae49f33a": {
-    "asset": 1693984963434,
-    "meta": 1708336992210,
+    "asset": 1708354468000,
+    "meta": 1708392892140,
     "relativePath": "Sprites\\Clothes\\shirt05_body.png"
   },
   "f79e65ed-7b15-48d5-b344-92a60a28c715": {
-    "asset": 1692949477315,
-    "meta": 1708336992213,
+    "asset": 1708354468000,
+    "meta": 1708392892112,
     "relativePath": "Sprites\\Clothes\\shirt03_body.png"
   },
   "df50cbbc-47c7-40a0-b94a-7ca48746eda4": {
-    "asset": 1693984962933,
-    "meta": 1708336992229,
+    "asset": 1708354468000,
+    "meta": 1708392892133,
     "relativePath": "Sprites\\Clothes\\shirt05_L_arm.png"
   },
   "25881c8b-05f3-4677-978b-89c07464b5e6": {
-    "asset": 1692949477919,
-    "meta": 1708336992251,
+    "asset": 1708354468000,
+    "meta": 1708392892111,
     "relativePath": "Sprites\\Clothes\\shirt04_body.png"
   },
   "856d4753-4567-439e-beb7-7f71a5861069": {
-    "asset": 1693982975635,
-    "meta": 1708336992317,
+    "asset": 1708354468000,
+    "meta": 1708392892174,
     "relativePath": "Sprites\\Clothes\\shirt06_L_arm.png"
   },
   "3093f9b3-743d-4b89-a280-34120ac6c636": {
-    "asset": 1693984962752,
-    "meta": 1708336992342,
+    "asset": 1708354468000,
+    "meta": 1708392892149,
     "relativePath": "Sprites\\Clothes\\shirt05_R_arm.png"
   },
   "bc085c8d-5901-4bf2-8bc0-94f1439077fd": {
-    "asset": 1693984963258,
-    "meta": 1708336992348,
+    "asset": 1708354468000,
+    "meta": 1708392892151,
     "relativePath": "Sprites\\Clothes\\shirt05_R_forearm.png"
   },
   "cb133b0e-0c50-4cac-a28e-0b4b2c934d5a": {
-    "asset": 1693982986683,
-    "meta": 1708336992373,
+    "asset": 1708354468000,
+    "meta": 1708392892173,
     "relativePath": "Sprites\\Clothes\\shirt06_R_arm.png"
   },
   "70888cc4-bce2-4ce3-a963-05fde76b29e7": {
-    "asset": 1693453554063,
-    "meta": 1708336992426,
+    "asset": 1708354468000,
+    "meta": 1708392892182,
     "relativePath": "Sprites\\Clothes\\shirt06_body.png"
   },
   "2fb1ff3c-eb0b-425d-aaf5-cbd20bdc214e": {
-    "asset": 1693453555236,
-    "meta": 1708336992443,
+    "asset": 1708354468000,
+    "meta": 1708392892200,
     "relativePath": "Sprites\\Clothes\\shirt08_body.png"
   },
   "bf4909c6-f370-4158-97fa-914d35750ef2": {
-    "asset": 1693453554621,
-    "meta": 1708336992445,
+    "asset": 1708354468000,
+    "meta": 1708392892203,
     "relativePath": "Sprites\\Clothes\\shirt07_body.png"
   },
   "1336837b-435a-427b-b903-08dee8e1b515": {
-    "asset": 1693453555967,
-    "meta": 1708336992447,
+    "asset": 1708354468000,
+    "meta": 1708392892201,
     "relativePath": "Sprites\\Clothes\\shirt09_body.png"
   },
   "304f02e3-742a-45db-80df-f7096f7f6534": {
-    "asset": 1693984964031,
-    "meta": 1708336992507,
+    "asset": 1708354468000,
+    "meta": 1708392892220,
     "relativePath": "Sprites\\Clothes\\shirt11_body.png"
   },
   "164861b2-7502-4425-af50-20fe483ea57a": {
-    "asset": 1693453556485,
-    "meta": 1708336992508,
+    "asset": 1708354468000,
+    "meta": 1708392892216,
     "relativePath": "Sprites\\Clothes\\shirt10_body.png"
   },
   "89e509fb-bf39-410a-b2da-4a5cc33b012f": {
-    "asset": 1693984963603,
-    "meta": 1708336992520,
+    "asset": 1708354470000,
+    "meta": 1708392892227,
     "relativePath": "Sprites\\Clothes\\shirt11_R_arm.png"
   },
   "f10e2910-2f4b-4f23-a9bc-a471709ef1d7": {
-    "asset": 1693984963773,
-    "meta": 1708336992522,
+    "asset": 1708354468000,
+    "meta": 1708392892203,
     "relativePath": "Sprites\\Clothes\\shirt11_L_arm.png"
   },
   "259ca9b5-2989-432d-9ef4-121fbd0f687e": {
-    "asset": 1693984964208,
-    "meta": 1708336992533,
+    "asset": 1708354470000,
+    "meta": 1708392892233,
     "relativePath": "Sprites\\Clothes\\shirt11_R_forearm.png"
   },
   "2dabb9e3-d631-40f3-a470-1e7e8674e79d": {
-    "asset": 1693984964417,
-    "meta": 1708336992537,
+    "asset": 1708354470000,
+    "meta": 1708392892234,
     "relativePath": "Sprites\\Clothes\\shirt11_L_forearm.png"
   },
   "76c12e78-5f56-4796-a84d-52a80a014256": {
-    "asset": 1693984964577,
-    "meta": 1708336992567,
+    "asset": 1708354470000,
+    "meta": 1708392892249,
     "relativePath": "Sprites\\Clothes\\shirt12_L_arm.png"
   },
   "78ca7690-67a4-46b6-bf58-94f9a61f8f88": {
-    "asset": 1693984964934,
-    "meta": 1708336992581,
+    "asset": 1708354470000,
+    "meta": 1708392892257,
     "relativePath": "Sprites\\Clothes\\shirt12_R_arm.png"
   },
   "d53df778-a093-4648-b621-eb8fafa96036": {
-    "asset": 1693984964750,
-    "meta": 1708336992584,
+    "asset": 1708354470000,
+    "meta": 1708392892255,
     "relativePath": "Sprites\\Clothes\\shirt12_L_forearm.png"
   },
   "1a5a1526-f217-4bdb-9bad-77152862f9f7": {
-    "asset": 1693984965105,
-    "meta": 1708336992597,
+    "asset": 1708354470000,
+    "meta": 1708392892259,
     "relativePath": "Sprites\\Clothes\\shirt12_R_forearm.png"
   },
   "48352177-c5ad-4346-b5da-da16ffd4bb19": {
-    "asset": 1693984965344,
-    "meta": 1708336992626,
+    "asset": 1708354470000,
+    "meta": 1708392892258,
     "relativePath": "Sprites\\Clothes\\shirt12_body.png"
   },
   "1546eaef-1042-4475-ad90-acee47cbefc3": {
-    "asset": 1693453382639,
-    "meta": 1708336992641,
+    "asset": 1708354470000,
+    "meta": 1708392892286,
     "relativePath": "Sprites\\Clothes\\shirt13_body.png"
   },
   "e15aec0f-702d-493d-80d6-ab9aaeeab1e3": {
-    "asset": 1693453382183,
-    "meta": 1708336992645,
+    "asset": 1708354470000,
+    "meta": 1708392892280,
     "relativePath": "Sprites\\Clothes\\shirt13_R_arm.png"
   },
   "e260485d-3021-4183-a79e-0d0470ead738": {
-    "asset": 1693453382342,
-    "meta": 1708336992690,
+    "asset": 1708354470000,
+    "meta": 1708392892278,
     "relativePath": "Sprites\\Clothes\\shirt13_L_arm.png"
   },
   "d8d3768d-001d-4e50-8a2b-b62dadaa8db1": {
-    "asset": 1694143333166,
-    "meta": 1708336992693,
+    "asset": 1708354470000,
+    "meta": 1708392892287,
     "relativePath": "Sprites\\Clothes\\shirt14_L_arm.png"
   },
   "455616de-1be1-4328-bea8-101e51461e8b": {
-    "asset": 1693984966189,
-    "meta": 1708336992697,
+    "asset": 1708354470000,
+    "meta": 1708392892304,
     "relativePath": "Sprites\\Clothes\\shirt14_body.png"
   },
   "d3186b5e-9a6b-44fe-8253-045891d8d8b9": {
-    "asset": 1693984966590,
-    "meta": 1708336992728,
+    "asset": 1708354470000,
+    "meta": 1708392892323,
     "relativePath": "Sprites\\Clothes\\shirt14_R_forearm.png"
   },
   "c6e5e40c-a40b-4adc-9627-85c4e6274bc7": {
-    "asset": 1694143342284,
-    "meta": 1708336992742,
+    "asset": 1708354470000,
+    "meta": 1708392892308,
     "relativePath": "Sprites\\Clothes\\shirt14_R_arm.png"
   },
   "ea132cae-14b9-4a44-b890-78fd125255a4": {
-    "asset": 1693984966375,
-    "meta": 1708336992743,
+    "asset": 1708354470000,
+    "meta": 1708392892289,
     "relativePath": "Sprites\\Clothes\\shirt14_L_forearm.png"
   },
   "d2fa52d9-2dd3-41f3-8191-76a1fa305d13": {
-    "asset": 1693984966749,
-    "meta": 1708336992746,
+    "asset": 1708354470000,
+    "meta": 1708392892315,
     "relativePath": "Sprites\\Clothes\\shirt15_L_arm.png"
   },
   "baa70c95-a99c-4d55-9492-f2994659b1a5": {
-    "asset": 1693984967230,
-    "meta": 1708336992760,
+    "asset": 1708354470000,
+    "meta": 1708392892316,
     "relativePath": "Sprites\\Clothes\\shirt15_L_forearm.png"
   },
   "babec407-fa39-4e49-a53a-15fcba74dc11": {
-    "asset": 1693984967450,
-    "meta": 1708336992781,
+    "asset": 1708354470000,
+    "meta": 1708392892342,
     "relativePath": "Sprites\\Clothes\\shirt15_body.png"
   },
   "8fa6f6e5-8cd8-4981-9c03-49691a4648a4": {
-    "asset": 1694148240337,
-    "meta": 1708336992810,
+    "asset": 1708354470000,
+    "meta": 1708392892336,
     "relativePath": "Sprites\\Clothes\\shirt15_R_arm.png"
   },
   "0715220d-9996-4058-97a0-5583a85900b6": {
-    "asset": 1693984967083,
-    "meta": 1708336992814,
+    "asset": 1708354470000,
+    "meta": 1708392892344,
     "relativePath": "Sprites\\Clothes\\shirt15_R_forearm.png"
   },
   "1d354892-960c-4473-bf0f-353c54942230": {
-    "asset": 1694424051138,
-    "meta": 1708336992818,
+    "asset": 1708354470000,
+    "meta": 1708392892343,
     "relativePath": "Sprites\\Clothes\\shirt16_L_arm.png"
   },
   "998f3c97-5560-4cf8-8446-da9392fae523": {
-    "asset": 1694424155024,
-    "meta": 1708336992856,
+    "asset": 1708354470000,
+    "meta": 1708392892350,
     "relativePath": "Sprites\\Clothes\\shirt16_R_arm.png"
   },
   "96f308ea-f7e3-4d22-9e20-46ab482d0bab": {
-    "asset": 1694423908898,
-    "meta": 1708336992859,
+    "asset": 1708354470000,
+    "meta": 1708392892371,
     "relativePath": "Sprites\\Clothes\\shirt16_body.png"
   },
   "d54c468a-fe83-4b01-9939-eefd43a1bd92": {
-    "asset": 1694424007580,
-    "meta": 1708336992885,
+    "asset": 1708354470000,
+    "meta": 1708392892378,
     "relativePath": "Sprites\\Clothes\\shirt18_R_arm.png"
   },
   "0bd747cc-9895-4b25-a247-78ec6a6ef7b4": {
-    "asset": 1694423988614,
-    "meta": 1708336992887,
+    "asset": 1708354470000,
+    "meta": 1708392892370,
     "relativePath": "Sprites\\Clothes\\shirt18_L_arm.png"
   },
   "4e89e853-df44-4c91-a4fc-a26dba156bc7": {
-    "asset": 1694423909163,
-    "meta": 1708336992896,
+    "asset": 1708354470000,
+    "meta": 1708392892386,
     "relativePath": "Sprites\\Clothes\\shirt17_body.png"
   },
   "2ece9ed2-1204-4a96-9770-6ca8a3f8fc6d": {
-    "asset": 1694423971336,
-    "meta": 1708336992898,
+    "asset": 1708354470000,
+    "meta": 1708392892384,
     "relativePath": "Sprites\\Clothes\\shirt18_body.png"
   },
   "c6044ee1-173f-4689-aa2a-747e97a48232": {
-    "asset": 1694483877633,
-    "meta": 1708336992930,
+    "asset": 1708354470000,
+    "meta": 1708392892421,
     "relativePath": "Sprites\\Clothes\\shirt20_body.png"
   },
   "0e026908-ee5d-4800-ad65-c84fb244ed8c": {
-    "asset": 1694500647253,
-    "meta": 1708336992931,
+    "asset": 1708354470000,
+    "meta": 1708392892407,
     "relativePath": "Sprites\\Clothes\\shirt22_R_arm.png"
   },
   "e1cce580-3db1-4ae2-9586-323de0037da9": {
-    "asset": 1694500647056,
-    "meta": 1708336992950,
+    "asset": 1708354470000,
+    "meta": 1708392892400,
     "relativePath": "Sprites\\Clothes\\shirt22_L_arm.png"
   },
   "6a3ef63e-d52f-4af2-a307-d8d7619e3589": {
-    "asset": 1694500646506,
-    "meta": 1708336992954,
+    "asset": 1708354470000,
+    "meta": 1708392892414,
     "relativePath": "Sprites\\Clothes\\shirt21_body.png"
   },
   "9b900286-381f-464c-ad24-238bd5c4a57e": {
-    "asset": 1694423912552,
-    "meta": 1708336992980,
+    "asset": 1708354470000,
+    "meta": 1708392892387,
     "relativePath": "Sprites\\Clothes\\shirt19_body.png"
   },
   "4bdabcdc-19b8-47c2-a316-59de6fbf2ea0": {
-    "asset": 1694500647532,
-    "meta": 1708336992993,
+    "asset": 1708354470000,
+    "meta": 1708392892420,
     "relativePath": "Sprites\\Clothes\\shirt22_body.png"
   },
   "04df5e70-2fed-4f6d-8444-19a3ad4405c3": {
-    "asset": 1694500648191,
-    "meta": 1708336992995,
+    "asset": 1708354470000,
+    "meta": 1708392892439,
     "relativePath": "Sprites\\Clothes\\shirt23_L_arm.png"
   },
   "a5e4756b-19f7-4fc8-aace-afcaccacea37": {
-    "asset": 1694500648638,
-    "meta": 1708336992996,
+    "asset": 1708354470000,
+    "meta": 1708392892447,
     "relativePath": "Sprites\\Clothes\\shirt23_R_arm.png"
   },
   "ad519501-6a9b-4ff1-ac43-a10e02e6e63a": {
-    "asset": 1694500648377,
-    "meta": 1708336993008,
+    "asset": 1708354470000,
+    "meta": 1708392892441,
     "relativePath": "Sprites\\Clothes\\shirt23_L_forearm.png"
   },
   "26885f80-6cc2-4c73-831e-d88500aa48be": {
-    "asset": 1694500649095,
-    "meta": 1708336993044,
+    "asset": 1708354470000,
+    "meta": 1708392892422,
     "relativePath": "Sprites\\Clothes\\shirt23_body.png"
   },
   "5bc4ec78-bcc4-4dc8-9f87-608fce8e027a": {
-    "asset": 1694500649715,
-    "meta": 1708336993048,
+    "asset": 1708354470000,
+    "meta": 1708392892457,
     "relativePath": "Sprites\\Clothes\\shirt24_L_arm.png"
   },
   "f3172b51-67bf-4a9f-a05d-35063cde72bb": {
-    "asset": 1694500648850,
-    "meta": 1708336993058,
+    "asset": 1708354470000,
+    "meta": 1708392892440,
     "relativePath": "Sprites\\Clothes\\shirt23_R_forearm.png"
   },
   "ff7d5ab8-4173-482e-b7e2-a91d70d477a6": {
-    "asset": 1694500649912,
-    "meta": 1708336993070,
+    "asset": 1708354470000,
+    "meta": 1708392892472,
     "relativePath": "Sprites\\Clothes\\shirt24_L_forearm.png"
   },
   "4a9a9a78-6449-4840-9a49-9d17ebfbcd64": {
-    "asset": 1694500649299,
-    "meta": 1708336993104,
+    "asset": 1708354470000,
+    "meta": 1708392892469,
     "relativePath": "Sprites\\Clothes\\shirt24_R_arm.png"
   },
   "fc84624e-14f7-4959-ad0b-54265aafa758": {
-    "asset": 1694500650184,
-    "meta": 1708336993115,
+    "asset": 1708354470000,
+    "meta": 1708392892473,
     "relativePath": "Sprites\\Clothes\\shirt24_body.png"
   },
   "053e2d1c-b2e9-4743-9e16-41d77e1c6a6a": {
-    "asset": 1694500650789,
-    "meta": 1708336993119,
+    "asset": 1708354470000,
+    "meta": 1708392892499,
     "relativePath": "Sprites\\Clothes\\shirt25_R_arm.png"
   },
   "25c1fdc8-72c3-4bd0-ab20-bf89643711c7": {
-    "asset": 1694500650995,
-    "meta": 1708336993125,
+    "asset": 1708354470000,
+    "meta": 1708392892500,
     "relativePath": "Sprites\\Clothes\\shirt25_R_forearm.png"
   },
   "42c95c40-2ae6-4548-bef3-efbf0af7f432": {
-    "asset": 1694500649500,
-    "meta": 1708336993159,
+    "asset": 1708354470000,
+    "meta": 1708392892472,
     "relativePath": "Sprites\\Clothes\\shirt24_R_forearm.png"
   },
   "b20fc116-2901-4b64-a292-b49f8a96e54d": {
-    "asset": 1694500655155,
-    "meta": 1708336993161,
+    "asset": 1708354470000,
+    "meta": 1708392892517,
     "relativePath": "Sprites\\Clothes\\shirt27_R_arm.png"
   },
   "9095f875-df55-4f7d-a4a7-588d2e39d456": {
-    "asset": 1694500655016,
-    "meta": 1708336993179,
+    "asset": 1708354470000,
+    "meta": 1708392892485,
     "relativePath": "Sprites\\Clothes\\shirt27_L_arm.png"
   },
   "720cfd0d-a0fa-499a-9f27-a32003c81335": {
-    "asset": 1694500651300,
-    "meta": 1708336993194,
+    "asset": 1708354470000,
+    "meta": 1708392892493,
     "relativePath": "Sprites\\Clothes\\shirt25_body.png"
   },
   "f6c4c645-55db-4362-a782-44b2486e9083": {
-    "asset": 1694500654881,
-    "meta": 1708336993196,
+    "asset": 1708354470000,
+    "meta": 1708392892507,
     "relativePath": "Sprites\\Clothes\\shirt27_body.png"
   },
   "14e809bd-b4df-46ff-a72f-8b9b6af1fe30": {
-    "asset": 1694500656639,
-    "meta": 1708336993231,
+    "asset": 1708354470000,
+    "meta": 1708392892532,
     "relativePath": "Sprites\\Clothes\\shirt28_L_arm.png"
   },
   "fa5c0317-8cae-4cd8-9336-d396e50c4f43": {
-    "asset": 1694500653733,
-    "meta": 1708336993239,
+    "asset": 1708354470000,
+    "meta": 1708392892535,
     "relativePath": "Sprites\\Clothes\\shirt26_body.png"
   },
   "f9fe5802-70ff-43b2-b44c-4edccd0c27f5": {
-    "asset": 1694500656446,
-    "meta": 1708336993260,
+    "asset": 1708354470000,
+    "meta": 1708392892526,
     "relativePath": "Sprites\\Clothes\\shirt28_L_forearm.png"
   },
   "124c6825-8f78-480b-a893-d74a0bce24f0": {
-    "asset": 1694500656077,
-    "meta": 1708336993262,
+    "asset": 1708354470000,
+    "meta": 1708392892556,
     "relativePath": "Sprites\\Clothes\\shirt28_R_forearm.png"
   },
   "c89f0b5c-211f-4fff-8f73-03c3a3175583": {
-    "asset": 1694500656267,
-    "meta": 1708336993265,
+    "asset": 1708354470000,
+    "meta": 1708392892533,
     "relativePath": "Sprites\\Clothes\\shirt28_R_arm.png"
   },
   "0c12b636-7ed6-413b-a031-6fb41c81602a": {
-    "asset": 1694500657035,
-    "meta": 1708336993288,
+    "asset": 1708354470000,
+    "meta": 1708392892566,
     "relativePath": "Sprites\\Clothes\\shirt28_body.png"
   },
   "aa725d32-9b28-487c-9ef6-89da2e561ca4": {
-    "asset": 1694500658329,
-    "meta": 1708336993340,
+    "asset": 1708354470000,
+    "meta": 1708392892558,
     "relativePath": "Sprites\\Clothes\\shirt29_L_arm.png"
   },
   "a53db3a0-0422-4d03-8adf-d9bd46d9d151": {
-    "asset": 1694500658157,
-    "meta": 1708336993365,
+    "asset": 1708354470000,
+    "meta": 1708392892564,
     "relativePath": "Sprites\\Clothes\\shirt29_L_forearm.png"
   },
   "cf741bca-b9af-4090-91db-c23a5d6ed4d7": {
-    "asset": 1694500658674,
-    "meta": 1708336993368,
+    "asset": 1708354472000,
+    "meta": 1708392892567,
     "relativePath": "Sprites\\Clothes\\shirt29_R_arm.png"
   },
   "e6c32370-4d65-4d88-a241-f626a5d41a50": {
-    "asset": 1694500658499,
-    "meta": 1708336993370,
+    "asset": 1708354472000,
+    "meta": 1708392892595,
     "relativePath": "Sprites\\Clothes\\shirt29_R_forearm.png"
   },
   "ddc368a8-a22a-4cdc-a56b-9d7ca2d6aa2c": {
-    "asset": 1694500658966,
-    "meta": 1708336993382,
+    "asset": 1708354470000,
+    "meta": 1708392892601,
     "relativePath": "Sprites\\Clothes\\shirt29_body.png"
   },
   "00cbfef5-16bc-4fe2-ac2d-0d8e70fef86d": {
-    "asset": 1694500659976,
-    "meta": 1708336993425,
+    "asset": 1708354472000,
+    "meta": 1708392892596,
     "relativePath": "Sprites\\Clothes\\shirt30_L_arm.png"
   },
   "6f94906c-4a47-4bf7-8270-e21e2e752d16": {
-    "asset": 1694500660223,
-    "meta": 1708336993428,
+    "asset": 1708354472000,
+    "meta": 1708392892618,
     "relativePath": "Sprites\\Clothes\\shirt30_body.png"
   },
   "c008c3a4-f815-49c7-8a58-5776b7e43fe5": {
-    "asset": 1694500660577,
-    "meta": 1708336993451,
+    "asset": 1708354472000,
+    "meta": 1708392892597,
     "relativePath": "Sprites\\Clothes\\shirt30_L_shoulder.png"
   },
   "d490ab9e-7eed-491f-aaab-360b328c1eb5": {
-    "asset": 1694500659490,
-    "meta": 1708336993453,
+    "asset": 1708354472000,
+    "meta": 1708392892615,
     "relativePath": "Sprites\\Clothes\\shirt30_R_forearm.png"
   },
   "17b437aa-403e-4abf-9b85-a1bb82f098cf": {
-    "asset": 1694500659660,
-    "meta": 1708336993457,
+    "asset": 1708354472000,
+    "meta": 1708392892616,
     "relativePath": "Sprites\\Clothes\\shirt30_R_arm.png"
   },
   "dd0a0463-80e0-4fbc-b55b-c220121159d3": {
-    "asset": 1694500659820,
-    "meta": 1708336993469,
+    "asset": 1708354472000,
+    "meta": 1708392892603,
     "relativePath": "Sprites\\Clothes\\shirt30_L_forearm.png"
   },
   "deedb97c-9189-4e63-9507-501906abc391": {
-    "asset": 1694500660381,
-    "meta": 1708336993508,
+    "asset": 1708354472000,
+    "meta": 1708392892617,
     "relativePath": "Sprites\\Clothes\\shirt30_R_shoulder.png"
   },
   "40411792-13ad-463d-9435-2433d3c66fb7": {
-    "asset": 1694500662422,
-    "meta": 1708336993562,
+    "asset": 1708354472000,
+    "meta": 1708392892643,
     "relativePath": "Sprites\\Clothes\\shirt31_L_forearm.png"
   },
   "02a66f33-0cad-4d67-a257-c564d4a484ca": {
-    "asset": 1694500662027,
-    "meta": 1708336993566,
+    "asset": 1708354472000,
+    "meta": 1708392892645,
     "relativePath": "Sprites\\Clothes\\shirt31_R_forearm.png"
   },
   "4dc07e4b-c6f6-4a2b-ba75-9c5423cd962b": {
-    "asset": 1694500662607,
-    "meta": 1708336993588,
+    "asset": 1708354472000,
+    "meta": 1708392892636,
     "relativePath": "Sprites\\Clothes\\shirt31_L_arm.png"
   },
   "99883b18-01c6-4cf8-9a06-5c4490d7f98a": {
-    "asset": 1694500662811,
-    "meta": 1708336993605,
+    "asset": 1708354472000,
+    "meta": 1708392892637,
     "relativePath": "Sprites\\Clothes\\shirt31_body.png"
   },
   "601117ca-34a8-4f2f-8ea0-4fb035eef553": {
-    "asset": 1694500662256,
-    "meta": 1708336993608,
+    "asset": 1708354472000,
+    "meta": 1708392892644,
     "relativePath": "Sprites\\Clothes\\shirt31_R_arm.png"
   },
   "d2aedd87-879f-4ec7-a416-285b8113fd5d": {
-    "asset": 1694500654098,
-    "meta": 1708336993654,
+    "asset": 1708354472000,
+    "meta": 1708392892664,
     "relativePath": "Sprites\\Clothes\\shoe27_R_thigh.png"
   },
   "68220ddd-3932-4238-824b-3cf722ed1703": {
-    "asset": 1694500654483,
-    "meta": 1708336993658,
+    "asset": 1708354472000,
+    "meta": 1708392892665,
     "relativePath": "Sprites\\Clothes\\shoe27_L_thigh.png"
   },
   "0ce4b6d7-d147-4da3-b6b1-f5e29a748089": {
-    "asset": 1694500654332,
-    "meta": 1708336993710,
+    "asset": 1708354472000,
+    "meta": 1708392892694,
     "relativePath": "Sprites\\Clothes\\shoe27_L_leg.png"
   },
   "bbabf5a4-08a4-43ec-b7c8-0d17faa5a5ad": {
-    "asset": 1694500653953,
-    "meta": 1708336993711,
+    "asset": 1708354472000,
+    "meta": 1708392892677,
     "relativePath": "Sprites\\Clothes\\shoe27_R_leg.png"
   },
   "f5ab61ba-2c39-4105-bd95-fbb60183fddf": {
-    "asset": 1694500664008,
-    "meta": 1708336993713,
+    "asset": 1708354472000,
+    "meta": 1708392892657,
     "relativePath": "Sprites\\Clothes\\shirt32_body.png"
   },
   "2b349c59-d2f7-44d8-8e68-c9e408ca43df": {
-    "asset": 1708337221607,
-    "meta": 1708337221620,
+    "asset": 1708364540000,
+    "meta": 1708392891050,
     "relativePath": "Sprites\\Hair"
   },
   "d3c1be51-c9c1-4fdb-bf38-6d178e3a426b": {
-    "asset": 1688192318000,
-    "meta": 1708337221642,
+    "asset": 1708354460000,
+    "meta": 1708392890470,
     "relativePath": "Particle\\particle_texture.png"
   },
-  "cc1eee04-7362-4834-80b3-ac96e28c1e05": {
-    "asset": 1706493156433,
-    "meta": 1708337221645,
-    "relativePath": "Sprites\\Hair\\b_hair06.png"
-  },
-  "52ffde16-2d1a-4222-86a7-644c9321f067": {
-    "asset": 1706493156012,
-    "meta": 1708337221647,
-    "relativePath": "Sprites\\Hair\\b_hair10.png"
-  },
-  "7f8f2661-5fc9-40db-bf89-6065f14544dd": {
-    "asset": 1706493157376,
-    "meta": 1708337221649,
-    "relativePath": "Sprites\\Hair\\b_hair02.png"
-  },
-  "b95280df-f9e2-401c-8711-6853307a75f2": {
-    "asset": 1706493156712,
-    "meta": 1708337221651,
-    "relativePath": "Sprites\\Hair\\b_hair05.png"
-  },
-  "0b92e7ec-827b-4c79-8745-5b0982ee4f17": {
-    "asset": 1706493157706,
-    "meta": 1708337221658,
-    "relativePath": "Sprites\\Hair\\b_hair03.png"
-  },
-  "7d4cdfb8-571b-40a6-be88-9990e10ca51b": {
-    "asset": 1706493155806,
-    "meta": 1708337221664,
-    "relativePath": "Sprites\\Hair\\b_hair11.png"
-  },
-  "d1cf0068-68d5-4f21-9f63-becfcadaf682": {
-    "asset": 1706493154733,
-    "meta": 1708337221670,
-    "relativePath": "Sprites\\Hair\\b_hair14.png"
-  },
-  "3bdde777-7856-4f9d-a0e3-48ea2b23a2da": {
-    "asset": 1706493155501,
-    "meta": 1708337221671,
-    "relativePath": "Sprites\\Hair\\b_hair12.png"
-  },
-  "d912b62f-efed-4936-8a99-11d69e3f603a": {
-    "asset": 1706493155048,
-    "meta": 1708337221674,
-    "relativePath": "Sprites\\Hair\\b_hair13.png"
-  },
-  "7c461fa8-1ddd-4dea-86c1-6584bbda5331": {
-    "asset": 1706493154093,
-    "meta": 1708337221676,
-    "relativePath": "Sprites\\Hair\\b_hair15.png"
-  },
-  "89f2dcb4-c937-45b6-8f4b-a129314e81dc": {
-    "asset": 1706493153174,
-    "meta": 1708337221700,
-    "relativePath": "Sprites\\Hair\\b_hair17.png"
-  },
-  "b0f504c2-d967-46a2-900e-a573344113ce": {
-    "asset": 1706493153601,
-    "meta": 1708337221701,
-    "relativePath": "Sprites\\Hair\\b_hair16.png"
-  },
-  "aa9145c9-2858-4678-8d09-43f1b4eac79a": {
-    "asset": 1706493152908,
-    "meta": 1708337221705,
-    "relativePath": "Sprites\\Hair\\b_hair18.png"
-  },
-  "59d2412d-b0c2-4f43-a910-bf300faf0d81": {
-    "asset": 1706497169811,
-    "meta": 1708337221707,
-    "relativePath": "Sprites\\Hair\\b_hair20.png"
-  },
-  "6caed1af-e869-45c7-b2a5-920261ec66b8": {
-    "asset": 1706493152306,
-    "meta": 1708337221709,
-    "relativePath": "Sprites\\Hair\\b_hair21.png"
-  },
-  "2f6b45f2-153a-4dd5-af9e-bae6eb8518af": {
-    "asset": 1706493152071,
-    "meta": 1708337221725,
-    "relativePath": "Sprites\\Hair\\b_hair22.png"
-  },
-  "9ebcf068-9379-4d6c-9a9a-447dd4c11e4d": {
-    "asset": 1706493151670,
-    "meta": 1708337221734,
-    "relativePath": "Sprites\\Hair\\b_hair23.png"
-  },
-  "4088c273-2cc7-407e-882d-cf80684449fe": {
-    "asset": 1706493151466,
-    "meta": 1708337221736,
-    "relativePath": "Sprites\\Hair\\b_hair27.png"
-  },
-  "4e863a44-8277-4f35-bfc9-f58f5ab2e5bf": {
-    "asset": 1706493150959,
-    "meta": 1708337221737,
-    "relativePath": "Sprites\\Hair\\b_hair29.png"
-  },
-  "3c2b06f5-a2f1-4309-8b7a-d0fecf2c1728": {
-    "asset": 1706493151160,
-    "meta": 1708337221739,
-    "relativePath": "Sprites\\Hair\\b_hair28.png"
-  },
-  "7f70bab2-2f87-463c-bba5-212f119a499c": {
-    "asset": 1706493150732,
-    "meta": 1708337221750,
-    "relativePath": "Sprites\\Hair\\b_hair30.png"
-  },
-  "c9aae7ff-3c87-47eb-a614-098b917246c9": {
-    "asset": 1706493150246,
-    "meta": 1708337221770,
-    "relativePath": "Sprites\\Hair\\b_hair34.png"
-  },
-  "ed553f16-b39c-467e-8da8-ed1e12d10a26": {
-    "asset": 1706493150472,
-    "meta": 1708337221773,
-    "relativePath": "Sprites\\Hair\\b_hair32.png"
-  },
-  "340e9743-1e0a-424f-9fda-49207b67191a": {
-    "asset": 1706493149799,
-    "meta": 1708337221775,
-    "relativePath": "Sprites\\Hair\\b_hair36.png"
-  },
-  "09427402-e11b-4e3c-b2cc-2764d9c638c7": {
-    "asset": 1706493150038,
-    "meta": 1708337221776,
-    "relativePath": "Sprites\\Hair\\b_hair35.png"
-  },
-  "d137bab1-49d3-45bf-abe4-9809f2dbc366": {
-    "asset": 1706493149563,
-    "meta": 1708337221778,
-    "relativePath": "Sprites\\Hair\\b_hair37.png"
-  },
-  "1bdca2bd-bb55-454b-83ea-a1e57db3bf07": {
-    "asset": 1706493148269,
-    "meta": 1708337221793,
-    "relativePath": "Sprites\\Hair\\b_hair43.png"
-  },
-  "97963915-49ed-42cc-a355-84e147f42241": {
-    "asset": 1706493148721,
-    "meta": 1708337221807,
-    "relativePath": "Sprites\\Hair\\b_hair41.png"
-  },
-  "aa45cd2d-63a2-4899-931b-2bb3cffbb37d": {
-    "asset": 1706493300987,
-    "meta": 1708337221807,
-    "relativePath": "Sprites\\Hair\\b_hair45.png"
-  },
-  "81d10e1a-8cc5-4fd8-87c3-a3b5002cc195": {
-    "asset": 1706493149302,
-    "meta": 1708337221811,
-    "relativePath": "Sprites\\Hair\\b_hair39.png"
-  },
-  "1b453f3f-00c4-46ef-a769-7a7f7880e5a7": {
-    "asset": 1706493148506,
-    "meta": 1708337221813,
-    "relativePath": "Sprites\\Hair\\b_hair42.png"
-  },
   "3b48b8b7-11fc-4687-bd73-0f0db1443a24": {
-    "asset": 1688192318000,
-    "meta": 1708337222796,
+    "asset": 1708354460000,
+    "meta": 1708392892738,
     "relativePath": "Particle\\particle_texture.plist"
   },
-  "28e0f8e0-6ae8-4a42-9939-dcdf952d16de": {
-    "asset": 1706493148990,
-    "meta": 1708337221815,
-    "relativePath": "Sprites\\Hair\\b_hair40.png"
-  },
-  "23d7b3a3-4d9e-4638-bf30-632ae44cf039": {
-    "asset": 1706493299952,
-    "meta": 1708337221832,
-    "relativePath": "Sprites\\Hair\\b_hair56.png"
-  },
-  "bd1d29a5-26d3-4fad-80bd-4fa54f531ec3": {
-    "asset": 1706493300203,
-    "meta": 1708337221845,
-    "relativePath": "Sprites\\Hair\\b_hair55.png"
-  },
-  "8baafc03-4d21-43c4-b99a-1de9f6235ff8": {
-    "asset": 1706493299382,
-    "meta": 1708337221848,
-    "relativePath": "Sprites\\Hair\\b_hair63.png"
-  },
-  "1916ad42-609b-4c7d-ad83-5182d33a5f08": {
-    "asset": 1706493299635,
-    "meta": 1708337221851,
-    "relativePath": "Sprites\\Hair\\b_hair61.png"
-  },
-  "69436fc5-2709-4b78-b22a-532e4f334943": {
-    "asset": 1706493300438,
-    "meta": 1708337221853,
-    "relativePath": "Sprites\\Hair\\b_hair48.png"
-  },
-  "5435b113-7be0-4076-82ba-cc32f58aad3a": {
-    "asset": 1706493300736,
-    "meta": 1708337221859,
-    "relativePath": "Sprites\\Hair\\b_hair47.png"
-  },
-  "0a0b51a5-6f2d-48b7-ac0f-6099572a9d21": {
-    "asset": 1706493298357,
-    "meta": 1708337221876,
-    "relativePath": "Sprites\\Hair\\b_hair69.png"
-  },
-  "e0f34018-539f-4aa0-9ac5-18d5160fde8c": {
-    "asset": 1706493299122,
-    "meta": 1708337221881,
-    "relativePath": "Sprites\\Hair\\b_hair64.png"
-  },
   "26f7f91f-dad0-42e1-bee6-78a32da02c9f": {
-    "asset": 1706493298601,
-    "meta": 1708337221884,
+    "asset": 1708354472000,
+    "meta": 1708392892672,
     "relativePath": "Sprites\\Hair\\b_hair67.png"
   },
-  "6ae88734-6c60-43bd-9787-304991462cd3": {
-    "asset": 1706493298146,
-    "meta": 1708337221889,
-    "relativePath": "Sprites\\Hair\\b_hair70.png"
-  },
-  "ad524cf0-323b-45a9-819f-f3415ae746c6": {
-    "asset": 1706493298863,
-    "meta": 1708337221898,
-    "relativePath": "Sprites\\Hair\\b_hair65.png"
-  },
-  "0b06d5e5-6b13-48bb-9882-995eaa2eae66": {
-    "asset": 1706493297905,
-    "meta": 1708337221903,
-    "relativePath": "Sprites\\Hair\\b_hair71.png"
-  },
-  "57495fae-5022-4e19-9afe-4253c65763f1": {
-    "asset": 1706493297328,
-    "meta": 1708337221918,
-    "relativePath": "Sprites\\Hair\\b_hair74.png"
-  },
-  "bc25e755-0509-4951-b493-073f18f3ce73": {
-    "asset": 1706493297041,
-    "meta": 1708337221920,
-    "relativePath": "Sprites\\Hair\\b_hair75.png"
-  },
-  "769a0dbf-96d8-459d-8926-4021de6c2b35": {
-    "asset": 1706493297626,
-    "meta": 1708337221921,
-    "relativePath": "Sprites\\Hair\\b_hair73.png"
-  },
-  "ce16e8f9-4e08-4836-bd07-3b7be707d99a": {
-    "asset": 1706493296838,
-    "meta": 1708337221935,
-    "relativePath": "Sprites\\Hair\\b_hair76.png"
-  },
-  "d23b64e6-bf7c-43de-a241-35542e0c1af9": {
-    "asset": 1706510833660,
-    "meta": 1708337221939,
-    "relativePath": "Sprites\\Hair\\b_hair77.png"
-  },
-  "9d0a728f-96c8-45cb-ac38-5a59a28538c4": {
-    "asset": 1706493296337,
-    "meta": 1708337221941,
-    "relativePath": "Sprites\\Hair\\b_hair78.png"
-  },
-  "3819d80e-367c-4839-91ad-ab8c31566750": {
-    "asset": 1706520568666,
-    "meta": 1708337221943,
-    "relativePath": "Sprites\\Hair\\b_hair80.png"
-  },
   "a68e819f-f162-4d88-9356-d37a5b4068b3": {
-    "asset": 1706521068993,
-    "meta": 1708337221953,
+    "asset": 1708354474000,
+    "meta": 1708392892695,
     "relativePath": "Sprites\\Hair\\b_hair82.png"
   },
-  "6d82be94-1081-49a1-874a-7b53498b7a00": {
-    "asset": 1706520825143,
-    "meta": 1708337221960,
-    "relativePath": "Sprites\\Hair\\b_hair81.png"
-  },
-  "ae96b041-8274-4a72-a71d-0c693e36cfe3": {
-    "asset": 1706493159829,
-    "meta": 1708337221971,
-    "relativePath": "Sprites\\Hair\\f_hair04.png"
-  },
-  "7d8dfa8c-1090-49b1-b73f-aa2bd0510ba3": {
-    "asset": 1706493159113,
-    "meta": 1708337221973,
-    "relativePath": "Sprites\\Hair\\f_hair01.png"
-  },
-  "290c2edd-dbcc-4581-9266-d3534d63863f": {
-    "asset": 1706493159346,
-    "meta": 1708337221974,
-    "relativePath": "Sprites\\Hair\\f_hair02.png"
-  },
-  "33f59a2a-2b92-467e-9887-1aa6b5ced6e5": {
-    "asset": 1706493159559,
-    "meta": 1708337221982,
-    "relativePath": "Sprites\\Hair\\f_hair03.png"
-  },
-  "b11b730c-bc65-4445-9a19-6c6d6a541ce0": {
-    "asset": 1706519944938,
-    "meta": 1708337222010,
-    "relativePath": "Sprites\\Hair\\b_hair84.png"
-  },
-  "f20de448-6d9b-4105-8db0-acc7cfd58fbd": {
-    "asset": 1706493160268,
-    "meta": 1708337222020,
-    "relativePath": "Sprites\\Hair\\f_hair06.png"
-  },
-  "bd35ed83-1feb-4338-aaf0-1767ffdf7622": {
-    "asset": 1706493160902,
-    "meta": 1708337222026,
-    "relativePath": "Sprites\\Hair\\f_hair09.png"
-  },
-  "65d9c9c4-a45a-4187-8b8d-05f4c8991028": {
-    "asset": 1706493160059,
-    "meta": 1708337222028,
-    "relativePath": "Sprites\\Hair\\f_hair05.png"
-  },
-  "0f38699c-bcc8-43a6-ade3-4b976b28a647": {
-    "asset": 1706493160478,
-    "meta": 1708337222030,
-    "relativePath": "Sprites\\Hair\\f_hair07.png"
-  },
-  "2b3ad14b-468e-4f1a-866d-ed6bdf78f1c1": {
-    "asset": 1706493160697,
-    "meta": 1708337222052,
-    "relativePath": "Sprites\\Hair\\f_hair08.png"
-  },
-  "1c93cd59-03d0-4859-a879-6fc2b03d2221": {
-    "asset": 1706493161396,
-    "meta": 1708337222077,
-    "relativePath": "Sprites\\Hair\\f_hair11.png"
-  },
-  "492eeb08-69d8-4be5-ab72-f0e66e0b76a1": {
-    "asset": 1706493161631,
-    "meta": 1708337222079,
-    "relativePath": "Sprites\\Hair\\f_hair12.png"
-  },
-  "23cb17a8-ca74-4e9a-bec6-9e2c2cc18ed6": {
-    "asset": 1706493161151,
-    "meta": 1708337222081,
-    "relativePath": "Sprites\\Hair\\f_hair10.png"
-  },
-  "36b89307-0a38-4f7f-afa5-c6729de4af7f": {
-    "asset": 1706493161866,
-    "meta": 1708337222083,
-    "relativePath": "Sprites\\Hair\\f_hair13.png"
-  },
-  "d4e126f4-bcc3-4ba5-bc39-3a141b87281e": {
-    "asset": 1706493162327,
-    "meta": 1708337222119,
-    "relativePath": "Sprites\\Hair\\f_hair15.png"
-  },
-  "7eb67611-f069-4566-b3f9-6191b37ce13b": {
-    "asset": 1706493162106,
-    "meta": 1708337222121,
-    "relativePath": "Sprites\\Hair\\f_hair14.png"
-  },
-  "ba66556e-47b5-4424-82fb-5ff5687f6848": {
-    "asset": 1706493162835,
-    "meta": 1708337222134,
-    "relativePath": "Sprites\\Hair\\f_hair17.png"
-  },
-  "345644a2-ebe3-4baa-96f1-529c66745273": {
-    "asset": 1706493162545,
-    "meta": 1708337222135,
-    "relativePath": "Sprites\\Hair\\f_hair16.png"
-  },
-  "18fc7b63-5764-4ee1-b83a-2bbb38de013f": {
-    "asset": 1706493163318,
-    "meta": 1708337222139,
-    "relativePath": "Sprites\\Hair\\f_hair19.png"
-  },
-  "1e5c05d1-0c3e-4d8c-a5e8-8c9f33caed27": {
-    "asset": 1706493163095,
-    "meta": 1708337222140,
-    "relativePath": "Sprites\\Hair\\f_hair18.png"
-  },
-  "2070bcf8-51f5-45ed-a4ee-ed65b5ce9946": {
-    "asset": 1706493163535,
-    "meta": 1708337222154,
-    "relativePath": "Sprites\\Hair\\f_hair20.png"
-  },
-  "c6ab0ceb-63f4-4287-8931-ec4727c9b89c": {
-    "asset": 1706493164475,
-    "meta": 1708337222164,
-    "relativePath": "Sprites\\Hair\\f_hair24.png"
-  },
-  "86e5ec00-f5ad-46bc-a250-9944feaa8912": {
-    "asset": 1706493163756,
-    "meta": 1708337222166,
-    "relativePath": "Sprites\\Hair\\f_hair21.png"
-  },
-  "226cb9bf-0dfe-4b71-8d5d-f1d8679bb9c0": {
-    "asset": 1706493164220,
-    "meta": 1708337222175,
-    "relativePath": "Sprites\\Hair\\f_hair23.png"
-  },
-  "e0e55bc0-e481-416b-827a-4f967f662b30": {
-    "asset": 1706493165071,
-    "meta": 1708337222178,
-    "relativePath": "Sprites\\Hair\\f_hair25.png"
-  },
-  "1cb2636b-f7d7-40a1-9d79-7bc636a3acf0": {
-    "asset": 1706493163988,
-    "meta": 1708337222181,
-    "relativePath": "Sprites\\Hair\\f_hair22.png"
-  },
-  "809727ee-1c80-4282-a85e-5189b3ba5349": {
-    "asset": 1706493165796,
-    "meta": 1708337222203,
-    "relativePath": "Sprites\\Hair\\f_hair26.png"
-  },
-  "ebd16802-e472-4d34-9849-7e5229fcd3b4": {
-    "asset": 1706493166357,
-    "meta": 1708337222205,
-    "relativePath": "Sprites\\Hair\\f_hair28.png"
-  },
-  "952d95f3-7dec-43c1-88c3-1e23704148bb": {
-    "asset": 1706493166138,
-    "meta": 1708337222207,
-    "relativePath": "Sprites\\Hair\\f_hair27.png"
-  },
-  "2783b859-e007-4798-89e9-e7da66df332d": {
-    "asset": 1706493166572,
-    "meta": 1708337222213,
-    "relativePath": "Sprites\\Hair\\f_hair29.png"
-  },
-  "4bc11e17-29f9-4b1a-be27-9a6a7d38ad25": {
-    "asset": 1706493167068,
-    "meta": 1708337222214,
-    "relativePath": "Sprites\\Hair\\f_hair31.png"
-  },
-  "a1ef0b45-c4a3-4a29-89fb-26678a285556": {
-    "asset": 1706493166820,
-    "meta": 1708337222223,
-    "relativePath": "Sprites\\Hair\\f_hair30.png"
-  },
-  "2bf5a434-b602-4db1-9786-cfd1bcadb756": {
-    "asset": 1706493167285,
-    "meta": 1708337222236,
-    "relativePath": "Sprites\\Hair\\f_hair32.png"
-  },
-  "7515e4fa-f33b-4f52-80e7-32e5a6a920c8": {
-    "asset": 1706493168205,
-    "meta": 1708337222238,
-    "relativePath": "Sprites\\Hair\\f_hair35.png"
-  },
-  "76aaf650-98c7-4b2a-b98e-02a23f2099ff": {
-    "asset": 1706493168520,
-    "meta": 1708337222241,
-    "relativePath": "Sprites\\Hair\\f_hair36.png"
-  },
-  "2acc524e-632a-4aa8-b72b-4dfbec151fae": {
-    "asset": 1706493167645,
-    "meta": 1708337222251,
-    "relativePath": "Sprites\\Hair\\f_hair33.png"
-  },
-  "244dd32e-9015-48e5-beac-9a26f5b5a0a4": {
-    "asset": 1706493167970,
-    "meta": 1708337222253,
-    "relativePath": "Sprites\\Hair\\f_hair34.png"
-  },
-  "775af984-8780-4b15-b4c1-5016ba82fa9a": {
-    "asset": 1706493168841,
-    "meta": 1708337222267,
-    "relativePath": "Sprites\\Hair\\f_hair37.png"
-  },
-  "e56a03bc-c2dd-4a0e-b7f8-76fa66daea08": {
-    "asset": 1706493169393,
-    "meta": 1708337222275,
-    "relativePath": "Sprites\\Hair\\f_hair39.png"
-  },
-  "6ec3935c-52ad-4457-848d-cf7b6279c4d8": {
-    "asset": 1706493170079,
-    "meta": 1708337222289,
-    "relativePath": "Sprites\\Hair\\f_hair42.png"
-  },
-  "6b871fe9-48ae-4e1c-b20c-d37c63d3bfde": {
-    "asset": 1706493169657,
-    "meta": 1708337222291,
-    "relativePath": "Sprites\\Hair\\f_hair40.png"
-  },
-  "636e1299-ae09-4a99-af86-8ab5cacc98e5": {
-    "asset": 1706493169103,
-    "meta": 1708337222292,
-    "relativePath": "Sprites\\Hair\\f_hair38.png"
-  },
-  "78a7a001-6a2c-4f08-b686-e7ee58f727d5": {
-    "asset": 1706493169878,
-    "meta": 1708337222295,
-    "relativePath": "Sprites\\Hair\\f_hair41.png"
-  },
-  "ad53b3ee-9247-494e-9015-c0ac657992ff": {
-    "asset": 1706493170543,
-    "meta": 1708337222308,
-    "relativePath": "Sprites\\Hair\\f_hair44.png"
-  },
-  "22aaf3a0-fc72-417f-b1d1-9b62053eeab5": {
-    "asset": 1706493302208,
-    "meta": 1708337222309,
-    "relativePath": "Sprites\\Hair\\f_hair46.png"
-  },
-  "7c05a109-533c-40d4-8f96-78072a4f0aff": {
-    "asset": 1706493170287,
-    "meta": 1708337222317,
-    "relativePath": "Sprites\\Hair\\f_hair43.png"
-  },
-  "856cd5ae-cbb0-4d4a-b82c-51e6089c6188": {
-    "asset": 1706493301975,
-    "meta": 1708337222324,
-    "relativePath": "Sprites\\Hair\\f_hair45.png"
-  },
-  "55deb5f9-632c-4a92-b90c-30690d201e7b": {
-    "asset": 1706493302438,
-    "meta": 1708337222326,
-    "relativePath": "Sprites\\Hair\\f_hair47.png"
-  },
-  "756471c4-51c6-4c1b-ac72-60512b4fff56": {
-    "asset": 1706493302675,
-    "meta": 1708337222339,
-    "relativePath": "Sprites\\Hair\\f_hair48.png"
-  },
-  "6ef00478-a544-4cf5-940f-3c11d11fcc50": {
-    "asset": 1706493303141,
-    "meta": 1708337222344,
-    "relativePath": "Sprites\\Hair\\f_hair50.png"
-  },
-  "a0fb51dd-3e05-4bd5-96b1-ed480bffd0b3": {
-    "asset": 1706493303661,
-    "meta": 1708337222346,
-    "relativePath": "Sprites\\Hair\\f_hair52.png"
-  },
-  "28c865eb-01cd-4290-9bae-ccf47648851d": {
-    "asset": 1706493302899,
-    "meta": 1708337222353,
-    "relativePath": "Sprites\\Hair\\f_hair49.png"
-  },
-  "bee9de4d-3ece-419a-84c7-fe029db2744b": {
-    "asset": 1706493303438,
-    "meta": 1708337222359,
-    "relativePath": "Sprites\\Hair\\f_hair51.png"
-  },
-  "c086573e-d483-4a03-ba7a-3fa243b7be34": {
-    "asset": 1706493303885,
-    "meta": 1708337222360,
-    "relativePath": "Sprites\\Hair\\f_hair53.png"
-  },
-  "7fb78b67-ed81-4301-956e-272889fdc46c": {
-    "asset": 1706493304857,
-    "meta": 1708337222380,
-    "relativePath": "Sprites\\Hair\\f_hair57.png"
-  },
-  "b246defe-c53d-4d3a-a6cc-4c65775b290a": {
-    "asset": 1706493305068,
-    "meta": 1708337222389,
-    "relativePath": "Sprites\\Hair\\f_hair58.png"
-  },
-  "7a6c27e6-ed10-41b8-ae2d-8075c3dad102": {
-    "asset": 1706493304571,
-    "meta": 1708337222390,
-    "relativePath": "Sprites\\Hair\\f_hair56.png"
-  },
-  "f8ffd7c0-2a67-439a-bffc-dc842f5d23a3": {
-    "asset": 1706493304352,
-    "meta": 1708337222391,
-    "relativePath": "Sprites\\Hair\\f_hair55.png"
-  },
-  "992c82de-d40e-47c8-996d-9acdc76dabe1": {
-    "asset": 1706493305295,
-    "meta": 1708337222400,
-    "relativePath": "Sprites\\Hair\\f_hair59.png"
-  },
-  "d68cfe41-d4da-4e7d-ab4a-906871f8032d": {
-    "asset": 1706493304114,
-    "meta": 1708337222405,
-    "relativePath": "Sprites\\Hair\\f_hair54.png"
-  },
-  "9b16244d-2640-4968-9d2c-0ccb75eee55f": {
-    "asset": 1706493305737,
-    "meta": 1708337222419,
-    "relativePath": "Sprites\\Hair\\f_hair61.png"
-  },
-  "1cefc504-4a78-441a-98a5-53a7578a13dc": {
-    "asset": 1706493306532,
-    "meta": 1708337222423,
-    "relativePath": "Sprites\\Hair\\f_hair64.png"
-  },
-  "ee29f0ec-5b8b-4ab5-a353-6702b8b978d1": {
-    "asset": 1706493305966,
-    "meta": 1708337222428,
-    "relativePath": "Sprites\\Hair\\f_hair62.png"
-  },
-  "e445f941-e4c3-4737-9734-4078ae60c0ea": {
-    "asset": 1706493306202,
-    "meta": 1708337222444,
-    "relativePath": "Sprites\\Hair\\f_hair63.png"
-  },
-  "138ea7dc-054c-45f2-ba0a-cef3ff85ad95": {
-    "asset": 1706493305520,
-    "meta": 1708337222448,
-    "relativePath": "Sprites\\Hair\\f_hair60.png"
-  },
-  "05e4e4d1-fb57-4761-b487-2efb85b23e1c": {
-    "asset": 1706493306946,
-    "meta": 1708337222449,
-    "relativePath": "Sprites\\Hair\\f_hair65.png"
-  },
-  "d09b51a8-0096-4ae3-9603-b2538cf0f459": {
-    "asset": 1706493308319,
-    "meta": 1708337222474,
-    "relativePath": "Sprites\\Hair\\f_hair70.png"
-  },
   "554b805a-e5b3-4458-bb1c-01666d881142": {
-    "asset": 1706493307438,
-    "meta": 1708337222475,
+    "asset": 1708354476000,
+    "meta": 1708392892696,
     "relativePath": "Sprites\\Hair\\f_hair67.png"
   },
-  "42f3a59e-b5dd-4f50-b422-a2d5b03734cf": {
-    "asset": 1706493307196,
-    "meta": 1708337222477,
-    "relativePath": "Sprites\\Hair\\f_hair66.png"
-  },
-  "dc33ddf5-a8c7-4c6c-bf5a-ee53f5501d6c": {
-    "asset": 1706493307704,
-    "meta": 1708337222479,
-    "relativePath": "Sprites\\Hair\\f_hair68.png"
-  },
-  "e69f871d-16aa-4852-83ce-c6cdfd497a3e": {
-    "asset": 1706493307986,
-    "meta": 1708337222483,
-    "relativePath": "Sprites\\Hair\\f_hair69.png"
-  },
-  "21c7c0a2-140d-4ddf-bf5e-3c8143e467ba": {
-    "asset": 1706493308550,
-    "meta": 1708337222495,
-    "relativePath": "Sprites\\Hair\\f_hair71.png"
-  },
-  "a7997610-dd01-4045-aa23-794b845edf60": {
-    "asset": 1706493309686,
-    "meta": 1708337222517,
-    "relativePath": "Sprites\\Hair\\f_hair75.png"
-  },
-  "c0bf0e97-23ff-4f1a-9d12-d40256a7ed0d": {
-    "asset": 1706493308822,
-    "meta": 1708337222518,
-    "relativePath": "Sprites\\Hair\\f_hair72.png"
-  },
-  "9a37f1e1-6c49-4f08-aa20-c3844f19a2a6": {
-    "asset": 1706493309047,
-    "meta": 1708337222531,
-    "relativePath": "Sprites\\Hair\\f_hair73.png"
-  },
-  "e90ef12a-de0c-4bbf-bb8f-bf7257d810da": {
-    "asset": 1706493309468,
-    "meta": 1708337222533,
-    "relativePath": "Sprites\\Hair\\f_hair74.png"
-  },
-  "e092bae7-607f-4aaf-b070-804d668f82eb": {
-    "asset": 1706493309952,
-    "meta": 1708337222566,
-    "relativePath": "Sprites\\Hair\\f_hair76.png"
-  },
-  "62d2e085-3589-46c2-b924-0b1e5037b074": {
-    "asset": 1706493310173,
-    "meta": 1708337222569,
-    "relativePath": "Sprites\\Hair\\f_hair77.png"
-  },
-  "c5b5b24a-afe9-474e-a1c4-ff7afc558ef0": {
-    "asset": 1706493310726,
-    "meta": 1708337222590,
-    "relativePath": "Sprites\\Hair\\f_hair78.png"
-  },
-  "2a426b7d-3043-477b-9981-17e92ac62cbe": {
-    "asset": 1706520771676,
-    "meta": 1708337222624,
-    "relativePath": "Sprites\\Hair\\f_hair81.png"
-  },
-  "3d4c2b9e-11ae-45e0-be87-c6a98f1f6c3c": {
-    "asset": 1706519947385,
-    "meta": 1708337222625,
-    "relativePath": "Sprites\\Hair\\f_hair79.png"
-  },
-  "ea91c727-19ed-4a6e-9f51-654b7cc68fb7": {
-    "asset": 1706519947079,
-    "meta": 1708337222672,
-    "relativePath": "Sprites\\Hair\\f_hair80.png"
-  },
   "97ffc708-28b7-43e6-a6fb-93137bef4f9b": {
-    "asset": 1706519946011,
-    "meta": 1708337222725,
+    "asset": 1708354476000,
+    "meta": 1708392892702,
     "relativePath": "Sprites\\Hair\\f_hair82.png"
   },
-  "fe3bd309-18e3-49a8-8183-fddc7eaa1040": {
-    "asset": 1706519946233,
-    "meta": 1708337222741,
-    "relativePath": "Sprites\\Hair\\f_hair84.png"
-  },
-  "53c8b429-1af5-4f82-b1f2-13472fbf4114": {
-    "asset": 1706519946553,
-    "meta": 1708337222771,
-    "relativePath": "Sprites\\Hair\\f_hair83.png"
-  },
   "18c68a5a-e062-4049-9f60-098109bc65fb": {
-    "asset": 1708337448763,
-    "meta": 1708337448773,
+    "asset": 1708354476000,
+    "meta": 1708392891054,
     "relativePath": "Sprites\\Hiepbeo"
   },
   "2f3635d0-49a2-48db-8212-ef4ac54ba98b": {
-    "asset": 1708337378340,
-    "meta": 1708337448799,
+    "asset": 1708354476000,
+    "meta": 1708392892710,
     "relativePath": "Sprites\\Hiepbeo\\dress_body_08.png"
   },
-  "97c94c14-6dce-4f79-baaf-dce9fd075ef3": {
-    "asset": 1708337539659,
-    "meta": 1708337544186,
-    "relativePath": "Script\\Controller\\NodesContainer.ts"
-  },
   "60852f7a-1edd-4f87-83a9-653a6104d430": {
-    "asset": 1708337865434,
-    "meta": 1708337907463,
+    "asset": 1708354476000,
+    "meta": 1708392892716,
     "relativePath": "Sprites\\Hiepbeo\\f_hair02.png"
   },
   "c896b0b7-e16d-4a7a-a91f-e018984352a2": {
-    "asset": 1708337865504,
-    "meta": 1708337907471,
+    "asset": 1708354476000,
+    "meta": 1708392892717,
     "relativePath": "Sprites\\Hiepbeo\\body.png"
   },
-  "857115f6-9480-463c-83e3-6895c5498684": {
-    "asset": 1708339304509,
-    "meta": 1708339305392,
-    "relativePath": "Script\\Controller\\TouchAreaController.ts"
+  "97c94c14-6dce-4f79-baaf-dce9fd075ef3": {
+    "asset": 1708363506000,
+    "meta": 1708392891128,
+    "relativePath": "Script\\Controller\\NodesContainer.ts"
+  },
+  "d10fe6c3-0773-45e7-876e-bd0d7ff324c6": {
+    "asset": 1708363990000,
+    "meta": 1708392890430,
+    "relativePath": "Animation\\GamePlay_SwitchItem.anim"
+  },
+  "eaccbffa-f456-43bb-aac2-e18991fae016": {
+    "asset": 1708364346000,
+    "meta": 1708392891185,
+    "relativePath": "Script\\Data\\constants.ts"
   },
   "d3aba5b0-1108-408b-961f-e3017d559c4d": {
-    "asset": 1708338896478,
-    "meta": 1708339305434,
+    "asset": 1708364886000,
+    "meta": 1708392891283,
     "relativePath": "Script\\Plugin\\Responsive.ts"
+  },
+  "b1d34b2b-3f5e-4936-8c6d-cce0ad434a19": {
+    "asset": 1708365814000,
+    "meta": 1708392891109,
+    "relativePath": "Script\\Controller\\GamePlay.ts"
+  },
+  "4c7cff6b-0d22-4bdf-a709-b73d655337bf": {
+    "asset": 1708365826000,
+    "meta": 1708392891230,
+    "relativePath": "Script\\Plugin\\AudioManager.ts"
+  },
+  "857115f6-9480-463c-83e3-6895c5498684": {
+    "asset": 1708365872000,
+    "meta": 1708392891171,
+    "relativePath": "Script\\Controller\\TouchAreaController.ts"
   }
 }

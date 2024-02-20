@@ -35,9 +35,40 @@ var AudioManager = /** @class */ (function (_super) {
         _this.openBookSound = null;
         _this.showItemSound = null;
         _this.pickItemSound = null;
+        _this.waoGameSound = null;
+        _this.swtichItemSound = null;
         return _this;
     }
     AudioManager.prototype.playSound = function (soundName) {
+        // ironsource
+        // if (Constants.ironSource.SoundState && Constants.ironSource.isPlayBgSound) {
+        //     switch (soundName) {
+        //         case "bgSound":
+        //             this.bgSound.play();
+        //             break;
+        //         case "woaAnimeSound":
+        //             this.woaAnimeSound.play();
+        //             break;
+        //         case "openBookSound":
+        //             this.openBookSound.play();
+        //             break;
+        //         case "showItemSound":
+        //             this.showItemSound.play();
+        //             break;
+        //         case "pickItemSound":
+        //             this.pickItemSound.play();
+        //             break;   
+        //             case "waoGameSound":
+        //             this.waoGameSound.play();
+        //             break;
+        //             case "swtichItemSound":
+        //                 this.swtichItemSound.play();
+        //                 break;
+        //         default:
+        //             break;
+        //     }
+        // }
+        // ----------------
         if (constants_1.Constants.ironSource.SoundState) {
             switch (soundName) {
                 case "bgSound":
@@ -54,6 +85,12 @@ var AudioManager = /** @class */ (function (_super) {
                     break;
                 case "pickItemSound":
                     this.pickItemSound.play();
+                    break;
+                case "waoGameSound":
+                    this.waoGameSound.play();
+                    break;
+                case "swtichItemSound":
+                    this.swtichItemSound.play();
                     break;
                 default:
                     break;
@@ -75,18 +112,34 @@ var AudioManager = /** @class */ (function (_super) {
                 this.showItemSound.stop();
                 break;
             case "pickItemSound":
-                this.pickItemSound.play();
+                this.pickItemSound.stop();
+                break;
+            case "waoGameSound":
+                this.waoGameSound.stop();
+                break;
+            case "swtichItemSound":
+                this.swtichItemSound.stop();
                 break;
             default:
                 break;
         }
+    };
+    AudioManager.prototype.stopAllSoundExceptBgSound = function () {
+        this.showItemSound.stop();
+        this.woaAnimeSound.stop();
+        this.openBookSound.stop();
+        this.pickItemSound.stop();
+        this.waoGameSound.stop();
+        this.swtichItemSound.stop();
     };
     AudioManager.prototype.stopAllSound = function () {
         this.bgSound.stop();
         this.showItemSound.stop();
         this.woaAnimeSound.stop();
         this.openBookSound.stop();
-        this.pickItemSound.play();
+        this.pickItemSound.stop();
+        this.waoGameSound.stop();
+        this.swtichItemSound.stop();
     };
     __decorate([
         property(cc.AudioSource)
@@ -103,6 +156,12 @@ var AudioManager = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioSource)
     ], AudioManager.prototype, "pickItemSound", void 0);
+    __decorate([
+        property(cc.AudioSource)
+    ], AudioManager.prototype, "waoGameSound", void 0);
+    __decorate([
+        property(cc.AudioSource)
+    ], AudioManager.prototype, "swtichItemSound", void 0);
     AudioManager = __decorate([
         ccclass
     ], AudioManager);

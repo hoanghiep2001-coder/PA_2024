@@ -63,7 +63,7 @@ export default class Responsive extends cc.Component {
         this.NodesContainer.Book.y = 0;
         this.NodesContainer.Book.scale = 0.4;
         this.NodesContainer.Hand.y = -350;
-        this.NodesContainer.Hand.scale = 0.85;
+        this.NodesContainer.Hand.scale = 1;
 
     }
 
@@ -74,14 +74,14 @@ export default class Responsive extends cc.Component {
 
         this.device = this.HORIZONTAL_TABLET;
         
-        this.NodesContainer.Doll.x = 0;
-        this.NodesContainer.Doll.y = 100;
-        this.NodesContainer.Doll.scale = 0.9;
-        this.NodesContainer.Book.x = 0;
-        this.NodesContainer.Book.y = -140;
-        this.NodesContainer.Book.scale = 0.25;
+        this.NodesContainer.Doll.x = 200;
+        this.NodesContainer.Doll.y = 0;
+        this.NodesContainer.Doll.scale = 1.35;
+        this.NodesContainer.Book.x = -120;
+        this.NodesContainer.Book.y = 0;
+        this.NodesContainer.Book.scale = 0.33;
         this.NodesContainer.Hand.y = -350;
-        this.NodesContainer.Hand.scale = 0.85;
+        this.NodesContainer.Hand.scale = 1;
 
     }
 
@@ -107,7 +107,7 @@ export default class Responsive extends cc.Component {
         this.NodesContainer.Book.y = -185;
         this.NodesContainer.Book.scale = 0.3;
         this.NodesContainer.Hand.y = -350;
-        this.NodesContainer.Hand.scale = 0.85;
+        this.NodesContainer.Hand.scale = 1;
 
     }
 
@@ -126,9 +126,9 @@ export default class Responsive extends cc.Component {
                 this.NodesContainer.Doll.scale = 0.95;
                 this.NodesContainer.Book.x = 0;
                 this.NodesContainer.Book.y = -150;
-                this.NodesContainer.Book.scale = 0.3;
+                this.NodesContainer.Book.scale = 0.25;
                 this.NodesContainer.Hand.y = -350;
-                this.NodesContainer.Hand.scale = 0.85;
+                this.NodesContainer.Hand.scale = 1;
                 return;
             }
 
@@ -140,7 +140,7 @@ export default class Responsive extends cc.Component {
             this.NodesContainer.Book.y = -165;
             this.NodesContainer.Book.scale = 0.3;
             this.NodesContainer.Hand.y = -350;
-            this.NodesContainer.Hand.scale = 0.85;
+            this.NodesContainer.Hand.scale = 1;
         } else {
             this.NodesContainer.Doll.x = 0;
             this.NodesContainer.Doll.y = 100;
@@ -149,7 +149,7 @@ export default class Responsive extends cc.Component {
             this.NodesContainer.Book.y = -140;
             this.NodesContainer.Book.scale = 0.23;
             this.NodesContainer.Hand.y = -350;
-            this.NodesContainer.Hand.scale = 0.85;
+            this.NodesContainer.Hand.scale = 1;
         }
     }
 

@@ -31,12 +31,15 @@ var NodesContainer = /** @class */ (function (_super) {
         _this.hideMask = null;
         _this.UI = null;
         _this.Doll = null;
+        _this.Doll_DressDefault = null;
         _this.Doll_Dress1 = null;
         _this.Doll_Dress2 = null;
         _this.Book = null;
         _this.Hand = null;
         _this.Button_1 = null;
         _this.Button_2 = null;
+        _this.Effect_Heart = null;
+        _this.Effect_Blink = null;
         return _this;
     }
     __decorate([
@@ -48,6 +51,9 @@ var NodesContainer = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], NodesContainer.prototype, "Doll", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodesContainer.prototype, "Doll_DressDefault", void 0);
     __decorate([
         property(cc.Node)
     ], NodesContainer.prototype, "Doll_Dress1", void 0);
@@ -66,6 +72,12 @@ var NodesContainer = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], NodesContainer.prototype, "Button_2", void 0);
+    __decorate([
+        property(cc.ParticleSystem)
+    ], NodesContainer.prototype, "Effect_Heart", void 0);
+    __decorate([
+        property(cc.ParticleSystem)
+    ], NodesContainer.prototype, "Effect_Blink", void 0);
     NodesContainer = __decorate([
         ccclass
     ], NodesContainer);

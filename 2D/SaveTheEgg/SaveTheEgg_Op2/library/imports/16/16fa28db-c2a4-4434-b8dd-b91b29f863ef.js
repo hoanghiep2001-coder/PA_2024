@@ -4,9 +4,6 @@ cc._RF.push(module, '16fa2jbwqRENLjduRsp+GPv', 'MyPhysicsCollider');
 
 "use strict";
 
-/**
- *zongyuan.yang 重新封装PhysicsCollider类
- */
 var MyPhysicsCollider = cc.Class({
   "extends": cc.PhysicsCollider,
   editor: {
@@ -20,8 +17,7 @@ var MyPhysicsCollider = cc.Class({
   _createShape: function _createShape(scale) {
     var shapes = [];
     var polys = this.points;
-    var offset = this.offset; // console.log(polys);
-
+    var offset = this.offset;
     var polyIdx = 0;
 
     for (var i = 0; i < polys.length - 1; i++) {

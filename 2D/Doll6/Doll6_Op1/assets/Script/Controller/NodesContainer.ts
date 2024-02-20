@@ -10,6 +10,8 @@ export default class NodesContainer extends cc.Component {
     @property(cc.Node)
     Doll: cc.Node = null;
     @property(cc.Node)
+    Doll_DressDefault: cc.Node = null;
+    @property(cc.Node)
     Doll_Dress1: cc.Node = null;
     @property(cc.Node)
     Doll_Dress2: cc.Node = null;
@@ -21,4 +23,9 @@ export default class NodesContainer extends cc.Component {
     Button_1: cc.Node = null;
     @property(cc.Node)
     Button_2: cc.Node = null;
+
+    @property(cc.ParticleSystem)
+    Effect_Heart: cc.ParticleSystem = null;
+    @property(cc.ParticleSystem)
+    Effect_Blink: cc.ParticleSystem = null;
 }

@@ -22,7 +22,7 @@ export default class GamePlay extends cc.Component {
 
 
   protected start(): void {
-    // this.AudioManager.playSound(Constants.SoundTrack.bgSound);
+    this.AudioManager.playSound(Constants.SoundTrack.bgSound);
     this.handleGamePlay();
   }
 

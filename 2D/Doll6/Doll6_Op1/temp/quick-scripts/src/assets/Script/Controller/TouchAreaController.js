@@ -40,6 +40,9 @@ var TouchAreaController = /** @class */ (function (_super) {
         _this.GameController = null;
         _this.GamePlay = null;
         return _this;
+        // protected update(dt: number): void {
+        //     this.handleMuteSoundIronSource();
+        // }
     }
     TouchAreaController.prototype.onLoad = function () {
     };
@@ -47,29 +50,56 @@ var TouchAreaController = /** @class */ (function (_super) {
         this.registerEvent();
     };
     TouchAreaController.prototype.registerEvent = function () {
-        this.NodesContainer.Button_1.on(cc.Node.EventType.TOUCH_START, this.handleDressUp, this);
-        this.NodesContainer.Button_2.on(cc.Node.EventType.TOUCH_START, this.handleDressUp, this);
+        this.NodesContainer.Button_1.on(cc.Node.EventType.TOUCH_START, this.handleClick, this);
+        this.NodesContainer.Button_2.on(cc.Node.EventType.TOUCH_START, this.handleClick, this);
         // mtg & applovin
-        // this.NodesContainer.hideMask.on(cc.Node.EventType.TOUCH_START, this.handleDressUp, this);
+        this.NodesContainer.hideMask.on(cc.Node.EventType.TOUCH_START, this.hideMaskClick, this);
     };
-    TouchAreaController.prototype.handleDressUp = function (e) {
-        var nodeClick = e.target._name;
-        console.log(nodeClick);
-        switch (nodeClick) {
-            case "Btn_1":
-                break;
-            default:
-                break;
+    TouchAreaController.prototype.hideMaskClick = function () {
+        // iroon source
+        // this.handleIronSourcePlaySound();
+        // ----------------------
+        // mtg & applovin
+        constants_1.Constants.isDresUp && this.GameController.installHandle();
+    };
+    TouchAreaController.prototype.handleClick = function (e) {
+        if (!constants_1.Constants.isCanTouch) {
+            return;
         }
+        // ironsource
+        // this.handleIronSourcePlaySound();
+        // --------------
+        var nodeClick = e.target._name;
+        constants_1.Constants.isDresUp && this.GameController.installHandle();
+        !constants_1.Constants.isDresUp && this.handleDressUp(nodeClick);
+    };
+    TouchAreaController.prototype.handleDressUp = function (nodeClick) {
+        var _this = this;
+        constants_1.Constants.isCanTouch = false;
+        constants_1.Constants.isDresUp = true;
+        this.AudioManager.stopAllSoundExceptBgSound();
+        this.AudioManager.playSound(constants_1.Constants.SoundTrack.pickItemSound);
+        this.AudioManager.playSound(constants_1.Constants.SoundTrack.waoGameSound);
+        this.NodesContainer.Effect_Heart.resetSystem();
+        this.NodesContainer.Effect_Blink.resetSystem();
+        this.NodesContainer.Doll_DressDefault.active = false;
+        this.NodesContainer.Hand.active = false;
+        nodeClick === "Btn_1" ? this.NodesContainer.Doll_Dress1.active = true : this.NodesContainer.Doll_Dress2.active = true;
+        this.scheduleOnce(function () {
+            _this.AudioManager.playSound(constants_1.Constants.SoundTrack.swtichItemSound);
+            _this.GamePlay.getComponent(cc.Animation).play("GamePlay_SwitchItem");
+            constants_1.Constants.isCanTouch = true;
+            _this.NodesContainer.Hand.active = true;
+        }, 1);
     };
     TouchAreaController.prototype.handleIronSourcePlaySound = function () {
         if (constants_1.Constants.ironSource.isPlayBgSound) {
             return;
         }
+        constants_1.Constants.ironSource.isPlayBgSound = true;
         if (constants_1.Constants.ironSource.SoundState) {
             this.AudioManager.playSound(constants_1.Constants.SoundTrack.bgSound);
         }
-        constants_1.Constants.ironSource.isPlayBgSound = true;
     };
     TouchAreaController.prototype.handleMuteSoundIronSource = function () {
         constants_1.Constants.ironSource.State = parseInt(localStorage.getItem("cocosSoundState"), 10);

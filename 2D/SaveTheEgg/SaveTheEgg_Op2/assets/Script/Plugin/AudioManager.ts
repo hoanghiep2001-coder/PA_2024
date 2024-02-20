@@ -11,11 +11,13 @@ export default class AudioManager extends cc.Component {
     @property(cc.AudioSource)
     drawSound: cc.AudioSource = null;
     @property(cc.AudioSource)
-    successSound: cc.AudioSource = null;
+    crySound: cc.AudioSource = null;
     @property(cc.AudioSource)
-    moveSound: cc.AudioSource = null;
+    clickSound: cc.AudioSource = null;
     @property(cc.AudioSource)
-    fireworksSound: cc.AudioSource = null;
+    loseSound: cc.AudioSource = null;
+    @property(cc.AudioSource)
+    stingSound: cc.AudioSource = null;
 
 
     public playSound(soundName: string): void {
@@ -27,15 +29,18 @@ export default class AudioManager extends cc.Component {
                 case "drawSound":
                     this.drawSound.play();
                     break;
-                case "successSound":
-                    this.successSound.play();
+                case "crySound":
+                    this.crySound.play();
                     break;
-                case "moveSound":
-                    this.moveSound.play();
+                case "clickSound":
+                    this.clickSound.play();
                     break;
-                case "fireworksSound":
-                    this.fireworksSound.play();
+                case "loseSound":
+                    this.loseSound.play();
                     break;
+                    case "stingSound":
+                        this.stingSound.play();
+                        break;
                 default:
                     break;
             }
@@ -50,15 +55,18 @@ export default class AudioManager extends cc.Component {
             case "drawSound":
                 this.drawSound.stop();
                 break;
-            case "successSound":
-                this.successSound.stop();
+            case "crySound":
+                this.crySound.stop();
                 break;
-            case "moveSound":
-                this.moveSound.stop();
+            case "clickSound":
+                this.clickSound.stop();
                 break;
-            case "fireworksSound":
-                this.fireworksSound.stop();
+            case "loseSound":
+                this.loseSound.stop();
                 break;
+                case "stingSound":
+                    this.stingSound.stop();
+                    break;
             default:
                 break;
         }
@@ -67,8 +75,9 @@ export default class AudioManager extends cc.Component {
     public stopAllSound(): void {
         this.bgSound.stop();
         this.drawSound.stop();
-        this.successSound.stop();
-        this.moveSound.stop();
-        this.fireworksSound.stop();
+        this.crySound.stop();
+        this.clickSound.stop();
+        this.loseSound.stop();
+        this.stingSound.stop();
     }
 }

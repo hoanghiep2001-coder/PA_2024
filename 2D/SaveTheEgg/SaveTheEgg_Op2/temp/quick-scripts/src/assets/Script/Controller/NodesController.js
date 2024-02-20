@@ -23,29 +23,71 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var constants_1 = require("../Data/constants");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NodesController = /** @class */ (function (_super) {
     __extends(NodesController, _super);
     function NodesController() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         // Component
-        _this.Graphics = null;
+        _this.Spine_Bees = [];
+        _this.Spine_Character = null;
         // Node
+        _this.FakeCharacters = [];
         _this.HideMask = null;
         _this.LineContainer = null;
+        _this.point_checkCollide = null;
+        _this.Environment = null;
+        _this.CTA = null;
+        _this.CTA_logo = null;
+        _this.CTA_button = null;
+        _this.CTA_Overlay = null;
+        _this.Hint = null;
         // PreFab
         _this.Prefab_Graphics = null;
         return _this;
     }
+    NodesController.prototype.start = function () {
+        constants_1.Constants.Char_Point1 = this.FakeCharacters[0].getPosition();
+        constants_1.Constants.Char_Point2 = this.FakeCharacters[1].getPosition();
+        constants_1.Constants.Char_Point3 = this.FakeCharacters[2].getPosition();
+    };
     __decorate([
-        property(cc.Graphics)
-    ], NodesController.prototype, "Graphics", void 0);
+        property([sp.Skeleton])
+    ], NodesController.prototype, "Spine_Bees", void 0);
+    __decorate([
+        property(sp.Skeleton)
+    ], NodesController.prototype, "Spine_Character", void 0);
+    __decorate([
+        property([cc.Node])
+    ], NodesController.prototype, "FakeCharacters", void 0);
     __decorate([
         property(cc.Node)
     ], NodesController.prototype, "HideMask", void 0);
     __decorate([
         property(cc.Node)
     ], NodesController.prototype, "LineContainer", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodesController.prototype, "point_checkCollide", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodesController.prototype, "Environment", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodesController.prototype, "CTA", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodesController.prototype, "CTA_logo", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodesController.prototype, "CTA_button", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodesController.prototype, "CTA_Overlay", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodesController.prototype, "Hint", void 0);
     __decorate([
         property(cc.Prefab)
     ], NodesController.prototype, "Prefab_Graphics", void 0);

@@ -32,9 +32,10 @@ var AudioManager = /** @class */ (function (_super) {
         // sound 
         _this.bgSound = null;
         _this.drawSound = null;
-        _this.successSound = null;
-        _this.moveSound = null;
-        _this.fireworksSound = null;
+        _this.crySound = null;
+        _this.clickSound = null;
+        _this.loseSound = null;
+        _this.stingSound = null;
         return _this;
     }
     AudioManager.prototype.playSound = function (soundName) {
@@ -46,14 +47,17 @@ var AudioManager = /** @class */ (function (_super) {
                 case "drawSound":
                     this.drawSound.play();
                     break;
-                case "successSound":
-                    this.successSound.play();
+                case "crySound":
+                    this.crySound.play();
                     break;
-                case "moveSound":
-                    this.moveSound.play();
+                case "clickSound":
+                    this.clickSound.play();
                     break;
-                case "fireworksSound":
-                    this.fireworksSound.play();
+                case "loseSound":
+                    this.loseSound.play();
+                    break;
+                case "stingSound":
+                    this.stingSound.play();
                     break;
                 default:
                     break;
@@ -68,14 +72,17 @@ var AudioManager = /** @class */ (function (_super) {
             case "drawSound":
                 this.drawSound.stop();
                 break;
-            case "successSound":
-                this.successSound.stop();
+            case "crySound":
+                this.crySound.stop();
                 break;
-            case "moveSound":
-                this.moveSound.stop();
+            case "clickSound":
+                this.clickSound.stop();
                 break;
-            case "fireworksSound":
-                this.fireworksSound.stop();
+            case "loseSound":
+                this.loseSound.stop();
+                break;
+            case "stingSound":
+                this.stingSound.stop();
                 break;
             default:
                 break;
@@ -84,9 +91,10 @@ var AudioManager = /** @class */ (function (_super) {
     AudioManager.prototype.stopAllSound = function () {
         this.bgSound.stop();
         this.drawSound.stop();
-        this.successSound.stop();
-        this.moveSound.stop();
-        this.fireworksSound.stop();
+        this.crySound.stop();
+        this.clickSound.stop();
+        this.loseSound.stop();
+        this.stingSound.stop();
     };
     __decorate([
         property(cc.AudioSource)
@@ -96,13 +104,16 @@ var AudioManager = /** @class */ (function (_super) {
     ], AudioManager.prototype, "drawSound", void 0);
     __decorate([
         property(cc.AudioSource)
-    ], AudioManager.prototype, "successSound", void 0);
+    ], AudioManager.prototype, "crySound", void 0);
     __decorate([
         property(cc.AudioSource)
-    ], AudioManager.prototype, "moveSound", void 0);
+    ], AudioManager.prototype, "clickSound", void 0);
     __decorate([
         property(cc.AudioSource)
-    ], AudioManager.prototype, "fireworksSound", void 0);
+    ], AudioManager.prototype, "loseSound", void 0);
+    __decorate([
+        property(cc.AudioSource)
+    ], AudioManager.prototype, "stingSound", void 0);
     AudioManager = __decorate([
         ccclass
     ], AudioManager);

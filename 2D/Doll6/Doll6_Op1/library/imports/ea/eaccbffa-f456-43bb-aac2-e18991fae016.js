@@ -32,13 +32,15 @@ var SoundTrack;
     SoundTrack["openBookSound"] = "openBookSound";
     SoundTrack["showItemSound"] = "showItemSound";
     SoundTrack["pickItemSound"] = "pickItemSound";
+    SoundTrack["waoGameSound"] = "waoGameSound";
+    SoundTrack["swtichItemSound"] = "swtichItemSound";
 })(SoundTrack || (SoundTrack = {}));
 var Constants = /** @class */ (function () {
     function Constants() {
     }
     // state    
     Constants.isRotate = false;
-    Constants.isCanTouch = false;
+    Constants.isCanTouch = true;
     Constants.isDresUp = false;
     // event
     Constants.Event = Event;

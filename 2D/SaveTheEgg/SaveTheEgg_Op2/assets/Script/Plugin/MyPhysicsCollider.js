@@ -1,6 +1,4 @@
-/**
- *zongyuan.yang 重新封装PhysicsCollider类
- */
+
 var MyPhysicsCollider = cc.Class({
     extends: cc.PhysicsCollider,
     editor: {
@@ -16,7 +14,7 @@ var MyPhysicsCollider = cc.Class({
 
         var polys = this.points;
         var offset = this.offset;
-        // console.log(polys);
+
         var polyIdx = 0;
         for (var i = 0; i < polys.length - 1; i++) {
             var posBegin = polys[i];

@@ -31,6 +31,10 @@ var SoundTrack;
     SoundTrack["successSound"] = "successSound";
     SoundTrack["moveSound"] = "moveSound";
     SoundTrack["fireworksSound"] = "fireworksSound";
+    SoundTrack["crySound"] = "crySound";
+    SoundTrack["clickSound"] = "clickSound";
+    SoundTrack["loseSound"] = "loseSound";
+    SoundTrack["stingSound"] = "stingSound";
 })(SoundTrack || (SoundTrack = {}));
 var Constants = /** @class */ (function () {
     function Constants() {
@@ -40,6 +44,11 @@ var Constants = /** @class */ (function () {
     Constants.isRotate = false;
     Constants.isCanTouch = false;
     Constants.currentPosition = null;
+    Constants.CharacterPos = null;
+    Constants.Char_Point1 = null;
+    Constants.Char_Point2 = null;
+    Constants.Char_Point3 = null;
+    Constants.isHit = false;
     // event
     Constants.Event = Event;
     // SoundTrack

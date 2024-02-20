@@ -28,7 +28,11 @@ enum SoundTrack {
     drawSound = "drawSound",
     successSound = "successSound",
     moveSound = "moveSound",
-    fireworksSound = "fireworksSound"
+    fireworksSound = "fireworksSound",
+    crySound = "crySound",
+    clickSound = "clickSound",
+    loseSound = "loseSound",
+    stingSound = "stingSound"
 }
 
 
@@ -38,9 +42,13 @@ export class Constants {
     static isClickGameStart: boolean = false;
     static isRotate: boolean = false;
     static isCanTouch: boolean = false;
-    
-    static currentPosition: cc.Vec2 = null;
 
+    static currentPosition: cc.Vec2 = null;
+    static CharacterPos: cc.Vec2 = null;
+    static Char_Point1: cc.Vec2 = null;
+    static Char_Point2: cc.Vec2 = null;
+    static Char_Point3: cc.Vec2 = null;
+    static isHit: boolean = false;
 
     // event
     static Event: typeof Event = Event;
@@ -57,4 +65,5 @@ export class Constants {
     // Responsive
     static Responsive: typeof Responsive = Responsive;
 }
+
 

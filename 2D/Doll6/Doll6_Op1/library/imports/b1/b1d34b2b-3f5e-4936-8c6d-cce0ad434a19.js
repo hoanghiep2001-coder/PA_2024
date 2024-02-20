@@ -43,7 +43,7 @@ var GamePlay = /** @class */ (function (_super) {
     GamePlay.prototype.onLoad = function () {
     };
     GamePlay.prototype.start = function () {
-        // this.AudioManager.playSound(Constants.SoundTrack.bgSound);
+        this.AudioManager.playSound(constants_1.Constants.SoundTrack.bgSound);
         this.handleGamePlay();
     };
     GamePlay.prototype.handleGamePlay = function () {

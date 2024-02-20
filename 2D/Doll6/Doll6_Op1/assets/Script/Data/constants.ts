@@ -30,7 +30,9 @@ enum SoundTrack {
     woaAnimeSound = "woaAnimeSound",
     openBookSound = "openBookSound",
     showItemSound = "showItemSound",
-    pickItemSound = "pickItemSound"
+    pickItemSound = "pickItemSound",
+    waoGameSound = "waoGameSound",
+    swtichItemSound = "swtichItemSound",
 }
 
 
@@ -38,7 +40,7 @@ export class Constants {
 
     // state    
     static isRotate: boolean = false;
-    static isCanTouch: boolean = false;
+    static isCanTouch: boolean = true;
     static isDresUp: boolean = false;
 
 
