@@ -24,12 +24,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var GamePlay_1 = require("../Controller/GamePlay");
-var constants_1 = require("../Data/constants");
+var NodesContainer_1 = require("../Controller/NodesContainer");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Responsive = /** @class */ (function (_super) {
     __extends(Responsive, _super);
     function Responsive() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.NodesContainer = null;
         _this.GamePlay = null;
         // state
         _this.device = "";
@@ -68,18 +69,37 @@ var Responsive = /** @class */ (function (_super) {
             return;
         }
         this.device = this.HORIZONTAL_IPX;
-        this.GamePlay.node.y = 0;
-        this.GamePlay.background.scale = 0.6;
-        constants_1.Constants.Responsive.calculatedY = 0;
+        this.NodesContainer.background_2_hor.active = true;
+        this.NodesContainer.background_2_ver.active = false;
+        this.NodesContainer.background_2_hor.scale = 0.55;
+        this.NodesContainer.background_1.scale = 0.45;
+        this.NodesContainer.background_1.y = 95;
+        this.NodesContainer.background_3.scale = 0.55;
+        this.NodesContainer.adultery.scale = 0.65;
+        this.NodesContainer.UI_Container.x = 0;
+        this.NodesContainer.UI_Container.y = 20;
+        this.NodesContainer.buttons.x = 0;
+        this.NodesContainer.buttons.y = -10;
+        this.NodesContainer.CTA_btn.y = -160;
     };
     Responsive.prototype.setHorizontalForTablet = function () {
         if (this.HORIZONTAL_TABLET === this.device) {
             return;
         }
         this.device = this.HORIZONTAL_TABLET;
-        this.GamePlay.node.y = 0;
-        this.GamePlay.background.scale = 0.5;
-        constants_1.Constants.Responsive.calculatedY = 0;
+        this.NodesContainer.background_2_hor.active = true;
+        this.NodesContainer.background_2_ver.active = false;
+        this.NodesContainer.background_2_hor.scale = 0.45;
+        // this.NodesContainer.background_2_ver.scale = 0.3;
+        this.NodesContainer.background_1.scale = 0.3;
+        this.NodesContainer.background_1.y = 20;
+        this.NodesContainer.background_3.scale = 0.38;
+        this.NodesContainer.adultery.scale = 0.65;
+        this.NodesContainer.UI_Container.x = 0;
+        this.NodesContainer.UI_Container.y = 20;
+        this.NodesContainer.buttons.x = 0;
+        this.NodesContainer.buttons.y = 0;
+        this.NodesContainer.CTA_btn.y = -160;
     };
     Responsive.prototype.setVertical = function () {
         if (cc.view.getFrameSize().width / cc.view.getFrameSize().height < 0.5) {
@@ -94,9 +114,18 @@ var Responsive = /** @class */ (function (_super) {
             return;
         }
         this.device = this.VERTICAL_IPX;
-        this.GamePlay.node.y = -105;
-        this.GamePlay.background.scale = 1;
-        constants_1.Constants.Responsive.calculatedY = 105;
+        this.NodesContainer.background_2_hor.active = false;
+        this.NodesContainer.background_2_ver.active = true;
+        this.NodesContainer.background_2_ver.scale = 0.4;
+        this.NodesContainer.background_1.scale = 0.4;
+        this.NodesContainer.background_1.y = 20;
+        this.NodesContainer.background_3.scale = 0.45;
+        this.NodesContainer.adultery.scale = 0.65;
+        this.NodesContainer.UI_Container.x = 0;
+        this.NodesContainer.UI_Container.y = -30;
+        this.NodesContainer.buttons.x = 0;
+        this.NodesContainer.buttons.y = -20;
+        this.NodesContainer.CTA_btn.y = -160;
     };
     Responsive.prototype.setMobile = function () {
         if (this.VERTICAL_MOBILE === this.device) {
@@ -104,27 +133,46 @@ var Responsive = /** @class */ (function (_super) {
         }
         this.device = this.VERTICAL_MOBILE;
         if (cc.view.getFrameSize().height / cc.view.getFrameSize().width > 1.5) {
-            if (cc.view.getFrameSize().width / cc.view.getFrameSize().height >= 0.6 && cc.view.getFrameSize().width / cc.view.getFrameSize().height < 0.62) {
-                // mobile mode applovin
-                this.GamePlay.node.y = -30;
-                this.GamePlay.background.scale = 1;
-                constants_1.Constants.Responsive.calculatedY = 30;
-                return;
-            }
+            // if (cc.view.getFrameSize().width / cc.view.getFrameSize().height >= 0.6 && cc.view.getFrameSize().width / cc.view.getFrameSize().height < 0.62) {
+            //     // mobile mode applovin
+            //     return;
+            // }
             // Iphone 6 / 6 Plus / 7 / 7 Plus   
-            this.GamePlay.node.y = -50;
-            this.GamePlay.background.scale = 1;
-            constants_1.Constants.Responsive.calculatedY = 50;
+            this.NodesContainer.background_2_hor.active = false;
+            this.NodesContainer.background_2_ver.active = true;
+            this.NodesContainer.background_2_ver.scale = 0.3;
+            this.NodesContainer.background_1.scale = 0.3;
+            this.NodesContainer.background_1.y = 0;
+            this.NodesContainer.background_3.scale = 0.3;
+            this.NodesContainer.adultery.scale = 0.55;
+            this.NodesContainer.UI_Container.x = 0;
+            this.NodesContainer.UI_Container.y = 0;
+            this.NodesContainer.buttons.x = 0;
+            this.NodesContainer.buttons.y = 0;
+            this.NodesContainer.CTA_btn.y = -160;
         }
         else {
-            this.GamePlay.node.y = 0;
-            this.GamePlay.background.scale = 0.5;
-            constants_1.Constants.Responsive.calculatedY = 0;
+            this.NodesContainer.background_2_hor.active = true;
+            this.NodesContainer.background_2_ver.active = false;
+            this.NodesContainer.background_2_hor.scale = 0.45;
+            // this.NodesContainer.background_2_ver.scale = 0.3;
+            this.NodesContainer.background_1.scale = 0.3;
+            this.NodesContainer.background_1.y = 20;
+            this.NodesContainer.background_3.scale = 0.38;
+            this.NodesContainer.adultery.scale = 0.65;
+            this.NodesContainer.UI_Container.x = 0;
+            this.NodesContainer.UI_Container.y = 20;
+            this.NodesContainer.buttons.x = 0;
+            this.NodesContainer.buttons.y = 0;
+            this.NodesContainer.CTA_btn.y = -160;
         }
     };
     Responsive.prototype.update = function (dt) {
         this.handleRotate();
     };
+    __decorate([
+        property(NodesContainer_1.default)
+    ], Responsive.prototype, "NodesContainer", void 0);
     __decorate([
         property(GamePlay_1.default)
     ], Responsive.prototype, "GamePlay", void 0);

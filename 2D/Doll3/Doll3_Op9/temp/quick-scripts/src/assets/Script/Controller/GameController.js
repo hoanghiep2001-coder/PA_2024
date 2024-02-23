@@ -62,14 +62,14 @@ var GameController = /** @class */ (function (_super) {
         // If ad network support MRAID 2.0
         if (typeof (mraid) != "undefined") {
             if (cc.sys.os == cc.sys.OS_ANDROID || cc.sys.os == cc.sys.ANDROID) {
-                mraid.open("https://play.google.com/store/apps/details?id=com.an.beauty.makeoverasmr");
+                mraid.open("https://play.google.com/store/apps/details?id=com.totee.sweetdoll");
                 return;
             }
             if (cc.sys.os == cc.sys.OS_IOS || cc.sys.os == cc.sys.IPHONE || cc.sys.os == cc.sys.IPAD) {
-                mraid.open("https://itunes.apple.com/us/app/id6449269733?mt=8");
+                mraid.open("https://itunes.apple.com/us/app/id1614415418?mt=8");
                 return;
             }
-            mraid.open("https://play.google.com/store/apps/details?id=com.an.beauty.makeoverasmr");
+            mraid.open("https://play.google.com/store/apps/details?id=com.totee.sweetdoll");
             return;
         }
         // If ad network is mindwork. window alway avaiable so skip undefined check

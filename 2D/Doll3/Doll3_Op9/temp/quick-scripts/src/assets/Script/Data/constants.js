@@ -28,33 +28,21 @@ var Responsive = {
 var SoundTrack;
 (function (SoundTrack) {
     SoundTrack["bgSound"] = "bgSound";
-    SoundTrack["xitNuocSound"] = "xitNuocSound";
-    SoundTrack["nhoMun1Sound"] = "nhoMun1Sound";
-    SoundTrack["nhoMun2Sound"] = "nhoMun2Sound";
-    SoundTrack["nhoMun3Sound"] = "nhoMun3Sound";
-    SoundTrack["completeSound"] = "completeSound";
-    SoundTrack["conClearSound"] = "conClearSound";
-    SoundTrack["moveItemSound"] = "moveItemSound";
-    SoundTrack["showerSound"] = "showerSound";
+    SoundTrack["openDoorSound"] = "openDoorSound";
+    SoundTrack["knockDoorSound"] = "knockDoorSound";
+    SoundTrack["screamSound"] = "screamSound";
     SoundTrack["woaAnimeSound"] = "woaAnimeSound";
+    SoundTrack["crySound"] = "crySound";
+    SoundTrack["clickSound"] = "clickSound";
 })(SoundTrack || (SoundTrack = {}));
 var Constants = /** @class */ (function () {
     function Constants() {
     }
     // state    
-    Constants.currentPosition = new cc.Vec2(0, 0);
     Constants.isRotate = false;
-    Constants.isTouchCleanHair = false;
-    Constants.isDoneCleanHair = false;
-    Constants.isTouch = false;
-    Constants.isDoneStep1 = false;
-    Constants.isTouchMaggot = false;
-    Constants.isCanTouch = false;
-    Constants.step = 1;
-    Constants.cleanHair_PointsStatus = [false, false, false, false, false, false, false, false, false, false, false, false, false];
-    Constants.cleanHair_Points = [];
-    Constants.spine_Bubbles = [];
-    Constants.trackEntry = null;
+    Constants.isCanClick = false;
+    Constants.isChooseRevenge = false;
+    Constants.isChooseDress = false;
     // event
     Constants.Event = Event;
     // SoundTrack

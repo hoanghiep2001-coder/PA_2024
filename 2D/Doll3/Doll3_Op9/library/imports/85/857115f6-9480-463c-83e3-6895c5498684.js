@@ -28,6 +28,7 @@ var constants_1 = require("../Data/constants");
 var AudioManager_1 = require("../Plugin/AudioManager");
 var GameController_1 = require("./GameController");
 var GamePlay_1 = require("./GamePlay");
+var NodesContainer_1 = require("./NodesContainer");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var TouchAreaController = /** @class */ (function (_super) {
     __extends(TouchAreaController, _super);
@@ -36,22 +37,48 @@ var TouchAreaController = /** @class */ (function (_super) {
         // Component
         _this.AudioManager = null;
         _this.GameController = null;
+        _this.NodesContainer = null;
         _this.GamePlay = null;
         return _this;
     }
     // node
     // state
     TouchAreaController.prototype.onLoad = function () {
-        // mtg & applovin
-        // this.HideMask.on(cc.Node.EventType.TOUCH_START, () => {
-        //   Constants.step === 3 && this.GameController.installHandle();
-        // }, this);
-        // ironsource
     };
     TouchAreaController.prototype.start = function () {
-        // this.AudioManager.playSound(Constants.SoundTrack.bgSound);
+        this.registerEvent();
     };
     TouchAreaController.prototype.registerEvent = function () {
+        this.NodesContainer.UI_button_revenge.on(cc.Node.EventType.TOUCH_START, this.btnTouchStart, this);
+        this.NodesContainer.item_Dress_btn.on(cc.Node.EventType.TOUCH_START, this.btnDressTouchStart, this);
+    };
+    TouchAreaController.prototype.btnTouchStart = function () {
+        if (!constants_1.Constants.isCanClick || constants_1.Constants.isChooseRevenge)
+            return;
+        this.AudioManager.playSound(constants_1.Constants.SoundTrack.clickSound);
+        this.NodesContainer.buttons.active = false;
+        this.NodesContainer.scene1.active = false;
+        this.NodesContainer.GamePlay.getComponent(cc.Animation).play("GamePlay_ShowScene3");
+        this.scheduleOnce(function () { constants_1.Constants.isChooseRevenge = true; }, 2);
+    };
+    TouchAreaController.prototype.btnDressTouchStart = function () {
+        var _this = this;
+        if (!constants_1.Constants.isChooseRevenge || constants_1.Constants.isChooseDress)
+            return;
+        constants_1.Constants.isChooseDress = true;
+        this.AudioManager.playSound(constants_1.Constants.SoundTrack.clickSound);
+        this.NodesContainer.doll_dress.active = true;
+        this.NodesContainer.hand_2.active = false;
+        this.NodesContainer.effect_blink_Doll.resetSystem();
+        this.NodesContainer.effect_heart.resetSystem();
+        this.AudioManager.playSound(constants_1.Constants.SoundTrack.woaAnimeSound);
+        this.scheduleOnce(function () { _this.showCTA(); }, 1.5);
+    };
+    TouchAreaController.prototype.showCTA = function () {
+        this.NodesContainer.CTA.active = true;
+        this.NodesContainer.CTA_btn.on(cc.Node.EventType.TOUCH_START, this.GameController.installHandle, this);
+        // applovin & mtg
+        this.NodesContainer.CTA_overlay.on(cc.Node.EventType.TOUCH_START, this.GameController.installHandle, this);
     };
     TouchAreaController.prototype.handleIronSourcePlaySound = function () {
         if (constants_1.Constants.ironSource.isPlayBgSound) {
@@ -81,6 +108,9 @@ var TouchAreaController = /** @class */ (function (_super) {
     __decorate([
         property(GameController_1.GameController)
     ], TouchAreaController.prototype, "GameController", void 0);
+    __decorate([
+        property(NodesContainer_1.default)
+    ], TouchAreaController.prototype, "NodesContainer", void 0);
     __decorate([
         property(GamePlay_1.default)
     ], TouchAreaController.prototype, "GamePlay", void 0);

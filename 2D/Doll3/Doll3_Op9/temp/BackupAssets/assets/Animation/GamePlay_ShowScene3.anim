@@ -1,0 +1,127 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "GamePlay_ShowScene3",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3.0833333333333335,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "BG/bg3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "UI/Scene3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "UI/Scene3/Doll_Shopping": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1,
+              "value": 0
+            },
+            {
+              "frame": 1.4166666666666667,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "UI/Scene3/Items/frame": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.4166666666666667,
+              "value": 0
+            },
+            {
+              "frame": 1.8333333333333333,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "UI/Scene3/Items/frame_1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.4166666666666667,
+              "value": 0
+            },
+            {
+              "frame": 1.8333333333333333,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "UI/Scene3/Items/frame_4": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.8333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 2.25,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "UI/Scene3/Items/frame_2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 2.25,
+              "value": 0
+            },
+            {
+              "frame": 2.6666666666666665,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "UI/Scene3/Items/frame_3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 2.6666666666666665,
+              "value": 0
+            },
+            {
+              "frame": 3.0833333333333335,
+              "value": 255
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

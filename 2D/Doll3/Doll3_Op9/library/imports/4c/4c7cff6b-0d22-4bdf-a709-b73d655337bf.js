@@ -31,15 +31,12 @@ var AudioManager = /** @class */ (function (_super) {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         // sound 
         _this.bgSound = null;
-        _this.xitNuocSound = null;
-        _this.nhoMun1Sound = null;
-        _this.nhoMun2Sound = null;
-        _this.nhoMun3Sound = null;
-        _this.completeSound = null;
-        _this.conClearSound = null;
-        _this.moveItemSound = null;
-        _this.showerSound = null;
+        _this.openDoorSound = null;
+        _this.knockDoorSound = null;
+        _this.screamSound = null;
+        _this.crySound = null;
         _this.woaAnimeSound = null;
+        _this.clickSound = null;
         return _this;
     }
     AudioManager.prototype.playSound = function (soundName) {
@@ -48,29 +45,20 @@ var AudioManager = /** @class */ (function (_super) {
                 case "bgSound":
                     this.bgSound.play();
                     break;
-                case "xitNuocSound":
-                    this.xitNuocSound.play();
+                case "openDoorSound":
+                    this.openDoorSound.play();
                     break;
-                case "nhoMun1Sound":
-                    this.nhoMun1Sound.play();
+                case "clickSound":
+                    this.clickSound.play();
                     break;
-                case "nhoMun2Sound":
-                    this.nhoMun2Sound.play();
+                case "knockDoorSound":
+                    this.knockDoorSound.play();
                     break;
-                case "nhoMun3Sound":
-                    this.nhoMun3Sound.play();
+                case "screamSound":
+                    this.screamSound.play();
                     break;
-                case "completeSound":
-                    this.completeSound.play();
-                    break;
-                case "conClearSound":
-                    this.conClearSound.play();
-                    break;
-                case "moveItemSound":
-                    this.moveItemSound.play();
-                    break;
-                case "showerSound":
-                    this.showerSound.play();
+                case "crySound":
+                    this.crySound.play();
                     break;
                 case "woaAnimeSound":
                     this.woaAnimeSound.play();
@@ -80,34 +68,52 @@ var AudioManager = /** @class */ (function (_super) {
             }
         }
     };
+    AudioManager.prototype.switchVolume = function (soundName, volume) {
+        switch (soundName) {
+            case "bgSound":
+                this.bgSound.volume = volume;
+                break;
+            case "openDoorSound":
+                this.openDoorSound.volume = volume;
+                break;
+            case "clickSound":
+                this.clickSound.volume = volume;
+                break;
+            case "knockDoorSound":
+                this.knockDoorSound.volume = volume;
+                break;
+            case "screamSound":
+                this.screamSound.volume = volume;
+                break;
+            case "crySound":
+                this.crySound.volume = volume;
+                break;
+            case "woaAnimeSound":
+                this.woaAnimeSound.volume = volume;
+                break;
+            default:
+                break;
+        }
+    };
     AudioManager.prototype.stopSound = function (soundName) {
         switch (soundName) {
             case "bgSound":
                 this.bgSound.stop();
                 break;
-            case "xitNuocSound":
-                this.xitNuocSound.stop();
+            case "openDoorSound":
+                this.openDoorSound.stop();
                 break;
-            case "nhoMun1Sound":
-                this.nhoMun1Sound.stop();
+            case "clickSound":
+                this.clickSound.stop();
                 break;
-            case "nhoMun2Sound":
-                this.nhoMun2Sound.stop();
+            case "knockDoorSound":
+                this.knockDoorSound.stop();
                 break;
-            case "nhoMun3Sound":
-                this.nhoMun3Sound.stop();
+            case "screamSound":
+                this.screamSound.stop();
                 break;
-            case "completeSound":
-                this.completeSound.stop();
-                break;
-            case "conClearSound":
-                this.conClearSound.stop();
-                break;
-            case "moveItemSound":
-                this.moveItemSound.stop();
-                break;
-            case "showerSound":
-                this.showerSound.stop();
+            case "crySound":
+                this.crySound.stop();
                 break;
             case "woaAnimeSound":
                 this.woaAnimeSound.stop();
@@ -118,46 +124,34 @@ var AudioManager = /** @class */ (function (_super) {
     };
     AudioManager.prototype.stopAllSound = function () {
         this.bgSound.stop();
-        this.xitNuocSound.stop();
-        this.nhoMun1Sound.stop();
-        this.nhoMun2Sound.stop();
-        this.nhoMun3Sound.stop();
-        this.completeSound.stop();
-        this.conClearSound.stop();
-        this.moveItemSound.stop();
-        this.showerSound.stop();
+        this.openDoorSound.stop();
+        this.knockDoorSound.stop();
+        this.screamSound.stop();
+        this.crySound.stop();
         this.woaAnimeSound.stop();
+        this.clickSound.stop();
     };
     __decorate([
         property(cc.AudioSource)
     ], AudioManager.prototype, "bgSound", void 0);
     __decorate([
         property(cc.AudioSource)
-    ], AudioManager.prototype, "xitNuocSound", void 0);
+    ], AudioManager.prototype, "openDoorSound", void 0);
     __decorate([
         property(cc.AudioSource)
-    ], AudioManager.prototype, "nhoMun1Sound", void 0);
+    ], AudioManager.prototype, "knockDoorSound", void 0);
     __decorate([
         property(cc.AudioSource)
-    ], AudioManager.prototype, "nhoMun2Sound", void 0);
+    ], AudioManager.prototype, "screamSound", void 0);
     __decorate([
         property(cc.AudioSource)
-    ], AudioManager.prototype, "nhoMun3Sound", void 0);
-    __decorate([
-        property(cc.AudioSource)
-    ], AudioManager.prototype, "completeSound", void 0);
-    __decorate([
-        property(cc.AudioSource)
-    ], AudioManager.prototype, "conClearSound", void 0);
-    __decorate([
-        property(cc.AudioSource)
-    ], AudioManager.prototype, "moveItemSound", void 0);
-    __decorate([
-        property(cc.AudioSource)
-    ], AudioManager.prototype, "showerSound", void 0);
+    ], AudioManager.prototype, "crySound", void 0);
     __decorate([
         property(cc.AudioSource)
     ], AudioManager.prototype, "woaAnimeSound", void 0);
+    __decorate([
+        property(cc.AudioSource)
+    ], AudioManager.prototype, "clickSound", void 0);
     AudioManager = __decorate([
         ccclass
     ], AudioManager);

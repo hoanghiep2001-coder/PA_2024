@@ -9,23 +9,17 @@ export default class AudioManager extends cc.Component {
     @property(cc.AudioSource)
     bgSound: cc.AudioSource = null;
     @property(cc.AudioSource)
-    xitNuocSound: cc.AudioSource = null;
+    openDoorSound: cc.AudioSource = null;
     @property(cc.AudioSource)
-    nhoMun1Sound: cc.AudioSource = null;
+    knockDoorSound: cc.AudioSource = null;
     @property(cc.AudioSource)
-    nhoMun2Sound: cc.AudioSource = null;
+    screamSound: cc.AudioSource = null;
     @property(cc.AudioSource)
-    nhoMun3Sound: cc.AudioSource = null;
-    @property(cc.AudioSource)
-    completeSound: cc.AudioSource = null;
-    @property(cc.AudioSource)
-    conClearSound: cc.AudioSource = null;
-    @property(cc.AudioSource)
-    moveItemSound: cc.AudioSource = null;
-    @property(cc.AudioSource)
-    showerSound: cc.AudioSource = null;
+    crySound: cc.AudioSource = null;
     @property(cc.AudioSource)
     woaAnimeSound: cc.AudioSource = null;
+    @property(cc.AudioSource)
+    clickSound: cc.AudioSource = null;
 
     public playSound(soundName: string): void {
         if (Constants.ironSource.SoundState) {
@@ -33,29 +27,20 @@ export default class AudioManager extends cc.Component {
                 case "bgSound":
                     this.bgSound.play();
                     break;
-                case "xitNuocSound":
-                    this.xitNuocSound.play();
+                case "openDoorSound":
+                    this.openDoorSound.play();
                     break;
-                case "nhoMun1Sound":
-                    this.nhoMun1Sound.play();
+                    case "clickSound":
+                        this.clickSound.play();
+                        break;
+                case "knockDoorSound":
+                    this.knockDoorSound.play();
                     break;
-                case "nhoMun2Sound":
-                    this.nhoMun2Sound.play();
+                case "screamSound":
+                    this.screamSound.play();
                     break;
-                case "nhoMun3Sound":
-                    this.nhoMun3Sound.play();
-                    break;
-                case "completeSound":
-                    this.completeSound.play();
-                    break;
-                case "conClearSound":
-                    this.conClearSound.play();
-                    break;
-                case "moveItemSound":
-                    this.moveItemSound.play();
-                    break;
-                case "showerSound":
-                    this.showerSound.play();
+                case "crySound":
+                    this.crySound.play();
                     break;
                 case "woaAnimeSound":
                     this.woaAnimeSound.play();
@@ -67,34 +52,55 @@ export default class AudioManager extends cc.Component {
         }
     }
 
+
+    public switchVolume(soundName: string, volume: number): void {
+        switch (soundName) {
+            case "bgSound":
+                this.bgSound.volume = volume;
+                break;
+            case "openDoorSound":
+                this.openDoorSound.volume = volume;
+                break;
+                case "clickSound":
+                    this.clickSound.volume = volume
+                    break;
+            case "knockDoorSound":
+                this.knockDoorSound.volume = volume;
+                break;
+            case "screamSound":
+                this.screamSound.volume = volume;
+                break;
+            case "crySound":
+                this.crySound.volume = volume;
+                break;
+            case "woaAnimeSound":
+                this.woaAnimeSound.volume = volume;
+                break;
+            default:
+                break;
+        }
+    }
+
+
     public stopSound(soundName: string): void {
         switch (soundName) {
             case "bgSound":
                 this.bgSound.stop();
                 break;
-            case "xitNuocSound":
-                this.xitNuocSound.stop();
+            case "openDoorSound":
+                this.openDoorSound.stop();
                 break;
-            case "nhoMun1Sound":
-                this.nhoMun1Sound.stop();
+                case "clickSound":
+                    this.clickSound.stop();
+                    break;
+            case "knockDoorSound":
+                this.knockDoorSound.stop();
                 break;
-            case "nhoMun2Sound":
-                this.nhoMun2Sound.stop();
+            case "screamSound":
+                this.screamSound.stop();
                 break;
-            case "nhoMun3Sound":
-                this.nhoMun3Sound.stop();
-                break;
-            case "completeSound":
-                this.completeSound.stop();
-                break;
-            case "conClearSound":
-                this.conClearSound.stop();
-                break;
-            case "moveItemSound":
-                this.moveItemSound.stop();
-                break;
-            case "showerSound":
-                this.showerSound.stop();
+            case "crySound":
+                this.crySound.stop();
                 break;
             case "woaAnimeSound":
                 this.woaAnimeSound.stop();
@@ -104,16 +110,14 @@ export default class AudioManager extends cc.Component {
         }
     }
 
+
     public stopAllSound(): void {
         this.bgSound.stop();
-        this.xitNuocSound.stop();
-        this.nhoMun1Sound.stop();
-        this.nhoMun2Sound.stop();
-        this.nhoMun3Sound.stop();
-        this.completeSound.stop();
-        this.conClearSound.stop();
-        this.moveItemSound.stop();
-        this.showerSound.stop();
+        this.openDoorSound.stop();
+        this.knockDoorSound.stop();
+        this.screamSound.stop();
+        this.crySound.stop();
         this.woaAnimeSound.stop();
+        this.clickSound.stop();
     }
 }
