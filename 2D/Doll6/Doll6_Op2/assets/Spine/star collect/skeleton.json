@@ -1,0 +1,50 @@
+{
+"skeleton": {
+	"hash": "Bn4Zt3ICS9U",
+	"spine": "3.8-from-4.0-from-4.1.24",
+	"x": -40.15,
+	"y": -40.35,
+	"width": 82,
+	"height": 82,
+	"images": "D:/AAAAWORKKK/2024/Doll6/PA Doll/Item_Done/Prefume",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "star", "bone": "root", "attachment": "star" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"star": {
+				"star": { "x": 0.85, "y": 0.65, "width": 82, "height": 82 }
+			}
+		}
+	}
+],
+"animations": {
+	"star match basic": {
+		"slots": {
+			"star": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"scale": [
+					{ "x": 0.23, "y": 0.23 },
+					{ "time": 0.2667, "x": 1.286, "y": 1.286 }
+				]
+			}
+		}
+	}
+}
+}
