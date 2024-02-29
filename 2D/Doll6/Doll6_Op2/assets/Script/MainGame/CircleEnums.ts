@@ -1,10 +1,10 @@
 export enum typeColorCircle {
-    blue,
-    green,
-    orange,
-    reed,
-    violet,
+    red,
     yellow,
+    green,
+    purple,
+    blue,
+    orange,
 }
 
 export enum tipeCircle {

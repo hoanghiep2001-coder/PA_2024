@@ -43,6 +43,7 @@ var Constants = /** @class */ (function () {
     Constants.isCanTouch = true;
     Constants.countScore = 0;
     Constants.isClickFirstTime = false;
+    Constants.Board = null;
     // event
     Constants.Event = Event;
     // SoundTrack

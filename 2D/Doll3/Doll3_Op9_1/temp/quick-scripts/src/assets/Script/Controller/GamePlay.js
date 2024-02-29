@@ -38,7 +38,7 @@ var GamePlay = /** @class */ (function (_super) {
         return _this;
     }
     GamePlay.prototype.start = function () {
-        // this.AudioManager.playSound(Constants.SoundTrack.bgSound);
+        this.AudioManager.playSound(constants_1.Constants.SoundTrack.bgSound);
         this.AudioManager.switchVolume(constants_1.Constants.SoundTrack.bgSound, 0.7);
         this.handleGamePlay();
         this.initGame();

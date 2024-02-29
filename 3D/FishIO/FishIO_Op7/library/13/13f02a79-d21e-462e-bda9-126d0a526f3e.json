@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "fish.atlas",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "\nfish.png\nsize: 532, 532\nformat: RGBA8888\nfilter: Linear, Linear\nrepeat: none\nfish1\n  rotate: false\n  xy: 2, 281\n  size: 345, 249\n  orig: 345, 254\n  offset: 0, 3\n  index: -1\nfish2\n  rotate: false\n  xy: 248, 64\n  size: 119, 215\n  orig: 119, 215\n  offset: 0, 0\n  index: -1\nfish3\n  rotate: false\n  xy: 2, 2\n  size: 244, 277\n  orig: 245, 277\n  offset: 1, 0\n  index: -1\nfish_fin\n  rotate: false\n  xy: 349, 428\n  size: 106, 102\n  orig: 106, 102\n  offset: 0, 0\n  index: -1\nfish_tail\n  rotate: false\n  xy: 349, 336\n  size: 81, 90\n  orig: 81, 90\n  offset: 0, 0\n  index: -1\n"
+}

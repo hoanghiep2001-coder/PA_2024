@@ -17,7 +17,7 @@ export default class GamePlay extends cc.Component {
 
 
   protected start(): void {
-    // this.AudioManager.playSound(Constants.SoundTrack.bgSound);
+    this.AudioManager.playSound(Constants.SoundTrack.bgSound);
     this.AudioManager.switchVolume(Constants.SoundTrack.bgSound, 0.7);
     this.handleGamePlay();
     this.initGame();

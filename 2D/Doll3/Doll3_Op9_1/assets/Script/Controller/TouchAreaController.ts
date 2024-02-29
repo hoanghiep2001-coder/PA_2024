@@ -38,21 +38,26 @@ export class TouchAreaController extends cc.Component {
 
 
   private registerEvent(): void {
+    // ironsource
+    // this.NodesContainer.hideMask.on(cc.Node.EventType.TOUCH_START, this.handleIronSourcePlaySound, this);
+
     this.NodesContainer.UI_button_revenge.on(cc.Node.EventType.TOUCH_START, this.btnTouchStart, this);
     this.NodesContainer.item_Dress_btn.on(cc.Node.EventType.TOUCH_START, this.btnDressTouchStart, this);
-
-    this.NodesContainer.background_1.on(cc.Node.EventType.TOUCH_START, this.handleIronSourcePlaySound, this);
   }
 
 
   private btnTouchStart(): void {
     if (!Constants.isCanClick || Constants.isChooseRevenge) return;
-    this.handleIronSourcePlaySound();
+    // this.handleIronSourcePlaySound();
     this.AudioManager.playSound(Constants.SoundTrack.clickSound);
     this.NodesContainer.buttons.active = false;
     this.NodesContainer.scene1.active = false;
     this.NodesContainer.GamePlay.getComponent(cc.Animation).play("GamePlay_ShowScene3");
-    this.scheduleOnce(() => {Constants.isChooseRevenge = true}, 2)
+    this.NodesContainer.logo.getComponent(cc.Sprite).enabled = false;
+    this.NodesContainer.icon.getComponent(cc.Sprite).enabled = false;
+    this.scheduleOnce(() => {
+      Constants.isChooseRevenge = true;
+    }, 2);
   }
 
 
@@ -75,7 +80,7 @@ export class TouchAreaController extends cc.Component {
     this.NodesContainer.CTA_btn.on(cc.Node.EventType.TOUCH_START, this.GameController.installHandle, this);
 
     // applovin & mtg
-    // this.NodesContainer.CTA_overlay.on(cc.Node.EventType.TOUCH_START, this.GameController.installHandle, this);
+    this.NodesContainer.CTA_overlay.on(cc.Node.EventType.TOUCH_START, this.GameController.installHandle, this);
   }
 
 
@@ -88,6 +93,7 @@ export class TouchAreaController extends cc.Component {
       Constants.ironSource.isPlayBgSound = true;
       this.AudioManager.playSound(Constants.SoundTrack.bgSound);
     }
+
   }
 
 
@@ -108,7 +114,7 @@ export class TouchAreaController extends cc.Component {
   }
 
 
-  protected update(dt: number): void {
-    this.handleMuteSoundIronSource();
-  }
+  // protected update(dt: number): void {
+  //   this.handleMuteSoundIronSource();
+  // }
 }

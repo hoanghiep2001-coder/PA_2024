@@ -7,12 +7,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.tipeCircle = exports.typeColorCircle = void 0;
 var typeColorCircle;
 (function (typeColorCircle) {
-    typeColorCircle[typeColorCircle["blue"] = 0] = "blue";
-    typeColorCircle[typeColorCircle["green"] = 1] = "green";
-    typeColorCircle[typeColorCircle["orange"] = 2] = "orange";
-    typeColorCircle[typeColorCircle["reed"] = 3] = "reed";
-    typeColorCircle[typeColorCircle["violet"] = 4] = "violet";
-    typeColorCircle[typeColorCircle["yellow"] = 5] = "yellow";
+    typeColorCircle[typeColorCircle["red"] = 0] = "red";
+    typeColorCircle[typeColorCircle["yellow"] = 1] = "yellow";
+    typeColorCircle[typeColorCircle["green"] = 2] = "green";
+    typeColorCircle[typeColorCircle["purple"] = 3] = "purple";
+    typeColorCircle[typeColorCircle["blue"] = 4] = "blue";
+    typeColorCircle[typeColorCircle["orange"] = 5] = "orange";
 })(typeColorCircle = exports.typeColorCircle || (exports.typeColorCircle = {}));
 var tipeCircle;
 (function (tipeCircle) {

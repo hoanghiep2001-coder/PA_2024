@@ -40,35 +40,7 @@ var AudioManager = /** @class */ (function (_super) {
         return _this;
     }
     AudioManager.prototype.playSound = function (soundName) {
-        // if (Constants.ironSource.SoundState) {
-        //     switch (soundName) {
-        //         case "bgSound":
-        //             this.bgSound.play();
-        //             break;
-        //         case "openDoorSound":
-        //             this.openDoorSound.play();
-        //             break;
-        //             case "clickSound":
-        //                 this.clickSound.play();
-        //                 break;
-        //         case "knockDoorSound":
-        //             this.knockDoorSound.play();
-        //             break;
-        //         case "screamSound":
-        //             this.screamSound.play();
-        //             break;
-        //         case "crySound":
-        //             this.crySound.play();
-        //             break;
-        //         case "woaAnimeSound":
-        //             this.woaAnimeSound.play();
-        //             break;
-        //         default:
-        //             break;
-        //     }
-        // }
-        // ironsource
-        if (constants_1.Constants.ironSource.SoundState && constants_1.Constants.ironSource.isPlayBgSound) {
+        if (constants_1.Constants.ironSource.SoundState) {
             switch (soundName) {
                 case "bgSound":
                     this.bgSound.play();
@@ -95,6 +67,34 @@ var AudioManager = /** @class */ (function (_super) {
                     break;
             }
         }
+        // ironsource
+        // if (Constants.ironSource.SoundState && Constants.ironSource.isPlayBgSound) {
+        //     switch (soundName) {
+        //         case "bgSound":
+        //             this.bgSound.play();
+        //             break;
+        //         case "openDoorSound":
+        //             this.openDoorSound.play();
+        //             break;
+        //             case "clickSound":
+        //                 this.clickSound.play();
+        //                 break;
+        //         case "knockDoorSound":
+        //             this.knockDoorSound.play();
+        //             break;
+        //         case "screamSound":
+        //             this.screamSound.play();
+        //             break;
+        //         case "crySound":
+        //             this.crySound.play();
+        //             break;
+        //         case "woaAnimeSound":
+        //             this.woaAnimeSound.play();
+        //             break;
+        //         default:
+        //             break;
+        //     }
+        // }
     };
     AudioManager.prototype.switchVolume = function (soundName, volume) {
         switch (soundName) {

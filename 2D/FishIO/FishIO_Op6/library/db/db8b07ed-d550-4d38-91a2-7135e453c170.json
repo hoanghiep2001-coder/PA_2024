@@ -1,0 +1,145 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "fish_mini",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "s1RxEEpDf8w",
+      "spine": "3.8-from-4.0.64",
+      "x": -379,
+      "y": -1,
+      "width": 770,
+      "height": 688,
+      "images": "D:/Editor/GAME/Playble ads/fish/images/",
+      "audio": "D:\\Editor\\GAME\\Playble ads\\fish\\fish_mini"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "body",
+        "parent": "root",
+        "x": -39.36,
+        "y": 299.42
+      },
+      {
+        "name": "fin",
+        "parent": "body",
+        "x": 82.43,
+        "y": -146.9
+      },
+      {
+        "name": "tail",
+        "parent": "body",
+        "x": 242.81,
+        "y": -54.59
+      }
+    ],
+    "slots": [
+      {
+        "name": "tail",
+        "bone": "tail",
+        "attachment": "tail"
+      },
+      {
+        "name": "body",
+        "bone": "body",
+        "attachment": "body"
+      },
+      {
+        "name": "fin",
+        "bone": "fin",
+        "attachment": "fin"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "body": {
+            "body": {
+              "x": 45.36,
+              "y": 43.58,
+              "width": 770,
+              "height": 688
+            }
+          },
+          "fin": {
+            "fin": {
+              "x": 61.43,
+              "y": -37.02,
+              "width": 167,
+              "height": 165
+            }
+          },
+          "tail": {
+            "tail": {
+              "x": 85.55,
+              "y": 57.67,
+              "width": 204,
+              "height": 443
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "animation": {
+        "bones": {
+          "tail": {
+            "scale": [
+              {},
+              {
+                "time": 1,
+                "x": 0.369
+              },
+              {
+                "time": 2
+              }
+            ],
+            "shear": [
+              {},
+              {
+                "time": 0.7,
+                "x": 4.62
+              },
+              {
+                "time": 1,
+                "x": 6.73
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "fin": {
+            "rotate": [
+              {},
+              {
+                "time": 1,
+                "angle": -32.46
+              },
+              {
+                "time": 2
+              }
+            ]
+          }
+        }
+      },
+      "idle": {}
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "4f365ba1-0d43-4586-a83a-29eac89b9820@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "fish_mini.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nfish_mini.png\nsize: 493, 493\nformat: RGBA8888\nfilter: Linear, Linear\nrepeat: none\nbody\n  rotate: false\n  xy: 2, 147\n  size: 385, 344\n  orig: 385, 344\n  offset: 0, 0\n  index: -1\nfin\n  rotate: false\n  xy: 389, 184\n  size: 84, 83\n  orig: 84, 83\n  offset: 0, 0\n  index: -1\ntail\n  rotate: false\n  xy: 389, 269\n  size: 102, 222\n  orig: 102, 222\n  offset: 0, 0\n  index: -1\n"
+}

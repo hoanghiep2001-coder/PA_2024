@@ -38,6 +38,9 @@ export class TouchAreaController extends cc.Component {
 
 
   private registerEvent(): void {
+    // ironsource
+    // this.NodesContainer.hideMask.on(cc.Node.EventType.TOUCH_START, this.handleIronSourcePlaySound, this);
+
     this.NodesContainer.UI_button_revenge.on(cc.Node.EventType.TOUCH_START, this.btnTouchStart, this);
     this.NodesContainer.item_Dress_btn.on(cc.Node.EventType.TOUCH_START, this.btnDressTouchStart, this);
   }
@@ -45,11 +48,16 @@ export class TouchAreaController extends cc.Component {
 
   private btnTouchStart(): void {
     if (!Constants.isCanClick || Constants.isChooseRevenge) return;
+    // this.handleIronSourcePlaySound();
     this.AudioManager.playSound(Constants.SoundTrack.clickSound);
     this.NodesContainer.buttons.active = false;
     this.NodesContainer.scene1.active = false;
     this.NodesContainer.GamePlay.getComponent(cc.Animation).play("GamePlay_ShowScene3");
-    this.scheduleOnce(() => {Constants.isChooseRevenge = true}, 2)
+    this.NodesContainer.logo.getComponent(cc.Sprite).enabled = false;
+    this.NodesContainer.icon.getComponent(cc.Sprite).enabled = false;
+    this.scheduleOnce(() => {
+      Constants.isChooseRevenge = true;
+    }, 2);
   }
 
 
@@ -81,10 +89,10 @@ export class TouchAreaController extends cc.Component {
     }
 
     if (Constants.ironSource.SoundState) {
+      Constants.ironSource.isPlayBgSound = true;
       this.AudioManager.playSound(Constants.SoundTrack.bgSound);
     }
 
-    Constants.ironSource.isPlayBgSound = true;
   }
 
 
@@ -103,4 +111,9 @@ export class TouchAreaController extends cc.Component {
       }
     }
   }
+
+
+  // protected update(dt: number): void {
+  //   this.handleMuteSoundIronSource();
+  // }
 }

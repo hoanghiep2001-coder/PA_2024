@@ -269,8 +269,6 @@ var GameField = /** @class */ (function (_super) {
         }, this.timeForCheckFild);
     };
     GameField.prototype.checkLine = function () {
-        // console.log("fill board");
-        // Constants.isCanTouch = true;
         this.destroyExisted = false;
         this.InArow();
         this.node.dispatchEvent(new cc.Event.EventCustom('setUnBlockTouch', true));
@@ -300,6 +298,7 @@ var GameField = /** @class */ (function (_super) {
             xPos = 0;
             yPos = yPos - this.widthCell;
         }
+        constants_1.Constants.Board = this.Cells;
     };
     GameField.prototype.createAnyTypeCell = function (Cell, type) {
         if (Math.floor((Math.random() * this.ChangeForCreateAnActiveCell) + 1) == 1) {
@@ -318,8 +317,10 @@ var GameField = /** @class */ (function (_super) {
     GameField.prototype.CreateCircles = function () {
         for (var j = 0; j < this.Cells.length; j++)
             for (var i = 0; i < this.Cells[j].length; i++) {
-                if (this.Cells[j][i].typeCell == 0)
+                if (this.Cells[j][i].typeCell == 0) {
                     this.createCircle(this.Cells[j][i]);
+                }
+                ;
             }
         this.node.dispatchEvent(new cc.Event.EventCustom('needCheckField', true));
     };
@@ -333,13 +334,37 @@ var GameField = /** @class */ (function (_super) {
             }
     };
     GameField.prototype.createCircle = function (Cell) {
-        if (!Cell.circleIsNotNull() && Cell.typeCell == 0) {
+        if (!Cell.circleIsNotNull()) {
             Cell._circle = cc.instantiate(this.Circle);
+            // Thiết lập loại và màu sắc cho Circle dựa vào circleType
+            // let circleType = Cell._circle.getComponent(Circle).CircleTypeColor;
+            // do {      
+            //   console.log("?");
+            //   Cell._circle.getComponent(Circle).setRandomColor(true);
+            //   Cell._circle.getComponent(Circle).setColorTipe();
+            //   circleType = Cell._circle.getComponent(Circle).CircleTypeColor;
+            //   // Thiết lập loại và màu sắc cho Circle dựa vào circleType
+            // } while (!this.isValidPlacementForCircle(Cell.jcolumn, Cell.irow, circleType));
             Cell._circle.setParent(this.node);
             Cell._circle.setPosition(Cell.node.position);
             Cell._circle.setContentSize(this.lenghtCell - 15, this.widthCell - 15);
             this.countCircle++;
         }
+    };
+    GameField.prototype.isValidPlacementForCircle = function (j, i, circleType) {
+        // Kiểm tra hàng
+        if (i >= 2 && this.Cells[j][i - 1]._circle && this.Cells[j][i - 2]._circle &&
+            this.Cells[j][i - 1]._circle.getComponent(Circle_1.Circle).CircleTypeColor === circleType &&
+            this.Cells[j][i - 2]._circle.getComponent(Circle_1.Circle).CircleTypeColor === circleType) {
+            return false;
+        }
+        // Kiểm tra cột
+        if (j >= 2 && this.Cells[j - 1][i]._circle && this.Cells[j - 2][i]._circle &&
+            this.Cells[j - 1][i]._circle.getComponent(Circle_1.Circle).CircleTypeColor === circleType &&
+            this.Cells[j - 2][i]._circle.getComponent(Circle_1.Circle).CircleTypeColor === circleType) {
+            return false;
+        }
+        return true;
     };
     GameField.prototype.allCirclesMove = function () {
         for (var j = 0; j < this.Cells.length; j++)

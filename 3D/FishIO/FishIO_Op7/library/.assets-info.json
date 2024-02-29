@@ -1,0 +1,4818 @@
+{
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation.meta": {
+    "time": 1702562558000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio.meta": {
+    "time": 1702562558000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\prefabs.meta": {
+    "time": 1702562558000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\BossAnim.anim.meta": {
+    "time": 1702519587545.9321
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Btn_CTAAnim.anim.meta": {
+    "time": 1702519587527.98
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Btn_HandAnim.anim.meta": {
+    "time": 1702519587526.9836
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Camera_ShakeAnim.anim.meta": {
+    "time": 1702519587526.9836
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Camera_ZoomOutAnim.anim.meta": {
+    "time": 1702519587527.98
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\CanvasUpRange.anim.meta": {
+    "time": 1702519587554.909
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Die_Anim.anim.meta": {
+    "time": 1702519587553.912
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\EnemyDieAnim.anim.meta": {
+    "time": 1702519587554.909
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\FadeAnim.anim.meta": {
+    "time": 1702519587553.912
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\FishAnim.anim.meta": {
+    "time": 1702519587581.8364
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\FishAnim2.anim.meta": {
+    "time": 1702519587588.8176
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\HandAnim.anim.meta": {
+    "time": 1702519587588.8176
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\InstallPopup.anim.meta": {
+    "time": 1702519587588.8176
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Intro_OpenGameAnim.anim.meta": {
+    "time": 1702519587589.8152
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Player_PowerUpAnim.anim.meta": {
+    "time": 1702519587598.7917
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Power_RotateAnim.anim.meta": {
+    "time": 1702519587606.77
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Power_ScaleAnim.anim.meta": {
+    "time": 1702519587603.7783
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Reload_Anim.anim.meta": {
+    "time": 1702519587606.77
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Tut_ShowAnim.anim.meta": {
+    "time": 1702519587603.7783
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\WarningAnim.anim.meta": {
+    "time": 1702519587607.7668
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\atk.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\bgSound.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\BossAtk.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\click.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\DinoAttack2.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\DinoAttack5.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\Eat.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\sfx.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\SharkSound.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\transform.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\upgrade.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\warning.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation": {
+    "time": 1703059678953.495,
+    "uuid": "18c417de-7b4d-40ad-9a2e-0682d9016ab4",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio": {
+    "time": 1702634113895.6157,
+    "uuid": "f237662f-92b7-4d82-83be-3e9eff56bf15",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\prefabs": {
+    "time": 1702630047906.1626,
+    "uuid": "daf1b728-504c-4701-b5e0-cad8e12f17f0",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Camera_ShakeAnim.anim": {
+    "time": 1701963778000,
+    "uuid": "cab4d4d6-176a-4252-9c4b-cdfe7cbaa6d4",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Btn_HandAnim.anim": {
+    "time": 1701963778000,
+    "uuid": "529525b4-59ee-4633-bdb6-6678773bde46",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Camera_ZoomOutAnim.anim": {
+    "time": 1701963778000,
+    "uuid": "e7387b26-9832-434a-b51e-072074a29e94",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Btn_CTAAnim.anim": {
+    "time": 1701963778000,
+    "uuid": "38aa25fa-13ce-4ed3-88aa-e1390bf7e7b2",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\BossAnim.anim": {
+    "time": 1701963778000,
+    "uuid": "64345a7d-87ec-49f6-9234-e865ef63ee6a",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Die_Anim.anim": {
+    "time": 1701963778000,
+    "uuid": "87ad87d9-e31a-4a7e-801d-30205e9d86c8",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\FadeAnim.anim": {
+    "time": 1701963780000,
+    "uuid": "cb9c370f-7b64-47c6-9873-f5942fb54c85",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\CanvasUpRange.anim": {
+    "time": 1701963778000,
+    "uuid": "fb4dd973-071f-49b3-a6e2-9e0df75ebf48",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\EnemyDieAnim.anim": {
+    "time": 1701963778000,
+    "uuid": "d6cef198-3c79-4364-ad07-cf84c71b0837",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\FishAnim.anim": {
+    "time": 1701963780000,
+    "uuid": "24f88c68-82c6-433b-8182-7a1fa2d5c65a",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\FishAnim2.anim": {
+    "time": 1701963780000,
+    "uuid": "ef3b4dd4-66e0-4b1a-bca7-0102b140abc6",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\HandAnim.anim": {
+    "time": 1701963780000,
+    "uuid": "a88c9b47-62c3-4146-8c68-118131ceff55",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\InstallPopup.anim": {
+    "time": 1701963780000,
+    "uuid": "eedfb3f1-888b-4505-ae6b-776deebec303",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Intro_OpenGameAnim.anim": {
+    "time": 1701963780000,
+    "uuid": "88ef1b04-e18d-4f22-b45e-cf9ca09cd851",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Player_PowerUpAnim.anim": {
+    "time": 1701963780000,
+    "uuid": "61d85db0-5afc-46bd-bd73-b31ed74ce8c2",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Power_ScaleAnim.anim": {
+    "time": 1701963780000,
+    "uuid": "81ef20ff-8ce5-4f96-87f9-b24a4d333350",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Tut_ShowAnim.anim": {
+    "time": 1701963780000,
+    "uuid": "52aff813-6183-4484-b95f-6dff7d5a7281",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Power_RotateAnim.anim": {
+    "time": 1701963780000,
+    "uuid": "5a1bcb02-0f32-4cdf-b876-9f64be73c233",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Reload_Anim.anim": {
+    "time": 1701963780000,
+    "uuid": "2ea5b7ad-db07-4402-aaa4-7d3e8666bb12",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\WarningAnim.anim": {
+    "time": 1701963780000,
+    "uuid": "ab9b1396-8376-4ac1-84ed-f3363dfc253d",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\atk.mp3": {
+    "time": 1702562560000,
+    "uuid": "0ca92540-4f92-43f9-a1cf-e4f6e793ef70",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\click.mp3": {
+    "time": 1702562560000,
+    "uuid": "2f63a3f4-fcf0-4188-87f4-38eaed4dcea7",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\bgSound.mp3": {
+    "time": 1702562560000,
+    "uuid": "88d35e52-db46-445d-9346-49d41d7787b7",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\BossAtk.mp3": {
+    "time": 1702562560000,
+    "uuid": "8474cbee-c6c5-4ee7-b51a-f7f24a128499",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\DinoAttack2.mp3": {
+    "time": 1702562560000,
+    "uuid": "b555b0b5-71c4-42f5-9be0-f94347e1012a",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\SharkSound.mp3": {
+    "time": 1702562560000,
+    "uuid": "16ae71b6-a92b-45d6-b074-572ab4cea670",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\sfx.mp3": {
+    "time": 1702562560000,
+    "uuid": "ec677f59-ecc3-404a-b5dd-9234f834351e",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\Eat.mp3": {
+    "time": 1702562560000,
+    "uuid": "c5d7601f-169f-4f89-863f-9f271e3744cd",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\DinoAttack5.mp3": {
+    "time": 1702562560000,
+    "uuid": "f22116e8-a064-4cbe-98cb-cfd25d77315f",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\transform.mp3": {
+    "time": 1702562560000,
+    "uuid": "cfc741e0-687f-4970-b937-606380ae2f9d",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\upgrade.mp3": {
+    "time": 1702562560000,
+    "uuid": "995e97d0-ac12-463d-9dcc-ae0346ba52c0",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\warning.mp3": {
+    "time": 1702562560000,
+    "uuid": "8cb305d0-3a9e-4670-ae39-e75a03364d7b",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Game.scene.meta": {
+    "time": 1702562558000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Game.scene": {
+    "time": 1703155086750.8503,
+    "uuid": "fa58af6a-e12c-499a-96bb-f85799927461",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images.meta": {
+    "time": 1702562558000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Particle.meta": {
+    "time": 1702562558000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts.meta": {
+    "time": 1702562558000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\Item.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Particle\\PowerUp.plist.meta": {
+    "time": 1702566228000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Particle\\PowerUp.png.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Data.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround\\mountain.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\Item\\bubble.png.meta": {
+    "time": 1702629427404.7122
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\Item\\hand.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\2.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\btn_next.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\hand.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\ic_powerx10.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\img_swift.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\joystick.png.meta": {
+    "time": 1702525917456.5251
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\joystick_ball.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\light.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\NEXT.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\reload.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\text.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\Enemy.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\Responsive.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images": {
+    "time": 1702562560000,
+    "uuid": "2e45064f-461a-4d3f-a459-0f5ff1eb5694",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Particle": {
+    "time": 1702562560000,
+    "uuid": "9d189eb2-ae5a-4290-b12e-203a2750b6b8",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts": {
+    "time": 1702562562000,
+    "uuid": "8b6634e7-ef16-47b9-9fff-0b069ba63294",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround": {
+    "time": 1702562560000,
+    "uuid": "79362701-8c18-42d3-bf4c-fc388b04ac76",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\Item": {
+    "time": 1702562560000,
+    "uuid": "8b4b9599-8662-4a0d-91af-ac949a643f53",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI": {
+    "time": 1703066273200.4746,
+    "uuid": "9a71145e-b3fa-4d51-ab3d-06e53c8d2941",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Data": {
+    "time": 1702866413892.622,
+    "uuid": "9e72e15b-9e51-4dba-be17-155e1d96cecd",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript": {
+    "time": 1702978210605.5088,
+    "uuid": "aad55e22-46a0-45da-b67e-e8277386bbc2",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Particle\\PowerUp.png": {
+    "time": 1702562560000,
+    "uuid": "72a7cccc-2029-4ba2-97f1-375e306c4508",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\Item\\bubble.png": {
+    "time": 1702562560000,
+    "uuid": "8254c85b-36bf-42d6-be3d-a58e67e9e391",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround\\mountain.png": {
+    "time": 1702562560000,
+    "uuid": "3a8df2e5-d3ed-4430-8635-478b0af485af",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\Item\\hand.png": {
+    "time": 1702562560000,
+    "uuid": "b0420547-67e0-4617-856e-c2f17cae08e4",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\btn_next.png": {
+    "time": 1702562560000,
+    "uuid": "176e51b5-a9b5-49ab-bdaf-abbc1acecd34",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\2.png": {
+    "time": 1702562560000,
+    "uuid": "27af3ea7-bd3e-4116-92b2-124be170ad97",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\hand.png": {
+    "time": 1702562560000,
+    "uuid": "b221226b-c8fd-47f8-9d24-411cd4c238dc",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\img_swift.png": {
+    "time": 1702562560000,
+    "uuid": "8ae04965-5f43-499d-bf42-6bfdfb1fc64d",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\joystick_ball.png": {
+    "time": 1702562560000,
+    "uuid": "4e9bca28-7715-459f-9f26-855206f19024",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\light.png": {
+    "time": 1702562560000,
+    "uuid": "59e98a23-e2c6-49fd-8fbd-078ea3d031bf",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\ic_powerx10.png": {
+    "time": 1702562560000,
+    "uuid": "d3b70e05-f7e0-416b-800e-5d7128b674ca",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\joystick.png": {
+    "time": 1701963780000,
+    "uuid": "f99fc487-5156-4dab-b327-f8eb15deef8a",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Particle\\PowerUp.plist": {
+    "time": 1702562560000,
+    "uuid": "403a641b-e0b2-4d86-9ed5-a635db65a352",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\Enemy.ts": {
+    "time": 1703154019388.9434,
+    "uuid": "a264df74-198c-409a-bab8-5a5d28405fc9",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\NEXT.png": {
+    "time": 1702562560000,
+    "uuid": "40f65a5c-b610-4bc1-80cb-0e7ea38b3b68",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\text.png": {
+    "time": 1702562560000,
+    "uuid": "16882b41-29a8-4fd3-863b-256cb3647589",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\reload.png": {
+    "time": 1702562560000,
+    "uuid": "333d0d47-f7c4-474f-8c40-6cec874320da",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\Responsive.ts": {
+    "time": 1702982493399.138,
+    "uuid": "630d5b04-bdfa-45f5-a83e-98ffb4bcec70",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Data\\Constant.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Data\\Constant.ts": {
+    "time": 1703058851463.542,
+    "uuid": "4f504285-3fec-47cf-99f4-297329e9ab06",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine.meta": {
+    "time": 1702562558000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Die.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.atlas.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.json.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.png.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.atlas.txt.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.json.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.png.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.atlas.txt.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.json.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.png.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.atlas.txt.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.atlas.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine": {
+    "time": 1702562564000,
+    "uuid": "6216558b-b837-42f8-9000-e93754a5b6cd",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk": {
+    "time": 1702562562000,
+    "uuid": "a79b903c-898e-4b0a-9093-b96a7aa894ed",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble": {
+    "time": 1702562562000,
+    "uuid": "48c2fcce-f02f-4eca-99a3-b7199d194568",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Die": {
+    "time": 1702562562000,
+    "uuid": "ea26d523-4ae0-4df3-9d12-cd886595cccf",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport": {
+    "time": 1702562564000,
+    "uuid": "016374fd-ab0a-4399-abaa-d57072f31829",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test": {
+    "time": 1702562564000,
+    "uuid": "71bd7fac-030b-498c-9226-e4ca02ab96ff",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la": {
+    "time": 1702562564000,
+    "uuid": "c2d92f98-5e26-4499-99d8-0a7ddb889342",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave": {
+    "time": 1702562564000,
+    "uuid": "31218efa-b98a-4151-b7d1-ea7078e0b5e9",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.atlas": {
+    "time": 1702562562000,
+    "uuid": "142ab3be-039d-43a2-b1f3-d7765794fa4d",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.atlas.txt": {
+    "time": 1702562562000,
+    "uuid": "b636800f-4779-4c9e-949b-069a39376d40",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.json": {
+    "time": 1702562562000,
+    "uuid": "af771fc0-ae31-4436-ba8e-1331b290ee7a",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.png": {
+    "time": 1702562562000,
+    "uuid": "79f0993a-72bf-4f10-ad86-a9cbb330052e",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.atlas.txt": {
+    "time": 1702562562000,
+    "uuid": "8e49be20-4e60-4ef4-b8cb-3e2ebed15173",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.json": {
+    "time": 1702562562000,
+    "uuid": "e1f39da5-56a6-4226-8723-56639dba0f1e",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.json": {
+    "time": 1702562562000,
+    "uuid": "d3465587-75e9-4e9c-8b71-b566bcedca8f",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.png": {
+    "time": 1702562562000,
+    "uuid": "f62a374c-aaa3-4417-bbbc-c48fa57ae96f",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export": {
+    "time": 1702562564000,
+    "uuid": "a8d3c6e4-6041-43ee-873a-a452358e8719",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.atlas.txt": {
+    "time": 1702562562000,
+    "uuid": "cd577de9-77d1-4034-8381-ab5f33e68ca9",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2": {
+    "time": 1702562564000,
+    "uuid": "667a05a5-fb63-4af8-8e72-5b43e8cdbeb0",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3": {
+    "time": 1702562564000,
+    "uuid": "44fd22e7-8d0c-4906-843d-13588ce7d2d7",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4": {
+    "time": 1702562564000,
+    "uuid": "641981c3-3331-46f5-9771-7da7ef0fb610",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.json": {
+    "time": 1702562564000,
+    "uuid": "14a8fea0-07d8-489b-96bf-f105ff77aae9",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.png": {
+    "time": 1702562562000,
+    "uuid": "b7e7f293-b6ea-4ccf-bfb5-c00930a96cfa",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "4efcf92c-c4f3-4722-837a-bc10dd8db158",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.json": {
+    "time": 1702562564000,
+    "uuid": "56577ef6-3f92-49df-9c39-6ddc042f2e9c",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.atlas": {
+    "time": 1702562564000,
+    "uuid": "17317fcc-ff67-41cc-a931-16f7b66096eb",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.png": {
+    "time": 1702562564000,
+    "uuid": "c32f9ddc-eed0-4889-8338-7585b919923b",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.png": {
+    "time": 1702562564000,
+    "uuid": "64ba2dc2-f875-4fda-a0ef-73587fc94bd1",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.json": {
+    "time": 1702562564000,
+    "uuid": "ef88a44f-cc7e-4b7f-91d1-aa7441fd4f24",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "c0f1442a-b6b4-4734-b9a6-a8cd1b5edacd",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.json": {
+    "time": 1702562564000,
+    "uuid": "11ff0ca7-5c29-461f-838b-8d24385b656f",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "c1bba4c8-e014-4d4b-8fa2-3e556c3c40c7",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.png": {
+    "time": 1702562564000,
+    "uuid": "6d60dcac-67a6-4c91-873b-505c1233db17",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.json": {
+    "time": 1702562564000,
+    "uuid": "5484861c-2925-4bab-8ebd-a04388c298bc",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "13f02a79-d21e-462e-bda9-126d0a526f3e",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.png": {
+    "time": 1702610798000,
+    "uuid": "fd0bd9bc-b996-4008-802a-29f91a9e2c39",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.json": {
+    "time": 1702562564000,
+    "uuid": "66fbe992-7d6e-4558-9239-1945f3cb4cd8",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "8ac55027-4152-4f8c-a43b-8618adc34452",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.png": {
+    "time": 1702610798000,
+    "uuid": "d4dc9d7e-69b4-417b-adb9-db4da44fed3f",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.json": {
+    "time": 1702562564000,
+    "uuid": "db8b07ed-d550-4d38-91a2-7135e453c170",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.png": {
+    "time": 1702610798000,
+    "uuid": "be28a987-e000-4f3b-88f4-a41e8d0e17ef",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.png": {
+    "time": 1702562564000,
+    "uuid": "4f365ba1-0d43-4586-a83a-29eac89b9820",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\prefabs\\Player.prefab.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\prefabs\\Player.prefab": {
+    "time": 1702567132000,
+    "uuid": "3db87654-df8d-416b-9fcd-d88927b6c6a1",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller": {
+    "time": 1702978210604.539,
+    "uuid": "add03259-b0fa-43b3-b20e-e41801d0ee8f",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\EnemiesController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\EnemiesController.ts": {
+    "time": 1702982111824.0825,
+    "uuid": "d1d1a78c-dbc0-445d-9e47-55306b4a2e9a",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\PlayerController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\PlayerController.ts": {
+    "time": 1703154007533.034,
+    "uuid": "3b7e3554-33b1-41b5-9d83-7aea1ab80d02",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\TouchAreaController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\TouchAreaController.ts": {
+    "time": 1703154627179.976,
+    "uuid": "ff172c66-d8e4-4485-ae9a-61b5c30b460f",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\CameraController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\CameraController.ts": {
+    "time": 1702982104374.5105,
+    "uuid": "dc1e76ac-7694-4a14-bf8d-999940a5ef4d",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround\\bg.jpg.meta": {
+    "time": 1702562560000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround\\bg.jpg": {
+    "time": 1702562560000,
+    "uuid": "c3d745dd-93c1-48d8-85e9-76de0a5c45b9",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation": {
+    "time": 1702562558743.5332,
+    "uuid": "18c417de-7b4d-40ad-9a2e-0682d9016ab4",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio": {
+    "time": 1702562559181.016,
+    "uuid": "f237662f-92b7-4d82-83be-3e9eff56bf15",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Game.scene": {
+    "time": 1702570222324.8157,
+    "uuid": "fa58af6a-e12c-499a-96bb-f85799927461",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images": {
+    "time": 1702562559409.2637,
+    "uuid": "2e45064f-461a-4d3f-a459-0f5ff1eb5694",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Particle": {
+    "time": 1702562559984.6206,
+    "uuid": "9d189eb2-ae5a-4290-b12e-203a2750b6b8",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\prefabs": {
+    "time": 1702568905522.599,
+    "uuid": "daf1b728-504c-4701-b5e0-cad8e12f17f0",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts": {
+    "time": 1702562560617.9314,
+    "uuid": "8b6634e7-ef16-47b9-9fff-0b069ba63294",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine": {
+    "time": 1702562562841.1309,
+    "uuid": "6216558b-b837-42f8-9000-e93754a5b6cd",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\BossAnim.anim": {
+    "time": 1702562557997.9033,
+    "uuid": "64345a7d-87ec-49f6-9234-e865ef63ee6a",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Btn_CTAAnim.anim": {
+    "time": 1702562558039.181,
+    "uuid": "38aa25fa-13ce-4ed3-88aa-e1390bf7e7b2",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Btn_HandAnim.anim": {
+    "time": 1702562558078.043,
+    "uuid": "529525b4-59ee-4633-bdb6-6678773bde46",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Camera_ShakeAnim.anim": {
+    "time": 1702562558116.3762,
+    "uuid": "cab4d4d6-176a-4252-9c4b-cdfe7cbaa6d4",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Camera_ZoomOutAnim.anim": {
+    "time": 1702562558155.3933,
+    "uuid": "e7387b26-9832-434a-b51e-072074a29e94",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\CanvasUpRange.anim": {
+    "time": 1702562558195.2803,
+    "uuid": "fb4dd973-071f-49b3-a6e2-9e0df75ebf48",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Die_Anim.anim": {
+    "time": 1702562558235.2563,
+    "uuid": "87ad87d9-e31a-4a7e-801d-30205e9d86c8",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\EnemyDieAnim.anim": {
+    "time": 1702562558276.2866,
+    "uuid": "d6cef198-3c79-4364-ad07-cf84c71b0837",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\FadeAnim.anim": {
+    "time": 1702562558314.4697,
+    "uuid": "cb9c370f-7b64-47c6-9873-f5942fb54c85",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\FishAnim.anim": {
+    "time": 1702562558350.54,
+    "uuid": "24f88c68-82c6-433b-8182-7a1fa2d5c65a",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\FishAnim2.anim": {
+    "time": 1702562558388.4119,
+    "uuid": "ef3b4dd4-66e0-4b1a-bca7-0102b140abc6",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\HandAnim.anim": {
+    "time": 1702562558427.113,
+    "uuid": "a88c9b47-62c3-4146-8c68-118131ceff55",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\InstallPopup.anim": {
+    "time": 1702562558464.4805,
+    "uuid": "eedfb3f1-888b-4505-ae6b-776deebec303",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Intro_OpenGameAnim.anim": {
+    "time": 1702562558503.943,
+    "uuid": "88ef1b04-e18d-4f22-b45e-cf9ca09cd851",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Player_PowerUpAnim.anim": {
+    "time": 1702562558541.9714,
+    "uuid": "61d85db0-5afc-46bd-bd73-b31ed74ce8c2",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Power_RotateAnim.anim": {
+    "time": 1702562558591.8867,
+    "uuid": "5a1bcb02-0f32-4cdf-b876-9f64be73c233",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Power_ScaleAnim.anim": {
+    "time": 1702562558629.582,
+    "uuid": "81ef20ff-8ce5-4f96-87f9-b24a4d333350",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Reload_Anim.anim": {
+    "time": 1702562558667.2637,
+    "uuid": "2ea5b7ad-db07-4402-aaa4-7d3e8666bb12",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Tut_ShowAnim.anim": {
+    "time": 1702562558704.5625,
+    "uuid": "52aff813-6183-4484-b95f-6dff7d5a7281",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\WarningAnim.anim": {
+    "time": 1702562558741.7312,
+    "uuid": "ab9b1396-8376-4ac1-84ed-f3363dfc253d",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\atk.mp3": {
+    "time": 1702562558780.1948,
+    "uuid": "0ca92540-4f92-43f9-a1cf-e4f6e793ef70",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\bgSound.mp3": {
+    "time": 1702562558817.213,
+    "uuid": "88d35e52-db46-445d-9346-49d41d7787b7",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\BossAtk.mp3": {
+    "time": 1702562558853.091,
+    "uuid": "8474cbee-c6c5-4ee7-b51a-f7f24a128499",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\click.mp3": {
+    "time": 1702562558897.8574,
+    "uuid": "2f63a3f4-fcf0-4188-87f4-38eaed4dcea7",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\DinoAttack2.mp3": {
+    "time": 1702562558934.691,
+    "uuid": "b555b0b5-71c4-42f5-9be0-f94347e1012a",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\DinoAttack5.mp3": {
+    "time": 1702562558969.7417,
+    "uuid": "f22116e8-a064-4cbe-98cb-cfd25d77315f",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\Eat.mp3": {
+    "time": 1702562559002.8286,
+    "uuid": "c5d7601f-169f-4f89-863f-9f271e3744cd",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\sfx.mp3": {
+    "time": 1702562559039.748,
+    "uuid": "ec677f59-ecc3-404a-b5dd-9234f834351e",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\SharkSound.mp3": {
+    "time": 1702562559074.363,
+    "uuid": "16ae71b6-a92b-45d6-b074-572ab4cea670",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\transform.mp3": {
+    "time": 1702562559110.2488,
+    "uuid": "cfc741e0-687f-4970-b937-606380ae2f9d",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\upgrade.mp3": {
+    "time": 1702562559145.3887,
+    "uuid": "995e97d0-ac12-463d-9dcc-ae0346ba52c0",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\warning.mp3": {
+    "time": 1702562559179.0203,
+    "uuid": "8cb305d0-3a9e-4670-ae39-e75a03364d7b",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround": {
+    "time": 1702562559316.9087,
+    "uuid": "79362701-8c18-42d3-bf4c-fc388b04ac76",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\Item": {
+    "time": 1702562559389.889,
+    "uuid": "8b4b9599-8662-4a0d-91af-ac949a643f53",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI": {
+    "time": 1702562559821.7437,
+    "uuid": "9a71145e-b3fa-4d51-ab3d-06e53c8d2941",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Particle\\PowerUp.plist": {
+    "time": 1702562559868.9172,
+    "uuid": "403a641b-e0b2-4d86-9ed5-a635db65a352",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Particle\\PowerUp.png": {
+    "time": 1702562559981.6292,
+    "uuid": "72a7cccc-2029-4ba2-97f1-375e306c4508",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\prefabs\\Player.prefab": {
+    "time": 1702567130274.473,
+    "uuid": "3db87654-df8d-416b-9fcd-d88927b6c6a1",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller": {
+    "time": 1702562560492.8796,
+    "uuid": "add03259-b0fa-43b3-b20e-e41801d0ee8f",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\Data": {
+    "time": 1702562560572.3943,
+    "uuid": "9e72e15b-9e51-4dba-be17-155e1d96cecd",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript": {
+    "time": 1702562561028.8447,
+    "uuid": "aad55e22-46a0-45da-b67e-e8277386bbc2",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk": {
+    "time": 1702562561469.2654,
+    "uuid": "a79b903c-898e-4b0a-9093-b96a7aa894ed",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble": {
+    "time": 1702562561730.5435,
+    "uuid": "48c2fcce-f02f-4eca-99a3-b7199d194568",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Die": {
+    "time": 1702562561876.4392,
+    "uuid": "ea26d523-4ae0-4df3-9d12-cd886595cccf",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport": {
+    "time": 1702562562056.3591,
+    "uuid": "016374fd-ab0a-4399-abaa-d57072f31829",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test": {
+    "time": 1702562562578.0015,
+    "uuid": "71bd7fac-030b-498c-9226-e4ca02ab96ff",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la": {
+    "time": 1702562562818.1943,
+    "uuid": "c2d92f98-5e26-4499-99d8-0a7ddb889342",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave": {
+    "time": 1702562562936.6938,
+    "uuid": "31218efa-b98a-4151-b7d1-ea7078e0b5e9",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround\\bg.jpg": {
+    "time": 1702562559275.5786,
+    "uuid": "c3d745dd-93c1-48d8-85e9-76de0a5c45b9",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround\\mountain.png": {
+    "time": 1702562559314.439,
+    "uuid": "3a8df2e5-d3ed-4430-8635-478b0af485af",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\Item\\bubble.png": {
+    "time": 1702562559353.9126,
+    "uuid": "8254c85b-36bf-42d6-be3d-a58e67e9e391",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\Item\\hand.png": {
+    "time": 1702562559388.919,
+    "uuid": "b0420547-67e0-4617-856e-c2f17cae08e4",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\2.png": {
+    "time": 1702562559425.3086,
+    "uuid": "27af3ea7-bd3e-4116-92b2-124be170ad97",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\btn_next.png": {
+    "time": 1702562559458.6858,
+    "uuid": "176e51b5-a9b5-49ab-bdaf-abbc1acecd34",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\hand.png": {
+    "time": 1702562559493.8071,
+    "uuid": "b221226b-c8fd-47f8-9d24-411cd4c238dc",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\ic_powerx10.png": {
+    "time": 1702562559530.8298,
+    "uuid": "d3b70e05-f7e0-416b-800e-5d7128b674ca",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\img_swift.png": {
+    "time": 1702562559567.5818,
+    "uuid": "8ae04965-5f43-499d-bf42-6bfdfb1fc64d",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\joystick.png": {
+    "time": 1702562559609.7664,
+    "uuid": "f99fc487-5156-4dab-b327-f8eb15deef8a",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\joystick_ball.png": {
+    "time": 1702562559653.3674,
+    "uuid": "4e9bca28-7715-459f-9f26-855206f19024",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\light.png": {
+    "time": 1702562559695.316,
+    "uuid": "59e98a23-e2c6-49fd-8fbd-078ea3d031bf",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\NEXT.png": {
+    "time": 1702562559740.9885,
+    "uuid": "40f65a5c-b610-4bc1-80cb-0e7ea38b3b68",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\reload.png": {
+    "time": 1702562559782.6587,
+    "uuid": "333d0d47-f7c4-474f-8c40-6cec874320da",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\text.png": {
+    "time": 1702562559818.8154,
+    "uuid": "16882b41-29a8-4fd3-863b-256cb3647589",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\CameraController.ts": {
+    "time": 1702562560181.1228,
+    "uuid": "dc1e76ac-7694-4a14-bf8d-999940a5ef4d",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\EnemiesController.ts": {
+    "time": 1702569125261.0125,
+    "uuid": "d1d1a78c-dbc0-445d-9e47-55306b4a2e9a",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\PlayerController.ts": {
+    "time": 1702562560325.9177,
+    "uuid": "3b7e3554-33b1-41b5-9d83-7aea1ab80d02",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\PowerController.ts": {
+    "time": 1702562560399.8472,
+    "uuid": "63b6cd43-c65a-4a17-aa9e-59a1371c0d46",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\TouchAreaController.ts": {
+    "time": 1702567589606.5127,
+    "uuid": "ff172c66-d8e4-4485-ae9a-61b5c30b460f",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\Data\\Constant.ts": {
+    "time": 1702562560568.4055,
+    "uuid": "4f504285-3fec-47cf-99f4-297329e9ab06",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\Enemy.ts": {
+    "time": 1702570169858.6824,
+    "uuid": "a264df74-198c-409a-bab8-5a5d28405fc9",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\JoyStick.ts": {
+    "time": 1702566199128.097,
+    "uuid": "3b52775c-24cc-4a12-83df-11764673b763",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\PlayerMount.ts": {
+    "time": 1702562560831.4324,
+    "uuid": "b6863657-88a2-44b9-a501-221055e3a99f",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\PowerScale.ts": {
+    "time": 1702562560920.4631,
+    "uuid": "f5770777-5241-4f9b-bd3c-1e1363ddb044",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\Responsive.ts": {
+    "time": 1702562560977.1885,
+    "uuid": "630d5b04-bdfa-45f5-a83e-98ffb4bcec70",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\test.ts": {
+    "time": 1702562561026.8462,
+    "uuid": "cef06c5d-9abf-4a21-9778-be949af534e0",
+    "missing": true
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.atlas": {
+    "time": 1702562561358.562,
+    "uuid": "142ab3be-039d-43a2-b1f3-d7765794fa4d",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.json": {
+    "time": 1702562561411.5396,
+    "uuid": "e1f39da5-56a6-4226-8723-56639dba0f1e",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.png": {
+    "time": 1702562561467.2705,
+    "uuid": "79f0993a-72bf-4f10-ad86-a9cbb330052e",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.atlas.txt": {
+    "time": 1702562561523.8892,
+    "uuid": "b636800f-4779-4c9e-949b-069a39376d40",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.json": {
+    "time": 1702562561573.8503,
+    "uuid": "af771fc0-ae31-4436-ba8e-1331b290ee7a",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.png": {
+    "time": 1702562561728.5496,
+    "uuid": "f62a374c-aaa3-4417-bbbc-c48fa57ae96f",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.atlas.txt": {
+    "time": 1702562561779.6912,
+    "uuid": "8e49be20-4e60-4ef4-b8cb-3e2ebed15173",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.json": {
+    "time": 1702562561830.178,
+    "uuid": "d3465587-75e9-4e9c-8b71-b566bcedca8f",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.png": {
+    "time": 1702562561871.9216,
+    "uuid": "b7e7f293-b6ea-4ccf-bfb5-c00930a96cfa",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.atlas.txt": {
+    "time": 1702562561934.4385,
+    "uuid": "cd577de9-77d1-4034-8381-ab5f33e68ca9",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.json": {
+    "time": 1702562562002.7463,
+    "uuid": "14a8fea0-07d8-489b-96bf-f105ff77aae9",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.png": {
+    "time": 1702562562053.8423,
+    "uuid": "c32f9ddc-eed0-4889-8338-7585b919923b",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export": {
+    "time": 1702562562312.9941,
+    "uuid": "a8d3c6e4-6041-43ee-873a-a452358e8719",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2": {
+    "time": 1702562562436.2231,
+    "uuid": "667a05a5-fb63-4af8-8e72-5b43e8cdbeb0",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3": {
+    "time": 1702562562555.4785,
+    "uuid": "44fd22e7-8d0c-4906-843d-13588ce7d2d7",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4": {
+    "time": 1702562562698.4265,
+    "uuid": "641981c3-3331-46f5-9771-7da7ef0fb610",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.atlas.txt": {
+    "time": 1702562562743.8833,
+    "uuid": "4efcf92c-c4f3-4722-837a-bc10dd8db158",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.json": {
+    "time": 1702562562782.7585,
+    "uuid": "56577ef6-3f92-49df-9c39-6ddc042f2e9c",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.png": {
+    "time": 1702562562817.1953,
+    "uuid": "64ba2dc2-f875-4fda-a0ef-73587fc94bd1",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.atlas": {
+    "time": 1702562562860.151,
+    "uuid": "17317fcc-ff67-41cc-a931-16f7b66096eb",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.json": {
+    "time": 1702562562898.8728,
+    "uuid": "ef88a44f-cc7e-4b7f-91d1-aa7441fd4f24",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.png": {
+    "time": 1702562562934.1921,
+    "uuid": "6d60dcac-67a6-4c91-873b-505c1233db17",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.atlas.txt": {
+    "time": 1702562562237.868,
+    "uuid": "c0f1442a-b6b4-4734-b9a6-a8cd1b5edacd",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.json": {
+    "time": 1702562562275.6562,
+    "uuid": "11ff0ca7-5c29-461f-838b-8d24385b656f",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.png": {
+    "time": 1702562562310.9995,
+    "uuid": "fd0bd9bc-b996-4008-802a-29f91a9e2c39",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.atlas.txt": {
+    "time": 1702562562357.1636,
+    "uuid": "c1bba4c8-e014-4d4b-8fa2-3e556c3c40c7",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.json": {
+    "time": 1702562562397.8186,
+    "uuid": "5484861c-2925-4bab-8ebd-a04388c298bc",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.png": {
+    "time": 1702562562433.7256,
+    "uuid": "d4dc9d7e-69b4-417b-adb9-db4da44fed3f",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.atlas.txt": {
+    "time": 1702562562479.7307,
+    "uuid": "13f02a79-d21e-462e-bda9-126d0a526f3e",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.json": {
+    "time": 1702562562518.2732,
+    "uuid": "66fbe992-7d6e-4558-9239-1945f3cb4cd8",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.png": {
+    "time": 1702562562553.971,
+    "uuid": "be28a987-e000-4f3b-88f4-a41e8d0e17ef",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.atlas.txt": {
+    "time": 1702562562600.933,
+    "uuid": "8ac55027-4152-4f8c-a43b-8618adc34452",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.json": {
+    "time": 1702562562658.8828,
+    "uuid": "db8b07ed-d550-4d38-91a2-7135e453c170",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.png": {
+    "time": 1702562562696.4321,
+    "uuid": "4f365ba1-0d43-4586-a83a-29eac89b9820",
+    "missing": false
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation.meta": {
+    "time": 1702562557808.734
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio.meta": {
+    "time": 1702562557829.74
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images.meta": {
+    "time": 1702562557890.6997
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Particle.meta": {
+    "time": 1702562557908.8003
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\prefabs.meta": {
+    "time": 1702562557931.8179
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts.meta": {
+    "time": 1702562557951.7834
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine.meta": {
+    "time": 1702562557974.3376
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\BossAnim.anim.meta": {
+    "time": 1702562558021.1965
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Btn_CTAAnim.anim.meta": {
+    "time": 1702562558059.1758
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Camera_ShakeAnim.anim.meta": {
+    "time": 1702562558136.5737
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Btn_HandAnim.anim.meta": {
+    "time": 1702562558096.7512
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Game.scene.meta": {
+    "time": 1702562557870.515
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Camera_ZoomOutAnim.anim.meta": {
+    "time": 1702562558176.7969
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\CanvasUpRange.anim.meta": {
+    "time": 1702562558215.2734
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\EnemyDieAnim.anim.meta": {
+    "time": 1702562558295.2002
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Die_Anim.anim.meta": {
+    "time": 1702562558252.9558
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\FadeAnim.anim.meta": {
+    "time": 1702562558332.9043
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\FishAnim2.anim.meta": {
+    "time": 1702562558406.367
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\FishAnim.anim.meta": {
+    "time": 1702562558368.8208
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\InstallPopup.anim.meta": {
+    "time": 1702562558483.2173
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\HandAnim.anim.meta": {
+    "time": 1702562558443.7202
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Intro_OpenGameAnim.anim.meta": {
+    "time": 1702562558521.9336
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Player_PowerUpAnim.anim.meta": {
+    "time": 1702562558573.8262
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Power_RotateAnim.anim.meta": {
+    "time": 1702562558612.531
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Power_ScaleAnim.anim.meta": {
+    "time": 1702562558650.4885
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Reload_Anim.anim.meta": {
+    "time": 1702562558686.2795
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\Tut_ShowAnim.anim.meta": {
+    "time": 1702562558724.173
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\animation\\WarningAnim.anim.meta": {
+    "time": 1702562558759.8376
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\atk.mp3.meta": {
+    "time": 1702562558800.478
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\bgSound.mp3.meta": {
+    "time": 1702562558836.6155
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\click.mp3.meta": {
+    "time": 1702562558916.4573
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\DinoAttack2.mp3.meta": {
+    "time": 1702562558951.983
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\BossAtk.mp3.meta": {
+    "time": 1702562558878.653
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\SharkSound.mp3.meta": {
+    "time": 1702562559093.573
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\Eat.mp3.meta": {
+    "time": 1702562559022.8894
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\sfx.mp3.meta": {
+    "time": 1702562559059.0156
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\DinoAttack5.mp3.meta": {
+    "time": 1702562558986.8667
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround.meta": {
+    "time": 1702562559220.1843
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\Item.meta": {
+    "time": 1702562559238.1929
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI.meta": {
+    "time": 1702562559255.494
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\transform.mp3.meta": {
+    "time": 1702562559127.9136
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\upgrade.mp3.meta": {
+    "time": 1702562559162.005
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller.meta": {
+    "time": 1702562560102.5737
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\Data.meta": {
+    "time": 1702562560129.663
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript.meta": {
+    "time": 1702562560153.1848
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk.meta": {
+    "time": 1702562561096.6995
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\prefabs\\Player.prefab.meta": {
+    "time": 1702562560071.4917
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\audio\\warning.mp3.meta": {
+    "time": 1702562559198.06
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble.meta": {
+    "time": 1702562561132.77
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Die.meta": {
+    "time": 1702562561166.4065
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport.meta": {
+    "time": 1702562561202.496
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test.meta": {
+    "time": 1702562561233.4487
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la.meta": {
+    "time": 1702562561261.9277
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave.meta": {
+    "time": 1702562561327.817
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Particle\\PowerUp.png.meta": {
+    "time": 1702562560012.397
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Particle\\PowerUp.plist.meta": {
+    "time": 1702566227028.6973
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\Item\\bubble.png.meta": {
+    "time": 1702562559372.8696
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\Item\\hand.png.meta": {
+    "time": 1702562559405.911
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround\\mountain.png.meta": {
+    "time": 1702562559333.4724
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\2.png.meta": {
+    "time": 1702562559444.7617
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\btn_next.png.meta": {
+    "time": 1702562559479.7583
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround\\bg.jpg.meta": {
+    "time": 1702562559296.683
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\hand.png.meta": {
+    "time": 1702562559515.6243
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\img_swift.png.meta": {
+    "time": 1702562559589.599
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\ic_powerx10.png.meta": {
+    "time": 1702562559552.0674
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\joystick.png.meta": {
+    "time": 1702562559636.511
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\light.png.meta": {
+    "time": 1702562559723
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\CameraController.ts.meta": {
+    "time": 1702562560216.9229
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\EnemiesController.ts.meta": {
+    "time": 1702562560285.9285
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\PlayerController.ts.meta": {
+    "time": 1702562560363.8225
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\PowerController.ts.meta": {
+    "time": 1702562560446.35
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\joystick_ball.png.meta": {
+    "time": 1702562559677.479
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\TouchAreaController.ts.meta": {
+    "time": 1702562560532.8787
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\Data\\Constant.ts.meta": {
+    "time": 1702562560612.4348
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\Enemy.ts.meta": {
+    "time": 1702562560723.4385
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\JoyStick.ts.meta": {
+    "time": 1702562560796.936
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\PlayerMount.ts.meta": {
+    "time": 1702562560883.457
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\PowerScale.ts.meta": {
+    "time": 1702562560949.949
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\Responsive.ts.meta": {
+    "time": 1702562561005.6248
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\test.ts.meta": {
+    "time": 1702562561053.7278
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\NEXT.png.meta": {
+    "time": 1702562559763.7195
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\reload.png.meta": {
+    "time": 1702562559802.7634
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.atlas.meta": {
+    "time": 1702562561388.2812
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\text.png.meta": {
+    "time": 1702562559842.566
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.json.meta": {
+    "time": 1702562561442.0396
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.atlas.txt.meta": {
+    "time": 1702562561549.5312
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.json.meta": {
+    "time": 1702562561707.7703
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.png.meta": {
+    "time": 1702562561489.7217
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.atlas.txt.meta": {
+    "time": 1702562561804.6987
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.json.meta": {
+    "time": 1702562561854.437
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.atlas.txt.meta": {
+    "time": 1702562561973.5708
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export.meta": {
+    "time": 1702562562146.9312
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2.meta": {
+    "time": 1702562562169.9226
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3.meta": {
+    "time": 1702562562190.8936
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.png.meta": {
+    "time": 1702562561752.2437
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4.meta": {
+    "time": 1702562562214.6956
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.png.meta": {
+    "time": 1702562561900.7302
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.json.meta": {
+    "time": 1702562562029.2507
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.png.meta": {
+    "time": 1702562562115.5881
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.atlas.meta": {
+    "time": 1702562562879.8438
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.atlas.txt.meta": {
+    "time": 1702562562763.641
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.json.meta": {
+    "time": 1702562562801.1643
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.json.meta": {
+    "time": 1702562562918.7026
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.png.meta": {
+    "time": 1702562562837.143
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.json.meta": {
+    "time": 1702562562295.3752
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.atlas.txt.meta": {
+    "time": 1702562562255.9912
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.atlas.txt.meta": {
+    "time": 1702562562378.2837
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.png.meta": {
+    "time": 1702562562955.2737
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.json.meta": {
+    "time": 1702562562417.251
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.png.meta": {
+    "time": 1702562562330.2354
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.png.meta": {
+    "time": 1702562562453.7434
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.json.meta": {
+    "time": 1702562562536.5073
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.atlas.txt.meta": {
+    "time": 1702562562497.8992
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.atlas.txt.meta": {
+    "time": 1702562562622.0322
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.json.meta": {
+    "time": 1702562562679.4133
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.png.meta": {
+    "time": 1702562562574.5034
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.png.meta": {
+    "time": 1702562562717.9097
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\prefabs\\Enemy1.prefab.meta": {
+    "time": 1702568905529.7605
+  },
+  "D:\\PlayableAds\\FishIO\\FishIO_Op6\\assets\\prefabs\\Enemy1.prefab": {
+    "time": 1702570220378.8362,
+    "uuid": "fd6be02e-6f9d-446c-8ff6-4e4fa639d812",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\animation": {
+    "time": 1702635892556.849,
+    "uuid": "18c417de-7b4d-40ad-9a2e-0682d9016ab4",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio": {
+    "time": 1702634113895.6157,
+    "uuid": "f237662f-92b7-4d82-83be-3e9eff56bf15",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Game.scene": {
+    "time": 1702638318640.0369,
+    "uuid": "fa58af6a-e12c-499a-96bb-f85799927461",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images": {
+    "time": 1702562560000,
+    "uuid": "2e45064f-461a-4d3f-a459-0f5ff1eb5694",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Particle": {
+    "time": 1702562560000,
+    "uuid": "9d189eb2-ae5a-4290-b12e-203a2750b6b8",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\prefabs": {
+    "time": 1702630047906.1626,
+    "uuid": "daf1b728-504c-4701-b5e0-cad8e12f17f0",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts": {
+    "time": 1702562562000,
+    "uuid": "8b6634e7-ef16-47b9-9fff-0b069ba63294",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine": {
+    "time": 1702562564000,
+    "uuid": "6216558b-b837-42f8-9000-e93754a5b6cd",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\atk.mp3": {
+    "time": 1702562560000,
+    "uuid": "0ca92540-4f92-43f9-a1cf-e4f6e793ef70",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\bgSound.mp3": {
+    "time": 1702562560000,
+    "uuid": "88d35e52-db46-445d-9346-49d41d7787b7",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\BossAtk.mp3": {
+    "time": 1702562560000,
+    "uuid": "8474cbee-c6c5-4ee7-b51a-f7f24a128499",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\click.mp3": {
+    "time": 1702562560000,
+    "uuid": "2f63a3f4-fcf0-4188-87f4-38eaed4dcea7",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\DinoAttack2.mp3": {
+    "time": 1702562560000,
+    "uuid": "b555b0b5-71c4-42f5-9be0-f94347e1012a",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\DinoAttack5.mp3": {
+    "time": 1702562560000,
+    "uuid": "f22116e8-a064-4cbe-98cb-cfd25d77315f",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\Eat.mp3": {
+    "time": 1702562560000,
+    "uuid": "c5d7601f-169f-4f89-863f-9f271e3744cd",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\sfx.mp3": {
+    "time": 1702562560000,
+    "uuid": "ec677f59-ecc3-404a-b5dd-9234f834351e",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\SharkSound.mp3": {
+    "time": 1702562560000,
+    "uuid": "16ae71b6-a92b-45d6-b074-572ab4cea670",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\transform.mp3": {
+    "time": 1702562560000,
+    "uuid": "cfc741e0-687f-4970-b937-606380ae2f9d",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\upgrade.mp3": {
+    "time": 1702562560000,
+    "uuid": "995e97d0-ac12-463d-9dcc-ae0346ba52c0",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\warning.mp3": {
+    "time": 1702562560000,
+    "uuid": "8cb305d0-3a9e-4670-ae39-e75a03364d7b",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\BackGround": {
+    "time": 1702562560000,
+    "uuid": "79362701-8c18-42d3-bf4c-fc388b04ac76",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\Item": {
+    "time": 1702562560000,
+    "uuid": "8b4b9599-8662-4a0d-91af-ac949a643f53",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI": {
+    "time": 1702632479894.0288,
+    "uuid": "9a71145e-b3fa-4d51-ab3d-06e53c8d2941",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Particle\\PowerUp.plist": {
+    "time": 1702562560000,
+    "uuid": "403a641b-e0b2-4d86-9ed5-a635db65a352",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Particle\\PowerUp.png": {
+    "time": 1702562560000,
+    "uuid": "72a7cccc-2029-4ba2-97f1-375e306c4508",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\prefabs\\Enemy1.prefab": {
+    "time": 1702635694597.5916,
+    "uuid": "fd6be02e-6f9d-446c-8ff6-4e4fa639d812",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\prefabs\\Player.prefab": {
+    "time": 1702567132000,
+    "uuid": "3db87654-df8d-416b-9fcd-d88927b6c6a1",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller": {
+    "time": 1702634157775.7207,
+    "uuid": "add03259-b0fa-43b3-b20e-e41801d0ee8f",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Data": {
+    "time": 1702562562000,
+    "uuid": "9e72e15b-9e51-4dba-be17-155e1d96cecd",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\TypeScript": {
+    "time": 1702562562000,
+    "uuid": "aad55e22-46a0-45da-b67e-e8277386bbc2",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Atk": {
+    "time": 1702562562000,
+    "uuid": "a79b903c-898e-4b0a-9093-b96a7aa894ed",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\bubble": {
+    "time": 1702562562000,
+    "uuid": "48c2fcce-f02f-4eca-99a3-b7199d194568",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Die": {
+    "time": 1702562562000,
+    "uuid": "ea26d523-4ae0-4df3-9d12-cd886595cccf",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\exxport": {
+    "time": 1702562564000,
+    "uuid": "016374fd-ab0a-4399-abaa-d57072f31829",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test": {
+    "time": 1702562564000,
+    "uuid": "71bd7fac-030b-498c-9226-e4ca02ab96ff",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\tinh yeu that la": {
+    "time": 1702562564000,
+    "uuid": "c2d92f98-5e26-4499-99d8-0a7ddb889342",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Wave": {
+    "time": 1702562564000,
+    "uuid": "31218efa-b98a-4151-b7d1-ea7078e0b5e9",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\BackGround\\bg.jpg": {
+    "time": 1702562560000,
+    "uuid": "c3d745dd-93c1-48d8-85e9-76de0a5c45b9",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\BackGround\\mountain.png": {
+    "time": 1702562560000,
+    "uuid": "3a8df2e5-d3ed-4430-8635-478b0af485af",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\Item\\bubble.png": {
+    "time": 1702562560000,
+    "uuid": "8254c85b-36bf-42d6-be3d-a58e67e9e391",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\Item\\hand.png": {
+    "time": 1702562560000,
+    "uuid": "b0420547-67e0-4617-856e-c2f17cae08e4",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\2.png": {
+    "time": 1702562560000,
+    "uuid": "27af3ea7-bd3e-4116-92b2-124be170ad97",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\btn_next.png": {
+    "time": 1702562560000,
+    "uuid": "176e51b5-a9b5-49ab-bdaf-abbc1acecd34",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\hand.png": {
+    "time": 1702562560000,
+    "uuid": "b221226b-c8fd-47f8-9d24-411cd4c238dc",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\ic_powerx10.png": {
+    "time": 1702562560000,
+    "uuid": "d3b70e05-f7e0-416b-800e-5d7128b674ca",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\img_swift.png": {
+    "time": 1702562560000,
+    "uuid": "8ae04965-5f43-499d-bf42-6bfdfb1fc64d",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\joystick_ball.png": {
+    "time": 1702562560000,
+    "uuid": "4e9bca28-7715-459f-9f26-855206f19024",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\light.png": {
+    "time": 1702562560000,
+    "uuid": "59e98a23-e2c6-49fd-8fbd-078ea3d031bf",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\NEXT.png": {
+    "time": 1702562560000,
+    "uuid": "40f65a5c-b610-4bc1-80cb-0e7ea38b3b68",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\reload.png": {
+    "time": 1702562560000,
+    "uuid": "333d0d47-f7c4-474f-8c40-6cec874320da",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\text.png": {
+    "time": 1702562560000,
+    "uuid": "16882b41-29a8-4fd3-863b-256cb3647589",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\CameraController.ts": {
+    "time": 1702562562000,
+    "uuid": "dc1e76ac-7694-4a14-bf8d-999940a5ef4d",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\EnemiesController.ts": {
+    "time": 1702625949685.1304,
+    "uuid": "d1d1a78c-dbc0-445d-9e47-55306b4a2e9a",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\PlayerController.ts": {
+    "time": 1702627895447.8403,
+    "uuid": "3b7e3554-33b1-41b5-9d83-7aea1ab80d02",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\PowerController.ts": {
+    "time": 1702562562000,
+    "uuid": "63b6cd43-c65a-4a17-aa9e-59a1371c0d46",
+    "missing": true
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\TouchAreaController.ts": {
+    "time": 1702637058176.2256,
+    "uuid": "ff172c66-d8e4-4485-ae9a-61b5c30b460f",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Data\\Constant.ts": {
+    "time": 1702635292739.3752,
+    "uuid": "4f504285-3fec-47cf-99f4-297329e9ab06",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\TypeScript\\Enemy.ts": {
+    "time": 1702627874904.2307,
+    "uuid": "a264df74-198c-409a-bab8-5a5d28405fc9",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\TypeScript\\JoyStick.ts": {
+    "time": 1702566200000,
+    "uuid": "3b52775c-24cc-4a12-83df-11764673b763",
+    "missing": true
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\TypeScript\\PlayerMount.ts": {
+    "time": 1702562562000,
+    "uuid": "b6863657-88a2-44b9-a501-221055e3a99f",
+    "missing": true
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\TypeScript\\PowerScale.ts": {
+    "time": 1702562562000,
+    "uuid": "f5770777-5241-4f9b-bd3c-1e1363ddb044",
+    "missing": true
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\TypeScript\\Responsive.ts": {
+    "time": 1702638761902.699,
+    "uuid": "630d5b04-bdfa-45f5-a83e-98ffb4bcec70",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\TypeScript\\test.ts": {
+    "time": 1702562562000,
+    "uuid": "cef06c5d-9abf-4a21-9778-be949af534e0",
+    "missing": true
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Atk\\Bite.atlas": {
+    "time": 1702562562000,
+    "uuid": "142ab3be-039d-43a2-b1f3-d7765794fa4d",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Atk\\Bite.json": {
+    "time": 1702562562000,
+    "uuid": "e1f39da5-56a6-4226-8723-56639dba0f1e",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Atk\\Bite.png": {
+    "time": 1702562562000,
+    "uuid": "79f0993a-72bf-4f10-ad86-a9cbb330052e",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\bubble\\bubble.atlas.txt": {
+    "time": 1702562562000,
+    "uuid": "b636800f-4779-4c9e-949b-069a39376d40",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\bubble\\bubble.json": {
+    "time": 1702562562000,
+    "uuid": "af771fc0-ae31-4436-ba8e-1331b290ee7a",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\bubble\\bubble.png": {
+    "time": 1702562562000,
+    "uuid": "f62a374c-aaa3-4417-bbbc-c48fa57ae96f",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Die\\skeleton.atlas.txt": {
+    "time": 1702562562000,
+    "uuid": "8e49be20-4e60-4ef4-b8cb-3e2ebed15173",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Die\\skeleton.json": {
+    "time": 1702562562000,
+    "uuid": "d3465587-75e9-4e9c-8b71-b566bcedca8f",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Die\\skeleton.png": {
+    "time": 1702562562000,
+    "uuid": "b7e7f293-b6ea-4ccf-bfb5-c00930a96cfa",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\exxport\\Evolution.atlas.txt": {
+    "time": 1702562562000,
+    "uuid": "cd577de9-77d1-4034-8381-ab5f33e68ca9",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\exxport\\Evolution.json": {
+    "time": 1702562564000,
+    "uuid": "14a8fea0-07d8-489b-96bf-f105ff77aae9",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\exxport\\Evolution.png": {
+    "time": 1702562564000,
+    "uuid": "c32f9ddc-eed0-4889-8338-7585b919923b",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export": {
+    "time": 1702562564000,
+    "uuid": "a8d3c6e4-6041-43ee-873a-a452358e8719",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export2": {
+    "time": 1702562564000,
+    "uuid": "667a05a5-fb63-4af8-8e72-5b43e8cdbeb0",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export3": {
+    "time": 1702562564000,
+    "uuid": "44fd22e7-8d0c-4906-843d-13588ce7d2d7",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export4": {
+    "time": 1702562564000,
+    "uuid": "641981c3-3331-46f5-9771-7da7ef0fb610",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\tinh yeu that la\\Evolution.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "4efcf92c-c4f3-4722-837a-bc10dd8db158",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\tinh yeu that la\\Evolution.json": {
+    "time": 1702562564000,
+    "uuid": "56577ef6-3f92-49df-9c39-6ddc042f2e9c",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\tinh yeu that la\\Evolution.png": {
+    "time": 1702562564000,
+    "uuid": "64ba2dc2-f875-4fda-a0ef-73587fc94bd1",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Wave\\sea_flow_trail.atlas": {
+    "time": 1702562564000,
+    "uuid": "17317fcc-ff67-41cc-a931-16f7b66096eb",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Wave\\sea_flow_trail.json": {
+    "time": 1702562564000,
+    "uuid": "ef88a44f-cc7e-4b7f-91d1-aa7441fd4f24",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Wave\\sea_flow_trail.png": {
+    "time": 1702562564000,
+    "uuid": "6d60dcac-67a6-4c91-873b-505c1233db17",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export\\shark.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "c0f1442a-b6b4-4734-b9a6-a8cd1b5edacd",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export\\shark.json": {
+    "time": 1702562564000,
+    "uuid": "11ff0ca7-5c29-461f-838b-8d24385b656f",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export\\shark.png": {
+    "time": 1702610798000,
+    "uuid": "fd0bd9bc-b996-4008-802a-29f91a9e2c39",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export2\\fish_red.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "c1bba4c8-e014-4d4b-8fa2-3e556c3c40c7",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export2\\fish_red.json": {
+    "time": 1702562564000,
+    "uuid": "5484861c-2925-4bab-8ebd-a04388c298bc",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export2\\fish_red.png": {
+    "time": 1702610798000,
+    "uuid": "d4dc9d7e-69b4-417b-adb9-db4da44fed3f",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export3\\fish.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "13f02a79-d21e-462e-bda9-126d0a526f3e",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export3\\fish.json": {
+    "time": 1702562564000,
+    "uuid": "66fbe992-7d6e-4558-9239-1945f3cb4cd8",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export3\\fish.png": {
+    "time": 1702610798000,
+    "uuid": "be28a987-e000-4f3b-88f4-a41e8d0e17ef",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export4\\fish_mini.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "8ac55027-4152-4f8c-a43b-8618adc34452",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export4\\fish_mini.json": {
+    "time": 1702562564000,
+    "uuid": "db8b07ed-d550-4d38-91a2-7135e453c170",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export4\\fish_mini.png": {
+    "time": 1702562564000,
+    "uuid": "4f365ba1-0d43-4586-a83a-29eac89b9820",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\animation.meta": {
+    "time": 1702562558000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio.meta": {
+    "time": 1702562558000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images.meta": {
+    "time": 1702562558000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Particle.meta": {
+    "time": 1702562558000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\prefabs.meta": {
+    "time": 1702562558000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts.meta": {
+    "time": 1702562558000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine.meta": {
+    "time": 1702562558000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Game.scene.meta": {
+    "time": 1702562558000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\atk.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\BossAtk.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\click.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\DinoAttack2.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\bgSound.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\DinoAttack5.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\Eat.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\transform.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\sfx.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\SharkSound.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\BackGround.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\Item.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\prefabs\\Enemy1.prefab.meta": {
+    "time": 1702568906000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\warning.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\upgrade.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Data.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\TypeScript.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Atk.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\bubble.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Die.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\exxport.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\prefabs\\Player.prefab.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\tinh yeu that la.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Wave.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Particle\\PowerUp.plist.meta": {
+    "time": 1702566228000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Particle\\PowerUp.png.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\Item\\bubble.png.meta": {
+    "time": 1702629427404.7122
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\Item\\hand.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\2.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\BackGround\\mountain.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\btn_next.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\hand.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\BackGround\\bg.jpg.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\ic_powerx10.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\img_swift.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\joystick_ball.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\CameraController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\light.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\EnemiesController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\PlayerController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\PowerController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\TouchAreaController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Data\\Constant.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\TypeScript\\Enemy.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\TypeScript\\JoyStick.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\TypeScript\\PlayerMount.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\TypeScript\\PowerScale.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\TypeScript\\Responsive.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\TypeScript\\test.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Atk\\Bite.atlas.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\NEXT.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Atk\\Bite.json.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\reload.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\text.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\bubble\\bubble.atlas.txt.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Die\\skeleton.atlas.txt.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\bubble\\bubble.json.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Atk\\Bite.png.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Die\\skeleton.json.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\bubble\\bubble.png.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\exxport\\Evolution.atlas.txt.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export2.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export3.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export4.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Die\\skeleton.png.meta": {
+    "time": 1702562562000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\tinh yeu that la\\Evolution.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\exxport\\Evolution.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\tinh yeu that la\\Evolution.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\exxport\\Evolution.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Wave\\sea_flow_trail.atlas.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Wave\\sea_flow_trail.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export\\shark.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\tinh yeu that la\\Evolution.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export\\shark.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export2\\fish_red.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\Wave\\sea_flow_trail.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export2\\fish_red.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export3\\fish.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export\\shark.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export3\\fish.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export4\\fish_mini.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export2\\fish_red.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export4\\fish_mini.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export3\\fish.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Spine\\test\\export4\\fish_mini.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Video.meta": {
+    "time": 1702627857889.6892
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Video\\CurrentVideo.mp4.meta": {
+    "time": 1702614749059.503
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\GameController.ts.meta": {
+    "time": 1702607163506.8555
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Video": {
+    "time": 1702630559784.211,
+    "uuid": "c16afb11-8de5-4adc-ad40-7849901ddca3",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\GameController.ts": {
+    "time": 1702639181123.6543,
+    "uuid": "ee8c5852-af42-406e-95fc-21eebe2a3f3d",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Video\\CurrentVideo.mp4": {
+    "time": 1702541687269.2075,
+    "uuid": "abbaf8eb-5b71-4fa6-8319-b57279ecd4de",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\animation\\Tutorial_ShowAnim.anim.meta": {
+    "time": 1702628325476.8396
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\animation\\Tutorial_ShowAnim.anim": {
+    "time": 1702628352457.3318,
+    "uuid": "6bf2767e-4ef5-451b-b1d2-4fb56562655c",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\animation\\Tutorial_HandAnim.anim.meta": {
+    "time": 1702628367605.7478
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\animation\\Tutorial_HandAnim.anim": {
+    "time": 1702628582982.9285,
+    "uuid": "c882fc6d-eedb-47a9-b558-dda5fd21e409",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\prefabs\\Enemy2.prefab.meta": {
+    "time": 1702630047924.1145
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\prefabs\\Enemy2.prefab": {
+    "time": 1702635687977.2078,
+    "uuid": "df87aa83-64d5-4e59-a4fa-151b90a9c711",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\VideoController.ts.meta": {
+    "time": 1702630639533.1282
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\VideoController.ts": {
+    "time": 1702635449583.716,
+    "uuid": "77b91aae-fd8c-46eb-b3cb-c2e7ce057796",
+    "missing": true
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\icon.png.meta": {
+    "time": 1702632800765.4858
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\Logo.png.meta": {
+    "time": 1702632800770.3635
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\Logo.png": {
+    "time": 1702607270000,
+    "uuid": "2d1b46ca-54de-4d25-ad16-c2a8c458c636",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\Images\\UI\\icon.png": {
+    "time": 1702607270000,
+    "uuid": "44c67d2c-b55d-4209-ba36-a64ba29f3d23",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\UI_Controller.ts.meta": {
+    "time": 1702633005442.6533
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\UI_Controller.ts": {
+    "time": 1702633133290.3867,
+    "uuid": "dd890c96-713f-49f2-baab-2c8a9535c160",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\videoSound_Mp3.mp3.meta": {
+    "time": 1702634113919.5515
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\audio\\videoSound_Mp3.mp3": {
+    "time": 1702634056885.3218,
+    "uuid": "765e840d-31ed-4d85-92e6-b73dbcef3112",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\AudioManager.ts.meta": {
+    "time": 1702634157784.6963
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\scripts\\Controller\\AudioManager.ts": {
+    "time": 1702636950383.9817,
+    "uuid": "a32131f2-8160-4d1f-8795-9294d7e6bcbf",
+    "missing": false
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\animation\\Environment_OverlayAnim.anim.meta": {
+    "time": 1702635892564.8274
+  },
+  "D:\\HiepIntern\\Test\\TestFish\\Test_Fish\\assets\\animation\\Environment_OverlayAnim.anim": {
+    "time": 1702636688488.985,
+    "uuid": "dc78f4cc-9606-406c-9adc-10e61b390e37",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Video": {
+    "time": 1702630559784.211,
+    "uuid": "c16afb11-8de5-4adc-ad40-7849901ddca3",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Environment_OverlayAnim.anim": {
+    "time": 1702636688488.985,
+    "uuid": "dc78f4cc-9606-406c-9adc-10e61b390e37",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Tutorial_HandAnim.anim": {
+    "time": 1702628582982.9285,
+    "uuid": "c882fc6d-eedb-47a9-b558-dda5fd21e409",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Tutorial_ShowAnim.anim": {
+    "time": 1702628352457.3318,
+    "uuid": "6bf2767e-4ef5-451b-b1d2-4fb56562655c",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\videoSound_Mp3.mp3": {
+    "time": 1702634056885.3218,
+    "uuid": "765e840d-31ed-4d85-92e6-b73dbcef3112",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\prefabs\\Enemy1.prefab": {
+    "time": 1703068350185.603,
+    "uuid": "fd6be02e-6f9d-446c-8ff6-4e4fa639d812",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\prefabs\\Enemy2.prefab": {
+    "time": 1702635687977.2078,
+    "uuid": "df87aa83-64d5-4e59-a4fa-151b90a9c711",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Video\\CurrentVideo.mp4": {
+    "time": 1702541687269.2075,
+    "uuid": "abbaf8eb-5b71-4fa6-8319-b57279ecd4de",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\icon.png": {
+    "time": 1702607270000,
+    "uuid": "44c67d2c-b55d-4209-ba36-a64ba29f3d23",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\Logo.png": {
+    "time": 1702607270000,
+    "uuid": "2d1b46ca-54de-4d25-ad16-c2a8c458c636",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\AudioManager.ts": {
+    "time": 1703061537193.6504,
+    "uuid": "a32131f2-8160-4d1f-8795-9294d7e6bcbf",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\GameController.ts": {
+    "time": 1703154956565.182,
+    "uuid": "ee8c5852-af42-406e-95fc-21eebe2a3f3d",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\UI_Controller.ts": {
+    "time": 1703060501499.5664,
+    "uuid": "dd890c96-713f-49f2-baab-2c8a9535c160",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\VideoController.ts": {
+    "time": 1703068994636.006,
+    "uuid": "77b91aae-fd8c-46eb-b3cb-c2e7ce057796",
+    "missing": true
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Video.meta": {
+    "time": 1702627857889.6892
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Tutorial_ShowAnim.anim.meta": {
+    "time": 1702628325476.8396
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Environment_OverlayAnim.anim.meta": {
+    "time": 1702635892564.8274
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Tutorial_HandAnim.anim.meta": {
+    "time": 1702628367605.7478
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\audio\\videoSound_Mp3.mp3.meta": {
+    "time": 1702634113919.5515
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\prefabs\\Enemy1.prefab.meta": {
+    "time": 1702568906000
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\prefabs\\Enemy2.prefab.meta": {
+    "time": 1702630047924.1145
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Video\\CurrentVideo.mp4.meta": {
+    "time": 1702614749059.503
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\icon.png.meta": {
+    "time": 1702632800765.4858
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\Logo.png.meta": {
+    "time": 1702632800770.3635
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\AudioManager.ts.meta": {
+    "time": 1702634157784.6963
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\GameController.ts.meta": {
+    "time": 1702607163506.8555
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\UI_Controller.ts.meta": {
+    "time": 1702633005442.6533
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\VideoController.ts.meta": {
+    "time": 1702630639533.1282
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Data\\IronSource.ts.meta": {
+    "time": 1702866413901.5999
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\scripts\\Data\\IronSource.ts": {
+    "time": 1703154573812.6755,
+    "uuid": "ff4e2f31-9630-484e-9191-129c777a0ffd",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Enemy_DieAnim.anim.meta": {
+    "time": 1702971077592.5774
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Enemy_DieAnim.anim": {
+    "time": 1702971217957.1663,
+    "uuid": "ebc2afc1-cfb9-4dc4-9af5-894eaf1b2e7d",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Player_DieAnim.anim.meta": {
+    "time": 1703056622056.576
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Player_DieAnim.anim": {
+    "time": 1703056822556.4104,
+    "uuid": "823e3c59-ff16-4004-9ef8-22397627d04d",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Reload_RotateAnim.anim.meta": {
+    "time": 1703059678964.466
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\animation\\Reload_RotateAnim.anim": {
+    "time": 1703060411771.5266,
+    "uuid": "28013582-a08b-494f-ba23-cc7547817009",
+    "missing": false
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\Circle512.png.meta": {
+    "time": 1703066278223.5676
+  },
+  "D:\\playable-ads-hiepdh\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\Circle512.png": {
+    "time": 1702397696000,
+    "uuid": "d714f24e-cfc1-4d8f-b904-315451ccb520",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\animation": {
+    "time": 1703059678953.495,
+    "uuid": "18c417de-7b4d-40ad-9a2e-0682d9016ab4",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio": {
+    "time": 1702634113895.6157,
+    "uuid": "f237662f-92b7-4d82-83be-3e9eff56bf15",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Game.scene": {
+    "time": 1703155086750.8503,
+    "uuid": "fa58af6a-e12c-499a-96bb-f85799927461",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images": {
+    "time": 1702562560000,
+    "uuid": "2e45064f-461a-4d3f-a459-0f5ff1eb5694",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Particle": {
+    "time": 1702562560000,
+    "uuid": "9d189eb2-ae5a-4290-b12e-203a2750b6b8",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\prefabs": {
+    "time": 1702630047906.1626,
+    "uuid": "daf1b728-504c-4701-b5e0-cad8e12f17f0",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts": {
+    "time": 1702562562000,
+    "uuid": "8b6634e7-ef16-47b9-9fff-0b069ba63294",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine": {
+    "time": 1702562564000,
+    "uuid": "6216558b-b837-42f8-9000-e93754a5b6cd",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Video": {
+    "time": 1702630559784.211,
+    "uuid": "c16afb11-8de5-4adc-ad40-7849901ddca3",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\animation\\Enemy_DieAnim.anim": {
+    "time": 1702971217957.1663,
+    "uuid": "ebc2afc1-cfb9-4dc4-9af5-894eaf1b2e7d",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\animation\\Environment_OverlayAnim.anim": {
+    "time": 1702636688488.985,
+    "uuid": "dc78f4cc-9606-406c-9adc-10e61b390e37",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\animation\\Player_DieAnim.anim": {
+    "time": 1703056822556.4104,
+    "uuid": "823e3c59-ff16-4004-9ef8-22397627d04d",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\animation\\Reload_RotateAnim.anim": {
+    "time": 1703060411771.5266,
+    "uuid": "28013582-a08b-494f-ba23-cc7547817009",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\animation\\Tutorial_HandAnim.anim": {
+    "time": 1702628582982.9285,
+    "uuid": "c882fc6d-eedb-47a9-b558-dda5fd21e409",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\animation\\Tutorial_ShowAnim.anim": {
+    "time": 1702628352457.3318,
+    "uuid": "6bf2767e-4ef5-451b-b1d2-4fb56562655c",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\atk.mp3": {
+    "time": 1702562560000,
+    "uuid": "0ca92540-4f92-43f9-a1cf-e4f6e793ef70",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\bgSound.mp3": {
+    "time": 1702562560000,
+    "uuid": "88d35e52-db46-445d-9346-49d41d7787b7",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\BossAtk.mp3": {
+    "time": 1702562560000,
+    "uuid": "8474cbee-c6c5-4ee7-b51a-f7f24a128499",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\click.mp3": {
+    "time": 1702562560000,
+    "uuid": "2f63a3f4-fcf0-4188-87f4-38eaed4dcea7",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\DinoAttack2.mp3": {
+    "time": 1702562560000,
+    "uuid": "b555b0b5-71c4-42f5-9be0-f94347e1012a",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\DinoAttack5.mp3": {
+    "time": 1702562560000,
+    "uuid": "f22116e8-a064-4cbe-98cb-cfd25d77315f",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\Eat.mp3": {
+    "time": 1702562560000,
+    "uuid": "c5d7601f-169f-4f89-863f-9f271e3744cd",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\sfx.mp3": {
+    "time": 1702562560000,
+    "uuid": "ec677f59-ecc3-404a-b5dd-9234f834351e",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\SharkSound.mp3": {
+    "time": 1702562560000,
+    "uuid": "16ae71b6-a92b-45d6-b074-572ab4cea670",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\transform.mp3": {
+    "time": 1702562560000,
+    "uuid": "cfc741e0-687f-4970-b937-606380ae2f9d",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\upgrade.mp3": {
+    "time": 1702562560000,
+    "uuid": "995e97d0-ac12-463d-9dcc-ae0346ba52c0",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\videoSound_Mp3.mp3": {
+    "time": 1702634056885.3218,
+    "uuid": "765e840d-31ed-4d85-92e6-b73dbcef3112",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\warning.mp3": {
+    "time": 1702562560000,
+    "uuid": "8cb305d0-3a9e-4670-ae39-e75a03364d7b",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround": {
+    "time": 1702562560000,
+    "uuid": "79362701-8c18-42d3-bf4c-fc388b04ac76",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\Item": {
+    "time": 1702562560000,
+    "uuid": "8b4b9599-8662-4a0d-91af-ac949a643f53",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI": {
+    "time": 1703066273200.4746,
+    "uuid": "9a71145e-b3fa-4d51-ab3d-06e53c8d2941",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Particle\\PowerUp.plist": {
+    "time": 1702562560000,
+    "uuid": "403a641b-e0b2-4d86-9ed5-a635db65a352",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Particle\\PowerUp.png": {
+    "time": 1702562560000,
+    "uuid": "72a7cccc-2029-4ba2-97f1-375e306c4508",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\prefabs\\Enemy1.prefab": {
+    "time": 1703068350185.603,
+    "uuid": "fd6be02e-6f9d-446c-8ff6-4e4fa639d812",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\prefabs\\Enemy2.prefab": {
+    "time": 1702635687977.2078,
+    "uuid": "df87aa83-64d5-4e59-a4fa-151b90a9c711",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\prefabs\\Player.prefab": {
+    "time": 1702567132000,
+    "uuid": "3db87654-df8d-416b-9fcd-d88927b6c6a1",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller": {
+    "time": 1702978210604.539,
+    "uuid": "add03259-b0fa-43b3-b20e-e41801d0ee8f",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Data": {
+    "time": 1702866413892.622,
+    "uuid": "9e72e15b-9e51-4dba-be17-155e1d96cecd",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript": {
+    "time": 1702978210605.5088,
+    "uuid": "aad55e22-46a0-45da-b67e-e8277386bbc2",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk": {
+    "time": 1702562562000,
+    "uuid": "a79b903c-898e-4b0a-9093-b96a7aa894ed",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble": {
+    "time": 1702562562000,
+    "uuid": "48c2fcce-f02f-4eca-99a3-b7199d194568",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Die": {
+    "time": 1702562562000,
+    "uuid": "ea26d523-4ae0-4df3-9d12-cd886595cccf",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport": {
+    "time": 1702562564000,
+    "uuid": "016374fd-ab0a-4399-abaa-d57072f31829",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test": {
+    "time": 1702562564000,
+    "uuid": "71bd7fac-030b-498c-9226-e4ca02ab96ff",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la": {
+    "time": 1702562564000,
+    "uuid": "c2d92f98-5e26-4499-99d8-0a7ddb889342",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave": {
+    "time": 1702562564000,
+    "uuid": "31218efa-b98a-4151-b7d1-ea7078e0b5e9",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Video\\CurrentVideo.mp4": {
+    "time": 1702541687269.2075,
+    "uuid": "abbaf8eb-5b71-4fa6-8319-b57279ecd4de",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround\\bg.jpg": {
+    "time": 1702562560000,
+    "uuid": "c3d745dd-93c1-48d8-85e9-76de0a5c45b9",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround\\mountain.png": {
+    "time": 1702562560000,
+    "uuid": "3a8df2e5-d3ed-4430-8635-478b0af485af",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\Item\\bubble.png": {
+    "time": 1702562560000,
+    "uuid": "8254c85b-36bf-42d6-be3d-a58e67e9e391",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\Item\\hand.png": {
+    "time": 1702562560000,
+    "uuid": "b0420547-67e0-4617-856e-c2f17cae08e4",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\2.png": {
+    "time": 1702562560000,
+    "uuid": "27af3ea7-bd3e-4116-92b2-124be170ad97",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\btn_next.png": {
+    "time": 1702562560000,
+    "uuid": "176e51b5-a9b5-49ab-bdaf-abbc1acecd34",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\Circle512.png": {
+    "time": 1702397696000,
+    "uuid": "d714f24e-cfc1-4d8f-b904-315451ccb520",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\hand.png": {
+    "time": 1702562560000,
+    "uuid": "b221226b-c8fd-47f8-9d24-411cd4c238dc",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\icon.png": {
+    "time": 1702607270000,
+    "uuid": "44c67d2c-b55d-4209-ba36-a64ba29f3d23",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\ic_powerx10.png": {
+    "time": 1702562560000,
+    "uuid": "d3b70e05-f7e0-416b-800e-5d7128b674ca",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\img_swift.png": {
+    "time": 1702562560000,
+    "uuid": "8ae04965-5f43-499d-bf42-6bfdfb1fc64d",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\joystick_ball.png": {
+    "time": 1702562560000,
+    "uuid": "4e9bca28-7715-459f-9f26-855206f19024",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\light.png": {
+    "time": 1702562560000,
+    "uuid": "59e98a23-e2c6-49fd-8fbd-078ea3d031bf",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\Logo.png": {
+    "time": 1702607270000,
+    "uuid": "2d1b46ca-54de-4d25-ad16-c2a8c458c636",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\NEXT.png": {
+    "time": 1702562560000,
+    "uuid": "40f65a5c-b610-4bc1-80cb-0e7ea38b3b68",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\reload.png": {
+    "time": 1702562560000,
+    "uuid": "333d0d47-f7c4-474f-8c40-6cec874320da",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\text.png": {
+    "time": 1702562560000,
+    "uuid": "16882b41-29a8-4fd3-863b-256cb3647589",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\AudioManager.ts": {
+    "time": 1703061537193.6504,
+    "uuid": "a32131f2-8160-4d1f-8795-9294d7e6bcbf",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\CameraController.ts": {
+    "time": 1702982104374.5105,
+    "uuid": "dc1e76ac-7694-4a14-bf8d-999940a5ef4d",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\EnemiesController.ts": {
+    "time": 1702982111824.0825,
+    "uuid": "d1d1a78c-dbc0-445d-9e47-55306b4a2e9a",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\GameController.ts": {
+    "time": 1703154956565.182,
+    "uuid": "ee8c5852-af42-406e-95fc-21eebe2a3f3d",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\PlayerController.ts": {
+    "time": 1703154007533.034,
+    "uuid": "3b7e3554-33b1-41b5-9d83-7aea1ab80d02",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\TouchAreaController.ts": {
+    "time": 1703154627179.976,
+    "uuid": "ff172c66-d8e4-4485-ae9a-61b5c30b460f",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\UI_Controller.ts": {
+    "time": 1703060501499.5664,
+    "uuid": "dd890c96-713f-49f2-baab-2c8a9535c160",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\VideoController.ts": {
+    "time": 1703068994636.006,
+    "uuid": "77b91aae-fd8c-46eb-b3cb-c2e7ce057796",
+    "missing": true
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Data\\Constant.ts": {
+    "time": 1703058851463.542,
+    "uuid": "4f504285-3fec-47cf-99f4-297329e9ab06",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Data\\IronSource.ts": {
+    "time": 1703154573812.6755,
+    "uuid": "ff4e2f31-9630-484e-9191-129c777a0ffd",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\Enemy.ts": {
+    "time": 1703154019388.9434,
+    "uuid": "a264df74-198c-409a-bab8-5a5d28405fc9",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\Responsive.ts": {
+    "time": 1702982493399.138,
+    "uuid": "630d5b04-bdfa-45f5-a83e-98ffb4bcec70",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.atlas": {
+    "time": 1702562562000,
+    "uuid": "142ab3be-039d-43a2-b1f3-d7765794fa4d",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.json": {
+    "time": 1702562562000,
+    "uuid": "e1f39da5-56a6-4226-8723-56639dba0f1e",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.png": {
+    "time": 1702562562000,
+    "uuid": "79f0993a-72bf-4f10-ad86-a9cbb330052e",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.atlas.txt": {
+    "time": 1702562562000,
+    "uuid": "b636800f-4779-4c9e-949b-069a39376d40",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.json": {
+    "time": 1702562562000,
+    "uuid": "af771fc0-ae31-4436-ba8e-1331b290ee7a",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.png": {
+    "time": 1702562562000,
+    "uuid": "f62a374c-aaa3-4417-bbbc-c48fa57ae96f",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.atlas.txt": {
+    "time": 1702562562000,
+    "uuid": "8e49be20-4e60-4ef4-b8cb-3e2ebed15173",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.json": {
+    "time": 1702562562000,
+    "uuid": "d3465587-75e9-4e9c-8b71-b566bcedca8f",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.png": {
+    "time": 1702562562000,
+    "uuid": "b7e7f293-b6ea-4ccf-bfb5-c00930a96cfa",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.atlas.txt": {
+    "time": 1702562562000,
+    "uuid": "cd577de9-77d1-4034-8381-ab5f33e68ca9",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.json": {
+    "time": 1702562564000,
+    "uuid": "14a8fea0-07d8-489b-96bf-f105ff77aae9",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.png": {
+    "time": 1702562564000,
+    "uuid": "c32f9ddc-eed0-4889-8338-7585b919923b",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export": {
+    "time": 1702562564000,
+    "uuid": "a8d3c6e4-6041-43ee-873a-a452358e8719",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2": {
+    "time": 1702562564000,
+    "uuid": "667a05a5-fb63-4af8-8e72-5b43e8cdbeb0",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3": {
+    "time": 1702562564000,
+    "uuid": "44fd22e7-8d0c-4906-843d-13588ce7d2d7",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4": {
+    "time": 1702562564000,
+    "uuid": "641981c3-3331-46f5-9771-7da7ef0fb610",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "4efcf92c-c4f3-4722-837a-bc10dd8db158",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.json": {
+    "time": 1702562564000,
+    "uuid": "56577ef6-3f92-49df-9c39-6ddc042f2e9c",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.png": {
+    "time": 1702562564000,
+    "uuid": "64ba2dc2-f875-4fda-a0ef-73587fc94bd1",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.atlas": {
+    "time": 1702562564000,
+    "uuid": "17317fcc-ff67-41cc-a931-16f7b66096eb",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.json": {
+    "time": 1702562564000,
+    "uuid": "ef88a44f-cc7e-4b7f-91d1-aa7441fd4f24",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.png": {
+    "time": 1702562564000,
+    "uuid": "6d60dcac-67a6-4c91-873b-505c1233db17",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "c0f1442a-b6b4-4734-b9a6-a8cd1b5edacd",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.json": {
+    "time": 1702562564000,
+    "uuid": "11ff0ca7-5c29-461f-838b-8d24385b656f",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.png": {
+    "time": 1702610798000,
+    "uuid": "fd0bd9bc-b996-4008-802a-29f91a9e2c39",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "c1bba4c8-e014-4d4b-8fa2-3e556c3c40c7",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.json": {
+    "time": 1702562564000,
+    "uuid": "5484861c-2925-4bab-8ebd-a04388c298bc",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.png": {
+    "time": 1702610798000,
+    "uuid": "d4dc9d7e-69b4-417b-adb9-db4da44fed3f",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "13f02a79-d21e-462e-bda9-126d0a526f3e",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.json": {
+    "time": 1702562564000,
+    "uuid": "66fbe992-7d6e-4558-9239-1945f3cb4cd8",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.png": {
+    "time": 1702610798000,
+    "uuid": "be28a987-e000-4f3b-88f4-a41e8d0e17ef",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "8ac55027-4152-4f8c-a43b-8618adc34452",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.json": {
+    "time": 1702562564000,
+    "uuid": "db8b07ed-d550-4d38-91a2-7135e453c170",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.png": {
+    "time": 1702562564000,
+    "uuid": "4f365ba1-0d43-4586-a83a-29eac89b9820",
+    "missing": false
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\animation.meta": {
+    "time": 1702562558000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio.meta": {
+    "time": 1702562558000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images.meta": {
+    "time": 1702562558000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Particle.meta": {
+    "time": 1702562558000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\prefabs.meta": {
+    "time": 1702562558000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts.meta": {
+    "time": 1702562558000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine.meta": {
+    "time": 1702562558000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Video.meta": {
+    "time": 1702627857889.6892
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\animation\\Player_DieAnim.anim.meta": {
+    "time": 1703056622056.576
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\animation\\Environment_OverlayAnim.anim.meta": {
+    "time": 1702635892564.8274
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\animation\\Reload_RotateAnim.anim.meta": {
+    "time": 1703059678964.466
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\animation\\Enemy_DieAnim.anim.meta": {
+    "time": 1702971077592.5774
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\animation\\Tutorial_HandAnim.anim.meta": {
+    "time": 1702628367605.7478
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\animation\\Tutorial_ShowAnim.anim.meta": {
+    "time": 1702628325476.8396
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Game.scene.meta": {
+    "time": 1702562558000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\DinoAttack2.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\bgSound.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\BossAtk.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\click.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\atk.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\DinoAttack5.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\sfx.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\upgrade.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\transform.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\Item.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\SharkSound.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\Eat.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\videoSound_Mp3.mp3.meta": {
+    "time": 1702634113919.5515
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Particle\\PowerUp.png.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Particle\\PowerUp.plist.meta": {
+    "time": 1702566228000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Data.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Die.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\audio\\warning.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\prefabs\\Enemy1.prefab.meta": {
+    "time": 1702568906000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\prefabs\\Enemy2.prefab.meta": {
+    "time": 1702630047924.1145
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\prefabs\\Player.prefab.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Video\\CurrentVideo.mp4.meta": {
+    "time": 1702614749059.503
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\Item\\hand.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround\\bg.jpg.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\Item\\bubble.png.meta": {
+    "time": 1702629427404.7122
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\BackGround\\mountain.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\2.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\Circle512.png.meta": {
+    "time": 1703066278223.5676
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\btn_next.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\hand.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\ic_powerx10.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\icon.png.meta": {
+    "time": 1702632800765.4858
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\light.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\img_swift.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\reload.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\Logo.png.meta": {
+    "time": 1702632800770.3635
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\AudioManager.ts.meta": {
+    "time": 1702634157784.6963
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\joystick_ball.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\CameraController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\EnemiesController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\GameController.ts.meta": {
+    "time": 1702607163506.8555
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\NEXT.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\PlayerController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\TouchAreaController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\UI_Controller.ts.meta": {
+    "time": 1702633005442.6533
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Controller\\VideoController.ts.meta": {
+    "time": 1702630639533.1282
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Data\\Constant.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\Data\\IronSource.ts.meta": {
+    "time": 1702866413901.5999
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\Enemy.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\scripts\\TypeScript\\Responsive.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.atlas.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.atlas.txt.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.json.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Images\\UI\\text.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.json.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.atlas.txt.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.json.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Atk\\Bite.png.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\bubble\\bubble.png.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Die\\skeleton.png.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.atlas.txt.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.json.meta": {
+    "time": 1705719090869.4788
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.atlas.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\exxport\\Evolution.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\tinh yeu that la\\Evolution.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\Wave\\sea_flow_trail.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export2\\fish_red.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export\\shark.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export3\\fish.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2023\\2D\\FishIO\\FishIO_Op6\\assets\\Spine\\test\\export4\\fish_mini.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation": {
+    "time": 1709190049332.496,
+    "uuid": "18c417de-7b4d-40ad-9a2e-0682d9016ab4",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio": {
+    "time": 1709194645389.1345,
+    "uuid": "f237662f-92b7-4d82-83be-3e9eff56bf15",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Game.scene": {
+    "time": 1709198686571.738,
+    "uuid": "fa58af6a-e12c-499a-96bb-f85799927461",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images": {
+    "time": 1708929387979.6091,
+    "uuid": "2e45064f-461a-4d3f-a459-0f5ff1eb5694",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Particle": {
+    "time": 1708930269138.6824,
+    "uuid": "9d189eb2-ae5a-4290-b12e-203a2750b6b8",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\prefabs": {
+    "time": 1708922067557.1697,
+    "uuid": "daf1b728-504c-4701-b5e0-cad8e12f17f0",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts": {
+    "time": 1708922067594.073,
+    "uuid": "8b6634e7-ef16-47b9-9fff-0b069ba63294",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine": {
+    "time": 1708922067706.9092,
+    "uuid": "6216558b-b837-42f8-9000-e93754a5b6cd",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Video": {
+    "time": 1708922067720.6096,
+    "uuid": "c16afb11-8de5-4adc-ad40-7849901ddca3",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Enemy_DieAnim.anim": {
+    "time": 1702971217957.1663,
+    "uuid": "ebc2afc1-cfb9-4dc4-9af5-894eaf1b2e7d",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Environment_OverlayAnim.anim": {
+    "time": 1702636688488.985,
+    "uuid": "dc78f4cc-9606-406c-9adc-10e61b390e37",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Player_DieAnim.anim": {
+    "time": 1703056822556.4104,
+    "uuid": "823e3c59-ff16-4004-9ef8-22397627d04d",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Reload_RotateAnim.anim": {
+    "time": 1703060411771.5266,
+    "uuid": "28013582-a08b-494f-ba23-cc7547817009",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Tutorial_HandAnim.anim": {
+    "time": 1702628582982.9285,
+    "uuid": "c882fc6d-eedb-47a9-b558-dda5fd21e409",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Tutorial_ShowAnim.anim": {
+    "time": 1702628352457.3318,
+    "uuid": "6bf2767e-4ef5-451b-b1d2-4fb56562655c",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\atk.mp3": {
+    "time": 1702562560000,
+    "uuid": "0ca92540-4f92-43f9-a1cf-e4f6e793ef70",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\bgSound.mp3": {
+    "time": 1702562560000,
+    "uuid": "88d35e52-db46-445d-9346-49d41d7787b7",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\BossAtk.mp3": {
+    "time": 1702562560000,
+    "uuid": "8474cbee-c6c5-4ee7-b51a-f7f24a128499",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\click.mp3": {
+    "time": 1702562560000,
+    "uuid": "2f63a3f4-fcf0-4188-87f4-38eaed4dcea7",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\DinoAttack2.mp3": {
+    "time": 1702562560000,
+    "uuid": "b555b0b5-71c4-42f5-9be0-f94347e1012a",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\DinoAttack5.mp3": {
+    "time": 1702562560000,
+    "uuid": "f22116e8-a064-4cbe-98cb-cfd25d77315f",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\Eat.mp3": {
+    "time": 1702562560000,
+    "uuid": "c5d7601f-169f-4f89-863f-9f271e3744cd",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\sfx.mp3": {
+    "time": 1702562560000,
+    "uuid": "ec677f59-ecc3-404a-b5dd-9234f834351e",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\SharkSound.mp3": {
+    "time": 1702562560000,
+    "uuid": "16ae71b6-a92b-45d6-b074-572ab4cea670",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\transform.mp3": {
+    "time": 1702562560000,
+    "uuid": "cfc741e0-687f-4970-b937-606380ae2f9d",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\upgrade.mp3": {
+    "time": 1702562560000,
+    "uuid": "995e97d0-ac12-463d-9dcc-ae0346ba52c0",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\videoSound_Mp3.mp3": {
+    "time": 1702634056885.3218,
+    "uuid": "765e840d-31ed-4d85-92e6-b73dbcef3112",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\warning.mp3": {
+    "time": 1702562560000,
+    "uuid": "8cb305d0-3a9e-4670-ae39-e75a03364d7b",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\BackGround": {
+    "time": 1708922067496.1997,
+    "uuid": "79362701-8c18-42d3-bf4c-fc388b04ac76",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\Item": {
+    "time": 1708922067503.5608,
+    "uuid": "8b4b9599-8662-4a0d-91af-ac949a643f53",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI": {
+    "time": 1708922067540.0127,
+    "uuid": "9a71145e-b3fa-4d51-ab3d-06e53c8d2941",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Particle\\PowerUp.plist": {
+    "time": 1702562560000,
+    "uuid": "403a641b-e0b2-4d86-9ed5-a635db65a352",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Particle\\PowerUp.png": {
+    "time": 1702562560000,
+    "uuid": "72a7cccc-2029-4ba2-97f1-375e306c4508",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\prefabs\\Enemy1.prefab": {
+    "time": 1703068350185.603,
+    "uuid": "fd6be02e-6f9d-446c-8ff6-4e4fa639d812",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\prefabs\\Enemy2.prefab": {
+    "time": 1702635687977.2078,
+    "uuid": "df87aa83-64d5-4e59-a4fa-151b90a9c711",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\prefabs\\Player.prefab": {
+    "time": 1702567132000,
+    "uuid": "3db87654-df8d-416b-9fcd-d88927b6c6a1",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller": {
+    "time": 1708929235174.4438,
+    "uuid": "add03259-b0fa-43b3-b20e-e41801d0ee8f",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Data": {
+    "time": 1708922067592.0796,
+    "uuid": "9e72e15b-9e51-4dba-be17-155e1d96cecd",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\TypeScript": {
+    "time": 1708922067598.5247,
+    "uuid": "aad55e22-46a0-45da-b67e-e8277386bbc2",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Atk": {
+    "time": 1708922067618.842,
+    "uuid": "a79b903c-898e-4b0a-9093-b96a7aa894ed",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\bubble": {
+    "time": 1708922067629.9075,
+    "uuid": "48c2fcce-f02f-4eca-99a3-b7199d194568",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Die": {
+    "time": 1708922067638.9075,
+    "uuid": "ea26d523-4ae0-4df3-9d12-cd886595cccf",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\exxport": {
+    "time": 1708922067648.8865,
+    "uuid": "016374fd-ab0a-4399-abaa-d57072f31829",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test": {
+    "time": 1708922067685.9656,
+    "uuid": "71bd7fac-030b-498c-9226-e4ca02ab96ff",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\tinh yeu that la": {
+    "time": 1708922067704.9177,
+    "uuid": "c2d92f98-5e26-4499-99d8-0a7ddb889342",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Wave": {
+    "time": 1708922067716.0706,
+    "uuid": "31218efa-b98a-4151-b7d1-ea7078e0b5e9",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Video\\CurrentVideo.mp4": {
+    "time": 1702541687269.2075,
+    "uuid": "abbaf8eb-5b71-4fa6-8319-b57279ecd4de",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\BackGround\\bg.jpg": {
+    "time": 1702562560000,
+    "uuid": "c3d745dd-93c1-48d8-85e9-76de0a5c45b9",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\BackGround\\mountain.png": {
+    "time": 1702562560000,
+    "uuid": "3a8df2e5-d3ed-4430-8635-478b0af485af",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\Item\\bubble.png": {
+    "time": 1702562560000,
+    "uuid": "8254c85b-36bf-42d6-be3d-a58e67e9e391",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\Item\\hand.png": {
+    "time": 1702562560000,
+    "uuid": "b0420547-67e0-4617-856e-c2f17cae08e4",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\2.png": {
+    "time": 1702562560000,
+    "uuid": "27af3ea7-bd3e-4116-92b2-124be170ad97",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\btn_next.png": {
+    "time": 1702562560000,
+    "uuid": "176e51b5-a9b5-49ab-bdaf-abbc1acecd34",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\Circle512.png": {
+    "time": 1702397696000,
+    "uuid": "d714f24e-cfc1-4d8f-b904-315451ccb520",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\hand.png": {
+    "time": 1702562560000,
+    "uuid": "b221226b-c8fd-47f8-9d24-411cd4c238dc",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\icon.png": {
+    "time": 1702607270000,
+    "uuid": "44c67d2c-b55d-4209-ba36-a64ba29f3d23",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\ic_powerx10.png": {
+    "time": 1702562560000,
+    "uuid": "d3b70e05-f7e0-416b-800e-5d7128b674ca",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\img_swift.png": {
+    "time": 1702562560000,
+    "uuid": "8ae04965-5f43-499d-bf42-6bfdfb1fc64d",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\joystick_ball.png": {
+    "time": 1702562560000,
+    "uuid": "4e9bca28-7715-459f-9f26-855206f19024",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\light.png": {
+    "time": 1702562560000,
+    "uuid": "59e98a23-e2c6-49fd-8fbd-078ea3d031bf",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\Logo.png": {
+    "time": 1702607270000,
+    "uuid": "2d1b46ca-54de-4d25-ad16-c2a8c458c636",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\NEXT.png": {
+    "time": 1702562560000,
+    "uuid": "40f65a5c-b610-4bc1-80cb-0e7ea38b3b68",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\reload.png": {
+    "time": 1702562560000,
+    "uuid": "333d0d47-f7c4-474f-8c40-6cec874320da",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\text.png": {
+    "time": 1702562560000,
+    "uuid": "16882b41-29a8-4fd3-863b-256cb3647589",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller\\AudioManager.ts": {
+    "time": 1709195486594.9382,
+    "uuid": "a32131f2-8160-4d1f-8795-9294d7e6bcbf",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller\\CameraController.ts": {
+    "time": 1702982104374.5105,
+    "uuid": "dc1e76ac-7694-4a14-bf8d-999940a5ef4d",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller\\EnemiesController.ts": {
+    "time": 1702982111824.0825,
+    "uuid": "d1d1a78c-dbc0-445d-9e47-55306b4a2e9a",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller\\GameController.ts": {
+    "time": 1709198523112.7012,
+    "uuid": "ee8c5852-af42-406e-95fc-21eebe2a3f3d",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller\\PlayerController.ts": {
+    "time": 1708938379388.9517,
+    "uuid": "3b7e3554-33b1-41b5-9d83-7aea1ab80d02",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller\\TouchAreaController.ts": {
+    "time": 1709198776086.1729,
+    "uuid": "ff172c66-d8e4-4485-ae9a-61b5c30b460f",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller\\UI_Controller.ts": {
+    "time": 1703060501499.5664,
+    "uuid": "dd890c96-713f-49f2-baab-2c8a9535c160",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Data\\Constant.ts": {
+    "time": 1709195506432.7673,
+    "uuid": "4f504285-3fec-47cf-99f4-297329e9ab06",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Data\\IronSource.ts": {
+    "time": 1709198879818.3801,
+    "uuid": "ff4e2f31-9630-484e-9191-129c777a0ffd",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\TypeScript\\Enemy.ts": {
+    "time": 1703154019388.9434,
+    "uuid": "a264df74-198c-409a-bab8-5a5d28405fc9",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\TypeScript\\Responsive.ts": {
+    "time": 1709187994828.4878,
+    "uuid": "630d5b04-bdfa-45f5-a83e-98ffb4bcec70",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Atk\\Bite.atlas": {
+    "time": 1702562562000,
+    "uuid": "142ab3be-039d-43a2-b1f3-d7765794fa4d",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Atk\\Bite.json": {
+    "time": 1702562562000,
+    "uuid": "e1f39da5-56a6-4226-8723-56639dba0f1e",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Atk\\Bite.png": {
+    "time": 1702562562000,
+    "uuid": "79f0993a-72bf-4f10-ad86-a9cbb330052e",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\bubble\\bubble.atlas.txt": {
+    "time": 1702562562000,
+    "uuid": "b636800f-4779-4c9e-949b-069a39376d40",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\bubble\\bubble.json": {
+    "time": 1702562562000,
+    "uuid": "af771fc0-ae31-4436-ba8e-1331b290ee7a",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\bubble\\bubble.png": {
+    "time": 1702562562000,
+    "uuid": "f62a374c-aaa3-4417-bbbc-c48fa57ae96f",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Die\\skeleton.atlas.txt": {
+    "time": 1702562562000,
+    "uuid": "8e49be20-4e60-4ef4-b8cb-3e2ebed15173",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Die\\skeleton.json": {
+    "time": 1702562562000,
+    "uuid": "d3465587-75e9-4e9c-8b71-b566bcedca8f",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Die\\skeleton.png": {
+    "time": 1702562562000,
+    "uuid": "b7e7f293-b6ea-4ccf-bfb5-c00930a96cfa",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\exxport\\Evolution.atlas.txt": {
+    "time": 1702562562000,
+    "uuid": "cd577de9-77d1-4034-8381-ab5f33e68ca9",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\exxport\\Evolution.json": {
+    "time": 1702562564000,
+    "uuid": "14a8fea0-07d8-489b-96bf-f105ff77aae9",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\exxport\\Evolution.png": {
+    "time": 1702562564000,
+    "uuid": "c32f9ddc-eed0-4889-8338-7585b919923b",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export": {
+    "time": 1708922067665.8433,
+    "uuid": "a8d3c6e4-6041-43ee-873a-a452358e8719",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export2": {
+    "time": 1708922067676.2156,
+    "uuid": "667a05a5-fb63-4af8-8e72-5b43e8cdbeb0",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export3": {
+    "time": 1708922067684.9675,
+    "uuid": "44fd22e7-8d0c-4906-843d-13588ce7d2d7",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export4": {
+    "time": 1708922067694.9414,
+    "uuid": "641981c3-3331-46f5-9771-7da7ef0fb610",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\tinh yeu that la\\Evolution.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "4efcf92c-c4f3-4722-837a-bc10dd8db158",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\tinh yeu that la\\Evolution.json": {
+    "time": 1702562564000,
+    "uuid": "56577ef6-3f92-49df-9c39-6ddc042f2e9c",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\tinh yeu that la\\Evolution.png": {
+    "time": 1702562564000,
+    "uuid": "64ba2dc2-f875-4fda-a0ef-73587fc94bd1",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Wave\\sea_flow_trail.atlas": {
+    "time": 1702562564000,
+    "uuid": "17317fcc-ff67-41cc-a931-16f7b66096eb",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Wave\\sea_flow_trail.json": {
+    "time": 1702562564000,
+    "uuid": "ef88a44f-cc7e-4b7f-91d1-aa7441fd4f24",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Wave\\sea_flow_trail.png": {
+    "time": 1702562564000,
+    "uuid": "6d60dcac-67a6-4c91-873b-505c1233db17",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export\\shark.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "c0f1442a-b6b4-4734-b9a6-a8cd1b5edacd",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export\\shark.json": {
+    "time": 1702562564000,
+    "uuid": "11ff0ca7-5c29-461f-838b-8d24385b656f",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export\\shark.png": {
+    "time": 1702610798000,
+    "uuid": "fd0bd9bc-b996-4008-802a-29f91a9e2c39",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export2\\fish_red.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "c1bba4c8-e014-4d4b-8fa2-3e556c3c40c7",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export2\\fish_red.json": {
+    "time": 1702562564000,
+    "uuid": "5484861c-2925-4bab-8ebd-a04388c298bc",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export2\\fish_red.png": {
+    "time": 1702610798000,
+    "uuid": "d4dc9d7e-69b4-417b-adb9-db4da44fed3f",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export3\\fish.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "13f02a79-d21e-462e-bda9-126d0a526f3e",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export3\\fish.json": {
+    "time": 1702562564000,
+    "uuid": "66fbe992-7d6e-4558-9239-1945f3cb4cd8",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export3\\fish.png": {
+    "time": 1702610798000,
+    "uuid": "be28a987-e000-4f3b-88f4-a41e8d0e17ef",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export4\\fish_mini.atlas.txt": {
+    "time": 1702562564000,
+    "uuid": "8ac55027-4152-4f8c-a43b-8618adc34452",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export4\\fish_mini.json": {
+    "time": 1702562564000,
+    "uuid": "db8b07ed-d550-4d38-91a2-7135e453c170",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export4\\fish_mini.png": {
+    "time": 1702562564000,
+    "uuid": "4f365ba1-0d43-4586-a83a-29eac89b9820",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation.meta": {
+    "time": 1702562558000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio.meta": {
+    "time": 1702562558000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images.meta": {
+    "time": 1702562558000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Particle.meta": {
+    "time": 1702562558000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\prefabs.meta": {
+    "time": 1702562558000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts.meta": {
+    "time": 1702562558000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine.meta": {
+    "time": 1702562558000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Video.meta": {
+    "time": 1702627857889.6892
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Player_DieAnim.anim.meta": {
+    "time": 1703056622056.576
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Environment_OverlayAnim.anim.meta": {
+    "time": 1702635892564.8274
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Reload_RotateAnim.anim.meta": {
+    "time": 1703059678964.466
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Enemy_DieAnim.anim.meta": {
+    "time": 1702971077592.5774
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Game.scene.meta": {
+    "time": 1702562558000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Tutorial_ShowAnim.anim.meta": {
+    "time": 1702628325476.8396
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Tutorial_HandAnim.anim.meta": {
+    "time": 1702628367605.7478
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\atk.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\click.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\bgSound.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\BossAtk.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\DinoAttack2.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\Eat.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\DinoAttack5.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\SharkSound.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\sfx.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\BackGround.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\Item.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\transform.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\upgrade.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\warning.mp3.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\videoSound_Mp3.mp3.meta": {
+    "time": 1702634113919.5515
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\prefabs\\Enemy1.prefab.meta": {
+    "time": 1702568906000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Particle\\PowerUp.plist.meta": {
+    "time": 1702566228000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Data.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\TypeScript.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Atk.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\bubble.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Die.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\exxport.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\tinh yeu that la.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Wave.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Particle\\PowerUp.png.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\prefabs\\Enemy2.prefab.meta": {
+    "time": 1702630047924.1145
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\prefabs\\Player.prefab.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\Item\\hand.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Video\\CurrentVideo.mp4.meta": {
+    "time": 1702614749059.503
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\BackGround\\mountain.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\Item\\bubble.png.meta": {
+    "time": 1702629427404.7122
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\2.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\btn_next.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\BackGround\\bg.jpg.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\Circle512.png.meta": {
+    "time": 1703066278223.5676
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\hand.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\icon.png.meta": {
+    "time": 1702632800765.4858
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\img_swift.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\ic_powerx10.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\light.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\NEXT.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\joystick_ball.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller\\AudioManager.ts.meta": {
+    "time": 1702634157784.6963
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\reload.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller\\CameraController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller\\EnemiesController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller\\GameController.ts.meta": {
+    "time": 1702607163506.8555
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller\\PlayerController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller\\TouchAreaController.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller\\UI_Controller.ts.meta": {
+    "time": 1702633005442.6533
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Data\\Constant.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Data\\IronSource.ts.meta": {
+    "time": 1702866413901.5999
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\TypeScript\\Enemy.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\TypeScript\\Responsive.ts.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\Logo.png.meta": {
+    "time": 1702632800770.3635
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Atk\\Bite.atlas.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Atk\\Bite.json.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\bubble\\bubble.atlas.txt.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\UI\\text.png.meta": {
+    "time": 1702562560000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Atk\\Bite.png.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\bubble\\bubble.json.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Die\\skeleton.atlas.txt.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\exxport\\Evolution.atlas.txt.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\bubble\\bubble.png.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Die\\skeleton.json.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export2.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export3.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export4.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\exxport\\Evolution.json.meta": {
+    "time": 1705719090869.4788
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\tinh yeu that la\\Evolution.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Die\\skeleton.png.meta": {
+    "time": 1702562562000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\tinh yeu that la\\Evolution.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Wave\\sea_flow_trail.atlas.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Wave\\sea_flow_trail.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\tinh yeu that la\\Evolution.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\exxport\\Evolution.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export\\shark.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export2\\fish_red.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export\\shark.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\Wave\\sea_flow_trail.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export2\\fish_red.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export3\\fish.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export3\\fish.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export\\shark.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export4\\fish_mini.atlas.txt.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export4\\fish_mini.json.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export3\\fish.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export2\\fish_red.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Spine\\test\\export4\\fish_mini.png.meta": {
+    "time": 1702562564000
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller\\SkiingController.ts.meta": {
+    "time": 1708929235184.4194
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\scripts\\Controller\\SkiingController.ts": {
+    "time": 1709198575491.701,
+    "uuid": "1adfb9df-9fb3-4f59-b73c-5d08ac37eda9",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new.meta": {
+    "time": 1708929387990.5562
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\bg.jpg.meta": {
+    "time": 1708929393970.7766
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\boy1.png.meta": {
+    "time": 1708929393967.785
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\boy2.png.meta": {
+    "time": 1708929393969.7793
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\decor map.png.meta": {
+    "time": 1708929393980.751
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\shark.png.meta": {
+    "time": 1708929393972.7717
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\skateboard.png.meta": {
+    "time": 1708929393987.732
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new": {
+    "time": 1709183529952.6096,
+    "uuid": "d296a688-469e-4454-91a7-1a9f41d43e69",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\bg.jpg": {
+    "time": 1708498315738.1252,
+    "uuid": "17baadb6-e4b6-482a-906a-7eb2762853d2",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\boy2.png": {
+    "time": 1708498209404.4375,
+    "uuid": "3f5210aa-72f8-4629-a9f6-e10e40213ca4",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\boy1.png": {
+    "time": 1708498216057.9617,
+    "uuid": "7abfbf0b-8528-40e2-b89e-5fba5ddc8253",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\decor map.png": {
+    "time": 1708498323494.0415,
+    "uuid": "861ad7fe-01c8-4d7c-8f0d-1c478c6df870",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\shark.png": {
+    "time": 1708498209571.044,
+    "uuid": "719edc68-7d59-4af0-884d-842897379773",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\skateboard.png": {
+    "time": 1708498216082.9253,
+    "uuid": "b5adabeb-4bba-4a62-bffe-25a1a9f9e680",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Particle\\funSui.plist.meta": {
+    "time": 1708930269163.618
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Particle\\funSui.png.meta": {
+    "time": 1708930359529.032
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Particle\\funSui.png": {
+    "time": 1708930246151.8198,
+    "uuid": "617081f1-55b2-40a8-9172-d9aee4c8ad2c",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Particle\\funSui.plist": {
+    "time": 1708930253028.5017,
+    "uuid": "dad6f3a4-6d23-4e58-8654-07f35d4081f3",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\Circle512.png.meta": {
+    "time": 1708930863860.8506
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\GuideArrow.png.meta": {
+    "time": 1708930863857.8594
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\GuideArrow.png": {
+    "time": 1705250888000,
+    "uuid": "3fb6e4fb-a0c0-450a-aa7a-4afc9bd660fe",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\Circle512.png": {
+    "time": 1705250888000,
+    "uuid": "acf3acb0-288f-420d-9bd3-81b77908d2d9",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Skiing_CharAnim.anim.meta": {
+    "time": 1709177819788.7446
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Skiing_CharAnim.anim": {
+    "time": 1709189931661.5303,
+    "uuid": "e83fb726-434e-42a8-83ab-2cc822118f2e",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Character_IdleAnim.anim.meta": {
+    "time": 1709180369181.5403
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Character_IdleAnim.anim": {
+    "time": 1709180469766.368,
+    "uuid": "d20a346d-bae3-4239-9583-a23a46ad8a9f",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\hand.png.meta": {
+    "time": 1709183560547.1404
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\Images\\fish_new\\hand.png": {
+    "time": 1708354462000,
+    "uuid": "6b784db2-5ce8-48b1-969f-3afa83f7f315",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Skiing_HandAnim.anim.meta": {
+    "time": 1709184026497.306
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Skiing_HandAnim.anim": {
+    "time": 1709184103065.434,
+    "uuid": "33e8f50a-bb47-49ee-8ee1-944c44e6d565",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\SharkHunt_Anim.anim.meta": {
+    "time": 1709184402865.2346
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\SharkHunt_Anim.anim": {
+    "time": 1709185239520.4712,
+    "uuid": "9807e302-ef48-4fde-a6ce-026d60b4459c",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Skiing_HintJump.anim.meta": {
+    "time": 1709189411092.6743
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Skiing_HintJump.anim": {
+    "time": 1709189628565.8467,
+    "uuid": "6bca3e72-fb67-4c5d-9055-bd14adc2f4f0",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Shark_IdleAnim.anim.meta": {
+    "time": 1709190049338.4795
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\animation\\Shark_IdleAnim.anim": {
+    "time": 1709190082370.6824,
+    "uuid": "da4fd69d-601a-4b12-8073-c526e01d5df1",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\New folder.meta": {
+    "time": 1709194645404.0676
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\New folder\\bg_sfx.mp3.meta": {
+    "time": 1709194645442.0618
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\New folder\\eating_sfx.mp3.meta": {
+    "time": 1709194645442.0618
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\New folder\\fall_sfx.mp3.meta": {
+    "time": 1709194645443.0593
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\New folder\\Jump_sfx.mp3.meta": {
+    "time": 1709194645441.0652
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\New folder": {
+    "time": 1709194645397.086,
+    "uuid": "29c13315-ec4e-4cd8-8aaa-1b2698804847",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\New folder\\Jump_sfx.mp3": {
+    "time": 1709139774000,
+    "uuid": "421a7103-cc45-40c6-8093-d2e15bc3f4b5",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\New folder\\eating_sfx.mp3": {
+    "time": 1709140226000,
+    "uuid": "767d1cab-340d-4794-8613-7395c3965df8",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\New folder\\bg_sfx.mp3": {
+    "time": 1709140560000,
+    "uuid": "4b295044-d531-4a42-aac2-7800502fe0e9",
+    "missing": false
+  },
+  "D:\\PA_2024\\3D\\FishIO\\FishIO_Op7\\assets\\audio\\New folder\\fall_sfx.mp3": {
+    "time": 1709140396000,
+    "uuid": "e3c1bd0b-df91-4582-8603-dad5f3cd9580",
+    "missing": false
+  }
+}

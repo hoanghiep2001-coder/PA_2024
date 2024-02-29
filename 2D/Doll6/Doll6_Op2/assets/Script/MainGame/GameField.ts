@@ -155,7 +155,7 @@ export class GameField extends cc.Component {
       this.setCellNoClick(this.currentCell);
       this.oneCheckField = true;
     }, this.iter + this.iter + this.iter);
-    
+
     this.scheduleOnce(() => {
       if (!this.destroyExisted) {
         cc.log("comeBackCircle")
@@ -202,7 +202,7 @@ export class GameField extends cc.Component {
     if (Cell1 == null || Cell2 == null) return;
     Constants.isCanTouch = false;
     // console.log(`checking ${Cell1._circle}`);
-    
+
     cc.tween(Cell1._circle)
       .parallel(
         cc.tween().to(this.iter, { scale: 1 }),
@@ -296,23 +296,18 @@ export class GameField extends cc.Component {
   }
 
   checkLine() {
-    // console.log("fill board");
-
-    // Constants.isCanTouch = true;
     this.destroyExisted = false;
     this.InArow();
     this.node.dispatchEvent(new cc.Event.EventCustom('setUnBlockTouch', true));
   }
 
   private createCells() {
-
     var xPos: number = 0;
     var yPos: number = 0;
     var _cell;
 
     for (var j = 0; j < this.Cells.length; j++) {
       for (var i = 0; i < this.Cells[j].length; i++) {
-
         _cell = cc.instantiate(this.Cell);
         _cell.setContentSize(this.lenghtCell, this.widthCell);
         _cell.setParent(this.node);
@@ -329,6 +324,7 @@ export class GameField extends cc.Component {
       yPos = yPos - this.widthCell;
     }
 
+    Constants.Board = this.Cells;
   }
 
   private createAnyTypeCell(Cell, type) {
@@ -350,8 +346,11 @@ export class GameField extends cc.Component {
   private CreateCircles() {
     for (var j = 0; j < this.Cells.length; j++)
       for (var i = 0; i < this.Cells[j].length; i++) {
-        if (this.Cells[j][i].typeCell == 0) this.createCircle(this.Cells[j][i]);
+        if (this.Cells[j][i].typeCell == 0) {
+          this.createCircle(this.Cells[j][i])
+        };
       }
+      
     this.node.dispatchEvent(new cc.Event.EventCustom('needCheckField', true));
   }
 
@@ -366,14 +365,43 @@ export class GameField extends cc.Component {
   }
 
   private createCircle(Cell) {
-    if (!Cell.circleIsNotNull() && Cell.typeCell == 0) {
+    if (!Cell.circleIsNotNull()) {
       Cell._circle = cc.instantiate(this.Circle);
+      // Thiết lập loại và màu sắc cho Circle dựa vào circleType
+      
+      // let circleType = Cell._circle.getComponent(Circle).CircleTypeColor;
+      // do {      
+      //   console.log("?");
+      //   Cell._circle.getComponent(Circle).setRandomColor(true);
+      //   Cell._circle.getComponent(Circle).setColorTipe();
+      //   circleType = Cell._circle.getComponent(Circle).CircleTypeColor;
+      //   // Thiết lập loại và màu sắc cho Circle dựa vào circleType
+      // } while (!this.isValidPlacementForCircle(Cell.jcolumn, Cell.irow, circleType));
+
       Cell._circle.setParent(this.node);
       Cell._circle.setPosition(Cell.node.position);
       Cell._circle.setContentSize(this.lenghtCell - 15, this.widthCell - 15);
       this.countCircle++;
     }
   }
+
+
+  private isValidPlacementForCircle(j: number, i: number, circleType: number): boolean {
+    // Kiểm tra hàng
+    if (i >= 2 && this.Cells[j][i - 1]._circle && this.Cells[j][i - 2]._circle &&
+        this.Cells[j][i - 1]._circle.getComponent(Circle).CircleTypeColor === circleType &&
+        this.Cells[j][i - 2]._circle.getComponent(Circle).CircleTypeColor === circleType) {
+      return false;
+    }
+    // Kiểm tra cột
+    if (j >= 2 && this.Cells[j - 1][i]._circle && this.Cells[j - 2][i]._circle &&
+        this.Cells[j - 1][i]._circle.getComponent(Circle).CircleTypeColor === circleType &&
+        this.Cells[j - 2][i]._circle.getComponent(Circle).CircleTypeColor === circleType) {
+      return false;
+    }
+    return true;
+  }
+
 
   cellExist: boolean = false;
 
@@ -557,13 +585,13 @@ export class GameField extends cc.Component {
     if (CheckerBoolean.checkTwoBoolean(this.Cells[iThree][jThree].typeCell == 0, this.Cells[iThree][jThree].circleIsNotNull()))
       if (CheckerBoolean.EqualsTwoObj(this.Cells[jTwo][iTwo]._circle.getComponent(Circle).CircleTypeColor,
         this.Cells[iThree][jThree]._circle.getComponent(Circle).CircleTypeColor)) {
-          console.log("create lightning");
-          var circle = this.Cells[j][i]._circle.getComponent(Circle);
-          
-          this.Cells[iThree][jThree].getComponent(cc.Sprite).enabled = false;
-          this.Cells[iThree][jThree].node.opacity = 0;
-          this.Cells[iThree][jThree]._circle.getComponent(Circle).getComponent(cc.Sprite).enabled = false;
-          this.Cells[iThree][jThree]._circle.opacity = 0;
+        console.log("create lightning");
+        var circle = this.Cells[j][i]._circle.getComponent(Circle);
+
+        this.Cells[iThree][jThree].getComponent(cc.Sprite).enabled = false;
+        this.Cells[iThree][jThree].node.opacity = 0;
+        this.Cells[iThree][jThree]._circle.getComponent(Circle).getComponent(cc.Sprite).enabled = false;
+        this.Cells[iThree][jThree]._circle.opacity = 0;
         circle.setTipe(tipe);
         this.check3Circle(this.Cells[jOne][iOne], this.Cells[jTwo][iTwo], this.Cells[iThree][jThree]);
         this.goDestroyThreeInArow = false;
@@ -588,7 +616,7 @@ export class GameField extends cc.Component {
 
   private destroyLightningVertical(Cell, circle) {
     console.log("boom lightning vertical");
-    
+
     var j = Cell.jcolumn;
     for (var i = 0; i < this.Cells[j].length; i++) {
       if (Cell != this.Cells[j][i] || this.Cells[j][i].CellIsNotNull()) return;

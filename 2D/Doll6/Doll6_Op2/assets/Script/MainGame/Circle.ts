@@ -1,3 +1,4 @@
+import { Constants } from "../Data/constants";
 import { typeColorCircle } from "./CircleEnums";
 import { tipeCircle } from "./CircleEnums";
 
@@ -10,23 +11,29 @@ export class Circle extends cc.Component {
   @property(cc.Prefab)
   circlesTipe: cc.Prefab[] = [];
 
-  @property
-  CircleTypeColor: typeColorCircle;
-
+  
   @property(cc.Node)
   Blink: cc.Node = null;
-
+  
+  CircleTypeColor: typeColorCircle = null;
   CircleType: tipeCircle = 0;
   randomNumber: number;
   inMove: boolean = false;
 
   onLoad() {
-    this.setRandomColor();
+    this.setRandomColor(false);
   }
 
-  setRandomColor(){
+  setRandomColor(flag: boolean){
     var sp = this.node.getComponent(cc.Sprite);
     this.randomNumber = Math.floor(Math.random() * Math.floor(this.sprite.length));
+
+    // if(flag && this.randomNumber <= 0) {
+    //   this.randomNumber = this.randomNumber + 1;
+    // } else if (flag && this.randomNumber >= 6) {
+    //   this.randomNumber = this.randomNumber - 1;
+    // }
+
     sp.spriteFrame = this.sprite[this.randomNumber];
     this.setColorTipe(this.randomNumber);
   }

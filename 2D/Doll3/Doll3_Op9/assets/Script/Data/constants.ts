@@ -45,7 +45,6 @@ export class Constants {
     static isChooseRevenge: boolean = false;
     static isChooseDress: boolean = false;
 
-
     // event
     static Event: typeof Event = Event;
 

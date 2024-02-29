@@ -3,7 +3,7 @@
   "_name": "CTA_Anim",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 1.5,
+  "_duration": 2.5,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -27,6 +27,34 @@
         "props": {
           "opacity": [
             {
+              "frame": 1.5,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "btn_play/baseHand": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 2,
+              "value": 0
+            },
+            {
+              "frame": 2.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "logo": {
+        "props": {
+          "opacity": [
+            {
               "frame": 0.5,
               "value": 0
             },
@@ -37,7 +65,7 @@
           ]
         }
       },
-      "btn_play/baseHand": {
+      "IconTest1": {
         "props": {
           "opacity": [
             {

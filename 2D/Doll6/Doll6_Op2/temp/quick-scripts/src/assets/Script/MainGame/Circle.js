@@ -32,16 +32,22 @@ var Circle = /** @class */ (function (_super) {
         _this.sprite = [];
         _this.circlesTipe = [];
         _this.Blink = null;
+        _this.CircleTypeColor = null;
         _this.CircleType = 0;
         _this.inMove = false;
         return _this;
     }
     Circle.prototype.onLoad = function () {
-        this.setRandomColor();
+        this.setRandomColor(false);
     };
-    Circle.prototype.setRandomColor = function () {
+    Circle.prototype.setRandomColor = function (flag) {
         var sp = this.node.getComponent(cc.Sprite);
         this.randomNumber = Math.floor(Math.random() * Math.floor(this.sprite.length));
+        // if(flag && this.randomNumber <= 0) {
+        //   this.randomNumber = this.randomNumber + 1;
+        // } else if (flag && this.randomNumber >= 6) {
+        //   this.randomNumber = this.randomNumber - 1;
+        // }
         sp.spriteFrame = this.sprite[this.randomNumber];
         this.setColorTipe(this.randomNumber);
     };
@@ -74,9 +80,6 @@ var Circle = /** @class */ (function (_super) {
     __decorate([
         property(cc.Prefab)
     ], Circle.prototype, "circlesTipe", void 0);
-    __decorate([
-        property
-    ], Circle.prototype, "CircleTypeColor", void 0);
     __decorate([
         property(cc.Node)
     ], Circle.prototype, "Blink", void 0);

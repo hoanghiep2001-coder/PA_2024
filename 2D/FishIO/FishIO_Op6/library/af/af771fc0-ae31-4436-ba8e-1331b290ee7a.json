@@ -1,0 +1,127 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "bubble",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "cNlVWETTIaY",
+      "spine": "3.8-from-4.0-from-4.1.24",
+      "x": -138,
+      "y": 14.37,
+      "width": 276,
+      "height": 274,
+      "images": "./bubble/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bub",
+        "parent": "root",
+        "y": 150.87,
+        "color": "ffffffff"
+      }
+    ],
+    "slots": [
+      {
+        "name": "bub",
+        "bone": "bub",
+        "color": "a2faffff",
+        "attachment": "bubble"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "bub": {
+            "bubble": {
+              "y": 0.5,
+              "scaleX": 2,
+              "scaleY": 2,
+              "width": 138,
+              "height": 137
+            },
+            "bubble_2": {
+              "x": -4.5,
+              "y": -1.62,
+              "width": 264,
+              "height": 264
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "action": {
+        "slots": {
+          "bub": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.0333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.2,
+                "name": "bubble_2"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bub": {
+            "translate": [
+              {},
+              {
+                "time": 0.2,
+                "x": -1.5
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.17,
+                "y": 0.17
+              },
+              {
+                "time": 0.2,
+                "x": 0.746,
+                "y": 0.746
+              },
+              {
+                "time": 0.5
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "f62a374c-aaa3-4417-bbbc-c48fa57ae96f@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "bubble.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nbubble.png\nsize: 256, 256\nformat: RGBA8888\nfilter: Linear, Linear\nrepeat: none\nbubble\n  rotate: false\n  xy: 2, 2\n  size: 69, 69\n  orig: 69, 69\n  offset: 0, 0\n  index: -1\nbubble_2\n  rotate: false\n  xy: 2, 73\n  size: 132, 131\n  orig: 132, 132\n  offset: 0, 1\n  index: -1\n"
+}

@@ -5,21 +5,21 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -10,
+      "x": -8,
       "y": 0,
-      "width": 1440,
+      "width": 1441,
       "height": 1047,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 283,
+            "width": 283.203125,
             "height": 922,
             "type": "dock-v",
             "children": [
               {
-                "width": 283,
-                "height": 462.484375,
+                "width": 283.203125,
+                "height": 462,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 283,
-                "height": 456.515625,
+                "width": 283.203125,
+                "height": 457,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 819,
+            "width": 819.578125,
             "height": 922,
             "type": "dock-v",
             "children": [
               {
-                "width": 819,
-                "height": 572.640625,
+                "width": 819.578125,
+                "height": 573,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 819,
-                "height": 346.359375,
+                "width": 819.578125,
+                "height": 346,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -64,7 +64,7 @@
             ]
           },
           {
-            "width": 316,
+            "width": 316.21875,
             "height": 922,
             "type": "panel",
             "active": 0,
@@ -82,9 +82,7 @@
         "game-window",
         "inspector"
       ]
-    },
-    "window-1708566641514": {},
-    " common-asset-worker-worker": {}
+    }
   },
   "panels": {
     "cocos-services": {

@@ -22,6 +22,17 @@ var CheckerBoolean = /** @class */ (function () {
             return true;
         return false;
     };
+    CheckerBoolean.isValidPlacement = function (board, row, col, circleType) {
+        // Kiểm tra hàng
+        if (col >= 2 && board[row][col - 1] === circleType && board[row][col - 2] === circleType) {
+            return false;
+        }
+        // Kiểm tra cột
+        if (row >= 2 && board[row - 1][col] === circleType && board[row - 2][col] === circleType) {
+            return false;
+        }
+        return true;
+    };
     return CheckerBoolean;
 }());
 exports.CheckerBoolean = CheckerBoolean;

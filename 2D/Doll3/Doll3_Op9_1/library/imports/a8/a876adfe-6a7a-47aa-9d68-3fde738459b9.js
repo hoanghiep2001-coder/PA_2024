@@ -31,6 +31,7 @@ var NodesContainer = /** @class */ (function (_super) {
         // Component
         _this.camera = null;
         // environment
+        _this.hideMask = null;
         _this.background_1 = null;
         _this.background_2_ver = null;
         _this.background_2_hor = null;
@@ -45,22 +46,28 @@ var NodesContainer = /** @class */ (function (_super) {
         _this.CTA = null;
         _this.CTA_overlay = null;
         _this.CTA_btn = null;
+        _this.CTA_icon = null;
+        _this.CTA_logo = null;
         // hint
         _this.hand_1 = null;
         _this.hand_2 = null;
         // doll
         _this.doll = null;
+        _this.doll_scene3 = null;
         _this.doll_mouth_default = null;
         _this.doll_mouth_suprise = null;
         _this.doll_tears_left = null;
         _this.doll_tears_right = null;
-        _this.doll_dress = null;
         _this.doll_dress_default = null;
+        _this.doll_dress = null;
         // UI
+        _this.logo = null;
+        _this.icon = null;
         _this.door = null;
         _this.adultery = null;
         _this.UI_button_revenge = null;
         _this.item_Dress_btn = null;
+        _this.items = [];
         // effects
         _this.effect_blink_Doll = null;
         _this.effect_blink_item = null;
@@ -72,6 +79,9 @@ var NodesContainer = /** @class */ (function (_super) {
     __decorate([
         property(cc.Camera)
     ], NodesContainer.prototype, "camera", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodesContainer.prototype, "hideMask", void 0);
     __decorate([
         property(cc.Node)
     ], NodesContainer.prototype, "background_1", void 0);
@@ -110,6 +120,12 @@ var NodesContainer = /** @class */ (function (_super) {
     ], NodesContainer.prototype, "CTA_btn", void 0);
     __decorate([
         property(cc.Node)
+    ], NodesContainer.prototype, "CTA_icon", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodesContainer.prototype, "CTA_logo", void 0);
+    __decorate([
+        property(cc.Node)
     ], NodesContainer.prototype, "hand_1", void 0);
     __decorate([
         property(cc.Node)
@@ -117,6 +133,9 @@ var NodesContainer = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], NodesContainer.prototype, "doll", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodesContainer.prototype, "doll_scene3", void 0);
     __decorate([
         property(cc.Node)
     ], NodesContainer.prototype, "doll_mouth_default", void 0);
@@ -131,10 +150,16 @@ var NodesContainer = /** @class */ (function (_super) {
     ], NodesContainer.prototype, "doll_tears_right", void 0);
     __decorate([
         property(cc.Node)
+    ], NodesContainer.prototype, "doll_dress_default", void 0);
+    __decorate([
+        property(cc.Node)
     ], NodesContainer.prototype, "doll_dress", void 0);
     __decorate([
         property(cc.Node)
-    ], NodesContainer.prototype, "doll_dress_default", void 0);
+    ], NodesContainer.prototype, "logo", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodesContainer.prototype, "icon", void 0);
     __decorate([
         property(cc.Node)
     ], NodesContainer.prototype, "door", void 0);
@@ -147,6 +172,9 @@ var NodesContainer = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], NodesContainer.prototype, "item_Dress_btn", void 0);
+    __decorate([
+        property([cc.Node])
+    ], NodesContainer.prototype, "items", void 0);
     __decorate([
         property(cc.ParticleSystem)
     ], NodesContainer.prototype, "effect_blink_Doll", void 0);

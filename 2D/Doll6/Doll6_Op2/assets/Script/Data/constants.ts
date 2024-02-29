@@ -43,6 +43,7 @@ export class Constants {
     static isCanTouch: boolean = true;
     static countScore: number = 0;
     static isClickFirstTime: boolean = false;
+    static Board: any[][] = null;
 
     // event
     static Event: typeof Event = Event;

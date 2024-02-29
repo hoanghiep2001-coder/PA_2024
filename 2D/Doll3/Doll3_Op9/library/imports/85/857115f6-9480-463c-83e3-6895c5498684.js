@@ -40,6 +40,9 @@ var TouchAreaController = /** @class */ (function (_super) {
         _this.NodesContainer = null;
         _this.GamePlay = null;
         return _this;
+        // protected update(dt: number): void {
+        //   this.handleMuteSoundIronSource();
+        // }
     }
     // node
     // state
@@ -49,17 +52,24 @@ var TouchAreaController = /** @class */ (function (_super) {
         this.registerEvent();
     };
     TouchAreaController.prototype.registerEvent = function () {
+        // ironsource
+        // this.NodesContainer.hideMask.on(cc.Node.EventType.TOUCH_START, this.handleIronSourcePlaySound, this);
         this.NodesContainer.UI_button_revenge.on(cc.Node.EventType.TOUCH_START, this.btnTouchStart, this);
         this.NodesContainer.item_Dress_btn.on(cc.Node.EventType.TOUCH_START, this.btnDressTouchStart, this);
     };
     TouchAreaController.prototype.btnTouchStart = function () {
         if (!constants_1.Constants.isCanClick || constants_1.Constants.isChooseRevenge)
             return;
+        // this.handleIronSourcePlaySound();
         this.AudioManager.playSound(constants_1.Constants.SoundTrack.clickSound);
         this.NodesContainer.buttons.active = false;
         this.NodesContainer.scene1.active = false;
         this.NodesContainer.GamePlay.getComponent(cc.Animation).play("GamePlay_ShowScene3");
-        this.scheduleOnce(function () { constants_1.Constants.isChooseRevenge = true; }, 2);
+        this.NodesContainer.logo.getComponent(cc.Sprite).enabled = false;
+        this.NodesContainer.icon.getComponent(cc.Sprite).enabled = false;
+        this.scheduleOnce(function () {
+            constants_1.Constants.isChooseRevenge = true;
+        }, 2);
     };
     TouchAreaController.prototype.btnDressTouchStart = function () {
         var _this = this;
@@ -85,9 +95,9 @@ var TouchAreaController = /** @class */ (function (_super) {
             return;
         }
         if (constants_1.Constants.ironSource.SoundState) {
+            constants_1.Constants.ironSource.isPlayBgSound = true;
             this.AudioManager.playSound(constants_1.Constants.SoundTrack.bgSound);
         }
-        constants_1.Constants.ironSource.isPlayBgSound = true;
     };
     TouchAreaController.prototype.handleMuteSoundIronSource = function () {
         constants_1.Constants.ironSource.State = parseInt(localStorage.getItem("cocosSoundState"), 10);
