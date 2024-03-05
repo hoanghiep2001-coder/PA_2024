@@ -45,7 +45,9 @@ var GamePlay = /** @class */ (function (_super) {
     };
     GamePlay.prototype.start = function () {
         this.handleGamePlay();
-        this.NodeContainer.Tweezers.active = false;
+        this.NodeContainer.Tweezers.opacity = 0;
+        this.NodeContainer.Circle_1.active = false;
+        this.NodeContainer.Circle_2.active = false;
     };
     GamePlay.prototype.handleGamePlay = function () {
         var _this = this;
@@ -53,29 +55,47 @@ var GamePlay = /** @class */ (function (_super) {
         this.AudioManager.playSound(constants_1.Constants.SoundTrack.dirtySound);
         this.scheduleOnce(function () { _this.AudioManager.playSound(constants_1.Constants.SoundTrack.girlScreamSound); }, 0.5);
         this.scheduleOnce(function () { _this.getComponent(cc.Animation).play("GamePlay_SwtichStep"); }, 2);
-        this.scheduleOnce(function () { _this.AudioManager.playSound(constants_1.Constants.SoundTrack.wormBgSound); constants_1.Constants.isCanTouch = true; }, 3);
+        this.scheduleOnce(function () { _this.AudioManager.playSound(constants_1.Constants.SoundTrack.wormBgSound); }, 3);
         this.scheduleOnce(function () { _this.AudioManager.playSound(constants_1.Constants.SoundTrack.moveItemSound); }, 4.3);
-        this.scheduleOnce(function () { _this.AudioManager.playSound(constants_1.Constants.SoundTrack.xitNuocSound); }, 5.8);
+        this.scheduleOnce(function () { _this.AudioManager.playSound(constants_1.Constants.SoundTrack.xitNuocSound); constants_1.Constants.isCanTouch = true; }, 5.8);
         this.scheduleOnce(function () {
-            // this.NodeContainer.Hand_1.active = true; 
             constants_1.Constants.isRotate
                 ? _this.NodeContainer.Hand_1.getComponent(cc.Animation).play("Hand_HrzHintAnim")
                 : _this.NodeContainer.Hand_1.getComponent(cc.Animation).play("Hand_VtcHintAnim");
         }, 7);
     };
+    GamePlay.prototype.activeCleanSound = function () {
+        this.AudioManager.playSound(constants_1.Constants.SoundTrack.cleanSound);
+        this.AudioManager.cleanSound.loop = true;
+    };
     GamePlay.prototype.handleDoneCleanser = function () {
         if (this.NodeContainer.Scratchable.getComponent("Scratchable").isWin) {
-            constants_1.Constants.isDoneCleanser = true;
             this.checkCleanserFlag = true;
-            this.NodeContainer.Cleanser.getComponent(cc.Animation).play("Cleanser_HideAnim");
             this.NodeContainer.Scratchable.active = false;
             this.NodeContainer.Cleanser_Point.active = false;
+            this.AudioManager.playSound(constants_1.Constants.SoundTrack.completeSound);
+            this.NodeContainer.Cleanser.getComponent(cc.Animation).play("Cleanser_HideAnim");
             this.NodeContainer.Star_1.getComponent(cc.Animation).play("Star_BlinkAnim");
+            this.AudioManager.stopSound(constants_1.Constants.SoundTrack.cleanSound);
+            this.AudioManager.cleanSound.loop = false;
         }
     };
     GamePlay.prototype.showTweezers = function () {
-        console.log("tweezers");
+        var _this = this;
         this.checkshowTweezersFlag = true;
+        this.scheduleOnce(function () {
+            constants_1.Constants.isDoneCleanser = true;
+            _this.NodeContainer.Circle_1.active = true;
+            _this.NodeContainer.Circle_2.active = true;
+            _this.NodeContainer.Tweezers.getComponent(cc.Animation).play("Tweezers_ShowAnim");
+            _this.scheduleOnce(function () { _this.AudioManager.playSound(constants_1.Constants.SoundTrack.moveItemSound); }, 0.2);
+            _this.scheduleOnce(function () {
+                _this.NodeContainer.Hand_2.active = true;
+                constants_1.Constants.isRotate
+                    ? _this.NodeContainer.Hand_2.getComponent(cc.Animation).play("Hand_HrzHintAnim")
+                    : _this.NodeContainer.Hand_2.getComponent(cc.Animation).play("Hand_VtcHintAnim");
+            }, 1.5);
+        }, 1.5);
     };
     GamePlay.prototype.handleCheckRemoveMaggots = function () {
         var tweezersBdx = this.NodeContainer.Tweezers_HeadPoint.getBoundingBox();
@@ -90,32 +110,46 @@ var GamePlay = /** @class */ (function (_super) {
     };
     GamePlay.prototype.handleRemoveMaggot = function (maggotName) {
         var _this = this;
+        this.NodeContainer.Tweezers.opacity = 0;
+        this.NodeContainer.Circle_1.active = false;
+        this.NodeContainer.Circle_2.active = false;
         this.isRemovingMaggot = true;
         switch (maggotName) {
             case "Tws_InteractPoint1":
                 constants_1.Constants.maggotRemoved += 1;
                 this.NodeContainer.Spine_Maggot1.setAnimation(0, "idle01", false);
                 this.NodeContainer.Spine_RMMG1.node.active = true;
-                this.NodeContainer.Circle_1.active = false;
-                this.scheduleOnce(function () { _this.NodeContainer.Spine_Maggot1.node.active = false; }, 1.2);
+                this.NodeContainer.Circle_1.opacity = 0;
+                this.scheduleOnce(function () { _this.NodeContainer.Spine_Maggot1.node.active = false; }, 0.75);
+                this.activeRemoveMaggotSound();
                 this.setCompleteSpine(this.NodeContainer.Spine_RMMG1);
                 break;
             case "Tws_InteractPoint2":
                 constants_1.Constants.maggotRemoved += 1;
                 this.NodeContainer.Spine_Maggot2.setAnimation(0, "idle01", false);
                 this.NodeContainer.Spine_RMMG2.node.active = true;
-                this.NodeContainer.Circle_2.active = false;
-                this.scheduleOnce(function () { _this.NodeContainer.Spine_Maggot2.node.active = false; }, 1.2);
+                this.NodeContainer.Circle_2.opacity = 0;
+                this.scheduleOnce(function () { _this.NodeContainer.Spine_Maggot2.node.active = false; }, 0.75);
+                this.activeRemoveMaggotSound();
                 this.setCompleteSpine(this.NodeContainer.Spine_RMMG2);
                 break;
             default:
                 break;
         }
     };
+    GamePlay.prototype.activeRemoveMaggotSound = function () {
+        var _this = this;
+        this.scheduleOnce(function () { _this.AudioManager.playSound(constants_1.Constants.SoundTrack.nhoMun1Sound); }, 0.75);
+        this.scheduleOnce(function () { _this.AudioManager.playSound(constants_1.Constants.SoundTrack.nhoMun2Sound); }, 1.5);
+        this.scheduleOnce(function () { _this.AudioManager.playSound(constants_1.Constants.SoundTrack.nhoMun2Sound); }, 2.2);
+        this.scheduleOnce(function () { _this.AudioManager.playSound(constants_1.Constants.SoundTrack.nhoMun2Sound); }, 2.8);
+        this.scheduleOnce(function () { _this.AudioManager.playSound(constants_1.Constants.SoundTrack.nhoMun3Sound); }, 4);
+    };
     GamePlay.prototype.setCompleteSpine = function (spine) {
         var _this = this;
         spine.setCompleteListener(function (trackEntry) {
             if (trackEntry.animation.name === "Action") {
+                _this.AudioManager.playSound(constants_1.Constants.SoundTrack.completeSound);
                 _this.showTweezers();
             }
         });

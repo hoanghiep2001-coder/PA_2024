@@ -28,6 +28,7 @@ var constants_1 = require("../Data/constants");
 var AudioManager_1 = require("../Plugin/AudioManager");
 var GameController_1 = require("./GameController");
 var GamePlay_1 = require("./GamePlay");
+var IronSource_1 = require("./IronSource");
 var NodeContanier_1 = require("./NodeContanier");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var TouchAreaController = /** @class */ (function (_super) {
@@ -35,6 +36,7 @@ var TouchAreaController = /** @class */ (function (_super) {
     function TouchAreaController() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         // Component
+        _this.IronSource = null;
         _this.NodeContainer = null;
         _this.AudioManager = null;
         _this.GameController = null;
@@ -57,12 +59,23 @@ var TouchAreaController = /** @class */ (function (_super) {
         this.NodeContainer.Tweezers_Point.on(cc.Node.EventType.TOUCH_MOVE, this.touchMove, this);
         this.NodeContainer.Tweezers_Point.on(cc.Node.EventType.TOUCH_END, this.touchEnd, this);
         this.NodeContainer.Tweezers_Point.on(cc.Node.EventType.TOUCH_CANCEL, this.touchEnd, this);
+        this.NodeContainer.HideMask.on(cc.Node.EventType.TOUCH_START, this.hideMaskTouchStart, this);
+    };
+    TouchAreaController.prototype.hideMaskTouchStart = function () {
+        // mtg & applovin
+        // Constants.maggotRemoved >= 1 && this.GameController.installHandle();
+        // ironsource
+        this.IronSource.handleIronSourcePlaySound();
     };
     TouchAreaController.prototype.touchStart = function (e) {
         if (!constants_1.Constants.isCanTouch)
             return;
         if (!constants_1.Constants.isDoneCleanser)
             this.isTouch = true;
+        // ironsource
+        this.IronSource.handleIronSourcePlaySound();
+        if (!constants_1.Constants.isDoneCleanser)
+            this.GamePlay.activeCleanSound();
         constants_1.Constants.maggotRemoved >= 1 && this.GameController.installHandle();
         this.NodeContainer.Hand_1.active = false;
         this.NodeContainer.Hand_2.active = false;
@@ -75,43 +88,31 @@ var TouchAreaController = /** @class */ (function (_super) {
         !constants_1.Constants.isDoneCleanser && this.moveCleanser(posConverted, pos);
         constants_1.Constants.isDoneCleanser && this.moveTweezers(posConverted, pos);
     };
-    TouchAreaController.prototype.touchEnd = function () {
+    TouchAreaController.prototype.touchEnd = function (e) {
         this.isTouch = false;
+        var pos = e.getLocation();
+        this.NodeContainer.Cleanser_Point.x = (pos.x - cc.winSize.width / 2) - constants_1.Constants.Responsive.calculatedX;
+        this.NodeContainer.Cleanser_Point.y = (pos.y - cc.winSize.height / 2) - constants_1.Constants.Responsive.calculatedY;
+        this.NodeContainer.Tweezers_Point.x = (pos.x - cc.winSize.width / 2) - constants_1.Constants.Responsive.calculatedX;
+        this.NodeContainer.Tweezers_Point.y = (pos.y - cc.winSize.height / 2) - constants_1.Constants.Responsive.calculatedY;
+        this.AudioManager.stopSound(constants_1.Constants.SoundTrack.cleanSound);
+        this.AudioManager.cleanSound.loop = false;
     };
     TouchAreaController.prototype.moveCleanser = function (posConverted, pos) {
         this.NodeContainer.Cleanser_Point.setPosition(posConverted);
-        this.NodeContainer.Spine_Cleanser.node.x = (pos.x - cc.winSize.width / 2) - 60;
-        this.NodeContainer.Spine_Cleanser.node.y = (pos.y - cc.winSize.height / 2) - 80;
+        this.NodeContainer.Spine_Cleanser.node.x = (pos.x - cc.winSize.width / 2) - 60 - constants_1.Constants.Responsive.calculatedX;
+        this.NodeContainer.Spine_Cleanser.node.y = (pos.y - cc.winSize.height / 2) - 80 - constants_1.Constants.Responsive.calculatedY;
     };
     TouchAreaController.prototype.moveTweezers = function (posConverted, pos) {
         this.NodeContainer.Tweezers_Point.setPosition(posConverted);
-        this.NodeContainer.Spine_Tweezers.node.x = (pos.x - cc.winSize.width / 2) - 60;
-        this.NodeContainer.Spine_Tweezers.node.y = (pos.y - cc.winSize.height / 2) - 100;
-        this.NodeContainer.Tweezers_HeadPoint.x = (pos.x - cc.winSize.width / 2) - 45;
-        this.NodeContainer.Tweezers_HeadPoint.y = (pos.y - cc.winSize.height / 2) - 85;
+        this.NodeContainer.Spine_Tweezers.node.x = (pos.x - cc.winSize.width / 2) - 60 - constants_1.Constants.Responsive.calculatedX;
+        this.NodeContainer.Spine_Tweezers.node.y = (pos.y - cc.winSize.height / 2) - 100 - constants_1.Constants.Responsive.calculatedY;
+        this.NodeContainer.Tweezers_HeadPoint.x = (pos.x - cc.winSize.width / 2) - 45 - constants_1.Constants.Responsive.calculatedX;
+        this.NodeContainer.Tweezers_HeadPoint.y = (pos.y - cc.winSize.height / 2) - 85 - constants_1.Constants.Responsive.calculatedY;
     };
-    TouchAreaController.prototype.handleIronSourcePlaySound = function () {
-        if (constants_1.Constants.ironSource.isPlayBgSound) {
-            return;
-        }
-        if (constants_1.Constants.ironSource.SoundState) {
-            this.AudioManager.playSound(constants_1.Constants.SoundTrack.bgSound);
-        }
-        constants_1.Constants.ironSource.isPlayBgSound = true;
-    };
-    TouchAreaController.prototype.handleMuteSoundIronSource = function () {
-        constants_1.Constants.ironSource.State = parseInt(localStorage.getItem("cocosSoundState"), 10);
-        if (constants_1.Constants.ironSource.State) {
-            if (constants_1.Constants.ironSource.State === 1 && !constants_1.Constants.ironSource.SoundState && !constants_1.Constants.ironSource.isEndGame) {
-                constants_1.Constants.ironSource.SoundState = true;
-                this.AudioManager.playSound(constants_1.Constants.SoundTrack.bgSound);
-            }
-            if (constants_1.Constants.ironSource.State === 2 && constants_1.Constants.ironSource.SoundState) {
-                constants_1.Constants.ironSource.SoundState = false;
-                this.AudioManager.stopAllSound();
-            }
-        }
-    };
+    __decorate([
+        property(IronSource_1.default)
+    ], TouchAreaController.prototype, "IronSource", void 0);
     __decorate([
         property(NodeContanier_1.default)
     ], TouchAreaController.prototype, "NodeContainer", void 0);

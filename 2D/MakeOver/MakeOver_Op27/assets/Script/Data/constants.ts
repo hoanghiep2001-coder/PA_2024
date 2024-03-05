@@ -38,7 +38,8 @@ enum SoundTrack {
     woaAnimeSound = "woaAnimeSound",
     girlScreamSound = "girlScreamSound",
     dirtySound = "dirtySound",
-    wormBgSound = "wormBgSound"
+    wormBgSound = "wormBgSound",
+    cleanSound = "cleanSound"
 }
 
 

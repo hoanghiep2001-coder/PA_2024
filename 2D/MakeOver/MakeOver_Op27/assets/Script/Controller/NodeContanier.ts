@@ -12,9 +12,24 @@ export default class NodeContainer extends cc.Component {
     Scratchable: cc.Node = null;
 
     @property(cc.Node)
+    HideMask: cc.Node = null;
+    @property(cc.Node)
     Bg_1: cc.Node = null;
     @property(cc.Node)
+    Bg_1_1: cc.Node = null;
+    @property(cc.Node)
+    Bg_1_2: cc.Node = null;
+    @property(cc.Node)
     Bg_2: cc.Node = null;
+    @property(cc.Node)
+    Bg_2_1: cc.Node = null;
+    @property(cc.Node)
+    Bg_2_2: cc.Node = null;
+
+    @property(cc.Node)
+    Step1_Ponny: cc.Node = null;
+    @property(cc.Node)
+    Step2_Ponny: cc.Node = null;
 
     @property(cc.Node)
     Hand_1: cc.Node = null;

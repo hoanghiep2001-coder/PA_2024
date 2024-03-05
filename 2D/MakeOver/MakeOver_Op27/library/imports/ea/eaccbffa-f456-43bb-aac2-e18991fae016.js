@@ -40,6 +40,7 @@ var SoundTrack;
     SoundTrack["girlScreamSound"] = "girlScreamSound";
     SoundTrack["dirtySound"] = "dirtySound";
     SoundTrack["wormBgSound"] = "wormBgSound";
+    SoundTrack["cleanSound"] = "cleanSound";
 })(SoundTrack || (SoundTrack = {}));
 var Constants = /** @class */ (function () {
     function Constants() {

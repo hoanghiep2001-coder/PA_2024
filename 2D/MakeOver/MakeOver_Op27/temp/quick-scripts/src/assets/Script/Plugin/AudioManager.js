@@ -42,16 +42,21 @@ var AudioManager = /** @class */ (function (_super) {
         _this.girlScreamSound = null;
         _this.dirtySound = null;
         _this.wormBgSound = null;
+        _this.cleanSound = null;
         return _this;
     }
     AudioManager.prototype.playSound = function (soundName) {
-        if (constants_1.Constants.ironSource.SoundState) {
+        // ironsource
+        if (constants_1.Constants.ironSource.SoundState && constants_1.Constants.ironSource.isPlayBgSound) {
             switch (soundName) {
                 case "bgSound":
                     this.bgSound.play();
                     break;
                 case "wormBgSound":
                     this.wormBgSound.play();
+                    break;
+                case "cleanSound":
+                    this.cleanSound.play();
                     break;
                 case "xitNuocSound":
                     this.xitNuocSound.play();
@@ -87,6 +92,51 @@ var AudioManager = /** @class */ (function (_super) {
                     break;
             }
         }
+        // if (Constants.ironSource.SoundState) {
+        //     switch (soundName) {
+        //         case "bgSound":
+        //             this.bgSound.play();
+        //             break;
+        //         case "wormBgSound":
+        //             this.wormBgSound.play();
+        //             break;
+        //             case "cleanSound":
+        //                 this.cleanSound.play();
+        //                 break;
+        //         case "xitNuocSound":
+        //             this.xitNuocSound.play();
+        //             break;
+        //         case "nhoMun1Sound":
+        //             this.nhoMun1Sound.play();
+        //             break;
+        //         case "nhoMun2Sound":
+        //             this.nhoMun2Sound.play();
+        //             break;
+        //         case "nhoMun3Sound":
+        //             this.nhoMun3Sound.play();
+        //             break;
+        //         case "completeSound":
+        //             this.completeSound.play();
+        //             break;
+        //         case "conClearSound":
+        //             this.conClearSound.play();
+        //             break;
+        //         case "moveItemSound":
+        //             this.moveItemSound.play();
+        //             break;
+        //         case "woaAnimeSound":
+        //             this.woaAnimeSound.play();
+        //             break;
+        //         case "girlScreamSound":
+        //             this.girlScreamSound.play();
+        //             break;
+        //         case "dirtySound":
+        //             this.dirtySound.play();
+        //             break;
+        //         default:
+        //             break;
+        //     }
+        // }
     };
     AudioManager.prototype.stopSound = function (soundName) {
         switch (soundName) {
@@ -95,6 +145,9 @@ var AudioManager = /** @class */ (function (_super) {
                 break;
             case "wormBgSound":
                 this.wormBgSound.stop();
+                break;
+            case "cleanSound":
+                this.cleanSound.stop();
                 break;
             case "xitNuocSound":
                 this.xitNuocSound.stop();
@@ -134,6 +187,7 @@ var AudioManager = /** @class */ (function (_super) {
         this.bgSound.stop();
         this.wormBgSound.stop();
         this.xitNuocSound.stop();
+        this.cleanSound.stop();
         this.nhoMun1Sound.stop();
         this.nhoMun2Sound.stop();
         this.nhoMun3Sound.stop();
@@ -180,6 +234,9 @@ var AudioManager = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioSource)
     ], AudioManager.prototype, "wormBgSound", void 0);
+    __decorate([
+        property(cc.AudioSource)
+    ], AudioManager.prototype, "cleanSound", void 0);
     AudioManager = __decorate([
         ccclass
     ], AudioManager);

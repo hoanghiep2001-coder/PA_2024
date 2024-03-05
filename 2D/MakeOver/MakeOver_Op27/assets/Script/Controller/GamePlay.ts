@@ -29,7 +29,9 @@ export default class GamePlay extends cc.Component {
 
   protected start(): void {
     this.handleGamePlay();
-    this.NodeContainer.Tweezers.active = false;
+    this.NodeContainer.Tweezers.opacity = 0;
+    this.NodeContainer.Circle_1.active = false;
+    this.NodeContainer.Circle_2.active = false;
   }
 
 
@@ -39,11 +41,10 @@ export default class GamePlay extends cc.Component {
 
     this.scheduleOnce(() => {this.AudioManager.playSound(Constants.SoundTrack.girlScreamSound)}, 0.5);
     this.scheduleOnce(() => {this.getComponent(cc.Animation).play("GamePlay_SwtichStep")}, 2);
-    this.scheduleOnce(() => {this.AudioManager.playSound(Constants.SoundTrack.wormBgSound); Constants.isCanTouch = true}, 3);
+    this.scheduleOnce(() => {this.AudioManager.playSound(Constants.SoundTrack.wormBgSound)}, 3);
     this.scheduleOnce(() => {this.AudioManager.playSound(Constants.SoundTrack.moveItemSound); }, 4.3);
-    this.scheduleOnce(() => {this.AudioManager.playSound(Constants.SoundTrack.xitNuocSound); }, 5.8);
+    this.scheduleOnce(() => {this.AudioManager.playSound(Constants.SoundTrack.xitNuocSound); Constants.isCanTouch = true }, 5.8);
     this.scheduleOnce(() => {
-      // this.NodeContainer.Hand_1.active = true; 
       Constants.isRotate 
       ? this.NodeContainer.Hand_1.getComponent(cc.Animation).play("Hand_HrzHintAnim")
       : this.NodeContainer.Hand_1.getComponent(cc.Animation).play("Hand_VtcHintAnim");
@@ -51,21 +52,41 @@ export default class GamePlay extends cc.Component {
   }
 
 
+  public activeCleanSound(): void {
+    this.AudioManager.playSound(Constants.SoundTrack.cleanSound);
+    this.AudioManager.cleanSound.loop = true;
+  }
+
+
   public handleDoneCleanser(): void {
     if(this.NodeContainer.Scratchable.getComponent("Scratchable").isWin) {
-      Constants.isDoneCleanser = true;
       this.checkCleanserFlag = true;
-      this.NodeContainer.Cleanser.getComponent(cc.Animation).play("Cleanser_HideAnim")
       this.NodeContainer.Scratchable.active = false;
       this.NodeContainer.Cleanser_Point.active = false;
+      this.AudioManager.playSound(Constants.SoundTrack.completeSound);
+      this.NodeContainer.Cleanser.getComponent(cc.Animation).play("Cleanser_HideAnim");
       this.NodeContainer.Star_1.getComponent(cc.Animation).play("Star_BlinkAnim");
+      this.AudioManager.stopSound(Constants.SoundTrack.cleanSound)
+      this.AudioManager.cleanSound.loop = false;
     } 
   }
 
 
   private showTweezers(): void {
-    console.log("tweezers");
     this.checkshowTweezersFlag = true;
+    this.scheduleOnce(() => {
+      Constants.isDoneCleanser = true;
+      this.NodeContainer.Circle_1.active = true;
+      this.NodeContainer.Circle_2.active = true;
+      this.NodeContainer.Tweezers.getComponent(cc.Animation).play("Tweezers_ShowAnim");
+      this.scheduleOnce(() => {this.AudioManager.playSound(Constants.SoundTrack.moveItemSound)}, 0.2);
+      this.scheduleOnce(() => {
+        this.NodeContainer.Hand_2.active = true;
+        Constants.isRotate 
+        ? this.NodeContainer.Hand_2.getComponent(cc.Animation).play("Hand_HrzHintAnim")
+        : this.NodeContainer.Hand_2.getComponent(cc.Animation).play("Hand_VtcHintAnim");
+      }, 1.5);
+    }, 1.5)
   }
 
 
@@ -83,22 +104,27 @@ export default class GamePlay extends cc.Component {
 
 
   public handleRemoveMaggot(maggotName: string): void {
+    this.NodeContainer.Tweezers.opacity = 0;
+    this.NodeContainer.Circle_1.active = false;
+    this.NodeContainer.Circle_2.active = false;
     this.isRemovingMaggot = true;
     switch (maggotName) {
       case "Tws_InteractPoint1":
           Constants.maggotRemoved += 1;
           this.NodeContainer.Spine_Maggot1.setAnimation(0, "idle01", false);
           this.NodeContainer.Spine_RMMG1.node.active = true;
-          this.NodeContainer.Circle_1.active = false;
-          this.scheduleOnce(() => { this.NodeContainer.Spine_Maggot1.node.active = false}, 1.2);
+          this.NodeContainer.Circle_1.opacity = 0;
+          this.scheduleOnce(() => { this.NodeContainer.Spine_Maggot1.node.active = false}, 0.75);
+          this.activeRemoveMaggotSound();
           this.setCompleteSpine(this.NodeContainer.Spine_RMMG1);
         break;
         case "Tws_InteractPoint2":
           Constants.maggotRemoved += 1;
           this.NodeContainer.Spine_Maggot2.setAnimation(0, "idle01", false);
           this.NodeContainer.Spine_RMMG2.node.active = true;
-          this.NodeContainer.Circle_2.active = false;
-          this.scheduleOnce(() => { this.NodeContainer.Spine_Maggot2.node.active = false}, 1.2);
+          this.NodeContainer.Circle_2.opacity = 0;
+          this.scheduleOnce(() => { this.NodeContainer.Spine_Maggot2.node.active = false}, 0.75);
+          this.activeRemoveMaggotSound();
           this.setCompleteSpine(this.NodeContainer.Spine_RMMG2);
         break;
       default:
@@ -107,9 +133,19 @@ export default class GamePlay extends cc.Component {
   }
 
 
+  private activeRemoveMaggotSound(): void {
+    this.scheduleOnce(() => {this.AudioManager.playSound(Constants.SoundTrack.nhoMun1Sound);}, 0.75);
+    this.scheduleOnce(() => {this.AudioManager.playSound(Constants.SoundTrack.nhoMun2Sound);}, 1.5);
+    this.scheduleOnce(() => {this.AudioManager.playSound(Constants.SoundTrack.nhoMun2Sound);}, 2.2);
+    this.scheduleOnce(() => {this.AudioManager.playSound(Constants.SoundTrack.nhoMun2Sound);}, 2.8);
+    this.scheduleOnce(() => {this.AudioManager.playSound(Constants.SoundTrack.nhoMun3Sound);}, 4);
+  }
+
+
   public setCompleteSpine(spine:sp.Skeleton): void {
     spine.setCompleteListener((trackEntry: sp.spine.TrackEntry) => {
       if(trackEntry.animation.name === "Action") {
+        this.AudioManager.playSound(Constants.SoundTrack.completeSound);
           this.showTweezers();
       }
     })

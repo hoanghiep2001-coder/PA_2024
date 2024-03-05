@@ -31,8 +31,15 @@ var NodeContainer = /** @class */ (function (_super) {
         _this.GamePlay = null;
         _this.UI = null;
         _this.Scratchable = null;
+        _this.HideMask = null;
         _this.Bg_1 = null;
+        _this.Bg_1_1 = null;
+        _this.Bg_1_2 = null;
         _this.Bg_2 = null;
+        _this.Bg_2_1 = null;
+        _this.Bg_2_2 = null;
+        _this.Step1_Ponny = null;
+        _this.Step2_Ponny = null;
         _this.Hand_1 = null;
         _this.Hand_2 = null;
         _this.Star_1 = null;
@@ -67,10 +74,31 @@ var NodeContainer = /** @class */ (function (_super) {
     ], NodeContainer.prototype, "Scratchable", void 0);
     __decorate([
         property(cc.Node)
+    ], NodeContainer.prototype, "HideMask", void 0);
+    __decorate([
+        property(cc.Node)
     ], NodeContainer.prototype, "Bg_1", void 0);
     __decorate([
         property(cc.Node)
+    ], NodeContainer.prototype, "Bg_1_1", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodeContainer.prototype, "Bg_1_2", void 0);
+    __decorate([
+        property(cc.Node)
     ], NodeContainer.prototype, "Bg_2", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodeContainer.prototype, "Bg_2_1", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodeContainer.prototype, "Bg_2_2", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodeContainer.prototype, "Step1_Ponny", void 0);
+    __decorate([
+        property(cc.Node)
+    ], NodeContainer.prototype, "Step2_Ponny", void 0);
     __decorate([
         property(cc.Node)
     ], NodeContainer.prototype, "Hand_1", void 0);

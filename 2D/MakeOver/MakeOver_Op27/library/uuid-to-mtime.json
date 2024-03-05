@@ -1,7 +1,7 @@
 {
   "a45fea2f-f433-41ba-a62b-3b7bb6ff1c18": {
-    "asset": 1709546051665,
-    "meta": 1709546051689,
+    "asset": 1709613994363,
+    "meta": 1709613994375,
     "relativePath": "game.fire"
   },
   "abfac626-0edb-48ee-8008-8433bd5fe577": {
@@ -855,19 +855,14 @@
     "relativePath": "model\\primitives.fbx"
   },
   "c9ac1d1d-9781-448e-86fd-15e8df8fe897": {
-    "asset": 1709545851565,
-    "meta": 1709545851583,
+    "asset": 1709608275936,
+    "meta": 1709608275945,
     "relativePath": "Animation\\GamePlay_SwtichStep.anim"
   },
   "c3ce6a93-1ca9-4d38-bdba-a30b03003a6b": {
     "asset": 1681376807188,
     "meta": 1709535884716,
     "relativePath": "Sound\\sfx_surgicaltweezers2.mp3"
-  },
-  "4c7cff6b-0d22-4bdf-a709-b73d655337bf": {
-    "asset": 1709535946240,
-    "meta": 1709535960540,
-    "relativePath": "Script\\Plugin\\AudioManager.ts"
   },
   "cd1797eb-492e-48e9-aaba-5b5e91e65bfd": {
     "asset": 1681088918000,
@@ -939,29 +934,74 @@
     "meta": 1709540763176,
     "relativePath": "Animation\\Circle_RoundAnim.anim"
   },
+  "f95d60d5-3b7c-44a5-b3c7-9280ff115aa9": {
+    "asset": 1709604185749,
+    "meta": 1709604185764,
+    "relativePath": "Animation\\Tweezers_ShowAnim.anim"
+  },
+  "7889aca8-91f2-4110-82c7-afa10e4d2690": {
+    "asset": 1680768368862,
+    "meta": 1709605654627,
+    "relativePath": "Sound\\sfx_facewashsponge.mp3"
+  },
   "eaccbffa-f456-43bb-aac2-e18991fae016": {
-    "asset": 1709544070711,
-    "meta": 1709544076719,
+    "asset": 1709605695215,
+    "meta": 1709605698576,
     "relativePath": "Script\\Data\\constants.ts"
   },
-  "69c3bb1b-ddc8-4f9a-b741-fb88f7e81db9": {
-    "asset": 1709544744902,
-    "meta": 1709544745758,
-    "relativePath": "Script\\Controller\\NodeContanier.ts"
+  "554f5ac5-4795-4c18-b4e9-0da45f3a86a6": {
+    "asset": 1709607875406,
+    "meta": 1709607875420,
+    "relativePath": "Animation\\Hand_HrzHintAnim.anim"
   },
   "d3aba5b0-1108-408b-961f-e3017d559c4d": {
-    "asset": 1709545158279,
-    "meta": 1709545159851,
+    "asset": 1709609247403,
+    "meta": 1709609248427,
     "relativePath": "Script\\Plugin\\Responsive.ts"
   },
-  "857115f6-9480-463c-83e3-6895c5498684": {
-    "asset": 1709545296049,
-    "meta": 1709545314524,
-    "relativePath": "Script\\Controller\\TouchAreaController.ts"
+  "f2a7f16f-b99e-4416-b421-ef89df754671": {
+    "asset": 1709611106500,
+    "meta": 1709611106501,
+    "relativePath": "Spine\\op28"
+  },
+  "04ffedbb-2f02-4934-814d-92b4672c6539": {
+    "asset": 1681093385052,
+    "meta": 1709611106511,
+    "relativePath": "Spine\\op28\\Acnes.atlas.txt"
+  },
+  "1bba05cc-5c18-45d1-a8c3-a8e5128cb819": {
+    "asset": 1681093385051,
+    "meta": 1709611106572,
+    "relativePath": "Spine\\op28\\Acnes.png"
+  },
+  "bd1d693a-44b5-433e-998e-6888a86ee743": {
+    "asset": 1681093384320,
+    "meta": 1709611106579,
+    "relativePath": "Spine\\op28\\Acnes.json"
+  },
+  "69c3bb1b-ddc8-4f9a-b741-fb88f7e81db9": {
+    "asset": 1709613035187,
+    "meta": 1709613042635,
+    "relativePath": "Script\\Controller\\NodeContanier.ts"
   },
   "b1d34b2b-3f5e-4936-8c6d-cce0ad434a19": {
-    "asset": 1709547978999,
-    "meta": 1709547986246,
+    "asset": 1709613900476,
+    "meta": 1709613959487,
     "relativePath": "Script\\Controller\\GamePlay.ts"
+  },
+  "49c0a9e0-f130-435a-a0af-8d71b55ca0e2": {
+    "asset": 1709613632467,
+    "meta": 1709613959499,
+    "relativePath": "Script\\Controller\\IronSource.ts"
+  },
+  "857115f6-9480-463c-83e3-6895c5498684": {
+    "asset": 1709613824771,
+    "meta": 1709613959525,
+    "relativePath": "Script\\Controller\\TouchAreaController.ts"
+  },
+  "4c7cff6b-0d22-4bdf-a709-b73d655337bf": {
+    "asset": 1709613945866,
+    "meta": 1709613959546,
+    "relativePath": "Script\\Plugin\\AudioManager.ts"
   }
 }

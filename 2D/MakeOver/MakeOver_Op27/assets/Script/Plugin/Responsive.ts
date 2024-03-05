@@ -1,4 +1,5 @@
 import GamePlay from "../Controller/GamePlay";
+import NodeContainer from "../Controller/NodeContanier";
 import { Constants } from "../Data/constants";
 
 
@@ -7,8 +8,8 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class Responsive extends cc.Component {
 
-    @property(GamePlay)
-    GamePlay: GamePlay = null;
+    @property(NodeContainer)
+    NodeContainer: NodeContainer = null;
 
 
     // state
@@ -42,8 +43,10 @@ export default class Responsive extends cc.Component {
     private setHorizontal(): void {
         if (cc.view.getFrameSize().height / cc.view.getFrameSize().width < 0.65) {
             // Iphone 6 / 6 plus / 7 / 7 Plus / X
+            // Constants.isRotate = true;
             this.setHorizontalForIpX();
         } else {
+            // Constants.isRotate = true;
             this.setHorizontalForTablet();
         }
     }
@@ -54,6 +57,36 @@ export default class Responsive extends cc.Component {
         }
 
         this.device = this.HORIZONTAL_IPX;
+
+        this.NodeContainer.Bg_1.scale = 0.8;
+        // this.NodeContainer.Bg_1_1.scale = 0.8;
+        // this.NodeContainer.Bg_1_2.scale = 0.8;
+        this.NodeContainer.Bg_2.scale = 0.45;
+        this.NodeContainer.Bg_2.y = 45;
+        this.NodeContainer.Bg_2.x = -45;
+        this.NodeContainer.Bg_2_1.scale = 0.45;
+        this.NodeContainer.Bg_2_1.y = 45;
+        this.NodeContainer.Bg_2_1.x = 600;
+        this.NodeContainer.Bg_2_2.scale = 0.45;
+        this.NodeContainer.Bg_2_2.y = 45;
+        this.NodeContainer.Bg_2_2.x = -670;
+
+        this.NodeContainer.Cleanser.x = 155;
+        this.NodeContainer.Cleanser.y = 250;
+        this.NodeContainer.Tweezers.x = 155;
+        this.NodeContainer.Tweezers.y = 250;
+
+        this.NodeContainer.Tweezers_InteractPoint1.x = -39 - 155;
+        this.NodeContainer.Tweezers_InteractPoint1.y = 73.5 - 250 - 30;
+        this.NodeContainer.Tweezers_InteractPoint2.x = -8 - 155;
+        this.NodeContainer.Tweezers_InteractPoint2.y = 128.5 - 250 - 30;
+        Constants.Responsive.calculatedX = 155;
+        Constants.Responsive.calculatedY = 250;
+
+        this.NodeContainer.Step1_Ponny.scale = 0.88;
+        this.NodeContainer.Step1_Ponny.y = -210;
+        
+        this.NodeContainer.Step2_Ponny.y = -30;
  
     }
 
@@ -63,7 +96,28 @@ export default class Responsive extends cc.Component {
         }
 
         this.device = this.HORIZONTAL_TABLET;
-    
+
+        this.NodeContainer.Bg_1.scale = 0.8;
+        this.NodeContainer.Bg_2.scale = 0.4;
+        this.NodeContainer.Bg_2.y = 45;
+        this.NodeContainer.Bg_2.x = -45;
+
+        this.NodeContainer.Cleanser.x = 155;
+        this.NodeContainer.Cleanser.y = 310;
+        this.NodeContainer.Tweezers.x = 155;
+        this.NodeContainer.Tweezers.y = 310;
+
+        this.NodeContainer.Tweezers_InteractPoint1.x = -39 - 155;
+        this.NodeContainer.Tweezers_InteractPoint1.y = 73.5 - 310 - 30;
+        this.NodeContainer.Tweezers_InteractPoint2.x = -8 - 155;
+        this.NodeContainer.Tweezers_InteractPoint2.y = 128.5 - 310 - 30;
+        Constants.Responsive.calculatedX = 155;
+        Constants.Responsive.calculatedY = 310;
+
+        this.NodeContainer.Step1_Ponny.scale = 0.85;
+        this.NodeContainer.Step1_Ponny.y = -210;
+        
+        this.NodeContainer.Step2_Ponny.y = -30;
     }
 
     private setVertical(): void {
@@ -81,6 +135,15 @@ export default class Responsive extends cc.Component {
 
         this.device = this.VERTICAL_IPX;
 
+        this.NodeContainer.Bg_1.scale = 0.55;
+        this.NodeContainer.Bg_2.scale = 0.48;
+        this.NodeContainer.Bg_2.y = 45;
+        this.NodeContainer.Bg_2.x = -45;
+
+        this.NodeContainer.Cleanser.x = 0;
+        this.NodeContainer.Cleanser.y = 0;
+        this.NodeContainer.Tweezers.x = 0;
+        this.NodeContainer.Tweezers.y = 0;
     }
 
     private setMobile(): void {
@@ -99,9 +162,42 @@ export default class Responsive extends cc.Component {
             // }
 
             // Iphone 6 / 6 Plus / 7 / 7 Plus   
-   
+            this.NodeContainer.Bg_1.scale = 0.45;
+            this.NodeContainer.Bg_2.scale = 0.4;
+            this.NodeContainer.Bg_2.y = 45;
+            this.NodeContainer.Bg_2.x = -45;
+
+            this.NodeContainer.Cleanser.x = 0;
+            this.NodeContainer.Cleanser.y = 0;
+            this.NodeContainer.Tweezers.x = 0;
+            this.NodeContainer.Tweezers.y = 0;
+
+            this.NodeContainer.Tweezers_InteractPoint1.x = -39;
+            this.NodeContainer.Tweezers_InteractPoint1.y = -73.5;
+            this.NodeContainer.Tweezers_InteractPoint2.x = -8;
+            this.NodeContainer.Tweezers_InteractPoint2.y = -128.5;
+            Constants.Responsive.calculatedX = 0;
+            Constants.Responsive.calculatedY = 0;
         } else {
-         
+            this.NodeContainer.Bg_1.scale = 0.5;
+            this.NodeContainer.Bg_2.scale = 0.4;
+            this.NodeContainer.Bg_2.y = 45;
+            this.NodeContainer.Bg_2.x = -45;
+
+            this.NodeContainer.Cleanser.x = 25;
+            this.NodeContainer.Cleanser.y = 25;
+            this.NodeContainer.Tweezers.x = 15;
+            this.NodeContainer.Tweezers.y = 25;
+
+            this.NodeContainer.Tweezers_InteractPoint1.x = -39 - 15;
+            this.NodeContainer.Tweezers_InteractPoint1.y = 73.5 - 25;
+            this.NodeContainer.Tweezers_InteractPoint2.x = -8 - 15;
+            this.NodeContainer.Tweezers_InteractPoint2.y = 128.5 - 25;
+            Constants.Responsive.calculatedX = 20;
+            Constants.Responsive.calculatedY = 25;
+
+            this.NodeContainer.Step1_Ponny.scale = 0.85;
+            this.NodeContainer.Step1_Ponny.y = -210;
         }
     }
 
