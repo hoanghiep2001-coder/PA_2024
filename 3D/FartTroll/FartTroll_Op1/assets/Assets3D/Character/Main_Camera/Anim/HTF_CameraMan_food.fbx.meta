@@ -1,0 +1,79 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "9bacc788-fd1b-4f84-87fb-eb2b25828bac",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "374af": {
+      "importer": "gltf-animation",
+      "uuid": "9bacc788-fd1b-4f84-87fb-eb2b25828bac@374af",
+      "displayName": "",
+      "id": "374af",
+      "name": "HTF_CameraMan_foodU.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.6666666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "b3973": {
+      "importer": "gltf-scene",
+      "uuid": "9bacc788-fd1b-4f84-87fb-eb2b25828bac@b3973",
+      "displayName": "",
+      "id": "b3973",
+      "name": "HTF_CameraMan_food.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "HTF_CameraMan_foodU",
+        "duration": 0.6666666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "HTF_CameraMan_foodU",
+            "from": 0,
+            "to": 0.6666666865348816,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "9bacc788-fd1b-4f84-87fb-eb2b25828bac@b3973",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "9bacc788-fd1b-4f84-87fb-eb2b25828bac@b3973"
+      ]
+    }
+  }
+}

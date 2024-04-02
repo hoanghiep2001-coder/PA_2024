@@ -1,0 +1,79 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "bda8ab59-89f8-49b4-8748-38f81ecff63d",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "32024": {
+      "importer": "gltf-animation",
+      "uuid": "bda8ab59-89f8-49b4-8748-38f81ecff63d@32024",
+      "displayName": "",
+      "id": "32024",
+      "name": "cat_win2.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.3333332538604736
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "7e87c": {
+      "importer": "gltf-scene",
+      "uuid": "bda8ab59-89f8-49b4-8748-38f81ecff63d@7e87c",
+      "displayName": "",
+      "id": "7e87c",
+      "name": "cat_win2.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "cat_win2",
+        "duration": 2.3333332538604736,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "cat_win2",
+            "from": 0,
+            "to": 2.3333332538604736,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "bda8ab59-89f8-49b4-8748-38f81ecff63d@7e87c",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "bda8ab59-89f8-49b4-8748-38f81ecff63d@7e87c"
+      ]
+    }
+  }
+}

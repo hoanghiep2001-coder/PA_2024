@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "68df13fc-f6ad-4533-8c29-8bf25a723e3c",
+  "files": [],
+  "subMetas": {
+    "40f09": {
+      "importer": "gltf-mesh",
+      "uuid": "68df13fc-f6ad-4533-8c29-8bf25a723e3c@40f09",
+      "displayName": "",
+      "id": "40f09",
+      "name": "Cake.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "68df13fc-f6ad-4533-8c29-8bf25a723e3c@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "68df13fc-f6ad-4533-8c29-8bf25a723e3c@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "68df13fc-f6ad-4533-8c29-8bf25a723e3c@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bc290": {
+      "importer": "gltf-material",
+      "uuid": "68df13fc-f6ad-4533-8c29-8bf25a723e3c@bc290",
+      "displayName": "",
+      "id": "bc290",
+      "name": "Texture.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5e699": {
+      "importer": "gltf-scene",
+      "uuid": "68df13fc-f6ad-4533-8c29-8bf25a723e3c@5e699",
+      "displayName": "",
+      "id": "5e699",
+      "name": "Cake.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "68df13fc-f6ad-4533-8c29-8bf25a723e3c@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "68df13fc-f6ad-4533-8c29-8bf25a723e3c@5e699",
+    "assetFinder": {
+      "meshes": [
+        "68df13fc-f6ad-4533-8c29-8bf25a723e3c@40f09"
+      ],
+      "skeletons": [],
+      "textures": [
+        "68df13fc-f6ad-4533-8c29-8bf25a723e3c@d20e9"
+      ],
+      "materials": [
+        "68df13fc-f6ad-4533-8c29-8bf25a723e3c@bc290"
+      ],
+      "scenes": [
+        "68df13fc-f6ad-4533-8c29-8bf25a723e3c@5e699"
+      ]
+    }
+  }
+}

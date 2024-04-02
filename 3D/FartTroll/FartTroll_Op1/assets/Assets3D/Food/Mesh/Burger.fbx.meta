@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "20b94d9f-3b1f-4fbf-a02e-0929b3dafacf",
+  "files": [],
+  "subMetas": {
+    "23724": {
+      "importer": "gltf-mesh",
+      "uuid": "20b94d9f-3b1f-4fbf-a02e-0929b3dafacf@23724",
+      "displayName": "",
+      "id": "23724",
+      "name": "Burger1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b838c": {
+      "importer": "gltf-embeded-image",
+      "uuid": "20b94d9f-3b1f-4fbf-a02e-0929b3dafacf@b838c",
+      "displayName": "",
+      "id": "b838c",
+      "name": "file15.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d5851": {
+      "importer": "texture",
+      "uuid": "20b94d9f-3b1f-4fbf-a02e-0929b3dafacf@d5851",
+      "displayName": "",
+      "id": "d5851",
+      "name": "file15.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "20b94d9f-3b1f-4fbf-a02e-0929b3dafacf@b838c"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "01da0": {
+      "importer": "gltf-material",
+      "uuid": "20b94d9f-3b1f-4fbf-a02e-0929b3dafacf@01da0",
+      "displayName": "",
+      "id": "01da0",
+      "name": "mtl_Burger.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "36e75": {
+      "importer": "gltf-scene",
+      "uuid": "20b94d9f-3b1f-4fbf-a02e-0929b3dafacf@36e75",
+      "displayName": "",
+      "id": "36e75",
+      "name": "Burger.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file15",
+        "uri": "20b94d9f-3b1f-4fbf-a02e-0929b3dafacf@b838c"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "20b94d9f-3b1f-4fbf-a02e-0929b3dafacf@36e75",
+    "assetFinder": {
+      "meshes": [
+        "20b94d9f-3b1f-4fbf-a02e-0929b3dafacf@23724"
+      ],
+      "skeletons": [],
+      "textures": [
+        "20b94d9f-3b1f-4fbf-a02e-0929b3dafacf@d5851"
+      ],
+      "materials": [
+        "20b94d9f-3b1f-4fbf-a02e-0929b3dafacf@01da0"
+      ],
+      "scenes": [
+        "20b94d9f-3b1f-4fbf-a02e-0929b3dafacf@36e75"
+      ]
+    }
+  }
+}

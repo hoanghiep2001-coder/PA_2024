@@ -1,0 +1,79 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "dc0d9980-e406-43e6-9c04-7063d61dce8f",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "ad3ff": {
+      "importer": "gltf-animation",
+      "uuid": "dc0d9980-e406-43e6-9c04-7063d61dce8f@ad3ff",
+      "displayName": "",
+      "id": "ad3ff",
+      "name": "HTF_CameraMan_farts.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.6666667461395264
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "01460": {
+      "importer": "gltf-scene",
+      "uuid": "dc0d9980-e406-43e6-9c04-7063d61dce8f@01460",
+      "displayName": "",
+      "id": "01460",
+      "name": "HTF_CameraMan_farts.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "HTF_CameraMan_farts",
+        "duration": 2.6666667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "HTF_CameraMan_farts",
+            "from": 0,
+            "to": 2.6666667461395264,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "dc0d9980-e406-43e6-9c04-7063d61dce8f@01460",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "dc0d9980-e406-43e6-9c04-7063d61dce8f@01460"
+      ]
+    }
+  }
+}

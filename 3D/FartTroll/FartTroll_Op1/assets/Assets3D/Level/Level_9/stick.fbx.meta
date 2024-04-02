@@ -1,0 +1,106 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c64f47ff-5c99-4b73-b5e5-4d114041c5ff",
+  "files": [],
+  "subMetas": {
+    "0c78f": {
+      "importer": "gltf-mesh",
+      "uuid": "c64f47ff-5c99-4b73-b5e5-4d114041c5ff@0c78f",
+      "displayName": "",
+      "id": "0c78f",
+      "name": "Carrot1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "c64f47ff-5c99-4b73-b5e5-4d114041c5ff@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Assets3D/Level/Level_9/Texture.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bc290": {
+      "importer": "gltf-material",
+      "uuid": "c64f47ff-5c99-4b73-b5e5-4d114041c5ff@bc290",
+      "displayName": "",
+      "id": "bc290",
+      "name": "Texture.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "15ba4": {
+      "importer": "gltf-scene",
+      "uuid": "c64f47ff-5c99-4b73-b5e5-4d114041c5ff@15ba4",
+      "displayName": "",
+      "id": "15ba4",
+      "name": "stick.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "db://assets/Assets3D/Level/Level_9/Texture.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "c64f47ff-5c99-4b73-b5e5-4d114041c5ff@15ba4",
+    "assetFinder": {
+      "meshes": [
+        "c64f47ff-5c99-4b73-b5e5-4d114041c5ff@0c78f"
+      ],
+      "skeletons": [],
+      "textures": [
+        "c64f47ff-5c99-4b73-b5e5-4d114041c5ff@d20e9"
+      ],
+      "materials": [
+        "c64f47ff-5c99-4b73-b5e5-4d114041c5ff@bc290"
+      ],
+      "scenes": [
+        "c64f47ff-5c99-4b73-b5e5-4d114041c5ff@15ba4"
+      ]
+    }
+  }
+}

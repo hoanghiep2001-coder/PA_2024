@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "75790d5d-c680-4baa-8b6b-0716f0a69053",
+  "files": [],
+  "subMetas": {
+    "92401": {
+      "importer": "texture",
+      "uuid": "75790d5d-c680-4baa-8b6b-0716f0a69053@92401",
+      "displayName": "",
+      "id": "92401",
+      "name": "PSDVictorian_TextureAtlas_01.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "75790d5d-c680-4baa-8b6b-0716f0a69053@2206a"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "77c57": {
+      "importer": "gltf-mesh",
+      "uuid": "75790d5d-c680-4baa-8b6b-0716f0a69053@77c57",
+      "displayName": "",
+      "id": "77c57",
+      "name": "Book_01_Open.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2206a": {
+      "importer": "gltf-embeded-image",
+      "uuid": "75790d5d-c680-4baa-8b6b-0716f0a69053@2206a",
+      "displayName": "",
+      "id": "2206a",
+      "name": "PSDVictorian_TextureAtlas_01.png.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3aba7": {
+      "importer": "gltf-material",
+      "uuid": "75790d5d-c680-4baa-8b6b-0716f0a69053@3aba7",
+      "displayName": "",
+      "id": "3aba7",
+      "name": "Victorian_TextureAtlas_01.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9802f": {
+      "importer": "gltf-scene",
+      "uuid": "75790d5d-c680-4baa-8b6b-0716f0a69053@9802f",
+      "displayName": "",
+      "id": "9802f",
+      "name": "book.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "PSDVictorian_TextureAtlas_01.png",
+        "uri": "75790d5d-c680-4baa-8b6b-0716f0a69053@2206a"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "75790d5d-c680-4baa-8b6b-0716f0a69053@9802f",
+    "assetFinder": {
+      "meshes": [
+        "75790d5d-c680-4baa-8b6b-0716f0a69053@77c57"
+      ],
+      "skeletons": [],
+      "textures": [
+        "75790d5d-c680-4baa-8b6b-0716f0a69053@92401"
+      ],
+      "materials": [
+        "75790d5d-c680-4baa-8b6b-0716f0a69053@3aba7"
+      ],
+      "scenes": [
+        "75790d5d-c680-4baa-8b6b-0716f0a69053@9802f"
+      ]
+    }
+  }
+}

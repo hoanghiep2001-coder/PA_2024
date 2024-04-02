@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "30be9e71-361b-4a69-9bc7-af3cc5bc923d",
+  "files": [],
+  "subMetas": {
+    "6656b": {
+      "importer": "gltf-mesh",
+      "uuid": "30be9e71-361b-4a69-9bc7-af3cc5bc923d@6656b",
+      "displayName": "",
+      "id": "6656b",
+      "name": "soda_open.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8c192": {
+      "importer": "gltf-embeded-image",
+      "uuid": "30be9e71-361b-4a69-9bc7-af3cc5bc923d@8c192",
+      "displayName": "",
+      "id": "8c192",
+      "name": "file17.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8cbf6": {
+      "importer": "texture",
+      "uuid": "30be9e71-361b-4a69-9bc7-af3cc5bc923d@8cbf6",
+      "displayName": "",
+      "id": "8cbf6",
+      "name": "file17.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "30be9e71-361b-4a69-9bc7-af3cc5bc923d@8c192"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "417d9": {
+      "importer": "gltf-material",
+      "uuid": "30be9e71-361b-4a69-9bc7-af3cc5bc923d@417d9",
+      "displayName": "",
+      "id": "417d9",
+      "name": "soda.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "128ce": {
+      "importer": "gltf-scene",
+      "uuid": "30be9e71-361b-4a69-9bc7-af3cc5bc923d@128ce",
+      "displayName": "",
+      "id": "128ce",
+      "name": "coca.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file17",
+        "uri": "30be9e71-361b-4a69-9bc7-af3cc5bc923d@8c192"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "30be9e71-361b-4a69-9bc7-af3cc5bc923d@128ce",
+    "assetFinder": {
+      "meshes": [
+        "30be9e71-361b-4a69-9bc7-af3cc5bc923d@6656b"
+      ],
+      "skeletons": [],
+      "textures": [
+        "30be9e71-361b-4a69-9bc7-af3cc5bc923d@8cbf6"
+      ],
+      "materials": [
+        "30be9e71-361b-4a69-9bc7-af3cc5bc923d@417d9"
+      ],
+      "scenes": [
+        "30be9e71-361b-4a69-9bc7-af3cc5bc923d@128ce"
+      ]
+    }
+  }
+}

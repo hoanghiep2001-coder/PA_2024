@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "60c74a5b-b2b1-4148-85c5-a91abf6a6804",
+  "files": [],
+  "subMetas": {
+    "ef19f": {
+      "importer": "gltf-mesh",
+      "uuid": "60c74a5b-b2b1-4148-85c5-a91abf6a6804@ef19f",
+      "displayName": "",
+      "id": "ef19f",
+      "name": "Patita.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dfe29": {
+      "importer": "gltf-embeded-image",
+      "uuid": "60c74a5b-b2b1-4148-85c5-a91abf6a6804@dfe29",
+      "displayName": "",
+      "id": "dfe29",
+      "name": "file3.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a562b": {
+      "importer": "texture",
+      "uuid": "60c74a5b-b2b1-4148-85c5-a91abf6a6804@a562b",
+      "displayName": "",
+      "id": "a562b",
+      "name": "file3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "60c74a5b-b2b1-4148-85c5-a91abf6a6804@dfe29"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "414f8": {
+      "importer": "gltf-material",
+      "uuid": "60c74a5b-b2b1-4148-85c5-a91abf6a6804@414f8",
+      "displayName": "",
+      "id": "414f8",
+      "name": "mtl_Patita.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "42a3f": {
+      "importer": "gltf-scene",
+      "uuid": "60c74a5b-b2b1-4148-85c5-a91abf6a6804@42a3f",
+      "displayName": "",
+      "id": "42a3f",
+      "name": "Patita.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file3",
+        "uri": "60c74a5b-b2b1-4148-85c5-a91abf6a6804@dfe29"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "60c74a5b-b2b1-4148-85c5-a91abf6a6804@42a3f",
+    "assetFinder": {
+      "meshes": [
+        "60c74a5b-b2b1-4148-85c5-a91abf6a6804@ef19f"
+      ],
+      "skeletons": [],
+      "textures": [
+        "60c74a5b-b2b1-4148-85c5-a91abf6a6804@a562b"
+      ],
+      "materials": [
+        "60c74a5b-b2b1-4148-85c5-a91abf6a6804@414f8"
+      ],
+      "scenes": [
+        "60c74a5b-b2b1-4148-85c5-a91abf6a6804@42a3f"
+      ]
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "__type__": "cc.Mesh",
+  "_name": "",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_struct": {
+    "primitives": [
+      {
+        "primitiveMode": 7,
+        "jointMapIndex": 0,
+        "vertexBundelIndices": [
+          0
+        ],
+        "indexView": {
+          "offset": 110232,
+          "length": 29016,
+          "count": 7254,
+          "stride": 4
+        }
+      }
+    ],
+    "vertexBundles": [
+      {
+        "view": {
+          "offset": 0,
+          "length": 110232,
+          "count": 1531,
+          "stride": 72
+        },
+        "attributes": [
+          {
+            "name": "a_position",
+            "format": 32,
+            "isNormalized": false
+          },
+          {
+            "name": "a_normal",
+            "format": 32,
+            "isNormalized": false
+          },
+          {
+            "name": "a_texCoord",
+            "format": 21,
+            "isNormalized": false
+          },
+          {
+            "name": "a_tangent",
+            "format": 44,
+            "isNormalized": false
+          },
+          {
+            "name": "a_joints",
+            "format": 42,
+            "isNormalized": false
+          },
+          {
+            "name": "a_weights",
+            "format": 44,
+            "isNormalized": false
+          }
+        ]
+      }
+    ],
+    "minPosition": {
+      "__type__": "cc.Vec3",
+      "x": -0.09872081875801086,
+      "y": 0.4891793131828308,
+      "z": -0.0834292396903038
+    },
+    "maxPosition": {
+      "__type__": "cc.Vec3",
+      "x": 0.10261464864015579,
+      "y": 0.6906933784484863,
+      "z": 0.11022434383630753
+    },
+    "jointMaps": [
+      [
+        0,
+        5,
+        65,
+        70,
+        71,
+        72
+      ]
+    ]
+  },
+  "_hash": 3063273936
+}
