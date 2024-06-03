@@ -46,7 +46,7 @@ export default class GamePlay extends cc.Component {
     protected start(): void {
         this.NodesController.CTA.active = false;
 
-        this.AudioManager.playSound(Constants.SoundTrack.bgSound);
+        // this.AudioManager.playSound(Constants.SoundTrack.bgSound);
         this.handleGamePlay();
         Constants.isCanTouch = true;
 
@@ -169,14 +169,15 @@ export default class GamePlay extends cc.Component {
 
             this.NodesController.CTA_button.on(cc.Node.EventType.TOUCH_START, this.GameController.installHandle, this);
 
-            this.NodesController.CTA_Overlay.on(cc.Node.EventType.TOUCH_START, this.GameController.installHandle, this);
+            // mtg & applovin
+            // this.NodesController.CTA_Overlay.on(cc.Node.EventType.TOUCH_START, this.GameController.installHandle, this);
         }, 1)
     }
 
 
     private unactiveHint(): void {
         this.isHint = true;
-        // this.handleIronSourcePlaySound();
+        this.handleIronSourcePlaySound();
         this.NodesController.Hint.active = false;
     }
 
@@ -186,6 +187,6 @@ export default class GamePlay extends cc.Component {
         Constants.isHit && !this.isHit && this.characterHit();
         window.isStartDraw && !this.isHint && this.unactiveHint();
 
-        // this.handleMuteSoundIronSource();
+        this.handleMuteSoundIronSource();
     }
 }

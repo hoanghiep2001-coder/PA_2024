@@ -35,8 +35,7 @@ export class Main extends Component {
     Hand_01: Node = null;
     @property(Node)
     Hand_02: Node = null;
-    @property(Node)
-    Crosshair: Node = null;
+
     @property(Node)
     Ball_00: Node = null;
     @property(Node)
@@ -80,7 +79,7 @@ export class Main extends Component {
 
 
     protected start(): void {
-        this.AudioManager.playSound(Constants.SoundTrack.bgSound)
+        // this.AudioManager.playSound(Constants.SoundTrack.bgSound)
         this.Cube.getComponent(BoxCollider).enabled = true;
     }
 
@@ -198,7 +197,6 @@ export class Main extends Component {
     AngleCube(event) {
         this.Enable.active = false;
         this.Hand_01.active = false;
-        this.Crosshair.active = false;
         this.Hand_02.active = true;
         const touchPos = event.getLocation();
         const deltaX = (touchPos.x - this.touchStartPos.x);

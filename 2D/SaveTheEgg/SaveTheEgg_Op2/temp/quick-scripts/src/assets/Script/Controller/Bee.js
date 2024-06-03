@@ -34,10 +34,12 @@ var Bee = /** @class */ (function (_super) {
         _this.AudioManager = null;
         _this.rigidBody = null;
         _this.isCollide = false;
+        _this.initPos = null;
         return _this;
     }
     Bee.prototype.start = function () {
         this.beginContact();
+        this.initPos = this.node.getPosition();
         // let grid = new PF.Grid(100, 100);
         // console.log(grid);
     };
@@ -50,6 +52,8 @@ var Bee = /** @class */ (function (_super) {
         this.rigidBody.onBeginContact = function (c, s, o) {
             if (o.tag === 4) {
                 console.log("collide");
+                // this.isCollide = true;
+                // this.jumpBack();
             }
             if (o.tag === 3) {
                 if (_this.isCollide) {
@@ -85,6 +89,12 @@ var Bee = /** @class */ (function (_super) {
                 // this.node.setPosition(currentPosition);
             }
         };
+    };
+    Bee.prototype.jumpBack = function () {
+        var targetPosition = new cc.Vec2(this.initPos.x, this.initPos.y);
+        var currentPosition = this.node.getPosition();
+        currentPosition.lerp(targetPosition, 0.02, currentPosition);
+        this.node.setPosition(currentPosition);
     };
     Bee.prototype.attack = function () {
         var targetPosition = constants_1.Constants.CharacterPos;

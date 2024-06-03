@@ -5,20 +5,20 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 277,
+      "x": 1913,
       "y": 0,
       "width": 1366,
-      "height": 1040,
+      "height": 1087,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 214.875,
+            "width": 215,
             "height": 922,
             "type": "dock-v",
             "children": [
               {
-                "width": 214.875,
+                "width": 215,
                 "height": 461,
                 "type": "panel",
                 "active": 0,
@@ -27,7 +27,7 @@
                 ]
               },
               {
-                "width": 214.875,
+                "width": 215,
                 "height": 458,
                 "type": "panel",
                 "active": 0,
@@ -38,12 +38,12 @@
             ]
           },
           {
-            "width": 808.828125,
+            "width": 809,
             "height": 922,
             "type": "dock-v",
             "children": [
               {
-                "width": 808.828125,
+                "width": 809,
                 "height": 461,
                 "type": "panel",
                 "active": 0,
@@ -52,7 +52,7 @@
                 ]
               },
               {
-                "width": 808.828125,
+                "width": 809,
                 "height": 458,
                 "type": "panel",
                 "active": 0,
@@ -64,7 +64,7 @@
             ]
           },
           {
-            "width": 320.296875,
+            "width": 320,
             "height": 922,
             "type": "panel",
             "active": 0,
@@ -83,7 +83,7 @@
         "inspector"
       ]
     },
-    "window-1704884584082": {}
+    " common-asset-worker-worker": {}
   },
   "panels": {
     "cocos-services": {

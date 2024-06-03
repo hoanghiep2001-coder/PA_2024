@@ -6,12 +6,11 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class GamePlay extends cc.Component {
-
+  
   @property(AudioManager)
   AudioManager: AudioManager = null;
   @property(GameController)
   GameController: GameController = null;
-
 
   @property(cc.Node)
   background: cc.Node = null;
@@ -30,7 +29,6 @@ export default class GamePlay extends cc.Component {
   character: cc.Node = null;
   @property(cc.Node)
   character_dirtyHair: cc.Node = null;
-
 
   @property([cc.ParticleSystem])
   Effect_Blinks: cc.ParticleSystem[] = [];

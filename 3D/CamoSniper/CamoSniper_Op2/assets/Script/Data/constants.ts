@@ -15,6 +15,7 @@ const IronSource = {
     isPlayBgSound: false,
 }
 
+
 enum SoundTrack {
     bgSound = "bgSound",
     k98Sound = "k98Sound",
@@ -22,6 +23,7 @@ enum SoundTrack {
     GreatSound2 = "GreatSound2",
     GreatSound3 = "GreatSound3",
 }
+
 
 enum Responsive {
     HORIZONTAL_IPX = "horizontal_IPX",

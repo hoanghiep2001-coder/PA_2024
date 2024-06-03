@@ -5,9 +5,9 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 371,
+      "x": -6,
       "y": 0,
-      "width": 1549,
+      "width": 1258,
       "height": 1047,
       "layout": {
         "type": "dock-h",
@@ -82,8 +82,7 @@
         "game-window",
         "inspector"
       ]
-    },
-    " common-asset-worker-worker": {}
+    }
   },
   "panels": {
     "cocos-services": {

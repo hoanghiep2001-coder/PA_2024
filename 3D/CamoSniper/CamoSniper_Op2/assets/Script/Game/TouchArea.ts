@@ -5,7 +5,7 @@ import { AudioManager } from './AudioManager';
 import { GamePlay } from './GamePlay';
 import { Constants } from '../Data/constants';
 const { ccclass, property } = _decorator;
- 
+
 @ccclass('TouchArea')
 export class TouchArea extends Component {
 
@@ -18,7 +18,7 @@ export class TouchArea extends Component {
     @property(GamePlay)
     GamePlay: GamePlay = null;
 
-    
+
     // static
     isTouch: boolean = false;
 
@@ -32,7 +32,7 @@ export class TouchArea extends Component {
 
 
     private handleTouchStart(e: EventTouch): void {
-        if(!Constants.isCanClick) return;
+        if (!Constants.isCanClick) return;
         Constants.isToStore && this.GameController.installHandle();
         Constants.countShoot >= 3 && this.GameController.installHandle();
         this.GamePlay.handleIronSourcePlaySound();
@@ -50,12 +50,12 @@ export class TouchArea extends Component {
 
 
     private handleTouchMove(e: EventTouch): void {
-        if(!Constants.isCanClick) return;
+        if (!Constants.isCanClick) return;
         let pos = this.convertToNodeSpace(e.getUILocation());
-        if(pos.y > 130 || pos.y < -130) {
+        if (pos.y > 130 || pos.y < -130) {
             return;
         }
-        
+
         this.UIController.background.setPosition(pos.x, pos.y, 0);
     }
 
@@ -67,7 +67,7 @@ export class TouchArea extends Component {
 
 
     private handleTouchEnd(e: EventTouch): void {
-        if(!this.isTouch) return;
+        if (!this.isTouch) return;
         this.isTouch = false;
         this.GamePlay.shoot();
         this.GamePlay.checkHitEnemy();

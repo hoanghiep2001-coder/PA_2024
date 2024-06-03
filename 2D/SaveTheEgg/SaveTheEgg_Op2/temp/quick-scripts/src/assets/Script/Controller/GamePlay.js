@@ -58,7 +58,7 @@ var GamePlay = /** @class */ (function (_super) {
     };
     GamePlay.prototype.start = function () {
         this.NodesController.CTA.active = false;
-        this.AudioManager.playSound(constants_1.Constants.SoundTrack.bgSound);
+        // this.AudioManager.playSound(Constants.SoundTrack.bgSound);
         this.handleGamePlay();
         constants_1.Constants.isCanTouch = true;
         // Path Finding
@@ -148,19 +148,20 @@ var GamePlay = /** @class */ (function (_super) {
             _this.NodesController.CTA.getComponent(cc.Animation).play("CTA_Anim");
             _this.AudioManager.playSound(constants_1.Constants.SoundTrack.loseSound);
             _this.NodesController.CTA_button.on(cc.Node.EventType.TOUCH_START, _this.GameController.installHandle, _this);
-            _this.NodesController.CTA_Overlay.on(cc.Node.EventType.TOUCH_START, _this.GameController.installHandle, _this);
+            // mtg & applovin
+            // this.NodesController.CTA_Overlay.on(cc.Node.EventType.TOUCH_START, this.GameController.installHandle, this);
         }, 1);
     };
     GamePlay.prototype.unactiveHint = function () {
         this.isHint = true;
-        // this.handleIronSourcePlaySound();
+        this.handleIronSourcePlaySound();
         this.NodesController.Hint.active = false;
     };
     GamePlay.prototype.update = function (dt) {
         // this.handleMuteSoundIronSource();
         constants_1.Constants.isHit && !this.isHit && this.characterHit();
         window.isStartDraw && !this.isHint && this.unactiveHint();
-        // this.handleMuteSoundIronSource();
+        this.handleMuteSoundIronSource();
     };
     __decorate([
         property(NodesController_1.default)

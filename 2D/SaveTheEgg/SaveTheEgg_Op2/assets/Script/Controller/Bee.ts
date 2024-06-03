@@ -12,11 +12,12 @@ export default class Bee extends cc.Component {
     @property(cc.RigidBody)
     rigidBody: cc.RigidBody = null;
 
-    isCollide: boolean = false
+    isCollide: boolean = false;
+    initPos: cc.Vec2 = null;
 
     protected start(): void {
         this.beginContact();
-        
+        this.initPos = this.node.getPosition();
         // let grid = new PF.Grid(100, 100);
         // console.log(grid);
     }
@@ -33,7 +34,9 @@ export default class Bee extends cc.Component {
         this.rigidBody.onBeginContact = (c, s, o) => {
         
             if (o.tag === 4) {
-                console.log("collide");
+                console.log("collide");     
+                // this.isCollide = true;
+                // this.jumpBack();
             }
 
             if (o.tag === 3) {
@@ -73,6 +76,14 @@ export default class Bee extends cc.Component {
                 // this.node.setPosition(currentPosition);
             }
         }
+    }
+
+
+    private jumpBack(): void {
+        let targetPosition = new cc.Vec2(this.initPos.x, this.initPos.y)
+        let currentPosition = this.node.getPosition();
+        currentPosition.lerp(targetPosition, 0.02, currentPosition);
+        this.node.setPosition(currentPosition);
     }
 
 
