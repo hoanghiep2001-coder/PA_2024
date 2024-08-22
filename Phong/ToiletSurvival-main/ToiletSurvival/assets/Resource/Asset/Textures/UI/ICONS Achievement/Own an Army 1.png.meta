@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "adef3bab-9bdb-4515-b8af-eac9de3636d8",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 161,
+  "height": 161,
+  "platformSettings": {},
+  "subMetas": {
+    "Own an Army 1": {
+      "ver": "1.0.6",
+      "uuid": "f6e8b63a-28fe-426a-9507-73278c0415a8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "adef3bab-9bdb-4515-b8af-eac9de3636d8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 161,
+      "height": 161,
+      "rawWidth": 161,
+      "rawHeight": 161,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

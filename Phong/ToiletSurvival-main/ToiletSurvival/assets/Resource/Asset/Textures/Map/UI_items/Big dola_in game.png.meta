@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "bdebaa43-d822-4c82-9865-29023f9f6f86",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 173,
+  "height": 125,
+  "platformSettings": {},
+  "subMetas": {
+    "Big dola_in game": {
+      "ver": "1.0.6",
+      "uuid": "fc43eedb-8871-4c77-b8cd-af335e737f5b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "bdebaa43-d822-4c82-9865-29023f9f6f86",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -1,
+      "trimX": 1,
+      "trimY": 2,
+      "width": 170,
+      "height": 123,
+      "rawWidth": 173,
+      "rawHeight": 125,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

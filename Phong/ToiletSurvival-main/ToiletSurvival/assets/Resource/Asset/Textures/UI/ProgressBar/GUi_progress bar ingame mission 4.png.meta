@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b346fc20-c574-48fa-9174-2c6f8e8bfe0b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 607,
+  "height": 405,
+  "platformSettings": {},
+  "subMetas": {
+    "GUi_progress bar ingame mission 4": {
+      "ver": "1.0.6",
+      "uuid": "0ed3966c-ff8f-4759-8af1-c286f277dd33",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b346fc20-c574-48fa-9174-2c6f8e8bfe0b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -4,
+      "offsetY": 15.5,
+      "trimX": 195,
+      "trimY": 82,
+      "width": 209,
+      "height": 210,
+      "rawWidth": 607,
+      "rawHeight": 405,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

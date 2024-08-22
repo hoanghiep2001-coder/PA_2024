@@ -7,18 +7,18 @@
       "windowType": "dockable",
       "x": -6,
       "y": 0,
-      "width": 1258,
+      "width": 1351,
       "height": 1047,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 226,
+            "width": 204,
             "height": 922,
             "type": "dock-v",
             "children": [
               {
-                "width": 226,
+                "width": 204,
                 "height": 461,
                 "type": "panel",
                 "active": 0,
@@ -27,7 +27,7 @@
                 ]
               },
               {
-                "width": 226,
+                "width": 204,
                 "height": 458,
                 "type": "panel",
                 "active": 0,
@@ -38,12 +38,12 @@
             ]
           },
           {
-            "width": 966.984375,
+            "width": 727.984375,
             "height": 922,
             "type": "dock-v",
             "children": [
               {
-                "width": 966.984375,
+                "width": 727.984375,
                 "height": 615,
                 "type": "panel",
                 "active": 0,
@@ -52,7 +52,7 @@
                 ]
               },
               {
-                "width": 966.984375,
+                "width": 727.984375,
                 "height": 304,
                 "type": "panel",
                 "active": 0,
@@ -64,7 +64,7 @@
             ]
           },
           {
-            "width": 334,
+            "width": 304,
             "height": 922,
             "type": "panel",
             "active": 0,
@@ -82,7 +82,8 @@
         "game-window",
         "inspector"
       ]
-    }
+    },
+    " common-asset-worker-worker": {}
   },
   "panels": {
     "cocos-services": {

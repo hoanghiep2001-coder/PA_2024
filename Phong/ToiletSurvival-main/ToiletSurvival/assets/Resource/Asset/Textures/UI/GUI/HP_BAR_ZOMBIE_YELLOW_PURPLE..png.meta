@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "9a6a233d-d580-4abb-9857-6c35b966889e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 35,
+  "height": 39,
+  "platformSettings": {},
+  "subMetas": {
+    "HP_BAR_ZOMBIE_YELLOW_PURPLE.": {
+      "ver": "1.0.6",
+      "uuid": "68ca9be0-fa01-4a18-b1fd-4e6f629fbdb5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9a6a233d-d580-4abb-9857-6c35b966889e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 11,
+      "trimY": 9,
+      "width": 12,
+      "height": 20,
+      "rawWidth": 35,
+      "rawHeight": 39,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

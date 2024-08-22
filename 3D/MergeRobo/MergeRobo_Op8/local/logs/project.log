@@ -1,0 +1,86 @@
+2024-06-25 08:25:23-log: [Package] menu@1.0.0 enable
+2024-06-25 08:25:23-log: [Package] profile@1.0.0 enable
+2024-06-25 08:25:23-log: [Package] project@1.0.1 enable
+2024-06-25 08:25:23-log: [Package] messages@1.0.0 enable
+2024-06-25 08:25:23-log: [Package] program@1.0.0 enable
+2024-06-25 08:25:23-log: [Package] device@1.0.1 enable
+2024-06-25 08:25:23-log: [Package] ui-kit@1.0.1 enable
+2024-06-25 08:25:23-log: [Package] tester@1.0.0 enable
+2024-06-25 08:25:23-log: [Package] preferences@1.0.0 enable
+2024-06-25 08:25:24-log: Setup mods mgr.: 610.375ms
+2024-06-25 08:25:24-log: Profile changed: engine (modules.includeModules: 2d,3d,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,marionette,particle,physics-cannon,primitive,profiler,spine,terrain,tiled-map,tween,ui,webview)
+2024-06-25 08:25:24-log: [Package] engine@1.0.5 enable
+2024-06-25 08:25:26-log: [Package] programming@1.0.0 enable
+2024-06-25 08:25:26-log: [Package] Profile Migrate: builder@Cocos Creator...
+2024-06-25 08:25:27-log: [Package] engine-extends@1.0.0 enable
+2024-06-25 08:25:27-log: [Package] asset-db@1.0.0 enable
+2024-06-25 08:25:27-log: [Package] console@1.0.0 enable
+2024-06-25 08:25:27-log: [Package] scene@1.0.0 enable
+2024-06-25 08:25:27-log: [Package] about@1.0.0 enable
+2024-06-25 08:25:27-log: [Package] server@1.0.0 enable
+2024-06-25 08:25:27-log: [Package] utils@1.0.0 enable
+2024-06-25 08:25:27-log: [Package] assets@1.0.0 enable
+2024-06-25 08:25:27-log: [Package] inspector@1.0.0 enable
+2024-06-25 08:25:27-log: [Package] hierarchy@1.0.0 enable
+2024-06-25 08:25:29-log: [Package] preview@1.0.1 enable
+2024-06-25 08:25:29-log: [Package] animator@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] builder@1.3.1 enable
+2024-06-25 08:25:30-log: [Package] node-library@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] shortcuts@1.0.1 enable
+2024-06-25 08:25:30-log: [Package] package-asset@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] reference-image@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] animation-graph@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] channel-upload-tools@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] runtime-dev-tools@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] lightmap@1.0.4 enable
+2024-06-25 08:25:30-log: [Package] alipay-mini-game@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] android@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] baidu-mini-game@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] bytedance-mini-game@1.0.1 enable
+2024-06-25 08:25:30-log: [Package] huawei-agc@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] ios@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] ios-app-clip@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] mac@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] native@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] ohos@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] web-desktop@1.0.0 enable
+2024-06-25 08:25:30-log: [Package] web-mobile@1.0.0 enable
+2024-06-25 08:25:31-log: [Package] wechatgame@1.0.1 enable
+2024-06-25 08:25:31-log: [Package] windows@1.0.0 enable
+2024-06-25 08:25:31-log: [Package] xiaomi-quick-game@1.0.0 enable
+2024-06-25 08:25:31-log: [Package] cocos-play@1.0.0 enable
+2024-06-25 08:25:31-log: [Package] huawei-quick-game@1.0.0 enable
+2024-06-25 08:25:31-log: [Package] link-sure@1.0.0 enable
+2024-06-25 08:25:31-log: [Package] oppo-mini-game@1.0.0 enable
+2024-06-25 08:25:31-log: [Package] qtt@1.0.0 enable
+2024-06-25 08:25:31-log: [Package] vivo-mini-game@1.0.0 enable
+2024-06-25 08:25:31-log: [Package] cocos-service@3.0.2 enable
+2024-06-25 08:25:31-log: [Package] importer@1.0.0 enable
+2024-06-25 08:25:31-log: [Package] extension@3.0.15 enable
+2024-06-25 08:25:32-log: [Im-plugin] Check im-plugin version.
+2024-06-25 08:25:32-log: [Package] im-plugin@3.0.8 enable
+2024-06-25 08:25:32-log: [Package] super-html@1.1.3 enable
+2024-06-25 08:25:33-log: [Im-plugin] No online info of im-plugin.
+2024-06-25 08:25:43-warn: [Asset DB] The [Transparent color] property of material [minecraft_platform_mat] is not allowed to be texture. [{asset(c1c58b01-6891-4709-a91a-2fea503fe16b)}]
+2024-06-25 08:25:44-warn: Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+2024-06-25 08:25:46-log: [Scene] Cocos Creator v3.4.2
+2024-06-25 08:25:46-info: [Scene] Forward render pipeline initialized.
+2024-06-25 08:48:30-log: [Scene] Animation node(2fs3z6dN5PY4cDtI6pKM+W)doesn't exist
+2024-06-25 08:48:30-log: [Scene] Animation node(a6+2ntZNNFqrozVVHTiXPc)doesn't exist
+2024-06-25 08:49:21-warn: [Build] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+2024-06-25 08:49:21-warn: [Build] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+2024-06-25 09:06:18-error: [Preview]Uncaught TypeError: this.onFinish is not a function in http://localhost:7456/scripting/x/mods/fs/0/assets/Script/Controller/GameController.js
+2024-06-25 09:23:08-error: [Window] Cannot read property 'name' of null
+2024-06-25 09:23:08-error: Message response error: Cannot read property 'name' of null
+2024-06-25 09:23:08-error: [Window] Cannot read property 'name' of null
+2024-06-25 10:18:40-error: Message response error: Cannot read property 'name' of null
+2024-06-25 10:24:29-error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'setRotationFromEuler') in http://localhost:7456/scripting/x/mods/fs/0/assets/Script/Controller/GamePlay.js

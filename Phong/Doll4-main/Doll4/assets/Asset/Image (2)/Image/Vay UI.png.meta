@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1ae05195-e74e-4328-bd82-c28fee482328",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 243,
+  "height": 805,
+  "platformSettings": {},
+  "subMetas": {
+    "Vay UI": {
+      "ver": "1.0.6",
+      "uuid": "1980d9f5-d1f8-41b3-9621-449abad75789",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1ae05195-e74e-4328-bd82-c28fee482328",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 243,
+      "height": 805,
+      "rawWidth": 243,
+      "rawHeight": 805,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

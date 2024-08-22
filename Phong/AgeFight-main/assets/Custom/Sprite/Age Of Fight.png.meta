@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "70d3c824-f0a4-4f31-b718-0640da2013ad",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 318,
+  "height": 63,
+  "platformSettings": {},
+  "subMetas": {
+    "Age Of Fight": {
+      "ver": "1.0.6",
+      "uuid": "9ebdcd5c-2b54-4ff4-8e30-f4ffd2407bb2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "70d3c824-f0a4-4f31-b718-0640da2013ad",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 318,
+      "height": 63,
+      "rawWidth": 318,
+      "rawHeight": 63,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -118,8 +118,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         }
 
         start() {
-          this.reset(); // this.AudioManager.playSound(Constants.SoundTrack.bgSound);
-          // this.AudioManager.playSound(Constants.SoundTrack.catAngrySound);
+          this.reset();
+          this.AudioManager.playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).SoundTrack.bgSound); // this.AudioManager.playSound(Constants.SoundTrack.catAngrySound);
 
           this.Cat.active = true;
           this.canvas2D.active = true;
@@ -299,8 +301,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
         update(deltaTime) {
           this.responsive(); // Constants.isTouch && !Constants.ironSource.isEndGame && this.handleCountingTime();
-
-          this.handleMuteSoundIronSource();
+          // this.handleMuteSoundIronSource();
         }
 
         responsive() {

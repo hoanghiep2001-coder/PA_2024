@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a0b29fee-d57a-458a-8723-b7903f41e9e3",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 289,
+  "height": 147,
+  "platformSettings": {},
+  "subMetas": {
+    "donbay 4": {
+      "ver": "1.0.6",
+      "uuid": "874a0a8d-1c1e-4590-8a34-9d78049e5b9f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a0b29fee-d57a-458a-8723-b7903f41e9e3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 287,
+      "height": 145,
+      "rawWidth": 289,
+      "rawHeight": 147,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

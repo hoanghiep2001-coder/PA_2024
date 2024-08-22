@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "2cf33faf-2730-4d24-9d6d-4ec82510fc88",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1472,
+  "height": 2035,
+  "platformSettings": {},
+  "subMetas": {
+    "Skibidi_Gun2": {
+      "ver": "1.0.6",
+      "uuid": "bdc8eb91-cf48-4242-8e16-d64ca9bf42c6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "2cf33faf-2730-4d24-9d6d-4ec82510fc88",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1468,
+      "height": 2031,
+      "rawWidth": 1472,
+      "rawHeight": 2035,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a1f94058-9c32-46ff-8cea-692822f3308f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2094,
+  "height": 1480,
+  "platformSettings": {},
+  "subMetas": {
+    "zombieroom": {
+      "ver": "1.0.6",
+      "uuid": "c3108f03-38d7-4f5a-918c-7388e5451363",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a1f94058-9c32-46ff-8cea-692822f3308f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2094,
+      "height": 1480,
+      "rawWidth": 2094,
+      "rawHeight": 1480,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

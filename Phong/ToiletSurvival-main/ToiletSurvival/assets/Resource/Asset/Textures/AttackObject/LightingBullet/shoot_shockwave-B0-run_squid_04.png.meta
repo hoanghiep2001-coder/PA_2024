@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ce517455-f96d-4e01-9054-356862c43267",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1226,
+  "height": 1468,
+  "platformSettings": {},
+  "subMetas": {
+    "shoot_shockwave-B0-run_squid_04": {
+      "ver": "1.0.6",
+      "uuid": "30f9f796-f6fd-4a59-84ad-e59b2242536b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ce517455-f96d-4e01-9054-356862c43267",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -131.5,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 963,
+      "height": 1468,
+      "rawWidth": 1226,
+      "rawHeight": 1468,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f348ec61-7606-439b-ad8c-7e5bfe3e9045",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 439,
+  "height": 209,
+  "platformSettings": {},
+  "subMetas": {
+    "vetbantrentuong1 flip": {
+      "ver": "1.0.6",
+      "uuid": "41db4ee8-f866-45a3-9c02-bb54fff929a4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f348ec61-7606-439b-ad8c-7e5bfe3e9045",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 437,
+      "height": 207,
+      "rawWidth": 439,
+      "rawHeight": 209,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

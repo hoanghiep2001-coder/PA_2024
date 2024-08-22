@@ -66,7 +66,7 @@ export class JoyStick extends Component {
     this.node.getComponent("cc.UIOpacity").opacity = 120;
     this.stick.getComponent("cc.UIOpacity").opacity = 120;
     this.stick.setPosition(pos);
-    this.handleIronSourcePlaySound();
+    // this.handleIronSourcePlaySound();
   }
 
 

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "86c6aaab-b44f-4fd1-908a-ced3af64a2e6",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 228,
+  "height": 48,
+  "platformSettings": {},
+  "subMetas": {
+    "Is He Cheating": {
+      "ver": "1.0.6",
+      "uuid": "4108965c-cc01-4fd9-bab6-e59917cccd12",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "86c6aaab-b44f-4fd1-908a-ced3af64a2e6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 1,
+      "trimX": 4,
+      "trimY": 5,
+      "width": 220,
+      "height": 36,
+      "rawWidth": 228,
+      "rawHeight": 48,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

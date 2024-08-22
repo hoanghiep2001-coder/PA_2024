@@ -1,18 +1,18 @@
-debug: Thu, 14 Mar 2024 07:03:14 GMT
+debug: Tue, 11 Jun 2024 10:04:35 GMT
 debug: Project: D:\PA_2024\3D\CatEscape\CatEscape_OP17
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.4.2\resources\resources\3d\engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 31.391600131988525ms.
+debug: Loading cache costs 36.597100000828505ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 20.80750012397766ms.
+debug: Loading cache costs 29.139899998903275ms.
 debug: Sync engine features: 2d,3d,audio,base,gfx-webgl,gfx-webgl2,intersection-2d,marionette,particle,particle-2d,physics-2d-box2d,physics-cannon,primitive,profiler,spine,terrain,tween,ui,video,webview
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 64.14719986915588ms.
+debug: Fetch asset-db cost: 87.0806999988854ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 10
 Feature changed: false
@@ -40,7 +40,7 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:09:07 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (Indochina Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Data/Constant.ts.
 debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/BossAction.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/BossAction.ts.
@@ -52,9 +52,9 @@ debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game
 debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/LaserController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/LaserController.ts.
 debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Plugin/AudioManager.ts.
 debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Plugin/Responsive.ts.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Mar 08 2024 18:10:09 GMT+0700 (Indochina Time), Current mtime: Thu Mar 14 2024 14:03:08 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Mar 14 2024 14:03:08 GMT+0700 (Indochina Time), Current mtime: Tue Jun 11 2024 17:04:29 GMT+0700 (Indochina Time)
 debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Target(editor) ends with cost 110.092600107193ms.
+debug: Target(editor) ends with cost 136.4780000001192ms.
 debug: Target(preview) build started.
 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (Indochina Time)
 debug: Inspect cce:/internal/x/cc
@@ -79,11 +79,11 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:09:08 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (Indochina Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Data/Constant.ts.
-debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/BossAction.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/BossAction.ts.
 debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/CatController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/CatController.ts.
+debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/BossAction.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/BossAction.ts.
 debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/CubeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/CubeController.ts.
 debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/Game.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/Game.ts.
 debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/GameController.ts.
@@ -91,6 +91,6 @@ debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game
 debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/LaserController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Game/LaserController.ts.
 debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Plugin/AudioManager.ts.
 debug: Resolve file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/CatEscape/CatEscape_OP17/assets/Script/Plugin/Responsive.ts.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Mar 08 2024 18:10:09 GMT+0700 (Indochina Time), Current mtime: Thu Mar 14 2024 14:03:08 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Mar 14 2024 14:03:08 GMT+0700 (Indochina Time), Current mtime: Tue Jun 11 2024 17:04:29 GMT+0700 (Indochina Time)
 debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Target(preview) ends with cost 119.3125ms.
+debug: Target(preview) ends with cost 124.6921999976039ms.

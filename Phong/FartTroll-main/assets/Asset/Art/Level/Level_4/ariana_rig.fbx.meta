@@ -1,0 +1,246 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "244c7ea6-8913-4fbd-a282-80935a3444ca",
+  "files": [],
+  "subMetas": {
+    "30732": {
+      "importer": "gltf-skeleton",
+      "uuid": "244c7ea6-8913-4fbd-a282-80935a3444ca@30732",
+      "displayName": "",
+      "id": "30732",
+      "name": "UnnamedSkeleton-0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 105
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5a664": {
+      "importer": "gltf-mesh",
+      "uuid": "244c7ea6-8913-4fbd-a282-80935a3444ca@5a664",
+      "displayName": "",
+      "id": "5a664",
+      "name": "Ariana_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "089d6": {
+      "importer": "gltf-mesh",
+      "uuid": "244c7ea6-8913-4fbd-a282-80935a3444ca@089d6",
+      "displayName": "",
+      "id": "089d6",
+      "name": "Ariana_Skirt_Material0.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f1394": {
+      "importer": "gltf-skeleton",
+      "uuid": "244c7ea6-8913-4fbd-a282-80935a3444ca@f1394",
+      "displayName": "",
+      "id": "f1394",
+      "name": "UnnamedSkeleton-1.skeleton",
+      "userData": {
+        "gltfIndex": 1,
+        "jointsLength": 31
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0b924": {
+      "importer": "texture",
+      "uuid": "244c7ea6-8913-4fbd-a282-80935a3444ca@0b924",
+      "displayName": "",
+      "id": "0b924",
+      "name": "ariana_face.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Asset/Art/Level/Level_4/ariana_face.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "41e94": {
+      "importer": "gltf-material",
+      "uuid": "244c7ea6-8913-4fbd-a282-80935a3444ca@41e94",
+      "displayName": "",
+      "id": "41e94",
+      "name": "Ariana_Hand_Bands.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "78adb": {
+      "importer": "gltf-material",
+      "uuid": "244c7ea6-8913-4fbd-a282-80935a3444ca@78adb",
+      "displayName": "",
+      "id": "78adb",
+      "name": "Kanye_Gold_Chain3.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "83edc": {
+      "importer": "gltf-material",
+      "uuid": "244c7ea6-8913-4fbd-a282-80935a3444ca@83edc",
+      "displayName": "",
+      "id": "83edc",
+      "name": "Ariana_body.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7b908": {
+      "importer": "gltf-material",
+      "uuid": "244c7ea6-8913-4fbd-a282-80935a3444ca@7b908",
+      "displayName": "",
+      "id": "7b908",
+      "name": "Kanye_Gold_Chain3 1.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "83ad7": {
+      "importer": "gltf-material",
+      "uuid": "244c7ea6-8913-4fbd-a282-80935a3444ca@83ad7",
+      "displayName": "",
+      "id": "83ad7",
+      "name": "Ariana_Cornea.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "29c31": {
+      "importer": "gltf-material",
+      "uuid": "244c7ea6-8913-4fbd-a282-80935a3444ca@29c31",
+      "displayName": "",
+      "id": "29c31",
+      "name": "Ariana_Eye_Balls.material",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4a860": {
+      "importer": "gltf-scene",
+      "uuid": "244c7ea6-8913-4fbd-a282-80935a3444ca@4a860",
+      "displayName": "",
+      "id": "4a860",
+      "name": "ariana_rig.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "ariana_face.png",
+        "uri": "db://assets/Asset/Art/Level/Level_4/ariana_face.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "244c7ea6-8913-4fbd-a282-80935a3444ca@4a860",
+    "assetFinder": {
+      "meshes": [
+        "244c7ea6-8913-4fbd-a282-80935a3444ca@5a664",
+        "244c7ea6-8913-4fbd-a282-80935a3444ca@089d6"
+      ],
+      "skeletons": [
+        "244c7ea6-8913-4fbd-a282-80935a3444ca@30732",
+        "244c7ea6-8913-4fbd-a282-80935a3444ca@f1394"
+      ],
+      "textures": [
+        "244c7ea6-8913-4fbd-a282-80935a3444ca@0b924"
+      ],
+      "materials": [
+        "244c7ea6-8913-4fbd-a282-80935a3444ca@41e94",
+        "244c7ea6-8913-4fbd-a282-80935a3444ca@78adb",
+        "244c7ea6-8913-4fbd-a282-80935a3444ca@83edc",
+        "244c7ea6-8913-4fbd-a282-80935a3444ca@7b908",
+        "244c7ea6-8913-4fbd-a282-80935a3444ca@83ad7",
+        "244c7ea6-8913-4fbd-a282-80935a3444ca@29c31"
+      ],
+      "scenes": [
+        "244c7ea6-8913-4fbd-a282-80935a3444ca@4a860"
+      ]
+    }
+  }
+}

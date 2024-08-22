@@ -1,0 +1,104 @@
+
+bossphase1.png
+size: 1699,2309
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eye
+  rotate: false
+  xy: 1206, 20
+  size: 277, 229
+  orig: 278, 230
+  offset: 0, 1
+  index: -1
+Face01
+  rotate: false
+  xy: 2, 918
+  size: 1463, 1389
+  orig: 1626, 1620
+  offset: 0, 162
+  index: -1
+Face02
+  rotate: false
+  xy: 2, 41
+  size: 717, 875
+  orig: 719, 891
+  offset: 1, 15
+  index: -1
+Mouth - Closed
+  rotate: true
+  xy: 1449, 581
+  size: 335, 84
+  orig: 338, 86
+  offset: 1, 1
+  index: -1
+Mouth - Open
+  rotate: true
+  xy: 1098, 542
+  size: 374, 349
+  orig: 376, 350
+  offset: 1, 0
+  index: -1
+Mouth - stun
+  rotate: true
+  xy: 1206, 251
+  size: 289, 279
+  orig: 376, 350
+  offset: 46, 11
+  index: -1
+Red - Eye
+  rotate: true
+  xy: 1013, 2
+  size: 500, 191
+  orig: 537, 224
+  offset: 17, 17
+  index: -1
+Toilet - behind
+  rotate: true
+  xy: 1487, 155
+  size: 424, 101
+  orig: 424, 101
+  offset: 0, 0
+  index: -1
+Toilet - front
+  rotate: true
+  xy: 721, 35
+  size: 467, 290
+  orig: 471, 300
+  offset: 1, 7
+  index: -1
+Water1
+  rotate: false
+  xy: 1535, 700
+  size: 68, 319
+  orig: 68, 319
+  offset: 0, 0
+  index: -1
+Water2
+  rotate: false
+  xy: 1605, 766
+  size: 57, 253
+  orig: 90, 280
+  offset: 29, 26
+  index: -1
+slime 12
+  rotate: true
+  xy: 1467, 1111
+  size: 1196, 230
+  orig: 1208, 230
+  offset: 0, 0
+  index: -1
+slime 22
+  rotate: true
+  xy: 1467, 1021
+  size: 88, 212
+  orig: 94, 216
+  offset: 4, 0
+  index: -1
+slime 32
+  rotate: false
+  xy: 721, 504
+  size: 375, 412
+  orig: 375, 412
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "05438280-2ace-4d6c-9262-a8c4eec56f91",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 236,
+  "height": 375,
+  "platformSettings": {},
+  "subMetas": {
+    "ironfence san bong diagonal": {
+      "ver": "1.0.6",
+      "uuid": "a4d4fdca-b537-4eb8-a0b6-8b90f1b2b485",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "05438280-2ace-4d6c-9262-a8c4eec56f91",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 234,
+      "height": 373,
+      "rawWidth": 236,
+      "rawHeight": 375,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

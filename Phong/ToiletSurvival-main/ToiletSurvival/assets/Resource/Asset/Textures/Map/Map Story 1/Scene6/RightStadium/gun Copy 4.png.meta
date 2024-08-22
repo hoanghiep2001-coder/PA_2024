@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e181d109-7bd4-4c03-81bf-95f5ce5d6db8",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 495,
+  "height": 417,
+  "platformSettings": {},
+  "subMetas": {
+    "gun Copy 4": {
+      "ver": "1.0.6",
+      "uuid": "928b9473-e5fd-49cb-bf06-8e50d3dd6944",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e181d109-7bd4-4c03-81bf-95f5ce5d6db8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 493,
+      "height": 415,
+      "rawWidth": 495,
+      "rawHeight": 417,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

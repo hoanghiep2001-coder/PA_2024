@@ -5,14 +5,23 @@
       "3d",
       "audio",
       "base",
+      "dragon-bones",
       "gfx-webgl",
+      "gfx-webgl2",
+      "intersection-2d",
+      "marionette",
+      "particle",
       "particle-2d",
       "physics-2d-box2d",
-      "physics-ammo",
+      "physics-cannon",
       "primitive",
+      "profiler",
       "spine",
+      "terrain",
+      "tiled-map",
       "tween",
       "ui",
+      "video",
       "webview"
     ],
     "cache": {
@@ -20,13 +29,13 @@
         "_value": true
       },
       "graphcis": {
-        "_value": false
+        "_value": true
       },
       "gfx-webgl": {
         "_value": true
       },
       "gfx-webgl2": {
-        "_value": false
+        "_value": true
       },
       "3d": {
         "_value": true
@@ -38,42 +47,42 @@
         "_value": true
       },
       "particle": {
-        "_value": false
+        "_value": true
       },
       "physics": {
         "_value": true,
-        "_option": "physics-ammo"
+        "_option": "physics-cannon"
       },
       "physics-ammo": {
-        "_value": true
+        "_value": false
       },
       "physics-cannon": {
-        "_value": true
+        "_value": false
       },
       "physics-physx": {
-        "_value": true
+        "_value": false
       },
       "physics-builtin": {
-        "_value": true
+        "_value": false
       },
       "physics-2d": {
         "_value": true,
         "_option": "physics-2d-box2d"
       },
       "physics-2d-box2d": {
-        "_value": true
+        "_value": false
       },
       "physics-2d-builtin": {
-        "_value": true
+        "_value": false
       },
       "intersection-2d": {
-        "_value": false
+        "_value": true
       },
       "primitive": {
         "_value": true
       },
       "profiler": {
-        "_value": false
+        "_value": true
       },
       "particle-2d": {
         "_value": true
@@ -82,7 +91,7 @@
         "_value": true
       },
       "video": {
-        "_value": false
+        "_value": true
       },
       "webview": {
         "_value": true
@@ -91,19 +100,19 @@
         "_value": true
       },
       "terrain": {
-        "_value": false
+        "_value": true
       },
       "tiled-map": {
-        "_value": false
+        "_value": true
       },
       "spine": {
         "_value": true
       },
       "dragon-bones": {
-        "_value": false
+        "_value": true
       },
       "marionette": {
-        "_value": false
+        "_value": true
       }
     },
     "flags": {},
@@ -111,5 +120,8 @@
       "value": false,
       "version": ""
     }
+  },
+  "macroConfig": {
+    "ENABLE_MULTI_TOUCH": false
   }
 }

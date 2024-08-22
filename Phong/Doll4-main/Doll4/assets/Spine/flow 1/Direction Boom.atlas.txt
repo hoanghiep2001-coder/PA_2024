@@ -1,0 +1,293 @@
+
+Direction Boom.png
+size: 1164, 568
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+01/Bomb
+  rotate: true
+  xy: 121, 6
+  size: 94, 123
+  orig: 94, 123
+  offset: 0, 0
+  index: -1
+01/Boom_part01
+  rotate: false
+  xy: 753, 38
+  size: 72, 76
+  orig: 72, 76
+  offset: 0, 0
+  index: -1
+01/Boom_part02
+  rotate: false
+  xy: 6, 17
+  size: 82, 80
+  orig: 82, 80
+  offset: 0, 0
+  index: -1
+01/striper
+  rotate: false
+  xy: 1011, 160
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+02/Bomb
+  rotate: true
+  xy: 250, 6
+  size: 94, 123
+  orig: 94, 123
+  offset: 0, 0
+  index: -1
+02/Boom_part01
+  rotate: false
+  xy: 831, 38
+  size: 72, 76
+  orig: 72, 76
+  offset: 0, 0
+  index: -1
+02/Boom_part02
+  rotate: false
+  xy: 1045, 335
+  size: 82, 80
+  orig: 82, 80
+  offset: 0, 0
+  index: -1
+02/striper
+  rotate: false
+  xy: 1087, 181
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+03/Bomb
+  rotate: false
+  xy: 379, 13
+  size: 94, 123
+  orig: 94, 123
+  offset: 0, 0
+  index: -1
+03/Boom_part01
+  rotate: false
+  xy: 909, 38
+  size: 72, 76
+  orig: 72, 76
+  offset: 0, 0
+  index: -1
+03/Boom_part02
+  rotate: false
+  xy: 757, 206
+  size: 82, 80
+  orig: 82, 80
+  offset: 0, 0
+  index: -1
+03/striper
+  rotate: false
+  xy: 1087, 105
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+04/Bomb
+  rotate: true
+  xy: 624, 38
+  size: 94, 123
+  orig: 94, 123
+  offset: 0, 0
+  index: -1
+04/Boom_part01
+  rotate: true
+  xy: 938, 236
+  size: 72, 76
+  orig: 72, 76
+  offset: 0, 0
+  index: -1
+04/Boom_part02
+  rotate: false
+  xy: 845, 206
+  size: 82, 80
+  orig: 82, 80
+  offset: 0, 0
+  index: -1
+04/striper
+  rotate: false
+  xy: 1011, 84
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+05/Bomb
+  rotate: false
+  xy: 738, 292
+  size: 94, 123
+  orig: 94, 123
+  offset: 0, 0
+  index: -1
+05/Boom_part01
+  rotate: false
+  xy: 933, 154
+  size: 72, 76
+  orig: 72, 76
+  offset: 0, 0
+  index: -1
+05/Boom_part02
+  rotate: false
+  xy: 757, 120
+  size: 82, 80
+  orig: 82, 80
+  offset: 0, 0
+  index: -1
+05/striper
+  rotate: false
+  xy: 987, 8
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+06/Bomb
+  rotate: false
+  xy: 838, 292
+  size: 94, 123
+  orig: 94, 123
+  offset: 0, 0
+  index: -1
+06/Boom_part01
+  rotate: true
+  xy: 1045, 257
+  size: 72, 76
+  orig: 72, 76
+  offset: 0, 0
+  index: -1
+06/Boom_part02
+  rotate: false
+  xy: 845, 120
+  size: 82, 80
+  orig: 82, 80
+  offset: 0, 0
+  index: -1
+06/striper
+  rotate: false
+  xy: 1063, 8
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+arrow
+  rotate: false
+  xy: 293, 142
+  size: 184, 109
+  orig: 184, 109
+  offset: 0, 0
+  index: -1
+border
+  rotate: false
+  xy: 618, 272
+  size: 114, 136
+  orig: 114, 136
+  offset: 0, 0
+  index: -1
+ele_01
+  rotate: true
+  xy: 632, 425
+  size: 137, 168
+  orig: 137, 168
+  offset: 0, 0
+  index: -1
+ele_03
+  rotate: true
+  xy: 121, 106
+  size: 138, 162
+  orig: 138, 162
+  offset: 0, 0
+  index: -1
+ele_05
+  rotate: false
+  xy: 121, 409
+  size: 166, 153
+  orig: 166, 153
+  offset: 0, 0
+  index: -1
+ele_06
+  rotate: false
+  xy: 121, 250
+  size: 166, 153
+  orig: 166, 153
+  offset: 0, 0
+  index: -1
+ele_08
+  rotate: false
+  xy: 293, 415
+  size: 166, 147
+  orig: 166, 147
+  offset: 0, 0
+  index: -1
+ele_10
+  rotate: false
+  xy: 806, 421
+  size: 158, 141
+  orig: 158, 141
+  offset: 0, 0
+  index: -1
+ele_11
+  rotate: false
+  xy: 970, 421
+  size: 158, 141
+  orig: 158, 141
+  offset: 0, 0
+  index: -1
+ele_13
+  rotate: false
+  xy: 465, 414
+  size: 161, 148
+  orig: 161, 148
+  offset: 0, 0
+  index: -1
+ele_17
+  rotate: false
+  xy: 293, 257
+  size: 161, 152
+  orig: 161, 152
+  offset: 0, 0
+  index: -1
+ele_19
+  rotate: true
+  xy: 460, 264
+  size: 144, 152
+  orig: 144, 152
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 623, 138
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+impact
+  rotate: false
+  xy: 938, 314
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+muzzle
+  rotate: true
+  xy: 479, 26
+  size: 92, 139
+  orig: 92, 139
+  offset: 0, 0
+  index: -1
+radial
+  rotate: false
+  xy: 483, 124
+  size: 134, 134
+  orig: 134, 134
+  offset: 0, 0
+  index: -1
+trail01
+  rotate: false
+  xy: 6, 103
+  size: 109, 459
+  orig: 109, 459
+  offset: 0, 0
+  index: -1

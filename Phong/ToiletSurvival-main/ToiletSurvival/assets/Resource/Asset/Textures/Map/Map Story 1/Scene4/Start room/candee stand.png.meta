@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e1efa12b-9195-488d-84ac-de9e324e8416",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 508,
+  "height": 646,
+  "platformSettings": {},
+  "subMetas": {
+    "candee stand": {
+      "ver": "1.0.6",
+      "uuid": "659106ad-dacd-43bc-8bc1-27b13f361b9f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e1efa12b-9195-488d-84ac-de9e324e8416",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 506,
+      "height": 644,
+      "rawWidth": 508,
+      "rawHeight": 646,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

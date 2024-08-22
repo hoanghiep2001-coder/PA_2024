@@ -1,0 +1,153 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e12dda80-52ce-4652-bcee-fa3031a7cb63",
+  "files": [
+    "__original-animation-0.cconb",
+    "__original-animation-1.cconb",
+    "__original-animation-2.cconb"
+  ],
+  "subMetas": {
+    "4a25f": {
+      "importer": "gltf-animation",
+      "uuid": "e12dda80-52ce-4652-bcee-fa3031a7cb63@4a25f",
+      "displayName": "",
+      "id": "4a25f",
+      "name": "pomni_lv7.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.633333444595337
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "23a7d": {
+      "importer": "gltf-animation",
+      "uuid": "e12dda80-52ce-4652-bcee-fa3031a7cb63@23a7d",
+      "displayName": "",
+      "id": "23a7d",
+      "name": "pomni_lv7_idle.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.6666666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "c1db3": {
+      "importer": "gltf-animation",
+      "uuid": "e12dda80-52ce-4652-bcee-fa3031a7cb63@c1db3",
+      "displayName": "",
+      "id": "c1db3",
+      "name": "pomni_lv7_anim.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 4.333333492279053
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "92bab": {
+      "importer": "gltf-scene",
+      "uuid": "e12dda80-52ce-4652-bcee-fa3031a7cb63@92bab",
+      "displayName": "",
+      "id": "92bab",
+      "name": "pomni_lv7_anim.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "pomni_lv7",
+        "duration": 3.633333444595337,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "pomni_lv7",
+            "from": 0,
+            "to": 3.633333444595337,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "pomni_lv7_idle",
+        "duration": 0.6666666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "pomni_lv7_idle",
+            "from": 0,
+            "to": 0.6666666865348816,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "pomni_lv7_anim",
+        "duration": 4.333333492279053,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "pomni_lv7_anim",
+            "from": 0,
+            "to": 4.333333492279053,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "e12dda80-52ce-4652-bcee-fa3031a7cb63@92bab",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "e12dda80-52ce-4652-bcee-fa3031a7cb63@92bab"
+      ]
+    }
+  }
+}

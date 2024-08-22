@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "20244816-7a11-44a2-b768-f31e635e932a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 404,
+  "height": 410,
+  "platformSettings": {},
+  "subMetas": {
+    "scene4 gamecenter gamepad": {
+      "ver": "1.0.6",
+      "uuid": "a09bd198-9950-447b-bd60-330f2c0d5ad2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "20244816-7a11-44a2-b768-f31e635e932a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -1.5,
+      "trimX": 0,
+      "trimY": 3,
+      "width": 404,
+      "height": 407,
+      "rawWidth": 404,
+      "rawHeight": 410,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

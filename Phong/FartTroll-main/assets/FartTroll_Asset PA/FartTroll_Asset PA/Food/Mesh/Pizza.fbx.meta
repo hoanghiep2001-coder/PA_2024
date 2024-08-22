@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d794c66e-4145-4909-ae52-ea0601bcb978",
+  "files": [],
+  "subMetas": {
+    "e65b5": {
+      "importer": "gltf-mesh",
+      "uuid": "d794c66e-4145-4909-ae52-ea0601bcb978@e65b5",
+      "displayName": "",
+      "id": "e65b5",
+      "name": "PizzaSlice1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a2a2d": {
+      "importer": "gltf-embeded-image",
+      "uuid": "d794c66e-4145-4909-ae52-ea0601bcb978@a2a2d",
+      "displayName": "",
+      "id": "a2a2d",
+      "name": "file14.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8852e": {
+      "importer": "texture",
+      "uuid": "d794c66e-4145-4909-ae52-ea0601bcb978@8852e",
+      "displayName": "",
+      "id": "8852e",
+      "name": "file14.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d794c66e-4145-4909-ae52-ea0601bcb978@a2a2d"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "033c1": {
+      "importer": "gltf-material",
+      "uuid": "d794c66e-4145-4909-ae52-ea0601bcb978@033c1",
+      "displayName": "",
+      "id": "033c1",
+      "name": "mtl_Pizza.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "91bec": {
+      "importer": "gltf-scene",
+      "uuid": "d794c66e-4145-4909-ae52-ea0601bcb978@91bec",
+      "displayName": "",
+      "id": "91bec",
+      "name": "Pizza.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file14",
+        "uri": "d794c66e-4145-4909-ae52-ea0601bcb978@a2a2d"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "d794c66e-4145-4909-ae52-ea0601bcb978@91bec",
+    "assetFinder": {
+      "meshes": [
+        "d794c66e-4145-4909-ae52-ea0601bcb978@e65b5"
+      ],
+      "skeletons": [],
+      "textures": [
+        "d794c66e-4145-4909-ae52-ea0601bcb978@8852e"
+      ],
+      "materials": [
+        "d794c66e-4145-4909-ae52-ea0601bcb978@033c1"
+      ],
+      "scenes": [
+        "d794c66e-4145-4909-ae52-ea0601bcb978@91bec"
+      ]
+    }
+  }
+}

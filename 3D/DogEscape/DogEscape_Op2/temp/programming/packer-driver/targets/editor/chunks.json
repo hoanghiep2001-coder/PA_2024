@@ -161,25 +161,13 @@
   "assets/Script/Game/BossAction.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js",
-      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
       "__unresolved_1": "assets/Script/Data/Constant.js",
-      "__unresolved_2": "assets/Script/Game/Game.js",
-      "__unresolved_3": "assets/Script/Plugin/AudioManager.js"
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "__unresolved_3": "assets/Script/Plugin/AudioManager.js",
+      "__unresolved_2": "assets/Script/Game/Game.js"
     },
     "physicalLocation": "fs/0/assets/Script/Game/BossAction.js",
     "mTimestamp": 1715936990761
-  },
-  "assets/Script/Game/CatController.js": {
-    "imports": {
-      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "__unresolved_3": "assets/Script/Data/Constant.js",
-      "__unresolved_2": "assets/Script/Game/Game.js",
-      "__unresolved_1": "assets/Script/Game/JoyStick.js",
-      "__unresolved_4": "assets/Script/Plugin/AudioManager.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/Game/CatController.js",
-    "mTimestamp": 1715936990914
   },
   "quick-pack:/cce/internal/x/cc.js": {
     "imports": {
@@ -269,36 +257,66 @@
       }
     },
     "physicalLocation": "cce/internal/x/cc.js",
-    "mTimestamp": 1715936990447,
+    "mTimestamp": 1718594587560,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/cc"
   },
   "quick-pack:/cce/internal/code-quality/cr.js": {
     "imports": {},
     "physicalLocation": "cce/internal/code-quality/cr.js",
-    "mTimestamp": 1715936991621
+    "mTimestamp": 1718594587594
+  },
+  "assets/Script/Game/CatController.js": {
+    "imports": {
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_3": "assets/Script/Data/Constant.js",
+      "__unresolved_4": "assets/Script/Plugin/AudioManager.js",
+      "__unresolved_2": "assets/Script/Game/Game.js",
+      "__unresolved_1": "assets/Script/Game/JoyStick.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/Game/CatController.js",
+    "mTimestamp": 1718594587871
+  },
+  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
+    "imports": {
+      "__unresolved_0": "assets/Script/Data/Constant.js",
+      "__unresolved_1": "assets/Script/Game/BossAction.js",
+      "__unresolved_2": "assets/Script/Game/CatController.js",
+      "__unresolved_3": "assets/Script/Game/CubeController.js",
+      "__unresolved_7": "assets/Script/Game/LaserController.js",
+      "__unresolved_8": "assets/Script/Plugin/AudioManager.js",
+      "__unresolved_9": "assets/Script/Plugin/Responsive.js",
+      "__unresolved_4": "assets/Script/Game/Game.js",
+      "__unresolved_6": "assets/Script/Game/JoyStick.js",
+      "__unresolved_5": "assets/Script/Game/GameController.js"
+    },
+    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
+    "mTimestamp": 1718595347762,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/prerequisite-imports"
   },
   "assets/Script/Game/GameController.js": {
     "imports": {
       "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
       "cc": "quick-pack:/cce/internal/x/cc.js",
-      "__unresolved_2": "assets/Script/Data/Constant.js",
-      "__unresolved_1": "assets/Script/Plugin/AudioManager.js"
+      "__unresolved_1": "assets/Script/Plugin/AudioManager.js",
+      "__unresolved_2": "assets/Script/Data/Constant.js"
     },
     "physicalLocation": "fs/0/assets/Script/Game/GameController.js",
-    "mTimestamp": 1715941620205
+    "mTimestamp": 1718595347796
   },
   "assets/Script/Game/Game.js": {
     "imports": {
       "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
       "cc": "quick-pack:/cce/internal/x/cc.js",
-      "__unresolved_3": "assets/Script/Data/Constant.js",
-      "__unresolved_2": "assets/Script/Game/JoyStick.js",
       "__unresolved_1": "assets/Script/Game/GameController.js",
+      "__unresolved_2": "assets/Script/Game/JoyStick.js",
+      "__unresolved_3": "assets/Script/Data/Constant.js",
       "__unresolved_4": "assets/Script/Plugin/AudioManager.js"
     },
     "physicalLocation": "fs/0/assets/Script/Game/Game.js",
-    "mTimestamp": 1715942046683
+    "mTimestamp": 1718595347883
   },
   "assets/Script/Game/JoyStick.js": {
     "imports": {
@@ -308,24 +326,6 @@
       "__unresolved_2": "assets/Script/Plugin/AudioManager.js"
     },
     "physicalLocation": "fs/0/assets/Script/Game/JoyStick.js",
-    "mTimestamp": 1715942046756
-  },
-  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
-    "imports": {
-      "__unresolved_1": "assets/Script/Game/BossAction.js",
-      "__unresolved_0": "assets/Script/Data/Constant.js",
-      "__unresolved_3": "assets/Script/Game/CubeController.js",
-      "__unresolved_2": "assets/Script/Game/CatController.js",
-      "__unresolved_4": "assets/Script/Game/Game.js",
-      "__unresolved_6": "assets/Script/Game/JoyStick.js",
-      "__unresolved_5": "assets/Script/Game/GameController.js",
-      "__unresolved_7": "assets/Script/Game/LaserController.js",
-      "__unresolved_8": "assets/Script/Plugin/AudioManager.js",
-      "__unresolved_9": "assets/Script/Plugin/Responsive.js"
-    },
-    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1715942047019,
-    "isEntry": true,
-    "exposeAs": "cce:/internal/x/prerequisite-imports"
+    "mTimestamp": 1718595347929
   }
 }

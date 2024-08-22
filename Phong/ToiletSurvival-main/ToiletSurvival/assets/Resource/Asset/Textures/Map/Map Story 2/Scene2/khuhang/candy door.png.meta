@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1f97e5d8-7d89-403b-9aa2-7c7cbe61894a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 132,
+  "height": 894,
+  "platformSettings": {},
+  "subMetas": {
+    "candy door": {
+      "ver": "1.0.6",
+      "uuid": "e2d21963-c680-4e7a-a590-399d3b530ce3",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1f97e5d8-7d89-403b-9aa2-7c7cbe61894a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 132,
+      "height": 894,
+      "rawWidth": 132,
+      "rawHeight": 894,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

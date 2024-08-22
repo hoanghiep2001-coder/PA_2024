@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ae4114a4-23e3-481a-bdd4-63a37a8902d5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 417,
+  "height": 385,
+  "platformSettings": {},
+  "subMetas": {
+    "Shootgun-B1": {
+      "ver": "1.0.6",
+      "uuid": "b1f2384b-fbb0-4323-b8c2-bda4b6d7c930",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ae4114a4-23e3-481a-bdd4-63a37a8902d5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 1.5,
+      "trimX": 2,
+      "trimY": 0,
+      "width": 411,
+      "height": 382,
+      "rawWidth": 417,
+      "rawHeight": 385,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

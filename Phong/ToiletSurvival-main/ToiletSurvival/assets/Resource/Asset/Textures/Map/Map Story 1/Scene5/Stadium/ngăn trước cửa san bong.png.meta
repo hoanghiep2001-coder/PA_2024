@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "06982f0b-2251-471b-9255-836cdeb6e44b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 489,
+  "height": 300,
+  "platformSettings": {},
+  "subMetas": {
+    "ngăn trước cửa san bong": {
+      "ver": "1.0.6",
+      "uuid": "6eb0edca-f59c-4a93-9ddb-bbaf9e1fdbec",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "06982f0b-2251-471b-9255-836cdeb6e44b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 487,
+      "height": 298,
+      "rawWidth": 489,
+      "rawHeight": 300,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

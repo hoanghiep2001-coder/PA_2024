@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "5e74a17b-f22d-43e5-8e2f-0073da321466",
+  "files": [],
+  "subMetas": {
+    "fdb4d": {
+      "importer": "gltf-mesh",
+      "uuid": "5e74a17b-f22d-43e5-8e2f-0073da321466@fdb4d",
+      "displayName": "",
+      "id": "fdb4d",
+      "name": "Soda_Drink_Can_3_Low_Poly_Mandheling.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8245f": {
+      "importer": "gltf-embeded-image",
+      "uuid": "5e74a17b-f22d-43e5-8e2f-0073da321466@8245f",
+      "displayName": "",
+      "id": "8245f",
+      "name": "file16.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "05fc7": {
+      "importer": "texture",
+      "uuid": "5e74a17b-f22d-43e5-8e2f-0073da321466@05fc7",
+      "displayName": "",
+      "id": "05fc7",
+      "name": "file16.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "5e74a17b-f22d-43e5-8e2f-0073da321466@8245f"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a0ab6": {
+      "importer": "gltf-material",
+      "uuid": "5e74a17b-f22d-43e5-8e2f-0073da321466@a0ab6",
+      "displayName": "",
+      "id": "a0ab6",
+      "name": "lambert8.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a02c1": {
+      "importer": "gltf-scene",
+      "uuid": "5e74a17b-f22d-43e5-8e2f-0073da321466@a02c1",
+      "displayName": "",
+      "id": "a02c1",
+      "name": "Soda.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file16",
+        "uri": "5e74a17b-f22d-43e5-8e2f-0073da321466@8245f"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "5e74a17b-f22d-43e5-8e2f-0073da321466@a02c1",
+    "assetFinder": {
+      "meshes": [
+        "5e74a17b-f22d-43e5-8e2f-0073da321466@fdb4d"
+      ],
+      "skeletons": [],
+      "textures": [
+        "5e74a17b-f22d-43e5-8e2f-0073da321466@05fc7"
+      ],
+      "materials": [
+        "5e74a17b-f22d-43e5-8e2f-0073da321466@a0ab6"
+      ],
+      "scenes": [
+        "5e74a17b-f22d-43e5-8e2f-0073da321466@a02c1"
+      ]
+    }
+  }
+}

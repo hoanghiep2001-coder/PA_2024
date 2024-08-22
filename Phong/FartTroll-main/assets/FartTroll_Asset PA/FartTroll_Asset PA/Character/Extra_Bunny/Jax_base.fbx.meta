@@ -1,0 +1,170 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c3db3e63-28af-4a46-af7d-587c3eaac4a3",
+  "files": [],
+  "subMetas": {
+    "5efb9": {
+      "importer": "gltf-mesh",
+      "uuid": "c3db3e63-28af-4a46-af7d-587c3eaac4a3@5efb9",
+      "displayName": "",
+      "id": "5efb9",
+      "name": "Jax_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "c3db3e63-28af-4a46-af7d-587c3eaac4a3@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 71
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "04fc1": {
+      "importer": "texture",
+      "uuid": "c3db3e63-28af-4a46-af7d-587c3eaac4a3@04fc1",
+      "displayName": "",
+      "id": "04fc1",
+      "name": "DR_01_2_Albedo.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/FartTroll_Asset PA/FartTroll_Asset PA/Character/Extra_Bunny/DR_01_2_Albedo.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "36c77": {
+      "importer": "texture",
+      "uuid": "c3db3e63-28af-4a46-af7d-587c3eaac4a3@36c77",
+      "displayName": "",
+      "id": "36c77",
+      "name": "base_color_texture1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/FartTroll_Asset PA/FartTroll_Asset PA/Character/Extra_Bunny/Jax.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6df2a": {
+      "importer": "gltf-material",
+      "uuid": "c3db3e63-28af-4a46-af7d-587c3eaac4a3@6df2a",
+      "displayName": "",
+      "id": "6df2a",
+      "name": "BTM_shd.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d33a0": {
+      "importer": "gltf-material",
+      "uuid": "c3db3e63-28af-4a46-af7d-587c3eaac4a3@d33a0",
+      "displayName": "",
+      "id": "d33a0",
+      "name": "JaxM1.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6aac0": {
+      "importer": "gltf-scene",
+      "uuid": "c3db3e63-28af-4a46-af7d-587c3eaac4a3@6aac0",
+      "displayName": "",
+      "id": "6aac0",
+      "name": "Jax_base.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "DR_01_2_Albedo.png",
+        "uri": "db://assets/FartTroll_Asset PA/FartTroll_Asset PA/Character/Extra_Bunny/DR_01_2_Albedo.png"
+      },
+      {
+        "name": "base_color_texture1",
+        "uri": "db://assets/FartTroll_Asset PA/FartTroll_Asset PA/Character/Extra_Bunny/Jax.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "c3db3e63-28af-4a46-af7d-587c3eaac4a3@6aac0",
+    "assetFinder": {
+      "meshes": [
+        "c3db3e63-28af-4a46-af7d-587c3eaac4a3@5efb9"
+      ],
+      "skeletons": [
+        "c3db3e63-28af-4a46-af7d-587c3eaac4a3@438fe"
+      ],
+      "textures": [
+        "c3db3e63-28af-4a46-af7d-587c3eaac4a3@04fc1",
+        "c3db3e63-28af-4a46-af7d-587c3eaac4a3@36c77"
+      ],
+      "materials": [
+        "c3db3e63-28af-4a46-af7d-587c3eaac4a3@6df2a",
+        "c3db3e63-28af-4a46-af7d-587c3eaac4a3@d33a0"
+      ],
+      "scenes": [
+        "c3db3e63-28af-4a46-af7d-587c3eaac4a3@6aac0"
+      ]
+    }
+  }
+}

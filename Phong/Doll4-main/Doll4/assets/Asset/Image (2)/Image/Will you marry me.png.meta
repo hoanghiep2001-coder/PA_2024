@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "8c97421a-d957-47a9-8919-c328274d932f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 299,
+  "height": 121,
+  "platformSettings": {},
+  "subMetas": {
+    "Will you marry me": {
+      "ver": "1.0.6",
+      "uuid": "95198d35-2120-436b-9b08-1a10c7517c76",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "8c97421a-d957-47a9-8919-c328274d932f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 299,
+      "height": 121,
+      "rawWidth": 299,
+      "rawHeight": 121,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

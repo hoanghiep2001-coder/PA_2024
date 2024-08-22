@@ -105,8 +105,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           this.node.setPosition(pos);
           this.node.getComponent("cc.UIOpacity").opacity = 120;
           this.stick.getComponent("cc.UIOpacity").opacity = 120;
-          this.stick.setPosition(pos);
-          this.handleIronSourcePlaySound();
+          this.stick.setPosition(pos); // this.handleIronSourcePlaySound();
         }
 
         stickMove(event) {

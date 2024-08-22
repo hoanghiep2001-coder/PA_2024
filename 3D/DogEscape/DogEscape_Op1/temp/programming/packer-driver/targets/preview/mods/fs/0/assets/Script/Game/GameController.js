@@ -86,11 +86,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             if (cc.sys.os == cc.sys.OS_ANDROID || cc.sys.os == cc.sys.ANDROID) {
               mraid.open("https://play.google.com/store/apps/details?id=com.an.hidenseek.runaway");
               return;
-            } // if (cc.sys.os == cc.sys.OS_IOS || cc.sys.os == cc.sys.IPHONE || cc.sys.os == cc.sys.IPAD) {
-            //     mraid.open("https://itunes.apple.com/us/app/id6450246575?mt=8");
-            //     return;
-            // }
+            }
 
+            if (cc.sys.os == cc.sys.OS_IOS || cc.sys.os == cc.sys.IPHONE || cc.sys.os == cc.sys.IPAD) {
+              mraid.open("https://itunes.apple.com/us/app/id6450246575?mt=8");
+              return;
+            }
 
             mraid.open("https://play.google.com/store/apps/details?id=com.an.hidenseek.runaway");
             return;

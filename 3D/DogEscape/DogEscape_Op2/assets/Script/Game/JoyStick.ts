@@ -30,9 +30,11 @@ export class JoyStick extends Component {
   @property
   public angleMove: number | null = null;
 
+  
   controlCat: Component = null;
   setTimeOut: any;
   currentPos: Vec2 = null;
+
 
   start() {
     this.controlCat = this.controlCubeBox.getComponent("CatController");
@@ -66,7 +68,8 @@ export class JoyStick extends Component {
     this.node.getComponent("cc.UIOpacity").opacity = 120;
     this.stick.getComponent("cc.UIOpacity").opacity = 120;
     this.stick.setPosition(pos);
-    this.handleIronSourcePlaySound();
+    
+    // this.handleIronSourcePlaySound();
   }
 
 

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "0c7bbb70-8eba-462d-8523-572995c70ded",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 334,
+  "height": 363,
+  "platformSettings": {},
+  "subMetas": {
+    "vendingmachine2": {
+      "ver": "1.0.6",
+      "uuid": "728891c7-861d-4ee8-909e-06fe7962d66d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "0c7bbb70-8eba-462d-8523-572995c70ded",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 332,
+      "height": 361,
+      "rawWidth": 334,
+      "rawHeight": 363,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

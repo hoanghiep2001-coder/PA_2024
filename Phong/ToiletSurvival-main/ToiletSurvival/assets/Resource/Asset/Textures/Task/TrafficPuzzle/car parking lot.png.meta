@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "587db859-4427-44aa-a4db-acb485f3326f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2467,
+  "height": 2065,
+  "platformSettings": {},
+  "subMetas": {
+    "car parking lot": {
+      "ver": "1.0.6",
+      "uuid": "62010a0c-102c-464d-adaa-889de4b94b65",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "587db859-4427-44aa-a4db-acb485f3326f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2467,
+      "height": 2065,
+      "rawWidth": 2467,
+      "rawHeight": 2065,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

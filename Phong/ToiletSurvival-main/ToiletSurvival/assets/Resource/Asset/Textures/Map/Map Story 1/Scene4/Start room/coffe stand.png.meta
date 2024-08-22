@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "9e412f34-9576-4bc1-ada3-dc74d80144f2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 487,
+  "height": 610,
+  "platformSettings": {},
+  "subMetas": {
+    "coffe stand": {
+      "ver": "1.0.6",
+      "uuid": "b0a1994f-21e6-421d-af19-73ed67abeb68",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9e412f34-9576-4bc1-ada3-dc74d80144f2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 485,
+      "height": 608,
+      "rawWidth": 487,
+      "rawHeight": 610,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "92e02d6e-9bc1-44aa-bd74-5c22f760c42f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 243,
+  "height": 805,
+  "platformSettings": {},
+  "subMetas": {
+    "Giay UI": {
+      "ver": "1.0.6",
+      "uuid": "78ed7d40-5fad-47e3-8afe-80cc53f9a00c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "92e02d6e-9bc1-44aa-bd74-5c22f760c42f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 243,
+      "height": 805,
+      "rawWidth": 243,
+      "rawHeight": 805,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

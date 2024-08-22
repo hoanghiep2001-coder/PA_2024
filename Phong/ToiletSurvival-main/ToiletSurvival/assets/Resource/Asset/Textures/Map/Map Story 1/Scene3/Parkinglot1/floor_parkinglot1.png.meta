@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f0a69589-5caf-450a-be91-0be283055500",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 4187,
+  "height": 1419,
+  "platformSettings": {},
+  "subMetas": {
+    "floor_parkinglot1": {
+      "ver": "1.0.6",
+      "uuid": "dafed623-66e9-4d38-8f1f-23e177767c9e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f0a69589-5caf-450a-be91-0be283055500",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 4187,
+      "height": 1419,
+      "rawWidth": 4187,
+      "rawHeight": 1419,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

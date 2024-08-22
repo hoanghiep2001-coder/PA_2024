@@ -1,0 +1,256 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8ce0c169-b383-4348-bf3c-6a29a90edea0",
+  "files": [
+    "__original-animation-2.cconb",
+    "__original-animation-0.cconb",
+    "__original-animation-1.cconb"
+  ],
+  "subMetas": {
+    "d0a32": {
+      "importer": "gltf-mesh",
+      "uuid": "8ce0c169-b383-4348-bf3c-6a29a90edea0@d0a32",
+      "displayName": "",
+      "id": "d0a32",
+      "name": "Duck.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9bb67": {
+      "importer": "gltf-animation",
+      "uuid": "8ce0c169-b383-4348-bf3c-6a29a90edea0@9bb67",
+      "displayName": "",
+      "id": "9bb67",
+      "name": "Duck_fly.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.6333333253860474
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "cc203": {
+      "importer": "gltf-animation",
+      "uuid": "8ce0c169-b383-4348-bf3c-6a29a90edea0@cc203",
+      "displayName": "",
+      "id": "cc203",
+      "name": "Duck_die.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.30000001192092896
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "97dc2": {
+      "importer": "gltf-animation",
+      "uuid": "8ce0c169-b383-4348-bf3c-6a29a90edea0@97dc2",
+      "displayName": "",
+      "id": "97dc2",
+      "name": "Duck_lv5.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.5666667222976685
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "8ce0c169-b383-4348-bf3c-6a29a90edea0@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 25
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c71": {
+      "importer": "gltf-embeded-image",
+      "uuid": "8ce0c169-b383-4348-bf3c-6a29a90edea0@43c71",
+      "displayName": "",
+      "id": "43c71",
+      "name": "file1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "8ce0c169-b383-4348-bf3c-6a29a90edea0@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "8ce0c169-b383-4348-bf3c-6a29a90edea0@43c71"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bc290": {
+      "importer": "gltf-material",
+      "uuid": "8ce0c169-b383-4348-bf3c-6a29a90edea0@bc290",
+      "displayName": "",
+      "id": "bc290",
+      "name": "Texture.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4de22": {
+      "importer": "gltf-scene",
+      "uuid": "8ce0c169-b383-4348-bf3c-6a29a90edea0@4de22",
+      "displayName": "",
+      "id": "4de22",
+      "name": "Duck_lv5.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file1",
+        "uri": "8ce0c169-b383-4348-bf3c-6a29a90edea0@43c71"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "Duck_fly",
+        "duration": 0.6333333253860474,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Duck_fly",
+            "from": 0,
+            "to": 0.6333333253860474,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Duck_die",
+        "duration": 0.30000001192092896,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Duck_die",
+            "from": 0,
+            "to": 0.30000001192092896,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Duck_lv5",
+        "duration": 1.5666667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Duck_lv5",
+            "from": 0,
+            "to": 1.5666667222976685,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "8ce0c169-b383-4348-bf3c-6a29a90edea0@4de22",
+    "assetFinder": {
+      "meshes": [
+        "8ce0c169-b383-4348-bf3c-6a29a90edea0@d0a32"
+      ],
+      "skeletons": [
+        "8ce0c169-b383-4348-bf3c-6a29a90edea0@438fe"
+      ],
+      "textures": [
+        "8ce0c169-b383-4348-bf3c-6a29a90edea0@d20e9"
+      ],
+      "materials": [
+        "8ce0c169-b383-4348-bf3c-6a29a90edea0@bc290"
+      ],
+      "scenes": [
+        "8ce0c169-b383-4348-bf3c-6a29a90edea0@4de22"
+      ]
+    }
+  }
+}

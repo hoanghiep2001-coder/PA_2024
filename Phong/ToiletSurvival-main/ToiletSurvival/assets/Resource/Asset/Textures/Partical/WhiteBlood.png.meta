@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "fd9e0109-805b-4b55-91be-0ac4b74d6644",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 3072,
+  "height": 512,
+  "platformSettings": {},
+  "subMetas": {
+    "WhiteBlood": {
+      "ver": "1.0.6",
+      "uuid": "b939c436-f815-4a1e-9cef-10e8ed74dacb",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "fd9e0109-805b-4b55-91be-0ac4b74d6644",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 36.5,
+      "offsetY": 47.5,
+      "trimX": 155,
+      "trimY": 65,
+      "width": 2835,
+      "height": 287,
+      "rawWidth": 3072,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

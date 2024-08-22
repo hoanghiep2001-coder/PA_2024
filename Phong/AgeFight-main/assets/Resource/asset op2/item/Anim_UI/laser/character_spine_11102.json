@@ -1,0 +1,324 @@
+{
+"skeleton": {
+	"hash": "UgMTjTgYxF4",
+	"spine": "3.8-from-4.0-from-4.1.24",
+	"x": -123.07,
+	"y": -27.96,
+	"width": 357.54,
+	"height": 370.48,
+	"images": "../images/",
+	"audio": "D:/Stone Age/images/Doi1"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Character", "parent": "root", "color": "ff0000ff" },
+	{ "name": "than", "parent": "Character", "length": 56.97, "rotation": 84.86, "x": -1.04, "y": 17.53 },
+	{ "name": "than2", "parent": "than", "length": 56.28, "rotation": 7.27, "x": 56.97 },
+	{ "name": "than3", "parent": "than2", "length": 45.88, "rotation": 7.87, "x": 56.28 },
+	{ "name": "dau", "parent": "than3", "length": 108.7, "rotation": -1.58, "x": 44.54, "y": -0.58 },
+	{ "name": "dau2", "parent": "dau", "length": 44.93, "rotation": -88.49, "x": 119.97, "y": -21.17 },
+	{ "name": "dau3", "parent": "dau2", "length": 31.44, "rotation": -14.89, "x": 44.93 },
+	{ "name": "dau4", "parent": "dau", "length": 30.67, "rotation": -122.85, "x": 79.2, "y": -62.88 },
+	{ "name": "dau5", "parent": "dau", "length": 32.26, "rotation": 169.94, "x": 72.49, "y": 61.88 },
+	{ "name": "dau6", "parent": "dau5", "length": 42.02, "rotation": 17.2, "x": 32.82, "y": 0.08 },
+	{ "name": "than4", "parent": "than3", "length": 223.93, "rotation": -96.98, "x": 2.49, "y": 102.04 },
+	{ "name": "shadow", "parent": "Character", "x": -8.36, "y": 23.9 },
+	{ "name": "VFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00002", "parent": "Character", "y": 118.76, "color": "0092ffff" },
+	{ "name": "shoot_position", "parent": "than3", "rotation": -80.57, "x": -40.23, "y": 85.03 },
+	{ "name": "than5", "parent": "than4", "x": 311.31, "y": 18.14 }
+],
+"slots": [
+	{ "name": "shadow", "bone": "shadow", "attachment": "Doi1/shadow" },
+	{ "name": "than", "bone": "than", "attachment": "Doi1/than" },
+	{ "name": "dau", "bone": "dau", "attachment": "Doi1/dau" },
+	{ "name": "VFx/Fire Bullet/FB1", "bone": "than5", "color": "ef0c0cff" },
+	{ "name": "vu khi", "bone": "than4", "attachment": "Doi1/vu khi" },
+	{ "name": "VFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00002", "bone": "VFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00002" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"VFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00002": {
+				"VFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_": { "width": 1000, "height": 1000 }
+			},
+			"VFx/Fire Bullet/FB1": {
+				"VFx/Fire Bullet/FB1": { "x": 80.73, "y": -2.99, "scaleX": 0.1118, "scaleY": 0.1118, "width": 1289, "height": 491 }
+			}
+		}
+	},
+	{
+		"name": "ally",
+		"attachments": {
+			"vu khi": {
+				"Doi1/vu khi": {
+					"name": "Doi7Banxa/vu khi",
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -18.77, -104.24, -17.15, 68.75, 329.83, 65.5, 328.21, -107.49 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 173,
+					"height": 347
+				}
+			}
+		}
+	},
+	{
+		"name": "enemy",
+		"attachments": {
+			"vu khi": {
+				"Doi1/vu khi": { "name": "Doi7Banxa/Doi7Enemy/vu khi", "type": "linkedmesh", "skin": "ally", "parent": "Doi1/vu khi", "width": 173, "height": 347 }
+			}
+		}
+	}
+],
+"events": {
+	"Damage": {},
+	"Start_Damage": {}
+},
+"animations": {
+	"Attack": {
+		"slots": {
+			"VFx/Fire Bullet/FB1": {
+				"attachment": [
+					{ "time": 0.3667, "name": "VFx/Fire Bullet/FB1" },
+					{ "time": 0.4667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"than2": {
+				"rotate": [
+					{},
+					{ "time": 0.2667, "angle": 3.13 },
+					{ "time": 0.4, "angle": 4.49 },
+					{ "time": 0.5, "angle": 5.86 },
+					{ "time": 0.6667, "angle": 1.41 },
+					{ "time": 0.8333 }
+				]
+			},
+			"than3": {
+				"rotate": [
+					{},
+					{ "time": 0.2667, "angle": 3.56 },
+					{ "time": 0.4, "angle": 4.56 },
+					{ "time": 0.5, "angle": -1.48 },
+					{ "time": 0.6667, "angle": -5.51 },
+					{ "time": 0.8333 }
+				]
+			},
+			"dau": {
+				"rotate": [
+					{},
+					{ "time": 0.2667, "angle": 1.19 },
+					{ "time": 0.4, "angle": -3.38 },
+					{ "time": 0.5, "angle": 0.99 },
+					{ "time": 0.6667, "angle": 3.9 },
+					{ "time": 0.8333 }
+				]
+			},
+			"dau2": {
+				"rotate": [
+					{},
+					{ "time": 0.2667, "angle": -1.94 },
+					{ "time": 0.4, "angle": -5.96 },
+					{ "time": 0.5, "angle": 5.42 },
+					{ "time": 0.6667 }
+				]
+			},
+			"dau3": {
+				"rotate": [
+					{},
+					{ "time": 0.2667, "angle": -1.94 },
+					{ "time": 0.4, "angle": -5.96 },
+					{ "time": 0.5, "angle": 5.42 },
+					{ "time": 0.6667 }
+				]
+			},
+			"dau4": {
+				"rotate": [
+					{},
+					{ "time": 0.2667, "angle": -1.94 },
+					{ "time": 0.4, "angle": -5.96 },
+					{ "time": 0.5, "angle": 5.42 },
+					{ "time": 0.6667 }
+				]
+			},
+			"dau5": {
+				"rotate": [
+					{},
+					{ "time": 0.2667, "angle": -1.94 },
+					{ "time": 0.4, "angle": -5.96 },
+					{ "time": 0.5, "angle": 5.42 },
+					{ "time": 0.6667 }
+				]
+			},
+			"dau6": {
+				"rotate": [
+					{},
+					{ "time": 0.2667, "angle": -1.94 },
+					{ "time": 0.4, "angle": -5.96 },
+					{ "time": 0.5, "angle": 5.42 },
+					{ "time": 0.6667 }
+				]
+			},
+			"than4": {
+				"rotate": [
+					{},
+					{ "time": 0.2667, "angle": -6.82 },
+					{ "time": 0.4, "angle": -8.78 },
+					{ "time": 0.5, "angle": 2.68 },
+					{ "time": 0.5667, "angle": 2.27, "curve": "stepped" },
+					{ "time": 0.6667, "angle": 2.27 },
+					{ "time": 0.8333 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.2667, "x": 19.66, "y": -6.76 },
+					{ "time": 0.4, "x": 20.95, "y": -2.81 },
+					{ "time": 0.5, "x": 24.47, "y": 7.4 },
+					{ "time": 0.5667, "x": -0.52, "y": -0.05, "curve": "stepped" },
+					{ "time": 0.6667, "x": -0.52, "y": -0.05 },
+					{ "time": 0.8333 }
+				]
+			},
+			"shadow": {
+				"translate": [
+					{},
+					{ "time": 0.2667, "x": -13.26, "curve": "stepped" },
+					{ "time": 0.4, "x": -13.26 },
+					{ "time": 0.5 }
+				],
+				"scale": [
+					{ "time": 0.4 },
+					{ "time": 0.5, "x": 1.096 },
+					{ "time": 0.6667 }
+				]
+			},
+			"shoot_position": {
+				"translate": [
+					{ "time": 0.4 },
+					{ "time": 0.5, "x": 59.24, "y": -301.32 },
+					{ "time": 0.6667 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.4, "name": "Start_Damage" },
+			{ "time": 0.5, "name": "Damage" }
+		]
+	},
+	"Idle": {
+		"bones": {
+			"than": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": -2.6 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": -2.6 },
+					{ "time": 2 }
+				]
+			},
+			"than2": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": -1.9 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": -1.9 },
+					{ "time": 2 }
+				]
+			},
+			"than3": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": -0.82 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": -0.82 },
+					{ "time": 2 }
+				]
+			},
+			"dau": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 2.16 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": 2.16 },
+					{ "time": 2 }
+				]
+			},
+			"dau2": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 4.36 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": 4.36 },
+					{ "time": 2 }
+				]
+			},
+			"dau3": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 3.21 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": 3.21 },
+					{ "time": 2 }
+				]
+			},
+			"dau4": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 7.23 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": 7.23 },
+					{ "time": 2 }
+				]
+			},
+			"dau5": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": -4.42 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": -4.42 },
+					{ "time": 2 }
+				]
+			},
+			"dau6": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": -0.37 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": -0.37 },
+					{ "time": 2 }
+				]
+			},
+			"than4": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": -0.92 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": -0.92 },
+					{ "time": 2 }
+				]
+			},
+			"shadow": {
+				"translate": [
+					{},
+					{ "time": 0.5, "x": 11.41 },
+					{ "time": 1 },
+					{ "time": 1.5, "x": 11.41 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.5, "x": 0.959 },
+					{ "time": 1 },
+					{ "time": 1.5, "x": 0.959 },
+					{ "time": 2 }
+				]
+			}
+		}
+	}
+}
+}

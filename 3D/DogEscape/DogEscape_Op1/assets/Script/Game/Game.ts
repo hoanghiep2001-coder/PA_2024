@@ -77,7 +77,7 @@ export class Game extends Component {
 
   start() {
     this.reset();
-    // this.AudioManager.playSound(Constants.SoundTrack.bgSound);
+    this.AudioManager.playSound(Constants.SoundTrack.bgSound);
     // this.AudioManager.playSound(Constants.SoundTrack.catAngrySound);
 
     this.Cat.active = true;
@@ -95,8 +95,8 @@ export class Game extends Component {
     Constants.wallLaser = true;
     Constants.isEatFood = false;
 
-     // mtg & applovin
-     Constants.isWinGame && this.HideMask.on(Node.EventType.TOUCH_START, this.GameController.installHandle, this);
+    // mtg & applovin
+    Constants.isWinGame && this.HideMask.on(Node.EventType.TOUCH_START, this.GameController.installHandle, this);
   }
 
 
@@ -139,11 +139,11 @@ export class Game extends Component {
     this.CTA.getComponent(Animation).play("CTA_Anim");
     this.title.active = false;
     this.icon.active = false;
-   
+
 
     if (bool) {
       this.JoyStickComponent.fakeBg.getComponent(Animation).play();
-      this.scheduleOnce(() => {director.loadScene("CatScene2")}, 1.5)
+      this.scheduleOnce(() => { director.loadScene("CatScene2") }, 1.5)
       Constants.isWinGame = true;
       // this.CTA_tryBtn.active = false;
       // this.CTA_Download.on(Node.EventType.TOUCH_START, this.GameController.installHandle, this);
@@ -155,7 +155,7 @@ export class Game extends Component {
       this.AudioManager.stopSound(Constants.SoundTrack.catAngrySound);
 
       // mtg & applovin
-     this.HideMask.on(Node.EventType.TOUCH_START, this.GameController.installHandle, this);
+      this.HideMask.on(Node.EventType.TOUCH_START, this.GameController.installHandle, this);
     }
   }
 
@@ -195,27 +195,27 @@ export class Game extends Component {
   }
 
 
-private handleMuteSoundIronSource(): void {
+  private handleMuteSoundIronSource(): void {
     Constants.ironSource.State = parseInt(localStorage.getItem("cocosSoundState"), 10)
 
     if (Constants.ironSource.State) {
-        if (Constants.ironSource.State === 1 && !Constants.ironSource.SoundState && !Constants.ironSource.isEndGame) {
-            Constants.ironSource.SoundState = true;
-            this.AudioManager.playSound(Constants.SoundTrack.bgSound);
-        }
+      if (Constants.ironSource.State === 1 && !Constants.ironSource.SoundState && !Constants.ironSource.isEndGame) {
+        Constants.ironSource.SoundState = true;
+        this.AudioManager.playSound(Constants.SoundTrack.bgSound);
+      }
 
-        if (Constants.ironSource.State === 2 && Constants.ironSource.SoundState) {
-            Constants.ironSource.SoundState = false;
-            this.AudioManager.stopAllSound();
-        }
+      if (Constants.ironSource.State === 2 && Constants.ironSource.SoundState) {
+        Constants.ironSource.SoundState = false;
+        this.AudioManager.stopAllSound();
+      }
     }
-}
+  }
 
 
   update(deltaTime: number) {
     this.responsive();
     // Constants.isTouch && !Constants.ironSource.isEndGame && this.handleCountingTime();
-    this.handleMuteSoundIronSource();
+    // this.handleMuteSoundIronSource();
   }
 
 

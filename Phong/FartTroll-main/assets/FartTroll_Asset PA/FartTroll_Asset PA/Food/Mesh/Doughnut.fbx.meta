@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ae9ab3da-60bf-4013-9581-2b57cdf91b3f",
+  "files": [],
+  "subMetas": {
+    "49010": {
+      "importer": "gltf-embeded-image",
+      "uuid": "ae9ab3da-60bf-4013-9581-2b57cdf91b3f@49010",
+      "displayName": "",
+      "id": "49010",
+      "name": "file10.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6ad37": {
+      "importer": "gltf-mesh",
+      "uuid": "ae9ab3da-60bf-4013-9581-2b57cdf91b3f@6ad37",
+      "displayName": "",
+      "id": "6ad37",
+      "name": "Doughnut.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a39a5": {
+      "importer": "texture",
+      "uuid": "ae9ab3da-60bf-4013-9581-2b57cdf91b3f@a39a5",
+      "displayName": "",
+      "id": "a39a5",
+      "name": "file10.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ae9ab3da-60bf-4013-9581-2b57cdf91b3f@49010"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a7424": {
+      "importer": "gltf-material",
+      "uuid": "ae9ab3da-60bf-4013-9581-2b57cdf91b3f@a7424",
+      "displayName": "",
+      "id": "a7424",
+      "name": "lambert5.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "491cb": {
+      "importer": "gltf-scene",
+      "uuid": "ae9ab3da-60bf-4013-9581-2b57cdf91b3f@491cb",
+      "displayName": "",
+      "id": "491cb",
+      "name": "Doughnut.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file10",
+        "uri": "ae9ab3da-60bf-4013-9581-2b57cdf91b3f@49010"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "ae9ab3da-60bf-4013-9581-2b57cdf91b3f@491cb",
+    "assetFinder": {
+      "meshes": [
+        "ae9ab3da-60bf-4013-9581-2b57cdf91b3f@6ad37"
+      ],
+      "skeletons": [],
+      "textures": [
+        "ae9ab3da-60bf-4013-9581-2b57cdf91b3f@a39a5"
+      ],
+      "materials": [
+        "ae9ab3da-60bf-4013-9581-2b57cdf91b3f@a7424"
+      ],
+      "scenes": [
+        "ae9ab3da-60bf-4013-9581-2b57cdf91b3f@491cb"
+      ]
+    }
+  }
+}

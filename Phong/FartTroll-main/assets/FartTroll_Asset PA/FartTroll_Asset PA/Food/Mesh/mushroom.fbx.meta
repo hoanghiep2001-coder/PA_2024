@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "2ecda2f8-43e2-4ed4-80ae-fd54ff7d5eea",
+  "files": [],
+  "subMetas": {
+    "13245": {
+      "importer": "gltf-mesh",
+      "uuid": "2ecda2f8-43e2-4ed4-80ae-fd54ff7d5eea@13245",
+      "displayName": "",
+      "id": "13245",
+      "name": "mushroom.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f6a6d": {
+      "importer": "gltf-embeded-image",
+      "uuid": "2ecda2f8-43e2-4ed4-80ae-fd54ff7d5eea@f6a6d",
+      "displayName": "",
+      "id": "f6a6d",
+      "name": "file11.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "386a4": {
+      "importer": "texture",
+      "uuid": "2ecda2f8-43e2-4ed4-80ae-fd54ff7d5eea@386a4",
+      "displayName": "",
+      "id": "386a4",
+      "name": "file11.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "2ecda2f8-43e2-4ed4-80ae-fd54ff7d5eea@f6a6d"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "62b33": {
+      "importer": "gltf-material",
+      "uuid": "2ecda2f8-43e2-4ed4-80ae-fd54ff7d5eea@62b33",
+      "displayName": "",
+      "id": "62b33",
+      "name": "lambert6.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a51c3": {
+      "importer": "gltf-scene",
+      "uuid": "2ecda2f8-43e2-4ed4-80ae-fd54ff7d5eea@a51c3",
+      "displayName": "",
+      "id": "a51c3",
+      "name": "mushroom.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file11",
+        "uri": "2ecda2f8-43e2-4ed4-80ae-fd54ff7d5eea@f6a6d"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "2ecda2f8-43e2-4ed4-80ae-fd54ff7d5eea@a51c3",
+    "assetFinder": {
+      "meshes": [
+        "2ecda2f8-43e2-4ed4-80ae-fd54ff7d5eea@13245"
+      ],
+      "skeletons": [],
+      "textures": [
+        "2ecda2f8-43e2-4ed4-80ae-fd54ff7d5eea@386a4"
+      ],
+      "materials": [
+        "2ecda2f8-43e2-4ed4-80ae-fd54ff7d5eea@62b33"
+      ],
+      "scenes": [
+        "2ecda2f8-43e2-4ed4-80ae-fd54ff7d5eea@a51c3"
+      ]
+    }
+  }
+}

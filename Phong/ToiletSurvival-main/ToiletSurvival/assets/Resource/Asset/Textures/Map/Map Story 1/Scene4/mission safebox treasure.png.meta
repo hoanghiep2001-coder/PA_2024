@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "18c26028-54c1-4779-97b5-f1cb03f708f7",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 3185,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "mission safebox treasure": {
+      "ver": "1.0.6",
+      "uuid": "b03e790e-b198-4963-a9c4-9d8b0b084311",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "18c26028-54c1-4779-97b5-f1cb03f708f7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -281.5,
+      "offsetY": -8,
+      "trimX": 83,
+      "trimY": 54,
+      "width": 2456,
+      "height": 988,
+      "rawWidth": 3185,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

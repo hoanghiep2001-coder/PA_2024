@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5d66254b-6f0f-4cfd-840e-6ee7ce8f437c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 607,
+  "height": 405,
+  "platformSettings": {},
+  "subMetas": {
+    "ProgressBarIconScene6": {
+      "ver": "1.0.6",
+      "uuid": "a2782b07-8b55-4d41-ba4b-f5999909523c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5d66254b-6f0f-4cfd-840e-6ee7ce8f437c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -2,
+      "offsetY": -4,
+      "trimX": 197,
+      "trimY": 102,
+      "width": 209,
+      "height": 209,
+      "rawWidth": 607,
+      "rawHeight": 405,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "cc103f18-8a2d-4860-addd-da3dee1ce449",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1037,
+  "height": 456,
+  "platformSettings": {},
+  "subMetas": {
+    "milk n drink": {
+      "ver": "1.0.6",
+      "uuid": "562b3786-dd3c-4df3-ac14-e26ba10444ca",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "cc103f18-8a2d-4860-addd-da3dee1ce449",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1037,
+      "height": 456,
+      "rawWidth": 1037,
+      "rawHeight": 456,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

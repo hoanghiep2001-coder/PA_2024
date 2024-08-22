@@ -9,17 +9,15 @@ window.onload = function(){
 function onReadyCallback(){
 	//no need to listen to this event anymore
 	dapi.removeEventListener("ready", onReadyCallback);
-    let isAudioEnabled = !!dapi.getAudioVolume();
+      let isAudioEnabled = !!dapi.getAudioVolume();
 
 	if(dapi.isViewable()){
 		adVisibleCallback({isViewable: true});
 	}
 
-	// localStorage.removeItem("cocosSoundState");
-
 	dapi.addEventListener("viewableChange", adVisibleCallback);
 	dapi.addEventListener("adResized", adResizeCallback);
-    dapi.addEventListener("audioVolumeChange", audioVolumeChangeCallback);
+      dapi.addEventListener("audioVolumeChange",         audioVolumeChangeCallback);
 }
 
 function adVisibleCallback(event){
@@ -46,9 +44,7 @@ function audioVolumeChangeCallback(volume){
 	let isAudioEnabled = !!volume;
 	if (isAudioEnabled){
 		//START or turn on the sound
-		localStorage.setItem("cocosSoundState", 1)
 	} else {
 		//PAUSE the turn off the sound
-		localStorage.setItem("cocosSoundState", 2)
 	}
 }

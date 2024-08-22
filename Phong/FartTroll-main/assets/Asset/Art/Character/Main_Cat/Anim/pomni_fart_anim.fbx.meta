@@ -1,0 +1,500 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3f37e591-298c-430c-b9e7-00cabddf80dd",
+  "files": [
+    "__original-animation-2.cconb",
+    "__original-animation-0.cconb",
+    "__original-animation-1.cconb",
+    "__original-animation-3.cconb"
+  ],
+  "subMetas": {
+    "23446": {
+      "importer": "gltf-animation",
+      "uuid": "3f37e591-298c-430c-b9e7-00cabddf80dd@23446",
+      "displayName": "",
+      "id": "23446",
+      "name": "pomni_fart_7.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0.3,
+          "to": 0.35
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "6fa2b": {
+      "importer": "gltf-animation",
+      "uuid": "3f37e591-298c-430c-b9e7-00cabddf80dd@6fa2b",
+      "displayName": "",
+      "id": "6fa2b",
+      "name": "pomni_fart_start.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.5
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "2385b": {
+      "importer": "gltf-animation",
+      "uuid": "3f37e591-298c-430c-b9e7-00cabddf80dd@2385b",
+      "displayName": "",
+      "id": "2385b",
+      "name": "pomni_fart_1.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.05
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "b23e1": {
+      "importer": "gltf-animation",
+      "uuid": "3f37e591-298c-430c-b9e7-00cabddf80dd@b23e1",
+      "displayName": "",
+      "id": "b23e1",
+      "name": "pomni_fart_2.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0.05,
+          "to": 0.1
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "c4f03": {
+      "importer": "gltf-animation",
+      "uuid": "3f37e591-298c-430c-b9e7-00cabddf80dd@c4f03",
+      "displayName": "",
+      "id": "c4f03",
+      "name": "pomni_fart_3.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0.1,
+          "to": 0.15
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "e16df": {
+      "importer": "gltf-animation",
+      "uuid": "3f37e591-298c-430c-b9e7-00cabddf80dd@e16df",
+      "displayName": "",
+      "id": "e16df",
+      "name": "pomni_fart_4.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0.15,
+          "to": 0.2
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "12c90": {
+      "importer": "gltf-animation",
+      "uuid": "3f37e591-298c-430c-b9e7-00cabddf80dd@12c90",
+      "displayName": "",
+      "id": "12c90",
+      "name": "pomni_fart_5.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0.2,
+          "to": 0.25
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "3ec15": {
+      "importer": "gltf-animation",
+      "uuid": "3f37e591-298c-430c-b9e7-00cabddf80dd@3ec15",
+      "displayName": "",
+      "id": "3ec15",
+      "name": "pomni_fart_6.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0.25,
+          "to": 0.3
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "09142": {
+      "importer": "gltf-animation",
+      "uuid": "3f37e591-298c-430c-b9e7-00cabddf80dd@09142",
+      "displayName": "",
+      "id": "09142",
+      "name": "pomni_fart_8.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0.35,
+          "to": 0.4
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "845b8": {
+      "importer": "gltf-animation",
+      "uuid": "3f37e591-298c-430c-b9e7-00cabddf80dd@845b8",
+      "displayName": "",
+      "id": "845b8",
+      "name": "pomni_fart_9.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0.4,
+          "to": 0.45
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "b2e36": {
+      "importer": "gltf-animation",
+      "uuid": "3f37e591-298c-430c-b9e7-00cabddf80dd@b2e36",
+      "displayName": "",
+      "id": "b2e36",
+      "name": "pomni_fart_10.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0.45,
+          "to": 0.5
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "d8f53": {
+      "importer": "gltf-animation",
+      "uuid": "3f37e591-298c-430c-b9e7-00cabddf80dd@d8f53",
+      "displayName": "",
+      "id": "d8f53",
+      "name": "pomni_fart_loop.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.600000023841858
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "0e88a": {
+      "importer": "gltf-animation",
+      "uuid": "3f37e591-298c-430c-b9e7-00cabddf80dd@0e88a",
+      "displayName": "",
+      "id": "0e88a",
+      "name": "pomni_fart_end.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.36666667461395264
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "84fc2": {
+      "importer": "gltf-animation",
+      "uuid": "3f37e591-298c-430c-b9e7-00cabddf80dd@84fc2",
+      "displayName": "",
+      "id": "84fc2",
+      "name": "pomni_fart_anim.animation",
+      "userData": {
+        "gltfIndex": 3,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.4666666984558105
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "5b2dd": {
+      "importer": "gltf-scene",
+      "uuid": "3f37e591-298c-430c-b9e7-00cabddf80dd@5b2dd",
+      "displayName": "",
+      "id": "5b2dd",
+      "name": "pomni_fart_anim.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "pomni_fart_start",
+        "duration": 0.5,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "pomni_fart_start",
+            "from": 0,
+            "to": 0.5,
+            "wrapMode": 2
+          },
+          {
+            "name": "pomni_fart_1",
+            "from": 0,
+            "to": 0.05,
+            "wrapMode": 1,
+            "speed": 1
+          },
+          {
+            "name": "pomni_fart_2",
+            "from": 0.05,
+            "to": 0.1,
+            "wrapMode": 1,
+            "speed": 1
+          },
+          {
+            "name": "pomni_fart_3",
+            "from": 0.1,
+            "to": 0.15,
+            "wrapMode": 1,
+            "speed": 1
+          },
+          {
+            "name": "pomni_fart_4",
+            "from": 0.15,
+            "to": 0.2,
+            "wrapMode": 1,
+            "speed": 1
+          },
+          {
+            "name": "pomni_fart_5",
+            "from": 0.2,
+            "to": 0.25,
+            "wrapMode": 1,
+            "speed": 1
+          },
+          {
+            "name": "pomni_fart_6",
+            "from": 0.25,
+            "to": 0.3,
+            "wrapMode": 1,
+            "speed": 1
+          },
+          {
+            "name": "pomni_fart_7",
+            "from": 0.3,
+            "to": 0.35,
+            "wrapMode": 1,
+            "speed": 1
+          },
+          {
+            "name": "pomni_fart_8",
+            "from": 0.35,
+            "to": 0.4,
+            "wrapMode": 1,
+            "speed": 1
+          },
+          {
+            "name": "pomni_fart_9",
+            "from": 0.4,
+            "to": 0.45,
+            "wrapMode": 1,
+            "speed": 1
+          },
+          {
+            "name": "pomni_fart_10",
+            "from": 0.45,
+            "to": 0.5,
+            "wrapMode": 1,
+            "speed": 1
+          }
+        ]
+      },
+      {
+        "name": "pomni_fart_loop",
+        "duration": 1.600000023841858,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "pomni_fart_loop",
+            "from": 0,
+            "to": 1.600000023841858,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "pomni_fart_end",
+        "duration": 0.36666667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "pomni_fart_end",
+            "from": 0,
+            "to": 0.36666667461395264,
+            "wrapMode": 1
+          }
+        ]
+      },
+      {
+        "name": "pomni_fart_anim",
+        "duration": 2.4666666984558105,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "pomni_fart_anim",
+            "from": 0,
+            "to": 2.4666666984558105,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "3f37e591-298c-430c-b9e7-00cabddf80dd@5b2dd",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "3f37e591-298c-430c-b9e7-00cabddf80dd@5b2dd"
+      ]
+    }
+  }
+}

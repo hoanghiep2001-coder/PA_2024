@@ -1,0 +1,57 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "BubbleExplosion",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.11666666666666667,
+  "sample": 60,
+  "speed": 0.2,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": null
+          },
+          {
+            "frame": 0.016666666666666666,
+            "value": {
+              "__uuid__": "988f30ea-67eb-4eff-8248-8fa3b3e4ef06"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "77bf24af-5d9a-48aa-8bd9-eeae540bc7d9"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "b91e2632-f5b0-4605-8bdd-b057889873d2"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "7e7ff319-ea0d-4e65-8147-3270b99e64d0"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "3a12c444-16e3-41a5-b49e-450b12ea6c87"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": null
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

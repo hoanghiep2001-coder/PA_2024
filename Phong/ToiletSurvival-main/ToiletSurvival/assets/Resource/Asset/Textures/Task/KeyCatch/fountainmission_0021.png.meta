@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a63dbd73-94c3-4005-a340-ee2be36372d6",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1920,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "fountainmission_0021": {
+      "ver": "1.0.6",
+      "uuid": "7844a3e6-6dc7-49b2-831c-71df8675c5cc",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a63dbd73-94c3-4005-a340-ee2be36372d6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1920,
+      "height": 1080,
+      "rawWidth": 1920,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

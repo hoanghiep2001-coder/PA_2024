@@ -1,0 +1,69 @@
+
+Bear.png
+size: 598,730
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 2, 95
+  size: 215, 330
+  orig: 258, 330
+  offset: 43, 0
+  index: -1
+Body02
+  rotate: true
+  xy: 266, 513
+  size: 215, 330
+  orig: 258, 330
+  offset: 43, 0
+  index: -1
+Body03
+  rotate: true
+  xy: 266, 357
+  size: 154, 330
+  orig: 258, 330
+  offset: 43, 0
+  index: -1
+Hand_I
+  rotate: true
+  xy: 236, 13
+  size: 143, 211
+  orig: 143, 211
+  offset: 0, 0
+  index: -1
+Hand_O
+  rotate: true
+  xy: 2, 2
+  size: 91, 232
+  orig: 91, 233
+  offset: 0, 0
+  index: -1
+Leg_I
+  rotate: false
+  xy: 449, 2
+  size: 76, 154
+  orig: 93, 161
+  offset: 0, 0
+  index: -1
+Leg_O
+  rotate: false
+  xy: 522, 198
+  size: 71, 157
+  orig: 71, 158
+  offset: 0, 1
+  index: -1
+We01
+  rotate: false
+  xy: 2, 427
+  size: 262, 301
+  orig: 262, 302
+  offset: 0, 0
+  index: -1
+We02
+  rotate: true
+  xy: 219, 158
+  size: 197, 301
+  orig: 197, 302
+  offset: 0, 1
+  index: -1

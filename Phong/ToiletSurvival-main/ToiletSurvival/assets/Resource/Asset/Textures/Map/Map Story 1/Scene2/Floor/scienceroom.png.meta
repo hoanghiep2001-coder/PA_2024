@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "98f10d6c-a60a-4a36-abac-d43793753705",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2337,
+  "height": 1710,
+  "platformSettings": {},
+  "subMetas": {
+    "scienceroom": {
+      "ver": "1.0.6",
+      "uuid": "98e0e19f-bace-492f-8239-1c673a97084b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "98f10d6c-a60a-4a36-abac-d43793753705",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2337,
+      "height": 1710,
+      "rawWidth": 2337,
+      "rawHeight": 1710,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3c7ba84a-fa5f-4713-9788-041463dafcbf",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 464,
+  "height": 59,
+  "platformSettings": {},
+  "subMetas": {
+    "UnlockNewTroops": {
+      "ver": "1.0.6",
+      "uuid": "2aa0dace-69db-4d1d-8588-ed15e05cb3db",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3c7ba84a-fa5f-4713-9788-041463dafcbf",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 464,
+      "height": 59,
+      "rawWidth": 464,
+      "rawHeight": 59,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

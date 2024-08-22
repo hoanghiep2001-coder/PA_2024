@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: shoot2_effect_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: 02a8d8cde145aca419d306701f3156b1, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 8f04cf823f2b6594b857f6995775fc7b, type: 2}
+  - {fileID: 2100000, guid: 97810c9796266374b83735cb2d518101, type: 2}
+  - {fileID: 2100000, guid: c8b65c9a196b4964499e5072f4a1dc7d, type: 2}
+  - {fileID: 2100000, guid: cf668b8c6106dcf4ba69a0e5c277d3f0, type: 2}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "69b3d2fc-4256-47c2-a63d-eda4622e8aa3",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 197,
+  "height": 401,
+  "platformSettings": {},
+  "subMetas": {
+    "den k sang": {
+      "ver": "1.0.6",
+      "uuid": "912c06b3-c835-47c3-8b51-dddc03f977f2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "69b3d2fc-4256-47c2-a63d-eda4622e8aa3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 195,
+      "height": 399,
+      "rawWidth": 197,
+      "rawHeight": 401,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

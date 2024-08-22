@@ -19,8 +19,6 @@ const { ccclass, property } = _decorator;
 @ccclass("Game")
 export class Game extends Component {
 
-
-
   // component
   @property(JoyStick)
   JoyStickComponent: JoyStick = null;
@@ -81,7 +79,7 @@ export class Game extends Component {
 
   start() {
     this.reset();
-    // this.AudioManager.playSound(Constants.SoundTrack.bgSound);
+    this.AudioManager.playSound(Constants.SoundTrack.bgSound);
     // this.AudioManager.playSound(Constants.SoundTrack.catAngrySound);
 
     this.Cat.active = true;
@@ -220,7 +218,7 @@ private handleMuteSoundIronSource(): void {
   update(deltaTime: number) {
     this.responsive();
     // Constants.isTouch && !Constants.ironSource.isEndGame && this.handleCountingTime();
-    this.handleMuteSoundIronSource();
+    // this.handleMuteSoundIronSource();
   }
 
 

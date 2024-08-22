@@ -1,0 +1,106 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6e34a9ae-4ebd-42d6-9682-1bde85727ee6",
+  "files": [],
+  "subMetas": {
+    "a3bcb": {
+      "importer": "gltf-mesh",
+      "uuid": "6e34a9ae-4ebd-42d6-9682-1bde85727ee6@a3bcb",
+      "displayName": "",
+      "id": "a3bcb",
+      "name": "Apple1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8fb9e": {
+      "importer": "texture",
+      "uuid": "6e34a9ae-4ebd-42d6-9682-1bde85727ee6@8fb9e",
+      "displayName": "",
+      "id": "8fb9e",
+      "name": "base_color_texture2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Asset/Art/Level/Level_8/Apple_basecol.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4672b": {
+      "importer": "gltf-material",
+      "uuid": "6e34a9ae-4ebd-42d6-9682-1bde85727ee6@4672b",
+      "displayName": "",
+      "id": "4672b",
+      "name": "Apple.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d5100": {
+      "importer": "gltf-scene",
+      "uuid": "6e34a9ae-4ebd-42d6-9682-1bde85727ee6@d5100",
+      "displayName": "",
+      "id": "d5100",
+      "name": "Apple.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture2",
+        "uri": "db://assets/Asset/Art/Level/Level_8/Apple_basecol.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "6e34a9ae-4ebd-42d6-9682-1bde85727ee6@d5100",
+    "assetFinder": {
+      "meshes": [
+        "6e34a9ae-4ebd-42d6-9682-1bde85727ee6@a3bcb"
+      ],
+      "skeletons": [],
+      "textures": [
+        "6e34a9ae-4ebd-42d6-9682-1bde85727ee6@8fb9e"
+      ],
+      "materials": [
+        "6e34a9ae-4ebd-42d6-9682-1bde85727ee6@4672b"
+      ],
+      "scenes": [
+        "6e34a9ae-4ebd-42d6-9682-1bde85727ee6@d5100"
+      ]
+    }
+  }
+}

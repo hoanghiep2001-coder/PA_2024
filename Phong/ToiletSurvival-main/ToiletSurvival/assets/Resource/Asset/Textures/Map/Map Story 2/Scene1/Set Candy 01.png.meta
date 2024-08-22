@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b00d3997-f431-45f3-9e25-16254ba599fb",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 5532,
+  "height": 2577,
+  "platformSettings": {},
+  "subMetas": {
+    "Set Candy 01": {
+      "ver": "1.0.6",
+      "uuid": "c4ff4605-fb7d-44f4-b267-c40f896a0bf4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b00d3997-f431-45f3-9e25-16254ba599fb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 5530,
+      "height": 2575,
+      "rawWidth": 5532,
+      "rawHeight": 2577,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

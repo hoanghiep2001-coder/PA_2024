@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "0a14dc3d-c87e-456c-b6b5-94d2223ec496",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 508,
+  "height": 646,
+  "platformSettings": {},
+  "subMetas": {
+    "hotdog stand": {
+      "ver": "1.0.6",
+      "uuid": "6b7ba66b-9d56-4ef7-a052-fd4ec95db40f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "0a14dc3d-c87e-456c-b6b5-94d2223ec496",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": -7.5,
+      "trimX": 22,
+      "trimY": 15,
+      "width": 467,
+      "height": 631,
+      "rawWidth": 508,
+      "rawHeight": 646,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

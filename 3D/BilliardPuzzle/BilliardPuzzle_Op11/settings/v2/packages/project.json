@@ -1,10 +1,40 @@
 {
   "general": {
     "designResolution": {
-      "fitHeight": true,
-      "fitWidth": false
+      "width": 1080,
+      "height": 1920
     }
   },
+  "layer": [
+    {
+      "name": "Wall",
+      "value": 1
+    },
+    {
+      "name": "Ball",
+      "value": 2
+    },
+    {
+      "name": "Hole",
+      "value": 4
+    },
+    {
+      "name": "Poted",
+      "value": 8
+    },
+    {
+      "name": "CheckPoint",
+      "value": 16
+    },
+    {
+      "name": "Table",
+      "value": 32
+    },
+    {
+      "name": "BackGround",
+      "value": 64
+    }
+  ],
   "physics": {
     "collisionGroups": [
       {
@@ -13,23 +43,43 @@
       },
       {
         "index": 2,
-        "name": "Cube"
+        "name": "Wall"
+      },
+      {
+        "index": 3,
+        "name": "Hole"
+      },
+      {
+        "index": 4,
+        "name": "Poted"
+      },
+      {
+        "index": 5,
+        "name": "CheckPoint"
+      },
+      {
+        "index": 6,
+        "name": "Table"
       }
     ],
     "collisionMatrix": {
-      "0": 3,
-      "1": 7,
-      "2": 2
+      "0": 0,
+      "1": 110,
+      "2": 2,
+      "3": 2,
+      "4": 16,
+      "5": 2,
+      "6": 2
     },
     "gravity": {
       "y": -10
     },
     "defaultMaterial": {
-      "friction": 0.2,
-      "rollingFriction": 0.2,
-      "spinningFriction": 0.2,
-      "restitution": 1
+      "rollingFriction": 1,
+      "spinningFriction": 1,
+      "friction": 0.1,
+      "restitution": 0.1
     },
-    "maxSubSteps": 1
+    "fixedTimeStep": 0.0166667
   }
 }

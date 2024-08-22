@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "21a6ad02-bc8d-45fa-bbdd-bc390f2c5878",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 208,
+  "height": 384,
+  "platformSettings": {},
+  "subMetas": {
+    "bluecar2": {
+      "ver": "1.0.6",
+      "uuid": "e3eab248-3378-4d39-854f-c7af5bab2894",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "21a6ad02-bc8d-45fa-bbdd-bc390f2c5878",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 208,
+      "height": 384,
+      "rawWidth": 208,
+      "rawHeight": 384,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

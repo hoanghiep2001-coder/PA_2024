@@ -1,0 +1,93 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Tab",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5,
+  "sample": 60,
+  "speed": 2,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "fillStart": [
+          {
+            "frame": 0,
+            "value": 1
+          },
+          {
+            "frame": 0.5,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "paths": {
+      "s1": {
+        "comps": {
+          "cc.Sprite": {
+            "fillStart": [
+              {
+                "frame": 0,
+                "value": 1
+              },
+              {
+                "frame": 0.5,
+                "value": 0
+              }
+            ]
+          }
+        }
+      },
+      "s2": {
+        "comps": {
+          "cc.Sprite": {
+            "fillStart": [
+              {
+                "frame": 0,
+                "value": 1
+              },
+              {
+                "frame": 0.5,
+                "value": 0
+              }
+            ]
+          }
+        }
+      },
+      "s3": {
+        "comps": {
+          "cc.Sprite": {
+            "fillStart": [
+              {
+                "frame": 0,
+                "value": 1
+              },
+              {
+                "frame": 0.5,
+                "value": 0
+              }
+            ]
+          }
+        }
+      },
+      "s4": {
+        "comps": {
+          "cc.Sprite": {
+            "fillStart": [
+              {
+                "frame": 0,
+                "value": 1
+              },
+              {
+                "frame": 0.5,
+                "value": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

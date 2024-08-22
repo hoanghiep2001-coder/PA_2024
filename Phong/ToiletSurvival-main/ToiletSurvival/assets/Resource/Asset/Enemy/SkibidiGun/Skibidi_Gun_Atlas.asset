@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: Skibidi_Gun_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: 265d835cc3efa5b44a03041a68b2c47d, type: 3}
+  materials:
+  - {fileID: 2100000, guid: b7193fd052a7c544d8830516329fe36c, type: 2}
+  - {fileID: 2100000, guid: 557dad5b3636a3e4a9da0296aef1453e, type: 2}
+  - {fileID: 2100000, guid: 1ca619c31ec44204ea8a92373b9c4187, type: 2}
+  - {fileID: 2100000, guid: a5fffb03aa5454940a260c369f7b7020, type: 2}
+  - {fileID: 2100000, guid: a550b4cabeea7d84db561b37f98386fa, type: 2}
+  - {fileID: 2100000, guid: 07ca034abf8ea8345942c603c5aadd47, type: 2}
+  - {fileID: 2100000, guid: ecb8cc68b24ec964bb76c68cda90442d, type: 2}

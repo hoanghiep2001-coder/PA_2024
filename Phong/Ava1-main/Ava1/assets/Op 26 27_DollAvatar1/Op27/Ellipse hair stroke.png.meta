@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "69a4ffe9-617e-408a-9b30-872fe827dd59",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 300,
+  "height": 299,
+  "platformSettings": {},
+  "subMetas": {
+    "Ellipse hair stroke": {
+      "ver": "1.0.6",
+      "uuid": "8345355f-8ef4-4e04-a2bb-2f463d3614ce",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "69a4ffe9-617e-408a-9b30-872fe827dd59",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 300,
+      "height": 299,
+      "rawWidth": 300,
+      "rawHeight": 299,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

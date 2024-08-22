@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "052e16c5-9395-4fdd-90c5-12ecf08b3556",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 70,
+  "height": 20,
+  "platformSettings": {},
+  "subMetas": {
+    "Skill Effect_water_shoot_effect 1": {
+      "ver": "1.0.6",
+      "uuid": "a4fe65d6-a538-4e61-a240-1cfff753d76b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "052e16c5-9395-4fdd-90c5-12ecf08b3556",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 70,
+      "height": 20,
+      "rawWidth": 70,
+      "rawHeight": 20,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

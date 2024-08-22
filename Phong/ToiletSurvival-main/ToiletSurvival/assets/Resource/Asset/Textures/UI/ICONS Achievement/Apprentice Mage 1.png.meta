@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b2216684-36a8-4101-b4f0-0a177feb719f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 161,
+  "height": 161,
+  "platformSettings": {},
+  "subMetas": {
+    "Apprentice Mage 1": {
+      "ver": "1.0.6",
+      "uuid": "4162a555-9e65-40d4-ae50-8e206d6cfb23",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b2216684-36a8-4101-b4f0-0a177feb719f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 161,
+      "height": 161,
+      "rawWidth": 161,
+      "rawHeight": 161,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

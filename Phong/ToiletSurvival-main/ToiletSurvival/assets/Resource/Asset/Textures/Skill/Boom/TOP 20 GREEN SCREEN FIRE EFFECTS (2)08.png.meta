@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "45ab7324-cb17-4276-a583-153bd204cbed",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1280,
+  "height": 720,
+  "platformSettings": {},
+  "subMetas": {
+    "TOP 20 GREEN SCREEN FIRE EFFECTS (2)08": {
+      "ver": "1.0.6",
+      "uuid": "d7753d8e-7b22-4289-be8d-822705dee976",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "45ab7324-cb17-4276-a583-153bd204cbed",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -6.5,
+      "trimX": 462,
+      "trimY": 189,
+      "width": 356,
+      "height": 355,
+      "rawWidth": 1280,
+      "rawHeight": 720,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

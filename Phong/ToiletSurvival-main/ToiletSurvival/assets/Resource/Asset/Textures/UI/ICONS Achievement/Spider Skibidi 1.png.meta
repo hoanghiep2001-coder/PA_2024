@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "dea91ded-bf39-4ae6-a791-5fb05b4fbc42",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 161,
+  "height": 161,
+  "platformSettings": {},
+  "subMetas": {
+    "Spider Skibidi 1": {
+      "ver": "1.0.6",
+      "uuid": "c6190035-f06a-44b5-a9d5-8a5d2bae2fbf",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "dea91ded-bf39-4ae6-a791-5fb05b4fbc42",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 161,
+      "height": 161,
+      "rawWidth": 161,
+      "rawHeight": 161,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

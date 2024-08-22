@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "147ae90e-9e32-415b-b25d-fb8eb20459bb",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2534,
+  "height": 2639,
+  "platformSettings": {},
+  "subMetas": {
+    "stadium seating 2": {
+      "ver": "1.0.6",
+      "uuid": "14333e9a-4e39-4c9f-aff0-5b82c1b090b3",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "147ae90e-9e32-415b-b25d-fb8eb20459bb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 2532,
+      "height": 2637,
+      "rawWidth": 2534,
+      "rawHeight": 2639,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

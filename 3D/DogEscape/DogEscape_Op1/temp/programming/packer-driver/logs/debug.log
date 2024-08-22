@@ -1,23 +1,23 @@
-debug: Fri, 17 May 2024 10:35:31 GMT
+debug: Mon, 17 Jun 2024 02:59:43 GMT
 debug: Project: D:\PA_2024\3D\DogEscape\DogEscape_Op1
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.4.2\resources\resources\3d\engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 13.605700016021729ms.
+debug: Loading cache costs 28.017800003290176ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 28.733999997377396ms.
+debug: Loading cache costs 14.238200008869171ms.
 debug: Sync engine features: 2d,3d,audio,base,gfx-webgl,gfx-webgl2,intersection-2d,marionette,particle,physics-cannon,primitive,profiler,terrain,tween,ui,video,webview
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 59.219300001859665ms.
+debug: Fetch asset-db cost: 51.95829999446869ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 10
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (Indochina Time)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:09 GMT+0800 (Indochina Time)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -40,7 +40,7 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:28 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:25 GMT+0800 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:42 GMT+0800 (Indochina Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts.
@@ -52,11 +52,20 @@ debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri May 17 2024 16:17:12 GMT+0700 (Indochina Time), Current mtime: Fri May 17 2024 17:35:24 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Tue Jun 11 2024 08:50:33 GMT+0700 (Indochina Time), Current mtime: Mon Jun 17 2024 09:59:33 GMT+0700 (Indochina Time)
 debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Target(editor) ends with cost 149.2960000038147ms.
+debug: Detected change: file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts. Last mtime: Fri May 17 2024 17:39:12 GMT+0700 (Indochina Time)@ab7fd72a-74c2-4195-b544-23f23c628884, Current mtime: Mon Jun 17 2024 09:53:27 GMT+0700 (Indochina Time)@ab7fd72a-74c2-4195-b544-23f23c628884
+debug: Inspect file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve ./JoyStick from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts.
+debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
+debug: Resolve ../Plugin/AudioManager from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
+debug: Target(editor) ends with cost 431.52110001444817ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (Indochina Time)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:09 GMT+0800 (Indochina Time)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
@@ -75,11 +84,11 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:29 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:25 GMT+0800 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:42 GMT+0800 (Indochina Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
-debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CatController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CatController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts.
@@ -87,95 +96,91 @@ debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri May 17 2024 16:17:12 GMT+0700 (Indochina Time), Current mtime: Fri May 17 2024 17:35:24 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Tue Jun 11 2024 08:50:33 GMT+0700 (Indochina Time), Current mtime: Mon Jun 17 2024 09:59:33 GMT+0700 (Indochina Time)
 debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Target(preview) ends with cost 149.9835999906063ms.
+debug: Detected change: file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts. Last mtime: Fri May 17 2024 17:39:12 GMT+0700 (Indochina Time)@ab7fd72a-74c2-4195-b544-23f23c628884, Current mtime: Mon Jun 17 2024 09:53:27 GMT+0700 (Indochina Time)@ab7fd72a-74c2-4195-b544-23f23c628884
+debug: Inspect file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve ./JoyStick from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts.
+debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
+debug: Resolve ../Plugin/AudioManager from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
+debug: Target(preview) ends with cost 697.0879000127316ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:25 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:01:13 GMT+0800 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:42 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:08:54 GMT+0800 (Indochina Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CatController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CatController.ts.
-debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts.
-debug: Detected change: file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts. Last mtime: Fri May 17 2024 16:02:56 GMT+0700 (Indochina Time)@ab7fd72a-74c2-4195-b544-23f23c628884, Current mtime: Fri May 17 2024 17:36:27 GMT+0700 (Indochina Time)@ab7fd72a-74c2-4195-b544-23f23c628884
-debug: Inspect file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/x/cc.
-debug: Resolve ./GameController from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts.
-debug: Resolve ./JoyStick from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts.
-debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
-debug: Resolve ../Plugin/AudioManager from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
-debug: Target(editor) ends with cost 356.94699999690056ms.
+debug: Detected change: file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts. Last mtime: Fri May 17 2024 15:22:44 GMT+0700 (Indochina Time)@cf8e169e-b668-4ef4-8c67-dee951a14489, Current mtime: Mon Jun 17 2024 10:06:46 GMT+0700 (Indochina Time)@cf8e169e-b668-4ef4-8c67-dee951a14489
+debug: Inspect file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as cce:/internal/x/cc.
+debug: Resolve ../Plugin/AudioManager from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
+debug: Target(editor) ends with cost 107.93959999084473ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:25 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:01:13 GMT+0800 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:42 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:08:55 GMT+0800 (Indochina Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts.
-debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CatController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CatController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts.
-debug: Detected change: file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts. Last mtime: Fri May 17 2024 16:02:56 GMT+0700 (Indochina Time)@ab7fd72a-74c2-4195-b544-23f23c628884, Current mtime: Fri May 17 2024 17:36:27 GMT+0700 (Indochina Time)@ab7fd72a-74c2-4195-b544-23f23c628884
-debug: Inspect file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/x/cc.
-debug: Resolve ./GameController from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts.
-debug: Resolve ./JoyStick from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts.
-debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
-debug: Resolve ../Plugin/AudioManager from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
-debug: Target(preview) ends with cost 194.17910000681877ms.
-debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Detected change: file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts. Last mtime: Fri May 17 2024 15:22:44 GMT+0700 (Indochina Time)@cf8e169e-b668-4ef4-8c67-dee951a14489, Current mtime: Mon Jun 17 2024 10:06:46 GMT+0700 (Indochina Time)@cf8e169e-b668-4ef4-8c67-dee951a14489
+debug: Inspect file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as cce:/internal/x/cc.
+debug: Resolve ../Plugin/AudioManager from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
+debug: Target(preview) ends with cost 89.24219998717308ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
-Number of accumulated asset changes: 2
+Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:13 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:03:56 GMT+0800 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:08:54 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:18:12 GMT+0800 (Indochina Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CatController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CatController.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts.
-debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts.
-debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts.
-debug: Detected change: file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts. Last mtime: Fri May 17 2024 17:36:27 GMT+0700 (Indochina Time)@ab7fd72a-74c2-4195-b544-23f23c628884, Current mtime: Fri May 17 2024 17:39:12 GMT+0700 (Indochina Time)@ab7fd72a-74c2-4195-b544-23f23c628884
-debug: Inspect file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts
-debug: Detected change: file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts. Last mtime: Fri May 17 2024 16:02:46 GMT+0700 (Indochina Time)@c3658a8e-41a7-4461-9b7c-d04a8fa6ae67, Current mtime: Fri May 17 2024 17:39:18 GMT+0700 (Indochina Time)@c3658a8e-41a7-4461-9b7c-d04a8fa6ae67
-debug: Inspect file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/x/cc.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts as cce:/internal/x/cc.
-debug: Resolve ./GameController from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts.
-debug: Resolve ./JoyStick from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts.
-debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
-debug: Resolve ../Plugin/AudioManager from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
-debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
-debug: Resolve ../Plugin/AudioManager from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
-debug: Target(editor) ends with cost 7213.049800008535ms.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
+debug: Detected change: file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts. Last mtime: Mon Jun 17 2024 10:06:46 GMT+0700 (Indochina Time)@cf8e169e-b668-4ef4-8c67-dee951a14489, Current mtime: Mon Jun 17 2024 10:16:17 GMT+0700 (Indochina Time)@cf8e169e-b668-4ef4-8c67-dee951a14489
+debug: Inspect file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as cce:/internal/x/cc.
+debug: Resolve ../Plugin/AudioManager from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
+debug: Target(editor) ends with cost 1215.0866000056267ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:13 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:04:03 GMT+0800 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:08:55 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:18:14 GMT+0800 (Indochina Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts.
@@ -187,20 +192,107 @@ debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
 debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts.
-debug: Detected change: file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts. Last mtime: Fri May 17 2024 17:36:27 GMT+0700 (Indochina Time)@ab7fd72a-74c2-4195-b544-23f23c628884, Current mtime: Fri May 17 2024 17:39:12 GMT+0700 (Indochina Time)@ab7fd72a-74c2-4195-b544-23f23c628884
+debug: Detected change: file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts. Last mtime: Mon Jun 17 2024 10:06:46 GMT+0700 (Indochina Time)@cf8e169e-b668-4ef4-8c67-dee951a14489, Current mtime: Mon Jun 17 2024 10:16:17 GMT+0700 (Indochina Time)@cf8e169e-b668-4ef4-8c67-dee951a14489
+debug: Inspect file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as cce:/internal/x/cc.
+debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
+debug: Resolve ../Plugin/AudioManager from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
+debug: Target(preview) ends with cost 95.15079998970032ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:18:12 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:19:59 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CatController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CatController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts. Last mtime: Mon Jun 17 2024 09:53:27 GMT+0700 (Indochina Time)@ab7fd72a-74c2-4195-b544-23f23c628884, Current mtime: Mon Jun 17 2024 10:19:04 GMT+0700 (Indochina Time)@ab7fd72a-74c2-4195-b544-23f23c628884
 debug: Inspect file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts
-debug: Detected change: file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts. Last mtime: Fri May 17 2024 16:02:46 GMT+0700 (Indochina Time)@c3658a8e-41a7-4461-9b7c-d04a8fa6ae67, Current mtime: Fri May 17 2024 17:39:18 GMT+0700 (Indochina Time)@c3658a8e-41a7-4461-9b7c-d04a8fa6ae67
+debug: Detected change: file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts. Last mtime: Fri May 17 2024 17:39:18 GMT+0700 (Indochina Time)@c3658a8e-41a7-4461-9b7c-d04a8fa6ae67, Current mtime: Mon Jun 17 2024 10:19:30 GMT+0700 (Indochina Time)@c3658a8e-41a7-4461-9b7c-d04a8fa6ae67
 debug: Inspect file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/x/cc.
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/x/cc.
+debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
+debug: Resolve ../Plugin/AudioManager from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
 debug: Resolve ./GameController from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts.
 debug: Resolve ./JoyStick from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts.
 debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
 debug: Resolve ../Plugin/AudioManager from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
+debug: Target(editor) ends with cost 13430.796800017357ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:18:14 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:20:12 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CatController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CatController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts.
+debug: Detected change: file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts. Last mtime: Mon Jun 17 2024 09:53:27 GMT+0700 (Indochina Time)@ab7fd72a-74c2-4195-b544-23f23c628884, Current mtime: Mon Jun 17 2024 10:19:04 GMT+0700 (Indochina Time)@ab7fd72a-74c2-4195-b544-23f23c628884
+debug: Inspect file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts
+debug: Detected change: file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts. Last mtime: Fri May 17 2024 17:39:18 GMT+0700 (Indochina Time)@c3658a8e-41a7-4461-9b7c-d04a8fa6ae67, Current mtime: Mon Jun 17 2024 10:19:30 GMT+0700 (Indochina Time)@c3658a8e-41a7-4461-9b7c-d04a8fa6ae67
+debug: Inspect file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as cce:/internal/x/cc.
 debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
 debug: Resolve ../Plugin/AudioManager from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
-debug: Target(preview) ends with cost 204.19699999690056ms.
+debug: Resolve ./GameController from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve ../Data/Constant from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
+debug: Resolve ./JoyStick from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts.
+debug: Resolve ../Plugin/AudioManager from file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
+debug: Target(preview) ends with cost 287.33169999718666ms.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:19:59 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:20:12 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CatController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CatController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts.
+debug: Target(editor) ends with cost 51.17049998044968ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:20:12 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:20:12 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/BossAction.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CatController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CatController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/CubeController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/Game.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/JoyStick.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Game/LaserController.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/DogEscape/DogEscape_Op1/assets/Script/Plugin/Responsive.ts.
+debug: Target(preview) ends with cost 33.82049998641014ms.

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "088a2707-36a7-4980-9109-aec0c1222f16",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 55,
+  "height": 396,
+  "platformSettings": {},
+  "subMetas": {
+    "tuong toilet WC": {
+      "ver": "1.0.6",
+      "uuid": "05534d29-e4c5-4dcd-8776-dcadb834b7ee",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "088a2707-36a7-4980-9109-aec0c1222f16",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 53,
+      "height": 394,
+      "rawWidth": 55,
+      "rawHeight": 396,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

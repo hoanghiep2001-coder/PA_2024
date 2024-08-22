@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "80642dd9-894f-4ac4-8b6b-1e73a4eef68a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1293,
+  "height": 530,
+  "platformSettings": {},
+  "subMetas": {
+    "magmahole_0009": {
+      "ver": "1.0.6",
+      "uuid": "976e7004-040a-4972-bac8-410b08c21b99",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "80642dd9-894f-4ac4-8b6b-1e73a4eef68a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 36,
+      "offsetY": -9.5,
+      "trimX": 477,
+      "trimY": 125,
+      "width": 411,
+      "height": 299,
+      "rawWidth": 1293,
+      "rawHeight": 530,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

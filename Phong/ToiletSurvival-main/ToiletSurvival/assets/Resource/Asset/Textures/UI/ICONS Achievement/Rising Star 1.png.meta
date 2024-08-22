@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "6c21fdc0-14d9-4062-a1cc-fde56e6fb727",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 161,
+  "height": 161,
+  "platformSettings": {},
+  "subMetas": {
+    "Rising Star 1": {
+      "ver": "1.0.6",
+      "uuid": "d25bbfa3-863c-4e93-8257-10d7ffddf90c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6c21fdc0-14d9-4062-a1cc-fde56e6fb727",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 161,
+      "height": 161,
+      "rawWidth": 161,
+      "rawHeight": 161,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

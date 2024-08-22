@@ -1,0 +1,106 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8c43f279-8230-425f-bdb1-3c87e2762867",
+  "files": [],
+  "subMetas": {
+    "79437": {
+      "importer": "gltf-mesh",
+      "uuid": "8c43f279-8230-425f-bdb1-3c87e2762867@79437",
+      "displayName": "",
+      "id": "79437",
+      "name": "m871.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "314b7": {
+      "importer": "texture",
+      "uuid": "8c43f279-8230-425f-bdb1-3c87e2762867@314b7",
+      "displayName": "",
+      "id": "314b7",
+      "name": "tex_gun_01.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Asset/Art/Level/Level_5/tex_gun_01.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0fdac": {
+      "importer": "gltf-material",
+      "uuid": "8c43f279-8230-425f-bdb1-3c87e2762867@0fdac",
+      "displayName": "",
+      "id": "0fdac",
+      "name": "tex_gun_01.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f62fa": {
+      "importer": "gltf-scene",
+      "uuid": "8c43f279-8230-425f-bdb1-3c87e2762867@f62fa",
+      "displayName": "",
+      "id": "f62fa",
+      "name": "Gun.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "tex_gun_01.png",
+        "uri": "db://assets/Asset/Art/Level/Level_5/tex_gun_01.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "8c43f279-8230-425f-bdb1-3c87e2762867@f62fa",
+    "assetFinder": {
+      "meshes": [
+        "8c43f279-8230-425f-bdb1-3c87e2762867@79437"
+      ],
+      "skeletons": [],
+      "textures": [
+        "8c43f279-8230-425f-bdb1-3c87e2762867@314b7"
+      ],
+      "materials": [
+        "8c43f279-8230-425f-bdb1-3c87e2762867@0fdac"
+      ],
+      "scenes": [
+        "8c43f279-8230-425f-bdb1-3c87e2762867@f62fa"
+      ]
+    }
+  }
+}

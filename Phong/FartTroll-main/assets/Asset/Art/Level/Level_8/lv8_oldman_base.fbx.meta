@@ -1,0 +1,125 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "97e0b8c8-d0dc-46f4-a8eb-ea8114d9f2bc",
+  "files": [],
+  "subMetas": {
+    "31176": {
+      "importer": "gltf-mesh",
+      "uuid": "97e0b8c8-d0dc-46f4-a8eb-ea8114d9f2bc@31176",
+      "displayName": "",
+      "id": "31176",
+      "name": "oldman.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "97e0b8c8-d0dc-46f4-a8eb-ea8114d9f2bc@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 42
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "491b8": {
+      "importer": "texture",
+      "uuid": "97e0b8c8-d0dc-46f4-a8eb-ea8114d9f2bc@491b8",
+      "displayName": "",
+      "id": "491b8",
+      "name": "file25.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Asset/Art/Level/Level_8/oldman_tex.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ee760": {
+      "importer": "gltf-material",
+      "uuid": "97e0b8c8-d0dc-46f4-a8eb-ea8114d9f2bc@ee760",
+      "displayName": "",
+      "id": "ee760",
+      "name": "lambert12.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4da76": {
+      "importer": "gltf-scene",
+      "uuid": "97e0b8c8-d0dc-46f4-a8eb-ea8114d9f2bc@4da76",
+      "displayName": "",
+      "id": "4da76",
+      "name": "lv8_oldman_base.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file25",
+        "uri": "db://assets/Asset/Art/Level/Level_8/oldman_tex.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "97e0b8c8-d0dc-46f4-a8eb-ea8114d9f2bc@4da76",
+    "assetFinder": {
+      "meshes": [
+        "97e0b8c8-d0dc-46f4-a8eb-ea8114d9f2bc@31176"
+      ],
+      "skeletons": [
+        "97e0b8c8-d0dc-46f4-a8eb-ea8114d9f2bc@438fe"
+      ],
+      "textures": [
+        "97e0b8c8-d0dc-46f4-a8eb-ea8114d9f2bc@491b8"
+      ],
+      "materials": [
+        "97e0b8c8-d0dc-46f4-a8eb-ea8114d9f2bc@ee760"
+      ],
+      "scenes": [
+        "97e0b8c8-d0dc-46f4-a8eb-ea8114d9f2bc@4da76"
+      ]
+    }
+  }
+}
