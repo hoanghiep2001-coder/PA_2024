@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 6952.706699967384,
+    "mTimestamp": 5967.139599978924,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -389,7 +389,7 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 7708451.35010004,
+    "mTimestamp": 24726.823399960995,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
@@ -1400,7 +1400,7 @@
     ]
   },
   "cce:/internal/code-quality/cr.mjs": {
-    "mTimestamp": 1719278720000,
+    "mTimestamp": 1724723717593,
     "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
     "imports": [],
     "modLoMetadata": {
@@ -4566,7 +4566,7 @@
   },
   "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op8/assets/Script/Controller/CharacterControl.ts": {
     "mTimestamp": {
-      "mtime": 1719285947748.66,
+      "mtime": 1724400012345.4626,
       "uuid": "1a87ce5d-7de6-498d-b936-d4e05fc7f88f"
     },
     "chunkId": "assets/Script/Controller/CharacterControl.js",
@@ -4582,11 +4582,11 @@
         "value": "cc",
         "loc": {
           "start": {
-            "line": 2,
+            "line": 1,
             "column": 148
           },
           "end": {
-            "line": 2,
+            "line": 1,
             "column": 152
           }
         }
@@ -4596,11 +4596,11 @@
         "rewritten": "__unresolved_1",
         "loc": {
           "start": {
-            "line": 3,
+            "line": 2,
             "column": 26
           },
           "end": {
-            "line": 3,
+            "line": 2,
             "column": 44
           }
         }
@@ -4610,11 +4610,11 @@
         "rewritten": "__unresolved_2",
         "loc": {
           "start": {
-            "line": 4,
+            "line": 3,
             "column": 29
           },
           "end": {
-            "line": 4,
+            "line": 3,
             "column": 53
           }
         }
@@ -4624,11 +4624,11 @@
         "rewritten": "__unresolved_3",
         "loc": {
           "start": {
-            "line": 5,
+            "line": 4,
             "column": 32
           },
           "end": {
-            "line": 5,
+            "line": 4,
             "column": 51
           }
         }
@@ -4666,7 +4666,7 @@
   },
   "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op8/assets/Script/Controller/GamePlay.ts": {
     "mTimestamp": {
-      "mtime": 1719286425082.1963,
+      "mtime": 1724401652110.69,
       "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
     },
     "chunkId": "assets/Script/Controller/GamePlay.js",
@@ -5930,7 +5930,7 @@
   },
   "file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op8/assets/Script/Controller/CameraController.ts": {
     "mTimestamp": {
-      "mtime": 1719270532565.6997,
+      "mtime": 1724401581834.1472,
       "uuid": "125892b6-132a-4885-ba14-772194ee983b"
     },
     "chunkId": "assets/Script/Controller/CameraController.js",
@@ -5942,11 +5942,11 @@
         "value": "cc",
         "loc": {
           "start": {
-            "line": 2,
+            "line": 1,
             "column": 68
           },
           "end": {
-            "line": 2,
+            "line": 1,
             "column": 72
           }
         }
@@ -6869,6 +6869,930 @@
       {
         "isExternal": false,
         "url": "file:///D:/PlayableAds/PA_2024/3D/MergeRobo/MergeRobo_Op8/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Controller/CameraController.ts": {
+    "mTimestamp": {
+      "mtime": 1724401581834.1472,
+      "uuid": "125892b6-132a-4885-ba14-772194ee983b"
+    },
+    "chunkId": "assets/Script/Controller/CameraController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 68
+          },
+          "end": {
+            "line": 1,
+            "column": 72
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Controller/BossController.ts": {
+    "mTimestamp": {
+      "mtime": 1719272914864.516,
+      "uuid": "c38f3dbd-10dd-43f5-8a4b-75f0be776d73"
+    },
+    "chunkId": "assets/Script/Controller/BossController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 63
+          },
+          "end": {
+            "line": 1,
+            "column": 67
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Controller/GamePlay.ts": {
+    "mTimestamp": {
+      "mtime": 1724401652110.69,
+      "uuid": "d6ba2e81-5fd5-455a-bbcd-d756b03ebf0b"
+    },
+    "chunkId": "assets/Script/Controller/GamePlay.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 245
+          },
+          "end": {
+            "line": 1,
+            "column": 249
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 31
+          },
+          "end": {
+            "line": 2,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 29
+          },
+          "end": {
+            "line": 3,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./NodesController",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 32
+          },
+          "end": {
+            "line": 5,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "./BossController",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 31
+          },
+          "end": {
+            "line": 6,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Controller/NodesController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Controller/BossController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Controller/NodesController.ts": {
+    "mTimestamp": {
+      "mtime": 1719280807373.0867,
+      "uuid": "d10be42d-07cd-4283-a03a-495fc2f77e47"
+    },
+    "chunkId": "assets/Script/Controller/NodesController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 98
+          },
+          "end": {
+            "line": 1,
+            "column": 102
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Controller/TouchAreaController.ts": {
+    "mTimestamp": {
+      "mtime": 1719286397964.0972,
+      "uuid": "6c960960-d0d4-46ba-9a72-c0e274c1640b"
+    },
+    "chunkId": "assets/Script/Controller/TouchAreaController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 108
+          },
+          "end": {
+            "line": 1,
+            "column": 112
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./NodesController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "./GameController",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 31
+          },
+          "end": {
+            "line": 4,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 29
+          },
+          "end": {
+            "line": 5,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "../Plugin/IronSource",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 27
+          },
+          "end": {
+            "line": 6,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Controller/NodesController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Controller/GameController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Plugin/IronSource.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Controller/CharacterControl.ts": {
+    "mTimestamp": {
+      "mtime": 1724400012345.4626,
+      "uuid": "1a87ce5d-7de6-498d-b936-d4e05fc7f88f"
+    },
+    "chunkId": "assets/Script/Controller/CharacterControl.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 148
+          },
+          "end": {
+            "line": 1,
+            "column": 152
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 29
+          },
+          "end": {
+            "line": 3,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "./NodesController",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Plugin/AudioManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Controller/NodesController.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Controller/GameController.ts": {
+    "mTimestamp": {
+      "mtime": 1719281698285.0017,
+      "uuid": "068c9111-01f2-45d5-be3e-7ec5abc94b07"
+    },
+    "chunkId": "assets/Script/Controller/GameController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Plugin/AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 53
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Plugin/Utils.ts": {
+    "mTimestamp": {
+      "mtime": 1719270532916.3328,
+      "uuid": "3b82aa2d-e03d-467c-8b54-78b515fc355b"
+    },
+    "chunkId": "assets/Script/Plugin/Utils.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 41
+          },
+          "end": {
+            "line": 1,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Data/Constant.ts": {
+    "mTimestamp": {
+      "mtime": 1719280894249.2422,
+      "uuid": "003cfefe-2225-4de7-bc86-7bcf4bf104ad"
+    },
+    "chunkId": "assets/Script/Data/Constant.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 50
+          },
+          "end": {
+            "line": 1,
+            "column": 54
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Plugin/IronSource.ts": {
+    "mTimestamp": {
+      "mtime": 1719286369524.541,
+      "uuid": "9e7af473-762c-45f5-ac80-bd1c22bf0a73"
+    },
+    "chunkId": "assets/Script/Plugin/IronSource.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "./AudioManager",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 29
+          },
+          "end": {
+            "line": 4,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Plugin/AudioManager.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Plugin/AudioManager.ts": {
+    "mTimestamp": {
+      "mtime": 1719272832607.4453,
+      "uuid": "dd163cee-3040-430d-ad54-1e8022b471fd"
+    },
+    "chunkId": "assets/Script/Plugin/AudioManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 51
+          },
+          "end": {
+            "line": 2,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Data/Constant.ts"
+      }
+    ]
+  },
+  "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Plugin/Responsive.ts": {
+    "mTimestamp": {
+      "mtime": 1719270532878.1377,
+      "uuid": "96cd1ff9-d056-4476-96e7-fe8e718a0f37"
+    },
+    "chunkId": "assets/Script/Plugin/Responsive.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 108
+          },
+          "end": {
+            "line": 1,
+            "column": 112
+          }
+        }
+      },
+      {
+        "value": "../Data/Constant",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        }
+      },
+      {
+        "value": "../Controller/NodesController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 63
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Data/Constant.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/PA_2024/3D/MergeRobo/MergeRobo/assets/Script/Controller/NodesController.ts"
       }
     ]
   }

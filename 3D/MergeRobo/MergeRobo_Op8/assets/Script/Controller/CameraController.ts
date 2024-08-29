@@ -1,4 +1,3 @@
-
 import { _decorator, Component, log, math, Node, tween, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
 

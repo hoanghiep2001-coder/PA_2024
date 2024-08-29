@@ -1,23 +1,23 @@
-debug: Fri, 17 May 2024 02:59:52 GMT
+debug: Thu, 29 Aug 2024 02:13:34 GMT
 debug: Project: D:\PA_2024\3D\MergeRobo\MergeRobo_Op4
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.4.2\resources\resources\3d\engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 41.25849997997284ms.
+debug: Loading cache costs 37.25800001621246ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 34.08390000462532ms.
+debug: Loading cache costs 17.986999988555908ms.
 debug: Sync engine features: 2d,3d,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,marionette,particle,physics-cannon,primitive,profiler,spine,terrain,tiled-map,tween,ui,webview
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 23.09290000796318ms.
+debug: Fetch asset-db cost: 25.55739998817444ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 12
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (Indochina Time)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (Indochina Time)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -40,12 +40,12 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:16 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:25 GMT+0800 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:16 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:27 GMT+0800 (Indochina Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/BossController.ts.
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/CharacterControl.ts.
-debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/GamePlay.ts.
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/GamePlay.ts.
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/NodesController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/NodesController.ts.
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/RangerControl.ts.
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/TouchAreaController.ts.
@@ -54,11 +54,11 @@ debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Plugi
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Plugin/IronSource.ts.
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Plugin/Responsive.ts.
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Plugin/Utils.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Plugin/Utils.ts.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed May 15 2024 11:41:03 GMT+0700 (Indochina Time), Current mtime: Fri May 17 2024 09:59:46 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Aug 28 2024 08:36:44 GMT+0700 (Indochina Time), Current mtime: Thu Aug 29 2024 09:13:27 GMT+0700 (Indochina Time)
 debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Target(editor) ends with cost 127.11620000004768ms.
+debug: Target(editor) ends with cost 476.5694000720978ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (Indochina Time)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (Indochina Time)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
@@ -78,20 +78,20 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:16 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:16 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:28 GMT+0800 (Indochina Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/BossController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/BossController.ts.
-debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/CharacterControl.ts.
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/GameController.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/CharacterControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/CharacterControl.ts.
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/GamePlay.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/GamePlay.ts.
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/NodesController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/NodesController.ts.
-debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/TouchAreaController.ts.
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/RangerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/RangerControl.ts.
-debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Data/Constant.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/TouchAreaController.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Controller/TouchAreaController.ts.
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Plugin/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Plugin/AudioManager.ts.
+debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Data/Constant.ts.
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Plugin/IronSource.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Plugin/IronSource.ts.
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Plugin/Responsive.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Plugin/Responsive.ts.
 debug: Resolve file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Plugin/Utils.ts from cce:/internal/x/prerequisite-imports as file:///D:/PA_2024/3D/MergeRobo/MergeRobo_Op4/assets/Script/Plugin/Utils.ts.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed May 15 2024 11:41:03 GMT+0700 (Indochina Time), Current mtime: Fri May 17 2024 09:59:46 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Aug 28 2024 08:36:44 GMT+0700 (Indochina Time), Current mtime: Thu Aug 29 2024 09:13:27 GMT+0700 (Indochina Time)
 debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Target(preview) ends with cost 118.05869999527931ms.
+debug: Target(preview) ends with cost 142.4134999513626ms.

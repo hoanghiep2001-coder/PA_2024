@@ -1,4 +1,3 @@
-
 import { _decorator, BoxCollider, Component, ERigidBodyType, ICollisionEvent, math, Node, ParticleSystem, RigidBody, SkeletalAnimation, Vec3 } from 'cc';
 import { Constants } from '../Data/Constant';
 import { AudioManager } from '../Plugin/AudioManager';
