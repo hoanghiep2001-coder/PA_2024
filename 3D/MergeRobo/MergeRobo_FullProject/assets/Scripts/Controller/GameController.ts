@@ -1,18 +1,10 @@
 
 import { _decorator, Component, Node } from 'cc';
+import { SoundController } from './SoundController';
+import { CONST } from '../Const/CONST';
+import { IronSource } from '../AdHelper/IronSource';
 const { ccclass, property } = _decorator;
 
-/**
- * Predefined variables
- * Name = GameController
- * DateTime = Mon Aug 26 2024 14:31:43 GMT+0700 (Indochina Time)
- * Author = hoanghiep2001
- * FileBasename = GameController.ts
- * FileBasenameNoExtension = GameController
- * URL = db://assets/Scripts/Controller/GameController.ts
- * ManualUrl = https://docs.cocos.com/creator/3.4/manual/en/
- *
- */
  
 @ccclass('GameController')
 export class GameController extends Component {
@@ -23,8 +15,59 @@ export class GameController extends Component {
     // @property
     // serializableDummy = 0;
 
-    start () {
-        // [3]
+    private onFinish(): void {
+        window.gameEnd && window.gameEnd();
+    }
+
+    protected start(): void {
+        window.gameReady && window.gameReady();
+
+        SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bgSound);
+    }
+
+
+    public installHandle(): void {
+        console.log("install");
+
+        IronSource.isEndGame = true;
+        SoundController.Instance(SoundController).StopAllSound();
+        window.gameEnd && window.gameEnd();
+
+        //If ad network is tiktok
+        if (typeof (playableSDK) != "undefined") {
+            window.playableSDK.openAppStore();
+            return;
+        }
+
+        // If ad network is google ads
+        if (typeof (ExitApi) != "undefined") {
+            ExitApi.exit();
+            return;
+        }
+
+        // If ad netwrok is ironsources
+        if (typeof (dapi) != "undefined") {
+            dapi.openStoreUrl();
+            return;
+        }
+
+        // If ad network support MRAID 2.0
+        if (typeof (mraid) != "undefined") {
+            if (cc.sys.os == cc.sys.OS_ANDROID || cc.sys.os == cc.sys.ANDROID) {
+                mraid.open("https://play.google.com/store/apps/details?id=com.mergemaster.mergerobo");
+                return;
+            }
+
+            if (cc.sys.os == cc.sys.OS_IOS || cc.sys.os == cc.sys.IPHONE || cc.sys.os == cc.sys.IPAD) {
+                mraid.open("https://itunes.apple.com/us/app/id6475570212?mt=8");
+                return;
+            }
+
+            mraid.open("https://play.google.com/store/apps/details?id=com.mergemaster.mergerobo");
+            return;
+        }
+        // If ad network is mindwork. window alway avaiable so skip undefined check
+        window.install && window.install();
     }
 
     // update (deltaTime: number) {

@@ -32,7 +32,7 @@ export class vFx_FireLight extends Component {
     private smoothGravity(isLeft: boolean): void {
         if(isLeft === this.currentSideIsLeft) return;
 
-        log("switch Side vFx")
+        // log("switch Side vFx")
 
         let number = isLeft ? -500 : 500;
 

@@ -67,12 +67,12 @@ export class RoboController extends Singleton<RoboController> {
 
             // create Robo
             roboLv1.parent = node;
-            roboLv1.name = String(roboLv1.name + `_${index}`);
+            roboLv1.name = String(roboLv1.name + `_${index + 1}`);
             GameInfo.playerStartGameRobo.push(roboLv1);
 
             // setup level robo
             const UI_level = instantiate(this.UI_Robo_LevelPrefab);
-            UI_level.parent = this.UIGameController.Canvas;
+            UI_level.parent = this.UIGameController.RoboLevels;
             UI_level.name = String(roboLv1.name);
 
             const roboLevelComponent = UI_level.getComponent(RoboLevel);
@@ -90,19 +90,22 @@ export class RoboController extends Singleton<RoboController> {
         roboLv3.parent = parent;
         roboLv3.name = String("Boss");
 
+        // setup Boss Pos
+        GameInfo.bossPos = roboLv3.worldPosition;
+
         // setup Level for robo
         const UI_level = instantiate(this.UI_Robo_LevelPrefab);
-        UI_level.parent = this.UIGameController.Canvas;
+        UI_level.parent = this.UIGameController.RoboLevels;
         UI_level.name = String("Boss");
 
         const roboLevelComponent = UI_level.getComponent(RoboLevel);
-        let level = 15;
+        let level = 6;
 
         roboLevelComponent.showLevel(level, roboLv3);
     }
 
 
-    public spawnRoboLevel_2(): void {
+    public spawnRoboLevel_2(level: number): void {
         const roboLv2 = instantiate(this.Robo_Level2_Prefab);
 
         // create Robo
@@ -111,15 +114,11 @@ export class RoboController extends Singleton<RoboController> {
 
         // setup Level for robo
         const UI_level = instantiate(this.UI_Robo_LevelPrefab);
-        UI_level.parent = this.UIGameController.Canvas;
+        UI_level.parent = this.UIGameController.RoboLevels;
 
         const roboLevelComponent = UI_level.getComponent(RoboLevel);
-        let level = GameInfo.playerStartGameRobo.filter(robo => {
-            if (robo.getComponent(RoboBehavior).isPickup) return robo;
-        }).length * 3;
 
         roboLevelComponent.showLevel(level, roboLv2);
-
     }
 }
 

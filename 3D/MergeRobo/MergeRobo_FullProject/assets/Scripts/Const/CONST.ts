@@ -2,6 +2,11 @@ import { Node } from "cc";
 
 enum SoundTrack {
     bgSound = "bgSound",
+    bangSound = "bangSound",
+    mergeSound = "mergeSound",
+    chooseSound = "chooseSound",
+    winSound = "winSound",
+    loseSound = "loseSound",
 }
 
 

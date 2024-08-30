@@ -1,5 +1,9 @@
 
 import { _decorator, Component, Graphics, Node } from 'cc';
+import { GameInfo } from '../Const/GameInfo';
+import { SoundController } from './SoundController';
+import { CONST } from '../Const/CONST';
+import { GameController } from './GameController';
 const { ccclass, property } = _decorator;
 
 /**
@@ -17,6 +21,9 @@ const { ccclass, property } = _decorator;
 @ccclass('UIGameController')
 export class UIGameController extends Component {
 
+    @property(GameController)
+    GameController: GameController = null;
+
     @property(Node)
     Point: Node = null;
     
@@ -28,17 +35,47 @@ export class UIGameController extends Component {
 
     @property(Node)
     TouchArea: Node = null;
-
+    
     @property(Node)
     RoboLevels: Node = null;
+
+    @property(Node)
+    Tutorial: Node = null;
+
+    @property(Node)
+    CTA: Node = null;
 
     MergePoints: Node[] = [];
 
 
     protected start(): void {
+        this.registerEvent();
+
         this.TouchArea.children.forEach(child => {
-            if(child.name.includes("MergePoint")) this.MergePoints.push(child);
+            if(child.name.includes("MergePoint")) {
+                this.MergePoints.push(child);
+                GameInfo.UI_MergePoint = this.MergePoints;
+            };
         });
+    }
+
+
+    public registerEvent(): void {
+        let hideMask = this.CTA.getChildByName("HideMask");
+        let btn = this.CTA.getChildByName("btn");
+
+        // applovin & mtg
+        hideMask.on(Node.EventType.TOUCH_START, this.GameController.installHandle, this);
+
+        btn.on(Node.EventType.TOUCH_START, this.GameController.installHandle, this);
+    }
+
+    protected update(dt: number): void {
+        if((GameInfo.isWin || GameInfo.isLose) && !GameInfo.IsShowPopupInstall) {
+            SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.winSound);
+            GameInfo.IsShowPopupInstall = true;
+            this.CTA.active = true;
+        }
     }
 }
 

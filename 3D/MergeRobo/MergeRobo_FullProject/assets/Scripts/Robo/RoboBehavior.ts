@@ -23,19 +23,26 @@ export class RoboBehavior extends Component {
 
     @property(ParticleSystem)
     PS_Smoke: ParticleSystem = null;
-    
+
+    @property([ParticleSystem])
+    PS_Fires: ParticleSystem[] = [];
     
     protected start(): void {
         this.roboBase = this.node.getChildByName("Robo_Base");
 
-        this.node.name.includes("Robo_Level2") && this.PS_Smoke.play();
-    }
+        this.node.name.includes("Robo_Second") && this.PS_Smoke.play();
 
+        // this.node.name.includes("Robo_Third") 
+    }
+    
 
     public switchAnim(animName: string): void {
         this.isPickup = true;
         this.roboBase.getComponent(SkeletalAnimation).play(animName);
     }
+
+
+    // private setupBossPos
 
 }
 

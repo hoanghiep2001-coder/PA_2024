@@ -4,6 +4,8 @@ import { RoboAnim } from '../Robo/RoboAnim';
 import { GameInfo } from '../Const/GameInfo';
 import { RoboController } from '../Controller/RoboController';
 import { RoboLevel } from '../Robo/RoboLevel';
+import { SoundController } from '../Controller/SoundController';
+import { CONST } from '../Const/CONST';
 const { ccclass, property } = _decorator;
 
 
@@ -27,15 +29,16 @@ const HandleIntersectsPoints = (mergePoints: Node[], point: Node) => {
     for (let index = 0; index < mergePoints.length; index++) {
         const mergePoint = mergePoints[index];
         const mergePointBdx = mergePoint.getComponent(UITransform).getBoundingBox();
-        if(pointBdx.intersects(mergePointBdx)) {
-            const roboChoosen = GameInfo.playerStartGameRobo[index].getComponent(RoboBehavior);
+        const roboChoosen = GameInfo.playerStartGameRobo[index].getComponent(RoboBehavior);
 
-            if(roboChoosen.isPickup) return;
-
+        if (pointBdx.intersects(mergePointBdx) && !roboChoosen.isPickup) {
             GameInfo.lastPosOfTouchEnd = GameInfo.playerStartGameRobo[index].parent.getPosition();
+
             GameInfo.lastPointOfTouchEndRobo = GameInfo.playerStartGameRobo[index].parent;
 
             log("last point: ----", GameInfo.lastPointOfTouchEndRobo.name, "----")
+
+            SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.chooseSound);
 
             roboChoosen.switchAnim(RoboAnim.Pickup);
         }
@@ -63,47 +66,80 @@ const HandleClearGraphics = (graphics: Graphics): void => {
 // Merge Step -------------------
 const mergeRobo = () => {
     GameInfo.isCanTouch = false;
-    
+
     // get the parent of all chosen robo
-    let roboChoosenArr = GameInfo.playerStartGameRobo.filter(robo => {
+    let roboChoosenArr = GameInfo.playerStartGameRobo.filter((robo, index) => {
         return robo.getComponent(RoboBehavior).isPickup;
     });
 
+    GameInfo.playerStartGameRobo = GameInfo.playerStartGameRobo.filter(
+        robo => !robo.getComponent(RoboBehavior).isPickup
+    );
 
     log("roboChoosenArr:", roboChoosenArr)
 
+
     // move to last touchend Merge Point
-    roboChoosenArr.forEach((robo, index) => 
+    roboChoosenArr.forEach((robo, index) =>
         tween(robo.parent)
-        .to(0.5, {position: GameInfo.lastPosOfTouchEnd}, {easing: easing.smooth})
-        .call(() => {
-            
-            // get Robo index name
-            let roboIndexName = null;
-            let match = robo.name.match(/\d+/);
-            if(match) roboIndexName = parseInt(match[0], 10);
+            .to(0.5, { position: GameInfo.lastPosOfTouchEnd }, { easing: easing.smooth })
+            .call(() => {
 
-            log(roboIndexName)
+                // get Robo index name
+                let roboIndexName = null;
+                let match = robo.name.match(/\d+/);
+                if (match) roboIndexName = parseInt(match[0], 10);
 
-            // get UI Level Component
-            // let UI_RoboLevel = GameInfo.playerRoboLevelArr[roboIndexName];
-            // UI_RoboLevel.getComponent(RoboLevel).variableIsSet = false;
+                // get UI Level Component
+                let UI_RoboLevel = GameInfo.playerRoboLevelArr[roboIndexName - 1];
 
-            // // remove Robo & UI Level Robo
-            // robo.active = false;
-            // UI_RoboLevel.active = false
-            // UI_RoboLevel.getComponent(Label).string = "";
-            // UI_RoboLevel.destroy();
+                UI_RoboLevel.getComponent(RoboLevel).variableIsSet = false;
 
-            // log(UI_RoboLevel)
-        })
-        .start()
+                // remove Robo & UI Level Robo
+                robo.active = false;
+                UI_RoboLevel.active = false;
+                UI_RoboLevel.getComponent(Label).string = "";
+                UI_RoboLevel.destroy();
+                // robo.destroy();
+            })
+            .start()
     );
 
-    // settimeout to
+    // settimeout to show robo merged
     setTimeout(() => {
-        RoboController.Instance(RoboController).spawnRoboLevel_2();
+        GameInfo.mergeCount += 1;
+
+        RoboController.Instance(RoboController).spawnRoboLevel_2(roboChoosenArr.length * 3);
+
         log("spawn Robo Lv2");
+
+        // xóa các điểm mergePoint tương ứng với robo được merge
+        if (GameInfo.mergeCount <= 1)
+            for (let index = 0; index < roboChoosenArr.length; index++) {
+                const robo = roboChoosenArr[index];
+                let roboIndexName = null;
+                let match = robo.name.match(/\d+/);
+                if (match) roboIndexName = parseInt(match[0], 10);
+
+                log(roboIndexName)
+
+                GameInfo.UI_MergePoint[roboIndexName - 1].active = false;
+            }
+
+        GameInfo.UI_MergePoint = GameInfo.UI_MergePoint.filter(
+            point => point.active
+        );
+
+        SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.mergeSound);
+
+        // nếu sau lần merge đầu tiên mà vẫn còn robo thì vẫn cho vẽ tiếp
+        if (GameInfo.mergeCount === 1 && roboChoosenArr.length >= 2) {
+            GameInfo.isCanTouch = true;
+        } else {
+            GameInfo.isCanTouch = false;
+            GameInfo.isReadyToFight = true;
+        }
+
     }, 500);
 }
 
@@ -123,7 +159,7 @@ const resetRobos = () => {
 // -------------------
 
 
-export class LogicGamePlay  {
+export class LogicGamePlay {
     static HandleIntersectsPoints = HandleIntersectsPoints;
 
     static HandleDrawGraphics = HandleDrawGraphics;

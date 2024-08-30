@@ -62,6 +62,8 @@ export class HideMask extends Component {
         this.UIGameController.Point.setPosition(touchPos);
 
         GameInfo.touchPos = touchPos;
+
+        this.UIGameController.Tutorial.active = false;
     }
 
 
@@ -78,7 +80,7 @@ export class HideMask extends Component {
 
         this.UIGameController.Point.setPosition(touchPos);
 
-        LogicGamePlay.HandleIntersectsPoints(this.UIGameController.MergePoints , this.UIGameController.Point);
+        LogicGamePlay.HandleIntersectsPoints(GameInfo.UI_MergePoint , this.UIGameController.Point);
 
         GameInfo.touchPos = touchPos;
     }
