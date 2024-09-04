@@ -34,6 +34,7 @@ export class RoboCollision extends Component {
 
     currentAnim: string = null;
 
+    
     protected start(): void {
         this.collider.on("onCollisionEnter", (e: ICollisionEvent) => {
             // enemy robo
@@ -69,7 +70,7 @@ export class RoboCollision extends Component {
 
                 this.scheduleOnce(() => {
                     this.changeAnim(RoboAnim.Idle);
-                }, 1.1)
+                }, 1.5)
             }
         });
     }

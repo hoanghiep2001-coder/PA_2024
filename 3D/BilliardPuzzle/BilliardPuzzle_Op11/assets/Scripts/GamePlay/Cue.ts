@@ -40,6 +40,8 @@ export class Cue extends Component {
         EventManager.instance.on(Global.StartShoot, this.StartShoot, this);
         EventManager.instance.on(Global.ResetGame, this.ResetCue, this);
     }
+
+    
     shootCount: number = 0;
     StartShoot(power: number) {
         if (Global.endGame) return;

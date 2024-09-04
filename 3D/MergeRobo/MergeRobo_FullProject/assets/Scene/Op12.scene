@@ -21,11 +21,11 @@
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 194
+      "__id__": 195
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 195
+      "__id__": 196
     },
     "_id": "ba770f42-b1bd-480a-812a-b2d060f264d8"
   },
@@ -59,7 +59,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 193
+        "__id__": 194
       }
     ],
     "_prefab": null,
@@ -776,6 +776,9 @@
     "__prefab": null,
     "UIGameController": {
       "__id__": 20
+    },
+    "GameController": {
+      "__id__": 21
     },
     "vFx_FireLight": {
       "__id__": 28
@@ -6142,7 +6145,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 192
+        "__id__": 193
       }
     ],
     "_prefab": null,
@@ -6851,7 +6854,11 @@
     "_parent": {
       "__id__": 174
     },
-    "_children": [],
+    "_children": [
+      {
+        "__id__": 192
+      }
+    ],
     "_active": true,
     "_components": [],
     "_prefab": null,
@@ -6882,6 +6889,45 @@
       "z": 0
     },
     "_id": "8b5v/wuqRLpowadb24v+1E"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Pos_1",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 191
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_layer": 8388608,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "90ZgKv2zFEVLu7ttqF/i0F"
   },
   {
     "__type__": "7b73a5PaopMZIFgRWhIkWlN",
@@ -6937,19 +6983,19 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 196
-    },
-    "shadows": {
       "__id__": 197
     },
-    "_skybox": {
+    "shadows": {
       "__id__": 198
     },
-    "fog": {
+    "_skybox": {
       "__id__": 199
     },
-    "octree": {
+    "fog": {
       "__id__": 200
+    },
+    "octree": {
+      "__id__": 201
     }
   },
   {

@@ -28,7 +28,6 @@ export class RoboLevel extends Component {
 
 
     protected onLoad(): void {
-
         this.initCamera();
         this.initCanvas();
     }
@@ -41,6 +40,7 @@ export class RoboLevel extends Component {
 
     public showLevel(level: number, roboNode: Node): void {
         this.Robo_Level = level;
+
         this.Robo_Node3D = roboNode;
 
         this.variableIsSet = true;

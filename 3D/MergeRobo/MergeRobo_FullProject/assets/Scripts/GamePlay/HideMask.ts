@@ -7,6 +7,7 @@ import { LogicGamePlay } from '../Others/HandleLogicGamePlay';
 import { UIGameController } from '../Controller/UIGameController';
 import { CONST } from '../Const/CONST';
 import { RoboBehavior } from '../Robo/RoboBehavior';
+import { GameController } from '../Controller/GameController';
 const { ccclass, property } = _decorator;
 
 
@@ -27,6 +28,9 @@ const { ccclass, property } = _decorator;
 export class HideMask extends Component {
     @property(UIGameController)
     UIGameController: UIGameController = null;
+    @property(GameController)
+    GameController: GameController = null;
+
     @property(vFx_FireLight)
     vFx_FireLight: vFx_FireLight = null;
 
@@ -52,6 +56,11 @@ export class HideMask extends Component {
 
     private touchStart(event: EventTouch): void {
         if (!GameInfo.isCanTouch || IronSource.isEndGame) return;
+        
+        if(GameInfo.isToStore) {
+            this.GameController.installHandle();
+            return;
+        }
 
         GameInfo.isTouching = false;
 
@@ -68,7 +77,7 @@ export class HideMask extends Component {
 
 
     private touchMove(event: EventTouch): void {
-        if (!GameInfo.isCanTouch || IronSource.isEndGame) return;
+        if (!GameInfo.isCanTouch || IronSource.isEndGame || GameInfo.isToStore) return;
 
         this.UIGameController.Point.setPosition(GameInfo.touchPos);
 
@@ -87,10 +96,10 @@ export class HideMask extends Component {
 
 
     private touchEnd(): void {
-        if (!GameInfo.isCanTouch || IronSource.isEndGame) return;
+        if (!GameInfo.isCanTouch || IronSource.isEndGame || GameInfo.isToStore) return;
 
         GameInfo.isTouching = false;
-
+        
         this.UIGameController.Point.active = false;
         
         LogicGamePlay.HandleClearGraphics(this.UIGameController.Graphics);

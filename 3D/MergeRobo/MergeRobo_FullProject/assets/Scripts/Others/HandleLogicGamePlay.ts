@@ -19,7 +19,7 @@ const { ccclass, property } = _decorator;
  * URL = db://assets/Scripts/Others/HandleLogicGamePlay.ts
  * ManualUrl = https://docs.cocos.com/creator/3.4/manual/en/
  *
- */
+*/
 
 
 // Intersect Step -------------------
@@ -107,7 +107,7 @@ const mergeRobo = () => {
 
     // settimeout to show robo merged
     setTimeout(() => {
-        GameInfo.mergeCount += 1;
+        GameInfo.mergeCount += 1; 
 
         RoboController.Instance(RoboController).spawnRoboLevel_2(roboChoosenArr.length * 3);
 
@@ -121,8 +121,6 @@ const mergeRobo = () => {
                 let match = robo.name.match(/\d+/);
                 if (match) roboIndexName = parseInt(match[0], 10);
 
-                log(roboIndexName)
-
                 GameInfo.UI_MergePoint[roboIndexName - 1].active = false;
             }
 
@@ -132,6 +130,8 @@ const mergeRobo = () => {
 
         SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.mergeSound);
 
+        // if()
+ 
         // nếu sau lần merge đầu tiên mà vẫn còn robo thì vẫn cho vẽ tiếp
         if (GameInfo.mergeCount === 1 && roboChoosenArr.length >= 2) {
             GameInfo.isCanTouch = true;
