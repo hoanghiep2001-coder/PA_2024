@@ -109,7 +109,9 @@ const mergeRobo = () => {
     setTimeout(() => {
         GameInfo.mergeCount += 1; 
 
-        RoboController.Instance(RoboController).spawnRoboLevel_2(roboChoosenArr.length * 3);
+        let level: number = GameInfo.currentOption === 13 ? 1 : 3;
+
+        RoboController.Instance(RoboController).spawnRoboLevel_2(roboChoosenArr.length * level);
 
         log("spawn Robo Lv2");
 

@@ -1,5 +1,5 @@
 
-import { _decorator, Collider, Component, ERigidBodyType, ICollisionEvent, log, Node, RigidBody, SkeletalAnimation, Vec3 } from 'cc';
+import { _decorator, Collider, Component, easing, ERigidBodyType, ICollisionEvent, log, Node, RigidBody, SkeletalAnimation, Tween, tween, TweenAction, TweenSystem, Vec3 } from 'cc';
 import { GameInfo } from '../Const/GameInfo';
 import { RoboAnim } from './RoboAnim';
 import { RoboBehavior } from './RoboBehavior';
@@ -28,17 +28,19 @@ export class RoboCollision extends Component {
     @property(Collider)
     collider: Collider = null;
 
-    speed: number = 7;
+    speed: number = 5;
 
     isCollideBoss: boolean = false;
 
     currentAnim: string = null;
 
+    isActiveTween: boolean = false;
+    tweenState: Tween<null> = null;
     
     protected start(): void {
         this.collider.on("onCollisionEnter", (e: ICollisionEvent) => {
             // enemy robo
-            if (this.node.name === "Boss") {
+            if (this.node.name === "Boss" && !GameInfo.isWin) {
                 this.changeAnim(RoboAnim.Atk);
 
                 this.scheduleOnce(() => {
@@ -65,6 +67,9 @@ export class RoboCollision extends Component {
             if (e.otherCollider.node.name === "Boss") {
                 log("Collide Boss")
                 this.isCollideBoss = true;
+
+                // this.tweenState.stop();
+
                 this.rigidBody.type = ERigidBodyType.STATIC;
                 this.changeAnim(RoboAnim.Atk);
 
@@ -73,6 +78,17 @@ export class RoboCollision extends Component {
                 }, 1.5)
             }
         });
+    }
+
+
+    private moveToBossPos(): void {
+        if(this.isActiveTween) return;
+
+        this.isActiveTween = true;
+
+        this.tweenState = tween(this.node)
+        .to(3, {worldPosition: GameInfo.bossPos}, {easing: easing.smooth})
+        .start();
     }
 
 
@@ -106,7 +122,13 @@ export class RoboCollision extends Component {
 
 
     protected update(dt: number): void {
-        GameInfo.isReadyToFight && !this.isCollideBoss && this.moveRigidbodyToTarget();
+        // dùng cho di chuyển vật lý
+        GameInfo.isReadyToFight && !this.isCollideBoss && this.moveRigidbodyToTarget(); 
+
+        // dùng cho di chuyển bằng tween
+        // GameInfo.isReadyToFight && this.moveToBossPos(); 
+        
+
     }
 }
 

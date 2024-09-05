@@ -2,7 +2,7 @@ import { Node, Vec2, Vec3 } from "cc";
 
 export class GameInfo {
 
-    static currentOption: number = 13;
+    static currentOption: number = 12;
 
     // Main State
     static isToStore: boolean = false;
