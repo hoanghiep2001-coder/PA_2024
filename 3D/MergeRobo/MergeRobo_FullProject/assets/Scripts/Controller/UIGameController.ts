@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Graphics, Node } from 'cc';
+import { _decorator, Component, easing, Graphics, Label, Node, tween, Vec3 } from 'cc';
 import { GameInfo } from '../Const/GameInfo';
 import { SoundController } from './SoundController';
 import { CONST } from '../Const/CONST';
@@ -44,12 +44,16 @@ export class UIGameController extends Component {
 
     @property(Node)
     CTA: Node = null;
-
+    
     MergePoints: Node[] = [];
 
 
+    
+
     protected start(): void {
         this.registerEvent();
+
+        this.activeTweenForBtnCTA()
 
         this.TouchArea.children.forEach(child => {
             if(child.name.includes("MergePoint")) {
@@ -70,12 +74,39 @@ export class UIGameController extends Component {
         btn.on(Node.EventType.TOUCH_START, this.GameController.installHandle, this);
     }
 
-    protected update(dt: number): void {
-        if((GameInfo.isWin || GameInfo.isLose) && !GameInfo.IsShowPopupInstall) {
-            SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.winSound);
-            GameInfo.IsShowPopupInstall = true;
-            this.CTA.active = true;
+
+    private activeTweenForBtnCTA(): void {
+        let btn = this.CTA.getChildByName("btn");
+        tween(btn)
+        .repeatForever(
+           tween(btn)
+                .to(0.5, { scale: new Vec3(0.5, 0.5, 0.5) })
+                .to(0.5, { scale:  new Vec3(0.45, 0.45, 0.45)}, { easing: easing.elasticOut})
+        ).start();
+    }
+
+
+    public showCTATextContent(): void {
+        this.CTA.active = true;
+
+        GameInfo.IsShowPopupInstall = true;
+
+        let label = this.CTA.getChildByName("btn").getChildByName("Label").getComponent(Label);
+
+        if(GameInfo.isLose) {
+            SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.loseSound);
+            label.string = "Try Again"
         }
+
+        else {
+            SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.winSound);
+            label.string = "Continue"
+        }
+    }
+
+
+    protected update(dt: number): void {
+        if((GameInfo.isWin || GameInfo.isLose) && !GameInfo.IsShowPopupInstall) this.showCTATextContent();
     }
 }
 
