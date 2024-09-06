@@ -72,6 +72,10 @@ const mergeRobo = () => {
         return robo.getComponent(RoboBehavior).isPickup;
     });
 
+    let isAllChosen = GameInfo.playerStartGameRobo.every((robo, index) => {
+        return robo.getComponent(RoboBehavior).isPickup;
+    });
+
     GameInfo.playerStartGameRobo = GameInfo.playerStartGameRobo.filter(
         robo => !robo.getComponent(RoboBehavior).isPickup
     );
@@ -132,7 +136,19 @@ const mergeRobo = () => {
 
         SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.mergeSound);
 
-        // if()
+        // nếu tất cả robo đều đã được chọn
+        if(isAllChosen) {
+            GameInfo.isCanTouch = false;
+            GameInfo.isReadyToFight = true;
+            return;
+        }
+
+        // nếu là op 13 thì cho merge 1 lần là đánh luôn
+        if(GameInfo.currentOption === 13) {
+            GameInfo.isCanTouch = false;
+            GameInfo.isReadyToFight = true;
+            return;
+        }
  
         // nếu sau lần merge đầu tiên mà vẫn còn robo thì vẫn cho vẽ tiếp
         if (GameInfo.mergeCount === 1 && roboChoosenArr.length >= 2) {

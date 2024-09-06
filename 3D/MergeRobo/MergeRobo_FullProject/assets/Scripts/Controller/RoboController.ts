@@ -1,10 +1,12 @@
-import { _decorator, Component, instantiate, log, Node, Prefab } from 'cc';
+import { _decorator, Component, instantiate, log, Node, Prefab, SkeletalAnimation } from 'cc';
 import { GameInfo } from '../Const/GameInfo';
 import { CONST } from '../Const/CONST';
 import Singleton from '../Utils/Singleton';
 import { UIGameController } from './UIGameController';
 import { RoboLevel } from '../Robo/RoboLevel';
 import { RoboBehavior } from '../Robo/RoboBehavior';
+import { RoboAnim } from '../Robo/RoboAnim';
+import { RoboCollision } from '../Robo/RoboCollision';
 const { ccclass, property } = _decorator;
 
 
@@ -52,6 +54,8 @@ export class RoboController extends Singleton<RoboController> {
 
 
     Enemy_RoboPos: Node[] = [];
+
+    isShowPopupInstall: boolean = false;
 
 
     protected start(): void {
@@ -111,6 +115,8 @@ export class RoboController extends Singleton<RoboController> {
             default:
                 break;
         }
+        
+        GameInfo.bossLevel = level;
 
         for (let index = 0; index < this.Enemy_RoboPos.length; index++) {
             const pos = this.Enemy_RoboPos[index];
@@ -121,6 +127,8 @@ export class RoboController extends Singleton<RoboController> {
             let parent = pos;
             roboLv3.parent = parent;
             roboLv3.name = String("Boss");
+
+            GameInfo.enemyStartGameRobo.push(roboLv3);
 
             // setup Boss Pos
             if(!GameInfo.bossPos) GameInfo.bossPos = roboLv3.worldPosition;
@@ -149,8 +157,24 @@ export class RoboController extends Singleton<RoboController> {
         UI_level.parent = this.UIGameController.RoboLevels;
 
         const roboLevelComponent = UI_level.getComponent(RoboLevel);
-
+        
         roboLevelComponent.showLevel(level, roboLv2);
+        GameInfo.roboMerged_Level = level;
+    }
+
+
+    private swtichAnimBoss(anim: string): void {
+        this.isShowPopupInstall = true;
+
+        GameInfo.enemyStartGameRobo.forEach(robo => {
+            robo.getComponent(RoboBehavior).switchAnim(anim);
+        })
+    }
+
+
+    protected update(dt: number): void {
+        // if(GameInfo.isLose && !this.isShowPopupInstall) this.swtichAnimBoss(RoboAnim.Idle);
+        // if(GameInfo.isWin && !this.isShowPopupInstall) this.swtichAnimBoss(RoboAnim.Die);
     }
 }
 

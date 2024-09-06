@@ -21,8 +21,12 @@ export class GameInfo {
     static touchPos: Vec3 = null;
 
     static mergeCount: number = 0;
+    static roboMerged_Level: number = null;
+    static bossLevel: number = null;
 
     static playerStartGameRobo: Node[] = [];
+    static enemyStartGameRobo: Node[] = [];
+
     static UI_MergePoint: Node[] = [];
     static playerRoboLevelArr: Node[] = [];
 
@@ -31,6 +35,7 @@ export class GameInfo {
     
 
     // Fight step
+    static isTouchBoss: boolean = false;
     static isReadyToFight: boolean = false;
     static bossPos: Vec3 = null;
 

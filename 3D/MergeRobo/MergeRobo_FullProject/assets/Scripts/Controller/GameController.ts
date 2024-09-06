@@ -70,9 +70,10 @@ export class GameController extends Component {
         window.install && window.install();
     }
 
-    // update (deltaTime: number) {
-    //     // [4]
-    // }
+
+    update (deltaTime: number) {
+        IronSource.handleMuteSoundIronSource();
+    }
 }
 
 /**

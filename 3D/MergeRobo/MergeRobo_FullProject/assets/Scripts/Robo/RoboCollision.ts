@@ -35,60 +35,46 @@ export class RoboCollision extends Component {
     currentAnim: string = null;
 
     isActiveTween: boolean = false;
+
     tweenState: Tween<null> = null;
     
+
+    startFunction: boolean = false;
+
     protected start(): void {
         this.collider.on("onCollisionEnter", (e: ICollisionEvent) => {
             // enemy robo
             if (this.node.name === "Boss" && !GameInfo.isWin) {
                 this.changeAnim(RoboAnim.Atk);
 
-                this.scheduleOnce(() => {
-                    SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bangSound);
-                    this.getComponent(RoboBehavior).PS_Fires[0].play();
-                }, 0.5);
+                if(GameInfo.roboMerged_Level < GameInfo.bossLevel) this.loseBoss(); 
+                else this.winBoss();
 
-                this.scheduleOnce(() => {
-                    SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bangSound);
-                    this.getComponent(RoboBehavior).PS_Fires[1].play();
-                }, 1.5);
-
-                this.scheduleOnce(() => {
-                    SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bangSound);
-
-                    this.getComponent(RoboBehavior).PS_Fires[2].play();
-                    this.changeAnim(RoboAnim.Die);
-                    
-                    GameInfo.isWin = true;
-                }, 2.5);
+                // if(GameInfo.currentOption === 13) {
+                //     this.bossLose
+                // } 
             }
 
             // player Robo
             if (e.otherCollider.node.name === "Boss") {
                 log("Collide Boss")
-                this.isCollideBoss = true;
 
-                // this.tweenState.stop();
+                GameInfo.isTouchBoss = true;
+
+                this.isCollideBoss = true;
 
                 this.rigidBody.type = ERigidBodyType.STATIC;
                 this.changeAnim(RoboAnim.Atk);
 
                 this.scheduleOnce(() => {
-                    this.changeAnim(RoboAnim.Idle);
-                }, 1.5)
+                    // lose boss
+                    if(GameInfo.roboMerged_Level < GameInfo.bossLevel) this.changeAnim(RoboAnim.Die);
+
+                    // win boss
+                    else this.changeAnim(RoboAnim.Idle);
+                }, 2.5)
             }
         });
-    }
-
-
-    private moveToBossPos(): void {
-        if(this.isActiveTween) return;
-
-        this.isActiveTween = true;
-
-        this.tweenState = tween(this.node)
-        .to(3, {worldPosition: GameInfo.bossPos}, {easing: easing.smooth})
-        .start();
     }
 
 
@@ -116,19 +102,97 @@ export class RoboCollision extends Component {
 
     private changeAnim(animName: string): void {
         if (this.currentAnim === animName) return;
+
         this.currentAnim = animName;
         this.node.getChildByName("Robo_Base").getComponent(SkeletalAnimation).play(animName);
+    }
+
+
+    private loseBoss(): void {
+        this.startFunction = true;
+
+        this.scheduleOnce(() => {
+            SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bangSound);
+            GameInfo.enemyStartGameRobo.forEach(robo => 
+                robo.getComponent(RoboBehavior).PS_Fires[0].play()
+            );
+            // this.getComponent(RoboBehavior).PS_Fires[0].play();
+        }, 0.5);
+
+        this.scheduleOnce(() => {
+            SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bangSound);
+            GameInfo.enemyStartGameRobo.forEach(robo => 
+                robo.getComponent(RoboBehavior).PS_Fires[1].play()
+            );
+            // this.getComponent(RoboBehavior).PS_Fires[1].play();
+        }, 1.5);
+
+        this.scheduleOnce(() => {
+            SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bangSound);
+            GameInfo.enemyStartGameRobo.forEach(robo => 
+                robo.getComponent(RoboBehavior).PS_Fires[2].play()
+            );
+            // this.getComponent(RoboBehavior).PS_Fires[2].play();
+
+            this.changeAnim(RoboAnim.Idle);
+            
+            GameInfo.isLose = true;
+        }, 2.5);
+    }
+
+
+    private winBoss(): void {
+        this.startFunction = true;
+
+        this.scheduleOnce(() => {
+            SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bangSound);
+            GameInfo.enemyStartGameRobo.forEach(robo => 
+                robo.getComponent(RoboBehavior).PS_Fires[0].play()
+            );
+            // this.getComponent(RoboBehavior).PS_Fires[0].play();
+        }, 0.5);
+
+        this.scheduleOnce(() => {
+            SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bangSound);
+            GameInfo.enemyStartGameRobo.forEach(robo => 
+                robo.getComponent(RoboBehavior).PS_Fires[1].play()
+            );
+            // this.getComponent(RoboBehavior).PS_Fires[1].play();
+        }, 1.5);
+
+        this.scheduleOnce(() => {
+            SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bangSound);
+
+            GameInfo.enemyStartGameRobo.forEach(robo => 
+                robo.getComponent(RoboBehavior).PS_Fires[2].play()
+            );
+            // this.getComponent(RoboBehavior).PS_Fires[2].play();
+
+            GameInfo.enemyStartGameRobo.forEach(robo => 
+                robo.getComponent(RoboCollision).changeAnim(RoboAnim.Die)
+            );
+
+            // this.changeAnim(RoboAnim.Die);
+            
+            GameInfo.isWin = true;
+        }, 2.5);
+    }
+
+
+    private updateAnimForBoss(): void {
+        this.node.name === "Boss" && !GameInfo.IsShowPopupInstall && this.changeAnim(RoboAnim.Atk);
+
+        // GameInfo.isLose && !this.startFunction && this.node.name === "Boss" && this.loseBoss();
+        // GameInfo.isWin && !this.startFunction && this.node.name === "Boss" && this.winBoss();
+        // if(GameInfo.isWin && this.node.name === "Boss") this.changeAnim(RoboAnim.Die);
     }
 
 
     protected update(dt: number): void {
         // dùng cho di chuyển vật lý
         GameInfo.isReadyToFight && !this.isCollideBoss && this.moveRigidbodyToTarget(); 
-
-        // dùng cho di chuyển bằng tween
-        // GameInfo.isReadyToFight && this.moveToBossPos(); 
-        
-
+ 
+        GameInfo.currentOption === 13 && GameInfo.isTouchBoss && this.updateAnimForBoss();
     }
 }
 

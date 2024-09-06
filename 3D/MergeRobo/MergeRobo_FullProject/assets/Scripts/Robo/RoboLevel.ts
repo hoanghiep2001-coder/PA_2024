@@ -1,4 +1,5 @@
 import { _decorator, Camera, Canvas, Component, Label, log, Node, Vec3 } from 'cc';
+import { GameInfo } from '../Const/GameInfo';
 const { ccclass, property } = _decorator;
 
 /**
@@ -26,7 +27,9 @@ export class RoboLevel extends Component {
 
     variableIsSet: boolean = false;
 
+    isUnActived: boolean = false;
 
+    
     protected onLoad(): void {
         this.initCamera();
         this.initCanvas();
@@ -106,8 +109,17 @@ export class RoboLevel extends Component {
     }
 
 
+    private unActiveThisNode(): void {
+        if(this.isUnActived) return;
+
+        this.isUnActived = true;
+        this.node.active = false;
+    }
+
+
     protected update(dt: number): void {
         this.variableIsSet && this.setLevelPos();
+        GameInfo.isTouchBoss && this.unActiveThisNode();
     }
 }
 

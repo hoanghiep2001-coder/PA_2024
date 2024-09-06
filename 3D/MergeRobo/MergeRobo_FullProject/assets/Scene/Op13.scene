@@ -777,7 +777,9 @@
     "UIGameController": {
       "__id__": 20
     },
-    "GameController": null,
+    "GameController": {
+      "__id__": 21
+    },
     "vFx_FireLight": {
       "__id__": 28
     },
@@ -930,7 +932,7 @@
       "__id__": 23
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 25
@@ -1850,7 +1852,7 @@
         "__id__": 49
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 52

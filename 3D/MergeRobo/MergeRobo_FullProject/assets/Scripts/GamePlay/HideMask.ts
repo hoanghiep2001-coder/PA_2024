@@ -55,12 +55,14 @@ export class HideMask extends Component {
 
 
     private touchStart(event: EventTouch): void {
-        if (!GameInfo.isCanTouch || IronSource.isEndGame) return;
-        
         if(GameInfo.isToStore) {
             this.GameController.installHandle();
             return;
         }
+
+        if (!GameInfo.isCanTouch || IronSource.isEndGame) return;
+
+        IronSource.handleIronSourcePlaySound();
 
         GameInfo.isTouching = false;
 
@@ -83,7 +85,7 @@ export class HideMask extends Component {
 
         let touchPos = Utility.convertToLocalLocation(event.getUILocation(), this.node);
 
-        this.vFx_FireLight.updateDirectionFireLightVfx(touchPos);
+        // this.vFx_FireLight.updateDirectionFireLightVfx(touchPos);
 
         LogicGamePlay.HandleDrawGraphics(GameInfo.touchPos, touchPos, this.UIGameController.Graphics);
 
