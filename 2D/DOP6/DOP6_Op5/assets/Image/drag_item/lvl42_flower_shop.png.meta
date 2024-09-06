@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "71d70ac5-15bb-45bd-9728-39488c5dffa7",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1323,
+  "height": 1476,
+  "platformSettings": {},
+  "subMetas": {
+    "lvl42_flower_shop": {
+      "ver": "1.0.6",
+      "uuid": "97a6e7c6-e57a-4d4a-be43-0f3349fedf4f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "71d70ac5-15bb-45bd-9728-39488c5dffa7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 2.5,
+      "trimX": 0,
+      "trimY": 1,
+      "width": 1323,
+      "height": 1469,
+      "rawWidth": 1323,
+      "rawHeight": 1476,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

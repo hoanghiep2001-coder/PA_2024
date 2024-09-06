@@ -1,0 +1,378 @@
+{
+  "projectPath": "D:\\PA_2024\\2D\\AgeFight\\AgeFight_Op10",
+  "actualPlatform": "web-mobile",
+  "mtimes": {
+    "a0b2248f-8fdf-4295-889a-38f2012cf28d": {
+      "assetMtime": 1722054340313,
+      "metaMtime": 1722054359830
+    },
+    "35f33345-38a7-4a8b-8836-ab28c94025e7": {
+      "assetMtime": 1706708443262,
+      "metaMtime": 1722480624045
+    },
+    "77ec6565-4dea-48a1-9741-5f267bb7ffdb": {
+      "assetMtime": 1706708443262,
+      "metaMtime": 1722480624045
+    },
+    "425f3c8e-3e01-4135-b977-6dfd51a48477": {
+      "assetMtime": 1723027893968,
+      "metaMtime": 1723027941522
+    },
+    "b8cd58d7-0957-46d8-b1dc-3bd211076078": {
+      "assetMtime": 1723027893968,
+      "metaMtime": 1723027941522
+    },
+    "891da459-7f01-41cb-b4c8-1eb8f582b792": {
+      "assetMtime": 1706708443278,
+      "metaMtime": 1722480624046
+    },
+    "8462ef4e-2abe-4385-9178-145cfff9d872": {
+      "assetMtime": 1706708443278,
+      "metaMtime": 1722480624046
+    },
+    "b15a3db2-f55a-4ef7-8097-d3f16848418c": {
+      "assetMtime": 1706708443278,
+      "metaMtime": 1722480624042
+    },
+    "107e1a55-275f-4240-af9e-1587057103bb": {
+      "assetMtime": 1706708443278,
+      "metaMtime": 1722480624042
+    },
+    "cd88438a-1305-4f3b-b827-e03d9c939d0c": {
+      "assetMtime": 1706708443309,
+      "metaMtime": 1722497106076
+    },
+    "5bd8480b-4469-4471-9b96-fe8802e2bffd": {
+      "assetMtime": 1706708443309,
+      "metaMtime": 1722497106076
+    },
+    "d83bb0c2-313f-46dc-8ae0-abd70612ba8e": {
+      "assetMtime": 1706708443309,
+      "metaMtime": 1722480624048
+    },
+    "024e61a0-bba9-4933-9335-6af49356cd91": {
+      "assetMtime": 1706708443309,
+      "metaMtime": 1722480624048
+    },
+    "e358a5b4-ebd6-48c4-acc0-a8cc7fffba7b": {
+      "assetMtime": 1706708443262,
+      "metaMtime": 1722480624019
+    },
+    "c880b59a-1491-485a-b783-dd461d0cd95a": {
+      "assetMtime": 1706708443262,
+      "metaMtime": 1722480624019
+    },
+    "e5236d44-8e3a-4095-a940-a4256225f26e": {
+      "assetMtime": 1706708443262,
+      "metaMtime": 1722480624020
+    },
+    "882181d2-7b70-408e-a426-b2cd42ed67fe": {
+      "assetMtime": 1706708443262,
+      "metaMtime": 1722480624020
+    },
+    "e78d5b89-311e-4ff1-a672-031de499c396": {
+      "assetMtime": 1706708443278,
+      "metaMtime": 1722480624023
+    },
+    "3020bd83-5829-4a43-9887-1b5db71693a2": {
+      "assetMtime": 1706708443278,
+      "metaMtime": 1722480624023
+    },
+    "f70be5fa-2146-4253-81f7-248f8896b86e": {
+      "assetMtime": 1706708443262,
+      "metaMtime": 1722480624022
+    },
+    "63468708-2dd5-44a4-8976-1c1f62dda5a1": {
+      "assetMtime": 1706708443262,
+      "metaMtime": 1722480624022
+    }
+  },
+  "result": {
+    "name": "textures-2",
+    "width": 518,
+    "height": 518,
+    "ver": "1.2.5",
+    "uuid": "a0b2248f-8fdf-4295-889a-38f2012cf28d",
+    "importer": "auto-atlas",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "compressionLevel": 6,
+    "allowRotation": false,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": false,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "FlameArc8_small",
+            "uuid": "35f33345-38a7-4a8b-8836-ab28c94025e7",
+            "textureUuid": "77ec6565-4dea-48a1-9741-5f267bb7ffdb",
+            "path": "D:\\PA_2024\\2D\\AgeFight\\AgeFight_Op10\\temp\\trimImages\\spritesheet_js_1723028133324_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 512,
+              "height": 512,
+              "rotatedWidth": 512,
+              "rotatedHeight": 512
+            },
+            "rawWidth": 512,
+            "rawHeight": 512,
+            "width": 518,
+            "height": 518,
+            "originalPath": "D:/PA_2024/2D/AgeFight/AgeFight_Op10/library/imports/77/77ec6565-4dea-48a1-9741-5f267bb7ffdb.jpg",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 518,
+            "rotatedHeight": 518
+          },
+          {
+            "name": "spark_orange_glow",
+            "uuid": "d83bb0c2-313f-46dc-8ae0-abd70612ba8e",
+            "textureUuid": "024e61a0-bba9-4933-9335-6af49356cd91",
+            "path": "D:\\PA_2024\\2D\\AgeFight\\AgeFight_Op10\\temp\\trimImages\\spritesheet_js_1723028133325_image_5.png",
+            "trim": {
+              "x": 521,
+              "y": 3,
+              "width": 128,
+              "height": 128,
+              "rotatedWidth": 128,
+              "rotatedHeight": 128
+            },
+            "rawWidth": 128,
+            "rawHeight": 128,
+            "width": 134,
+            "height": 134,
+            "originalPath": "D:/PA_2024/2D/AgeFight/AgeFight_Op10/library/imports/02/024e61a0-bba9-4933-9335-6af49356cd91.png",
+            "x": 518,
+            "y": 0,
+            "rotatedWidth": 134,
+            "rotatedHeight": 134
+          },
+          {
+            "name": "blastwave1",
+            "uuid": "e358a5b4-ebd6-48c4-acc0-a8cc7fffba7b",
+            "textureUuid": "c880b59a-1491-485a-b783-dd461d0cd95a",
+            "path": "D:\\PA_2024\\2D\\AgeFight\\AgeFight_Op10\\temp\\trimImages\\spritesheet_js_1723028133325_image_6.png",
+            "trim": {
+              "x": 521,
+              "y": 137,
+              "width": 128,
+              "height": 128,
+              "rotatedWidth": 128,
+              "rotatedHeight": 128
+            },
+            "rawWidth": 128,
+            "rawHeight": 128,
+            "width": 134,
+            "height": 134,
+            "originalPath": "D:/PA_2024/2D/AgeFight/AgeFight_Op10/library/imports/c8/c880b59a-1491-485a-b783-dd461d0cd95a.png",
+            "x": 518,
+            "y": 134,
+            "rotatedWidth": 134,
+            "rotatedHeight": 134
+          },
+          {
+            "name": "Flare10",
+            "uuid": "e5236d44-8e3a-4095-a940-a4256225f26e",
+            "textureUuid": "882181d2-7b70-408e-a426-b2cd42ed67fe",
+            "path": "D:\\PA_2024\\2D\\AgeFight\\AgeFight_Op10\\temp\\trimImages\\spritesheet_js_1723028133325_image_7.png",
+            "trim": {
+              "x": 521,
+              "y": 271,
+              "width": 128,
+              "height": 128,
+              "rotatedWidth": 128,
+              "rotatedHeight": 128
+            },
+            "rawWidth": 128,
+            "rawHeight": 128,
+            "width": 134,
+            "height": 134,
+            "originalPath": "D:/PA_2024/2D/AgeFight/AgeFight_Op10/library/imports/88/882181d2-7b70-408e-a426-b2cd42ed67fe.png",
+            "x": 518,
+            "y": 268,
+            "rotatedWidth": 134,
+            "rotatedHeight": 134
+          },
+          {
+            "name": "Flare2",
+            "uuid": "f70be5fa-2146-4253-81f7-248f8896b86e",
+            "textureUuid": "63468708-2dd5-44a4-8976-1c1f62dda5a1",
+            "path": "D:\\PA_2024\\2D\\AgeFight\\AgeFight_Op10\\temp\\trimImages\\spritesheet_js_1723028133325_image_9.png",
+            "trim": {
+              "x": 521,
+              "y": 405,
+              "width": 128,
+              "height": 128,
+              "rotatedWidth": 128,
+              "rotatedHeight": 128
+            },
+            "rawWidth": 128,
+            "rawHeight": 128,
+            "width": 134,
+            "height": 134,
+            "originalPath": "D:/PA_2024/2D/AgeFight/AgeFight_Op10/library/imports/63/63468708-2dd5-44a4-8976-1c1f62dda5a1.png",
+            "x": 518,
+            "y": 402,
+            "rotatedWidth": 134,
+            "rotatedHeight": 134
+          },
+          {
+            "name": "sparks5x3_long",
+            "uuid": "891da459-7f01-41cb-b4c8-1eb8f582b792",
+            "textureUuid": "8462ef4e-2abe-4385-9178-145cfff9d872",
+            "path": "D:\\PA_2024\\2D\\AgeFight\\AgeFight_Op10\\temp\\trimImages\\spritesheet_js_1723028133324_image_2.png",
+            "trim": {
+              "x": 3,
+              "y": 521,
+              "width": 160,
+              "height": 96,
+              "rotatedWidth": 160,
+              "rotatedHeight": 96
+            },
+            "rawWidth": 160,
+            "rawHeight": 96,
+            "width": 166,
+            "height": 102,
+            "originalPath": "D:/PA_2024/2D/AgeFight/AgeFight_Op10/library/imports/84/8462ef4e-2abe-4385-9178-145cfff9d872.png",
+            "x": 0,
+            "y": 518,
+            "rotatedWidth": 166,
+            "rotatedHeight": 102
+          },
+          {
+            "name": "sparks2x3_violet",
+            "uuid": "e78d5b89-311e-4ff1-a672-031de499c396",
+            "textureUuid": "3020bd83-5829-4a43-9887-1b5db71693a2",
+            "path": "D:\\PA_2024\\2D\\AgeFight\\AgeFight_Op10\\temp\\trimImages\\spritesheet_js_1723028133325_image_8.png",
+            "trim": {
+              "x": 169,
+              "y": 521,
+              "width": 64,
+              "height": 96,
+              "rotatedWidth": 64,
+              "rotatedHeight": 96
+            },
+            "rawWidth": 64,
+            "rawHeight": 96,
+            "width": 70,
+            "height": 102,
+            "originalPath": "D:/PA_2024/2D/AgeFight/AgeFight_Op10/library/imports/30/3020bd83-5829-4a43-9887-1b5db71693a2.png",
+            "x": 166,
+            "y": 518,
+            "rotatedWidth": 70,
+            "rotatedHeight": 102
+          },
+          {
+            "name": "sparks5x2_long_violet",
+            "uuid": "b15a3db2-f55a-4ef7-8097-d3f16848418c",
+            "textureUuid": "107e1a55-275f-4240-af9e-1587057103bb",
+            "path": "D:\\PA_2024\\2D\\AgeFight\\AgeFight_Op10\\temp\\trimImages\\spritesheet_js_1723028133324_image_3.png",
+            "trim": {
+              "x": 239,
+              "y": 521,
+              "width": 160,
+              "height": 64,
+              "rotatedWidth": 160,
+              "rotatedHeight": 64
+            },
+            "rawWidth": 160,
+            "rawHeight": 64,
+            "width": 166,
+            "height": 70,
+            "originalPath": "D:/PA_2024/2D/AgeFight/AgeFight_Op10/library/imports/10/107e1a55-275f-4240-af9e-1587057103bb.png",
+            "x": 236,
+            "y": 518,
+            "rotatedWidth": 166,
+            "rotatedHeight": 70
+          },
+          {
+            "name": "sphere_orange",
+            "uuid": "cd88438a-1305-4f3b-b827-e03d9c939d0c",
+            "textureUuid": "5bd8480b-4469-4471-9b96-fe8802e2bffd",
+            "path": "D:\\PA_2024\\2D\\AgeFight\\AgeFight_Op10\\temp\\trimImages\\spritesheet_js_1723028133325_image_4.png",
+            "trim": {
+              "x": 405,
+              "y": 521,
+              "width": 32,
+              "height": 32,
+              "rotatedWidth": 32,
+              "rotatedHeight": 32
+            },
+            "rawWidth": 32,
+            "rawHeight": 32,
+            "width": 38,
+            "height": 38,
+            "originalPath": "D:/PA_2024/2D/AgeFight/AgeFight_Op10/library/imports/5b/5bd8480b-4469-4471-9b96-fe8802e2bffd.png",
+            "x": 402,
+            "y": 518,
+            "rotatedWidth": 38,
+            "rotatedHeight": 38
+          }
+        ],
+        "width": 652,
+        "height": 620,
+        "name": "textures-1",
+        "imagePath": "D:\\PA_2024\\2D\\AgeFight\\AgeFight_Op10\\temp\\TexturePacker\\build\\native\\assets\\neutrinoparticles\\textures\\textures.pac\\textures-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\PA_2024\\2D\\AgeFight\\AgeFight_Op10\\temp\\TexturePacker\\build\\native\\assets\\neutrinoparticles\\textures\\textures.pac\\compressed\\textures-1"
+        }
+      },
+      {
+        "files": [
+          {
+            "name": "CloudPart",
+            "uuid": "425f3c8e-3e01-4135-b977-6dfd51a48477",
+            "textureUuid": "b8cd58d7-0957-46d8-b1dc-3bd211076078",
+            "path": "D:\\PA_2024\\2D\\AgeFight\\AgeFight_Op10\\temp\\trimImages\\spritesheet_js_1723028133324_image_1.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 512,
+              "height": 512,
+              "rotatedWidth": 512,
+              "rotatedHeight": 512
+            },
+            "rawWidth": 512,
+            "rawHeight": 512,
+            "width": 518,
+            "height": 518,
+            "originalPath": "D:/PA_2024/2D/AgeFight/AgeFight_Op10/library/imports/b8/b8cd58d7-0957-46d8-b1dc-3bd211076078.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 518,
+            "rotatedHeight": 518
+          }
+        ],
+        "width": 518,
+        "height": 518,
+        "name": "textures-2",
+        "imagePath": "D:\\PA_2024\\2D\\AgeFight\\AgeFight_Op10\\temp\\TexturePacker\\build\\native\\assets\\neutrinoparticles\\textures\\textures.pac\\textures-2.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\PA_2024\\2D\\AgeFight\\AgeFight_Op10\\temp\\TexturePacker\\build\\native\\assets\\neutrinoparticles\\textures\\textures.pac\\compressed\\textures-2"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

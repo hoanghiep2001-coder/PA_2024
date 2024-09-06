@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Hint_Lv3",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "Mask/circle": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 1.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "New Node/Hint": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 1.5,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -219,
+                181
+              ],
+              "motionPath": [
+                [
+                  -103,
+                  313,
+                  -173,
+                  267,
+                  -29,
+                  362
+                ]
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                67,
+                371
+              ],
+              "motionPath": [
+                [
+                  240,
+                  294,
+                  173,
+                  352,
+                  316,
+                  230
+                ]
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                354,
+                125
+              ],
+              "motionPath": []
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

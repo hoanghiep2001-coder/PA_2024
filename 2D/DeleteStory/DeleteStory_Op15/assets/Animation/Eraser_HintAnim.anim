@@ -1,0 +1,110 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Eraser_HintAnim",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3.316666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "img_tut_hand": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                74,
+                -133,
+                0
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                44.442,
+                -66.173,
+                0
+              ]
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec3",
+                "x": 0.6,
+                "y": 0.6,
+                "z": 1
+              }
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            }
+          ]
+        }
+      }
+    },
+    "props": {
+      "position": [
+        {
+          "frame": 0.5,
+          "value": [
+            -99,
+            -2.362,
+            0
+          ]
+        },
+        {
+          "frame": 1.5,
+          "value": [
+            31.526,
+            54.098,
+            0
+          ]
+        },
+        {
+          "frame": 2,
+          "value": [
+            1.303,
+            9.87,
+            0
+          ]
+        },
+        {
+          "frame": 2.4833333333333334,
+          "value": [
+            53.64,
+            25.718,
+            0
+          ]
+        },
+        {
+          "frame": 3,
+          "value": [
+            19,
+            -19.984,
+            0
+          ]
+        },
+        {
+          "frame": 3.316666666666667,
+          "value": [
+            19,
+            -19.984,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

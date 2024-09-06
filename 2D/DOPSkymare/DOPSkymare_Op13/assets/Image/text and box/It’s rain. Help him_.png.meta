@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "bde780cc-59d6-4f86-a657-d071b2667725",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 656,
+  "height": 74,
+  "platformSettings": {},
+  "subMetas": {
+    "It’s rain. Help him_": {
+      "ver": "1.0.6",
+      "uuid": "84df4008-c8f9-477e-873d-180297400782",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "bde780cc-59d6-4f86-a657-d071b2667725",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 656,
+      "height": 74,
+      "rawWidth": 656,
+      "rawHeight": 74,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

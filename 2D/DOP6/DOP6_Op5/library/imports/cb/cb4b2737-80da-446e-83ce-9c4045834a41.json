@@ -1,0 +1,6289 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Boysub01_Drag_Part01",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "Zvo8Sm35Bjk",
+      "spine": "3.8-from-4.0-from-4.1-from-4.2.29",
+      "x": -140.66,
+      "y": 51.53,
+      "width": 349.16,
+      "height": 998.07,
+      "images": "./images/",
+      "audio": "./audio"
+    },
+    "bones": [
+      {
+        "name": "root",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "all",
+        "parent": "root"
+      },
+      {
+        "name": "hip",
+        "parent": "all",
+        "x": 138.56,
+        "y": 1200.58
+      },
+      {
+        "name": "body",
+        "parent": "hip",
+        "length": 199.02,
+        "rotation": 98.41,
+        "x": -1.16,
+        "y": 8.7
+      },
+      {
+        "name": "body2",
+        "parent": "body",
+        "length": 242.98,
+        "rotation": 12.37,
+        "x": 196.46,
+        "y": 0.38
+      },
+      {
+        "name": "f_u_arm",
+        "parent": "body2",
+        "length": 275,
+        "rotation": 150.21,
+        "x": 181.3,
+        "y": 226.51
+      },
+      {
+        "name": "b_u_arm",
+        "parent": "body2",
+        "length": 280,
+        "rotation": 174.63,
+        "x": 60.9,
+        "y": -93.6
+      },
+      {
+        "name": "f_l_arm",
+        "parent": "f_u_arm",
+        "length": 257,
+        "rotation": 8.33,
+        "x": 271.43,
+        "y": -0.52
+      },
+      {
+        "name": "b_l_arm",
+        "parent": "b_u_arm",
+        "length": 227,
+        "rotation": 7.85,
+        "x": 278.99,
+        "y": -0.16
+      },
+      {
+        "name": "hip_sub",
+        "parent": "hip",
+        "length": 65.18,
+        "rotation": -99.81,
+        "x": -36.5,
+        "y": -4.23
+      },
+      {
+        "name": "hip2",
+        "parent": "hip_sub",
+        "rotation": 99.81,
+        "x": 65.34
+      },
+      {
+        "name": "b_thigh",
+        "parent": "hip2",
+        "length": 445,
+        "rotation": -92.66,
+        "x": 32.25,
+        "y": 42.76
+      },
+      {
+        "name": "b_leg",
+        "parent": "b_thigh",
+        "length": 445,
+        "rotation": -1.2,
+        "x": 441.45,
+        "y": 0.5
+      },
+      {
+        "name": "f_thigh",
+        "parent": "hip2",
+        "length": 447,
+        "rotation": -101.24,
+        "x": -66.75,
+        "y": -22.24
+      },
+      {
+        "name": "f_leg",
+        "parent": "f_thigh",
+        "length": 445,
+        "rotation": 0.08,
+        "x": 442.44,
+        "y": 0.21
+      },
+      {
+        "name": "b_feet",
+        "parent": "b_leg",
+        "length": 220,
+        "rotation": 57.84,
+        "x": 447.54,
+        "y": -0.35
+      },
+      {
+        "name": "f_feet",
+        "parent": "f_leg",
+        "length": 220,
+        "rotation": 61.3,
+        "x": 441.85,
+        "y": 0.01
+      },
+      {
+        "name": "b_hand",
+        "parent": "b_l_arm",
+        "length": 150,
+        "rotation": -3.86,
+        "x": 224.9,
+        "y": 0.12
+      },
+      {
+        "name": "f_hand",
+        "parent": "f_l_arm",
+        "length": 150,
+        "rotation": 7.01,
+        "x": 256.8,
+        "y": -0.16
+      },
+      {
+        "name": "head",
+        "parent": "body2",
+        "length": 65.25,
+        "rotation": -21.8,
+        "x": 241.01,
+        "y": -0.5
+      },
+      {
+        "name": "face",
+        "parent": "head",
+        "length": 254.57,
+        "rotation": 4.96,
+        "x": 65.25
+      },
+      {
+        "name": "target_Hand_F",
+        "parent": "all",
+        "rotation": -90.67,
+        "x": -213.84,
+        "y": 967.73,
+        "color": "ff3f00ff",
+        "icon": "ik"
+      },
+      {
+        "name": "target_Hand_B",
+        "parent": "all",
+        "x": 337.83,
+        "y": 1016.17,
+        "color": "ff3f00ff",
+        "icon": "ik"
+      },
+      {
+        "name": "f_eye",
+        "parent": "face",
+        "x": 148.03,
+        "y": 6.64
+      },
+      {
+        "name": "f_eyelid",
+        "parent": "f_eye",
+        "x": 28.49,
+        "y": -38.98
+      },
+      {
+        "name": "f_pup",
+        "parent": "f_eye",
+        "rotation": -93.94,
+        "x": 6.71,
+        "y": -43.3
+      },
+      {
+        "name": "b_eye",
+        "parent": "face",
+        "x": 147.61,
+        "y": -122.63
+      },
+      {
+        "name": "b_pup",
+        "parent": "b_eye",
+        "rotation": -93.94,
+        "x": 1.1,
+        "y": -45.25
+      },
+      {
+        "name": "b_eyelid",
+        "parent": "b_eye",
+        "x": 31.74,
+        "y": -34.9
+      },
+      {
+        "name": "face2",
+        "parent": "face",
+        "length": 76.46,
+        "rotation": 76,
+        "x": 208.79,
+        "y": -69.83
+      },
+      {
+        "name": "face3",
+        "parent": "face",
+        "length": 58.17,
+        "rotation": -80.04,
+        "x": 201.95,
+        "y": -133.87
+      },
+      {
+        "name": "mouth",
+        "parent": "face",
+        "x": 38.52,
+        "y": -85.75
+      },
+      {
+        "name": "f_leg_move",
+        "parent": "all",
+        "x": -147.94,
+        "y": 46.29,
+        "color": "ff3f00ff",
+        "icon": "arrowLeftRight"
+      },
+      {
+        "name": "f_leg_IK",
+        "parent": "f_leg_move",
+        "y": 192.84,
+        "color": "ff3f00ff",
+        "icon": "ik"
+      },
+      {
+        "name": "b_leg_move",
+        "parent": "all",
+        "x": 73.2,
+        "y": 44.14,
+        "color": "ff3f00ff",
+        "icon": "arrowLeftRight"
+      },
+      {
+        "name": "b_leg_IK",
+        "parent": "b_leg_move",
+        "y": 245.58,
+        "color": "ff3f00ff",
+        "icon": "ik"
+      },
+      {
+        "name": "EF",
+        "parent": "all",
+        "x": 961.5
+      },
+      {
+        "name": "cry",
+        "parent": "EF",
+        "y": 1059.73
+      },
+      {
+        "name": "cry2",
+        "parent": "cry",
+        "length": 50,
+        "rotation": -30.53,
+        "x": 84.5,
+        "y": -41.41
+      },
+      {
+        "name": "cry3",
+        "parent": "cry",
+        "length": 50,
+        "rotation": 7.03,
+        "x": 96.97,
+        "y": 27.63
+      },
+      {
+        "name": "cry4",
+        "parent": "cry",
+        "length": 50,
+        "rotation": 25.03,
+        "x": 88.9,
+        "y": 93.02
+      },
+      {
+        "name": "cry5",
+        "parent": "cry",
+        "length": 50,
+        "rotation": -35.7,
+        "x": -57.39,
+        "y": 83.77,
+        "scaleX": -1
+      },
+      {
+        "name": "cry6",
+        "parent": "cry",
+        "length": 50,
+        "rotation": 41.1,
+        "x": -51.63,
+        "y": -56.8,
+        "scaleX": -1
+      },
+      {
+        "name": "cry7",
+        "parent": "cry",
+        "length": 50,
+        "rotation": 12.3,
+        "x": -77.44,
+        "y": 3.55,
+        "scaleX": -1
+      },
+      {
+        "name": "bone",
+        "parent": "root"
+      },
+      {
+        "name": "tool",
+        "parent": "b_hand",
+        "length": 204.16,
+        "rotation": 94.42,
+        "x": 80.84,
+        "y": -3.09
+      },
+      {
+        "name": "face4",
+        "parent": "face",
+        "x": 113.8,
+        "y": 8.33
+      },
+      {
+        "name": "face5",
+        "parent": "face",
+        "x": 104.06,
+        "y": -171.27
+      },
+      {
+        "name": "Tooldive_mask",
+        "parent": "face",
+        "x": 254.57
+      },
+      {
+        "name": "b_hand2",
+        "parent": "b_hand",
+        "length": 164.94,
+        "rotation": 29.8,
+        "x": 31.61,
+        "y": -56.61
+      },
+      {
+        "name": "drag_phone",
+        "parent": "b_hand2",
+        "x": 164.94
+      }
+    ],
+    "slots": [
+      {
+        "name": "b_hair",
+        "bone": "face",
+        "attachment": "hair/b_hair2"
+      },
+      {
+        "name": "b_up_arm",
+        "bone": "b_u_arm",
+        "attachment": "b_up_arm"
+      },
+      {
+        "name": "b_low_arm",
+        "bone": "b_l_arm",
+        "attachment": "b_low_arm"
+      },
+      {
+        "name": "b_hand",
+        "bone": "b_hand",
+        "attachment": "b_hand"
+      },
+      {
+        "name": "Toolphone",
+        "bone": "drag_phone"
+      },
+      {
+        "name": "drag_phone",
+        "bone": "drag_phone"
+      },
+      {
+        "name": "top_b_low_arm",
+        "bone": "b_l_arm",
+        "attachment": "skin01/top_l_l_arm01"
+      },
+      {
+        "name": "top_b_u_arm",
+        "bone": "b_u_arm",
+        "attachment": "skin00/top_l_u_arm"
+      },
+      {
+        "name": "b_low_leg",
+        "bone": "b_leg",
+        "attachment": "b_low_leg"
+      },
+      {
+        "name": "b_up_leg",
+        "bone": "b_thigh",
+        "attachment": "b_up_leg"
+      },
+      {
+        "name": "b_feet",
+        "bone": "b_feet",
+        "attachment": "b_feet"
+      },
+      {
+        "name": "b_shoe",
+        "bone": "b_feet",
+        "attachment": "skin00/b_shoe"
+      },
+      {
+        "name": "body",
+        "bone": "all",
+        "attachment": "body"
+      },
+      {
+        "name": "f_low_leg",
+        "bone": "f_leg",
+        "attachment": "f_low_leg"
+      },
+      {
+        "name": "f_up_leg",
+        "bone": "f_thigh",
+        "attachment": "f_up_leg"
+      },
+      {
+        "name": "f_feet",
+        "bone": "f_feet",
+        "attachment": "f_feet"
+      },
+      {
+        "name": "pant_b_low_leg",
+        "bone": "b_leg",
+        "attachment": "skin00/pant_b_low_leg"
+      },
+      {
+        "name": "pant_b_up_leg",
+        "bone": "b_thigh",
+        "attachment": "skin00/pant_b_up_leg"
+      },
+      {
+        "name": "pant_f_up_leg",
+        "bone": "f_thigh",
+        "attachment": "skin00/pant_f_up_leg"
+      },
+      {
+        "name": "pant_f_low_leg",
+        "bone": "f_leg",
+        "attachment": "skin00/pant_f_low_leg"
+      },
+      {
+        "name": "top01",
+        "bone": "all",
+        "attachment": "skin00/top01"
+      },
+      {
+        "name": "f_shoe",
+        "bone": "f_feet",
+        "attachment": "skin00/f_shoe"
+      },
+      {
+        "name": "Toolcoat",
+        "bone": "all"
+      },
+      {
+        "name": "face",
+        "bone": "face",
+        "attachment": "face"
+      },
+      {
+        "name": "face emo",
+        "bone": "face"
+      },
+      {
+        "name": "f_hair",
+        "bone": "face",
+        "attachment": "hair/f_hair2"
+      },
+      {
+        "name": "b_eye",
+        "bone": "b_eye",
+        "attachment": "b_eye"
+      },
+      {
+        "name": "b_pup",
+        "bone": "b_pup",
+        "attachment": "b_pup2"
+      },
+      {
+        "name": "b_eyelid",
+        "bone": "b_eyelid",
+        "attachment": "b_eyelid"
+      },
+      {
+        "name": "b_eyebrown",
+        "bone": "face3",
+        "attachment": "hair/b_eyebrown2"
+      },
+      {
+        "name": "mouth01",
+        "bone": "mouth",
+        "attachment": "mouth01"
+      },
+      {
+        "name": "nose",
+        "bone": "face",
+        "attachment": "nose2"
+      },
+      {
+        "name": "f_eye",
+        "bone": "f_eye",
+        "attachment": "f_eye"
+      },
+      {
+        "name": "f_pup",
+        "bone": "f_pup",
+        "attachment": "f_pup2"
+      },
+      {
+        "name": "f_eyelid",
+        "bone": "f_eyelid",
+        "attachment": "f_eyelid"
+      },
+      {
+        "name": "f_eyebrown",
+        "bone": "face2",
+        "attachment": "hair/f_eyebrown2"
+      },
+      {
+        "name": "f_up_hand",
+        "bone": "f_u_arm",
+        "attachment": "f_up_hand"
+      },
+      {
+        "name": "top_f_u_arm",
+        "bone": "f_u_arm",
+        "attachment": "skin00/top_r_u_arm"
+      },
+      {
+        "name": "f_low_hand",
+        "bone": "f_l_arm",
+        "attachment": "f_low_hand"
+      },
+      {
+        "name": "f_hand",
+        "bone": "f_hand",
+        "attachment": "f_hand"
+      },
+      {
+        "name": "top_f_low_hand",
+        "bone": "f_l_arm",
+        "attachment": "skin01/top_r_l_arm01"
+      },
+      {
+        "name": "tear",
+        "bone": "cry2"
+      },
+      {
+        "name": "tear2",
+        "bone": "cry3"
+      },
+      {
+        "name": "tear3",
+        "bone": "cry4"
+      },
+      {
+        "name": "tear4",
+        "bone": "cry5"
+      },
+      {
+        "name": "tear5",
+        "bone": "cry6"
+      },
+      {
+        "name": "tear6",
+        "bone": "cry7"
+      },
+      {
+        "name": "bonebone_0",
+        "bone": "bone"
+      },
+      {
+        "name": "bonebone_1",
+        "bone": "bone"
+      },
+      {
+        "name": "bonebone_15",
+        "bone": "bone"
+      },
+      {
+        "name": "bone_3",
+        "bone": "bone"
+      },
+      {
+        "name": "bonebone_2",
+        "bone": "bone"
+      },
+      {
+        "name": "bonebone_10",
+        "bone": "bone"
+      },
+      {
+        "name": "bonebone_3",
+        "bone": "bone"
+      },
+      {
+        "name": "bonebone_4",
+        "bone": "bone"
+      },
+      {
+        "name": "bonebone_13",
+        "bone": "bone"
+      },
+      {
+        "name": "bonebone_5",
+        "bone": "bone"
+      },
+      {
+        "name": "bonebone_11",
+        "bone": "bone"
+      },
+      {
+        "name": "bonebone_6",
+        "bone": "bone"
+      },
+      {
+        "name": "bonebone_14",
+        "bone": "bone"
+      },
+      {
+        "name": "bonebone_7",
+        "bone": "bone"
+      },
+      {
+        "name": "bonebone_12",
+        "bone": "bone"
+      },
+      {
+        "name": "bonebone_8",
+        "bone": "bone"
+      },
+      {
+        "name": "bonebone_9",
+        "bone": "bone"
+      },
+      {
+        "name": "Toolring_box",
+        "bone": "tool"
+      },
+      {
+        "name": "emotionL",
+        "bone": "face4"
+      },
+      {
+        "name": "emotionR",
+        "bone": "face5"
+      },
+      {
+        "name": "Tooldive_mask",
+        "bone": "Tooldive_mask"
+      },
+      {
+        "name": "Toolglass",
+        "bone": "face"
+      },
+      {
+        "name": "dirtygarbage",
+        "bone": "body"
+      },
+      {
+        "name": "Toolscraft",
+        "bone": "head"
+      }
+    ],
+    "ik": [
+      {
+        "name": "b_leg",
+        "bones": [
+          "b_thigh",
+          "b_leg"
+        ],
+        "target": "b_leg_IK",
+        "bendPositive": false
+      },
+      {
+        "name": "f_leg",
+        "order": 1,
+        "bones": [
+          "f_thigh",
+          "f_leg"
+        ],
+        "target": "f_leg_IK",
+        "bendPositive": false
+      },
+      {
+        "name": "target_Hand_B",
+        "order": 3,
+        "bones": [
+          "b_u_arm",
+          "b_l_arm"
+        ],
+        "target": "target_Hand_B",
+        "mix": 0
+      },
+      {
+        "name": "target_Hand_F",
+        "order": 2,
+        "bones": [
+          "f_u_arm",
+          "f_l_arm"
+        ],
+        "target": "target_Hand_F",
+        "mix": 0
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "body": {
+            "body": {
+              "type": "mesh",
+              "uvs": [
+                0.67473,
+                0.10655,
+                0.66695,
+                0.14527,
+                0.74825,
+                0.16921,
+                0.82956,
+                0.19316,
+                0.88738,
+                0.22296,
+                0.94519,
+                0.25277,
+                1,
+                0.32089,
+                1,
+                0.47658,
+                0.92068,
+                0.53193,
+                0.94598,
+                0.59952,
+                0.97127,
+                0.66711,
+                1,
+                0.78009,
+                0.92653,
+                0.89004,
+                0.85307,
+                1,
+                0.31595,
+                1,
+                0.25451,
+                0.91929,
+                0.23825,
+                0.79583,
+                0.27258,
+                0.72132,
+                0.33992,
+                0.67618,
+                0.32095,
+                0.63095,
+                0.30198,
+                0.58571,
+                0.20261,
+                0.54207,
+                0.10323,
+                0.47183,
+                0.05162,
+                0.40903,
+                0,
+                0.34623,
+                0,
+                0.23361,
+                0.0733,
+                0.19902,
+                0.1466,
+                0.16442,
+                0.22971,
+                0.14101,
+                0.31282,
+                0.11759,
+                0.35257,
+                0.0588,
+                0.39232,
+                0,
+                0.69616,
+                0,
+                0.48085,
+                0.13675,
+                0.77614,
+                0.60963,
+                0.80144,
+                0.45317,
+                0.6063,
+                0.21901,
+                0.3642,
+                0.37121,
+                0.92791,
+                0.33396,
+                0.46878,
+                0.83053
+              ],
+              "triangles": [
+                38,
+                5,
+                6,
+                35,
+                36,
+                38,
+                38,
+                6,
+                7,
+                35,
+                38,
+                7,
+                8,
+                35,
+                7,
+                34,
+                20,
+                35,
+                34,
+                35,
+                8,
+                34,
+                8,
+                9,
+                19,
+                20,
+                34,
+                18,
+                19,
+                34,
+                39,
+                18,
+                34,
+                17,
+                18,
+                39,
+                16,
+                17,
+                39,
+                39,
+                34,
+                11,
+                10,
+                34,
+                9,
+                11,
+                34,
+                10,
+                12,
+                39,
+                11,
+                15,
+                16,
+                39,
+                14,
+                15,
+                39,
+                13,
+                39,
+                12,
+                14,
+                39,
+                13,
+                0,
+                31,
+                32,
+                33,
+                30,
+                31,
+                0,
+                33,
+                31,
+                1,
+                33,
+                0,
+                29,
+                30,
+                33,
+                36,
+                33,
+                1,
+                36,
+                1,
+                2,
+                38,
+                4,
+                5,
+                24,
+                25,
+                26,
+                33,
+                28,
+                29,
+                37,
+                33,
+                36,
+                37,
+                28,
+                33,
+                27,
+                28,
+                37,
+                26,
+                27,
+                37,
+                24,
+                26,
+                37,
+                23,
+                24,
+                37,
+                36,
+                3,
+                38,
+                2,
+                3,
+                36,
+                38,
+                3,
+                4,
+                37,
+                36,
+                35,
+                22,
+                23,
+                37,
+                21,
+                22,
+                37,
+                20,
+                21,
+                37,
+                20,
+                37,
+                35
+              ],
+              "vertices": [
+                3,
+                4,
+                237.75,
+                -85.21,
+                0.04998,
+                19,
+                28.43,
+                -79.86,
+                0.94774,
+                3,
+                446.94,
+                -31.93,
+                0.00228,
+                3,
+                4,
+                211.76,
+                -71.65,
+                0.30167,
+                19,
+                -0.73,
+                -76.93,
+                0.68286,
+                3,
+                418.65,
+                -24.26,
+                0.01547,
+                3,
+                4,
+                182.14,
+                -98.94,
+                0.61932,
+                19,
+                -18.1,
+                -113.26,
+                0.30173,
+                3,
+                395.56,
+                -57.26,
+                0.07896,
+                3,
+                4,
+                152.52,
+                -126.22,
+                0.66401,
+                19,
+                -35.46,
+                -149.6,
+                0.15731,
+                3,
+                372.48,
+                -90.25,
+                0.17869,
+                3,
+                4,
+                122.48,
+                -142.22,
+                0.61916,
+                19,
+                -57.41,
+                -175.61,
+                0.09057,
+                3,
+                346.56,
+                -112.31,
+                0.29026,
+                3,
+                4,
+                92.44,
+                -158.21,
+                0.53378,
+                19,
+                -79.36,
+                -201.62,
+                0.05201,
+                3,
+                320.64,
+                -134.37,
+                0.41421,
+                3,
+                4,
+                35.93,
+                -162.74,
+                0.34921,
+                19,
+                -130.15,
+                -226.81,
+                0.01859,
+                3,
+                266.41,
+                -150.89,
+                0.63219,
+                3,
+                4,
+                -73.53,
+                -121.2,
+                0.01034,
+                19,
+                -247.21,
+                -228.9,
+                0.00001,
+                3,
+                150.59,
+                -133.76,
+                0.98964,
+                1,
+                3,
+                114.56,
+                -92.91,
+                1,
+                1,
+                3,
+                62.64,
+                -96.55,
+                1,
+                1,
+                3,
+                10.72,
+                -100.2,
+                1,
+                1,
+                3,
+                -75.19,
+                -100.36,
+                1,
+                1,
+                3,
+                -152.22,
+                -56.06,
+                1,
+                1,
+                3,
+                -158.97,
+                -9.22,
+                1,
+                2,
+                4,
+                -313.43,
+                222.92,
+                0.00038,
+                3,
+                -157.44,
+                151,
+                0.99962,
+                2,
+                4,
+                -259.16,
+                261.43,
+                0.00764,
+                3,
+                -112.67,
+                200.24,
+                0.99236,
+                2,
+                4,
+                -195.35,
+                234.45,
+                0.04856,
+                3,
+                -44.56,
+                187.55,
+                0.95144,
+                2,
+                4,
+                -147.02,
+                222.74,
+                0.10512,
+                3,
+                5.15,
+                186.46,
+                0.89488,
+                2,
+                4,
+                -110.12,
+                205.45,
+                0.2213,
+                3,
+                44.9,
+                177.48,
+                0.7787,
+                2,
+                4,
+                -75.33,
+                201.24,
+                0.41188,
+                3,
+                79.78,
+                180.81,
+                0.58812,
+                2,
+                4,
+                -40.55,
+                197.02,
+                0.63515,
+                3,
+                114.66,
+                184.15,
+                0.36485,
+                2,
+                4,
+                5.75,
+                226.54,
+                0.87122,
+                3,
+                153.56,
+                222.89,
+                0.12878,
+                2,
+                4,
+                70.76,
+                248.95,
+                0.97525,
+                3,
+                212.26,
+                258.71,
+                0.02475,
+                2,
+                4,
+                123.03,
+                253.58,
+                0.99742,
+                3,
+                262.33,
+                274.42,
+                0.00258,
+                1,
+                4,
+                175.29,
+                258.2,
+                1,
+                1,
+                4,
+                254.47,
+                228.15,
+                1,
+                1,
+                4,
+                267.27,
+                188.57,
+                1,
+                1,
+                4,
+                280.07,
+                148.98,
+                1,
+                2,
+                4,
+                283.47,
+                108.31,
+                0.99878,
+                19,
+                -0.99,
+                116.79,
+                0.00122,
+                2,
+                4,
+                286.87,
+                67.64,
+                0.89968,
+                19,
+                17.27,
+                80.3,
+                0.10032,
+                2,
+                4,
+                321.96,
+                35.49,
+                0.38453,
+                19,
+                61.79,
+                63.48,
+                0.61547,
+                2,
+                4,
+                357.05,
+                3.33,
+                0.09005,
+                19,
+                106.32,
+                46.66,
+                0.90995,
+                1,
+                19,
+                108.72,
+                -87.92,
+                1,
+                1,
+                4,
+                246.99,
+                3.15,
+                1,
+                1,
+                3,
+                66.13,
+                -21.01,
+                1,
+                2,
+                19,
+                -231.18,
+                -140.63,
+                0.00001,
+                3,
+                180.88,
+                -49.32,
+                0.99999,
+                3,
+                4,
+                169.44,
+                -26.86,
+                0.86118,
+                19,
+                -56.66,
+                -51.06,
+                0.12786,
+                3,
+                367.72,
+                10.43,
+                0.01096,
+                2,
+                4,
+                100.48,
+                114.02,
+                0.99854,
+                3,
+                270.19,
+                133.28,
+                0.00146,
+                3,
+                4,
+                38.07,
+                -129.39,
+                0.35521,
+                19,
+                -140.55,
+                -195.05,
+                0.01742,
+                3,
+                261.36,
+                -117.86,
+                0.62737,
+                2,
+                4,
+                -238.89,
+                193.26,
+                0.02226,
+                3,
+                -78.27,
+                137.99,
+                0.97774
+              ],
+              "hull": 33,
+              "edges": [
+                62,
+                64,
+                10,
+                12,
+                64,
+                0,
+                0,
+                2,
+                62,
+                60,
+                60,
+                58,
+                48,
+                50,
+                44,
+                42,
+                42,
+                40,
+                36,
+                34,
+                34,
+                32,
+                32,
+                30,
+                30,
+                28,
+                12,
+                14,
+                16,
+                14,
+                16,
+                18,
+                18,
+                20,
+                40,
+                38,
+                38,
+                36,
+                26,
+                28,
+                20,
+                22,
+                22,
+                24,
+                24,
+                26,
+                50,
+                52,
+                52,
+                54,
+                54,
+                56,
+                56,
+                58,
+                2,
+                4,
+                4,
+                6,
+                6,
+                8,
+                8,
+                10,
+                44,
+                46,
+                46,
+                48
+              ],
+              "width": 443,
+              "height": 752
+            }
+          },
+          "bonebone_0": {
+            "bone/bone_0": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                1,
+                20,
+                -27.68,
+                -150.03,
+                1,
+                1,
+                20,
+                -10.18,
+                104.37,
+                1,
+                1,
+                20,
+                293.6,
+                83.47,
+                1,
+                1,
+                20,
+                276.1,
+                -170.93,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 170,
+              "height": 203
+            }
+          },
+          "bonebone_1": {
+            "bone/bone_1": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                1,
+                17,
+                84.08,
+                14.97,
+                1,
+                1,
+                17,
+                63.15,
+                -44.45,
+                1,
+                1,
+                17,
+                -6.18,
+                -20.04,
+                1,
+                1,
+                17,
+                14.75,
+                39.39,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 42,
+              "height": 49
+            }
+          },
+          "bonebone_2": {
+            "bone/bone_2": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                1,
+                6,
+                33.18,
+                77.36,
+                1,
+                1,
+                6,
+                228.04,
+                56.3,
+                1,
+                1,
+                6,
+                220.31,
+                -15.28,
+                1,
+                1,
+                6,
+                25.44,
+                5.78,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 98,
+              "height": 36
+            }
+          },
+          "bonebone_3": {
+            "bone/bone_3": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                1,
+                8,
+                214.49,
+                -45.57,
+                1,
+                1,
+                8,
+                43.81,
+                -35.18,
+                1,
+                1,
+                8,
+                48.36,
+                39.68,
+                1,
+                1,
+                8,
+                219.05,
+                29.29,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 114,
+              "height": 50
+            }
+          },
+          "bonebone_4": {
+            "bone/bone_4": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                1,
+                15,
+                170.06,
+                -26.17,
+                1,
+                1,
+                15,
+                67.25,
+                -95.5,
+                1,
+                1,
+                15,
+                18.05,
+                -22.54,
+                1,
+                1,
+                15,
+                120.85,
+                46.79,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 62,
+              "height": 44
+            }
+          },
+          "bonebone_5": {
+            "bone/bone_5": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                0,
+                1,
+                3
+              ],
+              "vertices": [
+                1,
+                11,
+                542.37,
+                4.46,
+                1,
+                1,
+                11,
+                509.92,
+                -104.82,
+                1,
+                1,
+                11,
+                237.67,
+                -23.98,
+                1,
+                1,
+                11,
+                270.12,
+                85.31,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 57,
+              "height": 142
+            }
+          },
+          "bonebone_6": {
+            "bone/bone_6": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                1,
+                15,
+                57.5,
+                -31.88,
+                1,
+                1,
+                15,
+                7.75,
+                -65.43,
+                1,
+                1,
+                15,
+                -26.91,
+                -14.03,
+                1,
+                1,
+                15,
+                22.83,
+                19.52,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 30,
+              "height": 31
+            }
+          },
+          "bonebone_7": {
+            "bone/bone_7": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                1,
+                12,
+                394.63,
+                35.77,
+                1,
+                1,
+                12,
+                386.82,
+                -98,
+                1,
+                1,
+                12,
+                83.34,
+                -80.31,
+                1,
+                1,
+                12,
+                91.14,
+                53.47,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 67,
+              "height": 152
+            }
+          },
+          "bonebone_8": {
+            "bone/bone_8": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                1,
+                9,
+                179.34,
+                152.15,
+                1,
+                1,
+                9,
+                227.03,
+                -123.76,
+                1,
+                1,
+                9,
+                35.86,
+                -156.8,
+                1,
+                1,
+                9,
+                -11.82,
+                119.11,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 140,
+              "height": 97
+            }
+          },
+          "bonebone_9": {
+            "bone/bone_9": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                1,
+                3,
+                -42.44,
+                -102.33,
+                1,
+                1,
+                3,
+                20.12,
+                320.57,
+                1,
+                1,
+                3,
+                415.81,
+                262.04,
+                1,
+                1,
+                3,
+                353.26,
+                -160.86,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 171,
+              "height": 160
+            }
+          },
+          "bonebone_10": {
+            "bone/bone_2": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                1,
+                5,
+                -14.49,
+                12.88,
+                1,
+                1,
+                5,
+                181.48,
+                9.63,
+                1,
+                1,
+                5,
+                180.28,
+                -62.36,
+                1,
+                1,
+                5,
+                -15.69,
+                -59.11,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 98,
+              "height": 36
+            }
+          },
+          "bonebone_11": {
+            "bone/bone_5": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                0,
+                1,
+                3
+              ],
+              "vertices": [
+                1,
+                13,
+                481.71,
+                22.87,
+                1,
+                1,
+                13,
+                465.8,
+                -90.02,
+                1,
+                1,
+                13,
+                184.58,
+                -50.41,
+                1,
+                1,
+                13,
+                200.48,
+                62.48,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 57,
+              "height": 142
+            }
+          },
+          "bonebone_12": {
+            "bone/bone_7": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                0,
+                1,
+                3
+              ],
+              "vertices": [
+                1,
+                14,
+                343.7,
+                31.58,
+                1,
+                1,
+                14,
+                333.44,
+                -102.03,
+                1,
+                1,
+                14,
+                30.33,
+                -78.76,
+                1,
+                1,
+                14,
+                40.59,
+                54.84,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 67,
+              "height": 152
+            }
+          },
+          "bonebone_13": {
+            "bone/bone_4": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                1,
+                16,
+                189.97,
+                -31.51,
+                1,
+                1,
+                16,
+                94.85,
+                -111.06,
+                1,
+                1,
+                16,
+                38.39,
+                -43.56,
+                1,
+                1,
+                16,
+                133.51,
+                35.99,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 62,
+              "height": 44
+            }
+          },
+          "bonebone_14": {
+            "bone/bone_6": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                1,
+                16,
+                52.63,
+                -13.18,
+                1,
+                1,
+                16,
+                6.61,
+                -51.67,
+                1,
+                1,
+                16,
+                -33.17,
+                -4.11,
+                1,
+                1,
+                16,
+                12.85,
+                34.38,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 30,
+              "height": 31
+            }
+          },
+          "bonebone_15": {
+            "bone/bone_1": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                1,
+                18,
+                74.86,
+                25.09,
+                1,
+                1,
+                18,
+                67.9,
+                -37.52,
+                1,
+                1,
+                18,
+                -5.15,
+                -29.4,
+                1,
+                1,
+                18,
+                1.81,
+                33.21,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 42,
+              "height": 49
+            }
+          },
+          "bone_3": {
+            "bone/bone_3": {
+              "type": "mesh",
+              "path": "bone/bone_2",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                1,
+                7,
+                -7.69,
+                24.36,
+                1,
+                1,
+                7,
+                187.99,
+                13.13,
+                1,
+                1,
+                7,
+                183.87,
+                -58.75,
+                1,
+                1,
+                7,
+                -11.81,
+                -47.52,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 98,
+              "height": 36
+            }
+          },
+          "b_eye": {
+            "b_eye": {
+              "x": -1.29,
+              "y": -29.05,
+              "rotation": -93.94,
+              "width": 92,
+              "height": 93
+            },
+            "b_eye2": {
+              "path": "emotion/b_eye",
+              "x": -3.75,
+              "y": -42.65,
+              "rotation": -93.94,
+              "width": 112,
+              "height": 83
+            }
+          },
+          "b_eyebrown": {
+            "hair/b_eyebrown2": {
+              "path": "hair/b_eyebrown",
+              "x": 27.79,
+              "y": -0.46,
+              "rotation": -13.89,
+              "width": 67,
+              "height": 32
+            }
+          },
+          "b_eyelid": {
+            "b_eyelid": {
+              "x": -6.13,
+              "y": 3.5,
+              "rotation": -93.94,
+              "width": 89,
+              "height": 39
+            },
+            "emotion/b_eyelid04": {
+              "x": -68.33,
+              "y": 3.08,
+              "rotation": -93.94,
+              "width": 94,
+              "height": 95
+            },
+            "emotion/b_eyelid05": {
+              "x": -57.15,
+              "y": 7.74,
+              "rotation": -93.94,
+              "width": 81,
+              "height": 45
+            },
+            "emotion/f_eyelid04": {
+              "path": "emotion/f_eyelid01",
+              "x": -32.3,
+              "y": 5.85,
+              "scaleX": -1,
+              "rotation": -93.94,
+              "width": 91,
+              "height": 91
+            },
+            "emotion/f_eyelid05": {
+              "path": "emotion/f_eyelid02",
+              "x": -10.46,
+              "y": 6.3,
+              "rotation": -93.94,
+              "width": 88,
+              "height": 48
+            },
+            "emotion/f_eyelid06": {
+              "path": "emotion/f_eyelid03",
+              "x": -32.56,
+              "y": 5.03,
+              "rotation": 249.26,
+              "width": 91,
+              "height": 91
+            },
+            "emotion/f_eyelid07": {
+              "path": "emotion/b_eyelid06",
+              "x": -0.43,
+              "y": 7.69,
+              "rotation": -93.94,
+              "width": 94,
+              "height": 57
+            },
+            "emotion/f_eyelid08": {
+              "path": "emotion/b_eyelid08",
+              "x": -37.31,
+              "y": 9.47,
+              "rotation": -79.54,
+              "width": 71,
+              "height": 49
+            },
+            "emotion/f_eyelid09": {
+              "path": "emotion/b_eyelid11",
+              "x": -24.75,
+              "y": 8.6,
+              "rotation": -93.94,
+              "width": 64,
+              "height": 30
+            },
+            "emotion/f_eyelid010": {
+              "path": "emotion/b_eyelid15",
+              "x": -35.56,
+              "y": 5.28,
+              "rotation": -93.94,
+              "width": 92,
+              "height": 93
+            },
+            "emotion/f_eyelid011": {
+              "path": "emotion/b_eyelid16",
+              "x": -33.83,
+              "y": 6.79,
+              "rotation": -93.94,
+              "width": 91,
+              "height": 91
+            },
+            "emotion/f_eyelid012": {
+              "path": "emotion/b_eyelid17",
+              "x": -23.94,
+              "y": 8.55,
+              "rotation": -93.94,
+              "width": 64,
+              "height": 38
+            },
+            "emotion/f_eyelid013": {
+              "path": "emotion/b_eyelid19",
+              "x": -38.75,
+              "y": 6.31,
+              "rotation": -92.74,
+              "width": 98,
+              "height": 136
+            },
+            "emotion/f_eyelid014": {
+              "path": "emotion/b_eyelid24",
+              "x": -50.43,
+              "y": 2.23,
+              "rotation": -79.54,
+              "width": 87,
+              "height": 55
+            }
+          },
+          "b_feet": {
+            "b_feet": {
+              "x": 64.51,
+              "y": -6.26,
+              "rotation": 36.02,
+              "width": 213,
+              "height": 166
+            }
+          },
+          "b_hair": {
+            "hair/b_hair2": {
+              "path": "hair/b_hair",
+              "x": 188.69,
+              "y": -16.77,
+              "rotation": -93.94,
+              "width": 397,
+              "height": 431
+            },
+            "Tool/chef_hat_b": {
+              "x": 235.25,
+              "y": -3.47,
+              "rotation": -93.94,
+              "width": 539,
+              "height": 653
+            }
+          },
+          "b_hand": {
+            "b_hand": {
+              "x": 82.39,
+              "y": -6.68,
+              "rotation": 71.32,
+              "width": 115,
+              "height": 212
+            },
+            "hand/hand_0": {
+              "x": 92.64,
+              "y": 24.13,
+              "scaleX": -1,
+              "rotation": 98.76,
+              "width": 115,
+              "height": 203
+            },
+            "hand/hand_1": {
+              "x": 115.73,
+              "y": -1.12,
+              "scaleX": -1,
+              "rotation": 92.2,
+              "width": 139,
+              "height": 241
+            },
+            "hand/hand_2": {
+              "x": 97.82,
+              "y": 36.31,
+              "scaleX": -1,
+              "rotation": 103.99,
+              "width": 113,
+              "height": 239
+            },
+            "hand/hand_3": {
+              "x": 120.36,
+              "y": 1.64,
+              "scaleX": -1,
+              "rotation": 94.6,
+              "width": 126,
+              "height": 234
+            },
+            "hand/hand_4": {
+              "x": 107.22,
+              "y": 10.1,
+              "scaleX": -1,
+              "rotation": 99.4,
+              "width": 196,
+              "height": 227
+            },
+            "hand/hand_5": {
+              "x": 106.88,
+              "y": 19.22,
+              "scaleX": -1,
+              "rotation": 92.2,
+              "width": 121,
+              "height": 228
+            },
+            "hand/hand_6": {
+              "x": 107.91,
+              "y": 0.86,
+              "scaleX": -1,
+              "rotation": 88.6,
+              "width": 120,
+              "height": 225
+            },
+            "hand/hand_7": {
+              "x": 103.34,
+              "y": 21.97,
+              "rotation": 70.6,
+              "width": 155,
+              "height": 191
+            },
+            "hand/hand_8": {
+              "x": 83.66,
+              "y": -4.11,
+              "rotation": 70.6,
+              "width": 125,
+              "height": 181
+            },
+            "hand/hand_9": {
+              "x": 93.15,
+              "y": 1.55,
+              "rotation": 70.6,
+              "width": 122,
+              "height": 186
+            },
+            "hand/hand_10": {
+              "x": 106.26,
+              "y": 8.94,
+              "rotation": 70.6,
+              "width": 134,
+              "height": 199
+            }
+          },
+          "b_low_arm": {
+            "b_low_arm": {
+              "x": 103.46,
+              "y": -7.47,
+              "rotation": 66.74,
+              "width": 189,
+              "height": 309
+            }
+          },
+          "b_low_leg": {
+            "b_low_leg": {
+              "x": 223.54,
+              "y": -7.96,
+              "rotation": 93.86,
+              "width": 151,
+              "height": 530
+            }
+          },
+          "b_pup": {
+            "b_pup2": {
+              "path": "b_pup",
+              "x": -7,
+              "width": 50,
+              "height": 44
+            },
+            "emotion/f_pup02": {
+              "x": -7,
+              "width": 42,
+              "height": 42
+            },
+            "emotion/f_pup03": {
+              "path": "emotion/pup_death",
+              "x": -13.55,
+              "y": -1.87,
+              "width": 65,
+              "height": 52
+            },
+            "emotion/pup_heart2": {
+              "path": "emotion/pup_heart",
+              "x": -2.15,
+              "y": -3,
+              "rotation": 7.2,
+              "width": 108,
+              "height": 106
+            },
+            "emotion/pup_money2": {
+              "path": "emotion/pup_money",
+              "x": -11.44,
+              "y": -3,
+              "rotation": 344.4,
+              "width": 94,
+              "height": 112
+            }
+          },
+          "b_up_arm": {
+            "b_up_arm": {
+              "x": 114.63,
+              "y": -15.01,
+              "rotation": 74.59,
+              "width": 213,
+              "height": 420
+            }
+          },
+          "b_up_leg": {
+            "b_up_leg": {
+              "x": 208.54,
+              "y": 14.7,
+              "rotation": 92.66,
+              "width": 231,
+              "height": 589
+            }
+          },
+          "dirtygarbage": {
+            "dirty/garbage": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0.5,
+                1,
+                0,
+                1,
+                0,
+                0.75,
+                0,
+                0.5,
+                0,
+                0.25,
+                0,
+                0,
+                0.5,
+                0,
+                1,
+                0,
+                1,
+                0.25,
+                1,
+                0.5,
+                1,
+                0.75,
+                0.5,
+                0.75,
+                0.5,
+                0.5,
+                0.5,
+                0.25
+              ],
+              "triangles": [
+                0,
+                1,
+                11,
+                1,
+                12,
+                11,
+                11,
+                12,
+                10,
+                12,
+                13,
+                10,
+                10,
+                13,
+                9,
+                1,
+                2,
+                12,
+                2,
+                3,
+                12,
+                12,
+                3,
+                13,
+                13,
+                14,
+                9,
+                9,
+                14,
+                8,
+                14,
+                7,
+                8,
+                3,
+                4,
+                13,
+                13,
+                4,
+                14,
+                4,
+                5,
+                14,
+                14,
+                5,
+                7,
+                5,
+                6,
+                7
+              ],
+              "vertices": [
+                1,
+                3,
+                -328.39,
+                -121.15,
+                1,
+                2,
+                4,
+                -433.68,
+                261.32,
+                0.08491,
+                3,
+                -283.12,
+                162.76,
+                0.91509,
+                2,
+                4,
+                -328.66,
+                528.95,
+                0.24407,
+                3,
+                -237.85,
+                446.68,
+                0.75593,
+                2,
+                4,
+                -141.08,
+                455.35,
+                0.39113,
+                3,
+                -38.87,
+                414.95,
+                0.60887,
+                2,
+                4,
+                46.49,
+                381.74,
+                0.76301,
+                3,
+                160.12,
+                383.22,
+                0.23699,
+                2,
+                4,
+                234.07,
+                308.13,
+                0.98856,
+                3,
+                359.11,
+                351.49,
+                0.01144,
+                1,
+                4,
+                421.64,
+                234.52,
+                1,
+                1,
+                4,
+                316.62,
+                -33.11,
+                1,
+                2,
+                4,
+                211.59,
+                -300.74,
+                0.99654,
+                3,
+                467.55,
+                -248.07,
+                0.00346,
+                2,
+                4,
+                24.02,
+                -227.13,
+                0.70169,
+                3,
+                268.57,
+                -216.34,
+                0.29831,
+                2,
+                4,
+                -163.56,
+                -153.52,
+                0.02394,
+                3,
+                69.58,
+                -184.61,
+                0.97606,
+                1,
+                3,
+                -129.41,
+                -152.88,
+                1,
+                2,
+                4,
+                -246.11,
+                187.72,
+                0.13012,
+                3,
+                -84.14,
+                131.03,
+                0.86988,
+                2,
+                4,
+                -58.53,
+                114.11,
+                0.46995,
+                3,
+                114.85,
+                99.3,
+                0.53005,
+                1,
+                4,
+                129.04,
+                40.5,
+                1
+              ],
+              "hull": 12,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                6,
+                8,
+                8,
+                10,
+                10,
+                12,
+                12,
+                14,
+                14,
+                16,
+                16,
+                18,
+                18,
+                20,
+                20,
+                22,
+                22,
+                0
+              ],
+              "width": 575,
+              "height": 806
+            }
+          },
+          "emotionL": {
+            "emotion/emotion02": {
+              "x": 0.36,
+              "y": -0.82,
+              "rotation": -93.94,
+              "width": 75,
+              "height": 44
+            },
+            "tear2": {
+              "path": "tear",
+              "x": -18.96,
+              "y": 5.21,
+              "rotation": -96.98,
+              "width": 20,
+              "height": 49
+            }
+          },
+          "emotionR": {
+            "emotion/emotion02": {
+              "x": -0.01,
+              "y": -1.79,
+              "rotation": -93.94,
+              "width": 75,
+              "height": 44
+            }
+          },
+          "face": {
+            "face": {
+              "x": 150.19,
+              "y": -22.65,
+              "rotation": -93.94,
+              "width": 326,
+              "height": 371
+            }
+          },
+          "face emo": {
+            "emotion/emotion03": {
+              "x": 204.26,
+              "y": -27.39,
+              "rotation": -93.94,
+              "width": 323,
+              "height": 269
+            },
+            "emotion/emotion04": {
+              "x": 97.71,
+              "y": 21.32,
+              "rotation": -93.94,
+              "width": 19,
+              "height": 22
+            },
+            "emotion/emotion05": {
+              "x": 123.14,
+              "y": -48.43,
+              "rotation": -93.94,
+              "width": 128,
+              "height": 188
+            }
+          },
+          "f_eye": {
+            "f_eye": {
+              "x": 3.82,
+              "y": -34.41,
+              "rotation": -93.94,
+              "width": 92,
+              "height": 93
+            },
+            "f_eye2": {
+              "path": "emotion/f_eye",
+              "x": 3.43,
+              "y": -40.09,
+              "rotation": -93.94,
+              "width": 112,
+              "height": 116
+            }
+          },
+          "f_eyebrown": {
+            "hair/f_eyebrown2": {
+              "path": "hair/f_eyebrown",
+              "x": 42.01,
+              "y": 1.06,
+              "rotation": -169.94,
+              "width": 87,
+              "height": 35
+            }
+          },
+          "f_eyelid": {
+            "emotion/b_eyelid05": {
+              "x": -49.41,
+              "y": 7.17,
+              "rotation": -93.94,
+              "width": 81,
+              "height": 45
+            },
+            "emotion/f_eyelid01": {
+              "x": -23.75,
+              "y": 4.71,
+              "rotation": -93.94,
+              "width": 91,
+              "height": 91
+            },
+            "emotion/f_eyelid02": {
+              "x": -2.27,
+              "y": 4.67,
+              "rotation": -93.94,
+              "width": 88,
+              "height": 48
+            },
+            "emotion/f_eyelid03": {
+              "x": -24.27,
+              "y": 4.96,
+              "rotation": -93.94,
+              "width": 91,
+              "height": 91
+            },
+            "emotion/f_eyelid04": {
+              "x": -80.18,
+              "y": 27.84,
+              "rotation": -93.94,
+              "width": 119,
+              "height": 141
+            },
+            "emotion/f_eyelid05": {
+              "x": -54.25,
+              "y": 13.76,
+              "rotation": -93.94,
+              "width": 95,
+              "height": 57
+            },
+            "emotion/f_eyelid06": {
+              "x": 3.52,
+              "y": -0.98,
+              "rotation": -93.94,
+              "width": 109,
+              "height": 54
+            },
+            "emotion/f_eyelid07": {
+              "path": "emotion/f_eyelid08",
+              "x": -28.71,
+              "y": 8.03,
+              "rotation": -93.94,
+              "width": 96,
+              "height": 54
+            },
+            "emotion/f_eyelid11": {
+              "x": -28.71,
+              "y": 8.03,
+              "rotation": -93.94,
+              "width": 106,
+              "height": 27
+            },
+            "emotion/f_eyelid12": {
+              "path": "emotion/f_eyelid15",
+              "x": -28.71,
+              "y": 8.03,
+              "rotation": -93.94,
+              "width": 102,
+              "height": 102
+            },
+            "emotion/f_eyelid13": {
+              "path": "emotion/f_eyelid16",
+              "x": -24.94,
+              "y": 4.87,
+              "scaleX": 0.8809,
+              "scaleY": 0.8809,
+              "rotation": -93.94,
+              "width": 101,
+              "height": 102
+            },
+            "emotion/f_eyelid14": {
+              "path": "emotion/f_eyelid17",
+              "x": -24.94,
+              "y": 4.87,
+              "scaleX": 0.8809,
+              "scaleY": 0.8809,
+              "rotation": -93.94,
+              "width": 106,
+              "height": 35
+            },
+            "emotion/f_eyelid15": {
+              "path": "emotion/f_eyelid18",
+              "x": -24.19,
+              "y": 2.59,
+              "scaleX": 0.8809,
+              "scaleY": 0.8809,
+              "rotation": -93.94,
+              "width": 112,
+              "height": 106
+            },
+            "emotion/f_eyelid16": {
+              "path": "emotion/f_eyelid19",
+              "x": -30.49,
+              "y": 6.1,
+              "scaleX": 0.8809,
+              "scaleY": 0.8809,
+              "rotation": -93.94,
+              "width": 127,
+              "height": 131
+            },
+            "emotion/f_eyelid17": {
+              "path": "emotion/f_eyelid24",
+              "x": -43.36,
+              "y": 6.13,
+              "scaleX": 0.8809,
+              "scaleY": 0.8809,
+              "rotation": -93.94,
+              "width": 95,
+              "height": 60
+            },
+            "f_eyelid": {
+              "x": 1.3,
+              "y": 3.28,
+              "rotation": -93.94,
+              "width": 89,
+              "height": 39
+            }
+          },
+          "f_feet": {
+            "f_feet": {
+              "x": 71.26,
+              "y": -4.99,
+              "rotation": 39.86,
+              "width": 213,
+              "height": 179
+            }
+          },
+          "f_hair": {
+            "hair/f_hair2": {
+              "path": "hair/f_hair",
+              "x": 233.88,
+              "y": -66.49,
+              "rotation": -93.94,
+              "width": 420,
+              "height": 298
+            },
+            "Tool/chef_hat_f": {
+              "x": 258.59,
+              "y": -17.79,
+              "rotation": -93.94,
+              "width": 419,
+              "height": 277
+            }
+          },
+          "f_hand": {
+            "f_hand": {
+              "x": 79.7,
+              "y": 13.46,
+              "rotation": 83.66,
+              "width": 139,
+              "height": 226
+            },
+            "hand/hand_0": {
+              "x": 76.3,
+              "y": -23.7,
+              "rotation": 83.66,
+              "width": 115,
+              "height": 203
+            },
+            "hand/hand_1": {
+              "x": 102.22,
+              "y": -5.11,
+              "rotation": 83.66,
+              "width": 139,
+              "height": 241
+            },
+            "hand/hand_2": {
+              "x": 98.69,
+              "y": -26.19,
+              "rotation": 83.66,
+              "width": 113,
+              "height": 239
+            },
+            "hand/hand_3": {
+              "x": 97.9,
+              "y": -1.05,
+              "rotation": 83.66,
+              "width": 126,
+              "height": 234
+            },
+            "hand/hand_4": {
+              "x": 91.49,
+              "y": -5.11,
+              "rotation": 83.66,
+              "width": 196,
+              "height": 227
+            },
+            "hand/hand_5": {
+              "x": 91.62,
+              "y": -25.4,
+              "rotation": 83.66,
+              "width": 121,
+              "height": 228
+            },
+            "hand/hand_6": {
+              "x": 89.65,
+              "y": -10.87,
+              "rotation": 83.66,
+              "width": 120,
+              "height": 225
+            },
+            "hand/hand_7": {
+              "x": 62.12,
+              "y": -49.95,
+              "scaleX": -1,
+              "rotation": 83.66,
+              "width": 155,
+              "height": 191
+            },
+            "hand/hand_8": {
+              "x": 70.82,
+              "y": -8.48,
+              "scaleX": -1,
+              "rotation": 98.06,
+              "width": 125,
+              "height": 181
+            },
+            "hand/hand_9": {
+              "x": 78.71,
+              "y": -22.55,
+              "scaleX": -1,
+              "rotation": 93.26,
+              "width": 122,
+              "height": 186
+            },
+            "hand/hand_10": {
+              "x": 85.23,
+              "y": -21.83,
+              "scaleX": -1,
+              "rotation": 100.16,
+              "width": 134,
+              "height": 199
+            }
+          },
+          "f_low_hand": {
+            "f_low_hand": {
+              "x": 117.54,
+              "y": -3.12,
+              "rotation": 90.67,
+              "width": 132,
+              "height": 342
+            }
+          },
+          "f_low_leg": {
+            "f_low_leg": {
+              "x": 216.33,
+              "y": 6.49,
+              "rotation": 101.16,
+              "width": 180,
+              "height": 520
+            }
+          },
+          "f_pup": {
+            "emotion/f_pup02": {
+              "x": -4.67,
+              "width": 42,
+              "height": 42
+            },
+            "emotion/f_pup03": {
+              "path": "emotion/pup_death",
+              "x": -4.67,
+              "width": 65,
+              "height": 52
+            },
+            "emotion/pup_heart": {
+              "x": -4.67,
+              "rotation": 33.6,
+              "width": 108,
+              "height": 106
+            },
+            "emotion/pup_money": {
+              "x": -4.67,
+              "width": 94,
+              "height": 112
+            },
+            "f_pup2": {
+              "path": "f_pup",
+              "x": -4.67,
+              "width": 50,
+              "height": 44
+            }
+          },
+          "f_up_hand": {
+            "f_up_hand": {
+              "x": 111.5,
+              "y": 15.14,
+              "rotation": 99,
+              "width": 192,
+              "height": 420
+            }
+          },
+          "f_up_leg": {
+            "f_up_leg": {
+              "x": 199.58,
+              "y": 26.9,
+              "rotation": 101.24,
+              "width": 250,
+              "height": 581
+            }
+          },
+          "mouth01": {
+            "mouth/mouth_0": {
+              "x": 18.88,
+              "y": 28.01,
+              "rotation": -93.94,
+              "width": 127,
+              "height": 63
+            },
+            "mouth/mouth_1": {
+              "x": -14.78,
+              "y": 4.89,
+              "rotation": -93.94,
+              "width": 232,
+              "height": 163
+            },
+            "mouth/mouth_2": {
+              "x": 12.57,
+              "y": 22.65,
+              "rotation": -93.94,
+              "width": 120,
+              "height": 43
+            },
+            "mouth/mouth_3": {
+              "x": 10.42,
+              "y": 23.31,
+              "rotation": -93.94,
+              "width": 136,
+              "height": 37
+            },
+            "mouth/mouth_4": {
+              "x": -1.99,
+              "y": 21.48,
+              "rotation": -93.94,
+              "width": 122,
+              "height": 39
+            },
+            "mouth/mouth_5": {
+              "x": -4.87,
+              "y": -17.13,
+              "rotation": -93.94,
+              "width": 39,
+              "height": 54
+            },
+            "mouth/mouth_6": {
+              "x": 0.72,
+              "y": -68.67,
+              "rotation": -93.94,
+              "width": 99,
+              "height": 60
+            },
+            "mouth/mouth_8": {
+              "x": -13.65,
+              "y": 14.52,
+              "rotation": -93.94,
+              "width": 135,
+              "height": 97
+            },
+            "mouth/mouth_9": {
+              "x": -9.76,
+              "y": 17.91,
+              "rotation": -93.94,
+              "width": 99,
+              "height": 61
+            },
+            "mouth/mouth_10": {
+              "x": 2.71,
+              "y": 13.4,
+              "rotation": -93.94,
+              "width": 122,
+              "height": 81
+            },
+            "mouth/mouth_11": {
+              "x": -17.54,
+              "y": 11.14,
+              "rotation": -93.94,
+              "width": 108,
+              "height": 129
+            },
+            "mouth/mouth_13": {
+              "x": 17.31,
+              "y": 39.79,
+              "rotation": -93.94,
+              "width": 191,
+              "height": 69
+            },
+            "mouth/mouth_14": {
+              "x": 2.59,
+              "y": 11.58,
+              "rotation": -93.94,
+              "width": 76,
+              "height": 18
+            },
+            "mouth/mouth_15": {
+              "x": -0.8,
+              "y": 15.47,
+              "rotation": -93.94,
+              "width": 197,
+              "height": 83
+            },
+            "mouth/mouth_16": {
+              "x": 9.29,
+              "y": 29.39,
+              "rotation": -93.94,
+              "width": 174,
+              "height": 78
+            },
+            "mouth/mouth_18": {
+              "x": 0.2,
+              "y": 30.01,
+              "rotation": -93.94,
+              "width": 150,
+              "height": 88
+            },
+            "mouth/mouth_19": {
+              "x": 5.35,
+              "y": -1.4,
+              "rotation": -93.94,
+              "width": 94,
+              "height": 32
+            },
+            "mouth/mouth_20": {
+              "x": -5.31,
+              "y": 2.99,
+              "rotation": -93.94,
+              "width": 49,
+              "height": 17
+            },
+            "mouth/mouth_21": {
+              "x": 2.71,
+              "y": 13.4,
+              "rotation": -93.94,
+              "width": 55,
+              "height": 28
+            },
+            "mouth/mouth_22": {
+              "x": -9.26,
+              "y": 25.18,
+              "rotation": -93.94,
+              "width": 135,
+              "height": 115
+            },
+            "mouth/mouth_23": {
+              "x": 0.08,
+              "y": 28.19,
+              "rotation": -93.94,
+              "width": 200,
+              "height": 79
+            },
+            "mouth/mouth_24": {
+              "x": 13.14,
+              "y": 1.05,
+              "rotation": -93.94,
+              "width": 186,
+              "height": 50
+            },
+            "mouth/mouth_25": {
+              "x": -7.09,
+              "y": 33.53,
+              "rotation": -93.94,
+              "width": 135,
+              "height": 115
+            },
+            "mouth/mouth_26": {
+              "x": -3.58,
+              "y": 9.11,
+              "rotation": -93.94,
+              "width": 119,
+              "height": 76
+            },
+            "mouth/mouth_27": {
+              "x": -0.5,
+              "y": 3.71,
+              "rotation": -93.94,
+              "width": 119,
+              "height": 76
+            },
+            "mouth/mouth_28": {
+              "x": -0.92,
+              "y": 22.74,
+              "rotation": -93.94,
+              "width": 176,
+              "height": 123
+            },
+            "mouth/mouth_29": {
+              "x": -0.92,
+              "y": 22.74,
+              "rotation": -93.94,
+              "width": 177,
+              "height": 92
+            },
+            "mouth/mouth_30": {
+              "x": -0.92,
+              "y": 22.74,
+              "rotation": -93.94,
+              "width": 198,
+              "height": 135
+            },
+            "mouth/mouth_31": {
+              "x": 16.84,
+              "y": -35.75,
+              "rotation": -93.94,
+              "width": 189,
+              "height": 118
+            },
+            "mouth/mouth_32": {
+              "x": -43.21,
+              "y": 22.31,
+              "rotation": -93.94,
+              "width": 173,
+              "height": 171
+            },
+            "mouth/mouth_33": {
+              "x": -18.08,
+              "y": 32.38,
+              "rotation": -93.94,
+              "width": 257,
+              "height": 150
+            },
+            "mouth/mouth_34": {
+              "x": 14.4,
+              "y": 26.77,
+              "rotation": -93.94,
+              "width": 277,
+              "height": 219
+            },
+            "mouth/mouth_35": {
+              "x": -7.58,
+              "y": 25.75,
+              "rotation": -93.94,
+              "width": 172,
+              "height": 105
+            },
+            "mouth/mouth_36": {
+              "x": -17.84,
+              "y": 11.29,
+              "rotation": -93.94,
+              "width": 181,
+              "height": 128
+            },
+            "mouth/mouth_37": {
+              "x": -28.29,
+              "y": 18.75,
+              "rotation": -93.94,
+              "width": 166,
+              "height": 131
+            },
+            "mouth01": {
+              "x": 0.26,
+              "y": 17.14,
+              "rotation": -93.94,
+              "width": 111,
+              "height": 61
+            }
+          },
+          "nose": {
+            "nose2": {
+              "path": "nose",
+              "x": 120.04,
+              "y": -111.28,
+              "rotation": -93.94,
+              "width": 49,
+              "height": 73
+            }
+          },
+          "pant_b_up_leg": {
+            "dirty/pant_b_up_leg": {
+              "x": 194.7,
+              "y": 11.05,
+              "rotation": 92.66,
+              "width": 249,
+              "height": 623
+            }
+          },
+          "pant_f_low_leg": {
+            "dirty/pant_b_low_leg": {
+              "x": 181.38,
+              "y": -10.09,
+              "rotation": 101.16,
+              "width": 203,
+              "height": 461
+            }
+          },
+          "pant_f_up_leg": {
+            "dirty/pant_f_up_leg": {
+              "x": 179.58,
+              "y": 27.52,
+              "rotation": 101.24,
+              "width": 267,
+              "height": 614
+            }
+          },
+          "tear": {
+            "tear": {
+              "x": 24.53,
+              "y": 0.55,
+              "rotation": 87.19,
+              "width": 20,
+              "height": 49
+            }
+          },
+          "tear2": {
+            "tear": {
+              "x": 24.53,
+              "y": 0.55,
+              "rotation": 87.19,
+              "width": 20,
+              "height": 49
+            }
+          },
+          "tear3": {
+            "tear": {
+              "x": 24.53,
+              "y": 0.55,
+              "rotation": 87.19,
+              "width": 20,
+              "height": 49
+            }
+          },
+          "tear4": {
+            "tear": {
+              "x": 24.53,
+              "y": 0.55,
+              "rotation": 87.19,
+              "width": 20,
+              "height": 49
+            }
+          },
+          "tear5": {
+            "tear": {
+              "x": 24.53,
+              "y": 0.55,
+              "rotation": 87.19,
+              "width": 20,
+              "height": 49
+            }
+          },
+          "tear6": {
+            "tear": {
+              "x": 24.53,
+              "y": 0.55,
+              "rotation": 87.19,
+              "width": 20,
+              "height": 49
+            }
+          },
+          "Toolcoat": {
+            "Tool/coat": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0.1676,
+                1,
+                0.17555,
+                0.87085,
+                0.22211,
+                0.73308,
+                0.28003,
+                0.63584,
+                0.34362,
+                0.55075,
+                0.36567,
+                0.43961,
+                0.32366,
+                0.39423,
+                0.29924,
+                0.4773,
+                0.27482,
+                0.56036,
+                0.28889,
+                0.57468,
+                0.27308,
+                0.62974,
+                0.25474,
+                0.65591,
+                0.23387,
+                0.66539,
+                0.1251,
+                0.66313,
+                0,
+                0.61124,
+                0,
+                0.52239,
+                0.01941,
+                0.51261,
+                0.03982,
+                0.40744,
+                0.05191,
+                0.34515,
+                0.08068,
+                0.24017,
+                0.10945,
+                0.13519,
+                0.22129,
+                0.07631,
+                0.28535,
+                0.06236,
+                0.28209,
+                0,
+                1,
+                0,
+                0.17783,
+                0.45384,
+                0.29633,
+                0.19259,
+                0.33434,
+                0.28733
+              ],
+              "triangles": [
+                23,
+                24,
+                25,
+                27,
+                23,
+                25,
+                6,
+                28,
+                25,
+                6,
+                25,
+                0,
+                5,
+                6,
+                0,
+                4,
+                5,
+                0,
+                3,
+                4,
+                0,
+                2,
+                3,
+                0,
+                1,
+                2,
+                0,
+                15,
+                16,
+                17,
+                9,
+                17,
+                26,
+                11,
+                9,
+                10,
+                17,
+                14,
+                15,
+                17,
+                9,
+                14,
+                9,
+                11,
+                14,
+                11,
+                13,
+                14,
+                12,
+                13,
+                11,
+                22,
+                23,
+                27,
+                21,
+                22,
+                27,
+                20,
+                21,
+                27,
+                28,
+                27,
+                25,
+                20,
+                27,
+                28,
+                19,
+                20,
+                28,
+                7,
+                19,
+                28,
+                26,
+                18,
+                19,
+                7,
+                28,
+                6,
+                7,
+                26,
+                19,
+                8,
+                26,
+                7,
+                9,
+                26,
+                8,
+                17,
+                18,
+                26
+              ],
+              "vertices": [
+                1,
+                3,
+                -547.3,
+                -170.62,
+                1,
+                1,
+                3,
+                -458.99,
+                426.37,
+                1,
+                2,
+                5,
+                667.24,
+                61.57,
+                0.0002,
+                3,
+                -330.02,
+                401.47,
+                0.9998,
+                2,
+                5,
+                523.71,
+                73,
+                0.00629,
+                3,
+                -196.5,
+                347.59,
+                0.99371,
+                2,
+                5,
+                419.55,
+                99.01,
+                0.02548,
+                3,
+                -104.9,
+                291.59,
+                0.97452,
+                2,
+                5,
+                326.95,
+                131.02,
+                0.08289,
+                3,
+                -26.13,
+                233.33,
+                0.91711,
+                3,
+                5,
+                212.93,
+                129.13,
+                0.34858,
+                3,
+                83.22,
+                200.99,
+                0.6197,
+                4,
+                -67.65,
+                220.21,
+                0.03172,
+                3,
+                5,
+                172.16,
+                91.83,
+                0.73479,
+                3,
+                133.29,
+                224.38,
+                0.21894,
+                4,
+                -13.73,
+                232.33,
+                0.04627,
+                4,
+                5,
+                258.28,
+                87.55,
+                0.81938,
+                7,
+                -0.24,
+                89.05,
+                0.16532,
+                3,
+                52.4,
+                254.24,
+                0.01404,
+                4,
+                -86.35,
+                278.83,
+                0.00126,
+                2,
+                5,
+                344.41,
+                83.28,
+                0.17719,
+                7,
+                84.35,
+                72.34,
+                0.82281,
+                2,
+                5,
+                357.18,
+                95.63,
+                0.11989,
+                7,
+                98.78,
+                82.71,
+                0.88011,
+                2,
+                5,
+                414.22,
+                93.07,
+                0.02266,
+                7,
+                154.85,
+                71.91,
+                0.97734,
+                2,
+                5,
+                442.57,
+                84.1,
+                0.00655,
+                7,
+                181.6,
+                58.92,
+                0.99345,
+                2,
+                5,
+                454.45,
+                70.66,
+                0.00306,
+                7,
+                191.4,
+                43.91,
+                0.99694,
+                1,
+                7,
+                190.04,
+                -34.98,
+                1,
+                1,
+                7,
+                138.38,
+                -126.29,
+                1,
+                1,
+                7,
+                48.12,
+                -127.35,
+                1,
+                1,
+                7,
+                38.01,
+                -113.39,
+                1,
+                2,
+                5,
+                217.63,
+                -109.32,
+                0.50333,
+                7,
+                -69,
+                -99.85,
+                0.49667,
+                2,
+                5,
+                153.75,
+                -110.57,
+                0.856,
+                7,
+                -132.38,
+                -91.83,
+                0.144,
+                2,
+                5,
+                45.13,
+                -106.66,
+                0.99664,
+                7,
+                -239.28,
+                -72.22,
+                0.00336,
+                2,
+                5,
+                -63.48,
+                -102.75,
+                0.97229,
+                4,
+                287.43,
+                284.15,
+                0.02771,
+                2,
+                5,
+                -135.26,
+                -32.03,
+                0.72068,
+                4,
+                314.6,
+                187.12,
+                0.27932,
+                2,
+                5,
+                -156.52,
+                11.62,
+                0.45897,
+                4,
+                311.37,
+                138.67,
+                0.54103,
+                2,
+                5,
+                -218.73,
+                -0.63,
+                0.29422,
+                4,
+                371.44,
+                118.4,
+                0.70578,
+                2,
+                3,
+                457.76,
+                -319.3,
+                0.0526,
+                4,
+                186.78,
+                -368.23,
+                0.9474,
+                1,
+                5,
+                248.53,
+                -3.12,
+                1,
+                3,
+                5,
+                -27.08,
+                40.2,
+                0.79323,
+                3,
+                338.85,
+                214,
+                0.00197,
+                4,
+                184.84,
+                178.17,
+                0.2048,
+                3,
+                5,
+                63.67,
+                82.48,
+                0.73413,
+                3,
+                239.61,
+                200.82,
+                0.08489,
+                4,
+                85.07,
+                186.55,
+                0.18098
+              ],
+              "hull": 26,
+              "edges": [
+                0,
+                50,
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                6,
+                8,
+                8,
+                10,
+                10,
+                12,
+                12,
+                14,
+                18,
+                20,
+                20,
+                22,
+                22,
+                24,
+                24,
+                26,
+                26,
+                28,
+                28,
+                30,
+                30,
+                32,
+                32,
+                34,
+                34,
+                36,
+                36,
+                38,
+                14,
+                16,
+                16,
+                18,
+                42,
+                44,
+                44,
+                46,
+                48,
+                50,
+                46,
+                48,
+                38,
+                40,
+                40,
+                42
+              ],
+              "width": 725,
+              "height": 1016
+            }
+          },
+          "Tooldive_mask": {
+            "Tool/dive_mask": {
+              "x": -122.24,
+              "y": -18.85,
+              "rotation": -93.94,
+              "width": 439,
+              "height": 441
+            }
+          },
+          "Toolglass": {
+            "Tool/glass": {
+              "x": 157.63,
+              "y": -49,
+              "rotation": -93.94,
+              "width": 379,
+              "height": 113
+            }
+          },
+          "Toolphone": {
+            "Tool/phone": {
+              "x": -75.01,
+              "y": -0.96,
+              "rotation": 21.96,
+              "width": 188,
+              "height": 170
+            }
+          },
+          "Toolring_box": {
+            "Tool/ring_box": {
+              "x": 52.53,
+              "y": 35.67,
+              "rotation": -61.74,
+              "width": 220,
+              "height": 260
+            }
+          },
+          "Toolscraft": {
+            "Tool/scraft": {
+              "type": "mesh",
+              "uvs": [
+                0.80889,
+                0.27204,
+                1,
+                0.32524,
+                1,
+                0.45902,
+                0.81009,
+                0.54237,
+                0.63238,
+                0.40972,
+                0.47638,
+                0.4066,
+                0.58301,
+                1,
+                0,
+                1,
+                0,
+                0.26971,
+                0.10528,
+                0.18687,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                9,
+                10,
+                11,
+                0,
+                9,
+                11,
+                5,
+                9,
+                0,
+                8,
+                9,
+                5,
+                4,
+                5,
+                0,
+                4,
+                0,
+                1,
+                2,
+                4,
+                1,
+                3,
+                4,
+                2,
+                7,
+                8,
+                5,
+                5,
+                6,
+                7
+              ],
+              "vertices": [
+                0.56,
+                -188.04,
+                -40.72,
+                -291.18,
+                -134.43,
+                -291.23,
+                -188.82,
+                -188.79,
+                -92.16,
+                -92.85,
+                -86.7,
+                -8.68,
+                -507.95,
+                -65.2,
+                -500.4,
+                251.08,
+                -18.48,
+                221.59,
+                92.08,
+                178.13,
+                236.13,
+                238.39,
+                187.1,
+                -291.07
+              ],
+              "hull": 12,
+              "edges": [
+                20,
+                22,
+                12,
+                14,
+                10,
+                12,
+                10,
+                8,
+                8,
+                6,
+                6,
+                4,
+                4,
+                2,
+                2,
+                0,
+                0,
+                22,
+                14,
+                16,
+                16,
+                18,
+                18,
+                20
+              ],
+              "width": 478,
+              "height": 804
+            }
+          },
+          "top01": {
+            "dirty/top01": {
+              "type": "mesh",
+              "uvs": [
+                0.75698,
+                0.07847,
+                0.92236,
+                0.20555,
+                0.9514,
+                0.2725,
+                0.97809,
+                0.61666,
+                0.98428,
+                0.69649,
+                0.99214,
+                0.79785,
+                1,
+                0.89921,
+                0.84773,
+                0.96283,
+                0.67919,
+                1,
+                0.47641,
+                1,
+                0.29018,
+                0.96352,
+                0.1817,
+                0.92294,
+                0.20306,
+                0.85172,
+                0.22442,
+                0.7805,
+                0.24578,
+                0.70927,
+                0.26714,
+                0.63805,
+                0.18622,
+                0.54888,
+                0.10529,
+                0.45971,
+                0,
+                0.32222,
+                0,
+                0.20113,
+                0.02974,
+                0.14137,
+                0.14049,
+                0.0986,
+                0.23581,
+                0.06652,
+                0.27303,
+                0.0294,
+                0.32749,
+                0,
+                0.56726,
+                0,
+                0.97092,
+                0.52771,
+                0.1409,
+                0.2493,
+                0.68368,
+                0.35799,
+                0.72316,
+                0.54428,
+                0.74195,
+                0.67704,
+                0.75135,
+                0.8791
+              ],
+              "triangles": [
+                7,
+                31,
+                6,
+                14,
+                30,
+                31,
+                30,
+                14,
+                15,
+                31,
+                13,
+                14,
+                9,
+                10,
+                13,
+                12,
+                13,
+                10,
+                11,
+                12,
+                10,
+                31,
+                9,
+                13,
+                8,
+                9,
+                31,
+                8,
+                31,
+                7,
+                28,
+                25,
+                0,
+                28,
+                0,
+                1,
+                28,
+                1,
+                2,
+                3,
+                26,
+                2,
+                28,
+                2,
+                26,
+                29,
+                28,
+                26,
+                16,
+                28,
+                29,
+                29,
+                26,
+                3,
+                15,
+                16,
+                29,
+                30,
+                29,
+                3,
+                15,
+                29,
+                30,
+                30,
+                3,
+                4,
+                5,
+                31,
+                30,
+                5,
+                30,
+                4,
+                31,
+                5,
+                6,
+                27,
+                21,
+                22,
+                20,
+                21,
+                27,
+                19,
+                20,
+                27,
+                18,
+                19,
+                27,
+                17,
+                18,
+                27,
+                22,
+                23,
+                24,
+                24,
+                25,
+                22,
+                28,
+                22,
+                25,
+                27,
+                28,
+                17,
+                28,
+                27,
+                22,
+                16,
+                17,
+                28
+              ],
+              "vertices": [
+                3,
+                4,
+                201.83,
+                -133.11,
+                0.20804,
+                3,
+                422.12,
+                -86.42,
+                0.11031,
+                19,
+                12.88,
+                -137.68,
+                0.68165,
+                3,
+                4,
+                88.61,
+                -177.17,
+                0.27617,
+                3,
+                320.96,
+                -153.7,
+                0.50613,
+                19,
+                -75.88,
+                -220.64,
+                0.2177,
+                3,
+                4,
+                39.09,
+                -173.66,
+                0.18781,
+                3,
+                271.84,
+                -160.88,
+                0.68121,
+                19,
+                -123.15,
+                -235.77,
+                0.13097,
+                2,
+                3,
+                28.2,
+                -138.11,
+                0.99901,
+                9,
+                -88.73,
+                154.99,
+                0.00099,
+                2,
+                3,
+                -28.31,
+                -132.83,
+                0.94515,
+                9,
+                -33.4,
+                167.64,
+                0.05485,
+                2,
+                3,
+                -100.07,
+                -126.13,
+                0.73124,
+                9,
+                36.85,
+                183.71,
+                0.26876,
+                2,
+                3,
+                -171.83,
+                -119.42,
+                0.55761,
+                9,
+                107.11,
+                199.78,
+                0.44239,
+                2,
+                3,
+                -205.55,
+                -38.7,
+                0.33059,
+                9,
+                164.38,
+                133.65,
+                0.66941,
+                2,
+                3,
+                -219.52,
+                47.19,
+                0.09628,
+                9,
+                204.51,
+                56.44,
+                0.90372,
+                2,
+                3,
+                -204.92,
+                145.89,
+                0.00252,
+                9,
+                221.5,
+                -41.88,
+                0.99748,
+                2,
+                4,
+                -304.19,
+                304.57,
+                0.00511,
+                9,
+                211.58,
+                -136.57,
+                0.99489,
+                2,
+                4,
+                -258.32,
+                344.24,
+                0.01154,
+                9,
+                192.28,
+                -194.07,
+                0.98846,
+                2,
+                4,
+                -214.77,
+                316.48,
+                0.02739,
+                9,
+                140.66,
+                -192.33,
+                0.97261,
+                2,
+                4,
+                -171.22,
+                288.71,
+                0.07326,
+                9,
+                89.05,
+                -190.58,
+                0.92674,
+                3,
+                4,
+                -127.66,
+                260.94,
+                0.16533,
+                3,
+                15.87,
+                227.93,
+                0.00291,
+                9,
+                37.43,
+                -188.84,
+                0.83176,
+                3,
+                4,
+                -84.11,
+                233.18,
+                0.35607,
+                3,
+                64.36,
+                210.13,
+                0.02082,
+                9,
+                -14.19,
+                -187.1,
+                0.6231,
+                3,
+                4,
+                -10.8,
+                247.94,
+                0.67229,
+                3,
+                132.81,
+                240.25,
+                0.00814,
+                9,
+                -69.8,
+                -237.12,
+                0.31957,
+                2,
+                4,
+                62.52,
+                262.7,
+                0.83588,
+                9,
+                -125.4,
+                -287.13,
+                0.16412,
+                3,
+                4,
+                172.17,
+                276.5,
+                0.93784,
+                3,
+                305.42,
+                307.34,
+                0,
+                9,
+                -212.77,
+                -354.8,
+                0.06216,
+                3,
+                4,
+                252.55,
+                246,
+                0.97088,
+                3,
+                390.46,
+                294.75,
+                0,
+                9,
+                -297.49,
+                -369.45,
+                0.02912,
+                3,
+                4,
+                287.02,
+                217.26,
+                0.97946,
+                3,
+                430.3,
+                274.07,
+                0,
+                9,
+                -341.79,
+                -362.26,
+                0.02053,
+                3,
+                4,
+                296.09,
+                155.54,
+                0.98866,
+                3,
+                452.37,
+                215.72,
+                0,
+                9,
+                -381,
+                -313.73,
+                0.01133,
+                4,
+                4,
+                300.74,
+                103.62,
+                0.98291,
+                3,
+                468.04,
+                166,
+                0.00001,
+                19,
+                16.79,
+                118.85,
+                0.0134,
+                9,
+                -411.43,
+                -271.4,
+                0.00369,
+                4,
+                4,
+                318.88,
+                77.15,
+                0.91539,
+                3,
+                491.43,
+                144.03,
+                0.00001,
+                19,
+                43.46,
+                101.02,
+                0.08371,
+                9,
+                -440.51,
+                -257.85,
+                0.00089,
+                4,
+                4,
+                328.89,
+                44.69,
+                0.76646,
+                3,
+                508.15,
+                114.46,
+                0.00001,
+                19,
+                64.81,
+                74.59,
+                0.23346,
+                9,
+                -465.65,
+                -234.99,
+                0.00007,
+                3,
+                4,
+                287.04,
+                -65.6,
+                0.0007,
+                3,
+                490.89,
+                -2.23,
+                0.00388,
+                19,
+                66.92,
+                -43.35,
+                0.99542,
+                2,
+                3,
+                91.19,
+                -143.87,
+                0.99854,
+                19,
+                -304.15,
+                -248.61,
+                0.00146,
+                3,
+                4,
+                195.98,
+                193.32,
+                0.96165,
+                3,
+                346.49,
+                231.18,
+                0,
+                9,
+                -275.59,
+                -295.31,
+                0.03835,
+                3,
+                4,
+                29.08,
+                -28.98,
+                0.53811,
+                3,
+                231.07,
+                -21.7,
+                0.45141,
+                19,
+                -186.19,
+                -105.16,
+                0.01049,
+                1,
+                3,
+                97.39,
+                -21.56,
+                1,
+                1,
+                3,
+                2.79,
+                -16.91,
+                1,
+                2,
+                3,
+                -139.8,
+                -0.49,
+                0.26137,
+                9,
+                113.88,
+                76.8,
+                0.73863
+              ],
+              "hull": 26,
+              "edges": [
+                40,
+                42,
+                42,
+                44,
+                44,
+                46,
+                46,
+                48,
+                48,
+                50,
+                50,
+                0,
+                0,
+                2,
+                2,
+                4,
+                36,
+                38,
+                36,
+                34,
+                22,
+                20,
+                20,
+                18,
+                12,
+                14,
+                16,
+                18,
+                14,
+                16,
+                38,
+                40,
+                30,
+                32,
+                32,
+                34,
+                4,
+                6,
+                6,
+                8,
+                8,
+                10,
+                10,
+                12,
+                22,
+                24,
+                24,
+                26,
+                26,
+                28,
+                28,
+                30
+              ],
+              "width": 492,
+              "height": 710
+            }
+          },
+          "top_f_u_arm": {
+            "dirty/top_r_u_arm": {
+              "x": 32.03,
+              "y": 1.36,
+              "rotation": 99,
+              "width": 222,
+              "height": 303
+            }
+          }
+        }
+      },
+      {
+        "name": "Hair/Hair00"
+      },
+      {
+        "name": "Outfit/Boy01",
+        "attachments": {
+          "b_pup": {
+            "b_pup": {
+              "x": -7,
+              "width": 50,
+              "height": 44
+            }
+          },
+          "b_shoe": {
+            "skin00/b_shoe": {
+              "path": "skin01/b_shoe",
+              "x": 85.93,
+              "y": -16.9,
+              "rotation": 34,
+              "width": 241,
+              "height": 165
+            }
+          },
+          "f_pup": {
+            "f_pup": {
+              "x": -4.67,
+              "width": 50,
+              "height": 44
+            }
+          },
+          "f_shoe": {
+            "skin00/f_shoe": {
+              "path": "skin01/f_shoe",
+              "x": 94.33,
+              "y": -18.17,
+              "rotation": 39.86,
+              "width": 236,
+              "height": 157
+            }
+          },
+          "nose": {
+            "nose": {
+              "x": 120.04,
+              "y": -111.28,
+              "rotation": -93.94,
+              "width": 49,
+              "height": 73
+            }
+          },
+          "pant_b_low_leg": {
+            "skin00/pant_b_low_leg": {
+              "path": "skin01/pant_b_low_leg",
+              "x": 175.68,
+              "y": -7.81,
+              "rotation": 95.06,
+              "width": 177,
+              "height": 495
+            }
+          },
+          "pant_b_up_leg": {
+            "skin00/pant_b_up_leg": {
+              "path": "skin01/pant_b_up_leg",
+              "x": 194.52,
+              "y": 17.69,
+              "rotation": 93.86,
+              "width": 242,
+              "height": 606
+            }
+          },
+          "pant_f_low_leg": {
+            "skin00/pant_f_low_leg": {
+              "path": "skin01/pant_f_low_leg",
+              "x": 180.51,
+              "y": -5.72,
+              "rotation": 101.16,
+              "width": 209,
+              "height": 489
+            }
+          },
+          "pant_f_up_leg": {
+            "skin00/pant_f_up_leg": {
+              "path": "skin01/pant_f_up_leg",
+              "x": 193.59,
+              "y": 15.06,
+              "rotation": 102.44,
+              "width": 275,
+              "height": 596
+            }
+          },
+          "top01": {
+            "skin00/top01": {
+              "type": "mesh",
+              "path": "skin01/top01",
+              "uvs": [
+                0.66286,
+                0.0743,
+                0.70624,
+                0.08244,
+                0.72794,
+                0.10929,
+                0.8159,
+                0.14672,
+                0.89544,
+                0.20693,
+                0.93652,
+                0.26729,
+                0.94633,
+                0.33161,
+                0.95613,
+                0.39593,
+                0.97574,
+                0.52457,
+                0.98181,
+                0.60563,
+                0.98787,
+                0.6867,
+                0.99394,
+                0.76776,
+                1,
+                0.84882,
+                1,
+                0.92441,
+                1,
+                1,
+                0.80737,
+                1,
+                0.46956,
+                1,
+                0.13175,
+                1,
+                0.15295,
+                0.94436,
+                0.17414,
+                0.88871,
+                0.19534,
+                0.83307,
+                0.21653,
+                0.77743,
+                0.24637,
+                0.69908,
+                0.22483,
+                0.67813,
+                0.23,
+                0.65835,
+                0.2656,
+                0.62666,
+                0.2223,
+                0.58313,
+                0.179,
+                0.53961,
+                0.09241,
+                0.45255,
+                0.04621,
+                0.38455,
+                0,
+                0.31656,
+                0,
+                0.23937,
+                0,
+                0.16218,
+                0.13055,
+                0.12068,
+                0.26111,
+                0.07918,
+                0.28159,
+                0.05396,
+                0.32136,
+                0.0385,
+                0.32015,
+                0,
+                0.49011,
+                0,
+                0.66008,
+                0,
+                0.19037,
+                0.28368,
+                0.67872,
+                0.43614,
+                0.70235,
+                0.58684,
+                0.73648,
+                0.70384,
+                0.59733,
+                0.18794
+              ],
+              "triangles": [
+                0,
+                44,
+                38,
+                0,
+                38,
+                39,
+                36,
+                37,
+                38,
+                31,
+                32,
+                33,
+                40,
+                33,
+                34,
+                31,
+                33,
+                40,
+                36,
+                38,
+                44,
+                30,
+                31,
+                40,
+                29,
+                30,
+                40,
+                0,
+                2,
+                44,
+                2,
+                0,
+                1,
+                3,
+                44,
+                2,
+                4,
+                44,
+                3,
+                5,
+                44,
+                4,
+                28,
+                29,
+                40,
+                34,
+                35,
+                36,
+                44,
+                34,
+                36,
+                40,
+                34,
+                44,
+                27,
+                28,
+                40,
+                40,
+                41,
+                27,
+                41,
+                40,
+                44,
+                41,
+                5,
+                6,
+                41,
+                6,
+                7,
+                41,
+                44,
+                5,
+                41,
+                7,
+                8,
+                26,
+                27,
+                41,
+                42,
+                41,
+                8,
+                42,
+                8,
+                9,
+                42,
+                25,
+                41,
+                43,
+                42,
+                9,
+                43,
+                9,
+                10,
+                43,
+                10,
+                11,
+                12,
+                43,
+                11,
+                43,
+                25,
+                42,
+                25,
+                26,
+                41,
+                22,
+                24,
+                25,
+                23,
+                24,
+                22,
+                25,
+                43,
+                22,
+                43,
+                21,
+                22,
+                16,
+                21,
+                43,
+                20,
+                21,
+                16,
+                19,
+                20,
+                16,
+                18,
+                19,
+                16,
+                17,
+                18,
+                16,
+                12,
+                15,
+                43,
+                13,
+                15,
+                12,
+                16,
+                43,
+                15,
+                15,
+                13,
+                14
+              ],
+              "vertices": [
+                3,
+                3,
+                429.19,
+                -43.99,
+                0.02936,
+                4,
+                217.83,
+                -93.18,
+                0.37366,
+                19,
+                12.9,
+                -94.66,
+                0.59699,
+                3,
+                3,
+                420.08,
+                -64.52,
+                0.06229,
+                4,
+                204.53,
+                -111.29,
+                0.52411,
+                19,
+                7.28,
+                -116.41,
+                0.41361,
+                3,
+                3,
+                398.86,
+                -72.33,
+                0.10505,
+                4,
+                182.14,
+                -114.37,
+                0.61229,
+                19,
+                -12.37,
+                -127.59,
+                0.28266,
+                3,
+                3,
+                365.08,
+                -111.7,
+                0.27323,
+                4,
+                140.7,
+                -145.59,
+                0.6248,
+                19,
+                -39.24,
+                -171.97,
+                0.10197,
+                3,
+                3,
+                315.25,
+                -144.45,
+                0.50376,
+                4,
+                85.02,
+                -166.91,
+                0.46641,
+                19,
+                -83.03,
+                -212.45,
+                0.02983,
+                3,
+                3,
+                268.13,
+                -158.21,
+                0.69413,
+                4,
+                36.04,
+                -170.25,
+                0.29756,
+                19,
+                -127.26,
+                -233.74,
+                0.00831,
+                3,
+                3,
+                220.39,
+                -156.09,
+                0.86783,
+                4,
+                -10.14,
+                -157.96,
+                0.13133,
+                19,
+                -174.7,
+                -239.48,
+                0.00084,
+                2,
+                3,
+                172.65,
+                -153.97,
+                0.97677,
+                4,
+                -56.31,
+                -145.67,
+                0.02323,
+                1,
+                3,
+                77.18,
+                -149.74,
+                1,
+                2,
+                9,
+                -80.38,
+                163.91,
+                0.00518,
+                3,
+                17.48,
+                -143.97,
+                0.99482,
+                2,
+                9,
+                -21.86,
+                177.09,
+                0.08962,
+                3,
+                -42.23,
+                -138.2,
+                0.91038,
+                2,
+                9,
+                36.65,
+                190.28,
+                0.29214,
+                3,
+                -101.93,
+                -132.42,
+                0.70786,
+                2,
+                9,
+                95.17,
+                203.46,
+                0.49744,
+                3,
+                -161.64,
+                -126.65,
+                0.50256,
+                2,
+                9,
+                150.21,
+                212.97,
+                0.62132,
+                3,
+                -216.89,
+                -118.48,
+                0.37868,
+                2,
+                9,
+                205.25,
+                222.49,
+                0.66437,
+                3,
+                -272.15,
+                -110.3,
+                0.33563,
+                2,
+                9,
+                221.62,
+                127.77,
+                0.7686,
+                3,
+                -258.09,
+                -15.22,
+                0.2314,
+                2,
+                9,
+                250.33,
+                -38.33,
+                0.99463,
+                3,
+                -233.42,
+                151.54,
+                0.00537,
+                1,
+                9,
+                279.04,
+                -204.44,
+                1,
+                2,
+                9,
+                236.72,
+                -201.02,
+                0.99999,
+                4,
+                -293.03,
+                372.84,
+                0.00001,
+                2,
+                9,
+                194.4,
+                -197.6,
+                0.99909,
+                4,
+                -258.34,
+                348.36,
+                0.00091,
+                2,
+                9,
+                152.08,
+                -194.18,
+                0.99432,
+                4,
+                -223.65,
+                323.88,
+                0.00568,
+                3,
+                9,
+                109.76,
+                -190.77,
+                0.9798,
+                3,
+                -52.23,
+                252.37,
+                0.00107,
+                4,
+                -188.95,
+                299.41,
+                0.01913,
+                3,
+                9,
+                50.17,
+                -185.95,
+                0.89691,
+                3,
+                2.87,
+                229.17,
+                0.02759,
+                4,
+                -140.1,
+                264.94,
+                0.0755,
+                3,
+                9,
+                36.74,
+                -199.18,
+                0.85891,
+                3,
+                19.76,
+                237.54,
+                0.04149,
+                4,
+                -121.81,
+                269.5,
+                0.09959,
+                3,
+                9,
+                21.9,
+                -199.13,
+                0.83616,
+                3,
+                33.84,
+                232.84,
+                0.05004,
+                4,
+                -109.06,
+                261.9,
+                0.1138,
+                3,
+                9,
+                -4.2,
+                -185.62,
+                0.71951,
+                3,
+                54.4,
+                211.85,
+                0.09258,
+                4,
+                -93.47,
+                236.99,
+                0.18791,
+                3,
+                9,
+                -32.22,
+                -212.38,
+                0.51667,
+                3,
+                89.39,
+                228.51,
+                0.13095,
+                4,
+                -55.73,
+                245.77,
+                0.35238,
+                3,
+                9,
+                -60.23,
+                -239.15,
+                0.37884,
+                3,
+                124.37,
+                245.18,
+                0.12204,
+                4,
+                -17.99,
+                254.56,
+                0.49912,
+                3,
+                9,
+                -116.27,
+                -292.68,
+                0.20198,
+                3,
+                194.33,
+                278.51,
+                0.0626,
+                4,
+                57.48,
+                272.13,
+                0.73542,
+                3,
+                9,
+                -161.86,
+                -323.96,
+                0.12666,
+                3,
+                247.41,
+                293.96,
+                0.0274,
+                4,
+                112.64,
+                275.86,
+                0.84595,
+                3,
+                9,
+                -207.45,
+                -355.24,
+                0.08096,
+                3,
+                300.5,
+                309.42,
+                0.00851,
+                4,
+                167.81,
+                279.59,
+                0.91053,
+                3,
+                9,
+                -263.66,
+                -364.96,
+                0.05074,
+                3,
+                356.93,
+                301.07,
+                0.00115,
+                4,
+                221.14,
+                259.35,
+                0.94812,
+                2,
+                9,
+                -319.86,
+                -374.67,
+                0.03497,
+                4,
+                274.47,
+                239.11,
+                0.96503,
+                2,
+                9,
+                -361.18,
+                -315.7,
+                0.02246,
+                4,
+                280.03,
+                167.32,
+                0.97754,
+                3,
+                9,
+                -402.49,
+                -256.73,
+                0.00617,
+                4,
+                285.59,
+                95.53,
+                0.99069,
+                19,
+                5.71,
+                105.72,
+                0.00314,
+                3,
+                9,
+                -422.6,
+                -249.83,
+                0.00307,
+                4,
+                299.39,
+                79.36,
+                0.96914,
+                19,
+                24.54,
+                95.83,
+                0.02779,
+                3,
+                9,
+                -437.24,
+                -232.22,
+                0.00103,
+                4,
+                303.03,
+                56.76,
+                0.87214,
+                19,
+                36.31,
+                76.2,
+                0.12683,
+                3,
+                9,
+                -465.17,
+                -237.66,
+                0.00011,
+                4,
+                329.84,
+                47.22,
+                0.74811,
+                19,
+                64.75,
+                77.3,
+                0.25178,
+                1,
+                19,
+                66.26,
+                -7.49,
+                1,
+                3,
+                3,
+                483.71,
+                -50.65,
+                0.00182,
+                4,
+                269.66,
+                -111.36,
+                0.04941,
+                19,
+                67.78,
+                -92.29,
+                0.94877,
+                3,
+                9,
+                -247.57,
+                -265.77,
+                0.06523,
+                3,
+                310.63,
+                211.89,
+                0.00841,
+                4,
+                156.82,
+                182.15,
+                0.92636,
+                1,
+                3,
+                163.51,
+                -12.69,
+                1,
+                1,
+                3,
+                51.62,
+                -8.06,
+                1,
+                2,
+                9,
+                11.99,
+                55.64,
+                0.29431,
+                3,
+                -36.41,
+                -12.25,
+                0.70569,
+                3,
+                3,
+                350.9,
+                0.65,
+                0.0289,
+                4,
+                150.91,
+                -32.81,
+                0.91809,
+                19,
+                -71.65,
+                -63.47,
+                0.05302
+              ],
+              "hull": 40,
+              "edges": [
+                68,
+                70,
+                70,
+                72,
+                72,
+                74,
+                78,
+                0,
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                6,
+                8,
+                8,
+                10,
+                50,
+                48,
+                48,
+                46,
+                46,
+                44,
+                42,
+                44,
+                24,
+                26,
+                26,
+                28,
+                16,
+                18,
+                18,
+                20,
+                20,
+                22,
+                22,
+                24,
+                14,
+                16,
+                54,
+                56,
+                56,
+                58,
+                58,
+                60,
+                60,
+                62,
+                62,
+                64,
+                74,
+                76,
+                76,
+                78,
+                64,
+                66,
+                66,
+                68,
+                10,
+                12,
+                12,
+                14,
+                50,
+                52,
+                52,
+                54,
+                28,
+                30,
+                30,
+                32,
+                32,
+                34,
+                34,
+                36,
+                36,
+                38,
+                38,
+                40,
+                40,
+                42
+              ],
+              "width": 499,
+              "height": 739
+            }
+          },
+          "top_b_low_arm": {
+            "skin01/top_l_l_arm01": {
+              "x": 76.63,
+              "y": -8.02,
+              "rotation": 425.54,
+              "width": 212,
+              "height": 330
+            }
+          },
+          "top_b_u_arm": {
+            "skin00/top_l_u_arm": {
+              "name": "skin01/top_l_u_arm01",
+              "x": 108.67,
+              "y": -6.69,
+              "rotation": 433.39,
+              "width": 226,
+              "height": 417
+            }
+          },
+          "top_f_low_hand": {
+            "skin01/top_r_l_arm01": {
+              "x": 85.91,
+              "y": -5.19,
+              "rotation": 449.47,
+              "width": 142,
+              "height": 330
+            }
+          },
+          "top_f_u_arm": {
+            "skin00/top_r_u_arm": {
+              "path": "skin01/top_r_u_arm01",
+              "x": 112.68,
+              "y": 2.16,
+              "rotation": 100.2,
+              "width": 209,
+              "height": 419
+            }
+          }
+        }
+      }
+    ],
+    "events": {
+      "fx": {}
+    },
+    "animations": {
+      "Level/Level01_A": {
+        "slots": {
+          "mouth01": {
+            "attachment": [
+              {
+                "name": "mouth/mouth_20"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "b_hand": {
+            "rotate": [
+              {
+                "angle": 0.64
+              },
+              {
+                "time": 0.2667
+              },
+              {
+                "time": 1.2667,
+                "angle": 2.4
+              },
+              {
+                "time": 2,
+                "angle": 0.64
+              }
+            ]
+          },
+          "f_hand": {
+            "rotate": [
+              {
+                "angle": -39.46
+              }
+            ],
+            "translate": [
+              {
+                "x": -11.15,
+                "y": 0.1
+              }
+            ]
+          },
+          "f_l_arm": {
+            "rotate": [
+              {
+                "angle": 49.77
+              }
+            ]
+          },
+          "b_l_arm": {
+            "rotate": [
+              {
+                "angle": 102.49
+              },
+              {
+                "time": 0.1333,
+                "angle": 100.62
+              },
+              {
+                "time": 1.1333,
+                "angle": 114.6
+              },
+              {
+                "time": 2,
+                "angle": 102.49
+              }
+            ]
+          },
+          "head": {
+            "rotate": [
+              {},
+              {
+                "time": 1,
+                "angle": 1.17
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "f_u_arm": {
+            "rotate": [
+              {
+                "angle": -13.6
+              }
+            ]
+          },
+          "b_u_arm": {
+            "rotate": [
+              {
+                "angle": 103.03
+              },
+              {
+                "time": 1,
+                "angle": 111.24
+              },
+              {
+                "time": 2,
+                "angle": 103.03
+              }
+            ],
+            "translate": [
+              {
+                "x": 55.15,
+                "y": -16.21
+              }
+            ]
+          },
+          "hip": {
+            "translate": [
+              {
+                "y": -22.66
+              },
+              {
+                "time": 1,
+                "y": -30.96
+              },
+              {
+                "time": 2,
+                "y": -22.66
+              }
+            ]
+          },
+          "b_leg_IK": {
+            "translate": [
+              {
+                "x": -47.88,
+                "y": -20.16
+              }
+            ]
+          },
+          "f_leg_IK": {
+            "translate": [
+              {
+                "x": -103.32,
+                "y": 15.12
+              }
+            ]
+          },
+          "b_leg_move": {
+            "translate": [
+              {
+                "x": 171.93,
+                "y": 4.65
+              }
+            ]
+          },
+          "f_leg_move": {
+            "translate": [
+              {
+                "x": 85.96,
+                "y": -30.2
+              }
+            ]
+          },
+          "f_pup": {
+            "translate": [
+              {
+                "x": -9.86,
+                "y": -12.61
+              }
+            ]
+          },
+          "b_pup": {
+            "translate": [
+              {
+                "x": -11.65,
+                "y": -6.75
+              }
+            ]
+          }
+        }
+      },
+      "Level/Level01_C": {
+        "slots": {
+          "b_eyelid": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "b_hand": {
+            "attachment": [
+              {
+                "name": "hand/hand_4"
+              }
+            ]
+          },
+          "f_eyelid": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "f_hand": {
+            "attachment": [
+              {
+                "name": "hand/hand_4"
+              }
+            ]
+          },
+          "mouth01": {
+            "attachment": [
+              {
+                "name": "mouth/mouth_11"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "b_hand": {
+            "rotate": [
+              {
+                "angle": 0.64
+              },
+              {
+                "time": 0.2667
+              },
+              {
+                "time": 1.2667,
+                "angle": 2.4
+              },
+              {
+                "time": 2,
+                "angle": 0.64
+              }
+            ]
+          },
+          "f_hand": {
+            "rotate": [
+              {
+                "angle": -9.42
+              }
+            ]
+          },
+          "hip": {
+            "rotate": [
+              {
+                "angle": 4.8
+              },
+              {
+                "time": 1,
+                "angle": -2.4
+              },
+              {
+                "time": 2,
+                "angle": 4.8
+              }
+            ],
+            "translate": [
+              {
+                "x": -77.94
+              }
+            ]
+          },
+          "f_l_arm": {
+            "rotate": [
+              {
+                "angle": -131.92
+              }
+            ]
+          },
+          "b_l_arm": {
+            "rotate": [
+              {
+                "angle": 85.26
+              },
+              {
+                "time": 0.1333,
+                "angle": 83.39
+              },
+              {
+                "time": 1.1333,
+                "angle": 97.37
+              },
+              {
+                "time": 2,
+                "angle": 85.26
+              }
+            ]
+          },
+          "head": {
+            "rotate": [
+              {},
+              {
+                "time": 1,
+                "angle": 7.2
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "f_u_arm": {
+            "rotate": [
+              {
+                "angle": -79.25
+              },
+              {
+                "time": 1,
+                "angle": -86.19
+              },
+              {
+                "time": 2,
+                "angle": -79.25
+              }
+            ]
+          },
+          "b_u_arm": {
+            "rotate": [
+              {
+                "angle": 93.88
+              },
+              {
+                "time": 1,
+                "angle": 102.1
+              },
+              {
+                "time": 2,
+                "angle": 93.88
+              }
+            ]
+          },
+          "f_leg_IK": {
+            "translate": [
+              {
+                "x": -124.63,
+                "y": 37.03
+              }
+            ]
+          },
+          "b_thigh": {
+            "translate": [
+              {
+                "x": -7.37,
+                "y": -22.28
+              }
+            ]
+          },
+          "f_feet": {
+            "rotate": [
+              {
+                "angle": 9.6
+              }
+            ]
+          },
+          "f_pup": {
+            "translate": [
+              {
+                "x": -7.27,
+                "y": -12.88
+              }
+            ]
+          },
+          "b_pup": {
+            "translate": [
+              {
+                "x": -4.09,
+                "y": -10.56
+              }
+            ]
+          },
+          "face2": {
+            "translate": [
+              {
+                "x": 31.22,
+                "y": -1.18
+              }
+            ]
+          },
+          "b_leg_move": {
+            "translate": [
+              {
+                "x": 81.21
+              }
+            ]
+          },
+          "mouth": {
+            "translate": [
+              {
+                "x": -7.11,
+                "y": -5.22
+              }
+            ],
+            "scale": [
+              {
+                "x": 1.153,
+                "y": 0.897
+              }
+            ]
+          },
+          "b_feet": {
+            "rotate": [
+              {
+                "angle": -1.25
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nBoysub01_Drag_Part01.png\nsize: 1024, 1024\nformat: RGBA8888\nfilter: Linear, Linear\nrepeat: none\nTool/chef_hat_b\n  rotate: false\n  xy: 517, 826\n  size: 162, 196\n  orig: 162, 196\n  offset: 0, 0\n  index: -1\nTool/chef_hat_f\n  rotate: true\n  xy: 400, 590\n  size: 126, 83\n  orig: 126, 83\n  offset: 0, 0\n  index: -1\nTool/coat\n  rotate: false\n  xy: 2, 717\n  size: 218, 305\n  orig: 218, 305\n  offset: 0, 0\n  index: -1\nTool/dive_mask\n  rotate: false\n  xy: 681, 890\n  size: 132, 132\n  orig: 132, 132\n  offset: 0, 0\n  index: -1\nTool/glass\n  rotate: false\n  xy: 362, 718\n  size: 114, 34\n  orig: 114, 34\n  offset: 0, 0\n  index: -1\nTool/phone\n  rotate: false\n  xy: 354, 186\n  size: 56, 51\n  orig: 56, 51\n  offset: 0, 0\n  index: -1\nTool/ring_box\n  rotate: false\n  xy: 137, 2\n  size: 66, 78\n  orig: 66, 78\n  offset: 0, 0\n  index: -1\nTool/scraft\n  rotate: false\n  xy: 222, 781\n  size: 143, 241\n  orig: 143, 241\n  offset: 0, 0\n  index: -1\nb_eye\n  rotate: false\n  xy: 774, 739\n  size: 28, 28\n  orig: 28, 28\n  offset: 0, 0\n  index: -1\nb_eyelid\n  rotate: false\n  xy: 442, 208\n  size: 27, 12\n  orig: 27, 12\n  offset: 0, 0\n  index: -1\nf_eyelid\n  rotate: false\n  xy: 442, 208\n  size: 27, 12\n  orig: 27, 12\n  offset: 0, 0\n  index: -1\nb_feet\n  rotate: false\n  xy: 940, 685\n  size: 64, 50\n  orig: 64, 50\n  offset: 0, 0\n  index: -1\nb_hand\n  rotate: true\n  xy: 254, 165\n  size: 35, 64\n  orig: 35, 64\n  offset: 0, 0\n  index: -1\nb_low_arm\n  rotate: true\n  xy: 400, 531\n  size: 57, 93\n  orig: 57, 93\n  offset: 0, 0\n  index: -1\nb_low_leg\n  rotate: false\n  xy: 137, 88\n  size: 45, 159\n  orig: 45, 159\n  offset: 0, 0\n  index: -1\nb_pup\n  rotate: true\n  xy: 622, 705\n  size: 15, 13\n  orig: 15, 13\n  offset: 0, 0\n  index: -1\nb_up_arm\n  rotate: false\n  xy: 940, 737\n  size: 64, 126\n  orig: 64, 126\n  offset: 0, 0\n  index: -1\nb_up_leg\n  rotate: false\n  xy: 329, 539\n  size: 69, 177\n  orig: 69, 177\n  offset: 0, 0\n  index: -1\nbody\n  rotate: false\n  xy: 2, 21\n  size: 133, 226\n  orig: 133, 226\n  offset: 0, 0\n  index: -1\nbone/bone_0\n  rotate: false\n  xy: 372, 57\n  size: 51, 61\n  orig: 51, 61\n  offset: 0, 0\n  index: -1\nbone/bone_1\n  rotate: false\n  xy: 390, 472\n  size: 13, 15\n  orig: 13, 15\n  offset: 0, 0\n  index: -1\nbone/bone_2\n  rotate: true\n  xy: 501, 218\n  size: 29, 11\n  orig: 29, 11\n  offset: 0, 0\n  index: -1\nbone/bone_3\n  rotate: true\n  xy: 1006, 742\n  size: 34, 15\n  orig: 34, 15\n  offset: 0, 0\n  index: -1\nbone/bone_4\n  rotate: true\n  xy: 239, 294\n  size: 19, 13\n  orig: 19, 13\n  offset: 0, 0\n  index: -1\nbone/bone_5\n  rotate: true\n  xy: 2, 2\n  size: 17, 43\n  orig: 17, 43\n  offset: 0, 0\n  index: -1\nbone/bone_6\n  rotate: false\n  xy: 323, 6\n  size: 9, 9\n  orig: 9, 9\n  offset: 0, 0\n  index: -1\nbone/bone_7\n  rotate: true\n  xy: 334, 2\n  size: 20, 46\n  orig: 20, 46\n  offset: 0, 0\n  index: -1\nbone/bone_8\n  rotate: true\n  xy: 637, 717\n  size: 42, 29\n  orig: 42, 29\n  offset: 0, 0\n  index: -1\nbone/bone_9\n  rotate: false\n  xy: 523, 668\n  size: 51, 48\n  orig: 51, 48\n  offset: 0, 0\n  index: -1\ndirty/garbage\n  rotate: false\n  xy: 2, 473\n  size: 173, 242\n  orig: 173, 242\n  offset: 0, 0\n  index: -1\ndirty/pant_b_low_leg\n  rotate: true\n  xy: 222, 718\n  size: 61, 138\n  orig: 61, 138\n  offset: 0, 0\n  index: -1\ndirty/pant_b_up_leg\n  rotate: true\n  xy: 815, 865\n  size: 75, 187\n  orig: 75, 187\n  offset: 0, 0\n  index: -1\ndirty/pant_f_up_leg\n  rotate: true\n  xy: 815, 942\n  size: 80, 184\n  orig: 80, 184\n  offset: 0, 0\n  index: -1\ndirty/top01\n  rotate: false\n  xy: 367, 809\n  size: 148, 213\n  orig: 148, 213\n  offset: 0, 0\n  index: -1\ndirty/top_r_u_arm\n  rotate: true\n  xy: 205, 13\n  size: 67, 91\n  orig: 67, 91\n  offset: 0, 0\n  index: -1\nemotion/b_eye\n  rotate: false\n  xy: 700, 742\n  size: 34, 25\n  orig: 34, 25\n  offset: 0, 0\n  index: -1\nemotion/b_eyelid04\n  rotate: false\n  xy: 571, 527\n  size: 28, 29\n  orig: 28, 29\n  offset: 0, 0\n  index: -1\nemotion/b_eyelid05\n  rotate: false\n  xy: 401, 241\n  size: 24, 14\n  orig: 24, 14\n  offset: 0, 0\n  index: -1\nemotion/b_eyelid06\n  rotate: false\n  xy: 78, 2\n  size: 28, 17\n  orig: 28, 17\n  offset: 0, 0\n  index: -1\nemotion/b_eyelid08\n  rotate: false\n  xy: 605, 611\n  size: 21, 15\n  orig: 21, 15\n  offset: 0, 0\n  index: -1\nemotion/b_eyelid11\n  rotate: false\n  xy: 205, 2\n  size: 19, 9\n  orig: 19, 9\n  offset: 0, 0\n  index: -1\nemotion/b_eyelid15\n  rotate: false\n  xy: 412, 211\n  size: 28, 28\n  orig: 28, 28\n  offset: 0, 0\n  index: -1\nemotion/b_eyelid16\n  rotate: false\n  xy: 442, 222\n  size: 27, 27\n  orig: 27, 27\n  offset: 0, 0\n  index: -1\nemotion/b_eyelid17\n  rotate: true\n  xy: 501, 197\n  size: 19, 11\n  orig: 19, 11\n  offset: 0, 0\n  index: -1\nemotion/b_eyelid19\n  rotate: true\n  xy: 428, 251\n  size: 29, 41\n  orig: 29, 41\n  offset: 0, 0\n  index: -1\nemotion/b_eyelid24\n  rotate: false\n  xy: 108, 2\n  size: 26, 17\n  orig: 26, 17\n  offset: 0, 0\n  index: -1\nemotion/emotion02\n  rotate: false\n  xy: 298, 2\n  size: 23, 13\n  orig: 23, 13\n  offset: 0, 0\n  index: -1\nemotion/emotion03\n  rotate: false\n  xy: 184, 82\n  size: 97, 81\n  orig: 97, 81\n  offset: 0, 0\n  index: -1\nemotion/emotion04\n  rotate: true\n  xy: 390, 531\n  size: 6, 7\n  orig: 6, 7\n  offset: 0, 0\n  index: -1\nemotion/emotion05\n  rotate: false\n  xy: 485, 590\n  size: 38, 56\n  orig: 38, 56\n  offset: 0, 0\n  index: -1\nemotion/f_eye\n  rotate: true\n  xy: 478, 718\n  size: 34, 35\n  orig: 34, 35\n  offset: 0, 0\n  index: -1\nemotion/f_eyelid01\n  rotate: false\n  xy: 514, 230\n  size: 27, 27\n  orig: 27, 27\n  offset: 0, 0\n  index: -1\nemotion/f_eyelid02\n  rotate: false\n  xy: 412, 195\n  size: 26, 14\n  orig: 26, 14\n  offset: 0, 0\n  index: -1\nemotion/f_eyelid03\n  rotate: false\n  xy: 514, 201\n  size: 27, 27\n  orig: 27, 27\n  offset: 0, 0\n  index: -1\nemotion/f_eyelid04\n  rotate: true\n  xy: 495, 489\n  size: 36, 42\n  orig: 36, 42\n  offset: 0, 0\n  index: -1\nemotion/f_eyelid05\n  rotate: false\n  xy: 47, 2\n  size: 29, 17\n  orig: 29, 17\n  offset: 0, 0\n  index: -1\nemotion/f_eyelid06\n  rotate: true\n  xy: 1006, 831\n  size: 33, 16\n  orig: 33, 16\n  offset: 0, 0\n  index: -1\nemotion/f_eyelid08\n  rotate: true\n  xy: 1006, 800\n  size: 29, 16\n  orig: 29, 16\n  offset: 0, 0\n  index: -1\nemotion/f_eyelid11\n  rotate: false\n  xy: 226, 3\n  size: 32, 8\n  orig: 32, 8\n  offset: 0, 0\n  index: -1\nemotion/f_eyelid15\n  rotate: false\n  xy: 579, 372\n  size: 31, 31\n  orig: 31, 31\n  offset: 0, 0\n  index: -1\nemotion/f_eyelid16\n  rotate: false\n  xy: 668, 736\n  size: 30, 31\n  orig: 30, 31\n  offset: 0, 0\n  index: -1\nemotion/f_eyelid17\n  rotate: true\n  xy: 1006, 708\n  size: 32, 11\n  orig: 32, 11\n  offset: 0, 0\n  index: -1\nemotion/f_eyelid18\n  rotate: true\n  xy: 320, 166\n  size: 34, 32\n  orig: 34, 32\n  offset: 0, 0\n  index: -1\nemotion/f_eyelid19\n  rotate: false\n  xy: 576, 668\n  size: 38, 39\n  orig: 38, 39\n  offset: 0, 0\n  index: -1\nemotion/f_eyelid24\n  rotate: false\n  xy: 668, 716\n  size: 29, 18\n  orig: 29, 18\n  offset: 0, 0\n  index: -1\nemotion/f_pup02\n  rotate: false\n  xy: 603, 557\n  size: 13, 13\n  orig: 13, 13\n  offset: 0, 0\n  index: -1\nemotion/pup_death\n  rotate: true\n  xy: 1006, 778\n  size: 20, 16\n  orig: 20, 16\n  offset: 0, 0\n  index: -1\nemotion/pup_heart\n  rotate: false\n  xy: 579, 405\n  size: 32, 32\n  orig: 32, 32\n  offset: 0, 0\n  index: -1\nemotion/pup_money\n  rotate: false\n  xy: 154, 256\n  size: 28, 34\n  orig: 28, 34\n  offset: 0, 0\n  index: -1\nf_eye\n  rotate: false\n  xy: 471, 219\n  size: 28, 28\n  orig: 28, 28\n  offset: 0, 0\n  index: -1\nf_feet\n  rotate: true\n  xy: 367, 120\n  size: 64, 54\n  orig: 64, 54\n  offset: 0, 0\n  index: -1\nf_hand\n  rotate: false\n  xy: 467, 419\n  size: 42, 68\n  orig: 42, 68\n  offset: 0, 0\n  index: -1\nf_low_hand\n  rotate: true\n  xy: 390, 489\n  size: 40, 103\n  orig: 40, 103\n  offset: 0, 0\n  index: -1\nf_low_leg\n  rotate: false\n  xy: 239, 315\n  size: 54, 156\n  orig: 54, 156\n  offset: 0, 0\n  index: -1\nf_pup\n  rotate: false\n  xy: 603, 572\n  size: 15, 13\n  orig: 15, 13\n  offset: 0, 0\n  index: -1\nf_up_hand\n  rotate: true\n  xy: 177, 473\n  size: 58, 126\n  orig: 58, 126\n  offset: 0, 0\n  index: -1\nf_up_leg\n  rotate: false\n  xy: 252, 542\n  size: 75, 174\n  orig: 75, 174\n  offset: 0, 0\n  index: -1\nface\n  rotate: false\n  xy: 254, 202\n  size: 98, 111\n  orig: 98, 111\n  offset: 0, 0\n  index: -1\nhair/b_eyebrown\n  rotate: true\n  xy: 1006, 686\n  size: 20, 10\n  orig: 20, 10\n  offset: 0, 0\n  index: -1\nhair/b_hair\n  rotate: true\n  xy: 681, 769\n  size: 119, 129\n  orig: 119, 129\n  offset: 0, 0\n  index: -1\nhair/f_eyebrown\n  rotate: false\n  xy: 440, 195\n  size: 26, 11\n  orig: 26, 11\n  offset: 0, 0\n  index: -1\nhair/f_hair\n  rotate: false\n  xy: 812, 774\n  size: 126, 89\n  orig: 126, 89\n  offset: 0, 0\n  index: -1\nhand/hand_0\n  rotate: false\n  xy: 495, 527\n  size: 35, 61\n  orig: 35, 61\n  offset: 0, 0\n  index: -1\nhand/hand_1\n  rotate: false\n  xy: 283, 91\n  size: 42, 72\n  orig: 42, 72\n  offset: 0, 0\n  index: -1\nhand/hand_10\n  rotate: false\n  xy: 511, 427\n  size: 40, 60\n  orig: 40, 60\n  offset: 0, 0\n  index: -1\nhand/hand_2\n  rotate: false\n  xy: 298, 17\n  size: 34, 72\n  orig: 34, 72\n  offset: 0, 0\n  index: -1\nhand/hand_3\n  rotate: false\n  xy: 327, 94\n  size: 38, 70\n  orig: 38, 70\n  offset: 0, 0\n  index: -1\nhand/hand_4\n  rotate: false\n  xy: 406, 419\n  size: 59, 68\n  orig: 59, 68\n  offset: 0, 0\n  index: -1\nhand/hand_5\n  rotate: false\n  xy: 334, 24\n  size: 36, 68\n  orig: 36, 68\n  offset: 0, 0\n  index: -1\nhand/hand_6\n  rotate: false\n  xy: 485, 648\n  size: 36, 68\n  orig: 36, 68\n  offset: 0, 0\n  index: -1\nhand/hand_7\n  rotate: true\n  xy: 479, 370\n  size: 47, 57\n  orig: 47, 57\n  offset: 0, 0\n  index: -1\nhand/hand_8\n  rotate: false\n  xy: 525, 612\n  size: 38, 54\n  orig: 38, 54\n  offset: 0, 0\n  index: -1\nhand/hand_9\n  rotate: true\n  xy: 579, 722\n  size: 37, 56\n  orig: 37, 56\n  offset: 0, 0\n  index: -1\nmouth/mouth_0\n  rotate: true\n  xy: 605, 628\n  size: 38, 19\n  orig: 38, 19\n  offset: 0, 0\n  index: -1\nmouth/mouth_1\n  rotate: false\n  xy: 408, 319\n  size: 70, 49\n  orig: 70, 49\n  offset: 0, 0\n  index: -1\nmouth/mouth_10\n  rotate: false\n  xy: 532, 527\n  size: 37, 24\n  orig: 37, 24\n  offset: 0, 0\n  index: -1\nmouth/mouth_11\n  rotate: false\n  xy: 579, 439\n  size: 32, 39\n  orig: 32, 39\n  offset: 0, 0\n  index: -1\nmouth/mouth_13\n  rotate: true\n  xy: 1001, 965\n  size: 57, 21\n  orig: 57, 21\n  offset: 0, 0\n  index: -1\nmouth/mouth_14\n  rotate: false\n  xy: 154, 249\n  size: 23, 5\n  orig: 23, 5\n  offset: 0, 0\n  index: -1\nmouth/mouth_15\n  rotate: true\n  xy: 401, 257\n  size: 59, 25\n  orig: 59, 25\n  offset: 0, 0\n  index: -1\nmouth/mouth_16\n  rotate: false\n  xy: 382, 2\n  size: 52, 23\n  orig: 52, 23\n  offset: 0, 0\n  index: -1\nmouth/mouth_18\n  rotate: true\n  xy: 579, 480\n  size: 45, 26\n  orig: 45, 26\n  offset: 0, 0\n  index: -1\nmouth/mouth_19\n  rotate: false\n  xy: 471, 207\n  size: 28, 10\n  orig: 28, 10\n  offset: 0, 0\n  index: -1\nmouth/mouth_2\n  rotate: true\n  xy: 564, 489\n  size: 36, 13\n  orig: 36, 13\n  offset: 0, 0\n  index: -1\nmouth/mouth_20\n  rotate: true\n  xy: 525, 595\n  size: 15, 5\n  orig: 15, 5\n  offset: 0, 0\n  index: -1\nmouth/mouth_21\n  rotate: true\n  xy: 354, 167\n  size: 17, 8\n  orig: 17, 8\n  offset: 0, 0\n  index: -1\nmouth/mouth_22\n  rotate: false\n  xy: 428, 282\n  size: 41, 35\n  orig: 41, 35\n  offset: 0, 0\n  index: -1\nmouth/mouth_23\n  rotate: true\n  xy: 553, 427\n  size: 60, 24\n  orig: 60, 24\n  offset: 0, 0\n  index: -1\nmouth/mouth_24\n  rotate: true\n  xy: 514, 259\n  size: 56, 15\n  orig: 56, 15\n  offset: 0, 0\n  index: -1\nmouth/mouth_25\n  rotate: false\n  xy: 471, 280\n  size: 41, 35\n  orig: 41, 35\n  offset: 0, 0\n  index: -1\nmouth/mouth_26\n  rotate: true\n  xy: 539, 489\n  size: 36, 23\n  orig: 36, 23\n  offset: 0, 0\n  index: -1\nmouth/mouth_27\n  rotate: false\n  xy: 736, 744\n  size: 36, 23\n  orig: 36, 23\n  offset: 0, 0\n  index: -1\nmouth/mouth_28\n  rotate: true\n  xy: 295, 315\n  size: 53, 37\n  orig: 53, 37\n  offset: 0, 0\n  index: -1\nmouth/mouth_29\n  rotate: false\n  xy: 372, 27\n  size: 53, 28\n  orig: 53, 28\n  offset: 0, 0\n  index: -1\nmouth/mouth_3\n  rotate: false\n  xy: 579, 709\n  size: 41, 11\n  orig: 41, 11\n  offset: 0, 0\n  index: -1\nmouth/mouth_30\n  rotate: false\n  xy: 518, 718\n  size: 59, 41\n  orig: 59, 41\n  offset: 0, 0\n  index: -1\nmouth/mouth_31\n  rotate: true\n  xy: 532, 553\n  size: 57, 35\n  orig: 57, 35\n  offset: 0, 0\n  index: -1\nmouth/mouth_32\n  rotate: false\n  xy: 480, 317\n  size: 52, 51\n  orig: 52, 51\n  offset: 0, 0\n  index: -1\nmouth/mouth_33\n  rotate: true\n  xy: 354, 239\n  size: 77, 45\n  orig: 77, 45\n  offset: 0, 0\n  index: -1\nmouth/mouth_34\n  rotate: false\n  xy: 305, 471\n  size: 83, 66\n  orig: 83, 66\n  offset: 0, 0\n  index: -1\nmouth/mouth_35\n  rotate: true\n  xy: 569, 558\n  size: 52, 32\n  orig: 52, 32\n  offset: 0, 0\n  index: -1\nmouth/mouth_36\n  rotate: true\n  xy: 565, 612\n  size: 54, 38\n  orig: 54, 38\n  offset: 0, 0\n  index: -1\nmouth/mouth_37\n  rotate: true\n  xy: 538, 375\n  size: 50, 39\n  orig: 50, 39\n  offset: 0, 0\n  index: -1\nmouth/mouth_4\n  rotate: true\n  xy: 667, 787\n  size: 37, 12\n  orig: 37, 12\n  offset: 0, 0\n  index: -1\nmouth/mouth_5\n  rotate: false\n  xy: 667, 769\n  size: 12, 16\n  orig: 12, 16\n  offset: 0, 0\n  index: -1\nmouth/mouth_6\n  rotate: true\n  xy: 1004, 898\n  size: 30, 18\n  orig: 30, 18\n  offset: 0, 0\n  index: -1\nmouth/mouth_8\n  rotate: false\n  xy: 471, 249\n  size: 41, 29\n  orig: 41, 29\n  offset: 0, 0\n  index: -1\nmouth/mouth_9\n  rotate: true\n  xy: 1004, 866\n  size: 30, 18\n  orig: 30, 18\n  offset: 0, 0\n  index: -1\nmouth01\n  rotate: true\n  xy: 1004, 930\n  size: 33, 18\n  orig: 33, 18\n  offset: 0, 0\n  index: -1\nnose\n  rotate: false\n  xy: 603, 587\n  size: 15, 22\n  orig: 15, 22\n  offset: 0, 0\n  index: -1\nskin01/b_shoe\n  rotate: false\n  xy: 334, 318\n  size: 72, 50\n  orig: 72, 50\n  offset: 0, 0\n  index: -1\nskin01/f_shoe\n  rotate: false\n  xy: 406, 370\n  size: 71, 47\n  orig: 71, 47\n  offset: 0, 0\n  index: -1\nskin01/pant_b_low_leg\n  rotate: true\n  xy: 367, 754\n  size: 53, 149\n  orig: 53, 149\n  offset: 0, 0\n  index: -1\nskin01/pant_b_up_leg\n  rotate: false\n  xy: 177, 533\n  size: 73, 182\n  orig: 73, 182\n  offset: 0, 0\n  index: -1\nskin01/pant_f_low_leg\n  rotate: true\n  xy: 518, 761\n  size: 63, 147\n  orig: 63, 147\n  offset: 0, 0\n  index: -1\nskin01/pant_f_up_leg\n  rotate: false\n  xy: 154, 292\n  size: 83, 179\n  orig: 83, 179\n  offset: 0, 0\n  index: -1\nskin01/top01\n  rotate: false\n  xy: 2, 249\n  size: 150, 222\n  orig: 150, 222\n  offset: 0, 0\n  index: -1\nskin01/top_l_l_arm01\n  rotate: false\n  xy: 295, 370\n  size: 64, 99\n  orig: 64, 99\n  offset: 0, 0\n  index: -1\nskin01/top_l_u_arm01\n  rotate: false\n  xy: 184, 165\n  size: 68, 125\n  orig: 68, 125\n  offset: 0, 0\n  index: -1\nskin01/top_r_l_arm01\n  rotate: false\n  xy: 361, 370\n  size: 43, 99\n  orig: 43, 99\n  offset: 0, 0\n  index: -1\nskin01/top_r_u_arm01\n  rotate: true\n  xy: 812, 709\n  size: 63, 126\n  orig: 63, 126\n  offset: 0, 0\n  index: -1\ntear\n  rotate: true\n  xy: 511, 419\n  size: 6, 15\n  orig: 6, 15\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "e91dcab9-770d-4e02-a9f7-e0ddcfcafabd"
+    }
+  ],
+  "textureNames": [
+    "Boysub01_Drag_Part01.png"
+  ],
+  "scale": 1
+}

@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Scene2_Eye_Left_Anim",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 5.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -215,
+            -50.88,
+            0
+          ]
+        },
+        {
+          "frame": 0.25,
+          "value": [
+            -228.019,
+            -71.221,
+            0
+          ]
+        },
+        {
+          "frame": 2,
+          "value": [
+            -228.019,
+            -71.221,
+            0
+          ]
+        },
+        {
+          "frame": 2.25,
+          "value": [
+            -179.199,
+            -60.643,
+            0
+          ]
+        },
+        {
+          "frame": 4,
+          "value": [
+            -179.199,
+            -60.643,
+            0
+          ]
+        },
+        {
+          "frame": 4.25,
+          "value": [
+            -215,
+            -50.88,
+            0
+          ]
+        },
+        {
+          "frame": 5.5,
+          "value": [
+            -215,
+            -50.88,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

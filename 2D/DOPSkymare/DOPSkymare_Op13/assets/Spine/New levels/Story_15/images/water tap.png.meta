@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "037dc012-b41f-4ba5-9714-4adff9249227",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 209,
+  "height": 175,
+  "platformSettings": {},
+  "subMetas": {
+    "water tap": {
+      "ver": "1.0.6",
+      "uuid": "40490e41-e636-4203-b827-bfa68a546226",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "037dc012-b41f-4ba5-9714-4adff9249227",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 10,
+      "trimY": 10,
+      "width": 189,
+      "height": 155,
+      "rawWidth": 209,
+      "rawHeight": 175,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

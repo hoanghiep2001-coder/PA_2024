@@ -1,0 +1,189 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Hotel_door",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "getl0VvdWPU",
+      "spine": "3.8-from-4.0-from-4.1-from-4.2.29",
+      "x": -211.81,
+      "y": 18.34,
+      "width": 422.98,
+      "height": 431.99,
+      "images": "./images/",
+      "audio": "./audio"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root"
+      },
+      {
+        "name": "bone2",
+        "parent": "bone",
+        "x": 94.63,
+        "y": 245.55
+      },
+      {
+        "name": "bone3",
+        "parent": "bone",
+        "x": -92.02,
+        "y": 245.55
+      }
+    ],
+    "slots": [
+      {
+        "name": "root",
+        "bone": "root",
+        "attachment": "root"
+      },
+      {
+        "name": "2",
+        "bone": "bone3",
+        "attachment": "2"
+      },
+      {
+        "name": "1",
+        "bone": "bone2",
+        "attachment": "1"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "1": {
+            "1": {
+              "x": 10.54,
+              "y": -11.21,
+              "width": 212,
+              "height": 432
+            }
+          },
+          "2": {
+            "2": {
+              "x": -13.81,
+              "y": -11.21,
+              "width": 212,
+              "height": 432
+            }
+          },
+          "root": {
+            "root": {
+              "type": "clipping",
+              "end": "root",
+              "vertexCount": 4,
+              "vertices": [
+                -211.81,
+                450.29,
+                211.19,
+                450.33,
+                184.16,
+                18.33,
+                -184.82,
+                18.35
+              ],
+              "color": "ce3a3aff"
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "Level32_A": {
+        "bones": {
+          "bone2": {
+            "translate": [
+              {
+                "time": 2
+              }
+            ]
+          }
+        }
+      },
+      "Level32_B": {
+        "bones": {
+          "bone3": {
+            "translate": [
+              {},
+              {
+                "time": 0.1667,
+                "x": -138.74
+              },
+              {
+                "time": 0.2667,
+                "x": -131.17
+              }
+            ]
+          },
+          "bone2": {
+            "translate": [
+              {},
+              {
+                "time": 0.1667,
+                "x": 140.56
+              },
+              {
+                "time": 0.2667,
+                "x": 132.9,
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "x": 132.9
+              }
+            ]
+          }
+        }
+      },
+      "Level32_C": {
+        "bones": {
+          "bone2": {
+            "translate": [
+              {
+                "x": 132.9,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.8333,
+                "x": 132.9
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "bone3": {
+            "translate": [
+              {
+                "x": -131.17,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.8333,
+                "x": -131.17
+              },
+              {
+                "time": 2
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nHotel_door.png\nsize: 128, 512\nformat: RGBA8888\nfilter: Linear, Linear\nrepeat: none\n1\n  rotate: false\n  xy: 2, 134\n  size: 64, 130\n  orig: 64, 130\n  offset: 0, 0\n  index: -1\n2\n  rotate: false\n  xy: 2, 2\n  size: 64, 130\n  orig: 64, 130\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "c0c90dee-8f2b-4975-9c68-95c962a65cd7"
+    }
+  ],
+  "textureNames": [
+    "Hotel_door.png"
+  ],
+  "scale": 1
+}

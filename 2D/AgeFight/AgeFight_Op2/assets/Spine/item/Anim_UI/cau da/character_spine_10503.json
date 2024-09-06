@@ -1,0 +1,195 @@
+{
+"skeleton": {
+	"hash": "ZpqhX3rzTEE",
+	"spine": "3.8-from-4.0-from-4.1.24",
+	"x": -212.14,
+	"y": -27.96,
+	"width": 757,
+	"height": 526.37,
+	"images": "../images/",
+	"audio": "D:/Stone Age/images/Doi1"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Character", "parent": "root", "color": "ff0000ff" },
+	{ "name": "shadow", "parent": "Character", "x": -8.36, "y": 23.9 },
+	{ "name": "Doi8Cauda/shadow1", "parent": "Character", "x": 162.46, "y": 187.78, "color": "fefefeff" },
+	{ "name": "Doi8Cauda/banh xe 2", "parent": "Doi8Cauda/shadow1", "x": 151.52, "y": -25.02, "color": "fefefeff" },
+	{ "name": "Doi8Cauda/banh xe 1", "parent": "Doi8Cauda/shadow1", "x": -128.58, "y": -25.85, "color": "fefefeff" },
+	{ "name": "Doi8Cauda/can cau", "parent": "Doi8Cauda/shadow1", "x": 65.17, "y": 193.61, "color": "fefefeff" },
+	{ "name": "Doi8Cauda/da", "parent": "Doi8Cauda/can cau", "x": -335.14, "y": 18.02, "color": "fefefeff" },
+	{ "name": "shoot_position", "parent": "Doi8Cauda/can cau", "x": -335.14, "y": 18.02, "color": "fefefeff" },
+	{ "name": "Doi8Cauda/shadow2", "parent": "Character", "x": 168.78, "y": 93.09 }
+],
+"slots": [
+	{ "name": "Doi8Cauda/da", "bone": "Doi8Cauda/da", "attachment": "Doi8Cauda/da" },
+	{ "name": "Doi8Cauda/can cau", "bone": "Doi8Cauda/can cau", "attachment": "Doi8Cauda/can cau" },
+	{ "name": "Doi8Cauda/shadow1", "bone": "Doi8Cauda/shadow2", "attachment": "Doi8Cauda/shadow1" },
+	{ "name": "Doi8Cauda/banh xe 1", "bone": "Doi8Cauda/banh xe 1", "attachment": "Doi8Cauda/banh xe 1" },
+	{ "name": "Doi8Cauda/banh xe 2", "bone": "Doi8Cauda/banh xe 2", "attachment": "Doi8Cauda/banh xe 2" },
+	{ "name": "Doi8Cauda/than xe", "bone": "Doi8Cauda/shadow1", "attachment": "Doi8Cauda/than xe" },
+	{ "name": "shadow", "bone": "shadow", "attachment": "Doi1/shadow" }
+],
+"skins": [
+	{
+		"name": "ally",
+		"attachments": {
+			"Doi8Cauda/banh xe 1": {
+				"Doi8Cauda/banh xe 1": { "width": 168, "height": 168 }
+			},
+			"Doi8Cauda/banh xe 2": {
+				"Doi8Cauda/banh xe 2": { "width": 168, "height": 168 }
+			},
+			"Doi8Cauda/can cau": {
+				"Doi8Cauda/can cau": { "x": -61.28, "y": 5.74, "width": 757, "height": 181 }
+			},
+			"Doi8Cauda/da": {
+				"Doi8Cauda/da": { "width": 198, "height": 198 }
+			},
+			"Doi8Cauda/shadow1": {
+				"Doi8Cauda/shadow1": { "x": -3.58, "y": -7.51, "width": 639, "height": 150 }
+			},
+			"Doi8Cauda/than xe": {
+				"Doi8Cauda/than xe": { "x": 15.64, "y": 133.41, "width": 467, "height": 275 }
+			},
+			"shadow": {
+				"Doi1/shadow": {
+					"name": "Doi8Cauda/shadow",
+					"type": "mesh",
+					"uvs": [ 0.85586, 0.12315, 1, 0.36722, 1, 0.60224, 0.88569, 0.85535, 0.68041, 1, 0.36156, 1, 0.13523, 0.89603, 0, 0.6836, 0, 0.40233, 0.13595, 0.11307, 0.35175, 0, 0.63831, 0 ],
+					"triangles": [ 0, 1, 2, 6, 7, 8, 3, 0, 2, 9, 6, 8, 5, 10, 11, 9, 10, 5, 6, 9, 5, 4, 11, 0, 4, 0, 3, 5, 11, 4 ],
+					"vertices": [ 1, 2, 89.74, 28.81, 1, 1, 2, 123.9, 6.35, 1, 1, 2, 123.9, -15.27, 1, 1, 2, 96.81, -38.56, 1, 1, 2, 48.16, -51.86, 1, 1, 2, -27.41, -51.86, 1, 1, 2, -81.05, -42.3, 1, 1, 2, -113.1, -22.76, 1, 1, 2, -113.1, 3.12, 1, 1, 2, -80.88, 29.73, 1, 1, 2, -29.74, 40.14, 1, 1, 2, 38.18, 40.14, 1 ],
+					"hull": 12,
+					"edges": [ 20, 18, 18, 16, 14, 16, 14, 12, 12, 10, 8, 10, 8, 6, 6, 4, 4, 2, 2, 0, 20, 22, 0, 22 ],
+					"width": 237,
+					"height": 92
+				}
+			}
+		}
+	},
+	{
+		"name": "enemy",
+		"attachments": {
+			"Doi8Cauda/banh xe 1": {
+				"Doi8Cauda/banh xe 1": { "name": "Doi8Cauda/Doi8Enemy/banh xe 1", "width": 168, "height": 168 }
+			},
+			"Doi8Cauda/banh xe 2": {
+				"Doi8Cauda/banh xe 2": { "name": "Doi8Cauda/Doi8Enemy/banh xe 2", "width": 168, "height": 168 }
+			},
+			"Doi8Cauda/can cau": {
+				"Doi8Cauda/can cau": { "name": "Doi8Cauda/Doi8Enemy/can cau", "x": -61.28, "y": 5.74, "width": 757, "height": 181 }
+			},
+			"Doi8Cauda/da": {
+				"Doi8Cauda/da": { "name": "Doi8Cauda/Doi8Enemy/da", "width": 198, "height": 198 }
+			},
+			"Doi8Cauda/than xe": {
+				"Doi8Cauda/than xe": { "name": "Doi8Cauda/Doi8Enemy/than xe", "x": 15.64, "y": 133.41, "width": 467, "height": 275 }
+			}
+		}
+	}
+],
+"events": {
+	"Damage": {},
+	"Start_Damage": {}
+},
+"animations": {
+	"Attack": {
+		"slots": {
+			"Doi8Cauda/da": {
+				"color": [
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"shadow": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": -30.7 },
+					{ "time": 0.4333, "x": 39.71 },
+					{ "time": 0.6667, "x": 39.71 },
+					{ "time": 0.8333 }
+				]
+			},
+			"Doi8Cauda/can cau": {
+				"rotate": [
+					{},
+					{ "time": 0.2, "angle": 9.18 },
+					{ "time": 0.3333, "angle": 19.1 },
+					{ "time": 0.4333, "angle": -113.33 },
+					{ "time": 0.5, "angle": -137.38 },
+					{ "time": 0.5667, "angle": -100.9 },
+					{ "time": 0.8333 }
+				]
+			},
+			"shoot_position": {
+				"translate": [
+					{ "time": 0.3333 },
+					{ "time": 0.4333, "x": -137, "y": 14.69 },
+					{ "time": 0.8333 }
+				]
+			},
+			"Doi8Cauda/shadow2": {
+				"translate": [
+					{},
+					{ "time": 0.5, "x": 86.83 },
+					{ "time": 0.5667, "x": 32.56 },
+					{ "time": 0.8333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.2, "x": 1.109, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1.109 },
+					{ "time": 0.4333, "x": 0.868 },
+					{ "time": 0.5, "x": 1.103 },
+					{ "time": 0.5667, "x": 0.924 },
+					{ "time": 0.8333 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "Start_Damage" },
+			{ "time": 0.4333, "name": "Damage" }
+		]
+	},
+	"Idle": {
+		"bones": {
+			"shadow": {
+				"translate": [
+					{},
+					{ "time": 0.5, "x": 11.41 },
+					{ "time": 1 },
+					{ "time": 1.5, "x": 11.41 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.5, "x": 0.959 },
+					{ "time": 1 },
+					{ "time": 1.5, "x": 0.959 },
+					{ "time": 2 }
+				]
+			},
+			"Doi8Cauda/can cau": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 2.01 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": 2.01 },
+					{ "time": 2 }
+				]
+			},
+			"Doi8Cauda/shadow2": {
+				"scale": [
+					{},
+					{ "time": 0.5, "x": 1.103 },
+					{ "time": 1 },
+					{ "time": 1.5, "x": 1.103 },
+					{ "time": 2 }
+				]
+			}
+		}
+	}
+}
+}

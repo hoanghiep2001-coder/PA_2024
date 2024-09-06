@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "6e223d9c-5744-4cf3-97c7-c186efad0f82",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1000,
+  "height": 1000,
+  "platformSettings": {},
+  "subMetas": {
+    "Elements - Liquid 070 Splash Radial noCT noRSZ_00007": {
+      "ver": "1.0.6",
+      "uuid": "e7c95565-e6d2-41f7-b9d9-d87d98b30615",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6e223d9c-5744-4cf3-97c7-c186efad0f82",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -19,
+      "offsetY": 0.5,
+      "trimX": 102,
+      "trimY": 129,
+      "width": 758,
+      "height": 741,
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

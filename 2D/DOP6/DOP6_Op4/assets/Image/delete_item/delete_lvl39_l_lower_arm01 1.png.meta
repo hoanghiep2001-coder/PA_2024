@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e89feb30-6419-4817-818c-eb3d1eba140b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 255,
+  "height": 428,
+  "platformSettings": {},
+  "subMetas": {
+    "delete_lvl39_l_lower_arm01 1": {
+      "ver": "1.0.6",
+      "uuid": "b41a6193-720a-4421-847a-936d7ff4a0e7",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e89feb30-6419-4817-818c-eb3d1eba140b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 255,
+      "height": 428,
+      "rawWidth": 255,
+      "rawHeight": 428,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "99c3213f-efac-4b2d-af74-d15cfbc5f7a1",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 153,
+  "height": 616,
+  "platformSettings": {},
+  "subMetas": {
+    "lvl34_door": {
+      "ver": "1.0.6",
+      "uuid": "4652eeac-f55e-4220-a096-61b7456ef68b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "99c3213f-efac-4b2d-af74-d15cfbc5f7a1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 153,
+      "height": 616,
+      "rawWidth": 153,
+      "rawHeight": 616,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,792 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "character_spine_10903",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "1HPus6La96E",
+      "spine": "3.8-from-4.0-from-4.1.24",
+      "x": -530.18,
+      "y": -61.34,
+      "width": 940.65,
+      "height": 672.87,
+      "images": "../images/",
+      "audio": "D:/Stone Age/images/Doi9Maybay"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "Character",
+        "parent": "root",
+        "color": "ff0000ff"
+      },
+      {
+        "name": "than may bay",
+        "parent": "Character",
+        "x": 46.09,
+        "y": 407.05
+      },
+      {
+        "name": "ten lua",
+        "parent": "than may bay",
+        "length": 112.1,
+        "rotation": -0.48,
+        "x": -145.95,
+        "y": -138.1
+      },
+      {
+        "name": "canh quat",
+        "parent": "than may bay",
+        "x": -455.77,
+        "y": 66.72
+      },
+      {
+        "name": "bone",
+        "parent": "than may bay",
+        "x": 14.3,
+        "y": 137.2,
+        "scaleX": 1.3138,
+        "scaleY": 0.2199
+      },
+      {
+        "name": "canh quat2",
+        "parent": "bone",
+        "y": 39.47
+      },
+      {
+        "name": "shoot_position",
+        "parent": "than may bay",
+        "rotation": -0.48,
+        "x": -145.95,
+        "y": -138.1
+      },
+      {
+        "name": "shadow copy 3",
+        "parent": "Character",
+        "x": -49.64,
+        "y": 10.66,
+        "scaleX": 1.5446
+      },
+      {
+        "name": "Vfx",
+        "parent": "Character",
+        "color": "ff0000ff"
+      }
+    ],
+    "slots": [
+      {
+        "name": "shadow copy 3",
+        "bone": "shadow copy 3",
+        "attachment": "Doi9Maybay/shadow copy 3"
+      },
+      {
+        "name": "than may bay",
+        "bone": "than may bay",
+        "attachment": "Doi9Maybay/than may bay"
+      },
+      {
+        "name": "canh quat2",
+        "bone": "canh quat2",
+        "color": "ffffffd3",
+        "attachment": "Doi9Maybay/canh quat"
+      },
+      {
+        "name": "ten lua",
+        "bone": "ten lua",
+        "attachment": "Doi9Maybay/ten lua"
+      },
+      {
+        "name": "canh quat",
+        "bone": "canh quat",
+        "attachment": "Doi9Maybay/canh quat"
+      },
+      {
+        "name": "Doi9Maybay/Chopmaybay",
+        "bone": "than may bay",
+        "attachment": "Doi9Maybay/Chopmaybay"
+      },
+      {
+        "name": "VFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00002",
+        "bone": "Vfx",
+        "color": "000000ff"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "VFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00002": {
+            "VFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_": {
+              "width": 1000,
+              "height": 1000
+            }
+          }
+        }
+      },
+      {
+        "name": "ally",
+        "attachments": {
+          "canh quat": {
+            "Doi9Maybay/canh quat": {
+              "width": 241,
+              "height": 241
+            }
+          },
+          "canh quat2": {
+            "Doi9Maybay/canh quat": {
+              "scaleX": 2.2112,
+              "scaleY": 2.2112,
+              "width": 241,
+              "height": 241
+            }
+          },
+          "Doi9Maybay/Chopmaybay": {
+            "Doi9Maybay/Chopmaybay": {
+              "x": 14.43,
+              "y": 149.57,
+              "width": 121,
+              "height": 41
+            }
+          },
+          "shadow copy 3": {
+            "Doi9Maybay/shadow copy 3": {
+              "x": 4.4,
+              "y": -8.5,
+              "width": 562,
+              "height": 127
+            }
+          },
+          "ten lua": {
+            "Doi9Maybay/ten lua": {
+              "x": 58.74,
+              "y": 1.7,
+              "rotation": 0.48,
+              "width": 307,
+              "height": 199
+            }
+          },
+          "than may bay": {
+            "Doi9Maybay/than may bay": {
+              "x": -112.69,
+              "y": -42.4,
+              "width": 878,
+              "height": 426
+            }
+          }
+        }
+      },
+      {
+        "name": "enemy",
+        "attachments": {
+          "canh quat": {
+            "Doi9Maybay/canh quat": {
+              "name": "Doi9Maybay/Doi9Enemy/canh quat",
+              "width": 241,
+              "height": 241
+            }
+          },
+          "canh quat2": {
+            "Doi9Maybay/canh quat": {
+              "name": "Doi9Maybay/Doi9Enemy/canh quat",
+              "scaleX": 2.2112,
+              "scaleY": 2.2112,
+              "width": 241,
+              "height": 241
+            }
+          },
+          "Doi9Maybay/Chopmaybay": {
+            "Doi9Maybay/Chopmaybay": {
+              "name": "Doi9Maybay/Doi9Enemy/Chopmaybay",
+              "x": 14.43,
+              "y": 149.57,
+              "width": 121,
+              "height": 41
+            }
+          },
+          "shadow copy 3": {
+            "Doi9Maybay/shadow copy 3": {
+              "name": "Doi9Maybay/Doi9Enemy/shadow copy 3",
+              "x": 4.4,
+              "y": -8.5,
+              "width": 562,
+              "height": 127
+            }
+          },
+          "ten lua": {
+            "Doi9Maybay/ten lua": {
+              "name": "Doi9Maybay/Doi9Enemy/ten lua",
+              "x": 58.74,
+              "y": 1.7,
+              "rotation": 0.48,
+              "width": 307,
+              "height": 199
+            }
+          },
+          "than may bay": {
+            "Doi9Maybay/than may bay": {
+              "name": "Doi9Maybay/Doi9Enemy/than may bay",
+              "x": -112.69,
+              "y": -42.4,
+              "width": 878,
+              "height": 426
+            }
+          }
+        }
+      }
+    ],
+    "events": {
+      "Damage": {},
+      "Start_Damage": {}
+    },
+    "animations": {
+      "Attack": {
+        "bones": {
+          "than may bay": {
+            "rotate": [
+              {},
+              {
+                "time": 0.2333,
+                "angle": -1.31
+              },
+              {
+                "time": 0.4,
+                "angle": -2.56
+              },
+              {
+                "time": 0.5333,
+                "angle": -0.04
+              },
+              {
+                "time": 0.7,
+                "angle": 0.64
+              },
+              {
+                "time": 1
+              }
+            ],
+            "translate": [
+              {},
+              {
+                "time": 0.2333,
+                "x": -3.19
+              },
+              {
+                "time": 0.4,
+                "x": -6.39
+              },
+              {
+                "time": 0.5333,
+                "x": 1.06
+              },
+              {
+                "time": 0.7,
+                "x": 1.06
+              },
+              {
+                "time": 1
+              }
+            ]
+          },
+          "ten lua": {
+            "scale": [
+              {
+                "time": 0.4
+              },
+              {
+                "time": 0.4333,
+                "x": 0.813
+              },
+              {
+                "time": 0.5,
+                "x": 0.953
+              },
+              {
+                "time": 0.6
+              }
+            ]
+          },
+          "canh quat": {
+            "rotate": [
+              {},
+              {
+                "time": 1,
+                "angle": -720
+              }
+            ]
+          },
+          "canh quat2": {
+            "rotate": [
+              {},
+              {
+                "time": 1,
+                "angle": -720
+              }
+            ]
+          },
+          "shoot_position": {
+            "translate": [
+              {
+                "time": 0.4
+              },
+              {
+                "time": 0.5333,
+                "x": 173.11,
+                "y": 1.64
+              },
+              {
+                "time": 0.6667
+              }
+            ]
+          },
+          "shadow copy 3": {
+            "translate": [
+              {},
+              {
+                "time": 0.3333,
+                "x": -26.84
+              },
+              {
+                "time": 1
+              }
+            ],
+            "scale": [
+              {},
+              {
+                "time": 0.3333,
+                "x": 0.885
+              },
+              {
+                "time": 0.6667,
+                "x": 1.004
+              },
+              {
+                "time": 1
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "time": 0.4,
+            "name": "Start_Damage"
+          },
+          {
+            "time": 0.5333,
+            "name": "Damage"
+          }
+        ]
+      },
+      "Die": {
+        "slots": {
+          "canh quat": {
+            "color": [
+              {
+                "time": 0.0333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "canh quat2": {
+            "color": [
+              {
+                "time": 0.0333,
+                "color": "ffffffd3"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Doi9Maybay/Chopmaybay": {
+            "color": [
+              {
+                "time": 0.0333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "shadow copy 3": {
+            "color": [
+              {
+                "time": 0.0333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "ten lua": {
+            "color": [
+              {
+                "time": 0.0333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "than may bay": {
+            "color": [
+              {
+                "time": 0.0333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "VFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00002": {
+            "color": [
+              {
+                "time": 0.4667,
+                "color": "000000ff"
+              },
+              {
+                "time": 0.5,
+                "color": "00000000"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.0667,
+                "name": "VFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "than may bay": {
+            "rotate": [
+              {},
+              {
+                "time": 0.0333,
+                "angle": 1.09
+              }
+            ]
+          },
+          "Vfx": {
+            "translate": [
+              {},
+              {
+                "time": 0.0333,
+                "y": 313.08
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "VFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00002": {
+              "VFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_": {}
+            }
+          }
+        }
+      },
+      "Hurt": {
+        "slots": {
+          "canh quat": {
+            "color": [
+              {
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.1667,
+                "color": "ff0000ff"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "canh quat2": {
+            "color": [
+              {
+                "color": "ffffffd3"
+              },
+              {
+                "time": 0.1667,
+                "color": "ff0000ff"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffd3"
+              }
+            ]
+          },
+          "Doi9Maybay/Chopmaybay": {
+            "color": [
+              {
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.1667,
+                "color": "ff0000ff"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "shadow copy 3": {
+            "color": [
+              {
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.1667,
+                "color": "ff0000ff"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "ten lua": {
+            "color": [
+              {
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.1667,
+                "color": "ff0000ff"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "than may bay": {
+            "color": [
+              {
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.1667,
+                "color": "ff0000ff"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              }
+            ]
+          }
+        }
+      },
+      "Idle": {
+        "bones": {
+          "than may bay": {
+            "rotate": [
+              {},
+              {
+                "time": 0.5,
+                "angle": -0.68
+              },
+              {
+                "time": 1
+              },
+              {
+                "time": 1.5,
+                "angle": -0.68
+              },
+              {
+                "time": 2
+              }
+            ],
+            "translate": [
+              {},
+              {
+                "time": 0.5,
+                "y": -15.95
+              },
+              {
+                "time": 1
+              },
+              {
+                "time": 1.5,
+                "y": -15.95
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "canh quat": {
+            "rotate": [
+              {},
+              {
+                "time": 1,
+                "angle": -720
+              },
+              {
+                "time": 2,
+                "angle": -1440
+              }
+            ]
+          },
+          "canh quat2": {
+            "rotate": [
+              {},
+              {
+                "time": 1,
+                "angle": -720
+              },
+              {
+                "time": 2,
+                "angle": -1440
+              }
+            ]
+          },
+          "shadow copy 3": {
+            "scale": [
+              {},
+              {
+                "time": 0.5,
+                "x": 0.887
+              },
+              {
+                "time": 1
+              },
+              {
+                "time": 1.5,
+                "x": 0.887
+              },
+              {
+                "time": 2
+              }
+            ]
+          }
+        }
+      },
+      "Run": {
+        "bones": {
+          "than may bay": {
+            "rotate": [
+              {
+                "angle": -9.18
+              },
+              {
+                "time": 0.3333,
+                "angle": -8.48
+              },
+              {
+                "time": 0.6667,
+                "angle": -9.18
+              },
+              {
+                "time": 1,
+                "angle": -8.48
+              },
+              {
+                "time": 1.3333,
+                "angle": -9.18
+              }
+            ],
+            "translate": [
+              {},
+              {
+                "time": 0.3333,
+                "x": 9.94
+              },
+              {
+                "time": 0.6667
+              },
+              {
+                "time": 1,
+                "x": 9.94
+              },
+              {
+                "time": 1.3333
+              }
+            ]
+          },
+          "canh quat": {
+            "rotate": [
+              {},
+              {
+                "time": 1.3333,
+                "angle": -1440
+              }
+            ]
+          },
+          "canh quat2": {
+            "rotate": [
+              {},
+              {
+                "time": 1.3333,
+                "angle": -1440
+              }
+            ]
+          },
+          "shadow copy 3": {
+            "translate": [
+              {},
+              {
+                "time": 0.3333,
+                "x": 26.24
+              },
+              {
+                "time": 0.6667
+              },
+              {
+                "time": 1,
+                "x": 26.24
+              },
+              {
+                "time": 1.3333
+              }
+            ],
+            "scale": [
+              {},
+              {
+                "time": 0.3333,
+                "x": 0.888
+              },
+              {
+                "time": 0.6667
+              },
+              {
+                "time": 1,
+                "x": 0.888
+              },
+              {
+                "time": 1.3333
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\ncharacter_spine_10903.png\nsize: 1420, 504\nformat: RGBA8888\nfilter: Linear, Linear\nrepeat: none\nDoi9Maybay/Chopmaybay\n  rotate: false\n  xy: 258, 250\n  size: 36, 12\n  orig: 36, 12\n  offset: 0, 0\n  index: -1\nDoi9Maybay/Doi9Enemy/Chopmaybay\n  rotate: false\n  xy: 258, 250\n  size: 36, 12\n  orig: 36, 12\n  offset: 0, 0\n  index: -1\nDoi9Maybay/Doi9Enemy/canh quat\n  rotate: false\n  xy: 1346, 241\n  size: 72, 72\n  orig: 72, 72\n  offset: 0, 0\n  index: -1\nDoi9Maybay/Doi9Enemy/shadow copy 3\n  rotate: true\n  xy: 1376, 333\n  size: 169, 38\n  orig: 169, 38\n  offset: 0, 0\n  index: -1\nDoi9Maybay/shadow copy 3\n  rotate: true\n  xy: 1376, 333\n  size: 169, 38\n  orig: 169, 38\n  offset: 0, 0\n  index: -1\nDoi9Maybay/Doi9Enemy/ten lua\n  rotate: true\n  xy: 1346, 73\n  size: 92, 60\n  orig: 92, 60\n  offset: 0, 0\n  index: -1\nDoi9Maybay/Doi9Enemy/than may bay\n  rotate: true\n  xy: 2, 239\n  size: 263, 126\n  orig: 263, 128\n  offset: 0, 2\n  index: -1\nDoi9Maybay/canh quat\n  rotate: false\n  xy: 1346, 167\n  size: 72, 72\n  orig: 72, 72\n  offset: 0, 0\n  index: -1\nDoi9Maybay/ten lua\n  rotate: false\n  xy: 1305, 11\n  size: 92, 60\n  orig: 92, 60\n  offset: 0, 0\n  index: -1\nDoi9Maybay/than may bay\n  rotate: true\n  xy: 130, 239\n  size: 263, 126\n  orig: 263, 128\n  offset: 0, 2\n  index: -1\nVFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00002\n  rotate: false\n  xy: 942, 5\n  size: 24, 29\n  orig: 300, 300\n  offset: 141, 136\n  index: -1\nVFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00003\n  rotate: true\n  xy: 1167, 5\n  size: 145, 136\n  orig: 300, 300\n  offset: 80, 85\n  index: -1\nVFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00004\n  rotate: false\n  xy: 1179, 152\n  size: 165, 161\n  orig: 300, 300\n  offset: 71, 76\n  index: -1\nVFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00005\n  rotate: true\n  xy: 1179, 315\n  size: 187, 195\n  orig: 300, 300\n  offset: 56, 56\n  index: -1\nVFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00006\n  rotate: true\n  xy: 962, 281\n  size: 221, 215\n  orig: 300, 300\n  offset: 34, 43\n  index: -1\nVFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00007\n  rotate: true\n  xy: 942, 36\n  size: 228, 223\n  orig: 300, 300\n  offset: 30, 39\n  index: -1\nVFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00008\n  rotate: true\n  xy: 240, 2\n  size: 235, 228\n  orig: 300, 300\n  offset: 27, 36\n  index: -1\nVFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00009\n  rotate: true\n  xy: 730, 266\n  size: 236, 230\n  orig: 300, 300\n  offset: 28, 35\n  index: -1\nVFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00010\n  rotate: true\n  xy: 494, 265\n  size: 237, 234\n  orig: 300, 300\n  offset: 28, 33\n  index: -1\nVFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00011\n  rotate: true\n  xy: 706, 26\n  size: 237, 234\n  orig: 300, 300\n  offset: 28, 33\n  index: -1\nVFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00012\n  rotate: true\n  xy: 258, 264\n  size: 238, 234\n  orig: 300, 300\n  offset: 27, 33\n  index: -1\nVFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00013\n  rotate: true\n  xy: 470, 24\n  size: 238, 234\n  orig: 300, 300\n  offset: 27, 33\n  index: -1\nVFx/Blood/Elements - Liquid 070 Splash Radial noCT noRSZ_00014\n  rotate: false\n  xy: 2, 2\n  size: 236, 235\n  orig: 300, 300\n  offset: 27, 32\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "ebe39a6d-6d6e-4102-8b2c-3dc2f771c0aa"
+    }
+  ],
+  "textureNames": [
+    "character_spine_10903.png"
+  ],
+  "scale": 1
+}

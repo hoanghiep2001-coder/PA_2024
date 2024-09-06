@@ -1,0 +1,546 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Makeup_Girl",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "2BcwMSZMf90",
+      "spine": "3.8-from-4.0-from-4.1-from-4.2.29",
+      "x": -749.57,
+      "y": -43.66,
+      "width": 1029,
+      "height": 1394,
+      "images": "./images/",
+      "audio": "./audio"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root"
+      },
+      {
+        "name": "bone2",
+        "parent": "bone",
+        "x": -41.65,
+        "y": 878.91
+      },
+      {
+        "name": "bone3",
+        "parent": "bone",
+        "x": 159.7,
+        "y": 888.28
+      },
+      {
+        "name": "bone4",
+        "parent": "bone",
+        "length": 539.98,
+        "rotation": 94.4,
+        "x": -85.82,
+        "y": 618.17
+      },
+      {
+        "name": "bone5",
+        "parent": "bone4",
+        "length": 145.43,
+        "rotation": 86.25,
+        "x": 355.29,
+        "y": -95.62
+      },
+      {
+        "name": "bone6",
+        "parent": "bone4",
+        "length": 136.55,
+        "rotation": -85.05,
+        "x": 343.44,
+        "y": -206.77
+      },
+      {
+        "name": "bone7",
+        "parent": "bone4",
+        "x": 307.97,
+        "y": -46.66
+      },
+      {
+        "name": "bone8",
+        "parent": "bone4",
+        "x": 305.39,
+        "y": -251.63
+      },
+      {
+        "name": "delete_mascara",
+        "parent": "bone4",
+        "x": 217.71,
+        "y": -104.63
+      }
+    ],
+    "slots": [
+      {
+        "name": "hair",
+        "bone": "bone",
+        "attachment": "hair"
+      },
+      {
+        "name": "body",
+        "bone": "bone",
+        "attachment": "body"
+      },
+      {
+        "name": "face",
+        "bone": "bone",
+        "attachment": "face"
+      },
+      {
+        "name": "delete_mascara",
+        "bone": "delete_mascara"
+      },
+      {
+        "name": "b_eyelid copy 2",
+        "bone": "bone",
+        "attachment": "b_eyelid copy 2"
+      },
+      {
+        "name": "f_hair",
+        "bone": "bone",
+        "attachment": "f_hair"
+      },
+      {
+        "name": "b_pup",
+        "bone": "bone3",
+        "attachment": "b_pup"
+      },
+      {
+        "name": "Group 1",
+        "bone": "bone8",
+        "attachment": "b_eyelid"
+      },
+      {
+        "name": "f_eye",
+        "bone": "bone",
+        "attachment": "f_eye"
+      },
+      {
+        "name": "f_pup",
+        "bone": "bone2",
+        "attachment": "f_pup"
+      },
+      {
+        "name": "mouth",
+        "bone": "bone",
+        "attachment": "lip"
+      },
+      {
+        "name": "nose",
+        "bone": "bone",
+        "attachment": "nose"
+      },
+      {
+        "name": "f_eye_brown",
+        "bone": "bone5",
+        "attachment": "f_eye_brown"
+      },
+      {
+        "name": "b_eye_brown",
+        "bone": "bone6",
+        "attachment": "b_eye_brown"
+      },
+      {
+        "name": "f_eyelid",
+        "bone": "bone7",
+        "attachment": "f_eyelid"
+      },
+      {
+        "name": "Shape-161",
+        "bone": "root"
+      },
+      {
+        "name": "root",
+        "bone": "root"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "body": {
+            "body": {
+              "x": -87.07,
+              "y": 364.84,
+              "width": 699,
+              "height": 701
+            }
+          },
+          "b_eyelid copy 2": {
+            "b_eyelid copy 2": {
+              "x": 142.43,
+              "y": 882.34,
+              "width": 156,
+              "height": 156
+            }
+          },
+          "b_eye_brown": {
+            "b_eye_brown": {
+              "x": 44.89,
+              "y": -3.97,
+              "rotation": -9.35,
+              "width": 135,
+              "height": 35
+            }
+          },
+          "b_pup": {
+            "b_pup": {
+              "x": -2.27,
+              "y": -1.95,
+              "width": 76,
+              "height": 76
+            }
+          },
+          "face": {
+            "face": {
+              "x": -59.07,
+              "y": 933.84,
+              "width": 557,
+              "height": 647
+            }
+          },
+          "f_eye": {
+            "f_eye": {
+              "x": -67.57,
+              "y": 872.34,
+              "width": 172,
+              "height": 172
+            }
+          },
+          "f_eyelid": {
+            "f_eyelid": {
+              "x": -12.54,
+              "y": 12.64,
+              "rotation": -94.4,
+              "width": 186,
+              "height": 86
+            },
+            "f_eyelid copy": {
+              "x": -55.42,
+              "y": 15.94,
+              "rotation": -94.4,
+              "width": 186,
+              "height": 172
+            }
+          },
+          "f_eye_brown": {
+            "f_eye_brown": {
+              "x": 70.52,
+              "y": 16.62,
+              "rotation": 179.35,
+              "width": 179,
+              "height": 38
+            }
+          },
+          "f_hair": {
+            "f_hair": {
+              "x": -42.57,
+              "y": 1065.84,
+              "width": 620,
+              "height": 453
+            }
+          },
+          "f_pup": {
+            "f_pup": {
+              "x": -4.42,
+              "y": -1.08,
+              "width": 75,
+              "height": 75
+            }
+          },
+          "Group 1": {
+            "b_eyelid": {
+              "x": -22.96,
+              "y": -3.54,
+              "rotation": -94.4,
+              "width": 165,
+              "height": 82
+            },
+            "b_eyelid copy": {
+              "x": -60.01,
+              "y": -2.69,
+              "rotation": -94.4,
+              "width": 169,
+              "height": 156
+            }
+          },
+          "hair": {
+            "hair": {
+              "x": -235.07,
+              "y": 653.34,
+              "width": 1029,
+              "height": 1394
+            }
+          },
+          "mouth": {
+            "lip": {
+              "x": 58.66,
+              "y": 714.8,
+              "rotation": 6,
+              "width": 103,
+              "height": 50
+            },
+            "mouth01": {
+              "x": 40.43,
+              "y": 719.84,
+              "width": 170,
+              "height": 83
+            },
+            "mouth_21": {
+              "x": 42.93,
+              "y": 737.34,
+              "width": 85,
+              "height": 44
+            }
+          },
+          "nose": {
+            "nose": {
+              "x": 99.93,
+              "y": 813.84,
+              "width": 35,
+              "height": 41
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "Level29_A": {
+        "slots": {
+          "f_eyelid": {
+            "color": [
+              {
+                "color": "686868ff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 1.3333,
+                "name": "f_eyelid copy"
+              },
+              {
+                "time": 1.4333,
+                "name": "f_eyelid"
+              },
+              {
+                "time": 2.5667,
+                "name": "f_eyelid copy"
+              }
+            ]
+          },
+          "Group 1": {
+            "color": [
+              {
+                "color": "686868ff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 1.3333,
+                "name": "b_eyelid copy"
+              },
+              {
+                "time": 1.4333,
+                "name": "b_eyelid"
+              },
+              {
+                "time": 2.5667,
+                "name": "b_eyelid copy"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone2": {
+            "translate": [
+              {},
+              {
+                "time": 0.1667,
+                "x": 19.14,
+                "y": -22.62,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "x": 19.14,
+                "y": -22.62
+              },
+              {
+                "time": 1.5,
+                "x": -39.15,
+                "y": -5.22,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.6667
+              }
+            ]
+          },
+          "bone3": {
+            "translate": [
+              {},
+              {
+                "time": 0.1667,
+                "x": 14.79,
+                "y": -23.49,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "x": 14.79,
+                "y": -23.49
+              },
+              {
+                "time": 1.5,
+                "x": -43.49,
+                "y": -6.09,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.6667
+              }
+            ]
+          }
+        }
+      },
+      "Level29_B": {
+        "slots": {
+          "f_eyelid": {
+            "attachment": [
+              {
+                "time": 1.3333,
+                "name": "f_eyelid copy"
+              },
+              {
+                "time": 1.4333,
+                "name": "f_eyelid"
+              },
+              {
+                "time": 2.5667,
+                "name": "f_eyelid copy"
+              }
+            ]
+          },
+          "Group 1": {
+            "attachment": [
+              {
+                "time": 1.3333,
+                "name": "b_eyelid copy"
+              },
+              {
+                "time": 1.4333,
+                "name": "b_eyelid"
+              },
+              {
+                "time": 2.5667,
+                "name": "b_eyelid copy"
+              }
+            ]
+          },
+          "mouth": {
+            "attachment": [
+              {
+                "name": "mouth01"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone2": {
+            "translate": [
+              {
+                "x": -15.98,
+                "y": 1.45
+              },
+              {
+                "time": 0.6333,
+                "x": -17.43,
+                "y": -17.43
+              },
+              {
+                "time": 1.2667,
+                "x": -15.98,
+                "y": 1.45
+              },
+              {
+                "time": 1.9333,
+                "x": -17.43,
+                "y": -17.43
+              },
+              {
+                "time": 2.5667,
+                "x": -15.98,
+                "y": 1.45
+              }
+            ]
+          },
+          "bone3": {
+            "translate": [
+              {
+                "x": -15.98,
+                "y": 1.45
+              },
+              {
+                "time": 0.6333,
+                "x": -17.43,
+                "y": -17.43
+              },
+              {
+                "time": 1.2667,
+                "x": -15.98,
+                "y": 1.45
+              },
+              {
+                "time": 1.9333,
+                "x": -17.43,
+                "y": -17.43
+              },
+              {
+                "time": 2.5667,
+                "x": -15.98,
+                "y": 1.45
+              }
+            ]
+          },
+          "bone5": {
+            "rotate": [
+              {
+                "angle": -10.8
+              }
+            ],
+            "translate": [
+              {
+                "x": 5.73,
+                "y": -9
+              }
+            ]
+          },
+          "bone6": {
+            "rotate": [
+              {
+                "angle": 2.4
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nMakeup_Girl.png\nsize: 1024, 512\nformat: RGBA8888\nfilter: Linear, Linear\nrepeat: none\nb_eye_brown\n  rotate: false\n  xy: 525, 298\n  size: 41, 11\n  orig: 41, 11\n  offset: 0, 0\n  index: -1\nb_eyelid\n  rotate: false\n  xy: 579, 338\n  size: 50, 25\n  orig: 50, 25\n  offset: 0, 0\n  index: -1\nb_eyelid copy\n  rotate: false\n  xy: 713, 454\n  size: 51, 47\n  orig: 51, 47\n  offset: 0, 0\n  index: -1\nb_eyelid copy 2\n  rotate: false\n  xy: 60, 34\n  size: 47, 47\n  orig: 47, 47\n  offset: 0, 0\n  index: -1\nb_pup\n  rotate: false\n  xy: 766, 478\n  size: 23, 23\n  orig: 23, 23\n  offset: 0, 0\n  index: -1\nbody\n  rotate: false\n  xy: 313, 291\n  size: 210, 210\n  orig: 210, 210\n  offset: 0, 0\n  index: -1\nf_eye\n  rotate: false\n  xy: 525, 311\n  size: 52, 52\n  orig: 52, 52\n  offset: 0, 0\n  index: -1\nf_eye_brown\n  rotate: true\n  xy: 713, 398\n  size: 54, 11\n  orig: 54, 11\n  offset: 0, 0\n  index: -1\nf_eyelid\n  rotate: true\n  xy: 482, 233\n  size: 56, 26\n  orig: 56, 26\n  offset: 0, 0\n  index: -1\nf_eyelid copy\n  rotate: false\n  xy: 2, 29\n  size: 56, 52\n  orig: 56, 52\n  offset: 0, 0\n  index: -1\nf_hair\n  rotate: false\n  xy: 525, 365\n  size: 186, 136\n  orig: 186, 136\n  offset: 0, 0\n  index: -1\nf_pup\n  rotate: false\n  xy: 109, 58\n  size: 23, 23\n  orig: 23, 23\n  offset: 0, 0\n  index: -1\nface\n  rotate: false\n  xy: 313, 95\n  size: 167, 194\n  orig: 167, 194\n  offset: 0, 0\n  index: -1\nhair\n  rotate: false\n  xy: 2, 83\n  size: 309, 418\n  orig: 309, 418\n  offset: 0, 0\n  index: -1\nlip\n  rotate: true\n  xy: 482, 200\n  size: 31, 15\n  orig: 31, 15\n  offset: 0, 0\n  index: -1\nmouth01\n  rotate: false\n  xy: 2, 2\n  size: 51, 25\n  orig: 51, 25\n  offset: 0, 0\n  index: -1\nmouth_21\n  rotate: true\n  xy: 510, 263\n  size: 26, 13\n  orig: 26, 13\n  offset: 0, 0\n  index: -1\nnose\n  rotate: false\n  xy: 579, 324\n  size: 11, 12\n  orig: 11, 12\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "e2188e70-58c0-43a2-a30a-82060857b300"
+    }
+  ],
+  "textureNames": [
+    "Makeup_Girl.png"
+  ],
+  "scale": 1
+}

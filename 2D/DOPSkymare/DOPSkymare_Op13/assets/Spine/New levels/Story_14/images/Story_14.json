@@ -1,0 +1,92 @@
+{ "skeleton": { "images": "C:/Users/Mr Sky/Desktop/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "draw", "bone": "root", "attachment": "draw" },
+	{ "name": "BG", "bone": "root", "attachment": "BG" },
+	{ "name": "window", "bone": "root", "attachment": "window" },
+	{ "name": "sun", "bone": "root", "attachment": "sun" },
+	{ "name": "dust", "bone": "root", "attachment": "dust" },
+	{ "name": "Hair", "bone": "root", "attachment": "Hair" },
+	{ "name": "Head_girl", "bone": "root", "attachment": "Head_girl" },
+	{ "name": "Arm_R", "bone": "root", "attachment": "Arm_R" },
+	{ "name": "body", "bone": "root", "attachment": "body" },
+	{ "name": "Mouth_girl", "bone": "root", "attachment": "Mouth_girl" },
+	{ "name": "eye_2", "bone": "root", "attachment": "eye_2" },
+	{ "name": "eye_1", "bone": "root", "attachment": "eye_1" },
+	{ "name": "Arm_L", "bone": "root", "attachment": "Arm_L" },
+	{ "name": "lap_2", "bone": "root", "attachment": "lap_2" },
+	{ "name": "Hand", "bone": "root", "attachment": "Hand" },
+	{ "name": "collar_2", "bone": "root", "attachment": "collar_2" },
+	{ "name": "head", "bone": "root", "attachment": "head" },
+	{ "name": "collar_1", "bone": "root", "attachment": "collar_1" },
+	{ "name": "Mouth_vampire", "bone": "root", "attachment": "Mouth_vampire" },
+	{ "name": "Eyes", "bone": "root", "attachment": "Eyes" }
+],
+"skins": {
+	"default": {
+		"draw": {
+			"draw": { "x": 17, "y": 679.5, "width": 1050, "height": 1383 }
+		},
+		"BG": {
+			"BG": { "x": 17, "y": 716.5, "width": 1050, "height": 1309 }
+		},
+		"window": {
+			"window": { "x": 144.5, "y": 869.5, "width": 637, "height": 699 }
+		},
+		"sun": {
+			"sun": { "x": 247.5, "y": 961, "width": 301, "height": 312 }
+		},
+		"dust": {
+			"dust": { "x": -233, "y": 603, "width": 486, "height": 824 }
+		},
+		"Hair": {
+			"Hair": { "x": 231, "y": 364, "width": 376, "height": 404 }
+		},
+		"Head_girl": {
+			"Head_girl": { "x": 195.5, "y": 569, "width": 349, "height": 342 }
+		},
+		"Arm_R": {
+			"Arm_R": { "x": 71.5, "y": 380.5, "width": 173, "height": 277 }
+		},
+		"body": {
+			"body": { "x": 161, "y": 229.5, "width": 326, "height": 467 }
+		},
+		"Mouth_girl": {
+			"Mouth_girl": { "x": 119, "y": 521.5, "width": 74, "height": 39 }
+		},
+		"eye_2": {
+			"eye_2": { "x": 137, "y": 582, "width": 170, "height": 98 }
+		},
+		"eye_1": {
+			"eye_1": { "x": 139, "y": 577.5, "width": 156, "height": 67 }
+		},
+		"Arm_L": {
+			"Arm_L": { "x": 124, "y": 381, "width": 250, "height": 294 }
+		},
+		"lap_2": {
+			"lap_2": { "x": -132, "y": 383, "width": 320, "height": 778 }
+		},
+		"Hand": {
+			"Hand": { "x": -174.5, "y": 497, "width": 277, "height": 160 }
+		},
+		"collar_2": {
+			"collar_2": { "x": -241, "y": 443, "width": 480, "height": 910 }
+		},
+		"head": {
+			"head": { "x": -163, "y": 909.5, "width": 298, "height": 341 }
+		},
+		"collar_1": {
+			"collar_1": { "x": -255, "y": 734, "width": 288, "height": 326 }
+		},
+		"Mouth_vampire": {
+			"Mouth_vampire": { "x": -139.5, "y": 844, "width": 115, "height": 110 }
+		},
+		"Eyes": {
+			"Eyes": { "x": -116.5, "y": 926, "width": 169, "height": 146 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

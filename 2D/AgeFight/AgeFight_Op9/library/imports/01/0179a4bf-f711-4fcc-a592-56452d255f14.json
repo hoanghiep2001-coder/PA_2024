@@ -1,0 +1,217 @@
+{
+  "__type__": "cc.Model",
+  "_name": "Map3",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "Map3",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        8
+      ],
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "Map3"
+    },
+    {
+      "name": "Map1",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "parent": null,
+      "position": [
+        0,
+        0,
+        -0.0999999940395355
+      ],
+      "quat": [
+        6.12323426292584e-17,
+        1,
+        6.12323426292584e-17,
+        -6.12323426292584e-17
+      ],
+      "path": "Map3/Map1"
+    },
+    {
+      "name": "building_bg_01_bot",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        1.70999991893768,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "Map3/Map1/building_bg_01_bot"
+    },
+    {
+      "name": "building_bg_01_mid",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0,
+        1.33999991416931,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "Map3/Map1/building_bg_01_mid"
+    },
+    {
+      "name": "building_bg_01_top",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        0,
+        0.75,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "Map3/Map1/building_bg_01_top"
+    },
+    {
+      "name": "platform_01",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 3,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "Map3/Map1/platform_01"
+    },
+    {
+      "name": "platform_floor_01",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 4,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "Map3/Map1/platform_floor_01"
+    },
+    {
+      "name": "Fog",
+      "scale": [
+        100,
+        100,
+        100
+      ],
+      "mesh": 5,
+      "parent": null,
+      "position": [
+        0,
+        0.419999986886978,
+        -0.0399999991059303
+      ],
+      "quat": [
+        0.0378645621240139,
+        0,
+        0,
+        0.999282896518707
+      ],
+      "path": "Map3/Fog"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

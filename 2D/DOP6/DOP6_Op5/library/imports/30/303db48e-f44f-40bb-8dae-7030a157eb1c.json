@@ -1,0 +1,313 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Hall_Door",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "6ghcf+3e05o",
+      "spine": "3.8-from-4.0-from-4.1-from-4.2.29",
+      "x": -155.42,
+      "y": -132.57,
+      "width": 406,
+      "height": 1181,
+      "images": "./images/",
+      "audio": "./audio"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root"
+      },
+      {
+        "name": "bucket",
+        "parent": "root",
+        "x": 45.57,
+        "y": 1064.28
+      }
+    ],
+    "slots": [
+      {
+        "name": "down",
+        "bone": "bone",
+        "attachment": "down"
+      },
+      {
+        "name": "up",
+        "bone": "bone",
+        "attachment": "up"
+      },
+      {
+        "name": "1",
+        "bone": "bone",
+        "attachment": "1"
+      },
+      {
+        "name": "lvl41_up_layer",
+        "bone": "bone",
+        "attachment": "lvl41_up_layer"
+      },
+      {
+        "name": "bucket",
+        "bone": "bucket"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "1": {
+            "1": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                -133.12,
+                239.94,
+                168.75,
+                -90.44,
+                167.56,
+                955.95,
+                -132.26,
+                1015.77
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 386,
+              "height": 784
+            }
+          },
+          "bucket": {
+            "bucket": {
+              "width": 111,
+              "height": 114
+            }
+          },
+          "down": {
+            "down": {
+              "x": -114.42,
+              "y": 638.93,
+              "width": 82,
+              "height": 819
+            }
+          },
+          "lvl41_up_layer": {
+            "lvl41_up_layer": {
+              "x": 207.08,
+              "y": 435.43,
+              "width": 87,
+              "height": 1136
+            }
+          },
+          "up": {
+            "up": {
+              "x": 47.58,
+              "y": 987.43,
+              "width": 406,
+              "height": 122
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "Level01_A": {
+        "bones": {
+          "bucket": {
+            "translate": [
+              {
+                "x": -41.7,
+                "y": -46.46
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "1": {
+              "1": [
+                {
+                  "offset": 2,
+                  "vertices": [
+                    -81.05473,
+                    0,
+                    -81.05473
+                  ],
+                  "curve": "stepped"
+                },
+                {
+                  "time": 2,
+                  "offset": 2,
+                  "vertices": [
+                    -81.05473,
+                    0,
+                    -81.05473
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Level01_B": {
+        "slots": {
+          "bucket": {
+            "attachment": [
+              {
+                "name": "bucket"
+              },
+              {
+                "time": 0.3333,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bucket": {
+            "rotate": [
+              {
+                "time": 0.0667
+              },
+              {
+                "time": 0.3333,
+                "angle": 187.57
+              }
+            ],
+            "translate": [
+              {
+                "x": -41.7,
+                "y": -46.46,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "x": -41.7,
+                "y": -46.46
+              },
+              {
+                "time": 0.3333,
+                "x": -41.7,
+                "y": -375.67
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "1": {
+              "1": [
+                {
+                  "offset": 2,
+                  "vertices": [
+                    -81.05473,
+                    0,
+                    -81.05473
+                  ]
+                },
+                {
+                  "time": 0.3333,
+                  "vertices": [
+                    28.37048,
+                    -5.3194,
+                    -742.4324,
+                    328.03397,
+                    -742.4324,
+                    62.06042,
+                    28.37048,
+                    -5.3194
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Level01_C": {
+        "slots": {
+          "bucket": {
+            "attachment": [
+              {
+                "time": 1,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bucket": {
+            "rotate": [
+              {
+                "angle": 187.57
+              }
+            ],
+            "translate": [
+              {
+                "x": -41.7,
+                "y": -375.67
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "1": {
+              "1": [
+                {
+                  "vertices": [
+                    28.37048,
+                    -5.3194,
+                    -742.4324,
+                    328.03397,
+                    -742.4324,
+                    62.06042,
+                    28.37048,
+                    -5.3194
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nHall_Door.png\nsize: 1024, 128\nformat: RGBA8888\nfilter: Linear, Linear\nrepeat: none\n1\n  rotate: true\n  xy: 345, 2\n  size: 116, 235\n  orig: 116, 235\n  offset: 0, 0\n  index: -1\nbucket\n  rotate: false\n  xy: 2, 29\n  size: 33, 34\n  orig: 33, 34\n  offset: 0, 0\n  index: -1\ndown\n  rotate: true\n  xy: 2, 65\n  size: 25, 246\n  orig: 25, 246\n  offset: 0, 0\n  index: -1\nlvl41_up_layer\n  rotate: true\n  xy: 2, 92\n  size: 26, 341\n  orig: 26, 341\n  offset: 0, 0\n  index: -1\nup\n  rotate: false\n  xy: 582, 81\n  size: 122, 37\n  orig: 122, 37\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "64c2d9a3-f1c0-42db-a67c-ce8a0876f393"
+    }
+  ],
+  "textureNames": [
+    "Hall_Door.png"
+  ],
+  "scale": 1
+}

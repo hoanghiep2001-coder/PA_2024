@@ -1,0 +1,55 @@
+
+Phone_screen.png
+size: 1024, 256
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+bg
+  rotate: false
+  xy: 557, 189
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+delete_lvl33_number
+  rotate: false
+  xy: 412, 61
+  size: 143, 188
+  orig: 143, 188
+  offset: 0, 0
+  index: -1
+delete_lvl33_pass
+  rotate: false
+  xy: 557, 210
+  size: 170, 39
+  orig: 170, 39
+  offset: 0, 0
+  index: -1
+delete_lvl33_txt
+  rotate: false
+  xy: 2, 2
+  size: 107, 17
+  orig: 107, 17
+  offset: 0, 0
+  index: -1
+edge
+  rotate: true
+  xy: 260, 31
+  size: 20, 58
+  orig: 20, 58
+  offset: 0, 0
+  index: -1
+screen
+  rotate: true
+  xy: 2, 53
+  size: 196, 408
+  orig: 196, 408
+  offset: 0, 0
+  index: -1
+top_z1
+  rotate: false
+  xy: 2, 21
+  size: 256, 30
+  orig: 256, 30
+  offset: 0, 0
+  index: -1

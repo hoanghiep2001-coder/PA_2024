@@ -1,0 +1,96 @@
+{ "skeleton": { "images": "D:/Office/KT32 draw one path/New/Animation_2/story6/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "back copy", "bone": "root", "attachment": "back copy" },
+	{ "name": "rope", "bone": "root", "attachment": "rope" },
+	{ "name": "rock_1", "bone": "root", "attachment": "rock_1" },
+	{ "name": "Layer 3", "bone": "root", "attachment": "Layer 3" },
+	{ "name": "jerry", "bone": "root", "attachment": "jerry" },
+	{ "name": "Layer 24", "bone": "root", "attachment": "Layer 24" },
+	{ "name": "Layer 23", "bone": "root", "attachment": "Layer 23" },
+	{ "name": "star_1", "bone": "root", "attachment": "star_1" },
+	{ "name": "star_1 copy", "bone": "root", "attachment": "star_1 copy" },
+	{ "name": "star_2", "bone": "root", "attachment": "star_2" },
+	{ "name": "star_2 copy", "bone": "root", "attachment": "star_2 copy" },
+	{ "name": "4", "bone": "root", "attachment": "4" },
+	{ "name": "4 copy", "bone": "root", "attachment": "4 copy" },
+	{ "name": "Layer 4", "bone": "root", "attachment": "Layer 4" },
+	{ "name": "Layer 5", "bone": "root", "attachment": "Layer 5" },
+	{ "name": "rope copy 2", "bone": "root", "attachment": "rope copy 2" },
+	{ "name": "Rock_2 copy", "bone": "root", "attachment": "Rock_2 copy" },
+	{ "name": "rock_1 copy", "bone": "root", "attachment": "rock_1 copy" },
+	{ "name": "Jerry_body", "bone": "root", "attachment": "Jerry_body" },
+	{ "name": "Layer 13", "bone": "root", "attachment": "Layer 13" },
+	{ "name": "jerry_head", "bone": "root", "attachment": "jerry_head" }
+],
+"skins": {
+	"default": {
+		"back copy": {
+			"back copy": { "x": 539.5, "y": -1443, "width": 1065, "height": 236 }
+		},
+		"rope": {
+			"rope": { "x": 292, "y": -925, "width": 52, "height": 328 }
+		},
+		"rock_1": {
+			"rock_1": { "x": 305, "y": -1212, "width": 478, "height": 434 }
+		},
+		"Layer 3": {
+			"Layer 3": { "x": 301.5, "y": -1436, "width": 389, "height": 104 }
+		},
+		"jerry": {
+			"jerry": { "x": 308.5, "y": -1335, "width": 483, "height": 356 }
+		},
+		"Layer 24": {
+			"Layer 24": { "x": 300.5, "y": -1190, "width": 295, "height": 144 }
+		},
+		"Layer 23": {
+			"Layer 23": { "x": 297.5, "y": -1187.5, "width": 239, "height": 135 }
+		},
+		"star_1": {
+			"star_1": { "x": 418.5, "y": -1219.5, "width": 99, "height": 79 }
+		},
+		"star_1 copy": {
+			"star_1 copy": { "x": 239.5, "y": -1133, "width": 73, "height": 60 }
+		},
+		"star_2": {
+			"star_2": { "x": 180.5, "y": -1176, "width": 127, "height": 132 }
+		},
+		"star_2 copy": {
+			"star_2 copy": { "x": 326.5, "y": -1213, "width": 127, "height": 132 }
+		},
+		"4": {
+			"4": { "x": 407, "y": -1153, "width": 68, "height": 66 }
+		},
+		"4 copy": {
+			"4 copy": { "x": 137, "y": -1255, "width": 68, "height": 66 }
+		},
+		"Layer 4": {
+			"Layer 4": { "x": 518, "y": -604.5, "width": 604, "height": 419 }
+		},
+		"Layer 5": {
+			"Layer 5": { "x": 550.5, "y": -486, "width": 115, "height": 382 }
+		},
+		"rope copy 2": {
+			"rope copy 2": { "x": 774, "y": -685, "width": 52, "height": 408 }
+		},
+		"Rock_2 copy": {
+			"Rock_2 copy": { "x": 789.5, "y": -1023, "width": 447, "height": 414 }
+		},
+		"rock_1 copy": {
+			"rock_1 copy": { "x": 273, "y": -486, "width": 478, "height": 434 }
+		},
+		"Jerry_body": {
+			"Jerry_body": { "x": 332.5, "y": -1279.5, "width": 133, "height": 219 }
+		},
+		"Layer 13": {
+			"Layer 13": { "x": 380, "y": -1323.5, "width": 348, "height": 227 }
+		},
+		"jerry_head": {
+			"jerry_head": { "x": 308.5, "y": -1105, "width": 477, "height": 348 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

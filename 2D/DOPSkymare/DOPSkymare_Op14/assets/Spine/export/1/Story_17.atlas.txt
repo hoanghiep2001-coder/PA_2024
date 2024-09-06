@@ -1,0 +1,118 @@
+
+Story_17.png
+size: 1301, 1301
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+L_arm
+  rotate: true
+  xy: 995, 28
+  size: 409, 201
+  orig: 410, 210
+  offset: 1, 4
+  index: -1
+L_leg
+  rotate: false
+  xy: 782, 1006
+  size: 264, 293
+  orig: 269, 308
+  offset: 5, 6
+  index: -1
+R_arm
+  rotate: true
+  xy: 945, 439
+  size: 134, 135
+  orig: 154, 155
+  offset: 10, 10
+  index: -1
+R_leg
+  rotate: false
+  xy: 1048, 1060
+  size: 210, 239
+  orig: 224, 253
+  offset: 9, 5
+  index: -1
+body
+  rotate: true
+  xy: 671, 87
+  size: 265, 322
+  orig: 265, 322
+  offset: 0, 0
+  index: -1
+car
+  rotate: false
+  xy: 2, 61
+  size: 334, 291
+  orig: 334, 291
+  offset: 0, 0
+  index: -1
+car_shadow
+  rotate: false
+  xy: 945, 575
+  size: 348, 121
+  orig: 368, 141
+  offset: 10, 10
+  index: -1
+cat_shadow
+  rotate: true
+  xy: 782, 464
+  size: 540, 161
+  orig: 560, 181
+  offset: 10, 10
+  index: -1
+draw
+  rotate: false
+  xy: 2, 354
+  size: 778, 945
+  orig: 798, 965
+  offset: 10, 10
+  index: -1
+eyebrowns
+  rotate: false
+  xy: 527, 54
+  size: 123, 30
+  orig: 143, 50
+  offset: 10, 10
+  index: -1
+eyes
+  rotate: false
+  xy: 945, 698
+  size: 263, 306
+  orig: 283, 326
+  offset: 10, 10
+  index: -1
+mouth
+  rotate: false
+  xy: 671, 2
+  size: 122, 83
+  orig: 142, 103
+  offset: 10, 10
+  index: -1
+pupil
+  rotate: false
+  xy: 338, 36
+  size: 84, 48
+  orig: 104, 68
+  offset: 10, 10
+  index: -1
+tail
+  rotate: false
+  xy: 338, 86
+  size: 331, 266
+  orig: 338, 275
+  offset: 0, 9
+  index: -1
+wave_1
+  rotate: false
+  xy: 473, 51
+  size: 52, 33
+  orig: 72, 53
+  offset: 10, 10
+  index: -1
+wave_2
+  rotate: true
+  xy: 424, 48
+  size: 36, 47
+  orig: 56, 67
+  offset: 10, 10
+  index: -1

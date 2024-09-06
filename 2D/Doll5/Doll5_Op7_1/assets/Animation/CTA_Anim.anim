@@ -1,0 +1,177 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "CTA_Anim",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.6666666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "Dolls": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                0,
+                -130,
+                0
+              ]
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec3",
+                "x": 0.25,
+                "y": 0.25,
+                "z": 1
+              }
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec3",
+                "x": 0.32,
+                "y": 0.32,
+                "z": 1
+              }
+            }
+          ]
+        }
+      },
+      "Logo": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "Download/btnDownload": {
+        "props": {
+          "scale": [
+            {
+              "frame": 1,
+              "value": {
+                "__type__": "cc.Vec3",
+                "x": 0.2,
+                "y": 0.2,
+                "z": 1
+              }
+            },
+            {
+              "frame": 1.25,
+              "value": {
+                "__type__": "cc.Vec3",
+                "x": 0.21,
+                "y": 0.21,
+                "z": 1
+              }
+            },
+            {
+              "frame": 1.5,
+              "value": {
+                "__type__": "cc.Vec3",
+                "x": 0.2,
+                "y": 0.2,
+                "z": 1
+              }
+            }
+          ],
+          "angle": [
+            {
+              "frame": 1,
+              "value": 0
+            },
+            {
+              "frame": 1.0833333333333333,
+              "value": -2
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 2
+            },
+            {
+              "frame": 1.25,
+              "value": -2
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 2
+            },
+            {
+              "frame": 1.4166666666666667,
+              "value": -2
+            },
+            {
+              "frame": 1.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "Download/hand": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1,
+              "value": 0
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 255
+            }
+          ],
+          "scale": [
+            {
+              "frame": 1,
+              "value": {
+                "__type__": "cc.Vec3",
+                "x": 0.4,
+                "y": 0.4,
+                "z": 1
+              }
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec3",
+                "x": 0.45,
+                "y": 0.45,
+                "z": 1
+              }
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": {
+                "__type__": "cc.Vec3",
+                "x": 0.4,
+                "y": 0.4,
+                "z": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

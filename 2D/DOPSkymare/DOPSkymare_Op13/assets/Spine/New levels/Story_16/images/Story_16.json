@@ -1,0 +1,80 @@
+{ "skeleton": { "images": "C:/Users/Mr Sky/Desktop/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "BG", "bone": "root", "attachment": "BG" },
+	{ "name": "draw", "bone": "root", "attachment": "draw" },
+	{ "name": "Car_inside", "bone": "root", "attachment": "Car_inside" },
+	{ "name": "Chair", "bone": "root", "attachment": "Chair" },
+	{ "name": "R_upper_arm", "bone": "root", "attachment": "R_upper_arm" },
+	{ "name": "L_forearm", "bone": "root", "attachment": "L_forearm" },
+	{ "name": "L_hand", "bone": "root", "attachment": "L_hand" },
+	{ "name": "R_forearm", "bone": "root", "attachment": "R_forearm" },
+	{ "name": "head", "bone": "root", "attachment": "head" },
+	{ "name": "mouth", "bone": "root", "attachment": "mouth" },
+	{ "name": "eyes", "bone": "root", "attachment": "eyes" },
+	{ "name": "eyebrowns", "bone": "root", "attachment": "eyebrowns" },
+	{ "name": "car", "bone": "root", "attachment": "car" },
+	{ "name": "Layer 18", "bone": "root", "attachment": "Layer 18" },
+	{ "name": "Layer 59 copy 2", "bone": "root", "attachment": "Layer 59 copy 2" },
+	{ "name": "drop_2", "bone": "root", "attachment": "drop_2" },
+	{ "name": "drop_1", "bone": "root", "attachment": "drop_1" }
+],
+"skins": {
+	"default": {
+		"BG": {
+			"BG": { "x": -9, "y": 611.5, "width": 1064, "height": 1107 }
+		},
+		"draw": {
+			"draw": { "x": -13.5, "y": 466, "width": 1073, "height": 984 }
+		},
+		"Car_inside": {
+			"Car_inside": { "x": -29, "y": 423.5, "width": 900, "height": 591 }
+		},
+		"Chair": {
+			"Chair": { "x": 179, "y": 506.5, "width": 372, "height": 211 }
+		},
+		"R_upper_arm": {
+			"R_upper_arm": { "x": 120.5, "y": 337, "width": 505, "height": 316 }
+		},
+		"L_forearm": {
+			"L_forearm": { "x": -210.5, "y": 269.5, "width": 201, "height": 167 }
+		},
+		"L_hand": {
+			"L_hand": { "x": -328.5, "y": 280.5, "width": 193, "height": 165 }
+		},
+		"R_forearm": {
+			"R_forearm": { "x": 175.5, "y": 286, "width": 387, "height": 276 }
+		},
+		"head": {
+			"head": { "x": 134, "y": 591, "width": 314, "height": 272 }
+		},
+		"mouth": {
+			"mouth": { "x": 123.5, "y": 528, "width": 219, "height": 68 }
+		},
+		"eyes": {
+			"eyes": { "x": 113.5, "y": 585.5, "width": 173, "height": 79 }
+		},
+		"eyebrowns": {
+			"eyebrowns": { "x": 109, "y": 648.5, "width": 96, "height": 39 }
+		},
+		"car": {
+			"car": { "x": -13.5, "y": 365, "width": 1073, "height": 782 }
+		},
+		"Layer 18": {
+			"Layer 18": { "x": -331, "y": 458, "width": 296, "height": 190 }
+		},
+		"Layer 59 copy 2": {
+			"Layer 59 copy 2": { "x": 8, "y": 825.5, "width": 888, "height": 265 }
+		},
+		"drop_2": {
+			"drop_2": { "x": -11, "y": 758.5, "width": 46, "height": 45 }
+		},
+		"drop_1": {
+			"drop_1": { "x": -210, "y": 857, "width": 36, "height": 84 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

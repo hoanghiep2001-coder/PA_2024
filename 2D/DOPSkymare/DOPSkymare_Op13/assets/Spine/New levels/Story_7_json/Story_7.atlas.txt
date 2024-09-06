@@ -1,0 +1,41 @@
+Story_7.png
+	size: 2003, 1092
+	filter: Linear, Linear
+	pma: true
+images/Floor
+	bounds: 932, 807, 1046, 283
+	offsets: 1, 1, 1048, 286
+images/Jerry_body
+	bounds: 2, 101, 601, 323
+	offsets: 0, 42, 601, 388
+images/Jerry_final
+	bounds: 605, 53, 315, 371
+images/Jerry_leg
+	bounds: 1861, 278, 90, 54
+	offsets: 1, 1, 92, 56
+images/Tom_1
+	bounds: 932, 253, 552, 927
+	rotate: 90
+images/Tom_body_final
+	bounds: 2, 426, 664, 928
+	rotate: 90
+images/hurt
+	bounds: 1861, 659, 146, 115
+	offsets: 2, 1, 149, 117
+	rotate: 90
+images/impact_1
+	bounds: 1815, 63, 186, 188
+	offsets: 2, 1, 189, 190
+images/impact_2
+	bounds: 1861, 334, 323, 95
+	offsets: 1, 1, 325, 98
+	rotate: 90
+images/impact_3
+	bounds: 1290, 8, 269, 243
+	offsets: 1, 2, 271, 246
+images/jerry_1
+	bounds: 922, 2, 249, 366
+	rotate: 90
+images/jerry_head
+	bounds: 1561, 37, 252, 214
+	offsets: 1, 1, 254, 216

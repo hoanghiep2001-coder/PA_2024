@@ -1,0 +1,80 @@
+{ "skeleton": { "images": "C:/Users/Mr Sky/Desktop/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "BG", "bone": "root", "attachment": "BG" },
+	{ "name": "Floor", "bone": "root", "attachment": "Floor" },
+	{ "name": "plant", "bone": "root", "attachment": "plant" },
+	{ "name": "flower", "bone": "root", "attachment": "flower" },
+	{ "name": "Wire", "bone": "root", "attachment": "Wire" },
+	{ "name": "water tap", "bone": "root", "attachment": "water tap" },
+	{ "name": "Arm_R", "bone": "root", "attachment": "Arm_R" },
+	{ "name": "foot_L", "bone": "root", "attachment": "foot_L" },
+	{ "name": "foot_R", "bone": "root", "attachment": "foot_R" },
+	{ "name": "Body", "bone": "root", "attachment": "Body" },
+	{ "name": "face", "bone": "root", "attachment": "face" },
+	{ "name": "eyebrown", "bone": "root", "attachment": "eyebrown" },
+	{ "name": "mouth", "bone": "root", "attachment": "mouth" },
+	{ "name": "eye", "bone": "root", "attachment": "eye" },
+	{ "name": "Arm_L", "bone": "root", "attachment": "Arm_L" },
+	{ "name": "water", "bone": "root", "attachment": "water" },
+	{ "name": "Group 11", "bone": "root" }
+],
+"skins": {
+	"default": {
+		"BG": {
+			"BG": { "x": -28.5, "y": 656.5, "width": 1023, "height": 1087 }
+		},
+		"Floor": {
+			"Floor": { "x": -36, "y": 202, "width": 1036, "height": 424 }
+		},
+		"plant": {
+			"plant": { "x": -358, "y": 255, "width": 366, "height": 366 }
+		},
+		"flower": {
+			"flower": { "x": -398.5, "y": 363.5, "width": 275, "height": 259 }
+		},
+		"Wire": {
+			"Wire": { "x": 105.5, "y": 523.5, "width": 593, "height": 361 }
+		},
+		"water tap": {
+			"water tap": { "x": 369.5, "y": 595.5, "width": 209, "height": 175 }
+		},
+		"Arm_R": {
+			"Arm_R": { "x": -200.5, "y": 835.5, "width": 441, "height": 543 }
+		},
+		"foot_L": {
+			"foot_L": { "x": 252.5, "y": 497, "width": 307, "height": 486 }
+		},
+		"foot_R": {
+			"foot_R": { "x": 69.5, "y": 492.5, "width": 199, "height": 473 }
+		},
+		"Body": {
+			"Body": { "x": 124, "y": 932, "width": 468, "height": 568 }
+		},
+		"face": {
+			"face": { "x": 92.5, "y": 1246.5, "width": 315, "height": 287 }
+		},
+		"eyebrown": {
+			"eyebrown": { "x": 67, "y": 1321, "width": 104, "height": 44 }
+		},
+		"mouth": {
+			"mouth": { "x": 86, "y": 1175.5, "width": 222, "height": 131 }
+		},
+		"eye": {
+			"eye": { "x": 68.5, "y": 1256, "width": 185, "height": 100 }
+		},
+		"Arm_L": {
+			"Arm_L": { "x": 323.5, "y": 1229, "width": 247, "height": 490 }
+		},
+		"water": {
+			"water": { "x": -394.5, "y": 525, "width": 241, "height": 280 }
+		},
+		"Group 11": {
+			"Group 11": { "x": -16.5, "y": 739.5, "width": 981, "height": 1281 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

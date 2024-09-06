@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "dce86915-7058-4854-b8bf-09491c4ab65b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 170,
+  "height": 504,
+  "platformSettings": {},
+  "subMetas": {
+    "Enemy house": {
+      "ver": "1.0.6",
+      "uuid": "e05aa3ae-be93-44a4-8040-5dd34cafc6aa",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "dce86915-7058-4854-b8bf-09491c4ab65b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 170,
+      "height": 504,
+      "rawWidth": 170,
+      "rawHeight": 504,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Eraser_HintAnim",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {},
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            71,
+            134,
+            0
+          ]
+        },
+        {
+          "frame": 1,
+          "value": [
+            71,
+            100,
+            0
+          ]
+        },
+        {
+          "frame": 1.5,
+          "value": [
+            71,
+            100,
+            0
+          ]
+        }
+      ],
+      "opacity": [],
+      "angle": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.16666666666666666,
+          "value": 4
+        },
+        {
+          "frame": 0.3333333333333333,
+          "value": -2
+        },
+        {
+          "frame": 0.5,
+          "value": 4
+        },
+        {
+          "frame": 0.6666666666666666,
+          "value": -2
+        },
+        {
+          "frame": 0.8333333333333334,
+          "value": 4
+        },
+        {
+          "frame": 1,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

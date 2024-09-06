@@ -1,0 +1,565 @@
+
+fatman.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+b_eye
+  rotate: false
+  xy: 974, 123
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+b_eyebrown
+  rotate: false
+  xy: 440, 22
+  size: 47, 15
+  orig: 47, 15
+  offset: 0, 0
+  index: -1
+b_feet
+  rotate: false
+  xy: 886, 415
+  size: 107, 90
+  orig: 107, 90
+  offset: 0, 0
+  index: -1
+b_hand
+  rotate: false
+  xy: 601, 4
+  size: 58, 106
+  orig: 58, 106
+  offset: 0, 0
+  index: -1
+b_lid
+  rotate: false
+  xy: 974, 81
+  size: 44, 40
+  orig: 44, 40
+  offset: 0, 0
+  index: -1
+b_low_arm
+  rotate: false
+  xy: 686, 468
+  size: 120, 160
+  orig: 120, 160
+  offset: 0, 0
+  index: -1
+b_low_leg
+  rotate: false
+  xy: 608, 437
+  size: 76, 215
+  orig: 76, 215
+  offset: 0, 0
+  index: -1
+b_pup
+  rotate: false
+  xy: 670, 999
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+b_shoe
+  rotate: false
+  xy: 491, 31
+  size: 108, 79
+  orig: 108, 79
+  offset: 0, 0
+  index: -1
+b_undershoe
+  rotate: false
+  xy: 464, 228
+  size: 126, 82
+  orig: 126, 82
+  offset: 0, 0
+  index: -1
+f_undershoe
+  rotate: false
+  xy: 464, 228
+  size: 126, 82
+  orig: 126, 82
+  offset: 0, 0
+  index: -1
+b_up_arm
+  rotate: false
+  xy: 2, 23
+  size: 199, 196
+  orig: 199, 196
+  offset: 0, 0
+  index: -1
+b_up_leg
+  rotate: false
+  xy: 874, 795
+  size: 113, 227
+  orig: 113, 227
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 623
+  size: 334, 399
+  orig: 334, 399
+  offset: 0, 0
+  index: -1
+body02
+  rotate: false
+  xy: 2, 221
+  size: 327, 400
+  orig: 327, 400
+  offset: 0, 0
+  index: -1
+f_eye
+  rotate: false
+  xy: 961, 19
+  size: 52, 53
+  orig: 52, 53
+  offset: 0, 0
+  index: -1
+f_eyebrown
+  rotate: false
+  xy: 592, 292
+  size: 64, 18
+  orig: 64, 18
+  offset: 0, 0
+  index: -1
+f_feet
+  rotate: false
+  xy: 788, 328
+  size: 107, 83
+  orig: 107, 83
+  offset: 0, 0
+  index: -1
+f_hair
+  rotate: false
+  xy: 464, 312
+  size: 153, 115
+  orig: 153, 115
+  offset: 0, 0
+  index: -1
+f_hand
+  rotate: false
+  xy: 857, 169
+  size: 70, 113
+  orig: 70, 113
+  offset: 0, 0
+  index: -1
+f_lid
+  rotate: false
+  xy: 489, 5
+  size: 56, 24
+  orig: 56, 24
+  offset: 0, 0
+  index: -1
+f_lid02
+  rotate: false
+  xy: 266, 5
+  size: 37, 17
+  orig: 37, 17
+  offset: 0, 0
+  index: -1
+f_low_hand
+  rotate: false
+  xy: 900, 621
+  size: 96, 172
+  orig: 96, 172
+  offset: 0, 0
+  index: -1
+f_low_leg
+  rotate: false
+  xy: 808, 413
+  size: 76, 215
+  orig: 76, 215
+  offset: 0, 0
+  index: -1
+f_pup
+  rotate: false
+  xy: 995, 479
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+f_shoe
+  rotate: false
+  xy: 897, 334
+  size: 108, 79
+  orig: 108, 79
+  offset: 0, 0
+  index: -1
+f_up_hand
+  rotate: false
+  xy: 446, 429
+  size: 160, 223
+  orig: 160, 223
+  offset: 0, 0
+  index: -1
+f_up_leg
+  rotate: false
+  xy: 331, 394
+  size: 113, 227
+  orig: 113, 227
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 338, 661
+  size: 187, 232
+  orig: 187, 232
+  offset: 0, 0
+  index: -1
+hand/hand_0
+  rotate: false
+  xy: 661, 12
+  size: 58, 102
+  orig: 58, 102
+  offset: 0, 0
+  index: -1
+hand/hand_1
+  rotate: false
+  xy: 619, 314
+  size: 70, 121
+  orig: 70, 121
+  offset: 0, 0
+  index: -1
+hand/hand_10
+  rotate: false
+  xy: 842, 67
+  size: 67, 100
+  orig: 67, 100
+  offset: 0, 0
+  index: -1
+hand/hand_2
+  rotate: false
+  xy: 721, 20
+  size: 57, 120
+  orig: 57, 120
+  offset: 0, 0
+  index: -1
+hand/hand_3
+  rotate: false
+  xy: 929, 215
+  size: 63, 117
+  orig: 63, 117
+  offset: 0, 0
+  index: -1
+hand/hand_4
+  rotate: false
+  xy: 491, 112
+  size: 98, 114
+  orig: 98, 114
+  offset: 0, 0
+  index: -1
+hand/hand_5
+  rotate: false
+  xy: 591, 112
+  size: 61, 114
+  orig: 61, 114
+  offset: 0, 0
+  index: -1
+hand/hand_6
+  rotate: false
+  xy: 780, 71
+  size: 60, 113
+  orig: 60, 113
+  offset: 0, 0
+  index: -1
+hand/hand_7
+  rotate: false
+  xy: 777, 186
+  size: 78, 96
+  orig: 78, 96
+  offset: 0, 0
+  index: -1
+hand/hand_8
+  rotate: false
+  xy: 654, 116
+  size: 63, 91
+  orig: 63, 91
+  offset: 0, 0
+  index: -1
+hand/hand_9
+  rotate: false
+  xy: 911, 74
+  size: 61, 93
+  orig: 61, 93
+  offset: 0, 0
+  index: -1
+hand/r_hand2
+  rotate: false
+  xy: 682, 209
+  size: 93, 81
+  orig: 93, 81
+  offset: 0, 0
+  index: -1
+hip
+  rotate: false
+  xy: 338, 895
+  size: 330, 127
+  orig: 330, 127
+  offset: 0, 0
+  index: -1
+mouth/mouth_0
+  rotate: false
+  xy: 338, 627
+  size: 64, 32
+  orig: 64, 32
+  offset: 0, 0
+  index: -1
+mouth/mouth_10
+  rotate: false
+  xy: 929, 172
+  size: 61, 41
+  orig: 61, 41
+  offset: 0, 0
+  index: -1
+mouth/mouth_11
+  rotate: false
+  xy: 719, 142
+  size: 54, 65
+  orig: 54, 65
+  offset: 0, 0
+  index: -1
+mouth/mouth_13
+  rotate: false
+  xy: 342, 2
+  size: 96, 35
+  orig: 96, 35
+  offset: 0, 0
+  index: -1
+mouth/mouth_14
+  rotate: false
+  xy: 72, 12
+  size: 38, 9
+  orig: 38, 9
+  offset: 0, 0
+  index: -1
+mouth/mouth_15
+  rotate: false
+  xy: 788, 284
+  size: 99, 42
+  orig: 99, 42
+  offset: 0, 0
+  index: -1
+mouth/mouth_19
+  rotate: false
+  xy: 721, 2
+  size: 47, 16
+  orig: 47, 16
+  offset: 0, 0
+  index: -1
+mouth/mouth_2
+  rotate: false
+  xy: 780, 7
+  size: 60, 22
+  orig: 60, 22
+  offset: 0, 0
+  index: -1
+mouth/mouth_20
+  rotate: false
+  xy: 654, 217
+  size: 25, 9
+  orig: 25, 9
+  offset: 0, 0
+  index: -1
+mouth/mouth_21
+  rotate: false
+  xy: 994, 289
+  size: 28, 14
+  orig: 28, 14
+  offset: 0, 0
+  index: -1
+mouth/mouth_22
+  rotate: false
+  xy: 891, 7
+  size: 68, 58
+  orig: 68, 58
+  offset: 0, 0
+  index: -1
+mouth/mouth_26
+  rotate: false
+  xy: 780, 31
+  size: 60, 38
+  orig: 60, 38
+  offset: 0, 0
+  index: -1
+mouth/mouth_28
+  rotate: false
+  xy: 592, 228
+  size: 88, 62
+  orig: 88, 62
+  offset: 0, 0
+  index: -1
+mouth/mouth_3
+  rotate: false
+  xy: 2, 2
+  size: 68, 19
+  orig: 68, 19
+  offset: 0, 0
+  index: -1
+mouth/mouth_31
+  rotate: false
+  xy: 691, 292
+  size: 95, 59
+  orig: 95, 59
+  offset: 0, 0
+  index: -1
+mouth/mouth_4
+  rotate: false
+  xy: 203, 2
+  size: 61, 20
+  orig: 61, 20
+  offset: 0, 0
+  index: -1
+mouth/mouth_5
+  rotate: false
+  xy: 547, 2
+  size: 20, 27
+  orig: 20, 27
+  offset: 0, 0
+  index: -1
+muscle/l_hand
+  rotate: false
+  xy: 886, 507
+  size: 113, 112
+  orig: 113, 112
+  offset: 0, 0
+  index: -1
+muscle/l_lower_arm
+  rotate: false
+  xy: 203, 24
+  size: 137, 195
+  orig: 142, 195
+  offset: 5, 0
+  index: -1
+muscle/r_hand
+  rotate: false
+  xy: 691, 353
+  size: 95, 113
+  orig: 95, 113
+  offset: 0, 0
+  index: -1
+muscle/r_lower_arm
+  rotate: false
+  xy: 331, 226
+  size: 131, 166
+  orig: 131, 166
+  offset: 0, 0
+  index: -1
+nose
+  rotate: false
+  xy: 989, 987
+  size: 33, 35
+  orig: 33, 35
+  offset: 0, 0
+  index: -1
+pant_b_up_leg
+  rotate: false
+  xy: 527, 654
+  size: 175, 239
+  orig: 175, 239
+  offset: 0, 0
+  index: -1
+pant_f_up_leg
+  rotate: false
+  xy: 704, 786
+  size: 168, 236
+  orig: 168, 236
+  offset: 0, 0
+  index: -1
+tool/1
+  rotate: false
+  xy: 342, 39
+  size: 147, 185
+  orig: 147, 185
+  offset: 0, 0
+  index: -1
+tool/2
+  rotate: false
+  xy: 704, 630
+  size: 194, 154
+  orig: 194, 154
+  offset: 0, 0
+  index: -1
+tool/234
+  rotate: false
+  xy: 994, 305
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+tool/5
+  rotate: false
+  xy: 842, 2
+  size: 47, 63
+  orig: 47, 63
+  offset: 0, 0
+  index: -1
+tool/he
+  rotate: false
+  xy: 446, 399
+  size: 11, 28
+  orig: 11, 28
+  offset: 0, 0
+  index: -1
+tool/z
+  rotate: false
+  xy: 305, 5
+  size: 35, 17
+  orig: 35, 17
+  offset: 0, 0
+  index: -1
+
+fatman_2.png
+size: 256, 256
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+mouth/mouth_25
+  rotate: false
+  xy: 2, 53
+  size: 68, 58
+  orig: 68, 58
+  offset: 0, 0
+  index: -1
+mouth/mouth_27
+  rotate: false
+  xy: 93, 189
+  size: 60, 38
+  orig: 60, 38
+  offset: 0, 0
+  index: -1
+mouth/mouth_29
+  rotate: false
+  xy: 2, 181
+  size: 89, 46
+  orig: 89, 46
+  offset: 0, 0
+  index: -1
+mouth/mouth_6
+  rotate: false
+  xy: 93, 157
+  size: 50, 30
+  orig: 50, 30
+  offset: 0, 0
+  index: -1
+mouth/mouth_8
+  rotate: false
+  xy: 2, 2
+  size: 68, 49
+  orig: 68, 49
+  offset: 0, 0
+  index: -1
+mouth/mouth_9
+  rotate: false
+  xy: 155, 196
+  size: 50, 31
+  orig: 50, 31
+  offset: 0, 0
+  index: -1
+tool/6
+  rotate: false
+  xy: 2, 113
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1

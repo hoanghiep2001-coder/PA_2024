@@ -1,0 +1,120 @@
+{ "skeleton": { "images": "C:/Users/Mr Sky/Desktop/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "BG", "bone": "root", "attachment": "BG" },
+	{ "name": "Shadow", "bone": "root", "attachment": "Shadow" },
+	{ "name": "dog1", "bone": "root", "attachment": "dog1" },
+	{ "name": "Glass cage", "bone": "root", "attachment": "Glass cage" },
+	{ "name": "bee1", "bone": "root", "attachment": "bee1" },
+	{ "name": "bee1 copy", "bone": "root", "attachment": "bee1 copy" },
+	{ "name": "bee1 copy 2", "bone": "root", "attachment": "bee1 copy 2" },
+	{ "name": "dog2_tail", "bone": "root", "attachment": "dog2_tail" },
+	{ "name": "dog2_leg2", "bone": "root", "attachment": "dog2_leg2" },
+	{ "name": "dog2_hand2", "bone": "root", "attachment": "dog2_hand2" },
+	{ "name": "dog2_ear2", "bone": "root", "attachment": "dog2_ear2" },
+	{ "name": "dog2_head", "bone": "root", "attachment": "dog2_head" },
+	{ "name": "dog2_hand1", "bone": "root", "attachment": "dog2_hand1" },
+	{ "name": "dog2_leg1", "bone": "root", "attachment": "dog2_leg1" },
+	{ "name": "dog2_tongue2", "bone": "root", "attachment": "dog2_tongue2" },
+	{ "name": "dog2_tongue1", "bone": "root" },
+	{ "name": "dog2_ear1", "bone": "root", "attachment": "dog2_ear1" },
+	{ "name": "dog2_eye", "bone": "root", "attachment": "dog2_eye" },
+	{ "name": "bee2_wing1", "bone": "root", "attachment": "bee2_wing1" },
+	{ "name": "bee2_wing2", "bone": "root", "attachment": "bee2_wing2" },
+	{ "name": "fly", "bone": "root", "attachment": "fly" },
+	{ "name": "bee2_hand2", "bone": "root", "attachment": "bee2_hand2" },
+	{ "name": "bee2_leg2", "bone": "root", "attachment": "bee2_leg2" },
+	{ "name": "bee2_body", "bone": "root", "attachment": "bee2_body" },
+	{ "name": "bee2_hand1", "bone": "root", "attachment": "bee2_hand1" },
+	{ "name": "bee2_leg1", "bone": "root", "attachment": "bee2_leg1" },
+	{ "name": "bee2_head", "bone": "root", "attachment": "bee2_head" }
+],
+"skins": {
+	"default": {
+		"BG": {
+			"BG": { "x": 6, "y": 173, "width": 1024, "height": 348 }
+		},
+		"Shadow": {
+			"Shadow": { "x": 77, "y": 186, "width": 582, "height": 176 }
+		},
+		"dog1": {
+			"dog1": { "x": 4, "y": 469, "width": 820, "height": 630 }
+		},
+		"Glass cage": {
+			"Glass cage": { "x": -11, "y": 507.5, "width": 912, "height": 963 }
+		},
+		"bee1": {
+			"bee1": { "x": 152, "y": 955, "width": 266, "height": 210 }
+		},
+		"bee1 copy": {
+			"bee1 copy": { "x": 276, "y": 783, "width": 266, "height": 210 }
+		},
+		"bee1 copy 2": {
+			"bee1 copy 2": { "x": 403, "y": 965, "width": 266, "height": 210 }
+		},
+		"dog2_tail": {
+			"dog2_tail": { "x": -62, "y": 318.5, "width": 114, "height": 119 }
+		},
+		"dog2_leg2": {
+			"dog2_leg2": { "x": 137.5, "y": 270, "width": 189, "height": 246 }
+		},
+		"dog2_hand2": {
+			"dog2_hand2": { "x": 71, "y": 460.5, "width": 146, "height": 179 }
+		},
+		"dog2_ear2": {
+			"dog2_ear2": { "x": 85.5, "y": 763, "width": 105, "height": 188 }
+		},
+		"dog2_head": {
+			"dog2_head": { "x": 8.5, "y": 547, "width": 283, "height": 524 }
+		},
+		"dog2_hand1": {
+			"dog2_hand1": { "x": -114.5, "y": 447.5, "width": 183, "height": 207 }
+		},
+		"dog2_leg1": {
+			"dog2_leg1": { "x": -137.5, "y": 263, "width": 227, "height": 270 }
+		},
+		"dog2_tongue2": {
+			"dog2_tongue2": { "x": 111, "y": 550.5, "width": 110, "height": 143 }
+		},
+		"dog2_tongue1": {
+			"dog2_tongue1": { "x": 124, "y": 625, "width": 174, "height": 96 }
+		},
+		"dog2_ear1": {
+			"dog2_ear1": { "x": -147, "y": 725, "width": 194, "height": 172 }
+		},
+		"dog2_eye": {
+			"dog2_eye": { "x": 30.5, "y": 708.5, "width": 203, "height": 137 }
+		},
+		"bee2_wing1": {
+			"bee2_wing1": { "x": 401.5, "y": 897, "width": 137, "height": 76 }
+		},
+		"bee2_wing2": {
+			"bee2_wing2": { "x": 299.5, "y": 909.5, "width": 77, "height": 87 }
+		},
+		"fly": {
+			"fly": { "x": 471, "y": 900.5, "width": 34, "height": 49 }
+		},
+		"bee2_hand2": {
+			"bee2_hand2": { "x": 294.5, "y": 897, "width": 89, "height": 36 }
+		},
+		"bee2_leg2": {
+			"bee2_leg2": { "x": 311.5, "y": 831, "width": 45, "height": 74 }
+		},
+		"bee2_body": {
+			"bee2_body": { "x": 325, "y": 871, "width": 86, "height": 126 }
+		},
+		"bee2_hand1": {
+			"bee2_hand1": { "x": 358.5, "y": 887.5, "width": 55, "height": 61 }
+		},
+		"bee2_leg1": {
+			"bee2_leg1": { "x": 360.5, "y": 830.5, "width": 61, "height": 67 }
+		},
+		"bee2_head": {
+			"bee2_head": { "x": 324, "y": 956.5, "width": 100, "height": 125 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

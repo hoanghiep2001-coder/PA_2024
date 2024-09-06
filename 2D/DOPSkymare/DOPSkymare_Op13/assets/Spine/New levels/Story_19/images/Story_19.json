@@ -1,0 +1,32 @@
+{ "skeleton": { "images": "C:/Users/Mr Sky/Desktop/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "R5", "bone": "root", "attachment": "R5" },
+	{ "name": "R4", "bone": "root", "attachment": "R4" },
+	{ "name": "R3", "bone": "root", "attachment": "R3" },
+	{ "name": "R2", "bone": "root", "attachment": "R2" },
+	{ "name": "R1", "bone": "root", "attachment": "R1" }
+],
+"skins": {
+	"default": {
+		"R5": {
+			"R5": { "x": -300.5, "y": 256.5, "width": 277, "height": 277 }
+		},
+		"R4": {
+			"R4": { "x": 0.5, "y": 256.5, "width": 277, "height": 277 }
+		},
+		"R3": {
+			"R3": { "x": 301.5, "y": 256.5, "width": 277, "height": 277 }
+		},
+		"R2": {
+			"R2": { "x": -150.5, "y": 137.5, "width": 277, "height": 277 }
+		},
+		"R1": {
+			"R1": { "x": 150.5, "y": 135.5, "width": 277, "height": 277 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

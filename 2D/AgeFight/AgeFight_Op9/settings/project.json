@@ -1,0 +1,77 @@
+{
+  "last-module-event-record-time": 1722398933700,
+  "group-list": [
+    "Ally",
+    "Enemy",
+    "Base",
+    "EnemyBase",
+    "Ground"
+  ],
+  "collision-matrix": [
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      null,
+      true
+    ],
+    [
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "excluded-modules": [
+    "ScrollView",
+    "StudioComponent",
+    "Toggle",
+    "VideoPlayer",
+    "3D Primitive",
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin"
+  ],
+  "preview-port": 1234,
+  "design-resolution-width": 320,
+  "design-resolution-height": 480,
+  "fit-width": true,
+  "fit-height": true,
+  "use-project-simulator-setting": false,
+  "simulator-orientation": false,
+  "use-customize-simulator": true,
+  "simulator-resolution": {
+    "width": 960,
+    "height": 640
+  },
+  "clear-simulator-cache": true,
+  "facebook": {
+    "enable": false,
+    "appID": "",
+    "live": {
+      "enable": false
+    },
+    "audience": {
+      "enable": false
+    }
+  },
+  "start-scene": "a45fea2f-f433-41ba-a62b-3b7bb6ff1c18"
+}

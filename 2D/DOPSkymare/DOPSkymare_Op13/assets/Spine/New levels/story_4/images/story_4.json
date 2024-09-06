@@ -1,0 +1,72 @@
+{ "skeleton": { "images": "D:/Office/KT32 draw one path/New/Animation_2/story4/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Ellipse 3", "bone": "root", "attachment": "Ellipse 3" },
+	{ "name": "jerry", "bone": "root", "attachment": "jerry" },
+	{ "name": "shaking", "bone": "root", "attachment": "shaking" },
+	{ "name": "tom", "bone": "root", "attachment": "tom" },
+	{ "name": "rope", "bone": "root", "attachment": "rope" },
+	{ "name": "rocket", "bone": "root", "attachment": "rocket" },
+	{ "name": "tom_hand_L", "bone": "root", "attachment": "tom_hand_L" },
+	{ "name": "tom_hand_R", "bone": "root", "attachment": "tom_hand_R" },
+	{ "name": "tom_body", "bone": "root", "attachment": "tom_body" },
+	{ "name": "tom_head", "bone": "root", "attachment": "tom_head" },
+	{ "name": "fire", "bone": "root", "attachment": "fire" },
+	{ "name": "vi", "bone": "root", "attachment": "vi" },
+	{ "name": "jerry_body", "bone": "root", "attachment": "jerry_body" },
+	{ "name": "jerry_head", "bone": "root", "attachment": "jerry_head" },
+	{ "name": "hand", "bone": "root", "attachment": "hand" }
+],
+"skins": {
+	"default": {
+		"Ellipse 3": {
+			"Ellipse 3": { "x": 524.5, "y": -1557, "width": 937, "height": 244 }
+		},
+		"jerry": {
+			"jerry": { "x": 225, "y": -1403.5, "width": 290, "height": 359 }
+		},
+		"shaking": {
+			"shaking": { "x": 201.5, "y": -1383.5, "width": 267, "height": 261 }
+		},
+		"tom": {
+			"tom": { "x": 709.5, "y": -1087.5, "width": 689, "height": 995 }
+		},
+		"rope": {
+			"rope": { "x": 888, "y": -1461, "width": 86, "height": 124 }
+		},
+		"rocket": {
+			"rocket": { "x": 1569.5, "y": -442, "width": 377, "height": 702 }
+		},
+		"tom_hand_L": {
+			"tom_hand_L": { "x": 1446.5, "y": -1220.5, "width": 163, "height": 287 }
+		},
+		"tom_hand_R": {
+			"tom_hand_R": { "x": 1688, "y": -1102, "width": 214, "height": 166 }
+		},
+		"tom_body": {
+			"tom_body": { "x": 1541.5, "y": -794.5, "width": 355, "height": 335 }
+		},
+		"tom_head": {
+			"tom_head": { "x": 1493.5, "y": -1034.5, "width": 359, "height": 335 }
+		},
+		"fire": {
+			"fire": { "x": 1726.5, "y": -750.5, "width": 177, "height": 271 }
+		},
+		"vi": {
+			"vi": { "x": 1872.5, "y": -1138, "width": 335, "height": 226 }
+		},
+		"jerry_body": {
+			"jerry_body": { "x": 1203.5, "y": -1454, "width": 105, "height": 158 }
+		},
+		"jerry_head": {
+			"jerry_head": { "x": 1254.5, "y": -1341.5, "width": 255, "height": 265 }
+		},
+		"hand": {
+			"hand": { "x": 1180, "y": -1506, "width": 190, "height": 150 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

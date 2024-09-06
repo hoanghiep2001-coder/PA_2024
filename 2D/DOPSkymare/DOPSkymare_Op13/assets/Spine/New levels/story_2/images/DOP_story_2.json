@@ -1,0 +1,104 @@
+{ "skeleton": { "images": "D:/Office/KT32 draw one path/New/Animation_2/story2/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Layer 88", "bone": "root", "attachment": "Layer 88" },
+	{ "name": "Layer 89", "bone": "root", "attachment": "Layer 89" },
+	{ "name": "jerry_phase1", "bone": "root", "attachment": "jerry_phase1" },
+	{ "name": "water_jerry_mouth", "bone": "root", "attachment": "water_jerry_mouth" },
+	{ "name": "jerry_shadow2", "bone": "root", "attachment": "jerry_shadow2" },
+	{ "name": "jerry_tail4", "bone": "root", "attachment": "jerry_tail4" },
+	{ "name": "jerry_arm5", "bone": "root", "attachment": "jerry_arm5" },
+	{ "name": "jerry_body4", "bone": "root", "attachment": "jerry_body4" },
+	{ "name": "jerry_leg3", "bone": "root", "attachment": "jerry_leg3" },
+	{ "name": "jerry_arm1", "bone": "root", "attachment": "jerry_arm1" },
+	{ "name": "jerry_eye", "bone": "root", "attachment": "jerry_eye" },
+	{ "name": "jerry_body", "bone": "root", "attachment": "jerry_body" },
+	{ "name": "jerry_shadow", "bone": "root", "attachment": "jerry_shadow" },
+	{ "name": "jerry_leg2", "bone": "root", "attachment": "jerry_leg2" },
+	{ "name": "jerry_leg1", "bone": "root", "attachment": "jerry_leg1" },
+	{ "name": "jerry_tail", "bone": "root", "attachment": "jerry_tail" },
+	{ "name": "jerry_ear2", "bone": "root", "attachment": "jerry_ear2" },
+	{ "name": "jerry_ear1", "bone": "root", "attachment": "jerry_ear1" },
+	{ "name": "mouth_jerry", "bone": "root", "attachment": "mouth_jerry" },
+	{ "name": "jerry_face", "bone": "root", "attachment": "jerry_face" },
+	{ "name": "eye", "bone": "root", "attachment": "eye" },
+	{ "name": "plate", "bone": "root", "attachment": "plate" },
+	{ "name": "cheese", "bone": "root", "attachment": "cheese" }
+],
+"skins": {
+	"default": {
+		"Layer 88": {
+			"Layer 88": { "x": 541.5, "y": -1134.5, "width": 1105, "height": 629 }
+		},
+		"Layer 89": {
+			"Layer 89": { "x": 488, "y": -931.5, "width": 532, "height": 97 }
+		},
+		"jerry_phase1": {
+			"jerry_phase1": { "x": 180.5, "y": -780.5, "width": 333, "height": 349 }
+		},
+		"water_jerry_mouth": {
+			"water_jerry_mouth": { "x": 233.5, "y": -800, "width": 43, "height": 64 }
+		},
+		"jerry_shadow2": {
+			"jerry_shadow2": { "x": 513, "y": -922, "width": 142, "height": 38 }
+		},
+		"jerry_tail4": {
+			"jerry_tail4": { "x": 416, "y": -846.5, "width": 168, "height": 89 }
+		},
+		"jerry_arm5": {
+			"jerry_arm5": { "x": 454.5, "y": -901, "width": 115, "height": 76 }
+		},
+		"jerry_body4": {
+			"jerry_body4": { "x": 532, "y": -765, "width": 258, "height": 268 }
+		},
+		"jerry_leg3": {
+			"jerry_leg3": { "x": 576, "y": -895.5, "width": 124, "height": 73 }
+		},
+		"jerry_arm1": {
+			"jerry_arm1": { "x": 464, "y": -835.5, "width": 122, "height": 37 }
+		},
+		"jerry_eye": {
+			"jerry_eye": { "x": 564.5, "y": -744, "width": 83, "height": 80 }
+		},
+		"jerry_body": {
+			"jerry_body": { "x": 836.5, "y": -780.5, "width": 103, "height": 141 }
+		},
+		"jerry_shadow": {
+			"jerry_shadow": { "x": 840, "y": -885, "width": 166, "height": 36 }
+		},
+		"jerry_leg2": {
+			"jerry_leg2": { "x": 910, "y": -732.5, "width": 138, "height": 73 }
+		},
+		"jerry_leg1": {
+			"jerry_leg1": { "x": 927, "y": -782.5, "width": 130, "height": 83 }
+		},
+		"jerry_tail": {
+			"jerry_tail": { "x": 903.5, "y": -828, "width": 197, "height": 106 }
+		},
+		"jerry_ear2": {
+			"jerry_ear2": { "x": 769.5, "y": -667, "width": 157, "height": 170 }
+		},
+		"jerry_ear1": {
+			"jerry_ear1": { "x": 897.5, "y": -656.5, "width": 153, "height": 171 }
+		},
+		"mouth_jerry": {
+			"mouth_jerry": { "x": 815, "y": -733.5, "width": 88, "height": 85 }
+		},
+		"jerry_face": {
+			"jerry_face": { "x": 835.5, "y": -718, "width": 103, "height": 130 }
+		},
+		"eye": {
+			"eye": { "x": 838, "y": -699, "width": 138, "height": 84 }
+		},
+		"plate": {
+			"plate": { "x": 905, "y": -921.5, "width": 294, "height": 107 }
+		},
+		"cheese": {
+			"cheese": { "x": 912.5, "y": -880.5, "width": 235, "height": 167 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

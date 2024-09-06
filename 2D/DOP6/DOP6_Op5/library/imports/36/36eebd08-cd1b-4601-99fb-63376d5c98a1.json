@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "Hall_Door.atlas",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "\nHall_Door.png\nsize: 1024, 128\nformat: RGBA8888\nfilter: Linear, Linear\nrepeat: none\n1\n  rotate: true\n  xy: 345, 2\n  size: 116, 235\n  orig: 116, 235\n  offset: 0, 0\n  index: -1\nbucket\n  rotate: false\n  xy: 2, 29\n  size: 33, 34\n  orig: 33, 34\n  offset: 0, 0\n  index: -1\ndown\n  rotate: true\n  xy: 2, 65\n  size: 25, 246\n  orig: 25, 246\n  offset: 0, 0\n  index: -1\nlvl41_up_layer\n  rotate: true\n  xy: 2, 92\n  size: 26, 341\n  orig: 26, 341\n  offset: 0, 0\n  index: -1\nup\n  rotate: false\n  xy: 582, 81\n  size: 122, 37\n  orig: 122, 37\n  offset: 0, 0\n  index: -1\n"
+}

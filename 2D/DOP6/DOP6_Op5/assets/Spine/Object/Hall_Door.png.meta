@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "64c2d9a3-f1c0-42db-a67c-ce8a0876f393",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1024,
+  "height": 128,
+  "platformSettings": {},
+  "subMetas": {
+    "Hall_Door": {
+      "ver": "1.0.6",
+      "uuid": "31398056-e713-4552-9f6b-46b192b1f214",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "64c2d9a3-f1c0-42db-a67c-ce8a0876f393",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -159,
+      "offsetY": 4,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 702,
+      "height": 116,
+      "rawWidth": 1024,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

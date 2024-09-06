@@ -1,0 +1,369 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "3333",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "YTopfi9AJxY",
+      "spine": "3.8-from-4.0-from-4.1-from-4.2.33",
+      "x": -1,
+      "y": -721,
+      "width": 1282,
+      "height": 722,
+      "images": "../images/",
+      "audio": "./audio"
+    },
+    "bones": [
+      {
+        "name": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "Group",
+        "bone": "root",
+        "attachment": "Speed Lines Green Screen00"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "Group": {
+            "Speed Lines Green Screen00": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen01": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen02": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen03": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen04": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen05": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen06": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen07": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen08": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen09": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen10": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen11": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen12": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen13": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen14": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen15": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen16": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen17": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen18": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen19": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen20": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen21": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen22": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen23": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen24": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen25": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen26": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen27": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen28": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            },
+            "Speed Lines Green Screen29": {
+              "x": 640,
+              "y": -360,
+              "width": 1282,
+              "height": 722
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "animation": {
+        "slots": {
+          "Group": {
+            "attachment": [
+              {
+                "time": 0.0333,
+                "name": "Speed Lines Green Screen01"
+              },
+              {
+                "time": 0.0667,
+                "name": "Speed Lines Green Screen02"
+              },
+              {
+                "time": 0.1,
+                "name": "Speed Lines Green Screen03"
+              },
+              {
+                "time": 0.1333,
+                "name": "Speed Lines Green Screen04"
+              },
+              {
+                "time": 0.1667,
+                "name": "Speed Lines Green Screen05"
+              },
+              {
+                "time": 0.2,
+                "name": "Speed Lines Green Screen06"
+              },
+              {
+                "time": 0.2333,
+                "name": "Speed Lines Green Screen07"
+              },
+              {
+                "time": 0.2667,
+                "name": "Speed Lines Green Screen08"
+              },
+              {
+                "time": 0.3,
+                "name": "Speed Lines Green Screen09"
+              },
+              {
+                "time": 0.3333,
+                "name": "Speed Lines Green Screen10"
+              },
+              {
+                "time": 0.3667,
+                "name": "Speed Lines Green Screen11"
+              },
+              {
+                "time": 0.4,
+                "name": "Speed Lines Green Screen12"
+              },
+              {
+                "time": 0.4333,
+                "name": "Speed Lines Green Screen13"
+              },
+              {
+                "time": 0.4667,
+                "name": "Speed Lines Green Screen14"
+              },
+              {
+                "time": 0.5,
+                "name": "Speed Lines Green Screen15"
+              },
+              {
+                "time": 0.5333,
+                "name": "Speed Lines Green Screen16"
+              },
+              {
+                "time": 0.5667,
+                "name": "Speed Lines Green Screen17"
+              },
+              {
+                "time": 0.6,
+                "name": "Speed Lines Green Screen18"
+              },
+              {
+                "time": 0.6333,
+                "name": "Speed Lines Green Screen19"
+              },
+              {
+                "time": 0.6667,
+                "name": "Speed Lines Green Screen20"
+              },
+              {
+                "time": 0.7,
+                "name": "Speed Lines Green Screen21"
+              },
+              {
+                "time": 0.7333,
+                "name": "Speed Lines Green Screen22"
+              },
+              {
+                "time": 0.7667,
+                "name": "Speed Lines Green Screen23"
+              },
+              {
+                "time": 0.8,
+                "name": "Speed Lines Green Screen24"
+              },
+              {
+                "time": 0.8333,
+                "name": "Speed Lines Green Screen25"
+              },
+              {
+                "time": 0.8667,
+                "name": "Speed Lines Green Screen26"
+              },
+              {
+                "time": 0.9,
+                "name": "Speed Lines Green Screen27"
+              },
+              {
+                "time": 0.9333,
+                "name": "Speed Lines Green Screen28"
+              },
+              {
+                "time": 0.9667,
+                "name": "Speed Lines Green Screen29"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "root": {
+            "translate": [
+              {
+                "x": -627.44,
+                "y": 732.01
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\n3333.png\nsize: 1024, 1024\nformat: RGBA8888\nfilter: Linear, Linear\nrepeat: none\nSpeed Lines Green Screen00\n  rotate: false\n  xy: 2, 734\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen01\n  rotate: false\n  xy: 2, 551\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen02\n  rotate: false\n  xy: 325, 734\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen03\n  rotate: false\n  xy: 2, 368\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen04\n  rotate: false\n  xy: 325, 551\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen05\n  rotate: false\n  xy: 648, 734\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen06\n  rotate: false\n  xy: 2, 185\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen07\n  rotate: false\n  xy: 325, 368\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen08\n  rotate: false\n  xy: 648, 551\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen09\n  rotate: false\n  xy: 2, 2\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen10\n  rotate: false\n  xy: 325, 185\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen11\n  rotate: false\n  xy: 648, 368\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen12\n  rotate: false\n  xy: 325, 2\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen13\n  rotate: false\n  xy: 648, 185\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen14\n  rotate: false\n  xy: 648, 2\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\n\n3333_2.png\nsize: 1024, 1024\nformat: RGBA8888\nfilter: Linear, Linear\nrepeat: none\nSpeed Lines Green Screen15\n  rotate: false\n  xy: 2, 734\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen16\n  rotate: false\n  xy: 2, 551\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen17\n  rotate: false\n  xy: 325, 734\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen18\n  rotate: false\n  xy: 2, 368\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen19\n  rotate: false\n  xy: 325, 551\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen20\n  rotate: false\n  xy: 648, 734\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen21\n  rotate: false\n  xy: 2, 185\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen22\n  rotate: false\n  xy: 325, 368\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen23\n  rotate: false\n  xy: 648, 551\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen24\n  rotate: false\n  xy: 2, 2\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen25\n  rotate: false\n  xy: 325, 185\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen26\n  rotate: false\n  xy: 648, 368\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen27\n  rotate: false\n  xy: 325, 2\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen28\n  rotate: false\n  xy: 648, 185\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\nSpeed Lines Green Screen29\n  rotate: false\n  xy: 648, 2\n  size: 321, 181\n  orig: 321, 181\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "716e4127-b365-4c3b-8a44-e75d8842ad08"
+    },
+    {
+      "__uuid__": "e6165a90-5603-4ee0-80f5-135845cd7d96"
+    }
+  ],
+  "textureNames": [
+    "3333.png",
+    "3333_2.png"
+  ],
+  "scale": 1
+}

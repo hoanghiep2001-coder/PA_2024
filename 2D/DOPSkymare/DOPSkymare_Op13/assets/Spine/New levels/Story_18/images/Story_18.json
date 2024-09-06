@@ -1,0 +1,112 @@
+{ "skeleton": { "images": "C:/Users/Mr Sky/Desktop/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Lake", "bone": "root", "attachment": "Lake" },
+	{ "name": "Object", "bone": "root", "attachment": "Object" },
+	{ "name": "Bouy_1", "bone": "root", "attachment": "Bouy_1" },
+	{ "name": "Splash_big", "bone": "root", "attachment": "Splash_big" },
+	{ "name": "Wave", "bone": "root", "attachment": "Wave" },
+	{ "name": "Splash_1", "bone": "root", "attachment": "Splash_1" },
+	{ "name": "Tail", "bone": "root", "attachment": "Tail" },
+	{ "name": "R_leg", "bone": "root", "attachment": "R_leg" },
+	{ "name": "L_leg", "bone": "root", "attachment": "L_leg" },
+	{ "name": "Body", "bone": "root", "attachment": "Body" },
+	{ "name": "L_arm", "bone": "root", "attachment": "L_arm" },
+	{ "name": "R_arm", "bone": "root", "attachment": "R_arm" },
+	{ "name": "Head", "bone": "root", "attachment": "Head" },
+	{ "name": "eyes", "bone": "root", "attachment": "eyes" },
+	{ "name": "Pupils", "bone": "root", "attachment": "Pupils" },
+	{ "name": "Eyebrowns_1", "bone": "root", "attachment": "Eyebrowns_1" },
+	{ "name": "Mouth_1", "bone": "root", "attachment": "Mouth_1" },
+	{ "name": "Tongue", "bone": "root", "attachment": "Tongue" },
+	{ "name": "Rod", "bone": "root", "attachment": "Rod" },
+	{ "name": "Fish", "bone": "root", "attachment": "Fish" },
+	{ "name": "Wire", "bone": "root", "attachment": "Wire" },
+	{ "name": "Bouy", "bone": "root", "attachment": "Bouy" },
+	{ "name": "Eyes_2", "bone": "root", "attachment": "Eyes_2" },
+	{ "name": "Eyebrows_2", "bone": "root", "attachment": "Eyebrows_2" },
+	{ "name": "Mouth_2", "bone": "root", "attachment": "Mouth_2" }
+],
+"skins": {
+	"default": {
+		"Lake": {
+			"Lake": { "x": 72.5, "y": 196, "width": 865, "height": 402 }
+		},
+		"Object": {
+			"Object": { "x": -341.5, "y": 292, "width": 313, "height": 434 }
+		},
+		"Bouy_1": {
+			"Bouy_1": { "x": 2, "y": 201, "width": 250, "height": 126 }
+		},
+		"Splash_big": {
+			"Splash_big": { "x": -14, "y": 304, "width": 328, "height": 296 }
+		},
+		"Wave": {
+			"Wave": { "x": -4.5, "y": 166.5, "width": 233, "height": 61 }
+		},
+		"Splash_1": {
+			"Splash_1": { "x": -96, "y": 666.5, "width": 110, "height": 61 }
+		},
+		"Tail": {
+			"Tail": { "x": 312, "y": 517, "width": 184, "height": 180 }
+		},
+		"R_leg": {
+			"R_leg": { "x": 317.5, "y": 416, "width": 271, "height": 188 }
+		},
+		"L_leg": {
+			"L_leg": { "x": -10.5, "y": 488, "width": 253, "height": 210 }
+		},
+		"Body": {
+			"Body": { "x": 161, "y": 533, "width": 230, "height": 302 }
+		},
+		"L_arm": {
+			"L_arm": { "x": 141, "y": 552.5, "width": 126, "height": 213 }
+		},
+		"R_arm": {
+			"R_arm": { "x": 228, "y": 573, "width": 124, "height": 166 }
+		},
+		"Head": {
+			"Head": { "x": 194, "y": 778, "width": 278, "height": 304 }
+		},
+		"eyes": {
+			"eyes": { "x": 189, "y": 752, "width": 156, "height": 122 }
+		},
+		"Pupils": {
+			"Pupils": { "x": 180, "y": 758, "width": 126, "height": 66 }
+		},
+		"Eyebrowns_1": {
+			"Eyebrowns_1": { "x": 176, "y": 832.5, "width": 188, "height": 51 }
+		},
+		"Mouth_1": {
+			"Mouth_1": { "x": 182, "y": 682.5, "width": 148, "height": 107 }
+		},
+		"Tongue": {
+			"Tongue": { "x": 180.5, "y": 649.5, "width": 61, "height": 79 }
+		},
+		"Rod": {
+			"Rod": { "x": 300, "y": 735.5, "width": 340, "height": 639 }
+		},
+		"Fish": {
+			"Fish": { "x": -326.5, "y": 49.5, "width": 221, "height": 465 }
+		},
+		"Wire": {
+			"Wire": { "x": -311, "y": 814, "width": 26, "height": 1130 }
+		},
+		"Bouy": {
+			"Bouy": { "x": -311.5, "y": 574, "width": 61, "height": 158 }
+		},
+		"Eyes_2": {
+			"Eyes_2": { "x": 189.5, "y": 747, "width": 181, "height": 112 }
+		},
+		"Eyebrows_2": {
+			"Eyebrows_2": { "x": 197.5, "y": 829, "width": 165, "height": 62 }
+		},
+		"Mouth_2": {
+			"Mouth_2": { "x": 179, "y": 702.5, "width": 134, "height": 67 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

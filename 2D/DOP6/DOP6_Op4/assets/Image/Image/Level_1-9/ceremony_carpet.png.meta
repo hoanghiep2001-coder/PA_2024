@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d1544354-14aa-41d8-84d8-61e0f5608709",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1993,
+  "height": 845,
+  "platformSettings": {},
+  "subMetas": {
+    "ceremony_carpet": {
+      "ver": "1.0.6",
+      "uuid": "56a3cc20-e702-4d49-9876-951ee1f5416b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d1544354-14aa-41d8-84d8-61e0f5608709",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1993,
+      "height": 845,
+      "rawWidth": 1993,
+      "rawHeight": 845,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

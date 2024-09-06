@@ -1,0 +1,89 @@
+{
+  "projectPath": "D:\\PA_2024\\2D\\DOP6\\DOP6_Op4",
+  "actualPlatform": "web-mobile",
+  "mtimes": {
+    "a0b2248f-8fdf-4295-889a-38f2012cf28d": {
+      "assetMtime": 1717697350000,
+      "metaMtime": 1717752442974
+    },
+    "16bd4bea-e4de-4ec0-862f-b190fffa54b1": {
+      "assetMtime": 1717697350000,
+      "metaMtime": 1717752443395
+    },
+    "11010561-718e-416f-a5c0-b4428c336219": {
+      "assetMtime": 1717697350000,
+      "metaMtime": 1717752443395
+    }
+  },
+  "result": {
+    "name": "textures",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.5",
+    "uuid": "a0b2248f-8fdf-4295-889a-38f2012cf28d",
+    "importer": "auto-atlas",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "compressionLevel": 6,
+    "allowRotation": false,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": false,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {
+      "default": {
+        "formats": []
+      }
+    },
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "sparkleBlink",
+            "uuid": "16bd4bea-e4de-4ec0-862f-b190fffa54b1",
+            "textureUuid": "11010561-718e-416f-a5c0-b4428c336219",
+            "path": "D:\\PA_2024\\2D\\DOP6\\DOP6_Op4\\temp\\trimImages\\spritesheet_js_1717753593741_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 42,
+              "height": 41,
+              "rotatedWidth": 42,
+              "rotatedHeight": 41
+            },
+            "rawWidth": 42,
+            "rawHeight": 41,
+            "width": 48,
+            "height": 47,
+            "originalPath": "D:/PA_2024/2D/DOP6/DOP6_Op4/library/imports/11/11010561-718e-416f-a5c0-b4428c336219.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 48,
+            "rotatedHeight": 47
+          }
+        ],
+        "width": 48,
+        "height": 47,
+        "name": "textures-1",
+        "imagePath": "D:\\PA_2024\\2D\\DOP6\\DOP6_Op4\\temp\\TexturePacker\\build\\native\\assets\\neutrinoparticles\\textures\\textures.pac\\textures-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\PA_2024\\2D\\DOP6\\DOP6_Op4\\temp\\TexturePacker\\build\\native\\assets\\neutrinoparticles\\textures\\textures.pac\\compressed\\textures-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

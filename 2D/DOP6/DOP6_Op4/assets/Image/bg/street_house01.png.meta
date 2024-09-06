@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ede2f96d-6661-48ac-9b39-44b3cf5c5533",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 948,
+  "height": 814,
+  "platformSettings": {},
+  "subMetas": {
+    "street_house01": {
+      "ver": "1.0.6",
+      "uuid": "e8ad911f-d1a9-4f1f-8ce3-34c1d684319e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ede2f96d-6661-48ac-9b39-44b3cf5c5533",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 948,
+      "height": 814,
+      "rawWidth": 948,
+      "rawHeight": 814,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Hint_AnimLv2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "New Node/Hint": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -80.4,
+                -16.5
+              ],
+              "motionPath": [
+                [
+                  -55.9,
+                  40.3,
+                  -74.3,
+                  17.2,
+                  -35.5,
+                  66.1
+                ]
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                -2.6,
+                81.4
+              ],
+              "motionPath": [
+                [
+                  54.8,
+                  42.9,
+                  35.3,
+                  66.7,
+                  74.7,
+                  18.8
+                ]
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                76.2,
+                -14.4
+              ],
+              "motionPath": []
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 1.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "Mask/circle": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 1.5,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

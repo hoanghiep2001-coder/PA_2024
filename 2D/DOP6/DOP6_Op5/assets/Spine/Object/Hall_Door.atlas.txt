@@ -1,0 +1,41 @@
+
+Hall_Door.png
+size: 1024, 128
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+1
+  rotate: true
+  xy: 345, 2
+  size: 116, 235
+  orig: 116, 235
+  offset: 0, 0
+  index: -1
+bucket
+  rotate: false
+  xy: 2, 29
+  size: 33, 34
+  orig: 33, 34
+  offset: 0, 0
+  index: -1
+down
+  rotate: true
+  xy: 2, 65
+  size: 25, 246
+  orig: 25, 246
+  offset: 0, 0
+  index: -1
+lvl41_up_layer
+  rotate: true
+  xy: 2, 92
+  size: 26, 341
+  orig: 26, 341
+  offset: 0, 0
+  index: -1
+up
+  rotate: false
+  xy: 582, 81
+  size: 122, 37
+  orig: 122, 37
+  offset: 0, 0
+  index: -1

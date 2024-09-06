@@ -1,0 +1,125 @@
+
+Story_15.png
+size: 2120, 2120
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Arm_L
+  rotate: true
+  xy: 1631, 59
+  size: 235, 479
+  orig: 247, 490
+  offset: 9, 2
+  index: -1
+Arm_R
+  rotate: false
+  xy: 2, 334
+  size: 436, 521
+  orig: 441, 543
+  offset: 0, 7
+  index: -1
+BG
+  rotate: true
+  xy: 965, 1115
+  size: 1003, 1067
+  orig: 1023, 1087
+  offset: 10, 10
+  index: -1
+Body
+  rotate: true
+  xy: 1371, 296
+  size: 454, 558
+  orig: 468, 568
+  offset: 6, 1
+  index: -1
+Floor
+  rotate: true
+  xy: 965, 97
+  size: 1016, 404
+  orig: 1036, 424
+  offset: 10, 10
+  index: -1
+Group 11
+  rotate: false
+  xy: 2, 857
+  size: 961, 1261
+  orig: 981, 1281
+  offset: 10, 10
+  index: -1
+Wire
+  rotate: false
+  xy: 1371, 752
+  size: 587, 361
+  orig: 593, 361
+  offset: 6, 0
+  index: -1
+eye
+  rotate: true
+  xy: 2034, 1927
+  size: 165, 80
+  orig: 185, 100
+  offset: 10, 10
+  index: -1
+eyebrown
+  rotate: false
+  xy: 2034, 2094
+  size: 84, 24
+  orig: 104, 44
+  offset: 10, 10
+  index: -1
+face
+  rotate: true
+  xy: 440, 365
+  size: 295, 267
+  orig: 315, 287
+  offset: 10, 10
+  index: -1
+flower
+  rotate: true
+  xy: 1371, 23
+  size: 271, 258
+  orig: 275, 259
+  offset: 0, 1
+  index: -1
+foot_L
+  rotate: true
+  xy: 2, 35
+  size: 297, 476
+  orig: 307, 486
+  offset: 3, 6
+  index: -1
+foot_R
+  rotate: true
+  xy: 480, 662
+  size: 193, 466
+  orig: 199, 473
+  offset: 6, 5
+  index: -1
+mouth
+  rotate: true
+  xy: 1960, 720
+  size: 202, 111
+  orig: 222, 131
+  offset: 10, 10
+  index: -1
+plant
+  rotate: false
+  xy: 480, 17
+  size: 346, 346
+  orig: 366, 366
+  offset: 10, 10
+  index: -1
+water
+  rotate: false
+  xy: 709, 400
+  size: 221, 260
+  orig: 241, 280
+  offset: 10, 10
+  index: -1
+water tap
+  rotate: true
+  xy: 1960, 924
+  size: 189, 155
+  orig: 209, 175
+  offset: 10, 10
+  index: -1

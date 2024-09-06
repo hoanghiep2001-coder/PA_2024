@@ -1,0 +1,96 @@
+{ "skeleton": { "images": "D:/Office/KT32 draw one path/New/Animation_2/story1/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "wall", "bone": "root", "attachment": "wall" },
+	{ "name": "jerry_shadow_slam", "bone": "root", "attachment": "jerry_shadow_slam" },
+	{ "name": "shadow_tom", "bone": "root", "attachment": "shadow_tom" },
+	{ "name": "shadow_jerry", "bone": "root", "attachment": "shadow_jerry" },
+	{ "name": "door", "bone": "root", "attachment": "door" },
+	{ "name": "jerry", "bone": "root", "attachment": "jerry" },
+	{ "name": "leg_jerry", "bone": "root", "attachment": "leg_jerry" },
+	{ "name": "tail_1", "bone": "root", "attachment": "tail_1" },
+	{ "name": "leg_1_2", "bone": "root", "attachment": "leg_1_2" },
+	{ "name": "body_1", "bone": "root", "attachment": "body_1" },
+	{ "name": "leg_1", "bone": "root", "attachment": "leg_1" },
+	{ "name": "hand_1_2", "bone": "root", "attachment": "hand_1_2" },
+	{ "name": "hand_1", "bone": "root", "attachment": "hand_1" },
+	{ "name": "Head_1", "bone": "root", "attachment": "Head_1" },
+	{ "name": "Hand_R", "bone": "root", "attachment": "Hand_R" },
+	{ "name": "foot_R", "bone": "root", "attachment": "foot_R" },
+	{ "name": "Body", "bone": "root", "attachment": "Body" },
+	{ "name": "eyebrown", "bone": "root", "attachment": "eyebrown" },
+	{ "name": "hand_L", "bone": "root", "attachment": "hand_L" },
+	{ "name": "foot_L", "bone": "root", "attachment": "foot_L" },
+	{ "name": "tail", "bone": "root", "attachment": "tail" }
+],
+"skins": {
+	"default": {
+		"wall": {
+			"wall": { "x": -53, "y": 563, "width": 1050, "height": 1180 }
+		},
+		"jerry_shadow_slam": {
+			"jerry_shadow_slam": { "x": -379, "y": 657, "width": 172, "height": 396 }
+		},
+		"shadow_tom": {
+			"shadow_tom": { "x": 235.5, "y": 102, "width": 363, "height": 92 }
+		},
+		"shadow_jerry": {
+			"shadow_jerry": { "x": -233.5, "y": 66, "width": 207, "height": 58 }
+		},
+		"door": {
+			"door": { "x": -392, "y": 255.5, "width": 214, "height": 255 }
+		},
+		"jerry": {
+			"jerry": { "x": -293.5, "y": 282, "width": 235, "height": 282 }
+		},
+		"leg_jerry": {
+			"leg_jerry": { "x": -234, "y": 179, "width": 260, "height": 198 }
+		},
+		"tail_1": {
+			"tail_1": { "x": 364.5, "y": 489.5, "width": 271, "height": 435 }
+		},
+		"leg_1_2": {
+			"leg_1_2": { "x": 361, "y": 450.5, "width": 272, "height": 219 }
+		},
+		"body_1": {
+			"body_1": { "x": 166, "y": 481.5, "width": 278, "height": 197 }
+		},
+		"leg_1": {
+			"leg_1": { "x": 160, "y": 324.5, "width": 208, "height": 309 }
+		},
+		"hand_1_2": {
+			"hand_1_2": { "x": 199, "y": 620.5, "width": 272, "height": 213 }
+		},
+		"hand_1": {
+			"hand_1": { "x": -321.5, "y": 631, "width": 287, "height": 190 }
+		},
+		"Head_1": {
+			"Head_1": { "x": -75.5, "y": 559, "width": 407, "height": 388 }
+		},
+		"Hand_R": {
+			"Hand_R": { "x": 15, "y": 691, "width": 274, "height": 206 }
+		},
+		"foot_R": {
+			"foot_R": { "x": 76.5, "y": 1213.5, "width": 199, "height": 447 }
+		},
+		"Body": {
+			"Body": { "x": -192, "y": 934, "width": 522, "height": 494 }
+		},
+		"eyebrown": {
+			"eyebrown": { "x": -367, "y": 1121.5, "width": 110, "height": 89 }
+		},
+		"hand_L": {
+			"hand_L": { "x": -187, "y": 671, "width": 350, "height": 270 }
+		},
+		"foot_L": {
+			"foot_L": { "x": -1, "y": 857.5, "width": 300, "height": 345 }
+		},
+		"tail": {
+			"tail": { "x": -141, "y": 1216.5, "width": 170, "height": 297 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

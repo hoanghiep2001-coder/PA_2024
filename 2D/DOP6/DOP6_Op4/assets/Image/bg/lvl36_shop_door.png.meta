@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "650161d8-322d-45eb-84a6-6aafe0c0a11a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 217,
+  "height": 467,
+  "platformSettings": {},
+  "subMetas": {
+    "lvl36_shop_door": {
+      "ver": "1.0.6",
+      "uuid": "7d4bca29-341a-4b54-9bc4-60c60d824f57",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "650161d8-322d-45eb-84a6-6aafe0c0a11a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 217,
+      "height": 467,
+      "rawWidth": 217,
+      "rawHeight": 467,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{ "skeleton": { "images": "D:/Office/KT32 draw one path/New/Animation_2/story1/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "vi", "bone": "root", "attachment": "vi" },
+	{ "name": "table", "bone": "root", "attachment": "table" },
+	{ "name": "phomai", "bone": "root", "attachment": "phomai" },
+	{ "name": "hand_raise", "bone": "root", "attachment": "hand_raise" },
+	{ "name": "Jerry", "bone": "root", "attachment": "Jerry" },
+	{ "name": "body", "bone": "root", "attachment": "body" },
+	{ "name": "Layer 2", "bone": "root", "attachment": "Layer 2" },
+	{ "name": "Layer 3", "bone": "root", "attachment": "Layer 3" },
+	{ "name": "Hand", "bone": "root", "attachment": "Hand" },
+	{ "name": "jerry1", "bone": "root", "attachment": "jerry1" },
+	{ "name": "blur_trail", "bone": "root", "attachment": "blur_trail" },
+	{ "name": "Layer 4", "bone": "root", "attachment": "Layer 4" },
+	{ "name": "head_jerry", "bone": "root", "attachment": "head_jerry" },
+	{ "name": "mouth", "bone": "root", "attachment": "mouth" },
+	{ "name": "tounge", "bone": "root", "attachment": "tounge" },
+	{ "name": "eye_jerry", "bone": "root", "attachment": "eye_jerry" },
+	{ "name": "smoke", "bone": "root", "attachment": "smoke" },
+	{ "name": "smoke1", "bone": "root", "attachment": "smoke1" },
+	{ "name": "smoke2", "bone": "root", "attachment": "smoke2" },
+	{ "name": "smoke3", "bone": "root", "attachment": "smoke3" }
+],
+"skins": {
+	"default": {
+		"vi": {
+			"vi": { "x": 107.5, "y": 1534, "width": 211, "height": 290 }
+		},
+		"table": {
+			"table": { "x": 0, "y": 683, "width": 988, "height": 1408 }
+		},
+		"phomai": {
+			"phomai": { "x": 27.5, "y": 460.5, "width": 227, "height": 257 }
+		},
+		"hand_raise": {
+			"hand_raise": { "x": 175.5, "y": 1147, "width": 205, "height": 582 }
+		},
+		"Jerry": {
+			"Jerry": { "x": 203, "y": 531.5, "width": 292, "height": 303 }
+		},
+		"body": {
+			"body": { "x": 8, "y": 757, "width": 488, "height": 412 }
+		},
+		"Layer 2": {
+			"Layer 2": { "x": 174.5, "y": 676.5, "width": 205, "height": 531 }
+		},
+		"Layer 3": {
+			"Layer 3": { "x": -358, "y": 613, "width": 252, "height": 354 }
+		},
+		"Hand": {
+			"Hand": { "x": -108, "y": 673.5, "width": 566, "height": 455 }
+		},
+		"jerry1": {
+			"jerry1": { "x": 349, "y": 616.5, "width": 290, "height": 259 }
+		},
+		"blur_trail": {
+			"blur_trail": { "x": -91, "y": 847.5, "width": 352, "height": 739 }
+		},
+		"Layer 4": {
+			"Layer 4": { "x": 88.5, "y": 710, "width": 459, "height": 296 }
+		},
+		"head_jerry": {
+			"head_jerry": { "x": 3, "y": 1144.5, "width": 442, "height": 483 }
+		},
+		"mouth": {
+			"mouth": { "x": 5.5, "y": 1027, "width": 259, "height": 188 }
+		},
+		"tounge": {
+			"tounge": { "x": 67, "y": 1061, "width": 148, "height": 120 }
+		},
+		"eye_jerry": {
+			"eye_jerry": { "x": -98, "y": 1078, "width": 86, "height": 86 }
+		},
+		"smoke": {
+			"smoke": { "x": -166, "y": 893, "width": 142, "height": 142 }
+		},
+		"smoke1": {
+			"smoke1": { "x": -162, "y": 755, "width": 150, "height": 138 }
+		},
+		"smoke2": {
+			"smoke2": { "x": -311, "y": 893, "width": 142, "height": 142 }
+		},
+		"smoke3": {
+			"smoke3": { "x": -311, "y": 749, "width": 160, "height": 142 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

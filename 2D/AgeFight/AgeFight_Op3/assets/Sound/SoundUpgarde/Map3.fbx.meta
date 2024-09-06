@@ -1,0 +1,353 @@
+{
+  "ver": "1.1.3",
+  "uuid": "0179a4bf-f711-4fcc-a592-56452d255f14",
+  "importer": "fbx",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.2",
+      "uuid": "ac4ac487-c8db-4d37-946e-163d4909b13d",
+      "importer": "buffer",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "building_bg_01_bot.mesh": {
+      "ver": "1.0.3",
+      "uuid": "b99c36fe-f0ff-4f21-83d3-7e4d968a5e71",
+      "importer": "mesh",
+      "verts": 672,
+      "tris": 336,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -9.18182945251465,
+        "y": -11.478874206543,
+        "z": 0.852648138999939
+      },
+      "maxPos": {
+        "x": 10.8317499160767,
+        "y": 1.75857031345367,
+        "z": 22.491720199585
+      },
+      "name": "building_bg_01_bot.mesh",
+      "subMetas": {}
+    },
+    "building_bg_01_mid.mesh": {
+      "ver": "1.0.3",
+      "uuid": "50b97ed4-7e41-43f8-a4a8-1a59a460f937",
+      "importer": "mesh",
+      "verts": 144,
+      "tris": 72,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -8.89593124389648,
+        "y": -11.478853225708,
+        "z": -11.7027654647827
+      },
+      "maxPos": {
+        "x": 9.40022754669189,
+        "y": -0.547688722610474,
+        "z": -1.03506350517273
+      },
+      "name": "building_bg_01_mid.mesh",
+      "subMetas": {}
+    },
+    "building_bg_01_top.mesh": {
+      "ver": "1.0.3",
+      "uuid": "edbc20db-39ac-436f-ab79-74a50d026fd1",
+      "importer": "mesh",
+      "verts": 504,
+      "tris": 252,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -8.98915958404541,
+        "y": -11.478874206543,
+        "z": -23.4783096313477
+      },
+      "maxPos": {
+        "x": 10.22496509552,
+        "y": 1.75857031345367,
+        "z": -13.1260223388672
+      },
+      "name": "building_bg_01_top.mesh",
+      "subMetas": {}
+    },
+    "platform_01.mesh": {
+      "ver": "1.0.3",
+      "uuid": "5e3ca2a0-9a2a-4eb4-bbbe-6a53f102e777",
+      "importer": "mesh",
+      "verts": 334,
+      "tris": 212,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -2.95969319343567,
+        "y": -11.4119396209717,
+        "z": -4.77281618118286
+      },
+      "maxPos": {
+        "x": 2.95969319343567,
+        "y": 0.149298667907715,
+        "z": 4.77281522750854
+      },
+      "name": "platform_01.mesh",
+      "subMetas": {}
+    },
+    "platform_floor_01.mesh": {
+      "ver": "1.0.3",
+      "uuid": "a555468b-e471-4684-820a-b5b2adc8c4b5",
+      "importer": "mesh",
+      "verts": 36,
+      "tris": 34,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -2.90370607376099,
+        "y": 5.82076609134674e-11,
+        "z": -4.74482250213623
+      },
+      "maxPos": {
+        "x": 2.90370655059814,
+        "y": 0.00000143056968227029,
+        "z": 4.70749855041504
+      },
+      "name": "platform_floor_01.mesh",
+      "subMetas": {}
+    },
+    "Fog.mesh": {
+      "ver": "1.0.3",
+      "uuid": "8d5d9622-89a1-45d1-b778-b823e7373f8f",
+      "importer": "mesh",
+      "verts": 121,
+      "tris": 200,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -5,
+        "y": -1.11022302462516e-16,
+        "z": -5
+      },
+      "maxPos": {
+        "x": 5,
+        "y": 1.11022302462516e-16,
+        "z": 5
+      },
+      "name": "Fog.mesh",
+      "subMetas": {}
+    },
+    "Map3.prefab": {
+      "ver": "1.3.2",
+      "uuid": "d4f9b3a6-4821-4798-a4a7-7c7bcd25939a",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "Map3.prefab",
+      "subMetas": {}
+    },
+    "map_bottom.mtl": {
+      "ver": "1.0.5",
+      "uuid": "cbc915f3-da7f-46d1-8592-8ec05a2144d1",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "map_bottom.mtl",
+      "subMetas": {}
+    },
+    "map_mid.mtl": {
+      "ver": "1.0.5",
+      "uuid": "126e2074-9ee5-41f1-812c-e0e89121837d",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "map_mid.mtl",
+      "subMetas": {}
+    },
+    "map_top.mtl": {
+      "ver": "1.0.5",
+      "uuid": "d2c0dc13-1ae3-4133-9285-4c438f255a1d",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "map_top.mtl",
+      "subMetas": {}
+    },
+    "arena_border.mtl": {
+      "ver": "1.0.5",
+      "uuid": "4ca0b857-21de-48e2-a887-c75215082a2a",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "arena_border.mtl",
+      "subMetas": {}
+    },
+    "arena_floor.mtl": {
+      "ver": "1.0.5",
+      "uuid": "9e4db878-d03e-4543-82f1-d6588e0d9f76",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "arena_floor.mtl",
+      "subMetas": {}
+    },
+    "Fog_2.mtl": {
+      "ver": "1.0.5",
+      "uuid": "09b46aa3-c9aa-4d60-a78c-9d67e501cd9e",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "Fog_2.mtl",
+      "subMetas": {}
+    }
+  }
+}
