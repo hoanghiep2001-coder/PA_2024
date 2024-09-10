@@ -1,36 +1,37 @@
 
-import { _decorator, Component, Node } from 'cc';
-import { SoundController } from './SoundController';
-import { CONST } from '../Const/CONST';
+import { _decorator, Component, log, Node } from 'cc';
+type SoundController = import("./SoundController").SoundController;
 import { IronSource } from '../AdHelper/IronSource';
 const { ccclass, property } = _decorator;
 
  
 @ccclass('GameController')
 export class GameController extends Component {
-    // [1]
-    // dummy = '';
 
-    // [2]
-    // @property
-    // serializableDummy = 0;
+    // @property(Node)
+    SoundControllerNode: Node = null;
+
 
     private onFinish(): void {
         window.gameEnd && window.gameEnd();
     }
 
+
     protected start(): void {
         window.gameReady && window.gameReady();
 
-        // SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bgSound);
+        this.SoundControllerNode = this.node.parent.getChildByName("SoundController")
     }
 
 
     public installHandle(): void {
         console.log("install");
 
-        IronSource.isEndGame = true;
-        SoundController.Instance(SoundController).StopAllSound();
+        // IronSource.isEndGame = true;
+
+        // let soundController = this.SoundControllerNode.getComponent("SoundController") as SoundController;
+        // soundController.StopAllSound();
+
         window.gameEnd && window.gameEnd();
 
         //If ad network is tiktok
@@ -54,24 +55,33 @@ export class GameController extends Component {
         // If ad network support MRAID 2.0
         if (typeof (mraid) != "undefined") {
             if (cc.sys.os == cc.sys.OS_ANDROID || cc.sys.os == cc.sys.ANDROID) {
-                mraid.open("https://play.google.com/store/apps/details?id=com.mergemaster.mergerobo");
+                mraid.open("https://play.google.com/store/apps/details?id=com.an.superegg.surprisetoy3d");
                 return;
             }
 
             if (cc.sys.os == cc.sys.OS_IOS || cc.sys.os == cc.sys.IPHONE || cc.sys.os == cc.sys.IPAD) {
-                mraid.open("https://itunes.apple.com/us/app/id6475570212?mt=8");
+                mraid.open("https://itunes.apple.com/us/app/id6566175382?mt=8");
                 return;
             }
 
-            mraid.open("https://play.google.com/store/apps/details?id=com.mergemaster.mergerobo");
+            mraid.open("https://play.google.com/store/apps/details?id=com.an.superegg.surprisetoy3d");
             return;
         }
         // If ad network is mindwork. window alway avaiable so skip undefined check
         window.install && window.install();
     }
 
-    // update (deltaTime: number) {
-    //     // [4]
+
+    // protected update(dt: number): void {
+        // let iS: number = IronSource.handleMuteSoundIronSource();
+
+        // if(iS == 1) {
+        //     let soundController = this.SoundControllerNode.getComponent("SoundController") as SoundController;
+        //     soundController.PlaySound("bgSound");
+        // } else {
+        //     let soundController = this.SoundControllerNode.getComponent("SoundController") as SoundController;
+        //     soundController.StopAllSound();
+        // }
     // }
 }
 

@@ -1,30 +1,24 @@
 import { _decorator, AudioClip, AudioSource, Component, log, Node } from 'cc';
-import Singleton from '../Utils/Singleton';
-import { IronSource } from '../AdHelper/IronSource';
+// import { IronSource } from '../AdHelper/IronSource';
 const { ccclass, property } = _decorator;
 
 
 @ccclass('SoundController')
-export class SoundController extends Singleton<SoundController> {
+export class SoundController extends Component {
 
     @property(AudioSource)
     bgSound: AudioSource = null;
     @property(AudioSource)
-    bangSound: AudioSource = null;
+    openEggSound: AudioSource = null;
     @property(AudioSource)
-    mergeSound: AudioSource = null;
+    clickSound: AudioSource = null;
+
     @property(AudioSource)
-    chooseSound: AudioSource = null;
+    congratSound: AudioSource = null;
+    @property(AudioSource)
+    showItemSound: AudioSource = null;
     @property(AudioSource)
     winSound: AudioSource = null;
-    @property(AudioSource)
-    loseSound: AudioSource = null;
-
-
-    constructor() {
-        super();
-        SoundController._instance = this;
-    }
 
 
     protected onLoad(): void {
@@ -33,31 +27,31 @@ export class SoundController extends Singleton<SoundController> {
 
 
     protected start(): void {
-        // this.bgSound.play();
+        this.bgSound.play();
     }
 
 
     public PlaySound(stringAudioName: string) {
-        if (!IronSource.SoundState) return;
+        // if (!IronSource.SoundState) return;
 
         switch (stringAudioName) {
             case "bgSound":
                 this.bgSound.play();
                 break;
-            case "bangSound":
-                this.bangSound.play();
+            case "openEggSound":
+                this.openEggSound.play();
                 break;
-            case "mergeSound":
-                this.mergeSound.play();
+            case "clickSound":
+                this.clickSound.play();
                 break;
-            case "chooseSound":
-                this.chooseSound.play();
+            case "congratSound":
+                this.congratSound.play();
+                break;
+            case "showItemSound":
+                this.showItemSound.play();
                 break;
             case "winSound":
                 this.winSound.play();
-                break;
-            case "loseSound":
-                this.loseSound.play();
                 break;
         }
     }
@@ -65,10 +59,10 @@ export class SoundController extends Singleton<SoundController> {
 
     public StopAllSound() {
         this.bgSound.stop();
-        this.bangSound.stop();
-        this.mergeSound.stop();
-        this.chooseSound.stop();
+        this.openEggSound.stop();
+        this.clickSound.stop();
+        this.congratSound.stop();
+        this.showItemSound.stop();
         this.winSound.stop();
-        this.loseSound.stop();
     }
 }

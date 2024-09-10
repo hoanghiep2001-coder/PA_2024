@@ -10,11 +10,11 @@
     "collisionGroups": [
       {
         "index": 1,
-        "name": "Player_Robo"
+        "name": "Path"
       },
       {
         "index": 2,
-        "name": "Enemy_Robo"
+        "name": "Nothing"
       },
       {
         "index": 3,
@@ -23,9 +23,19 @@
     ],
     "collisionMatrix": {
       "0": 0,
-      "1": 12,
-      "2": 10,
-      "3": 6
+      "1": 10,
+      "2": 0,
+      "3": 2
     }
-  }
+  },
+  "layer": [
+    {
+      "name": "OtherCanvas",
+      "value": 1
+    },
+    {
+      "name": "Egg",
+      "value": 2
+    }
+  ]
 }

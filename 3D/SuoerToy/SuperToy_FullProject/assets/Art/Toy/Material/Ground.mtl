@@ -31,7 +31,20 @@
   ],
   "_props": [
     {
-      "roughness": 0.5,
+      "mainColor": {
+        "__type__": "cc.Color",
+        "r": 213,
+        "g": 250,
+        "b": 255,
+        "a": 255
+      },
+      "albedoScale": {
+        "__type__": "cc.Vec3",
+        "x": 2,
+        "y": 1,
+        "z": 1.5
+      },
+      "roughness": 0.35,
       "metallic": 0.5,
       "mainTexture": {
         "__uuid__": "0e5f6b83-6e0b-4de6-a160-e60e0c00797d@6c48a",

@@ -1,32 +1,34 @@
-import { CONST } from "../Const/CONST";
-import { SoundController } from "../Controller/SoundController";
 
 
-const handleIronSourcePlaySound = () => {
+
+const handleIronSourcePlaySound = (callback: Function) => {
     if (IronSource.isPlayBgSound) {
         return;
     }
 
     if (IronSource.SoundState) {
-        SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bgSound);
+        callback;
+        // SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bgSound);
     }
 
     IronSource.isPlayBgSound = true;
 }
 
 
-const handleMuteSoundIronSource = () => {
+const handleMuteSoundIronSource = (): number => {
     IronSource.State = parseInt(localStorage.getItem("cocosSoundState"), 10)
 
     if (IronSource.State) {
         if (IronSource.State === 1 && !IronSource.SoundState && !IronSource.isEndGame) {
             IronSource.SoundState = true;
-            SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bgSound);
+            return 1;
+            // SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bgSound);
         }
 
         if (IronSource.State === 2 && IronSource.SoundState) {
             IronSource.SoundState = false;
-            SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bgSound);
+            return 2;
+            // SoundController.Instance(SoundController).PlaySound(CONST.SoundTrack.bgSound);
         }
     }
 }

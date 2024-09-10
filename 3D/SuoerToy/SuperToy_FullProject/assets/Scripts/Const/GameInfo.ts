@@ -2,10 +2,10 @@ import { Node, Vec2, Vec3 } from "cc";
 
 export class GameInfo {
 
-    static currentOption: number = 13;
+    static currentOption: number = 6;
 
     // Main State
-    static isToStore: boolean = false;
+    static isToStore: boolean = true;
     static IsPlaying : boolean = false;
     static GamePause: boolean = false;
 
@@ -16,22 +16,6 @@ export class GameInfo {
     static isLose: boolean = false;
     static isWin: boolean = false;
 
-
-    // Merge step
-    static touchPos: Vec3 = null;
-
-    static mergeCount: number = 0;
-
-    static playerStartGameRobo: Node[] = [];
-    static UI_MergePoint: Node[] = [];
-    static playerRoboLevelArr: Node[] = [];
-
-    static lastPosOfTouchEnd: Vec3 = null;
-    static lastPointOfTouchEndRobo: Node = null;
-    
-
-    // Fight step
-    static isReadyToFight: boolean = false;
-    static bossPos: Vec3 = null;
+    static doneCount: number = 0;
 
 }
